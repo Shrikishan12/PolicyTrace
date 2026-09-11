@@ -1,0 +1,104 @@
+{
+    "domain": "socialboards.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "magicwidget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "socialboards\\.com\\/magic-widget\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magicwidget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "54f0a933b63b2d0cc5e2e50ea92e2c3b8ba29c8eccace6cd424013eb781948f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meny.no",
+                "www.biltema.dk",
+                "www.biltema.fi"
+            ]
+        },
+        {
+            "rule": "socialboards\\.com\\/launcher\\/index\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "magicwidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2407b0c082cbcafcca0dd27605a881e25c8a8dd69004eb44801db33e61466fcc"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biltema.dk",
+                "www.biltema.fi"
+            ]
+        },
+        {
+            "rule": "socialboards\\.com\\/launcher\\/launcher\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "magicwidget"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d86df049b009ced20f23f33386ff9ba7f5a1a48d7df6e717a43ea111d5e714d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biltema.dk",
+                "www.biltema.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns2.hyp.net",
+        "ns1.hyp.net",
+        "ns3.hyp.net"
+    ]
+}

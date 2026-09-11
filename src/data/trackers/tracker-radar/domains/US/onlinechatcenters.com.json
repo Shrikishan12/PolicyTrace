@@ -1,0 +1,92 @@
+{
+    "domain": "onlinechatcenters.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "onlinechatcenters\\.com\\/track\\.a-28229\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "86e5d0c8dd7315cbf54eecee43127cc68e8f7177a4985da8a35290c176ac0c07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OCCSESSID": {
+                    "ttl": null,
+                    "length": 26,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brosconcrete.com",
+                "brospestcontrol.com"
+            ]
+        },
+        {
+            "rule": "onlinechatcenters\\.com\\/visitor\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "6576e85d945987b7bed5de8aebb2773548e1e4935255445aa469d94e866f37af",
+                "7e7ff704a72c247162eb841ddab471ecb1ae3fd548d2d4623704cfca05e8af11",
+                "6723dc695acb5c2915f1bbcae854b198949de0a6f31eb47931b4c936d9fe703e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brosconcrete.com",
+                "brospestcontrol.com",
+                "www.genuinepolarisparts.com",
+                "www.lcc.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-551.awsdns-04.net",
+        "ns-259.awsdns-32.com",
+        "ns-1211.awsdns-23.org",
+        "ns-1944.awsdns-51.co.uk"
+    ]
+}

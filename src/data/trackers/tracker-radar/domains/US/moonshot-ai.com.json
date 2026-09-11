@@ -1,0 +1,385 @@
+{
+    "domain": "moonshot-ai.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "cdn",
+        "events",
+        "errors"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "moonshot-ai\\.com\\/_lc\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coopsleepgoods.com",
+                "www.lionbrand.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "4b0dbb3de42b405d2af2f27a4c2a57548a20a6746ed5df196bb54a61451623fa",
+                "5c5a26b03a43896de8fde69ddfc250018e8c14598d721b308e6dce5b5984c75f",
+                "c8d0809122b3304dcffb274fa9cdedef6cd5ffcf0ce5871fa91283f6c5efb154"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coopsleepgoods.com",
+                "credobeauty.com",
+                "lovevery.com",
+                "minnetonkamoccasin.com",
+                "plankandbeam.com",
+                "shop.super-pharm.co.il",
+                "siphoxhealth.com",
+                "www.hunterfan.com",
+                "www.icanvas.com",
+                "www.linenchest.com",
+                "www.lionbrand.com",
+                "www.minnetonkamoccasin.com",
+                "www.pesi.com",
+                "www.peterthomasroth.com",
+                "www.wholesalesuppliesplus.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/shopify_pixel\\/shopify_pixel_events_handler\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6ed0731f0d7e38cf42a3c63072780855c241d67005cd4f5c2f92cd1d5e76f397"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coopsleepgoods.com",
+                "credobeauty.com",
+                "plankandbeam.com",
+                "www.lionbrand.com",
+                "www.peterthomasroth.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/snippets\\/In4RTvf7sj5A\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99a324ade0a59d1757febb413357aadfd3908aa5888b54bda648355d75e1ced1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "msai_user_id": {
+                    "ttl": 31536001,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "msai_bucketed_experiments": {
+                    "ttl": 31536001,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "minnetonkamoccasin.com",
+                "www.minnetonkamoccasin.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/tnN3AfUwRyOyrqXkZWXCg\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "344fb9a1895d43787aab8d682f44174421c0852ff4de397e20f4506a3fcb1d47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "msai_should_track": {
+                    "ttl": 15552005,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "msai_user_id": {
+                    "ttl": 31536004,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "msai_bucketed_experiments": {
+                    "ttl": 31536004,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterfan.com",
+                "www.hunterfan.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/shopify_pixel_events_handler\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "59c3c34f869b9b54371226af2f3c04769d5313c5d5d407cca7d3b77bf6561c84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterfan.com",
+                "www.hunterfan.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/errors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "errors"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "icanvas.com",
+                "www.icanvas.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/snippets\\/55013464\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.devicePixelRatio": 1,
+                "Navigator.prototype.connection": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "748c5f882529d4e1118437f26dbd82e1dea6b2d3a70d37c04b7310ee6bc1751f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "msai_user_id": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "msai_bucketed_experiments": {
+                    "ttl": 31536002,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lionbrand.com",
+                "www.lionbrand.com"
+            ]
+        },
+        {
+            "rule": "moonshot-ai\\.com\\/snippets\\/x7cnvc7jS4CVbRnENFgyZw\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.connection": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "96bcbb2150fd89a2db3912826b87bbf37461ef5e0a3a6ff13b953ceccb52d631"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pesi.com",
+                "www.pesi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7108433734939759
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.0963855421686747
+        },
+        {
+            "domain": "posthog.com",
+            "prevalence": 0.04819277108433735
+        },
+        {
+            "domain": "pdqprod.link",
+            "prevalence": 0.04819277108433735
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.03614457831325301
+        },
+        {
+            "domain": "webeyez.com",
+            "prevalence": 0.024096385542168676
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.024096385542168676
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.012048192771084338
+        }
+    ],
+    "types": {
+        "Fetch": 17,
+        "Script": 15,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-212.awsdns-26.com",
+        "ns-663.awsdns-18.net",
+        "ns-1665.awsdns-16.co.uk",
+        "ns-1345.awsdns-40.org"
+    ]
+}

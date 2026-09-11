@@ -1,0 +1,338 @@
+{
+    "domain": "gmg.io",
+    "owner": {
+        "name": "Graham Media Group",
+        "displayName": "Graham Media Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "npid",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gmg\\.io\\/dist\\/newspassid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "npid"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "NavigatorUAData.prototype.platform": 7,
+                "Document.cookie getter": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "a428a78ec889a460c28e7c50dac484f4d335fc6e18f7ee9423e6b7723309cb69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "click2houston.com",
+                "www.click2houston.com",
+                "www.clickondetroit.com",
+                "www.clickorlando.com",
+                "www.ksat.com",
+                "www.news4jax.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/wkmg-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1801133d95ec537ccc57b0686c1b3d15ef95cd22ffaec1ddc0bbfa1ff1012e51"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickorlando.com",
+                "www.clickorlando.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/kprc-front\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "02e8c7c96978fa5658a6c7016884e51451f0e68b8097dcfb36956e0b7fd0dd94"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "click2houston.com",
+                "www.click2houston.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/wdiv-front\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0af753138b4aa78ad024b46c890473b2a1adf88dd40b83f5511446d67620ec5c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.clickondetroit.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/kprc-back\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "48ffc456d963e13f7079d449e2e446d9d889ecc38d2df80e0d989c7f21c804e0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "click2houston.com",
+                "www.click2houston.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/wdiv-back\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c6510af7fd0b079f4d68aee7d3683504dcf83c7f1719a76f4afc839ee671d918"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.clickondetroit.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/newspassid",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "npid"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "0a0a9fd8fb976d87f70a377d66f0c09608e2acefdb7a28a59614420dfccd2eda",
+                "23ba93d9ce17e9c305d269a2097e181cf011b740335307f776d42f67e041423c",
+                "cad51ae1e9b42684c627bfbf40a5798fc6ad6f476db38919b5981f2395fc5dee",
+                "5471cefbafeb2ba51aafb868d0de5c38fdca9ccb74e7bd404ace37ac09303d6f",
+                "5ec77e3b323ba9597f79edb67714202aedb115738b4becdeb6e8ded8f57eaf0b",
+                "e656b7f22efbb6938df9f532beb946294ca1ebb94c39ed95cc4a2562a80187e8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.click2houston.com",
+                "www.clickorlando.com",
+                "www.clickondetroit.com",
+                "www.ksat.com",
+                "www.news4jax.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/newspassid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "npid"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.click2houston.com",
+                "www.clickorlando.com",
+                "www.clickondetroit.com",
+                "www.ksat.com",
+                "www.news4jax.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/ksat_front\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3a4aab0c2b4468f3c4041f5323c4a3a38b07cc7b2c52398514af4cac27035f2d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksat.com",
+                "www.ksat.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/ksat_back\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "afb2a464d199dee8a0a9bd954d2723d5dc15453c622a67980a6dbe9be1c7303d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksat.com",
+                "www.ksat.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/wjxt-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9cc48f355873f2913e2b33e3c5d6c642b7c7dc9b322b5d002a3ebc3e0c27ea5a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news4jax.com",
+                "www.news4jax.com"
+            ]
+        },
+        {
+            "rule": "gmg\\.io\\/header\\/wsls-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "afdaaadceaa9e4cb1d3dc2804058db8254b394f649fcf0b0c7327b1dfb080038"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wsls.com",
+                "www.wsls.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6818181818181818
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.2727272727272727
+        },
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 18,
+        "Fetch": 7,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "ns1.grahamdigital.com",
+        "ns2.grahamdigital.com",
+        "ns3.grahamdigital.com",
+        "ns4.grahamdigital.com",
+        "ns5.grahamdigital.com",
+        "ns6.grahamdigital.com"
+    ]
+}

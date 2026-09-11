@@ -1,0 +1,689 @@
+{
+    "domain": "etracker.com",
+    "owner": {
+        "name": "etracker GmbH",
+        "displayName": "etracker",
+        "privacyPolicy": "https://www.gametracker.com/about/privacy.php",
+        "url": "http://gametracker.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000569,
+    "sites": 83,
+    "subdomains": [
+        "code",
+        "customer",
+        "customer2",
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "click.easycosmetic.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "data.fitx.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "e.medikamente-per-klick.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "estats.globus.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "et.louis.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "met.hanser-literaturverlage.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "pse.gabor.com",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "s.hamburg.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "stats.ekd.de",
+            "resolved": "customer2.etracker.com"
+        },
+        {
+            "original": "stats.mopo.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "vault.raiffeisenmarkt.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webcontr.l.de",
+            "resolved": "customer.etracker.com"
+        },
+        {
+            "original": "webcontr.wgv.de",
+            "resolved": "customer.etracker.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "etracker\\.com\\/code\\/e\\.js",
+            "cookies": 0.000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "code",
+                "customer",
+                "customer2",
+                "static"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 60,
+                "window.sessionStorage": 60,
+                "window.localStorage": 60,
+                "Screen.prototype.width": 60,
+                "Screen.prototype.height": 60,
+                "Screen.prototype.pixelDepth": 60,
+                "Navigator.prototype.language": 60,
+                "Document.cookie getter": 60,
+                "Navigator.prototype.doNotTrack": 30,
+                "window.name": 60,
+                "Document.cookie setter": 28,
+                "Navigator.prototype.webdriver": 57,
+                "Navigator.prototype.cookieEnabled": 3
+            },
+            "sites": 77,
+            "prevalence": 0.000527,
+            "cnames": [
+                {
+                    "original": "et.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "click.easycosmetic.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "data.fitx.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "pse.gabor.com",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "met.hanser-literaturverlage.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "s.hamburg.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "vault.raiffeisenmarkt.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "67cbb402e6f788cbedfa25bffc08b8aec4f1ceff5bf0b859844c97af238d6a3d",
+                "110b99a73a1900d46d7981d7108314849b446da994ae3238b338a3b9ea465562"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "et_allow_cookies": {
+                    "ttl": 15552005,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_et_coid": {
+                    "ttl": 62208005,
+                    "length": 32,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "isSdEnabled": {
+                    "ttl": 86404,
+                    "length": 5,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.polizei.sachsen.de",
+                "produkte.globus.de",
+                "www.regensburg.de",
+                "www.gesundheitsinformation.de",
+                "www.mopo.de",
+                "www.globus.de",
+                "www.uni-hamburg.de",
+                "www.patienteninfo-service.de",
+                "www.check24.net",
+                "www.reimo.com",
+                "www.englisch-hilfen.de",
+                "www.munich-airport.com",
+                "www.bfn.de",
+                "louis.de",
+                "www.linzag.at",
+                "www.hamburg.com",
+                "www.saarbruecken.de",
+                "www.embryotox.de",
+                "www.metabo.com",
+                "www.lotto-bw.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/t\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "code",
+                "customer",
+                "customer2"
+            ],
+            "apis": {
+                "Notification.permission": 60,
+                "Document.cookie getter": 46,
+                "Date.prototype.getTime": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.pixelDepth": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie setter": 1,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3
+            },
+            "sites": 78,
+            "prevalence": 0.000534,
+            "cnames": [
+                {
+                    "original": "et.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "click.easycosmetic.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "data.fitx.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "pse.gabor.com",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "met.hanser-literaturverlage.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "s.hamburg.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "vault.raiffeisenmarkt.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "28c8157f7d5cded6c60a9c6955737df1a79020e5d9b01034440349803899377e",
+                "18ef05bcf7135ed9cb6e9de7cf9dc42ee836f98b85e7de95e650cfd152560420",
+                "843ab6beebf5196b0edea7af03b90a45b306a8337156b695b6086aefac102625",
+                "265bfd6005cff0efd336c7d359b4d6610507a18d08591e27fa2213570247f63d",
+                "01abcf44014bdd894e423e40666dee5e156db8f319cf0d5527f64fa9962c0202",
+                "d7714e0bac507fcc52aa8d967421d2f51b584e52285cbafe46fc41e9d2aa26d4",
+                "9a19470ee7c8b4587048a6e71dcf6bb44d06327cf9aabab8d3a8a03f4f7af0f6",
+                "e286d912718b035795470f93a5ad01987b390df801139c2baf2af542f831bae8",
+                "5e425827fa6cb484ea76e0103bf94ccdcd154561f14e54c5da25467f9534d01f",
+                "34cb52623eb653612a31762258b2b7cff914e92bfe8f241a25feb917c2f5882d",
+                "9cba2e26e29aec306af8abd27254dcefe67d6dde80f37c9c08894c2dc45788de",
+                "6675d10c16fefed8fd492c13507402f77f5d3b13730055572c6a1c9fd19ba82b",
+                "cb551a4eb8bff7cdaa693e18e47044aa1bda8f56bab13ddce355e16f5aab2393",
+                "2d6e8953727e792a479611fe0a1bd189b0f3fafb1ce63ddb96d2c50a2ce3c0e6",
+                "1d6f39745525e5563fb98d60d324f00e1aa5866b1407dfd61a81f242896eef5d",
+                "11872b15aa1a8d3cc3a03bc6940469780aede021a870ac6ded95db175fe47b56",
+                "4b392982bc4c092c5285805e38480a0081a4875d7ae2ee69fe1ba38d9c48d380",
+                "cbea199fd2bd10d7dc2f6be3fc55ee0d4f5b08f7227bf6f8adc36e19348b84e0",
+                "311b2b807a4043234bc1a320488b781b6aef9c92a2ab3a96c50d94502a32d181",
+                "2caa253c76438d3d8dad5454836c745193d6a5e74734eccabede472fb481c6ad",
+                "ea6039d1953072a3901812556d9f85a9ec8e76da8c6886f690572ebf589afd1f",
+                "18ecdab56727add16b95c2a7a7fc86240eb0c0a2061866d68459aa634f31d6b3",
+                "9cc634909de206b25bc54d0ae66dffa189ab22933ab2c53069c94d9a22424e38",
+                "8e7454aabfb7ff4efed6c5bc87cd20fab6d26791adcf3b88c908fa524c9816e1",
+                "922b3de8b9d5a5c1e54e5801fe3f6952acaf3f5315a19fca70df6ebdd7f74256",
+                "8d65296893ac27464734969d10cecd92e1b0429bf74e052f531f9c028620d2f1",
+                "9da248f8881e04a4db083bd80df7acd3bb8d99464dd48184f34b60d2771eb8be",
+                "d11bdfa7ccd181eb093e51b8d01eff99b06f56a4e69f09d2a4abad0efa123ccb",
+                "203aaeabd2ab6f1eeeff74af1a663730983b67a6f08effc4a53f108374e25965",
+                "f193c9ea51d371442e2e666616508263137c738925129b582cecca82d4b7d414",
+                "e8bef85d0adf80dfa0f49a6f3ac7dded385d960117d13c72fa646f8e6bb86c8b",
+                "8588e455a8e8335981e3e51ec792541b9fc9333438d01aeea3a24d97f860599e",
+                "ebee46e28d238638a0f5f025f76e1275e2ade15c3840d4a249f11c6fbc7a664a",
+                "4de0f8b85b9f54161a9fbd334221078d2fa819f1406d743ca0e4776edd2dc6c1",
+                "5197e89911e5c741ea105071e11b90456bd3916087af033db92211ab2daec5f7",
+                "c9cea078bfb6a319b7c4684a18f6db113fa20731b639d52f2d95f6877e9c93b7",
+                "2afc076a28e13f51b8114328927cc5ceecb84ebe42473656ca3fcd56783b6b78",
+                "e298b8cebeafadd2692e1ecbc3d7413c004054e8ff725f7d13cb695769346420",
+                "9123d037b09bd1961921ae0e5f0792dd62a62d4d609ac37ccfdcb5708f20e4e9",
+                "247736255dab063ae123a2bfcc892a82f89410a8496bb07596b11b6049448f85",
+                "6d7d088e87382f88338e5dd372aa8b877a38f29fd2973aeb4e7e1afc06282545",
+                "f0f5a8e0170bf59d165ead016c4f6360fdc0180b9182cae32444d70ba79b2a1a",
+                "c40c749f11a4453792215f80ab6783640dab7bd549c9f318346a4be7968041ab",
+                "655f6bf4376579f58e800249efb059dfbc4d7ed8e7bbfe1fef0fc07c4fa244b3",
+                "cf3a902d979cf48d16ac6f47d2920580118d9c04c38cbcd6e6486484484ea2a3",
+                "eb22c67b2fe8ea0dbb02ad98163fa9f33ab8710d288095a4a2d467c5bc49a42d",
+                "28b5ea74b04a26f8b1edc7305d58bdf7f01eb6c474b20e1e665f398d86ae2b50",
+                "4e34277c9be6fdc5665968dc9ff25f3f33461a3b468f35bae38520c715ead32e",
+                "c83b62a23294816c771d7dec4a85ad43a1c29a759349e3671f9f285125155bf1",
+                "c97a5f1eeb0936a03adc1b31ce0ba44b168965a589246bd72cd8988d77dc777c",
+                "f2bdf76a221a3bf0b71939c209657230b2a8d37a3861a25eed0fc035cb1c89ef",
+                "f1c5107f3e5962ddf6a594ea4e5cebd9acb43a2119fa01def695659d234e34a8",
+                "5a79766b42bbffae4e70949a94aef3dde1cb3be23e43f15867551133a63bb96d",
+                "ffe5d7b9439e2ddfa9bc1992813d772cc354ce3e77f1f9ab14e7d0590176db51",
+                "aa2fda451b27ea4d63d7c7dbf6a72e725827fd44fc8b20d2ba9f24f4556257c5",
+                "0ff67e1b3bd31f2050786562d02116c76f8cf8025ebcb80d438a55251664ad7d",
+                "851275ece8ebec7bf4373546119b91d64189822d68d145e3d13a84789cc6373f",
+                "4d40126dfef6f01d187fd0174004e0aac1f05bc863031d93f0cb8bfdb717e169",
+                "5284f3a363cf623e7f967d12542fdf23bfdba4fb3970ba8c38aa089533002f1b",
+                "3a22c2dc20b845cd494d3f7ef435b4ed3a92f0eaf57599469b987d22bdfcacf5",
+                "f9f78b1e641395cbda2878c52bb918c51690a6238c562d9cfab680f36a59724a",
+                "eb796b382d5f84cc57b5aa6aec92cd64d35b6264f0da9133983056cf4cdc9c52",
+                "097a5a7c32599502cda0eac6de9d207f5ed622a743e73f555ed6450405517efb",
+                "e77448f450bb50d3c470b9eba24dd7a0e947b93a8c50cc21bc812899caed07c3",
+                "6ca0d7f037d60ccee858019e14b36707734b08c218a9912635c5eaf6248a7134",
+                "3fbd1d37f447ce35f2ad473128c2b80edca777122619b076ead94bcd496058cd",
+                "1df0ebb79c964f67d81a74680e3724285b8185e1ff102012fb38095519beeab1",
+                "65e87a9e1935ad84201d23d03339859fee08c240dd290d7bd06e182ef10fa434",
+                "8317044f107df0eb0ad48e71222c97d18f98b572ecac9a24ef9b017bdcc87b5d",
+                "b5ae1accdb6dd24a30050091e115af1a500a707f1dbed5bdaa7d093f5f19e9ce",
+                "0aad6c9a3948758f70a159c6e1940fa5b03277a87b664c8af4646950d7a9f93c",
+                "8dea13bb3cf3dbdf7597f6d8eb366c8912879a503c12010e5980824fec001a27",
+                "a22622b76f4bbe76d906c8493988b547f68b617800a815eb29df9c1252e030d2",
+                "5417e2be919e02c28619de25066ddc2cff3f8a177ea92994b654b0844ea41168",
+                "9129764540b94ce51cb03e995c516f2c5aa9c38081443a2fc0ba1b6cf1ed9ef3",
+                "ce5cdacfdfdd5bc370e65c6da369b4cdf87f13507a84a4e87a788ac80e1cd471",
+                "f02b017855cb409ada6ae82403b96fb37581377105b8bfe4b783235bdc2b12e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_et_coid": {
+                    "ttl": 62208003,
+                    "length": 32,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shop.apotal.de",
+                "www.mopo.de",
+                "www.mytischtennis.de",
+                "www.justiz.sachsen.de",
+                "www.ihk.de",
+                "www.patienteninfo-service.de",
+                "www.igmetall.de",
+                "www.airport-nuernberg.de",
+                "www.classictic.com",
+                "www.lotto-bayern.de",
+                "www.reimo.com",
+                "www.nanu-nana.de",
+                "louis.de",
+                "www.elektriker.org",
+                "www.polizei.sachsen.de",
+                "www.regensburg.de",
+                "www.new-business.de",
+                "shop.retoura.de",
+                "www.duesseldorf.de",
+                "www.auto-werkstatt.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/v2\\/consent-banners\\/0TmbJ3\\/banner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "et.louis.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "d5a6bd49b636d5d4ff96c1ffa8bebeb0c24e9cc5867a24e40c7917836375c791"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "louis.de",
+                "m.louis.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/cntcc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer",
+                "customer2"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [
+                {
+                    "original": "et.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "click.easycosmetic.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.ekd.de",
+                    "resolved": "customer2.etracker.com"
+                },
+                {
+                    "original": "data.fitx.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "pse.gabor.com",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "met.hanser-literaturverlage.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "s.hamburg.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.l.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "stats.mopo.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "vault.raiffeisenmarkt.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "webcontr.wgv.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "louis.de",
+                "m.louis.de",
+                "produkte.globus.de",
+                "www.easycosmetic.de",
+                "www.ekd.de",
+                "www.fitx.de",
+                "www.gabor.com",
+                "www.globus.de",
+                "www.hanser-literaturverlage.de",
+                "www.hamburg.de",
+                "www.l.de",
+                "www.medikamente-per-klick.de",
+                "www.mopo.de",
+                "www.raiffeisenmarkt.de",
+                "www.wgv.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/api\\/v6\\/tracking\\/webEvents",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "et.louis.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "pse.gabor.com",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "louis.de",
+                "m.louis.de",
+                "produkte.globus.de",
+                "www.gabor.com",
+                "www.globus.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/v2\\/consent-banners\\/z4snw3\\/banner",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "f64485dc89e09844d3478ea08f0e738890ca92b3483c0241dcfd3aae56e694d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globus.de",
+                "www.globus.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/cntcc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "customer"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "estats.globus.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "click.easycosmetic.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "e.medikamente-per-klick.de",
+                    "resolved": "customer.etracker.com"
+                },
+                {
+                    "original": "vault.raiffeisenmarkt.de",
+                    "resolved": "customer.etracker.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globus.de",
+                "www.easycosmetic.de",
+                "www.medikamente-per-klick.de",
+                "www.raiffeisenmarkt.de"
+            ]
+        },
+        {
+            "rule": "etracker\\.com\\/code\\/e\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "code"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.language": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Navigator.prototype.webdriver": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oktoberfest.de",
+                "www.oktoberfest.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000315,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9066666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "epccm19.com",
+            "prevalence": 0.013333333333333334
+        },
+        {
+            "domain": "ccm19.de",
+            "prevalence": 0.013333333333333334
+        }
+    ],
+    "types": {
+        "Script": 174,
+        "Fetch": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "greg.ns.cloudflare.com",
+        "reza.ns.cloudflare.com"
+    ]
+}

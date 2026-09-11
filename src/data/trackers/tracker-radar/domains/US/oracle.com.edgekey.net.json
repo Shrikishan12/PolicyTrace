@@ -1,0 +1,88 @@
+{
+    "domain": "oracle.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "ds-guidedlearning"
+    ],
+    "cnames": [
+        {
+            "original": "guidedlearning.oracle.com",
+            "resolved": "ds-guidedlearning.oracle.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "oracle\\.com\\.edgekey\\.net\\/player\\/latest\\/static\\/js\\/stPlayerCommon\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ds-guidedlearning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "guidedlearning.oracle.com",
+                    "resolved": "ds-guidedlearning.oracle.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b6a79acd621d1735fc9561cac21c9d47eb365d6ffac379dd6fb8266975eb7230"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oracle.com",
+                "community.oracle.com"
+            ]
+        },
+        {
+            "rule": "oracle\\.com\\.edgekey\\.net\\/player\\/latest\\/static\\/css\\/stTip_2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds-guidedlearning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "guidedlearning.oracle.com",
+                    "resolved": "ds-guidedlearning.oracle.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "75128069f75e6d7e6c4c53abce1c4b8ae35ce179f38340cdd86b2c3293b05754"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oracle.com",
+                "community.oracle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

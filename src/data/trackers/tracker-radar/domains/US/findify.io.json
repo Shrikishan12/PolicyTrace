@@ -1,0 +1,402 @@
+{
+    "domain": "findify.io",
+    "owner": {
+        "name": "Findify AB",
+        "displayName": "Findify"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "assets",
+        "api-v3",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "findify\\.io\\/onpecomm-usa\\.myshopify\\.com\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed72b8568d10bad47f257a6c724bdb215e3fc23a94b0557524c5411a9932f674"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/onpecomm-usa\\.myshopify\\.com-config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e0c368cec8b7712bce82e5fa93723659d3577dbc7fd75a62c8cb25aee3cf436"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/onpecomm-usa\\.myshopify\\.com\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b394de514488e3fd4939b375956078edd6a86d328f84f3412cea42f57e606575"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v3\\/feedback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "rockabilia.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v3\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b550d4334cb75435620e9b0785906ccacdc0f525995263175fb5d16e271519a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v3\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onlynaturalpet.com",
+                "www.onlynaturalpet.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/elderlyinstruments\\.myshopify\\.com\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5bffee0d2ec8716d9b09281ee5c854304b3700b35280831133f3fd8f779cd089"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/elderlyinstruments\\.myshopify\\.com-config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "66feba07f159f08690624145bb1e0209e960a36dc15467bfbdd87822c0f9e72c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/elderlyinstruments\\.myshopify\\.com\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5231a7edd6a85c037115f8dc62b60fd1d996efddf33f50335d9867b15c5274f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v4\\/1407bd5b-d589-4e69-a1b9-745b20c8e997\\/feedback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v4\\/1407bd5b-d589-4e69-a1b9-745b20c8e997\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2950e718c4baa8674a03364f11ef320ab6a5ff841f91d560ec8367e00b45df13"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v4\\/1407bd5b-d589-4e69-a1b9-745b20c8e997\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elderly.com",
+                "www.elderly.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/shopurotuning\\.myshopify\\.com\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d0cc45aa7e1300b9dc86288f8a32fec86e5dd0ba88df207a83fe1a7200db3f53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urotuning.com",
+                "www.urotuning.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/shopurotuning\\.myshopify\\.com-config\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3201eae8f3f635e1ec45a0e0fc70fe280f5de1ce0b3115ddab39b90c45d1da7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urotuning.com",
+                "www.urotuning.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/shopurotuning\\.myshopify\\.com\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5a13a750414873f81170c019030f1d8f9daa9ec6e304bd9ecfd186d5ea4d2310"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urotuning.com",
+                "www.urotuning.com"
+            ]
+        },
+        {
+            "rule": "findify\\.io\\/v4\\/9050e86f-1b4e-4c0a-8a98-8b514882b92b\\/feedback",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "urotuning.com",
+                "www.urotuning.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.5517241379310345
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4482758620689655
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Stylesheet": 6,
+        "Ping": 7,
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

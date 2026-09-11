@@ -1,0 +1,141 @@
+{
+    "domain": "tvads.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tvads\\.ai\\/tag\\/v1\\/event\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beekman1802.com",
+                "fatty15.com",
+                "revivalrugs.com",
+                "statebags.com",
+                "twillory.com",
+                "www.branchfurniture.com",
+                "www.revivalrugs.com",
+                "www.warp.dev"
+            ]
+        },
+        {
+            "rule": "tvads\\.ai\\/tag\\/v1\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "289350970109ed57f69787775727f23c869a2fd22b896c7a02d8cad5df92d02c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fatty15.com",
+                "revivalrugs.com",
+                "twillory.com",
+                "www.branchfurniture.com",
+                "www.revivalrugs.com",
+                "www.warp.dev"
+            ]
+        },
+        {
+            "rule": "tvads\\.ai\\/tag\\/v1\\/configs\\/REVIVALRUGS\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51156993b92cf7d6c82a07bef3435e07db14e31593506b0eb7f3dfa4416e1e37"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "revivalrugs.com",
+                "www.revivalrugs.com"
+            ]
+        },
+        {
+            "rule": "tvads\\.ai\\/tag\\/v1\\/configs\\/WARP\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "70c60a333de7cfc7c37639d1e6d4c8fdad9a80d695cb25b59309b309a2af9033"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "warp.dev",
+                "www.warp.dev"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "d2xo6khwzbhes8.cloudfront.net",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a3.googledomains.com"
+    ]
+}

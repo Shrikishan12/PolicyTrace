@@ -1,0 +1,95 @@
+{
+    "domain": "50992.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "subscribe.washingtonpost.com",
+            "resolved": "50992.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "50992\\.edgekey\\.net\\/my-post\\/privacy-settings\\/static\\/scripts\\/tc-string-parse\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "subscribe.washingtonpost.com",
+                    "resolved": "50992.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c9f342429f4c27c5be2d347661ff0ee00ec1931dfd610d79517ac386a05a0244"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtonpost.com",
+                "games.washingtonpost.com",
+                "www.washingtonpost.com"
+            ]
+        },
+        {
+            "rule": "50992\\.edgekey\\.net\\/offers\\/service\\/v2\\/offers\\/mapped\\/",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "subscribe.washingtonpost.com",
+                    "resolved": "50992.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "54743e289a457e3c0544d032e0e3a072a9dda8e56f4e972904b949f2cbf28f57",
+                "5251ea308c314b7f6f8b24045288139da74fc252184d8b7c86d3edf456d1e66a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtonpost.com",
+                "games.washingtonpost.com",
+                "www.washingtonpost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "arkadiumhosted.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "google.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3
+    },
+    "nameservers": []
+}

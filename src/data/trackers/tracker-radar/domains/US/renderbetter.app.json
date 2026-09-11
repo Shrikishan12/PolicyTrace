@@ -1,0 +1,136 @@
+{
+    "domain": "renderbetter.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "analytics",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "renderbetter\\.app\\/renderbetter-analytics\\/rb-analytics\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.onLine": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "window.devicePixelRatio": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.language": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.connection": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "Performance.prototype.memory": 3,
+                "Element.prototype.getClientRects": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "06a795aacfd5563e9b2a589a129b68570a8ada38d65a18550ff05b9b6c75f572"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rb-ctx": {
+                    "ttl": 31536000,
+                    "length": 83,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                },
+                "rb-session-id": {
+                    "ttl": 63072000000,
+                    "length": 52,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "boggbag.com",
+                "polywood.com",
+                "www.polywood.com"
+            ]
+        },
+        {
+            "rule": "renderbetter\\.app\\/renderbetter-analytics\\/rb-analytics-pixel\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.language": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.connection": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f55d1ea916d3915f90ea5d033bcc764cfefdf7feabdbb9a0fc74c3a40d04ef02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polywood.com",
+                "www.polywood.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "lucy.ns.cloudflare.com",
+        "johnathan.ns.cloudflare.com"
+    ]
+}

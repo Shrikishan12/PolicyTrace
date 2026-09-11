@@ -1,0 +1,84 @@
+{
+    "domain": "upgrade.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "credapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "upgrade\\.com\\/api\\/marketing-offer\\/v1\\/marketing\\/from",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "credapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vegas.com",
+                "www.long-mcquade.com",
+                "www.vegas.com"
+            ]
+        },
+        {
+            "rule": "upgrade\\.com\\/api\\/marketing-offer\\/v1\\/marketing\\/from",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "credapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "68c8883f6b517b4ea106e73cf3542ccced74a8add4d57e2596ea99759f5ff4f4",
+                "8a64088f788fb64ef54b759342b111c5be10b14e6b3af9d11baa903ffd02e71c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vegas.com",
+                "www.long-mcquade.com",
+                "www.vegas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "techlab-cdn.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "uplift-platform.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-16.awsdns-02.com",
+        "ns-791.awsdns-34.net",
+        "ns-1154.awsdns-16.org",
+        "ns-1884.awsdns-43.co.uk"
+    ]
+}

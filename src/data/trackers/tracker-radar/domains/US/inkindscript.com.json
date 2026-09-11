@@ -1,0 +1,102 @@
+{
+    "domain": "inkindscript.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "inkindscript\\.com\\/inkind\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99484359c366b24f798ed91e26b71eeec9af7009369bb4137207a7963a1c34d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puttshack.com",
+                "www.truefoodkitchen.com"
+            ]
+        },
+        {
+            "rule": "inkindscript\\.com\\/modal\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d065184011d6bbd6fb61664b865fa40f5a3b794236897fa6adde144a99570b8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "device_id": {
+                    "ttl": 31536000,
+                    "length": 64,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "session_id": {
+                    "ttl": 21900,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "puttshack.com",
+                "www.truefoodkitchen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-617.awsdns-13.net",
+        "ns-279.awsdns-34.com",
+        "ns-1716.awsdns-22.co.uk",
+        "ns-1375.awsdns-43.org"
+    ]
+}

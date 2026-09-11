@@ -1,0 +1,100 @@
+{
+    "domain": "capconvert.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "px"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "capconvert\\.com\\/p\\/cortex\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 4,
+                "window.sessionStorage": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.language": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "84bf98956d03e0bc2443763e829857c2cc5c2a122506014943c2d33d862728d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cortex_vid": {
+                    "ttl": 63072001,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alppouch.com",
+                "boarderie.com",
+                "vinyl.com",
+                "www.cleaneatzkitchen.com"
+            ]
+        },
+        {
+            "rule": "capconvert\\.com\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "px"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alppouch.com",
+                "boarderie.com",
+                "vinyl.com",
+                "www.cleaneatzkitchen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 4
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

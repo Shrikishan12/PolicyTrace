@@ -1,0 +1,181 @@
+{
+    "domain": "sail-horizon.com",
+    "owner": {
+        "name": "CM Group",
+        "displayName": "CM Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00384,
+    "sites": 560,
+    "subdomains": [
+        "ak"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sail-horizon\\.com\\/spm\\/spm\\.v1\\.min\\.js",
+            "cookies": 0.00154,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ak"
+            ],
+            "apis": {
+                "Document.cookie getter": 227,
+                "Document.cookie setter": 225,
+                "window.localStorage": 285,
+                "Navigator.prototype.userAgent": 285,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.sessionStorage": 1
+            },
+            "sites": 348,
+            "prevalence": 0.00238,
+            "cnames": [],
+            "responseHashes": [
+                "617750f4f0f3b959ccf135602b4ec9e26d3dd04631936b24c1a2d09c888b334d",
+                "1b2fcc017b3601e2fe1e476de517c05b8377c2610abf1b9592b795f99b727b9b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sailthru_pageviews": {
+                    "ttl": 1800,
+                    "length": 1,
+                    "prevalence": 0.001541169782112841,
+                    "uniqueness": 0.008888888888888889
+                },
+                "sailthru_content": {
+                    "ttl": 31536000,
+                    "length": 32,
+                    "prevalence": 0.0009931983040282753,
+                    "uniqueness": 0.993103448275862
+                },
+                "sailthru_visitor": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.0013151315474029576,
+                    "uniqueness": 1
+                },
+                "sailthru_overlays": {
+                    "ttl": 1800,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arstechnica.com",
+                "fandango.com",
+                "nypost.com",
+                "seekingalpha.com",
+                "slate.com",
+                "techcrunch.com",
+                "www.breitbart.com",
+                "www.cnbc.com",
+                "www.dailymail.co.uk",
+                "www.fandango.com",
+                "www.reporterherald.com",
+                "observer.com",
+                "torontosun.com",
+                "www.disneydining.com",
+                "www.thespruce.com",
+                "www.thenation.com",
+                "www.nationalreview.com",
+                "wibc.com",
+                "on.com",
+                "www.corrections1.com"
+            ]
+        },
+        {
+            "rule": "sail-horizon\\.com\\/horizon\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ak"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d9a238f5a0675df1d5dcf48cccc0d8c9a2f80481ba5f4a681025cd68efb9fc3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "federalnewsnetwork.com",
+                "nymag.com",
+                "wtop.com",
+                "www.thecut.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00259,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5607638888888888
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2586805555555556
+        },
+        {
+            "domain": "minutemediacdn.com",
+            "prevalence": 0.03993055555555555
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03993055555555555
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.019097222222222224
+        },
+        {
+            "domain": "sailthru.com",
+            "prevalence": 0.010416666666666666
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.010416666666666666
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.008680555555555556
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.008680555555555556
+        },
+        {
+            "domain": "telemundo51.com",
+            "prevalence": 0.008680555555555556
+        }
+    ],
+    "types": {
+        "Script": 352
+    },
+    "nameservers": [
+        "ns13.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com",
+        "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com"
+    ]
+}

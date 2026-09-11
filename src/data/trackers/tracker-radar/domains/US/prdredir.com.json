@@ -1,0 +1,199 @@
+{
+    "domain": "prdredir.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "scripts",
+        "rtg",
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "prdredir\\.com\\/scripts\\/auc_easeus\\.js",
+            "cookies": 0.0000411,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Date.prototype.getTime": 6,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "448d305ad6e8d6b57c5e4d37afbf26c77bcf2c2548e1fe462772757ee6ccbbe1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__user_id": {
+                    "ttl": 31536001,
+                    "length": 25,
+                    "prevalence": 0.000041097860856342424,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easeus.com",
+                "mobi.easeus.com",
+                "multimedia.easeus.com",
+                "pdf.easeus.com",
+                "recorder.easeus.com",
+                "www.easeus.com"
+            ]
+        },
+        {
+            "rule": "prdredir\\.com\\/sync",
+            "cookies": 0.0000822,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtg"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__user_id": 0.00008219572171268485,
+                "IR_gbd": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "easeus.com",
+                "mobi.easeus.com",
+                "multimedia.easeus.com",
+                "pdf.easeus.com",
+                "pro.kraken.com",
+                "recorder.easeus.com",
+                "sports.dafabet.net",
+                "support.kraken.com",
+                "sweet.tv",
+                "www.betking.com",
+                "www.betus.com.pa",
+                "www.easeus.com",
+                "www.easeus.de"
+            ]
+        },
+        {
+            "rule": "prdredir\\.com\\/scripts\\/adu_nectar_ai\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3b69dbf32872647ab14e3d00c71a610cd16ab16db42a9fb1dc7add247b2bde55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nectar.ai",
+                "trynectar.ai"
+            ]
+        },
+        {
+            "rule": "prdredir\\.com\\/scripts\\/k_betonline\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c8758b58c921363f477210c873f318391e1debe36d3b9e46c49ae413aec34788"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cslfp": {
+                    "ttl": 2592002,
+                    "length": 168,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betonline.ag",
+                "www.betonline.ag"
+            ]
+        },
+        {
+            "rule": "prdredir\\.com\\/rtg\\/sync\\/betonline\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betonline.ag",
+                "www.betonline.ag"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2962962962962963
+        },
+        {
+            "domain": "coolretargeting.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.14814814814814814
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 13
+    },
+    "nameservers": [
+        "nataly.ns.cloudflare.com",
+        "porter.ns.cloudflare.com"
+    ]
+}

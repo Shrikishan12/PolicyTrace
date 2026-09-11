@@ -1,0 +1,134 @@
+{
+    "domain": "adsboosters.xyz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "uads",
+        "cads",
+        "sads"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "adsboosters\\.xyz\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uads"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "f7e934a6532e1790a3836053cb3c8469bc1925253ba6a5165ea9f4d1543e2ae2",
+                "366dcf29aa9d3d580364421c3e2684e06e4019a65fe16b2a81517418db8d45ce",
+                "a434b744baa3863a757df29a5a9c277437a79c3826923485b5efd51e8396ddd3",
+                "2d20b08445e8692677cf26f783941e910375e4033eb8705f222376b0b7991c5e",
+                "f5ecd818275fff6b7e98039b3e2c602d697824dd54b23fc333ccd2e21a9e014d",
+                "1baadca77f58c10831b687a39aff2cb359fbe261d6d900a96c3151405c68784b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lyricsveda.com",
+                "technosports.co.in",
+                "theforexgeek.com",
+                "tvgarden.world",
+                "www.cinefry.co.in",
+                "www.sacnilk.com",
+                "www.thespike.gg"
+            ]
+        },
+        {
+            "rule": "adsboosters\\.xyz\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cads"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "25b4ecfd3a740f29d76fe930a4cec9d41afa0cfd2bafa70ca4051bd3d5395d74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lyricsveda.com",
+                "technosports.co.in",
+                "theforexgeek.com",
+                "tvgarden.world",
+                "www.cinefry.co.in",
+                "www.sacnilk.com",
+                "www.thespike.gg"
+            ]
+        },
+        {
+            "rule": "adsboosters\\.xyz\\/07aa91ac1cec23a080b4a394dc52e183\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sads"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a406f2a3321d5f4a9aa7e3382d13ca26145ee9437fcd5e94c6a0477d70faac55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ads-counter-100086": {
+                    "ttl": 86402,
+                    "length": 3,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thespike.gg",
+                "www.thespike.gg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "cleverwebserver.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Image": 7
+    },
+    "nameservers": [
+        "brenna.ns.cloudflare.com",
+        "donald.ns.cloudflare.com"
+    ]
+}

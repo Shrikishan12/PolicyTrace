@@ -1,0 +1,169 @@
+{
+    "domain": "apigateway.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "platform-integrations-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "apigateway\\.co\\/webchat-client\\.\\.prod\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0cd1c1b666c35b685d241b2f3715086bea805078feb1ec1288da68f0e809ec8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "about.me",
+                "overheaddoorpartsonline.com",
+                "www.groundsguys.com",
+                "www.mrappliance.com",
+                "www.precisiondoor.net"
+            ]
+        },
+        {
+            "rule": "apigateway\\.co\\/webchat-client\\.9223372035067708901\\.prod\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "8befaa6eb5e551f881ec780b5147f96d27f36af5375acd08d434ab0dd7088d84"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "about.me",
+                "overheaddoorpartsonline.com",
+                "www.groundsguys.com",
+                "www.mrappliance.com",
+                "www.precisiondoor.net"
+            ]
+        },
+        {
+            "rule": "apigateway\\.co\\/webchat-client\\.9223372035067708901\\.prod\\/polyfills\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0470b85608cd6b41fc5f2826741930845261748d24de3497a02f02d81d9a5176"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "about.me",
+                "overheaddoorpartsonline.com",
+                "www.groundsguys.com",
+                "www.mrappliance.com",
+                "www.precisiondoor.net"
+            ]
+        },
+        {
+            "rule": "apigateway\\.co\\/webchat-client\\.9223372035067708901\\.prod\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "611391224c29787e4ca3d1208decea2e5df26b2fd4de4780564268740c5f3a80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "about.me",
+                "overheaddoorpartsonline.com",
+                "www.groundsguys.com",
+                "www.mrappliance.com",
+                "www.precisiondoor.net"
+            ]
+        },
+        {
+            "rule": "apigateway\\.co\\/broadly\\/getReplacementWidgetID",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform-integrations-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mainlineoverland.com",
+                "www.precision-door.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "broadly.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Stylesheet": 5,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com",
+        "ns-cloud-b2.googledomains.com"
+    ]
+}

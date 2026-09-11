@@ -1,0 +1,81 @@
+{
+    "domain": "24ur.si",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "go-usertrack-importer.pub"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "24ur\\.si\\/pagehitandevent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go-usertrack-importer.pub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        },
+        {
+            "rule": "24ur\\.si\\/pagehitandevent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go-usertrack-importer.pub"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "722aefd7ba07a467168653eb9dbf2625bb7b8689b6dabae4ffdd99e2058159ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okusno.je",
+                "www.24ur.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com"
+    ]
+}

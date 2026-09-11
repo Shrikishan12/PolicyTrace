@@ -1,0 +1,355 @@
+{
+    "domain": "clarivoy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "tags-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "clarivoy\\.com\\/cox\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "292616247ec184edc6fbe588dc311dcb9589796934b1eaa8e1db209f6db0426f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com",
+                "www.kbb.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/common\\/v4\\/clarivoy\\.js",
+            "cookies": 0.000123,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 19,
+                "Navigator.prototype.userAgent": 19,
+                "Document.cookie setter": 18,
+                "Document.cookie getter": 18,
+                "Date.prototype.getTime": 19,
+                "Navigator.prototype.language": 19,
+                "Screen.prototype.colorDepth": 19,
+                "Screen.prototype.width": 19,
+                "Screen.prototype.height": 19,
+                "window.innerWidth": 19,
+                "window.innerHeight": 19,
+                "window.sessionStorage": 19,
+                "window.name": 19,
+                "Navigator.prototype.permissions": 19,
+                "Navigator.prototype.vendor": 19
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c299340587ec370171993d574d548b2d36a315f417a3c4faee3b008ecc2f360"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 3,
+                    "length": 9,
+                    "prevalence": 0.0001232935825690273,
+                    "uniqueness": 0.05555555555555555
+                },
+                "_td": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.0001232935825690273,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "carfax.com",
+                "pella.com",
+                "www.autocheck.com",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.autotrader.com",
+                "www.aviscarsales.com",
+                "www.cargurus.ca",
+                "www.cargurus.com",
+                "www.carfax.com",
+                "www.carsoup.com",
+                "www.columbuszoo.org",
+                "www.davesmith.com",
+                "www.echopark.com",
+                "www.kbb.com",
+                "www.mountainstatestoyota.com",
+                "www.pella.com",
+                "www.popsells.com",
+                "www.toyotadirect.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/carfax\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80e21faf8f306badf3e71e2083cef65d8e2e07d6617c9388bed237839addd98e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carfax.com",
+                "www.carfax.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/pella\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e9cc42a589fa86bf7850cce36414a1ca53c39da24610720e994649e6d8d9b33c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pella.com",
+                "www.pella.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/tradercorporation\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a0a2a0cf82c05a6a16bdc1f9957b9add5f08ea1d47d95c3b980168d562f8e6de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autohebdo.net",
+                "www.autotrader.ca"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/avis\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20aa7e323476488d23f46becbce404729438e12e946c3a08ab4fdebf113abda0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aviscarsales.com",
+                "www.aviscarsales.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/cargurus\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4fa05217afae1f683b55d107ededb8c7f2bde754ffea56dd39ec1242002e84c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cargurus.ca",
+                "www.cargurus.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/sonic\\/td\\/tva\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cc244ed0a2ffbd067469f4ea36edf5f0a82d5a4c2b62085785ba8eb36b30c781"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davesmith.com",
+                "www.echopark.com",
+                "www.mountainstatestoyota.com"
+            ]
+        },
+        {
+            "rule": "clarivoy\\.com\\/common\\/read_from_config\\/clarivoy\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tags-cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.sessionStorage": 2,
+                "window.name": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8281db6ac6feeb0ed2886542a6f7b10df46c380d3c82fbe8678afa64c4de51ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 11,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_td": {
+                    "ttl": 63072012,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telhio.org",
+                "www.toyotaofboerne.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000164,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6551724137931034
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.27586206896551724
+        },
+        {
+            "domain": "seroundprince.com",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "dealeron.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 38
+    },
+    "nameservers": [
+        "pdns07.domaincontrol.com",
+        "pdns08.domaincontrol.com"
+    ]
+}

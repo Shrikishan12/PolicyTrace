@@ -1,0 +1,75 @@
+{
+    "domain": "opt7dev.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "search.lce"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "opt7dev\\.com\\/api\\/v1\\/search-ymm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search.lce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lceperformance.com",
+                "www.lceperformance.com"
+            ]
+        },
+        {
+            "rule": "opt7dev\\.com\\/api\\/v1\\/search-ymm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search.lce"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54e76a157ef924e5959b2c5608d22c1c008340c63043a661e86fd4ad605d0e38"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lceperformance.com",
+                "www.lceperformance.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns69.domaincontrol.com",
+        "ns70.domaincontrol.com"
+    ]
+}

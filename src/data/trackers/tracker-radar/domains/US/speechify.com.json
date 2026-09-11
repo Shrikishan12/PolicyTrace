@@ -1,0 +1,75 @@
+{
+    "domain": "speechify.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "audio.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "speechify\\.com\\/v1\\/synthesis\\/client-voices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audio.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "climate.mit.edu"
+            ]
+        },
+        {
+            "rule": "speechify\\.com\\/v1\\/synthesis\\/client-voices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audio.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e44c9d90f1c877f5448783444d15aeec96a6a567e21f40638757b5857ede7852"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mit.edu",
+                "climate.mit.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "christian.ns.cloudflare.com",
+        "irena.ns.cloudflare.com"
+    ]
+}

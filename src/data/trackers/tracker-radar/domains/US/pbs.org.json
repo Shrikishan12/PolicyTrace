@@ -1,0 +1,1326 @@
+{
+    "domain": "pbs.org",
+    "owner": {
+        "name": "Public Broadcasting Service",
+        "displayName": "Public Broadcasting Service"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000164,
+    "sites": 24,
+    "subdomains": [
+        "player",
+        "video",
+        "www-tc",
+        "image",
+        "bento"
+    ],
+    "cnames": [
+        {
+            "original": "video.azpbs.org",
+            "resolved": "video.pbs.org"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/main_videojs\\.c5eb9097435b5ef90e3a\\.7484e58b7b20\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "839f7331e27b64c47ce3d415a819d582ece683cc79d68eb06738b804f0bc82b2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.cascadepbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org",
+                "www.scetv.org",
+                "www.wgcu.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/main_videojs\\.c5eb9097435b5ef90e3a\\.fd8b69775e8f\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.product": 6,
+                "window.outerWidth": 6,
+                "Date.prototype.getTime": 5,
+                "window.innerWidth": 1,
+                "Navigator.prototype.permissions": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "d51f3f291513be6522ea1ef568c475960133191e8c5640ed44909d57acb0bac2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.cascadepbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org",
+                "www.scetv.org",
+                "www.wgcu.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/754515a4ee68370e049b\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72501fe2aa40cfe66b8b7a69af4838854313c920c3fa10d88893bcffa2c7b205"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "www.centraltexasgardener.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/pbsfonts\\/v1\\.2\\/PBSSans-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-tc"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "2ad6159f859e0d4eeefe70c45ca754bc707952b1c1ea50925cbdcb43049c21a4"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.rmpbs.org",
+                "www.vermontpublic.org",
+                "www.wgcu.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/pbsfonts\\/v1\\.2\\/PBSSans\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-tc"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "5f9bd50f0262669ad9131cdf11ef34c71bcc62c235f5a233cfaf59c20580a4c0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.pbslearningmedia.org",
+                "www.rmpbs.org",
+                "www.vermontpublic.org",
+                "www.wgcu.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/309fe60227cca1f1a6e6\\.cad1cf10fa95\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "b4cd6873f550d0ba75594a9fa3d70b5b3f88991da8517ff6e6f9ce177c3ae2d5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/80d862d1f5bbe19d8ae0\\.517b5bad2a73\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "626e96316b61cb2fdb2c3b8815b37f4583723cf1fb9968d6d5a1d03dfb9a9735"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/653e8bd4c900b7c8f849\\.e6aacaf749eb\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "0ff8e6e23b6db33b745d72e10d91de3b195c544ec20028fb943062677e3c6144"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/08e3c252670c10c00da4\\.a2b08b172a63\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "d61303553705deb4f999c08f9d41bcd61e7e657667db86bb39171dccbd1841c2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/static-files\\/build\\/098c41cdb4bb271bedb2\\.1c29b1047c2d\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "video.azpbs.org",
+                    "resolved": "video.pbs.org"
+                }
+            ],
+            "responseHashes": [
+                "855414a79ea71f9d3f804ad9f4251be17c307b3f648bea37f13c42d099026f44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acltv.com",
+                "azpbs.org",
+                "www.centraltexasgardener.org",
+                "www.ninepbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/TxFXCU3-asset-mezzanine-16x9-IUbsCy8\\.jpg\\.crop\\.1280x720\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ca115178b89d146098b3b0f0f6149559d69614cfe32d5f7919a6f7215298ddd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbswisconsin.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/z2CvB3p-asset-mezzanine-16x9-FBjQe2u\\.jpg\\.crop\\.1280x720\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2cfde8b962cf0273841e4914280142e2e90a82bb1c5277d3bf0db97839c2e6fe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbswisconsin.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/39\\/9kmZbDILCvcwRrfGFCaUw\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "323b707112e4a435aa26185636e76d58dea210c9d3bc5291cab9e340663a338b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cascadepbs.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/0McsXg0-show-mezzanine16x9-4PvNQjz\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3ad2abb7aa6e266d3d1d30b1f3b4b9c62e10141f3662cbc62642fa15f3d2782"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cascadepbs.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/lib\\/bootstrap\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7d4f3f9eae2b4bf5e6bf76c85c58b4f0def98404c7074ca1fb106388c74eb1dc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/lib\\/bootstrap-responsive\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "55fa7d71e33733df19be2a408b72ad0afdffb7d6f8661bad6fd7f260adac1de7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/css\\/frontend_style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "877377501ae98a9030eedb8d82fe7b548bf4f6a3df4d64ed6e3e798972fcdb0d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/js\\/frontend_js\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "eaf4b1f6fe58d73985e56ad81f18ee56186f7fdf2ac9ae2aa9c1af2b27568d3d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/z2CvB3p-asset-mezzanine-16x9-FBjQe2u\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c712e8993b8b2d4813c14c66247f6eb349286fdecc2cd58b9163ee732ddf64ba",
+                "fac56081e2fbc182bd1d6a9a33b1280b51441016adfd0a0905ca9c83de90220a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.pbsnc.org",
+                "www.thirteen.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/css\\/frontend_style\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7e3dbfc6f294478698c7b8f4706ec90db52ea4829677051e8d00ae71e5652930"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/frontend\\/js\\/frontend_js\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Event.prototype.timeStamp": 4,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "13d4916650bbc599c82740f692a142e2d296deba08b66e41cb0d69cf683d3705"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/node_modules\\/@fortawesome\\/fontawesome-free\\/webfonts\\/fa-solid-900\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "777b7765386e9ce8786ba0c303c7d54ee47872f7e284b41ce300b0530fd24920"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/pbsfonts\\/v1\\.2\\/PBSSans-Light\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www-tc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d0e7defaa53505500d0f518fbb9bd8aeb4dc7859da7c7ea966f5a7ad3cf0dfa0"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.ninepbs.org",
+                "www.vermontpublic.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/7cAbVp2-asset-mezzanine-16x9-Rb7eBnS\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1fb3b9e6fa8416c899fc165b389290ea91de8203018aae707d2fd3f7f95f331a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mpt.org",
+                "www.thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/bento3-prod\\/ketc-bento-live-pbs\\/ninenet\\/general\\/2414b8c255_NinePBS-logo-main\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e507987d434fcb674ce2f276e5bdd844340025f949b34bf763987ffffdc077cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninepbs.org",
+                "www.ninepbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/3\\.147\\.0\\/staticfiles\\/dist\\/app\\/bento-components\\/video-app\\/media\\/pbs_app_resolution_1440\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "942fdd07aa4baaf287c75e3c0d7335e8e8f5beb0e70a084e38c8209865bac09b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninepbs.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/k5VqX2m-asset-mezzanine-16x9-d0TDR0U\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "71e53d3c67f9fdb11302ff9119565143e644d1e7420e4776c596614ba1e9eb91"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ninepbs.org",
+                "www.ninepbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/filer_public\\/pbsnc-redesign-phase-1\\/site_assets\\/afdd410cb6_main-celsius-06-01-26-a\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e5d22a67c8c0e26d90311f0db246c0aaa8f0c4cae3574b044928ea641a2b12e3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbsnc.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/bento3-prod\\/pbsnc-redesign-phase-1\\/e7355de51d_logo-head\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0ffa3bd6d27e1a7497a624963defa3afef61cbd24fb6b9f8b6aed824c0682eb2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbsnc.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/prod\\/filer_public\\/pbsnc-redesign-phase-1\\/site_assets\\/b8bb7ba87d_NC-state-illustration-03c\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bento"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0604e9ee87990ec38c3dcf3a602e4629ff1c4a70f4c33771390fd5c32adb8ee8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbsnc.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/bento3-prod\\/pbsnc-redesign-phase-1\\/site_assets\\/f853cc3284_PBSNorthCarolinalTAG-C2_833a2229-6829-4427-a2d6-e25e36123e15\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8ed293120e73c124ba45870966e8ad933632f4424e518b17af5ef993d4a65122"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pbsnc.org",
+                "www.pbsnc.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/portalplayer\\/colorado-experience-season-10-trailer-okhpxc",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmpbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/portalplayer\\/colorado-experience-season-10-trailer-okhpxc\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76e5bf55055c2c4b47910427ddfd9e041eb8111b58ad67c6c746fbbf1c37cebc"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rmpbs.org",
+                "www.rmpbs.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/6XSvpqu-asset-mezzanine-16x9-dxjlapZ\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9221ee2283dd417bd87b2409e8adf82c95daa225a610490ad4204deb93bc72c0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/aA0Fhmh-asset-mezzanine-16x9-BvnJlvR\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa8e5998485b23bd9522f0f95836e92eaa86d90247cf662fb9a00eeff9191d43"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/6XjHUMV-asset-mezzanine-16x9-W2b9gKy\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b567b33690cb7abd563b81b3b28c48549ab783dd02434c7e4f081db6771c1842"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/Sj1dG1J-asset-mezzanine-16x9-BSCS91h\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "87650506efff5ec2f07826dfa2b586331657ad00e506ecf0abac27041e9f5d0d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/CdMhLdl-asset-mezzanine-16x9-2VRMU4y\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "661e7f84ccc651f271c078df655f2a6fa4d4b6946f8f4fbae27f69f2241c5c04"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/l4Qf0Fr-asset-mezzanine-16x9-l5hvMT8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "365b0fee4e495625bf88cba3f2bd7524b865f81ec2e3bfbd94c0c8a8be8b10b6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/uzCzQki-asset-mezzanine-16x9-32yZZRo\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f63fb6cf6ee67b300ec9712b163809efc9cc6406b84eeb5c662a4f2999aaa81"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/G0WxQrY-asset-mezzanine-16x9-WSrEPPW\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb45468021e444c8dd29589eef1c2c0e56f0eab1e67b94d38ce7ff08d13aeee2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/bwYd3QH-asset-mezzanine-16x9-5HNxJJw\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "631a6f151969e5826b52f4c481c98311141a4ad2747b85622094fee109758a86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/YY95Sji-asset-mezzanine-16x9-UReth4A\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0577545ce0023617614c73462084bba6706c9265e3dc302a73de161d58ac9aab"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/His3Eab-show-poster2x3-nKgfupv\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "63cfeb66c3f7a0e563d6adf901688e7dc0b10459b36446e80239133b54921203",
+                "eb21dbdf7992f6461252e4337a7bc1696160791dad5de0be7693eb399ec91d86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.tpt.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/vlqx05v-show-poster2x3-STeRQXp\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3be29193c6cbe43f2950eadbf99fa3a1629d40f3b65a3c621f937d466a4c90dc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/jCDkBX5-show-poster2x3-P9JiGg6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f359d4b3a18653d4703ed310ddef415a9d362cc93ef1d0c63591a86a1498c154"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/msf0dRf-show-poster2x3-KMfT8Vf\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d5963a413ed6d43d361a588e3f074277e937cfe5bf25e6d418c9b6166cee031f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/cUBOYCE-show-poster2x3-rD6SQgY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee878fee3f060c66b0e1cb149aeab5dcb368ae8827e9d26bdb62c8c931f072ae"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.tpt.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/k1Gwt8I-show-poster2x3-EWWT8oy\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d578d3eb9473881919aeb40041cf0b9d44459e0a8ed573525cb1c52bd0459f2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/8sZZON1-show-poster2x3-VaMvKR0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cb1e72338d3bc51765de6e1b648613848991cd6b996dfde3e1330ff41e0298e9",
+                "6339d4a592f69c2c2f677ee0f2a08750ac5f80dcf81a698e8d4562409c46a0f0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.tpt.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/contentchannels\\/S97DSva-show-poster2x3-JxR2MR4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3bfbc41f0ac79c27f1a3051a337120a0d85044288ab90667055563125bb0418"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.wliw.org"
+            ]
+        },
+        {
+            "rule": "pbs\\.org\\/video-assets\\/d1gXkoa-asset-mezzanine-16x9-cN9mIFp\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "image"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1207608ef0fcdfa6cce8cb8e8f423fba28e936bca5e2c42da34c5a1ca1fd2e62"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thirteen.org",
+                "www.thirteen.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8471849865951743
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.12064343163538874
+        },
+        {
+            "domain": "zencdn.net",
+            "prevalence": 0.0160857908847185
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.013404825737265416
+        },
+        {
+            "domain": "nprapps.org",
+            "prevalence": 0.002680965147453083
+        }
+    ],
+    "types": {
+        "Stylesheet": 26,
+        "Script": 16,
+        "Image": 93,
+        "Font": 25,
+        "Document": 4
+    },
+    "nameservers": [
+        "ns-1674.awsdns-17.co.uk",
+        "ns-806.awsdns-36.net",
+        "ns-1230.awsdns-25.org",
+        "ns-193.awsdns-24.com"
+    ]
+}

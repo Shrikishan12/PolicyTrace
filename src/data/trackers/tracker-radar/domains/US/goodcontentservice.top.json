@@ -1,0 +1,113 @@
+{
+    "domain": "goodcontentservice.top",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "goodcontentservice\\.top\\/imvideo",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c2aa9348f65eb2b34bc80fc6b90a45e8bc8d61253a76cfb75d074600c7857b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ADN-IMVID-4800440": {
+                    "ttl": 3602,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iafd.com",
+                "www.iafd.com"
+            ]
+        },
+        {
+            "rule": "goodcontentservice\\.top\\/video",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e5d2dd0b53b2672d6900f95b2a3e5d81c0bb60858476613ff629b62dafebea9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iafd.com",
+                "www.iafd.com"
+            ]
+        },
+        {
+            "rule": "goodcontentservice\\.top\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iafd.com",
+                "www.iafd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "olga.ns.cloudflare.com"
+    ]
+}

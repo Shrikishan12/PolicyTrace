@@ -1,0 +1,91 @@
+{
+    "domain": "disneyaccount.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000226,
+    "sites": 33,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "disneyaccount\\.com\\/v5\\/sdk\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 14,
+                "window.localStorage": 14,
+                "Document.cookie setter": 14,
+                "NavigatorUAData.prototype.getHighEntropyValues": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.platform": 14
+            },
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "7a04597d976ee1b2772dd733345c922bc6e113b2c2ce70ddbed53d5bcf07b611"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "anonymous_swid": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "6abc.com",
+                "abc.com",
+                "abc13.com",
+                "abc11.com",
+                "abc7.com",
+                "abc7ny.com",
+                "abc7news.com",
+                "abc7chicago.com",
+                "abc30.com",
+                "disneyvacationclub.disney.go.com",
+                "fxnow.fxnetworks.com",
+                "kids.nationalgeographic.com",
+                "my.disney.com",
+                "www.disney.com",
+                "www.freeform.com",
+                "www.marvel.com",
+                "www.natgeokids.com",
+                "www.nationalgeographic.com",
+                "www.starwars.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000178,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9696969696969697
+        },
+        {
+            "domain": "nationalgeographic.com",
+            "prevalence": 0.030303030303030304
+        }
+    ],
+    "types": {
+        "Script": 19
+    },
+    "nameservers": [
+        "ns-783.awsdns-33.net",
+        "ns-222.awsdns-27.com",
+        "ns-1088.awsdns-08.org",
+        "ns-1538.awsdns-00.co.uk"
+    ]
+}

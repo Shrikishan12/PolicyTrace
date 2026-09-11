@@ -1,0 +1,62 @@
+{
+    "domain": "auth0app.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "paycorprod-cd-rvfeoppoknpxwptr.edge.tenants.pycr-prod"
+    ],
+    "cnames": [
+        {
+            "original": "auth.paycor.com",
+            "resolved": "paycorprod-cd-rvfeoppoknpxwptr.edge.tenants.pycr-prod.auth0app.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "auth0app\\.com\\/v2\\/logout",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "paycorprod-cd-rvfeoppoknpxwptr.edge.tenants.pycr-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "auth.paycor.com",
+                    "resolved": "paycorprod-cd-rvfeoppoknpxwptr.edge.tenants.pycr-prod.auth0app.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paycor.com",
+                "secure.paycor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "feroot.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "maya.ns.cloudflare.com",
+        "sonny.ns.cloudflare.com"
+    ]
+}

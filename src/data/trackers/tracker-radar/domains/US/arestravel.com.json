@@ -1,0 +1,105 @@
+{
+    "domain": "arestravel.com",
+    "owner": {
+        "name": "Advanced Reservation Systems",
+        "displayName": "Advanced Reservation Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "arestravel\\.com\\/aresWidget-v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Date.prototype.getTime": 8,
+                "window.localStorage": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "38b6344daf01ac410d77e893a04e30c7ae243c4f9d4fa444e6aa7223849ea2a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsedona.com",
+                "www.coastalmississippi.com",
+                "www.gotolouisville.com",
+                "www.visitcumberlandvalley.com",
+                "www.visitindy.com",
+                "www.visitmilwaukee.org",
+                "www.visitroanokeva.com",
+                "www.visitsacramento.com"
+            ]
+        },
+        {
+            "rule": "arestravel\\.com\\/create\\/widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "bb663acdbf17ac3eff92201523054811e822dad75ca586abf752706bcea998ef",
+                "622cd183a965126809aad78d3a2cc6e0bb64e6cc05dff3dd437f239ec682de84",
+                "b48b1c0e430e861cad324ed3cfeb6a2abc068aaf25b610709b94ed2fbef4fd8f",
+                "678c603c80ee5f6a23349c406bb9113835bd49003daae45f63717acc01fa9281",
+                "64e48733f18df9746352e3c937b88a892bfe8d55da4d0dfb2e42efe45359bcb3",
+                "a06a940762736c47a5f79836fc2bbebbe95b35f446fcfc42518db9aa5daa6ec1",
+                "b1faec630ce7e07855a7be9017e0504274cec7a5130d8fb0dab82492935e0264"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitsedona.com",
+                "www.coastalmississippi.com",
+                "www.gotolouisville.com",
+                "www.visitcumberlandvalley.com",
+                "www.visitindy.com",
+                "www.visitmilwaukee.org",
+                "www.visitroanokeva.com",
+                "www.visitsacramento.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 8
+    },
+    "nameservers": [
+        "ns-659.awsdns-18.net",
+        "ns-353.awsdns-44.com",
+        "ns-1127.awsdns-12.org",
+        "ns-1975.awsdns-54.co.uk"
+    ]
+}

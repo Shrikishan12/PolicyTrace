@@ -1,0 +1,86 @@
+{
+    "domain": "revenuehero.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "app",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "revenuehero\\.io\\/scheduler\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app",
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 6,
+                "window.localStorage": 6,
+                "Navigator.prototype.userAgent": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "c7a1de6d2d1d5237d25345e4fdbc1ddc0b248576c8d3ec5d8bce49ac89955f05"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datahub.com",
+                "docs.datahub.com",
+                "seamless.ai",
+                "www.process.st",
+                "www.sprypt.com",
+                "www.testmuai.com"
+            ]
+        },
+        {
+            "rule": "revenuehero\\.io\\/logs\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "process.st",
+                "www.process.st"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

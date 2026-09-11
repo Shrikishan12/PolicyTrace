@@ -1,0 +1,90 @@
+{
+    "domain": "geosapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "geosapp\\.com\\/api\\/storefront\\/client_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyhoneycomb.com",
+                "meetonetrike.com",
+                "qidi3d.com",
+                "sonoff.tech",
+                "t3micro.com"
+            ]
+        },
+        {
+            "rule": "geosapp\\.com\\/api\\/storefront\\/client_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6493b64586e5d3071630fa65a9a2cd1202db26b0530f39c31040b611f46b442a",
+                "c47bd7da8f4242719574ea9adbd6958225faa925deb3e958bd12242d220f8ba5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyhoneycomb.com",
+                "meetonetrike.com",
+                "qidi3d.com",
+                "sonoff.tech",
+                "t3micro.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "d1dgtlbp2q4h7t.cloudfront.net",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "louis.ns.cloudflare.com",
+        "rayne.ns.cloudflare.com"
+    ]
+}

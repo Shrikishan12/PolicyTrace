@@ -1,0 +1,165 @@
+{
+    "domain": "traversedlp.com",
+    "owner": {
+        "name": "Traverse Data, Inc.",
+        "displayName": "Traverse Data"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "traversedlp\\.com\\/v1\\/retargeting\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3ad3fefdb207753cf1f7f14c610030fd6b00660db09420776630d056c35a2c58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "financebuzz.com",
+                "my.concealedcoalition.com",
+                "www.dmv.com"
+            ]
+        },
+        {
+            "rule": "traversedlp\\.com\\/retargeting\\/v1\\/cookie",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5e10e5ebb572ff569abcb0e3eb774bf23e66e92067059c06102e0f68edc56d9a",
+                "7bd13c1a861a6943a1581e3098748e3cf20bfc090baf85d0c4760c7c8f96dca5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "financebuzz.com",
+                "my.concealedcoalition.com",
+                "www.dmv.com"
+            ]
+        },
+        {
+            "rule": "traversedlp\\.com\\/retargetinginclusion\\/enqueue",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "financebuzz.com",
+                "my.concealedcoalition.com",
+                "www.dmv.com"
+            ]
+        },
+        {
+            "rule": "traversedlp\\.com\\/retargetinginclusion\\/enqueue",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "financebuzz.com",
+                "my.concealedcoalition.com",
+                "www.dmv.com"
+            ]
+        },
+        {
+            "rule": "traversedlp\\.com\\/v1\\/container\\/traverse-container\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d93cf18a1b781e1994985888cf0c83e2dd419b700b5dd9d44088254aad2f773a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "punchbowl.com",
+                "www.thediscoverer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8771929824561403
+        },
+        {
+            "domain": "jscaddy.com",
+            "prevalence": 0.10526315789473684
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.017543859649122806
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 6,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1265.awsdns-30.org",
+        "ns-1652.awsdns-14.co.uk",
+        "ns-333.awsdns-41.com",
+        "ns-609.awsdns-12.net"
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "domain": "duke-energy.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [
+        {
+            "original": "login.duke-energy.com",
+            "resolved": "login.duke-energy.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "duke-energy\\.com\\.edgekey\\.net\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.duke-energy.com",
+                    "resolved": "login.duke-energy.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fe74f8b05be5db2e734ad2bda9878b264de228d97625beaa2006c61c9c285934"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duke-energy.com",
+                "www.duke-energy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 2
+    },
+    "nameservers": []
+}

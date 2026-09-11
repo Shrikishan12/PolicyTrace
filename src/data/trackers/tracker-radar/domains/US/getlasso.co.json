@@ -1,0 +1,83 @@
+{
+    "domain": "getlasso.co",
+    "owner": {
+        "name": "Lasso Analytics, Inc",
+        "displayName": "Lasso Analytics"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000192,
+    "sites": 28,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getlasso\\.co\\/lasso-performance\\.min\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Document.cookie getter": 14,
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "ab0ab3bfec16f5571b27b3c505bc22f74736e626dd10262fa0e082940f0c0dcb",
+                "24e8fc3499aef6e5478ca1ac7f4ad923e9dc245e54750af208c80fc98ba47543"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "lsid": {
+                    "ttl": 86401,
+                    "length": 35,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betterwithcats.net",
+                "botanicalinstitute.org",
+                "breakingmuscle.com",
+                "gazettereview.com",
+                "happyspicyhour.com",
+                "liftvault.com",
+                "quiltdom.com",
+                "switchandclick.com",
+                "thermostating.com",
+                "wedbuddy.com",
+                "www.cncsourced.com",
+                "www.cruisemummy.co.uk",
+                "www.diyhappy.com",
+                "www.ketoconnect.net",
+                "www.roastycoffee.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000178,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "scott.ns.cloudflare.com",
+        "mona.ns.cloudflare.com"
+    ]
+}

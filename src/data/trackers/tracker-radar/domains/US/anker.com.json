@@ -1,0 +1,144 @@
+{
+    "domain": "anker.com",
+    "owner": {
+        "name": "Anker Innovation Technology Co., Ltd.",
+        "displayName": "Anker Technology"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "rainbowbridge",
+        "dts-log"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "anker\\.com\\/api\\/v2\\/personalize\\/relation\\/popular",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rainbowbridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "anker\\.com\\/api\\/v2\\/personalize\\/relation\\/popular",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rainbowbridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4948c270744f007388d786758da9adbdcf083af521ff3f13006f1a7a4f88b308"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "anker\\.com\\/api\\/v2\\/personalize\\/relation\\/by_user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rainbowbridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "anker\\.com\\/api\\/v2\\/personalize\\/relation\\/by_user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rainbowbridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d55642bf870d862508b98234b44e91d98710f3e05cf426d4f395a9b161dad5c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        },
+        {
+            "rule": "anker\\.com\\/sa\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dts-log"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eufy.com",
+                "www.eufy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "pdns04.domaincontrol.com",
+        "pdns03.domaincontrol.com"
+    ]
+}

@@ -1,0 +1,710 @@
+{
+    "domain": "mopinion.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000342,
+    "sites": 50,
+    "subdomains": [
+        "deploy",
+        "collect",
+        "cacheorcheck",
+        "fonts",
+        "gstatic",
+        "metrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mopinion\\.com\\/js\\/pastease\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {
+                "window.sessionStorage": 44,
+                "window.localStorage": 44,
+                "Document.cookie getter": 42,
+                "Date.prototype.getTime": 42,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "window.innerHeight": 2
+            },
+            "sites": 45,
+            "prevalence": 0.000308,
+            "cnames": [],
+            "responseHashes": [
+                "66782be65b4d4f57e3e70307155980941eb4b310f9e8f8a860fc8215176c89cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.suzuki.nl",
+                "community.kpn.com",
+                "www.rivm.nl",
+                "www.carexpert.com.au",
+                "www.hetcak.nl",
+                "www.eurocarparts.com",
+                "tramits.gencat.cat",
+                "www.odido.nl",
+                "www.tractorseats.com",
+                "ind.nl",
+                "gemeente.groningen.nl",
+                "www.fortuneo.fr",
+                "www.vattenfall.nl",
+                "www.eigenhuis.nl",
+                "francetravail.fr",
+                "www.svb.nl",
+                "store.metmuseum.org",
+                "canyoublockit.com",
+                "www.mdlfonds.nl",
+                "www.utwente.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/assets\\/surveys\\/2\\.0\\/js\\/survey\\.min\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "collect"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 22,
+                "Navigator.prototype.maxTouchPoints": 22,
+                "Document.cookie getter": 22,
+                "window.innerWidth": 22,
+                "window.matchMedia(\"prefers-color-scheme\")": 22,
+                "window.sessionStorage": 22,
+                "Date.prototype.getTime": 22,
+                "Navigator.prototype.webdriver": 22,
+                "Navigator.prototype.languages": 22,
+                "Screen.prototype.width": 22,
+                "window.innerHeight": 22,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Navigator.prototype.language": 5,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 22,
+            "prevalence": 0.000151,
+            "cnames": [],
+            "responseHashes": [
+                "ca67aa4b20d18c6b51e52c6a871ca31881912deb99358428930cb7fc00d9b9cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "SQsession": {
+                    "ttl": 1803,
+                    "length": 18,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tractorseats.com",
+                "www.werkenvoornederland.nl",
+                "eurocarparts.com",
+                "canyoublockit.com",
+                "www.politie.nl",
+                "www.asr.nl",
+                "www.secotools.com",
+                "www.vattenfall.nl",
+                "ind.nl",
+                "www.pureinsurance.com",
+                "www.fortuneo.fr",
+                "www.eurocarparts.com",
+                "www.eigenhuis.nl",
+                "www.hetcak.nl",
+                "www.kvk.nl",
+                "www.hema.com",
+                "tramits.gencat.cat",
+                "gemeente.groningen.nl",
+                "www.utwente.nl",
+                "www.svb.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/survey\\/public\\/json-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cacheorcheck"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000158,
+            "cnames": [],
+            "responseHashes": [
+                "17771ae33ceff4dfac225a39625bb41c205897b15281ed336ff581c517685fc9",
+                "3e64f7d3accdfd2de52e78b86f01bbd80f449cd6d810669b791eac1c7f553c93",
+                "d5094f8e11e975b2f232c167b43c62f5194aebf27d3e4fae7719a0b028e74744",
+                "7409b1638c2fc021de0dfddbbad728add4937166e8ac7f35ada8bc425cd82ed6",
+                "f77a322709c608e3a08af4bc2141265ab68efe83a409499fd907e454d41173ec",
+                "7719c2f329b7e9b07ecc89a80cfee11366fd38e82867aa30d8efda786ae87076",
+                "fe6808bdd7fb9ad928a3f1d4440a97ca9dfd791e81ebb9c47d4f6ce324999a2d",
+                "fe0eabd711a41820d5d323c9bb0a045945733f32333e7c76d21b98eb89db98e2",
+                "e2d6bcc3c77e562974bdfaf0ff3e406e79bbac1352b62397629ed401d492a593",
+                "a59f31029980252917e598b5aa7eca69d504d19549f094c203788087798409b9",
+                "463ec0c9773344b137b06dcbec6d8693ba4aa1b50dcd20b64ced66a9fdc914be",
+                "e89c09966e1cf955dae5577cfef8637a8a0fd62f6b54adc17c3546d24f91838b",
+                "4ed7bf016741c259cce8ed2438d395efd7e672a541a114c023b86604cb574f6e",
+                "2f32d3533dc7bff0e9a89e94eae41fccd3a85e84ba2aec83c8b7bcc8ec13b126",
+                "df3779516825b81fa9c0cbad72f09b50ab139b4c24716146f91200fe89c7d7c0",
+                "a69152b4dd46c2c4f14c323daa8cacf0c16befb1cdd40aaf5ea7c7a8cb980bd3",
+                "c20da129262477b1cea26db27cb35444fcc9d1e3a1d6c45b3f168f7f6f73be5b",
+                "37f52eef2922d6d698b80579f331f5b9995b616128df4fb7a8eea6becaa36721",
+                "6200b7ac00d4f36e43e78752cb7b8d14b71fa0792464fd2964905f598d37e6fb",
+                "f37c186b0ac8c7910ddf7c9bf4d93c2cf14f7405a86d654d714893df5048f5a2",
+                "dd88afc6a26de250f9007addba3d6c482f7b5c9cde3c6bbc224c33f0661af318"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.kvk.nl",
+                "www.werkenvoornederland.nl",
+                "www.vattenfall.nl",
+                "www.politie.nl",
+                "gemeente.groningen.nl",
+                "www.utwente.nl",
+                "www.eurocarparts.com",
+                "www.mdlfonds.nl",
+                "www.svb.nl",
+                "tramits.gencat.cat",
+                "canyoublockit.com",
+                "www.hetcak.nl",
+                "www.asr.nl",
+                "eurocarparts.com",
+                "ind.nl",
+                "www.tractorseats.com",
+                "www.pureinsurance.com",
+                "www.cbs.nl",
+                "www.jumbo.com",
+                "www.hema.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fonts"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000158,
+            "cnames": [],
+            "responseHashes": [
+                "44187f6ab1bf6f10be333aa08b4e5bfe20beb2c149b7fb78251ab2eeeec3c867",
+                "5aa56eb59b8a69a53248349ac43a419f50da099dae445a8f3647f66aa43afb25",
+                "70087dc7c593030a0cf7041577aa823665dda88dcc713a1d53ec850439dd2601",
+                "aa6e99b44aeb1bc648569dae11118f3137c6eb059a835447a5e7a607e8c569f5",
+                "0613a9dced41ea1a699ae976ca9c3b8db4296ee861945502c1a48fe925d286c9",
+                "c04e69d064d95f18d462bdbe343e91a8fd390664746cd146a665fbc699140416"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canyoublockit.com",
+                "www.secotools.com",
+                "www.tractorseats.com",
+                "ind.nl",
+                "www.eigenhuis.nl",
+                "www.kvk.nl",
+                "www.svb.nl",
+                "eurocarparts.com",
+                "www.fortuneo.fr",
+                "www.jumbo.com",
+                "www.cbs.nl",
+                "www.eurocarparts.com",
+                "www.hema.com",
+                "www.pureinsurance.com",
+                "www.mdlfonds.nl",
+                "tramits.gencat.cat",
+                "www.werkenvoornederland.nl",
+                "www.utwente.nl",
+                "gemeente.groningen.nl",
+                "www.asr.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/s\\/opensans\\/v44\\/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVQUwaEQbjA\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gstatic"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "4a71181306f0c07502a12bc8a813028d8f8c5790df5019e52d229474dd0a4d04"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canyoublockit.com",
+                "eurocarparts.com",
+                "gemeente.groningen.nl",
+                "ind.nl",
+                "tramits.gencat.cat",
+                "www.cbs.nl",
+                "www.eurocarparts.com",
+                "www.hema.com",
+                "www.jumbo.com",
+                "www.mdlfonds.nl",
+                "www.pureinsurance.com",
+                "www.secotools.com",
+                "www.tractorseats.com",
+                "www.utwente.nl",
+                "www.vattenfall.nl",
+                "www.werkenvoornederland.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/OuUpMtNbySqQ1tBKQBWTfMAtUFMRJ4Bo1G5Z6SDj",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed99755d2781a632c16007cc7233f44a0fb099cb91d5088062850533e79b5ec1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odido.nl",
+                "www.odido.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/PBD9pwARRSOs27VujqMSjXQhIo8chuTBKuDizcFJ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33565e9f5aceadc570d5a3d8de730098f09546fdd6edab6f82e45020f70ef9b7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odido.nl",
+                "www.odido.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/hXzPWZDkz8Os6ddj8CAgTxsKl6ahARmKZa6CdiO0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f07ca2888acf9a03d04078d293bfcd3a227f8df5fe9ca109b87d992022f43d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurocarparts.com",
+                "www.eurocarparts.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/n9p3ekcsbpdtrovkjc275rfrrrn136ufx09",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c5d7f55b3580f45696a9cda876af9162604729fc6634286892086e6b15f2c4f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomtom.com",
+                "help.tomtom.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/oee2KGDYszu5AOKaJuuFUfxVXH0irATI3NC62j65",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a69bcfca051508b127ab1e52a7bf4d8ec4475dccd26c0fd9b2c82bff9862339c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hillspet.com",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/QnYE8YXOeXO0La3ef06eg7aj4U44UxQtgRWphoJt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb85a0ce48905c549b66f929f67754cb9835ea929708b40e0ff61c7a38f6fdcf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hillspet.com",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/v2FjrpX91KDJZuZ3n7wOvsRCrm5iDxyobmqIvqA6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9810feb1d0f56cc4fcb6a895479751be12ee52de575d0698e18204f8c021122e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hillspet.com",
+                "www.hillspet.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/datapoints",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ae9bf733360db1ba4d456d45d9af91ea42b95a931d4eb9262e502165465f99bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ind.nl",
+                "tramits.gencat.cat",
+                "www.cbs.nl",
+                "www.hema.com",
+                "www.kvk.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/datapoints",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ind.nl",
+                "tramits.gencat.cat",
+                "www.cbs.nl",
+                "www.hema.com",
+                "www.kvk.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/wb6aaiy2boc422neecdzpqh43zqmptiyfzx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9eecc47d6487eeb7f3f1e5bac37da6db5af9b7576d39d6674c4ed4333571bf3a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kpn.com",
+                "mijn.kpn.com",
+                "www.kpn.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/P7knnpKqyn5ngKxDNiE4NUhPyYL0jD8dm6fuWG5H",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7e61e5e8e6163dc87fa00568d304eb2684aad077fff49e2291554799f1a5c8c3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "budgetthuis.nl",
+                "www.budgetthuis.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/NIVX5yAxqC0oxpRqxjMOcrWi1EaMrw9P8xSoUU8P",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a7a8143f391962957ea28b7cb09cb4724115265c21884b8445a2a28148be69d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carexpert.com.au",
+                "www.carexpert.com.au"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/a8C4bKTichDWnOiCAuQstd7cdGoIbeVOSJnXghhI",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "carsguide.com.au",
+                "www.carsguide.com.au"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/N0WGM6c0tH4Rs3u06LSyezrZEM28wkPfWyNWEq2Z",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2bfdc48efb021af938736756485f236f627c5ab2dc52028549386da01f6b39d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "colgate.com",
+                "www.colgate.com"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/survey\\/public\\/icons",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cacheorcheck"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "8f187b0decf36640cb83c5a9b5293f73e09d712351f17ca8406119f5234cf245",
+                "c45177e0c1355719c1dcbc77b523f9dfcf92c4cc57bf24784717f858488b15dd",
+                "0e7c9e2c26dd8fd1f2eab9cd8eae4632f1aa41110f948c6864e2ea8761b70066",
+                "a28e7d69c0894ac8f6efb415f97aafcdbb84a35af9c322dbd1367729f102911a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hetcak.nl",
+                "www.hetcak.nl",
+                "www.politie.nl",
+                "www.secotools.com",
+                "www.tractorseats.com",
+                "www.werkenvoornederland.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/s\\/lato\\/v25\\/S6uyw4BMUTPHjx4wXiWtFCc\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gstatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7b575236bc08757b5442e485fc1341170de80379af7d45622d14e4a4a2e9d117"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hetcak.nl",
+                "www.kvk.nl"
+            ]
+        },
+        {
+            "rule": "mopinion\\.com\\/config\\/TbZY5T7U2qYZjihBIX6lQZOyGzyBRkiNAVx0WZZ4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deploy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78272c78d9fb59ec56aa9ff1583dbbf35efc829bd11ce42c5dfc46c3e2dae5f3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vattenfall.nl",
+                "www.vattenfall.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7363636363636363
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "rijksoverheid.nl",
+            "prevalence": 0.03636363636363636
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.01818181818181818
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.00909090909090909
+        },
+        {
+            "domain": "tagcommander.com",
+            "prevalence": 0.004545454545454545
+        },
+        {
+            "domain": "autotrader.com.au",
+            "prevalence": 0.004545454545454545
+        },
+        {
+            "domain": "r42tag.com",
+            "prevalence": 0.004545454545454545
+        }
+    ],
+    "types": {
+        "Script": 67,
+        "XHR": 61,
+        "Stylesheet": 23,
+        "Font": 18,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-869.awsdns-44.net",
+        "ns-1628.awsdns-11.co.uk",
+        "ns-1425.awsdns-50.org"
+    ]
+}

@@ -1,0 +1,611 @@
+{
+    "domain": "elb.us-east-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000212,
+    "sites": 31,
+    "subdomains": [
+        "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a",
+        "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8",
+        "gwse-aim-dms-prod-fd558f4675bb6d06",
+        "ue1-caext-nlb-c40e66312c75c330",
+        "a0e17d02ba6eb4de999b2df9f1aaf939-db79925a68357571",
+        "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340",
+        "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30",
+        "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8"
+    ],
+    "cnames": [
+        {
+            "original": "api.labfinder.com",
+            "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "dyn-msg-service.prod.adp.com",
+            "resolved": "gwse-aim-dms-prod-fd558f4675bb6d06.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "metrics.freemake.com",
+            "resolved": "a0e17d02ba6eb4de999b2df9f1aaf939-db79925a68357571.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "rateapi.broadviewfcu.com",
+            "resolved": "ue1-caext-nlb-c40e66312c75c330.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "template.aws.emory.edu",
+            "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "together.plex.tv",
+            "resolved": "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "tracking.shopcider.com",
+            "resolved": "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "usermetrics.oyster.com",
+            "resolved": "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30.elb.us-east-1.amazonaws.com"
+        },
+        {
+            "original": "usermetrics.smartertravel.com",
+            "resolved": "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30.elb.us-east-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/rooms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "together.plex.tv",
+                    "resolved": "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "a248b629f2d9508e8ac49b43f61e90e3046f8c124f28adc2b2e938fb20d00b3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plex.tv",
+                "app.plex.tv"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/rooms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "together.plex.tv",
+                    "resolved": "k8s-envoygat-envoyenv-0e1ad1a3b3-e5ee1e027b12c43a.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plex.tv",
+                "app.plex.tv"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/shared-assets\\/emergency\\/alert-feed\\.php",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "template.aws.emory.edu",
+                    "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emory.edu",
+                "law.emory.edu",
+                "libraries.emory.edu",
+                "med.emory.edu",
+                "registrar.emory.edu"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/shared-assets\\/emergency\\/emergency_include\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "template.aws.emory.edu",
+                    "resolved": "webmgmtwebhosting-std-pub-nlb-1f2d41369f5ca1c8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "227d9ee94534526087015c632c7e0a9e4c6d405da17abf63f965a3103e619172"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emory.edu",
+                "med.emory.edu"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/dyn-msg-service\\/v1\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gwse-aim-dms-prod-fd558f4675bb6d06"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "dyn-msg-service.prod.adp.com",
+                    "resolved": "gwse-aim-dms-prod-fd558f4675bb6d06.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/dyn-msg-service\\/v1\\/message",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gwse-aim-dms-prod-fd558f4675bb6d06"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "dyn-msg-service.prod.adp.com",
+                    "resolved": "gwse-aim-dms-prod-fd558f4675bb6d06.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "ef6ca472f9e1341e35f2bc83915bc493bbb44aca3a1cfbd25e2704133a9f424c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/v2\\/rates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ue1-caext-nlb-c40e66312c75c330"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "rateapi.broadviewfcu.com",
+                    "resolved": "ue1-caext-nlb-c40e66312c75c330.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadviewfcu.com",
+                "www.broadviewfcu.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/v2\\/rates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ue1-caext-nlb-c40e66312c75c330"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "rateapi.broadviewfcu.com",
+                    "resolved": "ue1-caext-nlb-c40e66312c75c330.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6ab87fb7fa914790cb92342470164b31df153bbd1dd4b227ff8ea15717fbbe6e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "broadviewfcu.com",
+                "www.broadviewfcu.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/v1\\/Metrics\\/SiteUserBehaviour",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a0e17d02ba6eb4de999b2df9f1aaf939-db79925a68357571"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "metrics.freemake.com",
+                    "resolved": "a0e17d02ba6eb4de999b2df9f1aaf939-db79925a68357571.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freemake.com",
+                "www.freemake.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/analytics-events",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.labfinder.com",
+                    "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/analytics-events",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.labfinder.com",
+                    "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/autocomplete\\/getPopularExamData",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.labfinder.com",
+                    "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "6b7b7128dabaab39ecc77e43f440fa20abb97366e58c17d69cf3bb2edb9e4b68"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/autocomplete\\/getSearchInsuranceData",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.labfinder.com",
+                    "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "15db02f3a9a0e7a968c2239814d30f6e418360dfd523e8ee4f5d01c0a5d71d78"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/search\\/get-location-data",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.labfinder.com",
+                    "resolved": "aa7924a957fd341f1b9ae6457a0a4c29-6d4bb1511e25c340.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "4cd82b8bbe33427be4f10b78eaa58b528b523c0238ca796fe4cf46358be92f4d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/api\\/page-view",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "usermetrics.oyster.com",
+                    "resolved": "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30.elb.us-east-1.amazonaws.com"
+                },
+                {
+                    "original": "usermetrics.smartertravel.com",
+                    "resolved": "k8s-traefik-traefiki-a71b03da24-50b85e7e0d922d30.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oyster.com",
+                "www.oyster.com",
+                "www.smartertravel.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/ms\\/analysis\\/v1\\/monitor\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tracking.shopcider.com",
+                    "resolved": "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "7397e0987dc915f33e145a086726c9654845ee27a6dd9e053b25781d7b54fdde"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopcider.com",
+                "www.shopcider.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/ms\\/analysis\\/v1\\/monitor\\/report",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tracking.shopcider.com",
+                    "resolved": "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopcider.com",
+                "www.shopcider.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/ms\\/analysis\\/v1\\/reportPoint",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tracking.shopcider.com",
+                    "resolved": "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopcider.com",
+                "www.shopcider.com"
+            ]
+        },
+        {
+            "rule": "elb\\.us-east-1\\.amazonaws\\.com\\/ms\\/analysis\\/v1\\/reportPoint",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tracking.shopcider.com",
+                    "resolved": "k8s-opstest-apisixga-ffd5932408-71111629e4aa4dd8.elb.us-east-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "7397e0987dc915f33e145a086726c9654845ee27a6dd9e053b25781d7b54fdde"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopcider.com",
+                "www.shopcider.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000959,
+    "topInitiators": [
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "XHR": 14,
+        "Preflight": 15,
+        "Script": 2,
+        "Fetch": 8,
+        "Ping": 9
+    },
+    "nameservers": [
+        "ns-1826.awsdns-36.co.uk",
+        "ns-844.awsdns-41.net",
+        "ns-1286.awsdns-32.org",
+        "ns-281.awsdns-35.com"
+    ]
+}

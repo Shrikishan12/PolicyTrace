@@ -1,0 +1,124 @@
+{
+    "domain": "bmo.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "geo",
+        "apis"
+    ],
+    "cnames": [
+        {
+            "original": "apis.bmo.com",
+            "resolved": "apis.bmo.com.edgekey.net"
+        },
+        {
+            "original": "geo.bmo.com",
+            "resolved": "geo.bmo.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bmo\\.com\\.edgekey\\.net\\/location\\.json",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "geo.bmo.com",
+                    "resolved": "geo.bmo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b84047ff3724b4c17e4f94ca7ede93d936c3f2833eb7322492cd3f5735586cdd",
+                "4c49e582d10b9676797412a71bd7db36cb9fca9dcd0de02730035ca553856734"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmo.com",
+                "www.bmo.com",
+                "www.bmoharris.com",
+                "www1.bmo.com"
+            ]
+        },
+        {
+            "rule": "bmo\\.com\\.edgekey\\.net\\/api\\/ent-secure\\/utility\\/uuid\\/contact-handler\\/user-profiles\\/get",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apis.bmo.com",
+                    "resolved": "apis.bmo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4e1398ab3f2c10ed8ac0025330457902b04fb35b498162f18fb42cea9e4e725d",
+                "afbc13fa182b453b0ae6c9969419d86e4ede75d142d29599507b74a6114de5d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmo.com",
+                "www.bmo.com",
+                "www.bmoharris.com"
+            ]
+        },
+        {
+            "rule": "bmo\\.com\\.edgekey\\.net\\/api\\/ent-secure\\/utility\\/uuid\\/contact-handler\\/user-profiles\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apis"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apis.bmo.com",
+                    "resolved": "apis.bmo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmo.com",
+                "www.bmo.com",
+                "www.bmoharris.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "types": {
+        "Fetch": 7,
+        "Preflight": 3
+    },
+    "nameservers": []
+}

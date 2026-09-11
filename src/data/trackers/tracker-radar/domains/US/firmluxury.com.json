@@ -1,0 +1,117 @@
+{
+    "domain": "firmluxury.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "web"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "firmluxury\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.doNotTrack": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "f7466a453d625adbdfa6a7c61d8b8c272e9270781e3c9737fbc0780ea11bb807",
+                "a1471487eb3e8eb93b1a9e056386019ff5eedadea29bbb725b5494fb2e9ad90a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "technobezz.com",
+                "status.technobezz.com",
+                "www.downtester.com",
+                "www.technobezz.com"
+            ]
+        },
+        {
+            "rule": "firmluxury\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "technobezz.com",
+                "status.technobezz.com",
+                "www.downtester.com",
+                "www.technobezz.com"
+            ]
+        },
+        {
+            "rule": "firmluxury\\.com\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d367c1fdd6ca7389c2830cc532923ac91d26848de006a22c5eb3fe540525efee",
+                "0ca708ddd0886f188bc6da78ff781ffa0cbab7d0f7bc203e4fbbdd3a4c33c03d",
+                "2f292d11a4e24064dfcfe62090e4b6ec0d513afaf750b1bcab8e7e9a8ca93f73"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "technobezz.com",
+                "status.technobezz.com",
+                "www.downtester.com",
+                "www.technobezz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dan.ns.cloudflare.com",
+        "meg.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,310 @@
+{
+    "domain": "syf.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "auth",
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "api.syf.com",
+            "resolved": "api.syf.com.edgekey.net"
+        },
+        {
+            "original": "auth.syf.com",
+            "resolved": "auth.syf.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v3\\/oauth2\\/authorize",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "auth"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "auth.syf.com",
+                    "resolved": "auth.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syf.com",
+                "amazon.syf.com",
+                "belk.syf.com",
+                "jcpenney.syf.com",
+                "samsclub.syf.com",
+                "tjx.syf.com",
+                "verizonvisacard.syf.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v3\\/oauth2\\/introspect",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cd27d068aa493264035286f641430c5c7033bd054199e57754b9f4e03b3fd787",
+                "a3e1d3e787a29c6194a86c1b1f9bd72b0aa8e5ae7abb41b195ffbae063a04b3e",
+                "2cfd10f02bb3c510082d7e166c733c99780adbdb04290fc7c87139ea03b3b8fd",
+                "cbd2481514ea1b6c8011532c9c03346e7eafc39fad8668be1f5add1ecd87ebde",
+                "f1b1ea0c6b2187f87e9dfc2fb6d09efbac318c6404af4ba881e598c9e235bbac",
+                "05a126e5cd94c4c1a94206676bc5ece41783631c14da4eef1d845c0dd2be5425"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syf.com",
+                "amazon.syf.com",
+                "belk.syf.com",
+                "jcpenney.syf.com",
+                "samsclub.syf.com",
+                "tjx.syf.com",
+                "verizonvisacard.syf.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v3\\/oauth2\\/introspect",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syf.com",
+                "amazon.syf.com",
+                "belk.syf.com",
+                "jcpenney.syf.com",
+                "samsclub.syf.com",
+                "tjx.syf.com",
+                "verizonvisacard.syf.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/digital\\/data",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synchronybank.com",
+                "www.mysynchrony.com",
+                "www.synchrony.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/digital\\/data",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synchronybank.com",
+                "www.mysynchrony.com",
+                "www.synchrony.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/utility\\/content\\/pages\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synchronybank.com",
+                "securelogin.synchronybank.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/utility\\/content\\/pages\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "synchronybank.com",
+                "securelogin.synchronybank.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/marketing\\/offers",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dyjsession": 0.000013699286952114143,
+                "_dyid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "mysynchrony.com",
+                "www.synchrony.com"
+            ]
+        },
+        {
+            "rule": "syf\\.com\\.edgekey\\.net\\/v1\\/marketing\\/offers",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.syf.com",
+                    "resolved": "api.syf.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f496778d98e2f3bf59d4dae4fc24a3eb7ae4db94af0077206a28da6da127f23c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_dyjsession": 0.000013699286952114143,
+                "_dyid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "mysynchrony.com",
+                "www.synchrony.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000103,
+    "topInitiators": [
+        {
+            "domain": "synchrony.com",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42105263157894735
+        }
+    ],
+    "types": {
+        "Document": 7,
+        "XHR": 12,
+        "Preflight": 14,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

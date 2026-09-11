@@ -1,0 +1,103 @@
+{
+    "domain": "edu.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "cookies.mayo"
+    ],
+    "cnames": [
+        {
+            "original": "cookies.mayo.edu",
+            "resolved": "cookies.mayo.edu.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "edu\\.edgekey\\.net\\/api\\/PreserveCookies",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies.mayo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cookies.mayo.edu",
+                    "resolved": "cookies.mayo.edu.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "efd1cb0530ef460ac2aaeddc681b257ced449e2eeb74abaf135be0bb5cc31006",
+                "113c811c9482cf1d8bee002d34e9d41917c79cf700459c5d77f0c557863c6c56"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayo.edu",
+                "college.mayo.edu",
+                "www.mayo.edu"
+            ]
+        },
+        {
+            "rule": "edu\\.edgekey\\.net\\/api\\/PreserveCookies",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies.mayo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cookies.mayo.edu",
+                    "resolved": "cookies.mayo.edu.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayo.edu",
+                "college.mayo.edu",
+                "www.mayo.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "mayoclinic.org",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": []
+}

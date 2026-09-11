@@ -1,0 +1,2312 @@
+{
+    "domain": "stripe.com",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00967,
+    "sites": 1412,
+    "subdomains": [
+        "checkout",
+        "js",
+        "m",
+        "r",
+        "q",
+        "t",
+        "api",
+        "connect-js",
+        "merchant-ui-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stripe\\.com\\/checkout\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Date.prototype.getTime": 15,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.width": 6,
+                "Navigator.prototype.doNotTrack": 6
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "a658116169161adcc29df6289f7b5ee48c60d0875633334eaa00e609378a7ac6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "560theanswer.com",
+                "aaregistry.org",
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "m.tapas.io",
+                "max.dragonflyathletics.com",
+                "somafm.com",
+                "tapas.io",
+                "www.dailyjournal.com",
+                "www.gradesaver.com",
+                "www.mathgames.com",
+                "www.penana.com",
+                "www.poeticous.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/clover\\/stripe\\.js",
+            "cookies": 0.000116,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 78,
+                "Navigator.prototype.userAgent": 78,
+                "Document.cookie getter": 76,
+                "window.name": 29,
+                "Date.prototype.getTime": 17,
+                "Document.cookie setter": 17
+            },
+            "sites": 79,
+            "prevalence": 0.000541,
+            "cnames": [],
+            "responseHashes": [
+                "e79226da8bcf508029b2d9fc6be591943753c7e4f3e806354d8378a83a286a43",
+                "7b12ff1eb81b3707cb07ecd8196dfe0119acbc891eba087d319bda9383bca604",
+                "7d22e5a7f37a143e38def53933051b13c79010967d49486c005ae25a4bf9db26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536006,
+                    "length": 42,
+                    "prevalence": 0.00011644393909297021,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1806,
+                    "length": 42,
+                    "prevalence": 0.00011644393909297021,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.autonews.com",
+                "www.jogg.ai",
+                "www.irishnews.com",
+                "www.runningwarehouse.com",
+                "dockwa.com",
+                "www.zappos.com",
+                "www.privco.com",
+                "www.dioceseofcleveland.org",
+                "www.artguru.ai",
+                "www.tacklewarehouse.com",
+                "www.seamless.com",
+                "www.woodlanddirect.com",
+                "www.ridingwarehouse.com",
+                "petersonacademy.com",
+                "trumpaccount.com",
+                "www.gelsons.com",
+                "grubhub.com",
+                "www.icewarehouse.com",
+                "www.cariboucoffee.com",
+                "www.crainsdetroit.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/controller-with-preconnect-63c674388cc83114f8b13894ef9b8a34\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 241,
+            "prevalence": 0.00165,
+            "cnames": [],
+            "responseHashes": [
+                "a17aa72b53831b6a0fa03b9d331dd99e24815cfc36484e126fd401be5ceb1393"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.searspartsdirect.com",
+                "app.roll20.net",
+                "theletterpilot.com",
+                "www.thechronicle.com.au",
+                "cbioffroadfab.com",
+                "cafezupas.com",
+                "www.basedlabs.ai",
+                "a1solarstore.com",
+                "nation.cymru",
+                "www.crainsdetroit.com",
+                "eji.org",
+                "jsaccessories.co.uk",
+                "totalgymdirect.com",
+                "www.thereformation.com",
+                "www.skool.com",
+                "iheartdogs.com",
+                "www.nationaleatingdisorders.org",
+                "havenly.com",
+                "www.nsfwartgenerator.ai",
+                "www.4statetrucks.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/m-outer-3437aaddcdf6922d623e172c2d6f9278\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 915,
+            "prevalence": 0.00627,
+            "cnames": [],
+            "responseHashes": [
+                "35dcc382eb69d00369d708708cdc545f3968b68fa5bbe3e728d11fedd04f93bb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "itsfoss.com",
+                "money.cnn.com",
+                "prezi.com",
+                "theconservativetreehouse.com",
+                "tunein.com",
+                "www.cnn.com",
+                "www.npr.org",
+                "www.scribd.com",
+                "sapling.ai",
+                "www.borla.com",
+                "www.sounderatheart.com",
+                "apps.npr.org",
+                "www.gopowersports.com",
+                "www.panfoundation.org",
+                "endtimeheadlines.org",
+                "www.everlywell.com",
+                "cerakote.com",
+                "lapublicpress.org",
+                "www.nsfwartgenerator.ai"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/",
+            "cookies": 0.000671,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 530,
+                "Navigator.prototype.userAgent": 530,
+                "Document.cookie getter": 516,
+                "Date.prototype.getTime": 101,
+                "Document.cookie setter": 98,
+                "window.name": 97
+            },
+            "sites": 543,
+            "prevalence": 0.00372,
+            "cnames": [],
+            "responseHashes": [
+                "318dba86510651525daf4fddb60b4d82dff25835dd79f5ac46d53f38b9231bf6",
+                "65b0080902d02f7e53e459f7e05785c19daf651b16ae1273f643d3442ab8a2fa",
+                "75bcbb0e140530c05d1318169ca56d9668aaa0ca155eae4cf859ce2b2bb6254f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536005,
+                    "length": 42,
+                    "prevalence": 0.0006507161302254218,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1805,
+                    "length": 42,
+                    "prevalence": 0.0006507161302254218,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailycaller.com",
+                "itsfoss.com",
+                "theconservativetreehouse.com",
+                "www.npr.org",
+                "www.scribd.com",
+                "www.brighteon.com",
+                "sofiahealth.com",
+                "leetify.com",
+                "www.independent.com",
+                "www.thenerdreich.com",
+                "www.nugs.net",
+                "richmondbizsense.com",
+                "www.salemreporter.com",
+                "roll20.net",
+                "vidiotsfoundation.org",
+                "eminenceorganics.com",
+                "meyerhatchery.com",
+                "www.musicbusinessworldwide.com",
+                "www.trumpstore.com",
+                "www.hertz.co.uk"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3",
+            "cookies": 0.000288,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 234,
+                "Navigator.prototype.userAgent": 234,
+                "Document.cookie getter": 225,
+                "window.name": 94,
+                "Date.prototype.getTime": 44,
+                "Document.cookie setter": 42
+            },
+            "sites": 236,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": [
+                "318dba86510651525daf4fddb60b4d82dff25835dd79f5ac46d53f38b9231bf6",
+                "65b0080902d02f7e53e459f7e05785c19daf651b16ae1273f643d3442ab8a2fa",
+                "75bcbb0e140530c05d1318169ca56d9668aaa0ca155eae4cf859ce2b2bb6254f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536005,
+                    "length": 42,
+                    "prevalence": 0.0002465871651380546,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1805,
+                    "length": 42,
+                    "prevalence": 0.0002465871651380546,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prezi.com",
+                "tunein.com",
+                "midwestmilitaryequipment.com",
+                "www.tampa.gov",
+                "www.merchbar.com",
+                "rugs.com",
+                "nevadacountyca.gov",
+                "rachaelsgoodeats.com",
+                "www.greetz.nl",
+                "gearfocus.com",
+                "www.reventure.app",
+                "iheartdogs.com",
+                "www.article.com",
+                "www.mac.bid",
+                "www.terabox.app",
+                "myqrcode.com",
+                "www.backthenhistory.com",
+                "www.zeffy.com",
+                "saucey.com",
+                "www.scoutmotors.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/dahlia\\/stripe\\.js",
+            "cookies": 0.00011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 67,
+                "Navigator.prototype.userAgent": 67,
+                "Document.cookie getter": 65,
+                "window.name": 16,
+                "Date.prototype.getTime": 17,
+                "Document.cookie setter": 16
+            },
+            "sites": 69,
+            "prevalence": 0.000473,
+            "cnames": [],
+            "responseHashes": [
+                "c14c960907ec54570a58e7f394daedeacd873818d95107c5d5e56100f470fa89",
+                "b35e19dcc89b234f169bcdab1a25137b4cfaa9755200f608313dd6a9273b923b",
+                "099b5ba6a4c44554ed71944427aedbb024b5362fa2385ff0453e20a6043aad24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536005,
+                    "length": 42,
+                    "prevalence": 0.00008904536518874193,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1805,
+                    "length": 42,
+                    "prevalence": 0.00008904536518874193,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theatlantic.com",
+                "money.cnn.com",
+                "www.cnn.com",
+                "www.anglingdirect.co.uk",
+                "anglingdirect.co.uk",
+                "store.supercell.com",
+                "sfstandard.com",
+                "worldviewtube.com",
+                "kling.ai",
+                "www.broadway.com",
+                "app.speechify.com",
+                "lessgames.com",
+                "www.ember.to",
+                "www.cinemadiscs.com",
+                "goloadup.com",
+                "lafourche.fr",
+                "mediabiasfactcheck.com",
+                "kymkemp.com",
+                "www.hs.fi",
+                "classpass.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/controller-with-preconnect-b0b571881b0dc8be5fc05fdae45cb2ef\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theatlantic.com",
+                "context7.com",
+                "dolosangeles.com",
+                "jeffersonpva.ky.gov",
+                "mygeodata.cloud",
+                "ruggedridge.com",
+                "www.drivetrainamerica.com",
+                "www.furnacepartsource.com",
+                "www.hairguard.com",
+                "www.panfoundation.org",
+                "www.pintspoundsandpate.com",
+                "www.rayallen.com",
+                "www.thedashcamstore.com",
+                "www.uvi.net"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/",
+            "cookies": 0.000089,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 17,
+                "Date.prototype.getTime": 17,
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 13
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "a1b09be9a7642c5fee2094c5c169b8bfd0ff0c325cc873771bc53973b5ef60a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_sid": {
+                    "ttl": 1804,
+                    "length": 42,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "__stripe_mid": {
+                    "ttl": 31536004,
+                    "length": 42,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "actionnetwork.org",
+                "armorgames.com",
+                "bringatrailer.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "monroneylabels.com",
+                "scootaround.com",
+                "somafm.com",
+                "wooxstore.com",
+                "www.dailyjournal.com",
+                "www.gulfstreamcoach.com",
+                "www.rentometer.com",
+                "www.sevenrooms.com",
+                "www.southernexposure.com",
+                "www.texas-drilling.com",
+                "www.unclehenrys.com",
+                "www.uso.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/channel\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "a3e859b8149a06247853276aa0b4c79c4f3d0d63e91baf88bf96b76fbfc1b492"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "actionnetwork.org",
+                "bringatrailer.com",
+                "monroneylabels.com",
+                "scootaround.com",
+                "wooxstore.com",
+                "www.gulfstreamcoach.com",
+                "www.rentometer.com",
+                "www.sevenrooms.com",
+                "www.texas-drilling.com",
+                "www.unclehenrys.com",
+                "www.uso.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v2\\/m\\/outer\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "4a7a6fa6a427dfe38d198623281cc424fd1953329062b4746d2c2005f1069d50"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "actionnetwork.org",
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "monroneylabels.com",
+                "scootaround.com",
+                "somafm.com",
+                "wooxstore.com",
+                "www.dailyjournal.com",
+                "www.gulfstreamcoach.com",
+                "www.rentometer.com",
+                "www.southernexposure.com",
+                "www.texas-drilling.com",
+                "www.unclehenrys.com",
+                "www.uso.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/6",
+            "cookies": 0.00182,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 267,
+            "prevalence": 0.00183,
+            "cnames": [],
+            "responseHashes": [
+                "198a22d6f360cd95f093b02c114b21d66e610dc099e5fa69cefabf2cee40a869",
+                "68c0ca516dafa8f70c712919548627dca65c49be05149657ab0c359ce3cdc2e5",
+                "9363dfec49bf885bb44b7120fdfd697565e358f1a69c17edfc19695d2b481806",
+                "52bb94602f98a6febc0069dc3934f0ce644957101a9258d302d85c934a8d265a",
+                "abcfe680f07f2f7926be14df33db10c1ecac5e8d3ce8011b65f5cd35a95ca8cb",
+                "ff6d148d102dd488e7418f064174b81e9ccafb448715723869aff7d1f20dce0b",
+                "e5d4069e9e2aea1ad7f0941106aa66ea6d55899b052070b7db69f570eb7e0026",
+                "286185c8193b0a20fc392176426649b4753bf1df69c33e0ddad1e4ac3b707374",
+                "44914e452944ce196591c83663e93bfe44e97b9c941a893e179a20591baf4bcd",
+                "8b4bfea9ad84e13500a36f80e9d27455beb209379809b8b52f9d89873cce55fc",
+                "06e4c7d11b453c510f67ced694420f826c968f2fbb9cb258c1b37e51172ee8f2",
+                "30284c1d5e5d6e30dd29b14ca8cb7e64315e9a6f9b7c6bc83c7c96524b628b4f",
+                "e93e1bc5a7f75576f75f5c9f900c1826bd5b7ef3a84e6d14d02978fc66fddfee",
+                "7d60ce4a597b15a6fcfdcaf8fc10414b8907144547dc6d02bd4974b6a48db26d",
+                "5d3693dd698f2428d4eb8c17b41a6e2b72a98e4a43ff1400402a6857ee7ced30",
+                "c3e2e2e4e2db6089bc2f1ea8e8b635eeea0b4f9115fe12bfaee1a3e28f3c15c3",
+                "643dff743497670bf57de9e4f59ec8aeea3a391cd2b11824ba47b5602cc873c4",
+                "e948449c66adb2fbdbd061dc80de3d560caf9d98631b17f6bf4dca35d31c4316",
+                "08096900c82f1e0c6b70f450f55fec28ec6b34008ce93204e84465deb5a1b6c7",
+                "ac3fdbfb5c29970bab43275d27106a412259df8fbb65e3ef6bd6d97cd33b8c57",
+                "a6c1e00995ebab330be38916c3b1dea930f2852b232f04e99708ab6ffbccb521",
+                "bbf5c3000391d2f7b17aa0541548fe1bcf215132f73602699b405b7f660664ec",
+                "9a589eaa9e14c668c99816cadb82cfd153812c13004d61f026fa970cc34e8baa",
+                "3ef8027a63ef2bddffc6f8f43a431acaa317857fd9cd1942f89d382a944f704d",
+                "6005364881953e9a8a568d90f19cfa0e4a4720d6cda64c4c4ad91a93e8cac146",
+                "c3136b2faf29d4fe8471cbc756535182b4d6c52eb153212752a4e9c065b1ee66",
+                "ba68cc030624337c81e66bd9cd9a7b2f0aa9531b42934342ea78d6548cd5bb65",
+                "96c17370a77848a54fadc67b5b4f7a25a219f6f6d0f5ddafea359f6df7bf962f",
+                "3bb606f61d1534b9e389cc5977bbc73eb11426424e6b283036844b6d844027ef",
+                "b3ab1610bcc8950dd3b0acb030cd02697c845acae16cadb4d8971f34dfe7cce1",
+                "dc7eff09c37c1feb80676357c3b80ae32fa11089df5f09d33f70f6c3d6233d5a",
+                "128b74e68cc5f77bd7b70341d05ea6adb7db7629d0444cec8528b2a619fdc0ab",
+                "7378cfae4500e34f1788ac0419d1650022a342eeb99b86a42d957617a7355ede",
+                "d754c88bd50d551109b7534b427039b9b7be6b6f93b0547884e016d0a5fcf865",
+                "1df35684fce58b96f28204a0f7629fbdfd7cb5d3f01aaaf6cd8789ed19917cdf",
+                "27651ba3aff80083ef02b6a5b15f37cbbe5591866e2e5a30867754a4cce2a0e2",
+                "5d322ef92ac00c9f45a212f259d146ba8ac63b0ca3f44a7ff10ad06cfdf14b16",
+                "233e3c586a44c44ba7f923ee0b56575f9bb9baaca2ec783a42a265c5cb1d195c",
+                "d34989a8e4dfe9d4f010224c88f4362bfb14ee864527c2f55e64fe617542a541",
+                "aebfc73496310b39dfb77619f4a77e2807f1388b7cd96d4287942cccdc3f4f0f",
+                "0992aa976fb53f9b02941a6abf779f22892b122524b7213b9327fe8f6440fa54",
+                "5c369cc50050363d12dfab0a6916fab0260f06e5641cfefc7741e5b6b18f0ca9",
+                "ecc4780e35a769495533a5b634abd879fab4b4c951761e3dcb1e46eadf4376c5",
+                "75a9183c110aea711c624788aed9177c3c74ce34a96ca05714d7f058022dfcc8",
+                "e7846996dac25278743e047f0f5a36b8bf39b674ec69356dbf5a2ca9f5b287f5",
+                "3fae71980b996e7bbf50bb467db28bb6a059d1732fb25ba4e54c44884eb43ae5",
+                "f208249f9db39234e11ca36182a0d9a599109eefe2e81af19d8d92b7a344603a",
+                "54bcc50b4083a01bcf08476045251fa93a1bf73ffdc0a1e2695e4584797e998a",
+                "7f1c9a2b57e6b6352e2acfc73d1fca5b56cbcbf8227d57a00c993fd04a288213",
+                "84a7a6f72e181407dcca8282d3c5c6a70339f50e0ad8538fa53c6d052a17756e",
+                "5334c8eae446550693e15243335ba6113c2707d9b10474a638d02d48462b3851",
+                "95a66bfee15a2857f2e8b5ea4bd5b3c3a614cc687a3582682ec47167d80c6113",
+                "726741dcdee5c6bb36818ad042a24c89ed7af31cd74700137d973505bb75fa53",
+                "c4f1c3f0a8fe60a2b93719d0a4fcee7f26b5baa2df0aa70b631d0e68e6872fb8",
+                "fb7fb8852121833eb6f98f0fb44468a7ec05d96926927137abb2cbb63ee32b1a",
+                "dd368754f33b6bf148daee11cef7ccdc742cb6c9fae169946cfd6cafed267778",
+                "67f27278cd3df661420c1048cfc618a4adea659b000e91e392b145c26173de9b",
+                "d9a1acc9f335df31d0086810aec2fc029fe7511b2b4b540c03f0302d548baa9d",
+                "63b2d07c806292eaf90d37d1095927d4a2370fdf4f8daa021c5dae88ef72ef9e",
+                "fe5837be72e6aafb1fe9ac0ccf4e8f970cd5b3796b47783c6ce04bc9ab2c41c2",
+                "1263eadae876505e43b18442be9fd57f77e990a1c06c6af8e921495723eaa0da",
+                "35f193112db83fa25e8641f9853fe9393b31e06c1a2f6cdc70a3b9ccfcdbffd2",
+                "efc79309a12922b13218919da18e08bd52eda3c4a902dda620037eb09e3f2cb4",
+                "695631dedad2fda818632b0faccf6e0730719b7eb68a547f768b5437c9f34ba9",
+                "7b03d07c1aa4d30195dc5b95c8482ef043ff93d7c993c6e313bf7cb21dbf0e74",
+                "069a4848b1e9a8afe10e14032e2323b270f2a38eef5009b8964f9c365ef17574",
+                "d54e8d18d28658cfe1945ca5ecfd942995b878b6cf98076e5f18d19a692bd487",
+                "42c73446316d3333cbbbd0bcbe5e641d54d68976b313a3608c16d7b9bb2f3448",
+                "ca0a45f9b00074a19d8c670de444671d818f6c519dadf31fca67ddbb27e3b696",
+                "007b076a883eaa90c4d07ad43e874afec64126762c66cfca9b370301e2b296f0",
+                "2734ac163498efff92c75101f62068c7e73c100bd61441d02b6fde5f4061208a",
+                "db24741d4069c1a175c138df1b157022110c7100cefb8bbe597ebe24c51baca9",
+                "d9f64111836dd2f286272e217c09947451be9b4b6e275009621c076e9591867a",
+                "e9206770302d61d030e05b70c139ea4beea68a875dfefa4c087e4b5cc08fe5ab",
+                "d7020a0e12bfc7d64cf10aca5a252a24277290cb74f8deae5a74a66d1da4c8a1",
+                "4a53280f39c55ddde190d41ba3ec780adfa23fce3521f9c37e1a8b81ed09cb21",
+                "e484f0be17bfb1a10c13343cbd875fc759c2e4e4b1753f6bc5a8ce9f48b286a1",
+                "b1fa4c5b42e28a11656a701e2511e0b9a6e0d58f1c72c78b25b687c73708c6cc",
+                "21a071ef4d3939ef97b195c207c3d4d4770c4be1b3519cf4b65efa6940deb8aa",
+                "f8cd9ea59f2d011557c87e3f1d6804e2a430ea310778e859b24120bf9c1b621d",
+                "138801710677a2792f7dc72709996311415e4b27736dce0a26bc62309ab1fcd4",
+                "4af740dfb8083568b840f9e8c88f06de9906713caddf22882489bcefa4973320",
+                "0fb33a4250b225c0351c29d657f00e302580dfee0a4dd9b9bd831d479f21ff34",
+                "2e339a752d062a25cd1b3058110b504871fb4d7bf63f61da3a5a79c564db1037",
+                "a23246191cfa5f79eac0659d0616923529e2d8babd5b0d6a6dbcd743241451d6",
+                "6e3ac95419a4964fd693aaaf8309d12df89d2454dbe27122a93c95dd4393c1f6",
+                "8c2265664a5b142721dd7f6310e086d71939dc171d4e2c40c2637168ff2ccd5a",
+                "26e136b10395f70465ba6f978d962688bef7c593ea2a383b3b9c398e0ddf1bb1",
+                "bc333878d8383c84ac66ff89f092734c625627354179b81611654c3822f176d3",
+                "ed26c05db002ba2e02c356be95fa4ac2fe9dc8c3551f388ff80c43d98fe3a7f0",
+                "40ebdf0e1cf0a678939eda6515b64f62e9144f643525c3772a26064adcad660f",
+                "e4bcd027a850f101e6340e3a472c881a397a2648779f3de5cc9539742485d963",
+                "7610905cae33ddf2bfb7952cecfc6dff1db2fbe21b1e5c534f5bddda8b31862a",
+                "38022bd021c2663ad10621a47ac1bd43698e92ade9cf5481d383e7925f7cbee6",
+                "60f96dedae09938145971fc8f67d45155192abb42fe95cb5ffc6ca1241a035c5",
+                "06902dd7173457b4d3e2148d42460da5136f4f07ddf3c5d4e6151e83b4588ce2",
+                "85557418aac89acb649b7888d4a89743ffb536c5a32a51aa3867842594f95306",
+                "5fbd94b2045f8be8ff660545d5ceafbcf8d9b94a63b7c341b7eccfb2e69f8d4b",
+                "bbc62482525af3e6f2e3f8476247df4263b5a0450e47aa89e9e199b5ee02280e",
+                "797d8c4dff0ed1d6db733dc2af2ab6086b982e5aa9bef0317e16ad03ade2686d",
+                "eb49198fb7cc23026db97b1ebed07855981d84c0fed75028737940780aa0f7e1",
+                "838ff5b85fa48225ba020b48dcd4f463afeba9f8cab28e9b79549246c4bad632",
+                "3e6d506753aa5569785a1c430b12d7c01821032e75b6583f2eb66dad3e5de788",
+                "08f0110411960271e355dce122aeb2c5aaaca5aef79db18c1a83ed47581dbec7",
+                "115f59fd6908e5b38b0dd2fe3c66fef8e9b1c4feea7ee005fe135dcdcd6a2f50",
+                "439833a9c6dc1585e2578f15a1ddee20684c8fd757d0517b7a54fafcef6de64a",
+                "20240a778cc05f38655336dbeeaa0063453d1307e2987ef8f39a094b78327d2e",
+                "2944f6b03103d32c364aab69d5a4da1770d253be0c320ae9fefc1a74c3ba7124",
+                "ffc9936ea5c9672e6ac57403c6507ba8da860e61cb7c540efe972e3556748acd",
+                "9e6f30e3ed5bf4ea52d8617725e5a433c11138be676d41065a4962a1e2ac3d58",
+                "366c193ffd0a81b57578bba82c7e8fd3787be960ff8c9165824da7fc2b5d40c8",
+                "d615e4c432124bad67a181187ad929e9447a4ef971bba7f0aa5320d345cb183f",
+                "437fa05d1d341cd163aa43fd0804ed451a4e163d98c27ed875f958773b013de0",
+                "c1964e97dc65be06be8031a20183c46d755e65859709667cf6a867220a1320f9",
+                "3490ed548bc78534de573b78e5b6dda6db54f7280d9087c0fc95b9a877a48c8b",
+                "836e032004955e2c2c2b2c52c99ce568ed9a0e2bc75daa36c6b95a5e5fb8ece5",
+                "83b8ab9638df6d0eb01508df550b28524b42cc4aa5ffb4da5b544a1ff36c6792",
+                "f27b783db1050f9c207b1cdef09b76d794aaa8d36940275b7d59bd41567f2af1",
+                "e2ba3d4fcf3fc8983b3d2cfd35302f0552af2c9a7bb8e34706c4b103c4445cd3",
+                "55a90a5819e6e1fb0343dd7b19c50438660cec134aa7994ae9aaed08017c243e",
+                "eaa4772dc005d37227b532bde4aed10dc41587cf86b84b550c35d687ecc2e4ce",
+                "ff5d866ae59d8144c832ecb081e56287ef75d7a2a4b9471c622f9cca54b43b2f",
+                "5e67e827415b84e0c407f5e392a0fa4626ef868c68939549a26fd642c9288189",
+                "65c09d1f3ee57248347cc17a163d66e00ec80df57974512a72693cabd5451547",
+                "41f8f45ba8e4555eeb78d568c9767e954f0e0af15c99d987f588f460dc6f4460",
+                "ee67455580af4bd7343c0603df73486eaba49ed8f67342978ff487384013d4c3",
+                "b73784740afcce82ac48c39e656e4027db2cd2803063ffd0c1a7eef51893ec98",
+                "d11af71a40fb6357edbc975729fe77283bbfed400b2703aafd2d629d6b8bc97f",
+                "6e61a03a85bf8a5f263d633f55d5efda616c4255e06ff463ee180ad7af46beb0",
+                "97c38732ecc1f29137b9a5c3740d4ba6c24d24e7b0535469dd9f83d2cdd532fb",
+                "c765ea95e9b1ba2333187e25757ca5145b4ca8b37a1a05995a0584cf2c23943c",
+                "42dc05135e1ab18df88f2b6c01af85b231fc9500f54d74d5bb32e9e147171b96",
+                "9541c507ed8623d245d30da65897b355da692722a949ee6fb0ad1ed5d99d94c0",
+                "fabb48e2d7bfdd6cddf4cbbfc19fa2143a168b5681c397d997e0421f8c948b38",
+                "eed5fc36fa9f20e4ba52701512234143ec73ca24b05f2eac344f784482e8fdab",
+                "95e0fc8ebe06bbb9a0a197a8d253203d5e07764b46f27b4bd823faeaea4e6c81",
+                "3e744305ddb34fb56cf172bc39ec734ddac5bc58523a8f6979960fd134595b66",
+                "852a9b4d1d1ad544416c5fe72b4b60efd6205a849562b8c2c48b729808f32a11",
+                "c35b6937cf30eea1758cf5557204ebfbfbf5d9c133e37ead3b157592ad5fb408",
+                "7ede2f5ccf52de2b4a04d2bdd93cc33bdfcc81473c301c2f6543517a97dba928",
+                "bf5253c4bccfa78a8f8ce40c8827c5e298b721519ee4dbace821d47c48938910",
+                "fc588ae4358502188e36c6a710c526abb99f19a6693832ef51de81a92d7a49df",
+                "ed09a493b14858d00cb87d917cd2c7eb43ecb2d3fc9c291e118945d9dd67d496",
+                "c781592f74b2a937a1dacf1477ac15590705fcd6166b65d5991f858e23878d56",
+                "445803755cbeb3d7a55246261a329550cf812b2a5146f903656503cf6eaaf694",
+                "c17b4a33a266ac4fa50ae4ef51d3c3a71a6c9e099dc87ad584667cd647d04110",
+                "aba1ec326514f13ef4fb2e16ba7386cd576c813ae18b01a08970c199bdb2199d",
+                "b06280070383f0aed5ffdbb26fc0e62308748de790e890a9a57f355c6ef206b2",
+                "89858ad4ce9d8b4b67796156f5fd0fb86100796b9e382c59cdd4f9670fbb33b7",
+                "c1dbe4d1e8d524fe0d89a6d0fb9e979d1d5cc0d869daa0b6231326219e6f86a8",
+                "cef77efefb00becfc9aba7a05aaa449d4d68edf6e0de9f2368196d5772efd11d",
+                "3ae85d577dbcc7ad2911f5ce117506db6db75f6d6e0e51c787a4d1ce3ac417c5",
+                "a3f77de9752522cc6e0f60acaed52b22ad9d2e37e07da02f84e14658f6d1ef87",
+                "9342465b518d1f31911869354ff73ea1d8c3c04334b40ae7057246aca16f8c5c",
+                "6e1df51f45e311174550b94f0c2f4a996ad5c6bc11b5ac657c943f9afc01c160",
+                "879f9682b8985282e5d7f9e6ea182df15cb73af650569062155475eb0848709b",
+                "2d32ef5d4f1c9d58620fa3b264d6e62e064a2ec9e4b691a4bb052804f9a9ed48",
+                "6fcf402226b08a19c5e0c3823463bcda88df986b5a59e48c472ae95e6f17ed96",
+                "ae24eca530165f4dbf9b0b3d8ff6dcd73c2ea8e407b2e014dad26b806a89a19b",
+                "42b478669d122ee04028811689fc3a633f685dd2460ba0fd3f76011c2ca0ff87",
+                "583796492fd692a2c5499692abe11a2c803be3b7b75ae27ecafac5a6ea3827ac",
+                "d87133b7f699785002848ce03a372bc22149ab44a680745f339cb4988ac03c90",
+                "66ec6f357f21a895f84902d5d7c640955f5228fda15d363035eedcbab39ee734",
+                "b69ff5d1e3c568aa198cc33115447b4537f1c7cdd25a3bb16c08b91269459fb1",
+                "47d4067a070384d361a90e8b0cf78d700fc15e62ecb3c6eee73d1c212d12fc2d",
+                "a6fe6b7fc3fd40abac1d28b9e83a74863ed1b53420ee43a12772530eee59f8bb",
+                "7ae028adcd0cc11c9e945e1086bf1129e1281907cb4af9d2cb2d6821d8c2ae8c",
+                "a02228a30a1b524ac1bee57fa97c3fa0c338d848e5d540f63419d1e73c808407",
+                "db948ed1bf800f6f133d9d7236c6b274bcf72c9532dec1cb79a74e932da97485",
+                "070299c3fa907563a1f5551352097d54ca89348f25296d93dd686d743a943fa0",
+                "87cea079ee4d5e28158d0a1c4108ca89a52b53046374c52a740872a6137ecc64",
+                "8c5967a7b90a1af34bfdbc32959a5025e4444e7ea5b9f56d10cae4d0a042dce7",
+                "6459a6c29d0d8fb933d7f50c6a075de2b4cdeb9a298fc4c8f1f0da7a8bccfa5e",
+                "da7b5e747d69a961d8c17b8db006beba099e1fea1ed73be4a660a1f2c39c8d70",
+                "c5a9ca654e42955dd3beff6cbee95e6893d2c442f264d8940b01a8c853cf2d39",
+                "3094577a686a545e13837c6bbd6032774751a2c6c1442a0ca20eeeb376481bec",
+                "05d2605dbac0975d3092b6382092c6f912c60f4bb3f2791949d69d7e380bee2f",
+                "a66f0602c2314217f59b82fdfabc2bbb127741c59ef8d6307cc67f41ab8c6ec1",
+                "995f83ed93f9ff275919ba93e97b525ef1d654ca2622ae71c7a7cf0dcce3738b",
+                "a444555dc1e5dae21e12c23378849186d4d80f395ea77ad6e6c7b05f1416ae8e",
+                "666117da3d2bde9146766c2e1668f671b7a4337566bbeba351123aad6c144b79",
+                "f14f0456b156adf3c6483f5b3d3f73d7fb937bbc7fe3eeb61abc68bce9111e77",
+                "9b6fc89410d2a87677954ce5f8b320eb0758aa75fcdf363dd520b1e6c1fc22d5",
+                "d6bfda8c6af7083d11b3eece941bf964ccc9033c675d9667672b310d1f61eeb7",
+                "57e52dfee1c76db441ecbbb374443f045a4383aa24c1e75d8df424b96a0713be",
+                "35cad4cf239a840d548f5e0bd986bcba32a0cf44515e156292a966d06c3d5253",
+                "9afbdcb89d4bb878dfb26dda0291a89bee0c3e79d49e95707ebcef94154d323f",
+                "e1cdf2762817b90b6fda277b1b117bbe0383c2111eaaf4377c2bf2878e33c08b",
+                "9ed6750d4066ec8780dc5ebb87d614394008650a4e2052e22a41e6a0b755553f",
+                "1f9f01e55abf02ac83fa5fa7cac735a80e70bddf6dabcec5b1e081ca5c541058",
+                "0c2e1f28d9001a0043751e2972aad8940a2d9262ae4ca0848265877ae484b85b",
+                "3bdd6d9126ed9ee84c8a51562b19e583d90d16f6724aecf58ce394b89e0b28c6",
+                "84f46d9b8640030bb88162452f4b37a0e6371b3ae7d04a6abe024f4f93f776ff",
+                "07b41e1d02ffd075dd587e94db00b55a0d9a42f255334a4b949782140d84c5e6",
+                "5017d3612c342b4ae38f378f628cfa6a4a249c5dc9fd554b92477017d79fa887",
+                "50dab6a6b7ec3aea3cfca7edf0912161e441a40e5a5eb6b1a3e7da4899917fac",
+                "18572e40d81470e1cb5d0647d7f9f5a1334fc2d804a4d1bd10c6eff873f1ac65",
+                "5195e328ba2eed9edb7a6eb55c666b1d2ebbcbb13da328420643fd72f51e184a",
+                "785a73372b7451bf6e539ae3dec51b2812245326b81d10e14ece0c9ce43ed791",
+                "10eac2934d443aaa19f86b9f296f4afc85c0ebd09f9e6b1f3c58702ba4f73e8a",
+                "22bedebd45ab546797f07efcd16127759484f85881fbd32a799a8c074630911e",
+                "ce5d274629afb23eb2267cb7517041677474f9b6dc3e72e66ba6460739cfb34b",
+                "042b83aafd59335a9e3721074904a51586fadc50b7ab5cdb2a5648df99cac092",
+                "5de5c6d22af204b57ec9c217553ff5ccbe527a4a11d4fd1690a4e110d831b7cd",
+                "82ddae45718ce292263017b9ec49c230ce714596153c625a21f3207b72c3335d",
+                "6bf9be1a4969edb780e8aac2610a4388c5b1b9082a9064028b37d73ecbf34594",
+                "5c42d644c035aa52c5edba08f9e7f1040cd64dd22431c8d097a42ad9a3ec7215",
+                "91ca64e38add4fe591768d0a8ca9fbc670c51cf618c023dd9f0bfb6f0f98a7c3",
+                "3ef6a1e25e9ce99a618d40ad35dd74a4de2b69dc41fac1f11bef33947e37d73c",
+                "4e2a91752bf6437226ff118bb1267f0d8486d155b9bc99aac0c0e8b394c16c15",
+                "96d0aedc183277ffe8bae5aea050a8cfe2ed82d25088c46814a6a87ebcff9763",
+                "398acb6c87189391ebd157c8f8d7a8daa5ef83f6f813d4014ace6ea195387abc",
+                "06b9e51f264b212eb26538a2d7f7e6dee4cd22b931d0b2f1b0af78ab11f9ec6e",
+                "c704cd26af68e32ef7e3c5911fc3ad964c3e22870cd27a26927ed5c21e279286",
+                "af94eaa36f980dadfd1881c7faa50f0a06346f14feab4a7317cfe1352f3b07d0",
+                "8aca27af37d2d4cb4a20bdea435c4ba60717159bb6d2b2acd5110e6dfeaa8e2e",
+                "39f1da51dbbee8cfd41e084e35e0f1e13f8ff808393105d66c0e349a45116ad1",
+                "e3f2ff702d4ff9f2b1d720ccd7df76d540988e75f05aa2e287f8fc0267d5225c",
+                "835bb9cd209783559321c44300303178f364bfe024fa9cc5052a778628a72eaf",
+                "09a8e395a45ac6126a7492249a6eefc73300843edfc7be40e7d566f7d4ef076f",
+                "bbd95fdd4835b6fad352bb4cb9df653821ce37e22ce47c8ae900a7f9d4d5179f",
+                "3acf23b969d3091c62b1ce88c8ca0b265117bff5b5bf0922b4b5b97a4b1300e6",
+                "893c50148e64300e5c7ca5e80ca7f15ab2de77f4a1f429d3525c728c1c655ac6",
+                "da8efb320c5e1dacfb37f7cfcd49ca8a898fccdd999b63f00de8153f77764622",
+                "998b9e168d923b6f797a38141f73592cabe2f0dfe66c96a8961ed5e7869618fe",
+                "76a042e5e79e74524ac4e172baf2ebaceef8cfea7d448e07366d6b118f30844e",
+                "a7593c749f92b940a6ae6c5521b2bf69ef59b5fceb7cf54377032e013a55579f",
+                "d30ddf14ea7e16e8085f7cba350542f745759d8df3f48170dae9c65f77d2198f",
+                "ddb29f14b22143e1d4921853d5a71bc9e1afde41c4d16d8e2c62ef1b7dc5e21b",
+                "83684d982f9255dd93ae7e0954ae63dc6252cda51988612f6f7b43c4d742c225",
+                "a5aa243b3f7e637bcaf130b750d1ba8b9590a8a7e98de775f461200b696c886d",
+                "5662d6e621cc9454860643cf1529ce94906c2cb25e095507b1bb36b081124536",
+                "e20d7f666befcb1eb9dfcbf84da9733dc40364585d75a5d55c6e64aa6aeb8b88",
+                "f5c03091916f587fc29ded50f90a4576bbde122932d09f333d34624844c485fa",
+                "71fa54456cf5a2d3b156acf34c60c765676d10c498c1f60fb060e9686387b34a",
+                "5cb73c7d67faaf0fd8407716b82ec7bee537ed98bb539d2967f2295ac82eebf5",
+                "0eb0e069a9d26ac892d1e1079cff50f7e14100f0d3262c2bd1e4f68b9b156aaf",
+                "d4e7f37516f7d815e598bf957d65148b67c49f7e44392a0a7b3117451898eb60",
+                "e4160d2b334eaa36ba309c8c258853707cc05f7866bc67480f762c162e96aa0e",
+                "28f71fc994613a8a161c105093cfd353dc5a5355f0e79550e7596047cac41e36",
+                "f93a700ec3dbd2d0463070747da96a90e617ce9c0c1edc3dc4df70bc9f8d49ec",
+                "5cf00177e8a4a2cd3d213d5658d67f03b2952bbe8f190489fbffee544535dfb1",
+                "eec5214b09b54e8baaa2a2c6861e69bbd13fe1406b6f7f535f6a03478730c31e",
+                "e83dbd772546c1dabb6fb42c80c5d6d96383b17008be7831ba7ed1a9d07a70c4",
+                "9d95ed15ea2591f5d80e06a2f183f31588b4d4869b9e5bc0dd4768dd8e46cebf",
+                "57064522d8d9bf7d09656adf9f8e4d4f27e0c881a7cd2c127b93ab19b144dbfc",
+                "34033aab8d0131188aafbce6edd097ffaa8dc727f9a23c80dfa980b5088eac0a",
+                "9d387db84579389a2fbba5ece7f694ea96a381b0a15610de5ea25922bf665369",
+                "9389a10cf069d6a0abdb5cd22824b798533ee272cdd8fb6157fa2dfb56330fed",
+                "e51f053b42ce410a4d1ebff47372ccacacaf36ae281f9fb06e60d34967cf7fff",
+                "9c558cba48fa24bef554a7932250f6fd6756ccbf260317ffe9a8e6f048b72351",
+                "eca1331ab1f47329ffafd4e4d21c31fc43ed94727bb893f58ba47602654a21ab",
+                "7eec0a2654036aa21a8effd5c26e63c9a6acb2d1274f9587a2a1ddf6cc658e15",
+                "25c7317a0fcab175e641776d1bcf0e36893858026ae47882c436dc4726de55b5",
+                "671d03e168e218aed1fd7a546cd3a0919b9d866054d25351814ebd1377fbe086",
+                "92f622982455cb2e5cdc91f4c792e1d6b65b9811aa1d3fb3eca8e1031fd4610b",
+                "211d1fd67de4ce24fb5bfa3fbdd9716057c7440180936d7e4e3ab1cdbef0f747",
+                "2939d21452adc19e6d0f08e50695d4efd5fbdbff4110a8df74f4ee7d60827395",
+                "1a4a6a9bc79cbdfe4f7ff4431f85f5c62e942d702f293d2f2020c4f862c66fda",
+                "05fb883cc69a0b3e5c1afed6611fdd5ec2d32d706bda02206e872142605b4593",
+                "b7be3df3e60af3f841549bf075d0f021d2139571098df658792f616876bba4fc",
+                "4eb633da300d26fec5483fd805e12a294135476bf58856cd7e1450c6cb878a0f",
+                "e2d24ff5333a9b938868d1635ccb4c9b4ba3916514125289cf0ce06645d67928"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "money.cnn.com",
+                "prezi.com",
+                "www.cnn.com",
+                "www.grailed.com",
+                "www.independentvanguardadviser.com",
+                "fontawesome.com",
+                "tellyvisions.org",
+                "www.lenguia.com",
+                "www.monogram.com",
+                "www.rifttv.com",
+                "thedysautonomiaproject.org",
+                "landsend.com",
+                "milarmamentcorp.com",
+                "de.libreoffice.org",
+                "dmv-permit-test.com",
+                "elicit.com",
+                "wooxstore.com",
+                "barefootcontessa.com",
+                "www.inlinewarehouse.com",
+                "citysquares.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/basil\\/stripe\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 84,
+                "Navigator.prototype.userAgent": 84,
+                "Document.cookie getter": 81,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 14,
+                "window.name": 29
+            },
+            "sites": 86,
+            "prevalence": 0.000589,
+            "cnames": [],
+            "responseHashes": [
+                "8e963804e54c6255efdb4394aab43556e2bebed5fd1f41648aa5e2458d2e67eb",
+                "4c92356e03b04228a5372bcc4335dea80545ec941a5fa6ea5c712231303221ea",
+                "c3c6c168bdbc5dd4db0ffe5f8d735e0cfe5edbf85cf8c39beb48fa590285ca90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536008,
+                    "length": 42,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1808,
+                    "length": 42,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.onekingslane.com",
+                "stihlusa.com",
+                "purple.com",
+                "theletterpilot.com",
+                "syntaur.com",
+                "buywander.com",
+                "dreamcloudsleep.com",
+                "rausgegangen.de",
+                "www.jancisrobinson.com",
+                "mahjong4friends.com",
+                "www.pokecut.com",
+                "legacy.suntimes.com",
+                "www.chefsdeal.com",
+                "bsaonline.com",
+                "ridetrinitymetro.org",
+                "www.splashoftaste.com",
+                "www.ensie.nl",
+                "www.6pm.com",
+                "www.interviewpal.com",
+                "www.zappos.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/m-outer-15a2b40a058ddff1cffdb63779fe3de1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 263,
+            "prevalence": 0.0018,
+            "cnames": [],
+            "responseHashes": [
+                "ba2338aa6670580269c762f51c4291daef913201aa8f4d4fd166c1a878262652"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "money.cnn.com",
+                "prezi.com",
+                "www.cnn.com",
+                "www.redlineoil.com",
+                "greatruns.com",
+                "www.daytondailynews.com",
+                "kids-in-mind.com",
+                "pepespizzeria.com",
+                "festival.sundance.org",
+                "simpsoncleaning.com",
+                "dmv-permit-test.com",
+                "nevadacountyca.gov",
+                "www.whatfinger.com",
+                "buywander.com",
+                "www.broadway.com",
+                "troypointinsider.com",
+                "www.swfc.co.uk",
+                "www.dwell.com",
+                "www.cerakote.com",
+                "wanderlog.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/shared-caa97bbdfb17e6a15d8bc12dc9851228\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.connection": 5,
+                "Navigator.prototype.languages": 5,
+                "window.localStorage": 5,
+                "window.name": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1f1c1ac530fe673b9c104c4237d2c6cc059ff169ddfea2fff975d586fb0031dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/controller-with-preconnect-ba9cc9a7e8896e1361d231d062b037ad\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.name": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "window.innerWidth": 5,
+                "window.sessionStorage": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "03e092f203b7d6be5ce3122e6425a39fd0440025c3d07333176367863737b990"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/\\.deploy_status_henson\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "eaae2a43a92e57ba08e5f9ab95121dbe8dc2c1998c5a6a600c243039f5f1f641"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "app.roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/stripe-cookies-45f4853c7230fddfc4cbc4d7c2d9a2e5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "43e4da2a95e0afc96c1990ec312ba1130f555a643da29a094fb5328705019324"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "app.roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/consumerSchema-d4646b0c18060a1c86411c03fb3dc6cf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "766f88e9679250dff8139e56d1d45c40428d3c67224d52be2ccd522e698dccb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roll20.net",
+                "shopmy.us",
+                "worldviewtube.com",
+                "www.cspdailynews.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "q",
+                "t"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "link.com",
+                "somafm.com",
+                "support.link.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/v9nFCe96u8WFcnuLzMAwg\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "2e21b63ded511a75bb9a7d7b175e1112c7190504ebecbac2413b6afe62be94ce"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/loader\\/error-ikL4l4hFS7T3QKCcJq8HQw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "c13b8b4699ddfd52dba3a6118fb30a9574349495ce86784f9cc2160915582b91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/inner-kakXzeIFY6s0saDVTqyFw\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "8950fa6de43801121be8b4eeda4dcf4bbebad046f2d62719f8595906c1de6347"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/inner-XF3FGZrXrNT4Xc5fi1j3RQ\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.devicePixelRatio": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.languages": 5,
+                "window.localStorage": 6,
+                "Navigator.prototype.doNotTrack": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "8466c3f913720b64b2edb9fd9b9d10b5a1f055f61314930617506655dc4b9255"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/loader\\/web-theFp55ZqfSYqWvSEQJZw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "1d5db3c26b78e28c73915db3d8e61240316ac0c0865a6c1afd8d565bd3ac30bc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/data\\/locales\\/en_us-X4vUxCmdpnlrkiS03XTmjA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "daa7180667991ec8ba06c7f685bc14728ce70e1ebe8b3a6d12908c46097143b8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v1\\/payment_pages\\/legacy_bootstrap",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "9de66c6c8f0e10f35496cb03bd9dd69b9b8cf4cccf11f874a1c40517ce2072b3",
+                "e9f14e53fab20b4446f02951cfce87afa2eb125b22d1a23364c1181bdd108b61",
+                "a36a44a87104b995bb6a684c76e607e588d5199ba272b5d0fb8f7c60c94cc720",
+                "1a7dd498a3e14e3ded3f792e447bea820ad1fe3c26cd38898262d33ba6fcbf13",
+                "5a17807ec57d8392898596a0bc2f346fbfca501f626322f7413c5dc3fb8c9d39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "armorgames.com",
+                "citysquares.com",
+                "de.libreoffice.org",
+                "somafm.com",
+                "www.dailyjournal.com",
+                "www.southernexposure.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/buy-button\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "43ba192450cfb7733c9f6191346a3c162d19a1357ab73fc43f2398908b8ee534",
+                "a25eef789d94fad47f54df24ce93a57a2c68bb5ba58f46d2013563bd3714add5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balleralert.com",
+                "dinarchronicles.com",
+                "elliotoracle.com",
+                "openreview.net",
+                "operationdisclosureofficial.com",
+                "www.afge.org",
+                "www.club-melayuboleh2u.com",
+                "www.roomeqwizard.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/buy-button-app-4cd120cf9fecc5fbf8acb8a2376cf340742bb8b2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "balleralert.com",
+                "dinarchronicles.com",
+                "operationdisclosureofficial.com",
+                "www.roomeqwizard.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/controller-with-preconnect-5d3c15d8a17d5dc965abff5f20037420\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000253,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theconservativetreehouse.com",
+                "www.flexclip.com",
+                "streamlabs.com",
+                "www.croq-kilos.com",
+                "www.ehlers-danlos.com",
+                "www.heraldsun.com.au",
+                "www.lucianne.com",
+                "purple.com",
+                "www.searspartsdirect.com",
+                "www.gradesaver.com",
+                "link.me",
+                "www.ensie.nl",
+                "mediabiasfactcheck.com",
+                "www.thereformation.com",
+                "www.going.com",
+                "www.stihlusa.com",
+                "goodmenproject.com",
+                "www.mountain-forecast.com",
+                "stihlusa.com",
+                "bellroy.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-google-pay-7b3dd8bcf8d9518eb36476f228adf881\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christianstandard.com",
+                "eji.org",
+                "impactful.ninja",
+                "kymkemp.com",
+                "mediabiasfactcheck.com",
+                "nation.cymru",
+                "worldviewtube.com",
+                "www.americanthinker.com",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org",
+                "www.thechronicle.com.au",
+                "www.themercury.com.au"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/elements-inner-accessory-target-a6c83b345b81f33998c9681a8d40d5f1\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christianstandard.com",
+                "impactful.ninja",
+                "joehoft.com",
+                "secure.actblue.com",
+                "sunbeamwireless.com",
+                "worldviewtube.com",
+                "www.merchoid.com",
+                "www.spiked-online.com",
+                "www.wmnf.org",
+                "www.zeffy.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/button-qpwW2WfkB0oGWVWIASjIOQ\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "576c19f6140a328c4af9fa9e04f764efbe570b0e8e3e4f0f66c5bdde58562a8a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citysquares.com",
+                "www.dailyjournal.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/elements-inner-card-34093733ce76e060777c09baf23526a9\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailysceptic.org",
+                "findtheseven.com",
+                "iowastatedaily.com",
+                "kymkemp.com",
+                "lcnme.com",
+                "mediabiasfactcheck.com",
+                "nation.cymru",
+                "www.americanthinker.com",
+                "www.findtheseven.com",
+                "www.nyfa.org",
+                "www.palomar.edu"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v1\\.0\\/connect\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "1b6afcb3c8e382a5464215082859b79e287ab625b86709e94c3071690e63e9ab",
+                "46e3989e6f7a8d4afbe0c4ee8410b06b59a72b6a993278f3f28eebe4b39719c9",
+                "5fc9e19ee12a2ac078c4d9ab167bbc23dabbe5b45f62738410d843263db30ee1",
+                "a9bba186680f05473f45479fb0e00a6b80fdf6cc4243a97109bcadbd085c1078",
+                "52cc29bedb048718d8cfab65222e1b3b96fa3484b9f9af85e2d4cc0d7c53ba16",
+                "2b964cdeb0905a8138f13f2575e60089e31b151c9ca22199f5b6022bb1ca8310"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dockwa.com",
+                "rachaelsgoodeats.com",
+                "schools.mybrightwheel.com",
+                "shopmy.us",
+                "themomedit.com",
+                "topline.com",
+                "www.cardtrader.com",
+                "www.pintspoundsandpate.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-browser-4ccd1113830952960ac2847049868e69\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "impactful.ninja",
+                "kymkemp.com",
+                "mediabiasfactcheck.com",
+                "nation.cymru",
+                "www.americanthinker.com",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org",
+                "www.thechronicle.com.au",
+                "www.themercury.com.au"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/pricing-table\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "8a1b85311b0c06108a162226e1113f03ae2fa40215a188cb90f6e5dbdfb4aab8",
+                "f27b70157f3e1a6c1cfef4aa9b4ff256f5f6b319866cd1aca0acb933d7bb7de7",
+                "5068f723e6f2290b2c51ba036105d6ac6872ba1e275d76f74b9b2592432309a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "forum.creality.com",
+                "hdontap.com",
+                "troypointinsider.com",
+                "www.basedlabs.ai",
+                "www.finalroundai.com",
+                "www.mineralrightsforum.com",
+                "www.newmuseum.org",
+                "www.styleseat.com",
+                "www.udio.com",
+                "www.wineberserkers.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/elements-inner-loader-ui-4f87e91616bbf9e71bfe46a5e8fa64e4\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "impactful.ninja",
+                "joehoft.com",
+                "worldviewtube.com",
+                "www.wmnf.org",
+                "www.zeffy.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/checkout\\/button\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "checkout"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "576c19f6140a328c4af9fa9e04f764efbe570b0e8e3e4f0f66c5bdde58562a8a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joehoft.com",
+                "midbaynews.com",
+                "paulcraigroberts.org",
+                "spaceflightnow.com",
+                "www.sosyncd.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/acacia\\/stripe\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Document.cookie getter": 8,
+                "window.name": 2,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "f249d7769ed42d733c48834f22efded7c62be7a469af38eae7df03efbacdd51e",
+                "d6dc0643b52a4d257d6be5ec8fd36254499cb2cbdd0d57ae858c253c82454e07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__stripe_mid": {
+                    "ttl": 31536016,
+                    "length": 42,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__stripe_sid": {
+                    "ttl": 1816,
+                    "length": 42,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lfcarry.com",
+                "limewire.com",
+                "www.appliancerepair.homedepot.com",
+                "www.atlasobscura.com",
+                "www.calzedonia.com",
+                "www.fix.com",
+                "www.komoot.com",
+                "www.redbubble.com",
+                "www.udio.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "link.com",
+                "support.link.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/clover\\/stripe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "littlelovedolls.com",
+                "vseeboxshops.com",
+                "vseeboxus.com",
+                "www.denbypottery.com",
+                "www.fmshobby.com",
+                "www.hobbyzone.com",
+                "www.maynardhandmade.com",
+                "www.rokronline.com",
+                "www.weloveplugs.com",
+                "www.xmasterfitness.com",
+                "zgallerie.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-google-pay-bd9a68a2667059b391a9ab02634c5fa0\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediabiasfactcheck.com",
+                "www.americanthinker.com",
+                "www.heraldsun.com.au",
+                "www.theaustralian.com.au"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-browser-c7fdab0e59f71bf7cfe9f5f666057703\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediabiasfactcheck.com",
+                "www.americanthinker.com",
+                "www.heraldsun.com.au",
+                "www.theaustralian.com.au"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/elements-inner-card-2d6b7c68af6f67f373e5ce29cc26ae43\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediabiasfactcheck.com",
+                "theconservativetreehouse.com",
+                "www.americanthinker.com",
+                "www.lucianne.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/buy-button-app-d74221bc2a86f09939482682160641b74edfd15f\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "operationdisclosureofficial.com",
+                "www.club-melayuboleh2u.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/elements-inner-payment-method-messaging-8e11cd72486426fc505de4864422caa8\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qidi3d.com",
+                "www.chicagofaucetshoppe.com",
+                "www.pesi.com",
+                "www.solutionsstores.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/data_layer_09f9e9acb502b6dc6125\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0845a97438ef0441369459ee8684f10b132f4e6ae31e6abc7ebe6231ee7717ea"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "themomedit.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/dataLayer-490919a9fbb257b214c4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6438b6aa5079ad4cb3509a7894e3260b56ed21a2840a04c5cf1e09d7943e516"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "themomedit.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/accessory_layer_09f9e9acb502b6dc6125\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ebdb8f93abeb49f5822d5e9881e1f5820d49b59c03975c7721265bccdd897434"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "themomedit.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/accessoryLayer-072eb9b96b4e4692e8a5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a27a3c8999e9771a43c29a65a0d9fb2415a7528921a673c194a83a9a0a4d89f1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "themomedit.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/data_layer_789e72a4b648826b1dd0\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e57186e1b2cf6cc85ab82ce54cda548b96ed142deb8014d31ce825151a2ea96d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "www.cardtrader.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/dataLayer-a0bdcf80ed2371ef92c9\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "connect-js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f94b90b19b9423173e3284a10ffaa43fa0f66fe5356cea9d346ab50d2754042c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopmy.us",
+                "www.cardtrader.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.name": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thexforboys.org",
+                "www.reventure.app",
+                "www.writerduet.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/outer-logger-e0fd891885e9f7cb5005de21a9819386\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldviewtube.com",
+                "www.whatshouldireadnext.com",
+                "www.yeschat.ai"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/trusted-types-checker-965670723a8e0cba8d81169298db7917\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cedf6ebadd0a61b3de6eaaa42c7dfd82d30fcdbbcf886b87b18221068b90476d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldviewtube.com",
+                "www.cspdailynews.com",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-google-pay-e0d3232f04e6ec477ea8249a0bfb6018\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hairguard.com",
+                "www.hairguard.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/payment-request-inner-browser-c8cafccce925f2bda46c99ca20675177\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hairguard.com",
+                "www.hairguard.com"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/payment-request-inner-google-pay-009741d5f6a9c3f04429ac416346425d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "05e1ecec85a4f24c2bcbe12fc0ccf48dffe4275f8837896e5f8fbe0a98d74a81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/fingerprinted\\/js\\/payment-request-inner-browser-149a9fe1f2ea171e5b521678bfca79ef\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81c1cdbba8629cc8b5ced94f7efa7a29391a81714020dc74214b8534927b811c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/elements\\/wallet-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "merchant-ui-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "97832d250c721b4bcc68fd697c3a4aec00fe4fe01c95d8d97052a2175eed207c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.com\\/v3\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "318dba86510651525daf4fddb60b4d82dff25835dd79f5ac46d53f38b9231bf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thereformation.com",
+                "www.thereformation.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00194,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6334211516748213
+        },
+        {
+            "domain": "stripe.network",
+            "prevalence": 0.11930748964998118
+        },
+        {
+            "domain": "feroot.com",
+            "prevalence": 0.01957094467444486
+        },
+        {
+            "domain": "donorbox.org",
+            "prevalence": 0.018065487391795258
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.014678208505833647
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.014301844185171246
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.012043658261196839
+        },
+        {
+            "domain": "polimorphic.com",
+            "prevalence": 0.010914565299209636
+        },
+        {
+            "domain": "spreedly.com",
+            "prevalence": 0.00978547233722243
+        },
+        {
+            "domain": "assembledhq.com",
+            "prevalence": 0.007527286413248024
+        }
+    ],
+    "types": {
+        "Script": 1394,
+        "Document": 1324,
+        "XHR": 280,
+        "Fetch": 19,
+        "Image": 8,
+        "Stylesheet": 13,
+        "Other": 11
+    },
+    "nameservers": [
+        "ns-1087.awsdns-07.org",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-705.awsdns-24.net",
+        "ns-423.awsdns-52.com"
+    ]
+}

@@ -1,0 +1,406 @@
+{
+    "domain": "zineone.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000219,
+    "sites": 32,
+    "subdomains": [
+        "cdn",
+        "cloud3",
+        "cloud",
+        "cloud4"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zineone\\.com\\/cloud\\/latest\\/z1m\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 20,
+                "Screen.prototype.height": 20,
+                "Navigator.prototype.userAgent": 20,
+                "Navigator.prototype.appName": 20,
+                "Navigator.prototype.cookieEnabled": 20,
+                "Date.prototype.getTime": 20,
+                "window.sessionStorage": 20,
+                "BroadcastChannel.prototype.constructor": 20,
+                "window.localStorage": 20,
+                "Navigator.prototype.language": 20,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 20,
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 5
+            },
+            "sites": 22,
+            "prevalence": 0.000151,
+            "cnames": [],
+            "responseHashes": [
+                "91182c1869271717abd2348cd814990b01a608c5a6dd64cab70b52bf5d958c62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowes.com",
+                "www.lowes.com",
+                "www.stewmac.com",
+                "roamans.com",
+                "stewmac.com",
+                "www.boostmobile.com",
+                "boostmobile.com",
+                "www.directv.com",
+                "menswearhouse.com",
+                "www.catherines.com",
+                "forums.directv.com",
+                "www.josbank.com",
+                "womanwithin.com",
+                "www.womanwithin.com",
+                "www.roamans.com",
+                "twinpeaksrestaurant.com",
+                "www.kingsize.com",
+                "help.boostmobile.com",
+                "catherines.com",
+                "www.menswearhouse.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/connect",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.kingsize.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/connect",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7b9b11e8fc8eabb31a766175863cfced6c2f82623f49ec83590f18aa015c4cf",
+                "0d9552ba3267431d188f46913b7926f8eeff98d1bd7a29da5c5df46713192c0b",
+                "e25e86ba57a2e12e6862e70730b22a2ce733e36e44dce30249b6fbf12086e616",
+                "6a9e11ee88a60e32b2e90adb201b901aa8c7a7e6745c1a8b7a79ab0f8662cbe4",
+                "01bdc7cbc45d7d0d7bceaaa79e9b00a6ba835e9cb1769e78a4346a6fd0099c64",
+                "112568e7eadcb6b4ed4504283b534d523830a056aaefe506e55c707ce80a86d2",
+                "6f0d9a1fe99bfbce21fab2cc2b9126826725634aabbf1cd74d0b5907329bab97",
+                "afba314ecff6b730452927cb713a8cd67cef47ed2a9250d6b5cc2a4dc780d93b",
+                "27d2e5434e2594dcf9102f0794c51a9242d80727aec0df8027cf26ebbee6124f",
+                "fc6ab6ad3034805f284cf0ddb2172e466f0d18fec2f7b3e233bb6c3e60f5d098",
+                "fb0a7c2210c6e1b470bcf8c8e47202696c57bd15b7f24c3587527974ed543767",
+                "f4cd40895e7d892ed4c28a6dd489744b76a2630e688dcb18f121110844c68464",
+                "2d1d18c8d90b726d3537f3b81e12f8881b0b5a17377b480e4baff4eb21d18431",
+                "aa62abac14d263512af1f116d902c8aba0d1bf88cdde35a48a1874205a355533",
+                "fbbd59492625d1275d89cd66e224c5617583115f11a7e250a995ca2c76c990b9",
+                "92c4d49afa020ed3cf4c604834b9667a2b8b8cd85edee4f73edebdff49a2508e",
+                "498f004b0b6b2d567c6136b603064e547261d89c8be786724a24512aba4e82d2",
+                "49e4ff10b22fd848bc1256eb432fecc10dd762ec1580eeeb62a454a9cfab4637",
+                "36136242fbd384c7d8412959287e6b42befbb8b1ed2dc567f3b1df288258e85e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.kingsize.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/originId",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.kingsize.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/originId",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.kingsize.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/event",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/c3\\/api\\/v1\\/event",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud3",
+                "cloud",
+                "cloud4"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boostmobile.com",
+                "catherines.com",
+                "directv.com",
+                "forums.directv.com",
+                "help.boostmobile.com",
+                "kingsize.com",
+                "lowes.com",
+                "menswearhouse.com",
+                "roamans.com",
+                "twinpeaksrestaurant.com",
+                "womanwithin.com",
+                "www.boostmobile.com",
+                "www.catherines.com",
+                "www.directv.com",
+                "www.josbank.com",
+                "www.lowes.com",
+                "www.menswearhouse.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "zineone\\.com\\/cloud\\/latest\\/saibl\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "f1941c58ef85ddaa92e7f548cfc4289a140db340ed767c318fc90eba5e23e542"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "catherines.com",
+                "kingsize.com",
+                "roamans.com",
+                "womanwithin.com",
+                "www.catherines.com",
+                "www.roamans.com",
+                "www.womanwithin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4797979797979798
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.2222222222222222
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.12121212121212122
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.08585858585858586
+        },
+        {
+            "domain": "readme.io",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.04040404040404041
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.005050505050505051
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Preflight": 59,
+        "XHR": 59
+    },
+    "nameservers": [
+        "pdns03.domaincontrol.com",
+        "pdns04.domaincontrol.com"
+    ]
+}

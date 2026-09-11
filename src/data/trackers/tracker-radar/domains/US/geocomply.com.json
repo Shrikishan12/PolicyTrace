@@ -1,0 +1,85 @@
+{
+    "domain": "geocomply.com",
+    "owner": {
+        "name": "GeoComply Global Inc",
+        "displayName": "GeoComply Global"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "geocomply\\.com\\/plc\\/4\\.3\\.0\\.0\\/geocomply-client\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e98650a3ac0b67c889b4e0147b4f1ce67c405f96ef7ccddddfccad0d0f0b6e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.rilot.com"
+            ]
+        },
+        {
+            "rule": "geocomply\\.com\\/plc\\/config\\/default\\/geocomply-client-config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2904d5d1fa3a8919e8069ae9381d6579bc7d7b796bb45deb04554849d4d02ca1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kylottery.com",
+                "www.rilot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1154.awsdns-16.org",
+        "ns-1854.awsdns-39.co.uk",
+        "ns-481.awsdns-60.com",
+        "ns-588.awsdns-09.net"
+    ]
+}

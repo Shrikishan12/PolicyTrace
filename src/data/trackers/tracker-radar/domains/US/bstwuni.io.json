@@ -1,0 +1,123 @@
+{
+    "domain": "bstwuni.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "uni.nationwide.com",
+            "resolved": "prod.bstwuni.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bstwuni\\.io\\/uni\\/v1\\/tag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "uni.nationwide.com",
+                    "resolved": "prod.bstwuni.io"
+                }
+            ],
+            "responseHashes": [
+                "1c638f926e29802ed4b8d91feb937fa8a048606e9529a465519cd95555d82958"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationwide.com",
+                "www.nationwide.com"
+            ]
+        },
+        {
+            "rule": "bstwuni\\.io\\/scripts\\/uni-ab3f1324bf565abf36cd\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "uni.nationwide.com",
+                    "resolved": "prod.bstwuni.io"
+                }
+            ],
+            "responseHashes": [
+                "898930ef1fb27ae797a695e498d803e629653a28f541f7962a5e85260746b865"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationwide.com",
+                "www.nationwide.com"
+            ]
+        },
+        {
+            "rule": "bstwuni\\.io\\/uni\\/v1\\/event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "uni.nationwide.com",
+                    "resolved": "prod.bstwuni.io"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationwide.com",
+                "www.nationwide.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "newrelic.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "braden.ns.cloudflare.com",
+        "angelina.ns.cloudflare.com"
+    ]
+}

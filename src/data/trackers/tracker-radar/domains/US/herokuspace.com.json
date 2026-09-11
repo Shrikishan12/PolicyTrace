@@ -1,0 +1,92 @@
+{
+    "domain": "herokuspace.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "young-oasis-6556.desolate-refuge-8168"
+    ],
+    "cnames": [
+        {
+            "original": "api-graphql.biolifeplasma.com",
+            "resolved": "young-oasis-6556.desolate-refuge-8168.herokuspace.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "herokuspace\\.com\\/v1\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "young-oasis-6556.desolate-refuge-8168"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-graphql.biolifeplasma.com",
+                    "resolved": "young-oasis-6556.desolate-refuge-8168.herokuspace.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biolifeplasma.com",
+                "www.biolifeplasma.com"
+            ]
+        },
+        {
+            "rule": "herokuspace\\.com\\/v1\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "young-oasis-6556.desolate-refuge-8168"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-graphql.biolifeplasma.com",
+                    "resolved": "young-oasis-6556.desolate-refuge-8168.herokuspace.com"
+                }
+            ],
+            "responseHashes": [
+                "6db4bb32e5520b997ce44e33ad21294a610b589cbb3c2030e1c7285219397c65"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biolifeplasma.com",
+                "www.biolifeplasma.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-752.awsdns-30.net",
+        "ns-489.awsdns-61.com",
+        "ns-1136.awsdns-14.org",
+        "ns-1872.awsdns-42.co.uk"
+    ]
+}

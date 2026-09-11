@@ -1,0 +1,134 @@
+{
+    "domain": "userly.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "2632",
+        "2642",
+        "68"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "userly\\.net\\/cl\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "2632",
+                "2642",
+                "68"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "Date.prototype.getTime": 5,
+                "window.localStorage": 2,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.appName": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6002a346ce8ce3060181b27ecb5a3e3cd6de203ccc3fd962b2edff6e009f892d",
+                "3528d33552832cf549b2303e86715aad50e3b4e5299f770898a55b813739f789",
+                "9d22b0a4c9ae18c7608760a08178c3873e70264c1a6a52477be10e695e8088f5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "us_dt": {
+                    "ttl": 7776003,
+                    "length": 327,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledger.com",
+                "support.ledger.com",
+                "www.bymycar.fr",
+                "www.i-run.fr",
+                "www.ledger.com"
+            ]
+        },
+        {
+            "rule": "userly\\.net\\/p\\/live_ov\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "2632",
+                "2642"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3656f9f56be66f92a67130a55dadc9f93873f458c88b2b2c91bef20cc1ab19d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ledger.com",
+                "support.ledger.com",
+                "www.bymycar.fr",
+                "www.ledger.com"
+            ]
+        },
+        {
+            "rule": "userly\\.net\\/trk\\/index\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "68",
+                "2632"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "i-run.fr",
+                "www.ledger.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "metaffiliation.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "west.ns.cloudflare.com",
+        "michelle.ns.cloudflare.com"
+    ]
+}

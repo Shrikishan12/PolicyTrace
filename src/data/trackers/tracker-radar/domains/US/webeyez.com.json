@@ -1,0 +1,1691 @@
+{
+    "domain": "webeyez.com",
+    "owner": {
+        "name": "Blue Capital Markets Limited",
+        "displayName": "Blue Capital Markets"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000336,
+    "sites": 49,
+    "subdomains": [
+        "sec",
+        "ingest",
+        "send"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "webeyez\\.com\\/js\\/7dbdf265-eccb-46c1-aad7-77d6c16797bd\\/wzbody\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "window.indexedDB": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "Screen.prototype.availTop": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availLeft": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.colorDepth": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.platform": 1,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "190519e15a7e6001950964d71aef5fe7ca47ba7617cbc0528deb54ab8e29db9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787637707,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "511tactical.com",
+                "www.511tactical.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/7dbdf265-eccb-46c1-aad7-77d6c16797bd\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25a6234a1b44d605a65c429f231ba6da045670372d19239438d9f3c7d9afd81e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "511tactical.com",
+                "www.511tactical.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/get-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "3db6ef12b6a0e2f86f979bbd1156b1dbce35ed9193c3a71d58a972c3aea4298f",
+                "6a6d7f277fee7e1a1fe09eb20ab37476bc889a91b87b78b0fe7224f64298c35d",
+                "46f9ea540c3248280cd3ad2a64218ee1d09b016be18e0b0377381733b70ac7e6",
+                "a906e9db1fa97c03beec3ac7de7c2a71f28e2cd90328678938ecf0353ea76726",
+                "f62b4f2250f4f7a8f19019f15d67b586dfc8edb19636173ddb551e902c69b29e",
+                "63bad6fc9c9b89d14b7ee37291ac83b1a7aa74879a65ce7265951347f35642af",
+                "ddac5c8140797ee940c9724c4ff80cbe01eddeab5f761f7ef8707a4dfd8a8e19",
+                "3eccefbc0dd6b942ac700e67bbfab30f2e6aa3ebb3c44a9cdeb4f1d400bebbdf",
+                "0898ad6ba902a35496ab609dcf5fb4a070aa56f80f863397209f2e5b196d3dc0",
+                "f473de326831c4bd7a1ded1b2d1b341ca6a9d689d14f42ad72ea23cd256c797d",
+                "cc647b36e838424c40eac563260ce542a089f9154a547133d50520f1ad950517",
+                "1c67dbfdf2f286a286e4953809dad7d3bd5a5566024c4aad3bec2a0e01f84e4c",
+                "59d7ce7ac91dad51ee68789d7923d791339ff8c4fcddc53cdca3787844ebe8e6",
+                "7916cc8c200b2c68ab4c88f0b47a52bbe423090caca866f146ff1d9f7648b9be",
+                "a09708c677d105e630b6baff748289f2c3ff847d7a8683998c3fae1bfb0cb277",
+                "e638edead1979f3e23103b5d5a0a18556baaaa459a50e7e1077847100853259a",
+                "d826848fc8a45c5d4a48506bee95b64b9de121922649138d055d236cffae764e",
+                "77ba3a0ccd5f17f52b28ac0bf7a399461e92142ca100150af4eeec001c4acda1",
+                "8de1043233cad80bbe92374ba2bd01e8b5dd4fe1047c34e8cdb5323ac37bc174",
+                "9756208825c3cf114f4c0cf2b9d8e7b3b37d8f445e44d3b74e83bf42df839777",
+                "9f35673aa3acde8d0484439b2c844824532b39953ab8547a1def485056bccd9c",
+                "5acd2e5189b2d562933162d840d25671347018fd550c64db92d3ac099f5eafdd",
+                "0d80bc0b35b0ac8d01b473b9f0dadf3990eb54600d7c0564526cc64d3a6807ac",
+                "657f40949b25bffd074279e7872a8e4907bce69bb0cc6e8a4c8cb07faca35500"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nyandcompany.com",
+                "www.511tactical.com",
+                "www.brother.com",
+                "www.nailgundepot.com",
+                "www.thecpapshop.com",
+                "www.brother-usa.com",
+                "www.hunterfan.com",
+                "511tactical.com",
+                "www.amresupply.com",
+                "www.hockeymonkey.com",
+                "gruns.co",
+                "thecpapshop.com",
+                "northstyle.com",
+                "discounttwo-wayradio.com",
+                "samplize.com",
+                "covetrus.com",
+                "www.reliableparts.ca",
+                "www.ezcontacts.com",
+                "ezcontacts.com",
+                "www.baseballmonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/get-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother-usa.com",
+                "www.amresupply.com",
+                "511tactical.com",
+                "shop.super-pharm.co.il",
+                "samplize.com",
+                "discounttwo-wayradio.com",
+                "gruns.co",
+                "www.reliableparts.ca",
+                "northstyle.com",
+                "www.ezcontacts.com",
+                "www.brother.com",
+                "www.hockeymonkey.com",
+                "shop.drberg.com",
+                "langdontactical.com",
+                "www.thecpapshop.com",
+                "www.brother-usa.com",
+                "www.nailgundepot.com",
+                "www.hunterfan.com",
+                "ezcontacts.com",
+                "www.baseballmonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/init-analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.000171,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "d51e15526d14295bb6c4244c23e5c4a4915d586dcdae9800b5033052d0f8d0ab",
+                "061bd0666f312f9b41310b8b0c65f596ce2b8c8480aa5b2bc7e05d714793db70",
+                "c77bf7a63337155bb90d11aadff845d29a15fa5a0e3cd6e9c61fcfa3683af8ad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.511tactical.com",
+                "brother-usa.com",
+                "covetrus.com",
+                "ezcontacts.com",
+                "www.thecpapshop.com",
+                "www.reliableparts.ca",
+                "www.designsbyjuju.com",
+                "shop.drberg.com",
+                "www.nyandcompany.com",
+                "www.hockeymonkey.com",
+                "www.amresupply.com",
+                "www.hunterfan.com",
+                "www.ezcontacts.com",
+                "langdontactical.com",
+                "gruns.co",
+                "www.brother.com",
+                "samplize.com",
+                "www.brother-usa.com",
+                "thecpapshop.com",
+                "511tactical.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/7dbdf265-eccb-46c1-aad7-77d6c16797bd\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76b051c92123cbf865ec1d5c2ca116ea09d514239802007640f46220effe22ea"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "511tactical.com",
+                "www.511tactical.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/get-sr-storage-token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "f2f122f4710212cd43ba69c006eabe0c306c2070daf29d3505aae473a5a41944",
+                "dd7dbbfefe4e7871134cd5ccfa9fdb8feef8630e0a8af3bf743db909d192a361",
+                "58ef8d536c957646b2d4ea439b8ec19f48c6785c3c005664389a57473f125bd4",
+                "5af75df83e2c2dc8ecccced5391fb20f7ea7d156842c3f5440ab88640d0619c6",
+                "cc78746c664ef1c8fd69c2ae870a2ec384d9353655d9c273009eb1d30922c5fa",
+                "a968152a13bad9b88103575075c76659a06c5a5e34a21b86cfb87caa26fd2bfd",
+                "2f89421b4896677eb91a27ca0bce669a2828b865f79c792095dbf6c5de584764",
+                "fcb55edf37a399b8713e5979ff13c3ceca49527cc6add7fb29428b8aa2315fc5",
+                "9165f5b5dd151f764c10b4c297f06e4b8d7e1f59880fb73fea6e860a36a715ee",
+                "c4653cc605cf109318ee10f332bc5866919ae4e1b76644778318468556a2e5bb",
+                "4ecfb58b78cec5f61dd6a5fb33431d450b8256af7401801eb081083f4f376a63",
+                "1140566c6e93b1917d3786cbf5c1811cc10a3a1ce80d5055d7f76e19e62aa3be",
+                "3993e7bc073ee1dc27912e97ee4f054bd1dbc18f7fd279ff5bb2e7e43d261127",
+                "b823f46f4dfc0590713d500e1cf5132837e76c06d1131d66d36e64c85aadb8fc",
+                "92ec4da4ccd54f1acbd9659fbd566148ca10eb26a5cf7490d1a2c105388c9279",
+                "0f28b28db189f246a993f3448d6efe4ec218e8839ba68fadbaa94d997b2702c3",
+                "4f8e6468955ce682d3950c78e6dbb0ebe5b78efd009b063ad7d79b8e0f87e049",
+                "6b40469f0b0d2806338d038637fe06ade7dd6f0f221d0dde1f4fd8c729c03896",
+                "b0f7e4f7df59ac2fdef31a55a19db576ea1ee88e1bb48f706d64edabba84b891",
+                "dc60ad32c4dc002c493cb9d923d3d3a956db6c3a2a004af6154864f97d893440",
+                "ddd011d2f76ef7c1c3bb6b7eb4c113911e278a4d0d4640a2006f665e60941e88",
+                "8136338be2aeb08d50b7a817fd88920cebc6ccc394230f43f2ffc8c573e6ce31",
+                "48683a46bb197c41fbb4dd237ddd4a398adc0cb7ca74958c9a489f1050c155fd",
+                "9e2dd5d725f42d339e87808bf16926078f5ef2f8597f7c814c5f763768fd5cf3",
+                "e17509932964cf684166d1d47a440be796f118c080ab68768542fa0ab0130bfe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.reliableparts.ca",
+                "www.hockeymonkey.com",
+                "www.baseballmonkey.com",
+                "www.thecpapshop.com",
+                "www.ezcontacts.com",
+                "discounttwo-wayradio.com",
+                "www.brother.com",
+                "www.hunterfan.com",
+                "www.511tactical.com",
+                "www.brother-usa.com",
+                "www.amresupply.com",
+                "shop.super-pharm.co.il",
+                "www.nailgundepot.com",
+                "shop.drberg.com",
+                "thecpapshop.com",
+                "covetrus.com",
+                "ezcontacts.com",
+                "www.designsbyjuju.com",
+                "brother-usa.com",
+                "www.nyandcompany.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/get-sr-storage-token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.brother-usa.com",
+                "www.brother.com",
+                "www.baseballmonkey.com",
+                "covetrus.com",
+                "northstyle.com",
+                "ezcontacts.com",
+                "serengetifashions.com",
+                "www.amresupply.com",
+                "www.nailgundepot.com",
+                "www.reliableparts.ca",
+                "shop.super-pharm.co.il",
+                "thecpapshop.com",
+                "511tactical.com",
+                "www.thecpapshop.com",
+                "shop.drberg.com",
+                "www.nyandcompany.com",
+                "www.ezcontacts.com",
+                "www.hunterfan.com",
+                "discounttwo-wayradio.com",
+                "www.511tactical.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/bulk-events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "0fe09de70ccc54ad78aa0164ee4d5ce3441288922c2b892c2d31400fc3ab700e",
+                "a530aaafbe4acd13e783c003aab937fcc25f44ee2a9fa0d40f8149b0a5fbfc77",
+                "2b696c132fd68217de8d56a4e7a52fbf64d12d0f580da26af7167da88e15240c",
+                "fb0aa21b5e28106b423d6a5606abb33620c8580bc17102d94ce6e219f954fef7",
+                "de8f6f5fa6774da0fdf382cbdcc3709f3719e5f88970be16b355abe91b190538",
+                "1160cbc2eb828d8486f7a7ffaf5b6ab48d82c7ad8edc4b715405fa6f313d8da0",
+                "9369aaf015ea17ace9073cee0a6606b7170101c8964d2469bbd69608b7e4c9cb",
+                "9edfb95153dcea8c338ac194ab453ccdcd2417c9023ebcc53346549c89f4e37d",
+                "3a0903285ba75d11f097be942070ac7849c49f12c0e37b197eb19119ef5499ec",
+                "f5829c602690dd82bc2391e48241d480c2502796fa38c9591999fd45ff42b956",
+                "6f9f8c5389073a3556f731b5e39d4c974e4a05b8461ea08d2b330e43717d0e1c",
+                "943a38cc8871479c33e55f9ff0d84de16b3b19c713080e5974aeb1f709e3e4c3",
+                "37d5afedaa8d07a14db370007a7f48f99df67c0ca76fc9a3ba0b33967dfb8714",
+                "e583184e5d3cb93f4e9c6912ea6787338f2399ce46c0fe41acc483d92c106a11"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.reliableparts.ca",
+                "www.ezcontacts.com",
+                "www.nyandcompany.com",
+                "thecpapshop.com",
+                "northstyle.com",
+                "www.designsbyjuju.com",
+                "brother-usa.com",
+                "ezcontacts.com",
+                "www.nailgundepot.com",
+                "discounttwo-wayradio.com",
+                "www.hunterfan.com",
+                "covetrus.com",
+                "www.brother.com",
+                "shop.super-pharm.co.il",
+                "511tactical.com",
+                "gruns.co",
+                "www.amresupply.com",
+                "www.thecpapshop.com",
+                "www.hockeymonkey.com",
+                "www.brother-usa.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/bulk-events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "serengetifashions.com",
+                "discounttwo-wayradio.com",
+                "www.hunterfan.com",
+                "www.thecpapshop.com",
+                "covetrus.com",
+                "northstyle.com",
+                "www.baseballmonkey.com",
+                "samplize.com",
+                "shop.super-pharm.co.il",
+                "www.511tactical.com",
+                "www.reliableparts.ca",
+                "511tactical.com",
+                "gruns.co",
+                "www.designsbyjuju.com",
+                "brother-usa.com",
+                "langdontactical.com",
+                "shop.drberg.com",
+                "www.brother.com",
+                "ezcontacts.com",
+                "www.hockeymonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/e5c337f0-c85a-4a59-a838-f94344fcfcec\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.connection": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.permissions": 3,
+                "Notification.permission": 3,
+                "window.indexedDB": 3,
+                "PerformanceTiming.prototype.navigationStart": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f28de7b1cc021c7840126d57a4f6f56da7d9be03d61d0777339b5f5305fbd94c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother-usa.com",
+                "www.brother-usa.com",
+                "www.brother.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/e5c337f0-c85a-4a59-a838-f94344fcfcec\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2f180a85cd492333051e2fbed85f5a788ee532aa53d69bb4dabed78bf94653d6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother-usa.com",
+                "www.brother-usa.com",
+                "www.brother.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/e5c337f0-c85a-4a59-a838-f94344fcfcec\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1f64e675d9d9dbd5d96cda7159a07f86be7d65ad25581b2dc653e65493067eb4"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brother-usa.com",
+                "www.brother-usa.com",
+                "www.brother.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/06328ff9-0904-44cf-989d-98490af2db02\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "URL.createObjectURL": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fce5fe8f5d7dd34ae2aa385ed969bf2483475b87dd672b10ea10cb8cd31a484e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787655393,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/06328ff9-0904-44cf-989d-98490af2db02\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "310e130e79a47d7ac21f15dd28763e7e11e57ff6f613d87a3ff660f1eb8da4aa"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/06328ff9-0904-44cf-989d-98490af2db02\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e9556e78bf3d2b16d87a8bfe00cb6eeae73554852640117cec9fdbf6304640d"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/shopify-ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ingest",
+                "send"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gruns.co",
+                "shop.drberg.com",
+                "www.americanstandard-us.com",
+                "www.nyandcompany.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b66c084d-bced-4bc2-829f-83e9478c4555\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04e3375224bc9f4924ae7bc0bcb4b20b4e00fe1bd7a68e36ba1ffd52f576d558"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787668539,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northstyle.com",
+                "serengetifashions.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b66c084d-bced-4bc2-829f-83e9478c4555\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7646b16ec1811918b479735f4b29f828d140bbb442109565ab6a71dbc18f069a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northstyle.com",
+                "serengetifashions.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b66c084d-bced-4bc2-829f-83e9478c4555\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dd0b495b855527fd7c81d002516d4a5ca330b3662f51a9710ec3ccc182c572ce"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "northstyle.com",
+                "serengetifashions.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/ea6462fa-2a9f-4a41-b512-e3b150465621\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "URL.createObjectURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3068d9c0c8262f5d2c994c4ea16d729130781b3ffa61ed6359210ae95be64c38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787649611,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drberg.com",
+                "shop.drberg.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/ea6462fa-2a9f-4a41-b512-e3b150465621\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e556b1a04a5a1fe4dc5b198f795beb251f5b16ef5ca8e719f623f4a8262cdc5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drberg.com",
+                "shop.drberg.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/ea6462fa-2a9f-4a41-b512-e3b150465621\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5fafc2c457431f220a84f8ce96ba91de0b5932a9d480e1550a35b69a50726ce2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drberg.com",
+                "shop.drberg.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/ea6462fa-2a9f-4a41-b512-e3b150465621\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5fafc2c457431f220a84f8ce96ba91de0b5932a9d480e1550a35b69a50726ce2"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drberg.com",
+                "shop.drberg.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/d6433e78-95ee-4cf4-9dec-0c9f583166d7\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d94c29307d10eed23051cb9fbec6b7f31e36cd22427031880e2d327cc639d59c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787646396,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thecpapshop.com",
+                "www.thecpapshop.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/d6433e78-95ee-4cf4-9dec-0c9f583166d7\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a03e24bc04dc2d6b214e9db4a42a65e09449ca7f2ae5a1b4446035ab33c7e8cb"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thecpapshop.com",
+                "www.thecpapshop.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/d6433e78-95ee-4cf4-9dec-0c9f583166d7\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ecf3a95c64654dafb919cb10bb0f044eec6f3843394dc29bafe22b6c0b13f687"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thecpapshop.com",
+                "www.thecpapshop.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4c409a4d-ee65-47bc-9536-deb1af3273ab\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76e63a1047b41ab50de562b4831eb023c78fa7819b9b096b410e194c924f72d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amresupply.com",
+                "www.amresupply.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4c409a4d-ee65-47bc-9536-deb1af3273ab\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e5761f72ce5a1976f35919504500b2828e86b2e14477f00ffd394112acb0638"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amresupply.com",
+                "www.amresupply.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4c409a4d-ee65-47bc-9536-deb1af3273ab\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e242a46e56c9e1caf258952a1700dc0a5df800fb41838582a3d69f3946687128"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amresupply.com",
+                "www.amresupply.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b02cc084-22a5-4383-bf33-d0806e259004\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.connection": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.permissions": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availHeight": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.platform": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "36fb2e75f7fae8507e623152bbc2c3f4073205442adeebeaf292089038d6aeba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baseballmonkey.com",
+                "www.baseballmonkey.com",
+                "www.hockeymonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b02cc084-22a5-4383-bf33-d0806e259004\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ab9d3ec9456cd992d82e4e398e614d624226fb334e558df95c1e72c33897499c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baseballmonkey.com",
+                "www.baseballmonkey.com",
+                "www.hockeymonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/b02cc084-22a5-4383-bf33-d0806e259004\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "291de731b1ba7935016a88dbe6aee010c869dfa666c9545dd4898768f9ee9269"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baseballmonkey.com",
+                "www.baseballmonkey.com",
+                "www.hockeymonkey.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4cdb7399-fbfa-4787-a896-68787748804e\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "window.devicePixelRatio": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "870e976d6e4f55bef222bb6fcb2fd5f8277d0fb121dce2acf695d3f5f7df7069"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787645041,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsbyjuju.com",
+                "www.designsbyjuju.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4cdb7399-fbfa-4787-a896-68787748804e\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b80e78d300d5965bc7680b7eb3c70ed61c71375621416d5a43e35ae3165225be"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsbyjuju.com",
+                "www.designsbyjuju.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/4cdb7399-fbfa-4787-a896-68787748804e\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "71724f0d719f1cd56d91d16c57b1c8512353e350f8a7f4f5c12e24021c61282b"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "designsbyjuju.com",
+                "www.designsbyjuju.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/57a3db11-c867-41ba-8f0e-9926c3656820\\/wzbody\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "Document.cookie setter": 2,
+                "window.indexedDB": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcd53cb9faa7574b8f7640187c33184fae6978831ea5ca8a1bfa2d471f0b4dab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "wz.sid": {
+                    "ttl": 1800000,
+                    "length": 35,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "wz.uid": {
+                    "ttl": 31536000000,
+                    "length": 35,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterfan.com",
+                "www.hunterfan.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/57a3db11-c867-41ba-8f0e-9926c3656820\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efa7ab2b945e5aaf322ab9991dac90495dead6435f0a3c63a408a977d8cdf386"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterfan.com",
+                "www.hunterfan.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/57a3db11-c867-41ba-8f0e-9926c3656820\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fed32a11a3683d7ad2af5972e0f1015e06e232be3805f2d2771da1b72cbfe768"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterfan.com",
+                "www.hunterfan.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/2a76a7d0-d4d5-4802-8ba7-eaf11d7d8ca1\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "849b36fcf279fa4cbdd5b929bc2a882b1be19de886f05867297916ed5610a059"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nyandcompany.com",
+                "www.nyandcompany.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/c8d73afd-27a1-4cb8-ac0f-cbbe02c47425\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.connection": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d1aaf71b2aed86c4964cbe6d8396d1205713587f19466f859bc1c5ab098eb38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reliableparts.ca",
+                "www.reliableparts.ca"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/c8d73afd-27a1-4cb8-ac0f-cbbe02c47425\\/wz_sw\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c43420673a24655efd238e7b1dcee1f605354666ee1e4212e83cc70658f870af"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reliableparts.ca",
+                "www.reliableparts.ca"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/c8d73afd-27a1-4cb8-ac0f-cbbe02c47425\\/wz_ww\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d2f56c6526ca1f43d97276b90df3d5a86cd11d98c077c10c3496d49c600218d9"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reliableparts.ca",
+                "www.reliableparts.ca"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/7e8ce310-57ab-4a33-bff6-6cec520c71c1\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shootersconnectionstore.com",
+                "www.shootersconnectionstore.com"
+            ]
+        },
+        {
+            "rule": "webeyez\\.com\\/js\\/d1ad29e9-c149-4148-833c-2c7feac84baf\\/wzbody\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ufseeds.com",
+                "www.ufseeds.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000144,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.10833333333333334
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.03333333333333333
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.016666666666666666
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.008333333333333333
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.008333333333333333
+        }
+    ],
+    "types": {
+        "Script": 28,
+        "Document": 26,
+        "Fetch": 109,
+        "Preflight": 78,
+        "Other": 24
+    },
+    "nameservers": [
+        "dax.ns.cloudflare.com",
+        "sloan.ns.cloudflare.com"
+    ]
+}

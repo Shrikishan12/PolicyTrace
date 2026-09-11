@@ -1,0 +1,107 @@
+{
+    "domain": "widgetbot.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "e",
+        "stonks"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "widgetbot\\.io\\/cdn-cgi\\/challenge-platform\\/h\\/b\\/jsd\\/oneshot\\/e694063b5082\\/0\\.633025886033722:1787666433:FYegyYMWPfSPvoJrfLLZFfbBMYD4u4UAKyJ74PLfLf8\\/a30b5fe7df66cb9d",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "e"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winboat.app",
+                "www.winboat.app"
+            ]
+        },
+        {
+            "rule": "widgetbot\\.io\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stonks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winboat.app",
+                "www.winboat.app"
+            ]
+        },
+        {
+            "rule": "widgetbot\\.io\\/api\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stonks"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f628b9dec12cddad51944748d1e919cf3e970b9ef7ae90198a354ea409f5e4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "winboat.app",
+                "www.winboat.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "curt.ns.cloudflare.com",
+        "becky.ns.cloudflare.com"
+    ]
+}

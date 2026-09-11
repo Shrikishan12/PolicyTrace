@@ -1,0 +1,316 @@
+{
+    "domain": "grubhub.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "prod.api-base"
+    ],
+    "cnames": [
+        {
+            "original": "api-gtm.grubhub.com",
+            "resolved": "prod.api-base.grubhub.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/auth\\/refresh",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/auth\\/refresh",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/auth\\/anon",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8b8108a6133c2b5b10cc8eb0dc7a8358f55d8386e99c4021636c9e4e45804be0",
+                "6494061e6785dedcb40c7dfe961ec9f402fa3736864395b8a13e6e89a7cfd887"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com",
+                "www.seamless.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/auth\\/anon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com",
+                "www.seamless.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/topics-gateway\\/v2\\/topic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8216f2de0963dda626e4df0e869702a1e852c4053752ade524a06cdcf2e295a1",
+                "b07c7035a7eab3722d91846187f4192d995609eb5b2446c324ce7ef7161b6a06"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com",
+                "www.seamless.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/topics-gateway\\/v2\\/topic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com",
+                "www.seamless.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/clickstream\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "1f3669857b3d598a39f6db8065d7c8abd819ea66670bfc89f11a11d82ecd2d31",
+                "3826cac68da1717a0409da8b9f64e366dae641f101a7318f83228d697e6dd377"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "menupages.com",
+                "www.grubhub.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/clickstream\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "menupages.com",
+                "www.grubhub.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/topics-gateway\\/v1\\/topic\\/content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com"
+            ]
+        },
+        {
+            "rule": "grubhub\\.map\\.fastly\\.net\\/topics-gateway\\/v1\\/topic\\/content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api-base"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api-gtm.grubhub.com",
+                    "resolved": "prod.api-base.grubhub.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grubhub.com",
+                "www.grubhub.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 13,
+        "Preflight": 13
+    },
+    "nameservers": []
+}

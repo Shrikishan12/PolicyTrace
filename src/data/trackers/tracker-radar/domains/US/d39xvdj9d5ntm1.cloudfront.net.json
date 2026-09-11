@@ -1,0 +1,117 @@
+{
+    "domain": "d39xvdj9d5ntm1.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "d39xvdj9d5ntm1\\.cloudfront\\.net\\/common\\/static\\/consent-manager\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ba8a7f191a3532abcd26bd626f6ded12b868684a2876ef25371b66cc9ce7128f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_a_id": {
+                    "ttl": 604800,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "privacy-banner": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sprinklr.com",
+                "community-ring.sprinklr.com"
+            ]
+        },
+        {
+            "rule": "d39xvdj9d5ntm1\\.cloudfront\\.net\\/common\\/css\\/consent-manager-base-b0905050bfe4de8e23ae1301df667fdc\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "281d97c027155c5b71815a8eba0db83bc41300bae515a747296f940e4bc4b48d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sprinklr.com",
+                "community-ring.sprinklr.com"
+            ]
+        },
+        {
+            "rule": "d39xvdj9d5ntm1\\.cloudfront\\.net\\/common\\/css\\/consent-manager-aba40fe4e83087338466ffff31323625\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eddd9a9978559743de38a80721289854357bf4f15ea20c6d94c81b4769b5ee0e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sprinklr.com",
+                "community-ring.sprinklr.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns-1365.awsdns-42.org",
+        "ns-1677.awsdns-17.co.uk",
+        "ns-410.awsdns-51.com",
+        "ns-965.awsdns-56.net"
+    ]
+}

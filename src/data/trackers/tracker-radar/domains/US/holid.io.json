@@ -1,0 +1,307 @@
+{
+    "domain": "holid.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "helloworld",
+        "null",
+        "ads",
+        "adserver"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "holid\\.io\\/openrtb2\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helloworld"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "327f54c3db54bf5bd4343d4069fff5ef76cd369240d0892ab7a8f974b1a21100",
+                "fea0b52511a495d9e58d9b30f2125c4ceaac475e36df3434df3ca956cc3924bc",
+                "2f730fcfafcfce25b88ab56bb91c381d097c80c444d504884d6dbc551a7c1748",
+                "aeb7c551a0cc338ac1816f42046a3760999e2e7745e83fba011a970538870054",
+                "27ae882ea6a45b43e751f72d7996881d5ee22fdbde36a077b0672453486e8f7a",
+                "c84dc1f3d310d39cc7e69b0c087a2a6e6bac33f0412d3e8ffed7111a1ec56553"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "nhi.no",
+                "podtail.com",
+                "www.aperitif.no",
+                "www.lexulous.com",
+                "www.synonymer.se",
+                "www.vibilagare.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "null"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "0891be23d24e88becb5a7ca80c08198420b1c58e9127a45ac2f69957d4a3e971"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "nhi.no",
+                "podtail.com",
+                "www.lexulous.com",
+                "www.synonymer.se",
+                "www.vibilagare.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/cookie_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helloworld"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4d580c16a025d71c1ba8ddf59afdfe83b8e34f284ae001c24231eed9cea94f03",
+                "0509fdb7f7d89bfe5c39fa37feddd1189038f6c9d4cedc2af6bddb93f09ead4e",
+                "929fdc8d332a1fd7c3c22b955d919f3bed9d139dcf7214eb1f9124788b0e451b",
+                "d58aaa0cb0acfc3ebcfad2f22396ee37aa47509979c25822de190c2f6ce2604a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "nhi.no",
+                "podtail.com",
+                "www.lexulous.com",
+                "www.synonymer.se",
+                "www.vibilagare.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/setuid",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helloworld"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c956a8bbf43bb56f60d1beefcc5a70f2cb0725083a00e8a0daf423176509fd18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byggebolig.no",
+                "nhi.no",
+                "podtail.com"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/setuid",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helloworld"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhi.no",
+                "podtail.com"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/prebid\\.9\\.19\\.gdpr\\.meta\\.highestbid\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.connection": 1,
+                "window.devicePixelRatio": 1,
+                "Screen.prototype.orientation": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.deviceMemory": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "392ea53b596fcb723b80babb7291978304aadf5a5111a99777c5bff427fc16c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sharedID": {
+                    "ttl": 31536002,
+                    "length": 86,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sharedID_cst": {
+                    "ttl": 31536002,
+                    "length": 16,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podtail.com",
+                "podtail.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/www\\/delivery\\/asyncjs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16d1bd7e3cbee534e70d61a26439d536c411a97ee5afae6ce923210a3873acca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podtail.com",
+                "www.sexnovell.se"
+            ]
+        },
+        {
+            "rule": "holid\\.io\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adserver",
+                "null"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "podtail.com",
+                "www.synonymer.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.234375
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.203125
+        },
+        {
+            "domain": "stpd.cloud",
+            "prevalence": 0.109375
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.078125
+        },
+        {
+            "domain": "lwadm.com",
+            "prevalence": 0.078125
+        },
+        {
+            "domain": "casalemedia.com",
+            "prevalence": 0.046875
+        },
+        {
+            "domain": "openx.net",
+            "prevalence": 0.046875
+        },
+        {
+            "domain": "richaudience.com",
+            "prevalence": 0.046875
+        },
+        {
+            "domain": "amxrtb.com",
+            "prevalence": 0.046875
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.046875
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Document": 8,
+        "XHR": 8,
+        "Image": 3,
+        "Script": 4
+    },
+    "nameservers": [
+        "betty.ns.cloudflare.com",
+        "sam.ns.cloudflare.com"
+    ]
+}

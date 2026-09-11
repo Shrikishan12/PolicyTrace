@@ -1,0 +1,112 @@
+{
+    "domain": "front.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "static.aim"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "front\\.ai\\/assets\\/fonts\\/base-fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.aim"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "11aec4656006124bdb0b1b1ea470755555673ab858b2bc22f86a4b44b1161751"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jyu.fi",
+                "www.ouka.fi",
+                "www.s-pankki.fi"
+            ]
+        },
+        {
+            "rule": "front\\.ai\\/assets\\/fonts\\/lato-normal-400\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.aim"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef25963ccf3faa672c10dd5ceef7080b5feede8a987fb88fa9bddbc96093d9cd"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jyu.fi",
+                "www.s-pankki.fi"
+            ]
+        },
+        {
+            "rule": "front\\.ai\\/prod-common\\/chat-formation\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.aim"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54030452a32116d013be5c8875f219f2fdf56373da2483ca8ee506013460e5b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ouka.fi",
+                "www.s-pankki.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "piwik.pro",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Font": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns1.101domain.com",
+        "ns2.101domain.com",
+        "ns5.101domain.com"
+    ]
+}

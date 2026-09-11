@@ -1,0 +1,190 @@
+{
+    "domain": "linker.hr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "d",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "linker\\.hr\\/lw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "49cef073584ad7381fa2a9f8e0b6b28b2229963cb8d219a177d112cfbbf303a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr",
+                "m.vecernji.hr",
+                "n1info.hr",
+                "putnikofer.hr",
+                "www.dnevno.hr",
+                "www.novilist.hr",
+                "www.tportal.hr"
+            ]
+        },
+        {
+            "rule": "linker\\.hr\\/widget\\/lw\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "c92edd46ba333c3884cfce754b1090c01f45196c3cb9a4d658071625abb3871f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr",
+                "m.vecernji.hr",
+                "n1info.hr",
+                "putnikofer.hr",
+                "www.dnevno.hr",
+                "www.novilist.hr",
+                "www.tportal.hr"
+            ]
+        },
+        {
+            "rule": "linker\\.hr\\/widget\\/slider\\/splide\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47b7ac1ffcf524403ec3bcb22ff4c95b796aad8139defb67d20a093dc272f9b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vecernji.hr",
+                "m.vecernji.hr"
+            ]
+        },
+        {
+            "rule": "linker\\.hr\\/widget\\/lw",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "putnikofer.hr",
+                "www.novilist.hr"
+            ]
+        },
+        {
+            "rule": "linker\\.hr\\/widget\\/img\\/lwdgt-new-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0320a2656c5a7abfce8e46715b1d66079a3caee09baa00c5f4219a9ffa87fd43"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "putnikofer.hr",
+                "www.novilist.hr"
+            ]
+        },
+        {
+            "rule": "linker\\.hr\\/lw-inf\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e5a55b62214f399ef981fc897aa6e803da5b8f6108610db496551f4a994089c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "novilist.hr",
+                "www.novilist.hr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Stylesheet": 8,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "rocky.ns.cloudflare.com",
+        "ingrid.ns.cloudflare.com"
+    ]
+}

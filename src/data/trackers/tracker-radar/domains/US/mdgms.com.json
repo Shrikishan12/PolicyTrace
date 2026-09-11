@@ -1,0 +1,117 @@
+{
+    "domain": "mdgms.com",
+    "owner": {
+        "name": "FactSet Digital Solutions GmbH",
+        "displayName": "FactSet Digital Solutions"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "charts.comdirect",
+        "gateway"
+    ],
+    "cnames": [
+        {
+            "original": "charts.comdirect.de",
+            "resolved": "charts.comdirect.mdgms.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mdgms\\.com\\/charts\\/benchmark_underlying\\.chart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "charts.comdirect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "charts.comdirect.de",
+                    "resolved": "charts.comdirect.mdgms.com"
+                }
+            ],
+            "responseHashes": [
+                "5f453fbc1e001079d9daffbf1b17b22590d98494dc1b49d7c7d18d74bbc4a9f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comdirect.de",
+                "www.comdirect.de"
+            ]
+        },
+        {
+            "rule": "mdgms\\.com\\/charts\\/rebrush\\/design_small\\.ewf\\.chart",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "charts.comdirect"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "charts.comdirect.de",
+                    "resolved": "charts.comdirect.mdgms.com"
+                }
+            ],
+            "responseHashes": [
+                "3efddab67d20b220e3ec9dd3cab7c21d04463fe744666fee4706e84b3551b29c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comdirect.de",
+                "www.comdirect.de"
+            ]
+        },
+        {
+            "rule": "mdgms\\.com\\/extern\\/logo_image\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8674f6cff5b37d3c9c5e0f185a976e067003ec54b66d97a2a6e7e54b927758c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanzen100.de",
+                "www.finanzen100.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 6
+    },
+    "nameservers": [
+        "ns0243.secondary.cloudflare.com",
+        "ns0033.secondary.cloudflare.com"
+    ]
+}

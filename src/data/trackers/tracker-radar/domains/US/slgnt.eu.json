@@ -1,0 +1,815 @@
+{
+    "domain": "slgnt.eu",
+    "owner": {
+        "name": "Selligent",
+        "displayName": "Selligent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000212,
+    "sites": 31,
+    "subdomains": [
+        "site-see",
+        "glamuse",
+        "dennis",
+        "ashampoo",
+        "fenix",
+        "kinepolis",
+        "nordisk",
+        "ovh",
+        "edidomus",
+        "gottardo",
+        "offer",
+        "futureplc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0.0000822,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-see"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediapart.fr",
+                "glamuse.com",
+                "www.cucchiaio.it",
+                "www.dueruote.it",
+                "www.eurocamp.co.uk",
+                "www.fjallraven.com",
+                "www.gifi.fr",
+                "www.hanwag.com",
+                "www.landmarkcinemas.com",
+                "www.mediapart.fr",
+                "www.quattroruote.it",
+                "www.tigota.it"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/frontend\\/api\\/track",
+            "cookies": 0.0000822,
+            "fingerprinting": 0,
+            "subdomains": [
+                "site-see"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "6c44b7207c3e6b80f85cff77e93d0362d3da54f64a50f4433713233edd6fa014",
+                "87b58188359e10a6526c47a527455e9406ba753e3d189a04ae2bf6f1f586a1f3",
+                "ff556013e43c9283b0fc68baabeb2bd5f95cfed0846f46e0fa442165825634bf",
+                "5562a43ab602b79b2882aeeafaead10f7212f377416cf32e7fb76884e773d1e0",
+                "7144d3ea3b82fb7bedd16f424541187c98e87b6033e161ee51b96e0b119a853c",
+                "bc6c5de45f88d4b63ca8214708851c2668e94f9957cabc5ee4913666c1ca8c01",
+                "c6a841d417c4fdd3eaf9aa5308bbf0abbe3755dae1297c0c62ed533d73dd40bf",
+                "c03933d46a8a65935214c24706d351f16acb592f77c82c748edbfdaa1b5fec44",
+                "973c5329b1611d4e323360cb3384c3312f13541f70d0433993a10a44be58c34f",
+                "741bcec79ea4489ef0f64746c8e355b0e98fdf23ee7926349e70b8c9c4e0dda1",
+                "c9320755c581c09bf240918be3fa8b8250b89314540e7d1cbe76a2c6639d7449"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mediapart.fr",
+                "glamuse.com",
+                "www.cucchiaio.it",
+                "www.dueruote.it",
+                "www.eurocamp.co.uk",
+                "www.fjallraven.com",
+                "www.gifi.fr",
+                "www.hanwag.com",
+                "www.landmarkcinemas.com",
+                "www.mediapart.fr",
+                "www.quattroruote.it",
+                "www.tigota.it"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/webtracker\\.dll",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "glamuse",
+                "dennis",
+                "ashampoo",
+                "fenix",
+                "kinepolis",
+                "nordisk"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "2bab728483f61ebaa8b3f35ef0d18f9196473eeea34a4725815b0174bdf78c97",
+                "b5f698262d8d676b6bdc8c0be42849740af839799ab679e6cbc6cc4a448c5d9d",
+                "fdfa79f73f1f411c73029f3c6e9aa32a413b07515c4ddf18498403b61a3bf6c7",
+                "609339ccf75d013c19929ed3a15543e3c37245fa36ad886b9d5c90b27ba25879"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "m_ses": {
+                    "ttl": null,
+                    "length": 14,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "m_cnt": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glamuse.com",
+                "theweek.com",
+                "www.ashampoo.com",
+                "www.fjallraven.com",
+                "www.hanwag.com",
+                "www.landmarkcinemas.com",
+                "www.nfkino.no",
+                "www.nfbio.dk"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/site\\/selligent-script_splash\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "9f224fec1f5161e48cedb20988643a84d3d4d3f836221caf855e8d52057eb823"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/owl\\.carousel\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a53c43f834b32309b084ea9314df8307e9c78cee2202c6e07f216ae4ae5b704d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/site\\/videoscript\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "86978147f7ef08334b2e635feef259462a84dd08638f63606ce22c5da24b27ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/site\\/offer-animation\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c5944a751ae267b6b53d22dbf6b8b753e03f185432e32b4a96e5d925db217322"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/owlcarousel\\/owl\\.carousel\\.min\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "521410e1fc44780061e09adc980275fb5ea277fd5d9e538454214ec4379ff4bc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/owlcarousel\\/owl\\.theme\\.default\\.min\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "924b0dc630d1c5dff9fa31aead9509775b1d476bfe0a5ac2977b2f11205a26ac"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/site\\/owl\\.carousel\\.custom\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "fb5e872ff3bc17b2f271c2edc253553458e09397ffe3f27b2006b02f7c6e5019"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/site\\/splash_styling\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "4d6195267585dc1c09ccf9e11a2e37ba496fd197eea18882ecdc5872d40cade2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/site\\/body-homepage-takeover\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "23264490c879cb1aedc55d9356c70c851a476611f12bc02ab59cf02daa0c625b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/css\\/site\\/offer-animation\\.css",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "41332a677e53b348b2ee9263f7c48bb80b482ed5de42196c58fd43c465cc179f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es",
+                "kinepolis.nl",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/site\\/default\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "2fc8355d9a0005815fca54a2174efba5a08c8109f08893fe66f8f6c387cf97d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.nl",
+                "kinepolis.es",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/js\\/site\\/tracking\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "09a395e584736f642b724c9a500eff5ac0a0bfcdd1df99a5804f6cad4cf18950"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.nl",
+                "kinepolis.es",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/images\\/site\\/empty_banner_top\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "068677e6d029d88d7fbae7d3982289957096eb59210d9e2bdfcb3dc84c22bbbe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.es"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/images\\/site\\/empty_banner_bottom\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "793f42b4a767402ecf453a37486ee79b370e58a9d887de6e502b99dad34abc19"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.nl",
+                "kinepolis.es",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/images\\/site\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kinepolis"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "142b4d3cd0df466e0d626ed65483814e9edf711ebb6201599f9c8f7e5713b0bc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kinepolis.be",
+                "kinepolis.nl",
+                "kinepolis.es",
+                "kinepolis.fr"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/optiextension\\.dll",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh",
+                "edidomus",
+                "gottardo"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "80c943d77edacddd146c13cde0da3c3fc945e3b16b1481c045d578c4061878da",
+                "af52c93e34fc9a5b1a3df8ce805d994de71e5b2087ba7877356d1e64bfaa5a15",
+                "25992c9c10d4abafebc3dc9172ee0a2f1e64d412284dcd2af93c471ce2c32b44"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.cucchiaio.it",
+                "www.dueruote.it",
+                "www.ovhcloud.com",
+                "www.tigota.it"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/survey\\.dll",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dec9c1494f901884f518e9ea790ba295b8e940f38b118861aab7934d43f318ff"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/scripts\\/FORM_CSS\\/style_form_newsletter_footer\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee42db9355a2144ab64d03190ddb5b61e19cd6c3af3ce0c43fb1220520b2e5b6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/eform\\/jquery-3\\.1\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1cf30e59d21d4ae560af7143f5913efcc8222bcaa4fcc7508eb802b5faa9e94e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/eform\\/bootstrap-datetimepicker\\/js\\/bootstrap-datetimepicker\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a81eed2c2dbd2289e39d9636feaac7832df702fe7734afe869f99f721495490c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/eform\\/bootstrap-datetimepicker\\/css\\/standalone-datetimepicker\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "06e9f4457476f430100c443bb3631deb08666f0fbff35685025f9d6e69f607ab"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/eform\\/SIM_SurveyManagerResponsive\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "864db9b070954cc82bcffdaf2c6322ffe3141b540ab7d3f15fa37cc8daf8faf8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovh.net",
+                "www.ovhcloud.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/api\\/151610de14df41c186d0dacf89c3e49a\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5b4a9b0a767c03b1432b788235b72ed04324174b62b0c2aa2d9671a98f8446ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caudalie.com",
+                "us.caudalie.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/api\\/151610de14df41c186d0dacf89c3e49a\\/r",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "offer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caudalie.com",
+                "us.caudalie.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/renderers\\/xml\\.ashx",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "futureplc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f680acd08060b9285b72feaa17c5804de5dabb2c659d8bde359f19d29b64def"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mbr.co.uk",
+                "www.rugbyworld.com"
+            ]
+        },
+        {
+            "rule": "slgnt\\.eu\\/optiext\\/eform\\/bootstrap-datetimepicker\\/js\\/locales\\/bootstrap-datetimepicker\\.we\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ovh"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ovhcloud.com",
+                "www.ovhcloud.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000192,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.648936170212766
+        },
+        {
+            "domain": "windows.net",
+            "prevalence": 0.1595744680851064
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0851063829787234
+        },
+        {
+            "domain": "glamu.se",
+            "prevalence": 0.031914893617021274
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.031914893617021274
+        },
+        {
+            "domain": "ovhcloud.com",
+            "prevalence": 0.02127659574468085
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.02127659574468085
+        }
+    ],
+    "types": {
+        "Preflight": 12,
+        "Fetch": 16,
+        "Script": 40,
+        "Stylesheet": 28,
+        "Image": 10,
+        "Document": 7,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com"
+    ]
+}

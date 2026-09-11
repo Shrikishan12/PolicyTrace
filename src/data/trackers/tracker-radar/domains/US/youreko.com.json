@@ -1,0 +1,73 @@
+{
+    "domain": "youreko.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "youreko\\.com\\/js\\/partners\\/gb\\/appliances-direct\\/youreko\\.energy-review\\.appliances-direct\\.all\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e513ca3eef8ede93e6639ff3762cec98aaf99b488a14b0a4220c5b2e7fe90f13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "yourekoUserId": {
+                    "ttl": 31536006,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "appliancesdirect.co.uk",
+                "www.appliancesdirect.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns14.dnsmadeeasy.com",
+        "ns11.dnsmadeeasy.com",
+        "ns10.dnsmadeeasy.com",
+        "ns13.dnsmadeeasy.com",
+        "ns15.dnsmadeeasy.com",
+        "ns12.dnsmadeeasy.com"
+    ]
+}

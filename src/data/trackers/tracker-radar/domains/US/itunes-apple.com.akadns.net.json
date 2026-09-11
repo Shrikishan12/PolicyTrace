@@ -1,0 +1,1577 @@
+{
+    "domain": "itunes-apple.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000089,
+    "sites": 13,
+    "subdomains": [
+        "apps-cdn",
+        "buy",
+        "amp-account",
+        "is-ssl.mzstatic.com",
+        "xp-daf",
+        "amp-api.podcasts-lb"
+    ],
+    "cnames": [
+        {
+            "original": "amp-account.apps.apple.com",
+            "resolved": "amp-account.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "amp-api.podcasts.apple.com",
+            "resolved": "amp-api.podcasts-lb.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "apps.apple.com",
+            "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "buy.apps.apple.com",
+            "resolved": "buy.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "buy.music.apple.com",
+            "resolved": "buy.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "daf.xp.apple.com",
+            "resolved": "xp-daf.itunes-apple.com.akadns.net"
+        },
+        {
+            "original": "is1-ssl.mzstatic.com",
+            "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/includes\\/commerce\\/logout",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "ac8b44b4c6826ef4d3f51e5e777d6025d1b96ffb88bdda1fab4bf2f6d3ae54ac",
+                "e882d5defd8c96d529b6d4e9175157f39da70f33fc3b000bfb5f6d50701546ce"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.core-js\\.db315571\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "cd3c4161b81564f4e05d0f1370ec9031fb602c01590c85313793765186486ea6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.amp\\.c3832400\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "26da65eba715046c00cb2cb22671457decf088f8c36b136b8cc9535d49f81ab5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.account\\.11d1473c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1793d6a144c70715328e1f53507b1a6b9533333eb442f7273e1e4174b746d878"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.sentry\\.661e284f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "65ad1fc0fbf9d1611cfad061643bb2f53635336a6a20a053e68b40cc8a364337"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.stencil\\.a58221bc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "209be4122c242be7306074c5bd8564c0277fb2292f53c5175c66ff326b3d3244"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.vue\\.8efc8f63\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "b9c84c055109baf96f438ac2fab6321e2529ed119fbf55ef48c5cbff6a24b917"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.vue-router\\.a9b9bd5d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3638a614171c81ed49c30124f5fe755332eb1c0c5a0c9734f40aa06422ffc621"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/commercekit\\.ac56eb2c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "a12c074d7f076cfece1e041690a4049a7cb0e774a68fa58baf8d9928d5dc83d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.jet\\.c85ca800\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "9e845dd0caacdd01cd7601c7a378ad60e4facec2ef99ce380e6d992d0b152951"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.amp-metrics\\.7200a9f8\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "0b8d1ec28870d864c5990bd0a9c1df862711c1ea4b582a0a417679808965e883"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.wpc-web\\.4f6aff37\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "656cb1ebd5b217041c98cb1d65a8de22d964c117a54586524d4d37b7fd18bea0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.dompurify\\.445bbe6a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "986abce108279913d0ea97eee794ec67976e786b7ec2b0c038b0619cc42a6f2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.apple\\.ce192e55\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "9909535cdff10522eb369157264c1b75d812021f206d7e3759233a43c5d6591a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.jsbi\\.5d1cc558\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e2bc1aeb787dd30cf80d004dc69f375ccd862279c5b4bc546aa7d81719e2c920"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/vendor\\.vuex\\.959bcf7e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "fd1584aa4b74b26ff82e0d92e991ad44f1a070fad692d0ca21e103b9209628a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/3832\\.ee6a3544\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "58c3d0f07a1e9ede9b23c4e5b6803fdd9b80c3816a3d6604617ecae62109db0e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/458\\.efde61c5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "cdc0a5f92bb8b6e016dd656aef88a5d87919b31679a227eee5da8c6ad193db56"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/index-5000d8f2\\.88615532\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "f396203dbaf8a908cd64c03f64c4c58a04c050d57268a0401d23a169ea7da164"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/index-42f9d7e6\\.afb446e5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e9f6229d7c48ce9f2a4eeffc0fe43d65dbb58902bb573dbbbd1afc8920cf01c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/index-938d507d\\.5b94629e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7be049abf706852327fd6129ce681d9625c3f6f02d0e04816097a454ac79697d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "buy.apps.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/infoRefresh",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "buy.apps.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "buy.apps.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1481b8096f7bad3d5a5e1f96674f075efc83dd9151c767de739722af6ac7d05b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/infoRefresh",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "buy.apps.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1f098eccfb2919cbcb797ee69c539985cbd6042269e9fbeec1ef906adf4c64a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/5882\\.48e27936\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "6b1db0fdcbcda67a5bda656b8e5bc22af7b9525dc73b910e14cefb47572e10cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/shared-views-LogoutView-vue\\.41544a39\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "958ec1a3506e47c9c98491541c8dce7e283d27dca6cc5ac57ca8a7a809dbfd81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/9122\\.255932ef\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "5679671daab055c1ca0679292f346839ef00284d806f94cbec9f54866cc883ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/2480\\.d824620f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "dfeae039648b0253fb6b1234023bd001bc41e262d0e1e3e4f4bad4f04bd89f77"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/2235\\.c65fd292\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "aa20d7ee825425e97aad9fc1fa0bf96b316ebca0cd5a20bf12653362c9721037"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/7138\\.6e3a93b8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "9e471d50fe07ba980b166a19fe18d976cf7c851a8254a4a8c4d55475eb04b451"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/7350\\.4a5bc565\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "81757d206f3ccbf87c093e21fcc85b0f01476ff321497f498164faa89eb59348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/auth-views-AuthenticateView-vue\\.014e5b15\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1f5903ea5829e087af646d869443ceab305300b788be9971e63fbab2858d2f73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amp-account"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "amp-account.apps.apple.com",
+                    "resolved": "amp-account.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/locales\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "cdc4e963392d2d192da72270038a0d937881728a0d0b03169fac6eb16f2e1f84",
+                "612973fe0b831fcd328b15320c08a3191c597639615a865098211fe116f3faaf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/locales\\/default-localizations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "fb14ccaf571ebd7a0873e78c3397e92adbd785953823e2f5358f6eeb771685ed",
+                "ff76a965d093faa9a0082ae52b5e32f4d0f1ff174eac1ef680b55abca26f0947"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/account\\/web\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amp-account"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "amp-account.apps.apple.com",
+                    "resolved": "amp-account.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d35ad4a3fbf3e55c10d5a445aedd89ab6dbba824cbea5cd9d22b684848a71d67",
+                "6015ec95a1897a338fab57040d9a834e2e259624e380e71a867cbea6992f30eb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/static-commerce\\/js\\/shared-views-ServerError-vue\\.d1e0b307\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.apple.com",
+                    "resolved": "apps-cdn.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3cb2008bb9d37af3746cc7ff20d512af1fce9836adf51a607c2c1a192f00dc8f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appleid.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/78\\/61\\/b9\\/7861b9d5-8999-25f6-303d-08bf6112f2ce\\/f26de0fd-1ba0-4cbf-8c76-33fb0fbfeb16\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d909f646a1bedc3e61e7e1e6f753ef8cce0dfcd8793b0d3b86ca402eaea6b795"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features221\\/v4\\/dc\\/5c\\/56\\/dc5c5645-7397-d0f8-b36f-ad91054fdb93\\/c31e44f2-1f97-4f5a-8629-16eaa60cbd5f\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "6008f053377a6ab62cc692d93e5dc58bcbdbcc72693f7c0d43140e5042a50113"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/20\\/ca\\/47\\/20ca479c-d4ef-49b7-84aa-6afb1018cb08\\/7998d3a4-33e3-4abd-9f8b-4d50b60a6a7b\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "c58cbf2b516b2c2fa99a0a45496cfe20e220db0396983f195753f2a6b6819385"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/8f\\/12\\/b1\\/8f12b11b-6d84-be31-448b-9a1a8e70823d\\/49f6ac0a-e911-4ec3-babc-69d92f5749a0\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "9e50fa12a4247990c75b59757d6b3f71cdc640437c6f7a02bf6722f672cf7869"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/6f\\/ab\\/1a\\/6fab1a47-81a1-2602-113f-e858e458d3dc\\/df14443a-6b5d-4e5a-8301-01aed86e3024\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1dc0ee2dabd42bee2447918041647c2659bf094a88013db4fbb0b8f2b83f101a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/e4\\/ea\\/0a\\/e4ea0a97-9d12-cd3f-c0d2-9e7e34222e6e\\/aec56635-f46c-4f90-bbae-7f4abf2fc8ec\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "15ed4213557bb2920dfbdd93878e8a9210d85ac08c1bbb0a86192dcd696c75dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/56\\/4d\\/c3\\/564dc32e-ba9f-2447-4f06-b2a35bc180d3\\/15bbc0c7-668b-4a40-b331-8465451c5198\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d6b1c3e88c6920c62fbddc0788d8e18b3252e5b59043023e2c60cea3ee999173"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/4a\\/b4\\/95\\/4ab4951e-bcd2-df10-7c0c-b439c2a026af\\/31bf5127-cb13-4bcf-b995-5360bd8a9bc0\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "0ecdd6a48439e1b44f2033728ccd8b254a157fe363733bb5b40cd1e1dd8ad250"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/image\\/thumb\\/Features211\\/v4\\/7c\\/75\\/34\\/7c7534e2-4d79-2c32-f06b-3225f7ee7517\\/2efd3a78-2b87-4808-a1d0-e018fd628a4e\\.png\\/40x40bb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "is-ssl.mzstatic.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "is1-ssl.mzstatic.com",
+                    "resolved": "is-ssl.mzstatic.com.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "b0b267166777ca742881b57ca0f500ce2ed0e42c9dcf02a03e7f555ba1240ceb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "apps.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/commerce\\/web\\/subscription\\/offers\\/music",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "buy.music.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "music.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/commerce\\/web\\/subscription\\/offers\\/music",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "buy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "buy.music.apple.com",
+                    "resolved": "buy.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "b355215fbc24b11a0113585914d53dc454eebf8c2a5dedef136ece4fde52119a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "music.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/config\\/1\\/report\\/xp_amp_podcasts_paf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xp-daf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "daf.xp.apple.com",
+                    "resolved": "xp-daf.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "d6663930e2bd5d6ec37c68110a82848020afc17545947dc26f8b895f35004882"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "podcasts.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/config\\/1\\/report\\/xp_amp_podcasts_paf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xp-daf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "daf.xp.apple.com",
+                    "resolved": "xp-daf.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "podcasts.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/v1\\/catalog\\/za\\/podcast-episodes\\/1000589675239",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amp-api.podcasts-lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "amp-api.podcasts.apple.com",
+                    "resolved": "amp-api.podcasts-lb.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "podcasts.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/v1\\/catalog\\/za\\/podcast-episodes\\/1000589675239",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amp-api.podcasts-lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "amp-api.podcasts.apple.com",
+                    "resolved": "amp-api.podcasts-lb.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "1065a46d5cc06b7aa1920eea5e685939b19534be239362808524ba36f0aaa1e4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "podcasts.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/config\\/1\\/report\\/xp_amp_tv_vpaf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xp-daf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "daf.xp.apple.com",
+                    "resolved": "xp-daf.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "843fe1398c6d25f3c3092ecdad270bb55309c7612500839a0df71717e0b62d96"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "tv.apple.com"
+            ]
+        },
+        {
+            "rule": "itunes-apple\\.com\\.akadns\\.net\\/config\\/1\\/report\\/xp_amp_tv_vpaf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "xp-daf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "daf.xp.apple.com",
+                    "resolved": "xp-daf.itunes-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "tv.apple.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9813664596273292
+        },
+        {
+            "domain": "cdn-apple.com",
+            "prevalence": 0.018633540372670808
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "Script": 72,
+        "Preflight": 17,
+        "Fetch": 19,
+        "Image": 18,
+        "XHR": 4
+    },
+    "nameservers": []
+}

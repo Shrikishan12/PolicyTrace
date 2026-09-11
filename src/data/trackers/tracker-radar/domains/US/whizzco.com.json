@@ -1,0 +1,161 @@
+{
+    "domain": "whizzco.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "whizzco\\.com\\/scripts\\/widget\\/widget_v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "316ce5cdb6f412feb8e7aac29db71bfebebc243216001aaae00a81df0871732d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patriots.win",
+                "reductress.com",
+                "rollcall.com",
+                "wltreport.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "whizzco\\.com\\/demand\\/v1\\/rtads",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "87415e60bfca64eca15e6a04fe4d3da9dd20feddfe75918376c77de39f87a437",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "c5cc04c77339098370e3b6d84609ff0ae4afedf318a36801be8cd070c90eff91",
+                "a0f3dab1fcfd20865b3d066936ceb1896e62222330b636c9071bb221c79f3a3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patriots.win",
+                "reductress.com",
+                "rollcall.com",
+                "wltreport.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "whizzco\\.com\\/demand\\/v1\\/rtads",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patriots.win",
+                "reductress.com",
+                "rollcall.com",
+                "wltreport.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "whizzco\\.com\\/dtracking\\/v1\\/tshow",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patriots.win",
+                "reductress.com",
+                "wltreport.com",
+                "www.sgtreport.com"
+            ]
+        },
+        {
+            "rule": "whizzco\\.com\\/dtracking\\/v1\\/tshow",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "acdef36219240c5bcbfb8d0dbe236f6f93613566de5733669e7d601747d66549"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patriots.win",
+                "reductress.com",
+                "wltreport.com",
+                "www.sgtreport.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "publir.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "XHR": 9,
+        "Preflight": 9
+    },
+    "nameservers": [
+        "chan.ns.cloudflare.com",
+        "zeus.ns.cloudflare.com"
+    ]
+}

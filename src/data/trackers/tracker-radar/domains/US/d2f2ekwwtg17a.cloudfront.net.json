@@ -1,0 +1,98 @@
+{
+    "domain": "d2f2ekwwtg17a.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "espn.api.edge.bamgrid.com",
+            "resolved": "d2f2ekwwtg17a.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "d2f2ekwwtg17a\\.cloudfront\\.net\\/graph\\/v1\\/device\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "espn.api.edge.bamgrid.com",
+                    "resolved": "d2f2ekwwtg17a.cloudfront.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "plus.espn.com",
+                "www.espn.co.uk",
+                "www.espn.com.br"
+            ]
+        },
+        {
+            "rule": "d2f2ekwwtg17a\\.cloudfront\\.net\\/graph\\/v1\\/device\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "espn.api.edge.bamgrid.com",
+                    "resolved": "d2f2ekwwtg17a.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "2148dcacd4cff5a6f42f5aa5900540499878c2e28d1fd70bed59f0a430a278fe",
+                "2aff9c07f47069159f4de93925b1398f0e47bdde3c9a72cd97150f48eccc53ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "espn.com",
+                "plus.espn.com",
+                "www.espn.co.uk",
+                "www.espn.com.br"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-963.awsdns-56.net",
+        "ns-1508.awsdns-60.org",
+        "ns-1996.awsdns-57.co.uk",
+        "ns-78.awsdns-09.com"
+    ]
+}

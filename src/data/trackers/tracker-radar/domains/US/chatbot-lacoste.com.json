@@ -1,0 +1,80 @@
+{
+    "domain": "chatbot-lacoste.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chatbot-lacoste\\.com\\/session\\/start",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacoste.com",
+                "www.lacoste.com"
+            ]
+        },
+        {
+            "rule": "chatbot-lacoste\\.com\\/session\\/start",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e0b5f09b29e07db45b1fe107cdf2275458f2e856030a066a526ad5cbaf6f45ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacoste.com",
+                "www.lacoste.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.markmonitor.com",
+        "ns3.markmonitor.com",
+        "ns4.markmonitor.com",
+        "ns5.markmonitor.com",
+        "ns6.markmonitor.com",
+        "ns7.markmonitor.com",
+        "ns2.markmonitor.com"
+    ]
+}

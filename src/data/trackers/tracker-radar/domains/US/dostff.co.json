@@ -1,0 +1,106 @@
+{
+    "domain": "dostff.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dostff\\.co\\/clipboard-bs\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4990daf3fc472f94a066693dde3ad4b99c01f0ab6baf2c65b8529f2a50e93264"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "do512.com",
+                "dothebay.com"
+            ]
+        },
+        {
+            "rule": "dostff\\.co\\/clipboard_dist\\/clipboard\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "466740432a93571e9be859b0012e1fd18fd5233904ae4983fdb8ed3e0750dab2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "do312.com",
+                "dolosangeles.com",
+                "donyc.com"
+            ]
+        },
+        {
+            "rule": "dostff\\.co\\/clipboard_dist\\/clipboard\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "window.localStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9bf6622d0572ce7f01b611208a620a0f5234a7e366fb520c734348cff123b59a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "do312.com",
+                "dolosangeles.com",
+                "donyc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 3
+    },
+    "nameservers": [
+        "hera.ns.cloudflare.com",
+        "dean.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "domain": "neodatagroup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "js.omg",
+        "trz",
+        "tra",
+        "tracker",
+        "js-ssl",
+        "ad",
+        "adagiofe",
+        "dataproviders"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "neodatagroup\\.com\\/omg\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js.omg"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.language": 9,
+                "Navigator.prototype.appName": 9,
+                "Screen.prototype.pixelDepth": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Date.prototype.getTimezoneOffset": 9,
+                "window.localStorage": 9,
+                "window.sessionStorage": 9,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanzaonline.com",
+                "it.motor1.com",
+                "www.agrodolce.it",
+                "www.autohit.co.uk",
+                "www.automobile360.it",
+                "www.motorbox.com",
+                "www.nationaltraveller.com",
+                "www.pmi.it",
+                "www.ricettedellanonna.net"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/pv",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trz",
+                "tra"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "7b728faa37e8e172f2e43aa296acd8a90c9db0e28dd9b6d33670f303cbd733fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "finanzaonline.com",
+                "forum.finanzaonline.com",
+                "it.motor1.com",
+                "www.agrodolce.it",
+                "www.autohit.co.uk",
+                "www.automobile360.it",
+                "www.borsaitaliana.it",
+                "www.ecodibergamo.it",
+                "www.giornaledibrescia.it",
+                "www.motorbox.com",
+                "www.nationaltraveller.com",
+                "www.pmi.it",
+                "www.ricettedellanonna.net"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/cm",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker",
+                "trz"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "finanzaonline.com",
+                "forum.finanzaonline.com",
+                "it.motor1.com",
+                "www.agrodolce.it",
+                "www.autohit.co.uk",
+                "www.automobile360.it",
+                "www.motorbox.com",
+                "www.nationaltraveller.com",
+                "www.pmi.it",
+                "www.ricettedellanonna.net"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/lseg\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js-ssl"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronext.com",
+                "www.borsaitaliana.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/javascript\\/lseg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7519290c64ea312a9c85f94c4bbef174dfaf1cd096f4abd13b2035939496dadd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronext.com",
+                "www.borsaitaliana.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/ad\\/lseg\\.jsp",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adagiofe"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1863a9f7ccdd18807b88e09edcb3ebbcd8feaf8d11bc9f882f137738477d29b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "euronext.com",
+                "www.borsaitaliana.it"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/ad\\/signalCm\\.jsp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dataproviders"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milannews.it",
+                "m.tuttonapoli.net",
+                "www.milannews.it",
+                "www.tuttomercatoweb.com"
+            ]
+        },
+        {
+            "rule": "neodatagroup\\.com\\/ad\\/opq\\.jsp",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adagiofe"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe1d382ddbf18a89f97dc0ad7a12ec0e88d31964f0a08160d8631e3b76bd9ac1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecodibergamo.it",
+                "www.giornaledibrescia.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000959,
+    "topInitiators": [
+        {
+            "domain": "blendee.com",
+            "prevalence": 0.6982758620689655
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.10344827586206896
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07758620689655173
+        },
+        {
+            "domain": "civiccomputing.com",
+            "prevalence": 0.05172413793103448
+        },
+        {
+            "domain": "datafront.co",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "pubtech.ai",
+            "prevalence": 0.02586206896551724
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.008620689655172414
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "Image": 10
+    },
+    "nameservers": [
+        "will.ns.cloudflare.com",
+        "mallory.ns.cloudflare.com"
+    ]
+}

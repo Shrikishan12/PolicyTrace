@@ -1,0 +1,117 @@
+{
+    "domain": "cloudwayssites.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "secure"
+    ],
+    "cnames": [
+        {
+            "original": "blog.charitywatch.org",
+            "resolved": "secure.cloudwayssites.com"
+        },
+        {
+            "original": "news.sru.edu",
+            "resolved": "secure.cloudwayssites.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cloudwayssites\\.com\\/wp-content\\/uploads\\/2024\\/10\\/failing-grade\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "blog.charitywatch.org",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "2a867346addc6e353c503a90c1725a06739aca4fec29c5c66d6b0313eb24459b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charitywatch.org",
+                "www.charitywatch.org"
+            ]
+        },
+        {
+            "rule": "cloudwayssites\\.com\\/wp-json\\/wp\\/v2\\/categories",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "news.sru.edu",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "377be2a1d885ea641ff451f7721872290ba92e706ebbd02734a63299bb0854c4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sru.edu",
+                "www.sru.edu"
+            ]
+        },
+        {
+            "rule": "cloudwayssites\\.com\\/wp-json\\/tribe\\/events\\/v1\\/events",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "news.sru.edu",
+                    "resolved": "secure.cloudwayssites.com"
+                }
+            ],
+            "responseHashes": [
+                "8d270fb235db1fd4577b6f7a2d601e8ace97d14f9c44f006cad3aa4e1f69c1f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sru.edu",
+                "www.sru.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "types": {
+        "Image": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "abby.ns.cloudflare.com",
+        "johnny.ns.cloudflare.com"
+    ]
+}

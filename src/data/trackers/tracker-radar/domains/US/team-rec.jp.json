@@ -1,0 +1,120 @@
+{
+    "domain": "team-rec.jp",
+    "owner": {
+        "name": "Team Lab Inc.",
+        "displayName": "Team Lab"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "mybaito-inhale",
+        "livable-inhale"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "team-rec\\.jp\\/js\\/tlab-dmp\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mybaito-inhale",
+                "livable-inhale"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1bcef95ce488163c305cde9a625cbdc31d19f055a5d1282f09df704fedc3c959"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "usertrack_asp3": {
+                    "ttl": 31536005,
+                    "length": 23,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "tlb_sid": {
+                    "ttl": 1800,
+                    "length": 10,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "tlab.tracking_id": {
+                    "ttl": 31536004,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "www.livable.co.jp"
+            ]
+        },
+        {
+            "rule": "team-rec\\.jp\\/put\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mybaito-inhale",
+                "livable-inhale"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "usertrack_asp3": 0.000006849643476057072,
+                "tlb_sid": 0.000013699286952114143,
+                "tlab.tracking_id": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "mynavi.jp",
+                "www.livable.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "amazonaws.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1076.awsdns-06.org",
+        "ns-1923.awsdns-48.co.uk",
+        "ns-345.awsdns-43.com",
+        "ns-717.awsdns-25.net"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "livesportmedia.eu",
+    "owner": {
+        "name": "LiveSport Media Ltd",
+        "displayName": "LiveSport Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "content"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "livesportmedia\\.eu\\/api\\/v1\\/banners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "f46fd7da02bb300752887fb4809349358e8734cc11f1fb20d5c6a86d44fe8ace",
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flashscore.fr",
+                "m.flashscore.fr",
+                "www.flashscore.mobi",
+                "www.livescore.cz"
+            ]
+        },
+        {
+            "rule": "livesportmedia\\.eu\\/api\\/v1\\/banners",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flashscore.fr",
+                "m.flashscore.fr",
+                "www.flashscore.mobi",
+                "www.livescore.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns1.edrive-hosting.cz",
+        "ns3.edrive.cz",
+        "ns2.edrive-hosting.cz"
+    ]
+}

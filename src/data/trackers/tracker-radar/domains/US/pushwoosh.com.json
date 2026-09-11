@@ -1,0 +1,431 @@
+{
+    "domain": "pushwoosh.com",
+    "owner": {
+        "name": "Arello Mobile",
+        "displayName": "Arello Mobile"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "cdn",
+        "api",
+        "cp",
+        "aajtak"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushwoosh\\.com\\/webpush\\/v3\\/pushwoosh-web-notifications\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.vendor": 5,
+                "Navigator.prototype.platform": 5,
+                "window.localStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Date.prototype.getTime": 3,
+                "Notification.permission": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "dbd267789dc3a94d4aea02fff5f976d6e614298dbf0b8aa9c46eab0bb9289f45",
+                "9cbc3f0b6fa5e283accff7a994c177fa2d09074f697aca320b8260d105dbb53f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rambler.ru",
+                "www.aajtak.in",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.gbnews.com",
+                "www.indiatoday.in",
+                "www.jpost.com"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/webpush\\/v3\\/pushwoosh-service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "7dc60c0c62992f62bcfb9430b79b34f2d01c4587a3178067d1fa3b0833b17a1c"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rambler.ru",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.championat.com",
+                "www.formule1.nl",
+                "www.gbnews.com",
+                "www.indiatoday.in",
+                "www.postimees.ee"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/getConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "cp"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "57739fc02af285963af1906fa90b7dd008ae9881950dbdfab8d21119824a4bbb",
+                "915456e899946e79a63dbb96b6d17a8eeef4048656de6287ea06b16b6c68395f",
+                "45b9e1ad2334b5f265cc6cb1514b65cfae65a5646b5ce45bc5f92d71628df730",
+                "e51ebb344f29a366e8c4717735f8d35e6ecb607fd7a0e329d3a7f553b54f17da",
+                "ab764da09aea6e1582906bd4886db6927e0d7fb9bd78ef381fcc47d555334b6e",
+                "d8c29a1d5136e8c129bb5ceb3957617b897c395bc974f98ce26e794d077dd860"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rambler.ru",
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.championat.com",
+                "www.indiatoday.in",
+                "www.lto.de"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/getConfig",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/postEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak",
+                "cp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "dc1826108658cb018ae83e4d4550a2d099c453467c35fb421fabac96d7042074",
+                "4e22c104a4b8bfeebbe4848c5068b4ee8491ed310bbdd6b78b2e9af9ed408287"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in",
+                "www.lto.de"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/postEvent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/applicationOpen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak",
+                "cp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "3d6c40db797f5cd7c55c8c047a94d79cdbf2ee21c9ff34952ee221f19ac0768c",
+                "81dcc461a96bf6bb17561aefa67b6355775be6b9e445f850d9ea19e238dc6c19",
+                "4add3fe371639b40f8491b105b99a35050365ebbc41dac264d11c5ca29434b96"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in",
+                "www.lto.de"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/applicationOpen",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/unregisterDevice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak",
+                "cp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ac2909ff9672232dbccc39a6db9f317ad21464c99691a51d1bf5060b0e92a2ed",
+                "10d920cf19c45e0b8bb2a8d2b69d1fef0b7ec8193e654c6480c8c88dd2619f64"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in",
+                "www.lto.de"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/unregisterDevice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/checkDevice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "80a6cd3f4e27387856ab523ff4a8e61d6d247b5da25ceb888f6b726f1c59027b",
+                "9091b8c0fe1d370c2239692bf090880e9b6d22f2597d4178dec5cd8652b5fd0c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/checkDevice",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/getInboxMessages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "66953ec36df0521f570c15ba683310ed68e95ddb31f41b9db9e4108e2db29423"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/json\\/1\\.3\\/getInboxMessages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "aajtak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.businesstoday.in"
+            ]
+        },
+        {
+            "rule": "pushwoosh\\.com\\/webpush\\/v3\\/pushwoosh-widget-subscription-prompt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "30ed047260eee78630a434f6c319de70425ffa9d9076e443a3f6073294937513"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "altroconsumo.it",
+                "www.businesstoday.in",
+                "www.indiatoday.in"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8627450980392157
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.13725490196078433
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Other": 8,
+        "Fetch": 30,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "ns-01.pushwoosh.com",
+        "ns-03.pushwoosh.com",
+        "ns-02.pushwoosh.com"
+    ]
+}

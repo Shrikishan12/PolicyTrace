@@ -1,0 +1,124 @@
+{
+    "domain": "profitmetrics.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "shopify-app",
+        "cdn1",
+        "my"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "profitmetrics\\.io\\/api\\/trk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify-app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "braceability.com",
+                "www.braceability.com",
+                "www.hingeoutlet.com",
+                "www.kekale.fi",
+                "www.medisave.co.uk"
+            ]
+        },
+        {
+            "rule": "profitmetrics\\.io\\/09C744020DA4913F\\/bundle\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "12e537bfd3cf5a6db38b32a5b7f89d91fb9b63f1d1f1dbb1b8b096516c514905"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pmStorage": {
+                    "ttl": 863913611,
+                    "length": 365,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emanualonline.com",
+                "www.emanualonline.com"
+            ]
+        },
+        {
+            "rule": "profitmetrics\\.io\\/ss\\/shopify\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9aeea378c2204a8769ac47ebdaf8553b88d8d0ae959433b45fa6428c4b58d983"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.000013699286952114143,
+                "_ga": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "simbasleep.com",
+                "www.souschef.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000089,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8461538461538461
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15384615384615385
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Script": 2
+    },
+    "nameservers": [
+        "jill.ns.cloudflare.com",
+        "aarav.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "domain": "frc-cappital.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "video",
+        "matomo"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "frc-cappital\\.co\\/lazy-static\\/thumbnails\\/b9cb4d95-85d2-44aa-aff9-87aab245703a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "baa60cef0d7d04caa6e9d264fe0ad821c3a82e741d01c20d68d66cd585d968be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frc.org",
+                "www.frc.org"
+            ]
+        },
+        {
+            "rule": "frc-cappital\\.co\\/api\\/v1\\/server\\/logs\\/client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frc.org",
+                "www.frc.org"
+            ]
+        },
+        {
+            "rule": "frc-cappital\\.co\\/\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matomo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frc.org",
+                "www.frc.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Fetch": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns19.domaincontrol.com",
+        "ns20.domaincontrol.com"
+    ]
+}

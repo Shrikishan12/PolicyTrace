@@ -1,0 +1,93 @@
+{
+    "domain": "valis-cpx.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "cd"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "valis-cpx\\.jp\\/script\\/pb_pixel2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cd"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 11,
+                "NavigatorUAData.prototype.getHighEntropyValues": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "5192b7250cb41e4cfc3ca57b531d8d94a21310e14f7fdec6446ac6999122fd22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mizuno.com",
+                "shc.lovecosmetic.jp",
+                "shingakunet.com",
+                "www.boatrace.jp",
+                "www.carsensor.net",
+                "www.hankyu-travel.com",
+                "www.iijmio.jp",
+                "www.matsui.co.jp",
+                "www.sbishinseibank.co.jp",
+                "www.tbs.co.jp",
+                "www.tepco.co.jp"
+            ]
+        },
+        {
+            "rule": "valis-cpx\\.jp\\/script\\/pb_pixel2_p_delay\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cd"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "3994a5e4a382d4d09badbf687394267ecfe21fd3fd1504514741d0d2817d7514"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mizuno.com",
+                "www.boatrace.jp",
+                "www.matsui.co.jp",
+                "www.tepco.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "ns-79.awsdns-09.com",
+        "ns-949.awsdns-54.net",
+        "ns-1069.awsdns-05.org",
+        "ns-1542.awsdns-00.co.uk"
+    ]
+}

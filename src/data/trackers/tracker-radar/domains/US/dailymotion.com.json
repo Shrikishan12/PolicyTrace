@@ -1,0 +1,698 @@
+{
+    "domain": "dailymotion.com",
+    "owner": {
+        "name": "Dailymotion SA",
+        "displayName": "Dailymotion"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000678,
+    "sites": 99,
+    "subdomains": [
+        "geo",
+        "api",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x19b48\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "35b5967ae2f06dbbb3169cc1a9f20bfa3e08d082071bd1a5458e2c891f4a184f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "985thesportshub.com",
+                "wmmr.com",
+                "wrif.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x19b48\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7a1309b5906d000aaa6359928fd89576b68405b90f468e5699d90e49327575a7",
+                "ecf043b69e8d66a8fae44a9c6a6812ddbe92b15a631e70f0672f2e60c29a3fab"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "985thesportshub.com",
+                "wmmr.com",
+                "wrif.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/static\\/latest\\/cdn\\/dmp\\.locale-en-US\\.50e5e1a1a70f2601a1fd\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 40,
+            "prevalence": 0.000274,
+            "cnames": [],
+            "responseHashes": [
+                "7937b1f5f5283efba2b5c899a47635a7c1c8470b3d9dcb4ee34cee2bf59e7876"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "super.abril.com.br",
+                "www.proceso.com.mx",
+                "tamil.oneindia.com",
+                "www.albawaba.com",
+                "www.dirtrider.com",
+                "www.manilatimes.net",
+                "portail.free.fr",
+                "www.jeanmarcmorandini.com",
+                "www.housingwire.com",
+                "quatrorodas.abril.com.br",
+                "www.royalqueenseeds.com",
+                "www.corriere.it",
+                "www.babu88.gold",
+                "mawdoo3.com",
+                "www.coxengineforum.com",
+                "985thesportshub.com",
+                "www.touretappe.nl",
+                "www.thoroughbreddailynews.com",
+                "www.surf-report.com",
+                "www.motorcyclistonline.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\.html",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "284f8715c1ec8d3e03776622c4f4126dae7246e614dfa61d36583ff2871abdf2",
+                "70a0b6f770b3e4a5c0784b1fdc5226f6dc712342983023dc591ae8210279298a",
+                "2b38e668f83ed3666f326cae7d8788d9f0e9a02694dbe292ced2ce3fa5a83b28"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elespanol.com",
+                "portail.free.fr",
+                "www.babu88.gold",
+                "www.royalqueenseeds.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x152fg\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mawdoo3.com",
+                "www.webteb.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x152fg\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de824ffbf470f4687d2309f1da1bf828c01932417ce194b763a968129f296156"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mawdoo3.com",
+                "www.webteb.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/xv78i\\.html",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2c0f891478afb9431b1e3f15f589cb5624a205f5fc4509803ef4488e10f352d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utmb.world",
+                "montblanc.utmb.world"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x1gwb\\.html",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e16c0c076d79cda54dec33a2b2cc005938adcae1f6b82297b3eb0ab7c4b58da"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oneindia.com",
+                "tamil.oneindia.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/xdfdz\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coxengineforum.com",
+                "www.geny.com",
+                "www.livefoot.fr",
+                "www.surf-report.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/xdfdz\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "95641a11ca57e1d1abcd9ef220a715e4dd567cfbd125cdb60b71262033ab39db"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coxengineforum.com",
+                "www.livefoot.fr",
+                "www.surf-report.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/xf7zn\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348",
+                "35b5967ae2f06dbbb3169cc1a9f20bfa3e08d082071bd1a5458e2c891f4a184f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com",
+                "www.dirtrider.com",
+                "www.motorcyclistonline.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/xf7zn\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "50a6507197e1b1e0dbc9715334fa5b74563685aff8b5ff2af59d7bb6193e9082",
+                "f3ff16176692b4075cccf56fb321b3baef2bc2be5aa5d60ec9f24060477c7969"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com",
+                "www.dirtrider.com",
+                "www.motorcyclistonline.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/xijoj\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingstage.com",
+                "www.cyclingstage.com",
+                "www.touretappe.nl"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/videos",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3c82c48fdb7276a569bd107d9bde8e8a45d998a4a6948d22770803ada78657f1",
+                "3fd21d53da4c217288f439a08592f6d7cf2edfd2482be547a11268c459940522"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmanetwork.com",
+                "www.lanazione.it",
+                "www.pep.ph"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellooha.com",
+                "www.lebonbon.fr"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/xaahf\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "35b5967ae2f06dbbb3169cc1a9f20bfa3e08d082071bd1a5458e2c891f4a184f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manilatimes.net",
+                "www.manilatimes.net"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x2wp7\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mymovies.it",
+                "www.mymovies.it"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x1is5k\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parents.fr",
+                "www.regal.fr",
+                "www.santemagazine.fr"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x14i5o\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paroles.net",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/thumbnail\\/640x360\\/video\\/x81irm3",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paroles.net",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x14i5o\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8a617947c98bf9d1c4450c7ed3420a3615392b953bced945445d9837deea1e64"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paroles.net",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/xrg2i\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pianetamilan.it",
+                "www.sosfanta.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x16vvq\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a73c6866b0ddeb75fe987ab824e24f9a4e40fb024020db98a0117be9258f5c9"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thoroughbreddailynews.com",
+                "www.thoroughbreddailynews.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/player\\/x1iw1k\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "939dbab912c037939f5e55876fc70f844f9e9da917a867459c0e7af2f44a30a0"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thoroughbreddailynews.com",
+                "www.thoroughbreddailynews.com"
+            ]
+        },
+        {
+            "rule": "dailymotion\\.com\\/libs\\/player\\/x8gm6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "902fb0633b938c0e1bf8277b8b7578a5b374b0fcdb096a845e6baaa1cbb72348"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xataka.com",
+                "www.xataka.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.000664,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7783018867924528
+        },
+        {
+            "domain": "dmcdn.net",
+            "prevalence": 0.09433962264150944
+        },
+        {
+            "domain": "sportslocalmedia.com",
+            "prevalence": 0.04716981132075472
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "nojazz.eu",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "corriereobjects.it",
+            "prevalence": 0.014150943396226415
+        },
+        {
+            "domain": "gliacloud.com",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "fabster.com",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "moniteurautomobile.be",
+            "prevalence": 0.0047169811320754715
+        },
+        {
+            "domain": "viously.com",
+            "prevalence": 0.0047169811320754715
+        }
+    ],
+    "types": {
+        "Script": 32,
+        "Document": 27,
+        "XHR": 40,
+        "Fetch": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "a.dailymotion.com",
+        "b.dailymotion.com"
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "domain": "humana.com",
+    "owner": {
+        "name": "Humana Inc.",
+        "displayName": "Humana"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cagf-dt",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "humana\\.com\\/jstag\\/managed\\/d3610855-748f-4365-9bb1-f036451fac27\\/c4faae647e7f9eae_complete\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cagf-dt"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.connection": 2,
+                "URL.createObjectURL": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.indexedDB": 1,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "557ca841c6eadd5a59a4373cc1d40a81df15726ad261ee9126f60f1ebda44314"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dTValidationCookie": {
+                    "ttl": -1787635233,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "dtCookie": {
+                    "ttl": null,
+                    "length": 106,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "rxVisitor": {
+                    "ttl": null,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "dtPC": {
+                    "ttl": null,
+                    "length": 58,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "rxvt": {
+                    "ttl": null,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "dtSa": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellpharmacy.com",
+                "www.centerwellpharmacy.com"
+            ]
+        },
+        {
+            "rule": "humana\\.com\\/jstag\\/managed\\/ruxitagent_D_10341260622154106\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cagf-dt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9d4061f88a0541c0b8c3127f4cebdc4984cb66948ac8ed9caedd86ad4c4cd02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellpharmacy.com",
+                "www.centerwellpharmacy.com"
+            ]
+        },
+        {
+            "rule": "humana\\.com\\/bf\\/d3610855-748f-4365-9bb1-f036451fac27",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cagf-dt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0fe124b74db0e12cd8873207a9d86903cc591d1588ce4b24ba28b876f55a42d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dtCookie": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "centerwellpharmacy.com",
+                "www.centerwellpharmacy.com"
+            ]
+        },
+        {
+            "rule": "humana\\.com\\/is\\/image\\/humana\\/privacyoptions730x350",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "feceed9c083eaa69f818d2aa30c667400a28029492cb311b2d5a799470878e98"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellprimarycare.com",
+                "www.centerwellprimarycare.com",
+                "www.convivacarecenters.com"
+            ]
+        },
+        {
+            "rule": "humana\\.com\\/is\\/content\\/humana\\/CenterWell_SPC_rgb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e81f8abd6180547dbb525aeeda118a5797a42a352c11549217f4554028273af"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellprimarycare.com",
+                "www.centerwellprimarycare.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 2,
+        "Image": 5
+    },
+    "nameservers": [
+        "edns1.ultradns.com",
+        "edns1.ultradns.net",
+        "edns1.ultradns.biz",
+        "edns1.ultradns.org"
+    ]
+}

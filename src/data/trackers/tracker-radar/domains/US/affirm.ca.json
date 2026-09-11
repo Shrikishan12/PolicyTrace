@@ -1,0 +1,131 @@
+{
+    "domain": "affirm.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cdn1",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "affirm\\.ca\\/js\\/v2\\/affirm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "963e2b00d4072e076f74e8f07caab733e1f48d991737879b7fd89df27d60577d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787611072,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "checkout_continuity_service": {
+                    "ttl": 157680008,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.structube.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/session\\/touch_track",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ae28a663dc8380669fa4f257b0fa2d8961853bf2d28b585e3856d622e30204c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.structube.com"
+            ]
+        },
+        {
+            "rule": "affirm\\.ca\\/api\\/v2\\/cookie_sent",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "924aebf24af414b12986f4af470b2ac7b61d765897f9e222c0af15805de9ae40"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.marks.com",
+                "www.newegg.ca",
+                "www.structube.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "affirm.com",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-149.awsdns-18.com",
+        "ns-586.awsdns-09.net",
+        "ns-1368.awsdns-43.org",
+        "ns-1548.awsdns-01.co.uk"
+    ]
+}

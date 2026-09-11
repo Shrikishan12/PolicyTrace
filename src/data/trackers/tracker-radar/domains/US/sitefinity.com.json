@@ -1,0 +1,579 @@
+{
+    "domain": "sitefinity.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000356,
+    "sites": 52,
+    "subdomains": [
+        "cdn.insight",
+        "api.insight",
+        "api.dec"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sitefinity\\.com\\/sdk\\/sitefinity-insight-client\\.min\\.3\\.1\\.44\\.js",
+            "cookies": 0.000178,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.insight"
+            ],
+            "apis": {
+                "Document.cookie getter": 34,
+                "Date.prototype.getTime": 26,
+                "Document.cookie setter": 26,
+                "Navigator.prototype.userAgent": 26,
+                "Navigator.prototype.language": 26,
+                "window.localStorage": 34,
+                "Date.prototype.getTimezoneOffset": 26,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 26,
+                "window.sessionStorage": 34
+            },
+            "sites": 35,
+            "prevalence": 0.00024,
+            "cnames": [],
+            "responseHashes": [
+                "a1a5596cece030374d1a5224023527cbc11ab1135c340b931a17d4d18649c1cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sf-ins-ssid": {
+                    "ttl": 1801,
+                    "length": 50,
+                    "prevalence": 0.00017809073037748386,
+                    "uniqueness": 1
+                },
+                "sf-data-intell-subject": {
+                    "ttl": 31536001,
+                    "length": 50,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "sf-ins-pv-id": {
+                    "ttl": -840954024,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.nusenda.org",
+                "www.telerik.com",
+                "www.rdoequipment.com",
+                "www.kearnybank.com",
+                "www.centier.com",
+                "www.adviacu.org",
+                "collegepublishing.sagepub.com",
+                "www.chevronfcu.org",
+                "www.sagepub.com",
+                "www.fao.org",
+                "www.paturnpike.com",
+                "gucu.org",
+                "www.wcu.com",
+                "www.fortisbc.com",
+                "www.fdot.gov",
+                "www.stmarysbank.com",
+                "www.cmich.edu",
+                "www.genielift.com",
+                "www.fm.bank",
+                "www.rasmussen.edu"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/68f2ab33-7a7b-d81c-a548-9ba7e1edf5db\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cashwise.com",
+                "coborns.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/68f2ab33-7a7b-d81c-a548-9ba7e1edf5db\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cashwise.com",
+                "coborns.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/5110a03a-a919-9c5f-581d-22586f83b5fd\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sagepub.com",
+                "www.sagepub.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/5110a03a-a919-9c5f-581d-22586f83b5fd\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sagepub.com",
+                "www.sagepub.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/sdk\\/sitefinity-insight-client\\.min\\.3\\.1\\.13\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.insight"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 5,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "window.sessionStorage": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "a1a5596cece030374d1a5224023527cbc11ab1135c340b931a17d4d18649c1cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sf-data-intell-subject": {
+                    "ttl": 31536002,
+                    "length": 50,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "sf-ins-ssid": {
+                    "ttl": 1802,
+                    "length": 50,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "sf-ins-pv-id": {
+                    "ttl": -840939624,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adspipe.com",
+                "www.adspipe.com",
+                "www.emmasdiary.co.uk",
+                "www.hughesfcu.org",
+                "www.orthomolecularproducts.com",
+                "www.texanscu.org",
+                "www.zen.co.uk"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/4b5ec179-71b2-3561-8b74-7244117223eb\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chevronfcu.org",
+                "www.chevronfcu.org"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/4b5ec179-71b2-3561-8b74-7244117223eb\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chevronfcu.org",
+                "www.chevronfcu.org"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/4b5ec179-71b2-3561-8b74-7244117223eb\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chevronfcu.org",
+                "www.chevronfcu.org"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/f1bf36eb-da80-864e-c9e7-7cf02e64bb68\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fdot.gov",
+                "www.fdot.gov"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/f1bf36eb-da80-864e-c9e7-7cf02e64bb68\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fdot.gov",
+                "www.fdot.gov"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/f599be3d-ae96-2de8-0559-7bd3ada4ee48\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "genielift.com",
+                "www.genielift.com",
+                "www.terex.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/f599be3d-ae96-2de8-0559-7bd3ada4ee48\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "genielift.com",
+                "www.genielift.com",
+                "www.terex.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/49ac4424-b76e-7e47-d448-473103e2b6b7\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.dec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nusenda.org",
+                "www.nusenda.org"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/49ac4424-b76e-7e47-d448-473103e2b6b7\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.dec"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nusenda.org",
+                "www.nusenda.org"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/ce11a3a3-ecaf-a936-da30-1f525a72ce2a\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthomolecularproducts.com",
+                "www.orthomolecularproducts.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/ce11a3a3-ecaf-a936-da30-1f525a72ce2a\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthomolecularproducts.com",
+                "www.orthomolecularproducts.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/25b83242-d20b-2886-ba3c-81bd8074649d\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paturnpike.com",
+                "www.paturnpike.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/25b83242-d20b-2886-ba3c-81bd8074649d\\/datasources\\/Website\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paturnpike.com",
+                "www.paturnpike.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/76766c2b-82f4-2453-81e5-fd840f3b455b\\/datasources\\/TelerikCom\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerik.com",
+                "www.telerik.com"
+            ]
+        },
+        {
+            "rule": "sitefinity\\.com\\/collect\\/v2\\/data-centers\\/76766c2b-82f4-2453-81e5-fd840f3b455b\\/datasources\\/TelerikCom\\/interactions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.insight"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerik.com",
+                "www.telerik.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00026,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8556701030927835
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.07216494845360824
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.041237113402061855
+        },
+        {
+            "domain": "onlineaccess1.com",
+            "prevalence": 0.030927835051546393
+        }
+    ],
+    "types": {
+        "Script": 42,
+        "XHR": 19,
+        "Preflight": 19,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-138.awsdns-17.com",
+        "ns-939.awsdns-53.net",
+        "ns-1949.awsdns-51.co.uk",
+        "ns-1425.awsdns-50.org"
+    ]
+}

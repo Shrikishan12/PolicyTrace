@@ -1,0 +1,103 @@
+{
+    "domain": "qntv.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "static",
+        "sync"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "qntv\\.io\\/sync\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "fc5a763c306ff869e2c754127f64a50445fe8ac6a281058f64c1545ac85e326f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "xuid": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cubecobra.com",
+                "natlawreview.com",
+                "sandrarose.com",
+                "vandal.elespanol.com",
+                "www.astronomy.com",
+                "www.hollywoodreporter.com",
+                "www.snbforums.com",
+                "www.theflowspace.com"
+            ]
+        },
+        {
+            "rule": "qntv\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elespanol.com",
+                "vandal.elespanol.com",
+                "www.snbforums.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "nexx360.io",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "adapex.io",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "relevant-digital.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Document": 8,
+        "Image": 3
+    },
+    "nameservers": [
+        "adam.ns.cloudflare.com",
+        "aurora.ns.cloudflare.com"
+    ]
+}

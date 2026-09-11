@@ -1,0 +1,164 @@
+{
+    "domain": "primeai5.co.uk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "icu"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "primeai5\\.co\\.uk\\/p\\/icu\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playfulpromises.com",
+                "www.playfulpromises.com"
+            ]
+        },
+        {
+            "rule": "primeai5\\.co\\.uk\\/p\\/canary\\/persistent-device-id\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d851a25a70bf56352c7bd1ece44c47677747871387a8e3d3c7535efb442d88d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playfulpromises.com",
+                "www.playfulpromises.com"
+            ]
+        },
+        {
+            "rule": "primeai5\\.co\\.uk\\/sdk\\/bootstrap",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "46478c0c488f81c30d697ec28533b15c38c5a97a6379ce36cbee15fe6a157518"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playfulpromises.com",
+                "www.playfulpromises.com"
+            ]
+        },
+        {
+            "rule": "primeai5\\.co\\.uk\\/p\\/canary\\/v0\\.1\\.3\\/icu\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "icu"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.connection": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "Navigator.prototype.storage": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "AudioBuffer.prototype.getChannelData": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "53fc1802b4261f7b46812ea9449213f703d0a1b2b7a976fa48847252f586a531"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playfulpromises.com",
+                "www.playfulpromises.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "primeai2.org",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns3.netnerd.com",
+        "ns4.netnerd.com"
+    ]
+}

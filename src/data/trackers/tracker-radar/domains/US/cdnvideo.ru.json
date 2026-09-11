@@ -1,0 +1,141 @@
+{
+    "domain": "cdnvideo.ru",
+    "owner": {
+        "name": "LLC \"CDN-video\"",
+        "displayName": "CDN-video"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "unisound",
+        "ivi-region",
+        "cdn2-vod-mp4-ntv",
+        "rum6"
+    ],
+    "cnames": [
+        {
+            "original": "cdn2-vod-mp4.ntv.ru",
+            "resolved": "cdn2-vod-mp4-ntv.cdnvideo.ru"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cdnvideo\\.ru\\/static\\/js\\/xman\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "unisound"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae59d4bfc79a5f48b77227e8b2b6482b9f1e2e3bc32b3f776959966d5bd56ec6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiopotok.ru",
+                "zaycev.net"
+            ]
+        },
+        {
+            "rule": "cdnvideo\\.ru\\/jW1HYN200ULHwkQ5g5J0RNIPQjdfAURbnydPgrt3IP7H6Jg4lfyt85721\\/mp4-hi\\/aeFrF2mVRSINW0IGfLtuiQ,1787646340\\/storage0\\/contents\\/2\\/9\\/2073060f04412a83ea2359c9025e5b\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ivi-region"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ab6c6c19822d6db20c179b601f1c60bffab14524c36b02add672728f17b8cb24"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ivi.tv",
+                "www.ivi.tv"
+            ]
+        },
+        {
+            "rule": "cdnvideo\\.ru\\/promo\\/2025\\/20251205\\/Rubinsk_oblzh_hqnuuV2sY7CFVIHO9m\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2-vod-mp4-ntv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn2-vod-mp4.ntv.ru",
+                    "resolved": "cdn2-vod-mp4-ntv.cdnvideo.ru"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ntv.ru",
+                "www.ntv.ru"
+            ]
+        },
+        {
+            "rule": "cdnvideo\\.ru\\/simple\\/small\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum6"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vesti.ru",
+                "www.vesti.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Media": 4
+    },
+    "nameservers": [
+        "ns006.cdnvideo.ru",
+        "ns007.cdnvideo.ru",
+        "ns008.cdnvideo.ru",
+        "ns009.cdnvideo.ru",
+        "ns060.cdnvideo.ru"
+    ]
+}

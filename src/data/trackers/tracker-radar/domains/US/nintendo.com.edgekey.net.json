@@ -1,0 +1,540 @@
+{
+    "domain": "nintendo.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "star.accounts",
+        "star.my",
+        "api.ec"
+    ],
+    "cnames": [
+        {
+            "original": "api.ec.nintendo.com",
+            "resolved": "api.ec.nintendo.com.edgekey.net"
+        },
+        {
+            "original": "cdn.accounts.nintendo.com",
+            "resolved": "star.accounts.nintendo.com.edgekey.net"
+        },
+        {
+            "original": "cdn.my.nintendo.com",
+            "resolved": "star.my.nintendo.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/css\\/pc\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ce91e660bd6af3990dc7fa94bca7b64decd4e637ed71693f0fc45ba5d5ec1ffa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "accounts.nintendo.com",
+                "en-americas-support.nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/css\\/pc\\/pages\\/login-form\\/all\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "40fb84dc7c280ef9eb02ee2123eae6e8df2039884fb54faed483828bd0743aa5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "accounts.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/js\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "459e43911bd6cf629ed3d50cac518dee1152bc5230c25ca9438dd204a94d8b58",
+                "fe99f7a3bb23f8256643e8a9da3d6e8eb6968b0b1eb0d69929ae83cfbed93397"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "accounts.nintendo.com",
+                "en-americas-support.nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/js\\/pages\\/login-form\\/pc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e2cac07466631bf6016736ca6ff55296a45b7c23622493f4b0ce0be31b58917c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "accounts.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/images\\/pc\\/login_form\\/pict_not_supported\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4bb173660a7af45be7500b4a4e88d3dc6524d5c40d632f22042e16195f385f5e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "accounts.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/jssdk\\/nintendo-jssdk-client\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9c59d9e15c45a15b4e23cba39390a5e1c8f251f59aa1d1c6f37645244c99c5c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/jssdk\\/nintendo-jssdk-opframe\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "802f10e75a9664420bafd6dc5a4cfe2a149b0e60818eb4b57715226f1e2c5778"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/jssdk\\/nintendo-jssdk-xdframe\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b3800ca034d522996fede595cb0e1ea146231aa63615afd5306583ee9f10ed32"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/css\\/pc\\/pages\\/authorize-web-message\\/all\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ba5b0ab6e7e17d9a3fc6ac437c99386c364f5f47250d4707d9547ab43be89a92"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/account\\/js\\/pages\\/authorize-web-message\\/pc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "81bcdccff3a874c7289df7d734ca59d9a93c124ebafa7a52075fc70eae3579a0",
+                "3f748a8cd513ebe81b10a35760ae0c652ea65aa942daa57a8b8138d7ef26c868"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com",
+                "store-jp.nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/static\\/jssdk\\/nintendo-jssdk-client\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.my.nintendo.com",
+                    "resolved": "star.my.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9c59d9e15c45a15b4e23cba39390a5e1c8f251f59aa1d1c6f37645244c99c5c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/static\\/dist\\/build\\/common\\.bundle\\/pc\\.3a61c5bcb6deb0e7\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "star.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.my.nintendo.com",
+                    "resolved": "star.my.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2fdae449dc32ef0b8b89e6900540b2e0362f2a272ca8ab0c95d3eb3015452fc2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/static\\/dist\\/images\\/common\\/bg-dots\\.a6016f3d7813525f\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.my.nintendo.com",
+                    "resolved": "star.my.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c597b84136c21bd69e45859a107794991988d0a54937058b01519ca11164903a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/static\\/dist\\/images\\/pc\\/common\\/sprite\\/parts\\.427f8f905ee29a73\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "star.my"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.my.nintendo.com",
+                    "resolved": "star.my.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5ffd6423ffb3dca41e26152fe5266ee09bf100d07d01dfe8e08c567f86997acf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "my.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/static\\/jssdk\\/eshopframe\\.3\\.0\\.2\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ec"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.ec.nintendo.com",
+                    "resolved": "api.ec.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "916757f4ae82ebc554f3c1dbeeab36dd67f190887cb6c93ebc109b437b36001d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/jssdk\\/nintendo-jssdk-appsframe\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2bfedb4e54f36d9bccc5195615e77add0e9232618c7ec742cfd6cd156a0700f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.com\\.edgekey\\.net\\/jssdk\\/nintendo-jssdk-eshopframe\\.3\\.0\\.2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "star.accounts"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.accounts.nintendo.com",
+                    "resolved": "star.accounts.nintendo.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6a6d783ae79f1384524343eeae154a157aef7236651cc52c6da44d9c064268ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "support.nintendo.com",
+                "www.nintendo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "nintendo.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 14,
+        "Script": 38,
+        "Image": 6,
+        "Document": 3
+    },
+    "nameservers": []
+}

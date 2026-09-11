@@ -1,0 +1,83 @@
+{
+    "domain": "polskapress.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "privacy"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "polskapress\\.pl\\/global-cookies\\/9e19cc2f8415950cc0615951fe4a6c4da57fc43b\\/global-cookies\\.9e19cc2f8415950cc0615951fe4a6c4da57fc43b\\.html",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "privacy"
+            ],
+            "apis": {
+                "Document.cookie setter": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1a25620c6742aa3d7f3eca4e06bcc207251f8ac554a86c4b19c0c089e4819553"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetawroclawska.pl",
+                "gazetakrakowska.pl",
+                "gol24.pl",
+                "telemagazyn.pl"
+            ]
+        },
+        {
+            "rule": "polskapress\\.pl\\/img\\/polskapress\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d047f98682f2bd34ecf07ab3ae8dd08a86c8de8ad7efdd69d5430526bf60c8bc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetawroclawska.pl",
+                "gazetakrakowska.pl",
+                "gol24.pl",
+                "telemagazyn.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "rose.ns.cloudflare.com",
+        "ray.ns.cloudflare.com"
+    ]
+}

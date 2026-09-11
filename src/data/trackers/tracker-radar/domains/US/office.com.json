@@ -1,0 +1,127 @@
+{
+    "domain": "office.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "ecs",
+        "outlook"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "office\\.com\\/config\\/v1\\/CopilotStudio\\/1\\.0\\.0\\.0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecs"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellevuewa.gov",
+                "edfinancial.studentaid.gov",
+                "greeleyco.gov",
+                "www.alaskarailroad.com",
+                "www.assurancewireless.com",
+                "www.greenpartstore.com",
+                "www.wsscwater.com"
+            ]
+        },
+        {
+            "rule": "office\\.com\\/config\\/v1\\/CopilotStudio\\/1\\.0\\.0\\.0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecs"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "80b63d554e438885d61aaf101082a1e2bdba1cd6cca7bdf353912156d9ab4e72",
+                "3030260964c122cc5028d1296ff7deb2815efd34ae549f26f2374f2a40b54f7e",
+                "e8fb3eef04cdd6225723cf7c4902e73022d85403a6d6f86c22e0885dacebf450",
+                "10a7b3f9e8bcb0da3db53c5d3f51cfb703f66dc8baee0bad5f9967e0857fccd3",
+                "62d4093a40463e684b812663bc68658381e5699121e0cfc54d072ae8756c5a99",
+                "169b8602119d818d792db7411e02d0f3a10f0bfb2a48adc2423525e0b4ab63f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bellevuewa.gov",
+                "edfinancial.studentaid.gov",
+                "greeleyco.gov",
+                "www.alaskarailroad.com",
+                "www.assurancewireless.com",
+                "www.greenpartstore.com",
+                "www.wsscwater.com"
+            ]
+        },
+        {
+            "rule": "office\\.com\\/book\\/remote@andersencorp\\.onmicrosoft\\.com\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "outlook"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renewalbyandersen.com",
+                "www.renewalbyandersen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "powerapps.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "powerapps.us",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Preflight": 7,
+        "Fetch": 7,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net",
+        "ns3-05.azure-dns.org",
+        "ns4-05.azure-dns.info"
+    ]
+}

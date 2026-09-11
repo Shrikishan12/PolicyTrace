@@ -1,0 +1,72 @@
+{
+    "domain": "crain-global.s3.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "crain-global\\.s3\\.amazonaws\\.com\\/global\\/js\\/cci-firstTouchCookie\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a52bf805948390e3ecf0ee9bf232f1563a9d8cae24a20152845730f355adedbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cciFirstTouch": {
+                    "ttl": 300,
+                    "length": 6,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 0.2
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autonews.com",
+                "www.autonews.com",
+                "www.chicagobusiness.com",
+                "www.crainsdetroit.com",
+                "www.crainsnewyork.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns-1173.awsdns-18.org",
+        "ns-1620.awsdns-10.co.uk",
+        "ns-328.awsdns-41.com",
+        "ns-674.awsdns-20.net"
+    ]
+}

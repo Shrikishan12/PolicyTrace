@@ -1,0 +1,172 @@
+{
+    "domain": "geckochat.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "audio",
+        "embed",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "geckochat\\.io\\/receive\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "audio"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "8bd91048b2328993472ba2c4643fbecb522e618777bae9fc225fe37bad44ffc1"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.columbiastate.edu",
+                "www.shsu.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckochat\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "window.sessionStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "Navigator.prototype.appVersion": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "1ec5b74c4cd32283c82e61ae1a8b26b546ee5c92904255b600c5a688d28ce0d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arapahoe.edu",
+                "www.ccd.edu",
+                "www.msoe.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk"
+            ]
+        },
+        {
+            "rule": "geckochat\\.io\\/main\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "16193f141390ffe110e91127a3e647ca0a06fbcc8e0f1feb31421d36c5e3c114"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arapahoe.edu",
+                "www.ccd.edu",
+                "www.msoe.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk"
+            ]
+        },
+        {
+            "rule": "geckochat\\.io\\/media\\/fa-brands-400\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e4d3b4060ba83e313d949b8294d3267e9af680a183f9c47ac4c0a9696b750e74"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arapahoe.edu",
+                "www.ccd.edu",
+                "www.rrcc.edu"
+            ]
+        },
+        {
+            "rule": "geckochat\\.io\\/account\\/6vIz3QbG516UZLP",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "917046926a298f9e6914f5467917512d83af97910120020fb33f2ec73e830028"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smc.edu",
+                "www.smc.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Media": 8,
+        "Script": 7,
+        "Stylesheet": 7,
+        "Font": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-800.awsdns-36.net",
+        "ns-1465.awsdns-55.org",
+        "ns-1886.awsdns-43.co.uk",
+        "ns-206.awsdns-25.com"
+    ]
+}

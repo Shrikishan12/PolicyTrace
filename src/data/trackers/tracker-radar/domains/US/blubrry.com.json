@@ -1,0 +1,160 @@
+{
+    "domain": "blubrry.com",
+    "owner": {
+        "name": "RawVoice",
+        "displayName": "RawVoice"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "player",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "blubrry\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6a357c58c60a6b70cf677a3fb5d9f08ab81197f18129ba97c89d413985823fa5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "republicbroadcastingarchives.org",
+                "www.republicbroadcastingarchives.org"
+            ]
+        },
+        {
+            "rule": "blubrry\\.com\\/css\\/player2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "741ca6206253db9bb5fcb862af93ac8b26260b371f3c9dd9eff085bd43bd06c6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "republicbroadcastingarchives.org",
+                "www.republicbroadcastingarchives.org"
+            ]
+        },
+        {
+            "rule": "blubrry\\.com\\/coverart\\/160\\/365555-1743712805\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "71a15d7bc1b8ea10f13b3d5243f3ee7de12e2850f5a4887640fe8e8bbba972d9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "republicbroadcastingarchives.org",
+                "www.republicbroadcastingarchives.org"
+            ]
+        },
+        {
+            "rule": "blubrry\\.com\\/js\\/player2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Element.prototype.getClientRects": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ed07512e8b0404f505ae705ce8820fed6218a42210222e66675b37c1ce38421"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "republicbroadcastingarchives.org",
+                "www.republicbroadcastingarchives.org"
+            ]
+        },
+        {
+            "rule": "blubrry\\.com\\/fonts\\/bplayericons\\.2024c\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "061c2f4ba7f16136d4d304ed2a8429a826fffc67038e4a7fe8cf95824a09e593"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "republicbroadcastingarchives.org",
+                "www.republicbroadcastingarchives.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Stylesheet": 2,
+        "Image": 2,
+        "Script": 2,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns-569.awsdns-07.net",
+        "ns-401.awsdns-50.com",
+        "ns-1199.awsdns-21.org",
+        "ns-1866.awsdns-41.co.uk"
+    ]
+}

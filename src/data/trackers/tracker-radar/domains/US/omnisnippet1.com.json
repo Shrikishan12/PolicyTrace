@@ -1,0 +1,502 @@
+{
+    "domain": "omnisnippet1.com",
+    "owner": {
+        "name": "Omnisend, UAB",
+        "displayName": "Omnisend"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00219,
+    "sites": 319,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "omnisnippet1\\.com\\/platforms\\/shopify\\.js",
+            "cookies": 0.000932,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 138,
+            "prevalence": 0.000945,
+            "cnames": [],
+            "responseHashes": [
+                "77c6d9ce86d606c9a8e4ce7b79640fd95deb7a506dcb52eb54876bf7b4a492a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nakedandfamousdenim.com",
+                "sacredplantco.com",
+                "ajluxe.com",
+                "elegantstripper.com",
+                "missexotic.com",
+                "hauteflair.com",
+                "speediance.com",
+                "www.yeslak.com",
+                "getwellue.com",
+                "thepihut.com",
+                "curvybombshells.com",
+                "www.ancel.com",
+                "merachfit.com",
+                "monsterscooterparts.com",
+                "masongenie.com",
+                "www.homebaa.com",
+                "cannonsecurityproducts.com",
+                "www.80stees.com",
+                "www.innova.com",
+                "www.freshpair.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/inshop\\/launcher-v2\\.js",
+            "cookies": 0.00127,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 191,
+                "Date.prototype.getTime": 179,
+                "Document.cookie setter": 180,
+                "window.sessionStorage": 171,
+                "window.localStorage": 46
+            },
+            "sites": 192,
+            "prevalence": 0.00132,
+            "cnames": [],
+            "responseHashes": [
+                "5a8a8c3d5bd9b13ba506ee9031b961a913081e971cef11b6671213b7a9c93ae4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "omnisendSessionID": {
+                    "ttl": 1804,
+                    "length": 29,
+                    "prevalence": 0.0012123868952621016,
+                    "uniqueness": 1
+                },
+                "omnisendShopifyCart": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.0008836040084113622,
+                    "uniqueness": 0.015503875968992248
+                },
+                "page-views": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000671265060653593,
+                    "uniqueness": 0.01020408163265306
+                },
+                "omnisend-form-6a88e694c8c1603e9077a25d-version-selected": {
+                    "ttl": 31536003,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a1f18851e3314d568a9a2fa-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-69a606545fe870f2303cfa66-version-selected": {
+                    "ttl": 31536003,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a4550324866ccdc8fa97eab-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a4550734866ccdc8fa97ebe-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a4550f5a09657ad6ae0035a-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6787b98562c4d6ceb4138bf7-version-selected": {
+                    "ttl": 31536011,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6787ba04f381c115caaee16f-version-selected": {
+                    "ttl": 31536011,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-68756a567969e83973097d7a-version-selected": {
+                    "ttl": 31536008,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a5fb6c90eb95dd3b457491a-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a31daba2aec1351ed11dc0e-version-selected": {
+                    "ttl": 31536007,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a2416010b21b58be0547eaa-version-selected": {
+                    "ttl": 31536003,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a6ff339e49abcaac981fe79-version-selected": {
+                    "ttl": 31536011,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a7e2ee66ea643f8f0231c92-version-selected": {
+                    "ttl": 31536006,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a0e02367d03e12f8c71b3cd-version-selected": {
+                    "ttl": 31536016,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.backtoyourrootsherbs.com",
+                "nccs.net",
+                "eaglelights.com",
+                "www.luxurycoastalvacations.com",
+                "musely.com",
+                "www.arccaptain.com",
+                "2tactic.com",
+                "www.twc.health",
+                "biolongevitylabs.com",
+                "www.touchofmodern.com",
+                "www.playfulpromises.com",
+                "www.angrybbq.com",
+                "www.ranchogordo.com",
+                "powerwerx.com",
+                "monsterscooterparts.com",
+                "motionraceworks.com",
+                "www.botanicalinterests.com",
+                "www.nicecnc.com",
+                "www.xtoolglobal.com",
+                "siliconelovers.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/monitoring\\/monitoring\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 230,
+                "window.localStorage": 1
+            },
+            "sites": 231,
+            "prevalence": 0.00158,
+            "cnames": [],
+            "responseHashes": [
+                "9cf9b0dc5fd3ca2c99c1a7eb1a15495319c65b5bc5b81015e26785a3df87c728"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sabrered.com",
+                "www.tobaccostock.com",
+                "gardepro.com",
+                "americasnationalparks.org",
+                "www.woodworkingshop.com",
+                "looseleafteamarket.com",
+                "insanediesel.com",
+                "motionraceworks.com",
+                "www.saltwateraquarium.com",
+                "aipasbike.com",
+                "www.luxurycoastalvacations.com",
+                "www.delallo.com",
+                "biolongevitylabs.com",
+                "sightmark.com",
+                "uniden.com",
+                "www.warnersstellian.com",
+                "rvtoiletparts.com",
+                "www.enginediy.com",
+                "thissillygirlskitchen.com",
+                "www.dadant.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/forms\\/main\\.js",
+            "cookies": 0.00011,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 212,
+                "Date.prototype.getTime": 67
+            },
+            "sites": 214,
+            "prevalence": 0.00147,
+            "cnames": [],
+            "responseHashes": [
+                "c060781b01dae50b9d42936cfd47f0846f852d56380b8db86f7f1c798a9450f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainflow.co",
+                "obdeleven.com",
+                "www.yourdoll.com",
+                "sierramadrecollection.com",
+                "www.stirlingkit.com",
+                "naturesgenerator.com",
+                "nakedandfamousdenim.com",
+                "thissillygirlskitchen.com",
+                "www.twc.health",
+                "sightmark.com",
+                "www.weloveplugs.com",
+                "www.myplates.com",
+                "www.freshpair.com",
+                "alitehub.com",
+                "moeflavor.com",
+                "poolweb.com",
+                "eskute.com",
+                "www.jenniferfurniture.com",
+                "altsuperstore.com",
+                "www.auk.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/inShop\\/push-notifications\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 49,
+                "Navigator.prototype.permissions": 49,
+                "window.sessionStorage": 9
+            },
+            "sites": 49,
+            "prevalence": 0.000336,
+            "cnames": [],
+            "responseHashes": [
+                "1d59a86ebf77534102e2b81a9f201e6805270f9c5621103a63a937ee0e07bbab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merachfit.com",
+                "limitedrungames.com",
+                "aipasbike.com",
+                "store.autel.com",
+                "www.backtoyourrootsherbs.com",
+                "www.slickwraps.com",
+                "firesafetyusa.com",
+                "www.fairindigo.com",
+                "www.touchofmodern.com",
+                "betafpv.com",
+                "watchdives.com",
+                "raintreenursery.com",
+                "www.twc.health",
+                "freshchileco.com",
+                "curvybombshells.com",
+                "www.thebadpeach.com",
+                "explorescientific.com",
+                "medicube.us",
+                "lavinialingerie.com",
+                "www.homebaa.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/platforms\\/woocommerce\\.js",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "6700bf4eeae6f2040283195590abee7efdd4c0a9f4e4c2f47b1aa6e21a223f5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "altsuperstore.com",
+                "amazingbotanicals.net",
+                "badlandsmunitionsco.com",
+                "biolongevitylabs.com",
+                "lithiumhub.com",
+                "simplepeptide.com",
+                "sugotoys.com.au",
+                "texastriggerusa.com",
+                "tilta.com",
+                "www.atioutdoors.com",
+                "www.backtoyourrootsherbs.com",
+                "www.contemporaryartissue.com",
+                "www.france-mineraux.fr",
+                "www.myrobotdoll.com",
+                "www.pulseandcocktails.co.uk",
+                "www.rarewoodsusa.com",
+                "www.realpeptides.co",
+                "www.speedbeez.com",
+                "www.tutelamedical.com",
+                "www.yourdoll.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/inShop\\/Embed\\/shopify\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "anthonysgoods.com",
+                "belledansmesfringues.fr",
+                "www.aelfriceden.com"
+            ]
+        },
+        {
+            "rule": "omnisnippet1\\.com\\/inshop\\/bigcommerce-launcher\\.js",
+            "cookies": 0.000233,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 34,
+                "Date.prototype.getTime": 27,
+                "Document.cookie setter": 27,
+                "window.sessionStorage": 27,
+                "window.localStorage": 2
+            },
+            "sites": 34,
+            "prevalence": 0.000233,
+            "cnames": [],
+            "responseHashes": [
+                "a456de73a2c04d0a5a0f06e042d8491192e8c17f1993ec4d3638726581916d7b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "omnisendSessionID": {
+                    "ttl": 1803,
+                    "length": 29,
+                    "prevalence": 0.00018494037385354093,
+                    "uniqueness": 1
+                },
+                "page-views": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.00010959429561691315,
+                    "uniqueness": 0.0625
+                },
+                "omnisend-form-66abdc80d806e233865f07ba-version-selected": {
+                    "ttl": 31536002,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a2c0a2adce210f6fde466c2-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "omnisend-form-6a4d0ae22c00eaaa1a4ce528-version-selected": {
+                    "ttl": 31536005,
+                    "length": 24,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "poptin_last_visit": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "www.wingtactical.com",
+                "www.keylessentryremotefob.com",
+                "cultivateelevate.com",
+                "www.superioroutfitters.com",
+                "rvtoiletparts.com",
+                "flagsexpress.com",
+                "www.briggsstrattonstore.com",
+                "www.woodworkingshop.com",
+                "elusivedisc.com",
+                "bt-parts.com",
+                "www.sarcoinc.com",
+                "theknifeconnection.com",
+                "powertecproducts.com",
+                "midwestmilitaryequipment.com",
+                "www.husqvparts.com",
+                "www.ombwarehouse.com",
+                "www.surefire.com",
+                "www.brondell.com",
+                "www.delallo.com",
+                "stoneagegamer.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00219,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5042016806722689
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4425770308123249
+        },
+        {
+            "domain": "omnisrc.com",
+            "prevalence": 0.025210084033613446
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "reamaze.com",
+            "prevalence": 0.0056022408963585435
+        },
+        {
+            "domain": "omniform1.com",
+            "prevalence": 0.0028011204481792717
+        }
+    ],
+    "types": {
+        "Script": 881
+    },
+    "nameservers": [
+        "dina.ns.cloudflare.com",
+        "greg.ns.cloudflare.com"
+    ]
+}

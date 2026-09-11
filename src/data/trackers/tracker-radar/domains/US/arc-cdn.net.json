@@ -1,0 +1,1022 @@
+{
+    "domain": "arc-cdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000712,
+    "sites": 104,
+    "subdomains": [
+        "newr7-r7-prod.api",
+        "irishnews-irishnews-prod.api",
+        "newr7-config-prod.api",
+        "gray-config-prod.api",
+        "bostonglobe-config-prod.api",
+        "chosun-config-prod.api",
+        "irishtimes-config-prod.api",
+        "opb-config-prod.api",
+        "910mediagroup-910news-prod.web",
+        "christies-christies-prod.web",
+        "octane-cycleworld-prod.web",
+        "octane-dirtrider-prod.web",
+        "semana-el-pais-prod.web",
+        "leadersgroup-sbj-prod.web",
+        "arenaholdings-timeslive-prod.web",
+        "semana-el-pais-prod.api",
+        "leadersgroup-sbj-prod.api",
+        "arenaholdings-timeslive-prod.api",
+        "gray-prod.video",
+        "octane-utvdriver-prod.web"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "arc-cdn\\.net\\/identity\\/public\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newr7-r7-prod.api",
+                "irishnews-irishnews-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "r7.com",
+                "record.r7.com",
+                "www.irishnews.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/video\\/v1\\/ansvideos\\/findByUuid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newr7-config-prod.api",
+                "gray-config-prod.api",
+                "bostonglobe-config-prod.api",
+                "chosun-config-prod.api",
+                "irishtimes-config-prod.api",
+                "opb-config-prod.api"
+            ],
+            "apis": {},
+            "sites": 74,
+            "prevalence": 0.000507,
+            "cnames": [],
+            "responseHashes": [
+                "001d3d288733139d942d6b489898d9b46ef15e17bc20d5a54ae0268f3828c1af",
+                "fa2dceebab92a8836fcb2eaf499b93bc09108187ffd8ee7d1f5993daa889e8c5",
+                "86d1b38c7f5fe492f5cf25dcc320a894084e84599350b0c3abf49d548658bb7c",
+                "ec3e02d293bcd533194c6cf4db65a140a5d46005555d721adf49576c3558a4a0",
+                "29244ad772d7283c9ad3c91ba534b79b1ed392c9130e343e94739501b6d36b57",
+                "fb8cc85dc310fab929ce53c2bb13ce340942d3193f82b9fe6d8cb42c7a014ade",
+                "e206bd16fcb7daa501e81731b197e680402de4215487312780c8a26a3a4cb4ea",
+                "b3a6c2ce71a7a716e769de4452bf6b93f0005e3854ca27e0870d6b7fcd2fc555",
+                "08a307c0ceef9b036300cec2f76cebc102a44862fee56ceeebff5f2df9a249da",
+                "2473661675ff3740f7bd7227f6679ad7f6b9d107b0ec5d51353715931e1b1d14",
+                "c5ba3bf725eab96f067aedabed40e82c21ddf7987c962f830444bd30f0ffb843",
+                "82e789e24aab87bf774f99a0131e71a27d23165a0896e3b0c52641248f2e2bc5",
+                "965db505fcd0650c3bfdaf71b9793fb1daf32b68c54754d32b03033c714d7402",
+                "b9080f9a8e83fdb6e413fca6a0662a059f6ed45af3243313aac8c4261ae260aa",
+                "891f062a9a96caf776e0e4c0d608692fc7c31e3542029e085c352a591680fde3",
+                "f0e5660d548a55803088bd062c2dac296b184d8b386ade055900ae2a2ffbdb91",
+                "c9f5edd9a52aa1f7ad7ebdfd5b593ad8abcfbb8dfa46037512f4f772a2030d00",
+                "6e307f4ef5b2b0b9dcf20c9c2e6f6db9bd8f9f3977fcc840525bde90e642debb",
+                "29a900b2f6899f8a5f50bd3a8b9c167999c55766ee58bc68fb6cbca1584e7fdc",
+                "573c77e0f5f7cf4238c7664734ab79ae240ea9790d4c2f03cd65df2e9a0666f2",
+                "9074dcdf688505d1a644f1e3e3694f1c3e631f0e1e4ba44b65d6c20c666bc825",
+                "fbe2bfa97df1e6f7d4743a303fa797c5c4644f534c1210d0b20029263e6fcfdd",
+                "122eff7a754e72917df3a95ff04211e96f0487471ecc322b073b2ae622e32e6a",
+                "bdb6872f9bc1b5d9e5bfdb748853afcf212b4fdb8e95e4cf3e01cc91b5037ce4",
+                "bfe120d130a1ca1d3241628b13ea7466ddadd5598f7ea3173bc7edc16405ce12",
+                "56d65e3c1c13e88c11660e4d2257b6bc0de7450c157f200acc8c967c42a171dd",
+                "5782547adbfe01b907b85e1cd9ad8fd259f39d669b5a507a81b64a33245cd610",
+                "a85c06d5105afa22852e2eb13ad5e93d8bb987008a6534befaaf5541059ca851",
+                "b9d989cb2439e99b77a37aae7b3ba18f381bb4da0c5b9e377aa7fdf5b93dd506",
+                "e6c40c70b9032ae8d77d3e752a3bc50b1186222af9362f64b69aeb5af421ab0d",
+                "e7a399bd01bd5c93a6c3a606310141ce80e261eb852a84a7806a95ba62dda8d7",
+                "b29b528b1da96546de1a77e37baa75f0fba2cd6cfb7d968ae0278910dc601533",
+                "fc7f302fee56bfb2bd759336511a3b5b43bae627636d551b1f4b7badf2f06a2f",
+                "79a6b69829c6ab5d381cfbbbd22130fa91f5ca6a322573520d84ab4c79381580",
+                "ba0b732197c9acf79ca647a2b7edbe34ef4e1686c8ab2c353e78ad82a9fe4f30",
+                "393a235dbca5e9cded4ae11f85f05fbc07108e1a1b0a424cd0882f96617ce5da",
+                "83fc47483cfdf15b9f131a7b3df4680b75f806031b4b9c09abdbbe8aff4a2727",
+                "1d4b6796a03fe061b4bed8702396e7a86401da42cdd6a43d5ad472d5e3a3bf81",
+                "88d35de60aadac9b4e23ccba4e9a40b11954980caf1229f253e032bbb246af2f",
+                "584b32189f3cd609729aa15cfcd8701f2934d2a1edbd4ce4eb564100c58b1991",
+                "38dc6f30f72d1a12880880dcb9caf6f841e508af6a052c2bae364f2bce8e54d2",
+                "fe0fa2d7ca26c14c3cb5236af2332dc2b7e6601f8af44699384ed0c5843090fd",
+                "ff6c866de3a17dbd17c43dc7f67ba3b01e51c7ea60c6c393ed70842da4802251",
+                "345aa32b2b45f00fe55e4e6b018cd8ce28259a815ce3458a5f3f662995567933",
+                "27a64aef215c3918ed49a37c871fbfe998e5ed5c16b34d3ca4dd89cded5de505",
+                "24835da367e1c0da476d5f9cc352e253bd43bad1a76b2ad78c89e8cbdd249a13",
+                "50ca1e0321dfa27e1f01e6ad3aece10ee76b4fbd79bf55ca7247696a11c7f513",
+                "324afdd3fe216009594d859f281a87c7eda0f7cd3c05e54a2c88c05a775b1e9d",
+                "91a9bfea689dbc9d2ca7ed48c4b59a44da98c4e38b28cdc49e235d4325275ce0",
+                "549608149154731837fd52e60a1fe9415c4cde34d0c113c7ce8738cdc3bc7f9e",
+                "42fdc2950b1c003c7f26bed0d538b5498e5b17f9cd30cf867cb1dc1d645c4e81",
+                "33131e9b36ad92c48542c19c47261ed14faa20af877a1d00e70e315d1b7b18ba",
+                "6cc125173cedc9d0d948c9144f043c9d7475af58d076316dbec6c3325b212454",
+                "569cfd0d3830425bcbb3c3fde47e263d4360e91cb2e6a013ece737c160895b0b",
+                "8db938b55f5a6e4e296bea0a159894941319a5114b91c2ce10e3fc7bd77213c3",
+                "46b26d7d91d4100d9e94b169a82cb6a0906c5418da18be826f669c3065f5cf7b",
+                "e222d39623aa401fd2721e73aeaddc5a15980e7c966da55dc6eae8593122d28d",
+                "ef06bad0e7f972c196da33d339ec9105bd909d9a0f91119f330cd6974ed2b16a",
+                "a72b732dfb996b81cc106b8117de1a8dd0a24a56e4fcd493e9251773762fdf22",
+                "2ab160e6fb1323fce886c541671eba88a914bdf908d62885f4403a041db47f48",
+                "17463fedf8e595b31369132c970412b55054da0ba21f52b319e8f8b0a71063dd",
+                "d60a7854d476256b8a248b7747ace571324e462b3be9ab035b524285649e5ce4",
+                "85fb4061b4580155214352622ec3303ee409e017b0d9f36acd4967f21f58c950",
+                "1d5af106eeb5411ccc58485ce880b58e5c8b2724ed4c7960ccef60aafedd8597",
+                "02e37268db364cf0216af8091936df9e462f66e6e5c26a3f27acbda2fd2a9e65",
+                "f11801e995c5411521b2ee9fdf228eb052d785e874ef55add268f03426111b9a",
+                "b341d7a65e44d2f738673584c4f64fbca19868eafa3cdccdfb7309c46a5abd64",
+                "c1447e60513557ed71b974acb2260ed8a05422dc75a152c46315079939a4315c",
+                "5367aa7348022c25f8c8680eadb55981dff18cb68f9e81382bc8c6f2459e946b",
+                "bbe257fe97e394451a7de666c7745b93f0574d09e66aed806ff56efe5e065911",
+                "9d082142a7b21ba529e3b450d9f1ce55dd173280895c25593f953391e047c157",
+                "8ffaa2154ae775170187ebecb320281f306bc8cb93a0d3da497fb06055efe654"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wtoc.com",
+                "www.whsv.com",
+                "www.bostonglobe.com",
+                "www.actionnews5.com",
+                "www.wibw.com",
+                "www.foxcarolina.com",
+                "www.wcjb.com",
+                "r7.com",
+                "www.wsfa.com",
+                "www.wvlt.tv",
+                "www.rockfordnewsfirst.com",
+                "www.walb.com",
+                "www.fox8live.com",
+                "www.wdtv.com",
+                "www.chosun.com",
+                "www.wnem.com",
+                "www.wcax.com",
+                "www.kcrg.com",
+                "www.21alivenews.com",
+                "www.kxii.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/identity\\/public\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newr7-r7-prod.api",
+                "irishnews-irishnews-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2976da0b70ccf7d1eacc248f817b6e6afd45c6ce65083af2423e03cfaff8e69f",
+                "1ab9127329322a50b37d422422585ae9f035263920921b2a421711504a3492e1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "r7.com",
+                "record.r7.com",
+                "www.irishnews.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/https%3A%2F%2Fcloudfront-us-east-1\\.images\\.arcpublishing\\.com%2F910mediagroup%2FPLAB437SIBHU5E6KYA3CI34A7Q\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "910mediagroup-910news-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a55929abbc6fc79b674bf1d445986f726ee8a749dbf4dc45523cb36ce7d58e69"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9and10news.com",
+                "www.9and10news.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/https%3A%2F%2Fcloudfront-us-east-1\\.images\\.arcpublishing\\.com%2F910mediagroup%2FUDWG7YGAKRMGXOEDAEY24SLRVY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "910mediagroup-910news-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "853cf87c5174f6496c0a229977bb2d480b903a7539513db1475bfcdaa452731e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9and10news.com",
+                "www.9and10news.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/https%3A%2F%2Fcloudfront-us-east-1\\.images\\.arcpublishing\\.com%2F910mediagroup%2FUCNJAMGMGJBVVMT4IROZWLNU7A\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "910mediagroup-910news-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3986fb953216480c08f6da7469b48bc7b6d7e2a81d069038c782cdef81fce6b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "9and10news.com",
+                "www.9and10news.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/https%3A%2F%2Fcloudfront-us-east-1\\.images\\.arcpublishing\\.com%2Fsandbox\\.christies%2F6FRKI2SLAVEFDBXLMC2FQMKLUE\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "christies-christies-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cde4557a2fe20180a245eb3f9875a9521646eb32a9ee278ea5092f0b04b2110b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "christiesrealestate.com",
+                "www.christiesrealestate.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/5QBQ56DVLFCH3EAFLGKJMN2CEU\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b07b5fc452f4c044533c433fbcfbab05d1b9f40d41279b2dd35ec695dc876788"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/5W3GI56SRBGXBBBQP6GTLA3SLY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d1186c2deef5857f23e5f0936bb037a5f8fc072cdcff7388f338dc01196bb0f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/TZ2HJVR7SNCNXMH6CW5EJ6QF5Y\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a0449a66d918a521700e6bd8daefcf4be0543b65d41af0292aebd90835d52096"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/TDOZNAQZKFCRTKB2SAEK7KKCHI\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d660fbfae22cdbf2ab97ae5174f7eb7b50cddfd083f8df5705a77628bfbf486d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/Q3IESNWFMNBMVM37X233Z35GEM\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8382d134c60deda5476f53862bd06276b39fb5e2bb512a1a0eac013f741e1b42"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/YIAQ3E7FWRH3DCNCIADWUS5DUE\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c5b93b49e0dd2e99bff837f2efe29a9b86cfa8bc80dcc7e94748256e85fea13"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/FDOHNB4BXRAJTBJ4F5TES43LNY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f0275de582d8b20245b26a5f0c9e3c43a35442e9de3b5607e4f7cbf4ec977eb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/PMPSBIO7XZHV5CZ4ORBVYY3PCI\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ca1413b273a5d817e797559889988c3ca1d085ef1c00c71f977815a82c90718"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/MDOXQKUCDNASTPSOW5C6H5LK3Q\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "19ca0ac7259056319529b7762fd8dd470eb6c42a4180bac69288dcb8f1aeb0f5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/A3EGPEITFFDDBHP2Z2ETLW2NZY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-cycleworld-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbb61db4ce88d648c70a77dc349e6a62e049ef2f8b51ab67ccd74c530014aeef"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cycleworld.com",
+                "www.cycleworld.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/I2DNPZFA4VAFLDTL35J3QNROIQ\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-dirtrider-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7108185305be2157623d4ed8c1b986453cdb543fd6e38d8aefaf3ff63beec88e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtrider.com",
+                "www.dirtrider.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/PPZPDBIVHJDTTMLRWKCB6NHVJI\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-dirtrider-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74bfa94cdf0990469135130a78fae0481f9e3fd22815c5aec11903779a70add1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtrider.com",
+                "www.dirtrider.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/46PEQEEGCJD4ZJA7CHHTZF6454\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-dirtrider-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72efd122eefa0ae337426fc5972056b184c56b28afa08f3b356664ec8289f0c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtrider.com",
+                "www.dirtrider.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/arc\\/subs\\/p\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "semana-el-pais-prod.web",
+                "leadersgroup-sbj-prod.web",
+                "arenaholdings-timeslive-prod.web"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.storage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f3893bafeace95f4387d823d3ae27541f9f9a73ead2e97a401d66949941c08c8",
+                "80c7664b8403f828d337762b9ee4538d8cf32b810bfc932bbd3dd032c596aa52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com.co",
+                "www.sportsbusinessjournal.com",
+                "www.timeslive.co.za"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "semana-el-pais-prod.api",
+                "leadersgroup-sbj-prod.api",
+                "arenaholdings-timeslive-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2d1aa79debcd284d10d1f9ae8a89b4f13491b5f632f57f2d42a60f36be323bb4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com.co",
+                "www.sportsbusinessjournal.com",
+                "www.timeslive.co.za"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "semana-el-pais-prod.api",
+                "irishnews-irishnews-prod.api",
+                "leadersgroup-sbj-prod.api",
+                "arenaholdings-timeslive-prod.api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com.co",
+                "www.irishnews.com",
+                "www.sportsbusinessjournal.com",
+                "www.timeslive.co.za"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/video\\/v1\\/ans\\/playlists\\/findByPlaylist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gray-config-prod.api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "a6349fc2538f9c45163ce33b811cdb979e1b6f3a440cd83502c17c84f9cabadf",
+                "914f3c4e1d825063680045f340c2bae44443452d7f2796c4f2a80c0906e331c5",
+                "4e12f78cc10f119143cfb23e1efe22e423d81ae4deff9ce18c3d137031cc35bd",
+                "128e438aa1e8ab9521489d5e32a83866742bef9c88a544e4a103658ff7c4087e",
+                "52f5f280ebe43c51499fac7696d90f1fffc30b64af78e9cf3cdbdb9803742f0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hawaiinewsnow.com",
+                "www.ksla.com",
+                "www.wbng.com",
+                "www.wowt.com",
+                "www.wsmv.com",
+                "www.wvlt.tv"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "irishnews-irishnews-prod.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d1aa79debcd284d10d1f9ae8a89b4f13491b5f632f57f2d42a60f36be323bb4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irishnews.com",
+                "www.irishnews.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/wp-gray\\/20241111\\/67328508e3ebea1a429eee3d\\/t_223cf590be2d4e329256cf639a2ffa6a_name_file_1920x1080_5400_v4_cropped\\/file_1280x720-2000-v3_1\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gray-prod.video"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knoe.com",
+                "www.wymt.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/https%3A%2F%2Fcloudfront-us-east-1\\.images\\.arcpublishing\\.com%2Fleadersgroup%2FAFTKSGYKZJBZPGC3OVOVQOZGTY\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leadersgroup-sbj-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4ef2deb2b96fedcfcb6c85aa7f9cdbac2cc73589d5ce8d56a55374fc7a4a3ec"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsbusinessjournal.com",
+                "www.sportsbusinessjournal.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v2\\/subscriptions\\/entitlements",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leadersgroup-sbj-prod.api",
+                "arenaholdings-timeslive-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e94e9247a689247ebc3582a373025fddad1247698e076039479651dc7ac3ff71"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsbusinessjournal.com",
+                "www.sportsbusinessjournal.com",
+                "www.timeslive.co.za"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/sales\\/public\\/v2\\/subscriptions\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leadersgroup-sbj-prod.api",
+                "arenaholdings-timeslive-prod.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsbusinessjournal.com",
+                "www.sportsbusinessjournal.com",
+                "www.timeslive.co.za"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/2236M4KOJVC4ZHMV5XVB6JRLEM\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b16fdf203ab98525fa10adcd587cae83874df6df9f8964fce5634b2e21979ad0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/WA2P3DUWMRGKNB2QEED7YIWYY4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50b56d597142c04a12b15b8da2978beb7ee8bcebd5312831ad5e5911f236a4c5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/52OJQKDLJBCJRLMOZZRZUQTBBE\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00d7accf0d33a2d25e7eada84abf444ae25ac11431fa8ef4ac5b3975336397b6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/JYN2BDTG4NGB7CNWL3A3GIB3FU\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4469eb991f03a008d994d56d012039f930949fafd76fc8f777e1647c0ea6ae12"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/COGV5HMCZVBSVK6J3VB225MK3I\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9ed42647b225c3f8e6c42ad3a9b617c71544589a9a3a4761da9fff28b46f5d6a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/LEEKRF3ZBZHQ3P6DZZLGZEL43Q\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bad9da4eef22ae267dbedf1465bc7ce036bfb1cce2131ac93aace219ee394e3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/3JS4CKEPGBBHLBRYRWY22CFJQU\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07b18e7fad0ead6925df3b8894d18e5136badaed0622566fcebbc7b27ad5faee"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        },
+        {
+            "rule": "arc-cdn\\.net\\/resizer\\/v2\\/AK5W5WHYVZFWVH6DXT53SDEKU4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "octane-utvdriver-prod.web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ed832d39be042b575a484a84581b95171729820a57049ef52b3ed8417cf7ffd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "utvdriver.com",
+                "www.utvdriver.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7281323877068558
+        },
+        {
+            "domain": "d3agakyjgjv5i8.cloudfront.net",
+            "prevalence": 0.21513002364066194
+        },
+        {
+            "domain": "arcpublishing.com",
+            "prevalence": 0.03309692671394799
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.009456264775413711
+        },
+        {
+            "domain": "d3bniy34hlitso.cloudfront.net",
+            "prevalence": 0.0070921985815602835
+        },
+        {
+            "domain": "mrf.io",
+            "prevalence": 0.002364066193853428
+        },
+        {
+            "domain": "d1zokzhal29fpg.cloudfront.net",
+            "prevalence": 0.002364066193853428
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.002364066193853428
+        }
+    ],
+    "types": {
+        "Preflight": 10,
+        "XHR": 80,
+        "Fetch": 5,
+        "Image": 52,
+        "Script": 9,
+        "Media": 2
+    },
+    "nameservers": [
+        "a1-56.akam.net",
+        "a9-65.akam.net",
+        "a7-64.akam.net",
+        "a24-67.akam.net",
+        "a18-65.akam.net",
+        "a20-66.akam.net"
+    ]
+}

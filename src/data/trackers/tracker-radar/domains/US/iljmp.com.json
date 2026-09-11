@@ -1,0 +1,112 @@
+{
+    "domain": "iljmp.com",
+    "owner": {
+        "name": "Awio Web Services LLC",
+        "displayName": "Awio Web Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "parablegroup"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "iljmp\\.com\\/improvely\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "parablegroup"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "66159b04d61fef7a01d76ab4c9113fa60bcccd40f6fd9af1456cd7e4eac3752b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "parablegroup_62_init": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "parablegroup_62": {
+                    "ttl": 31536012,
+                    "length": 32,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "parablegroup_41_init": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "parablegroup_41": {
+                    "ttl": 31536003,
+                    "length": 32,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timtebowfoundation.org",
+                "www.cefonline.com"
+            ]
+        },
+        {
+            "rule": "iljmp\\.com\\/track\\/click",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "parablegroup"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d197029b93f20103ae74be92f16778e3f884c270bd5d7adca8b896c0f89eebc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "timtebowfoundation.org",
+                "www.cefonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "nina.ns.cloudflare.com",
+        "james.ns.cloudflare.com"
+    ]
+}

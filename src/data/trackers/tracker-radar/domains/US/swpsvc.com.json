@@ -1,0 +1,90 @@
+{
+    "domain": "swpsvc.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "swpsvc\\.com\\/s\\/js\\/spxboot\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "11d992ae95ba914e81adda061f8c841e2d961d2f13bc8592a59f88b29165a581",
+                "3185acfec3626b9ef89d91873d88afe426bd510c7bb00e0cf9c8d1a8891df028",
+                "10fe5da0501016082eae149f67651b2e602b2c8fdc586114d6bbb53a793f00a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiopaedia.org",
+                "teachmeanatomy.info",
+                "www.automotiveforums.com",
+                "www.sweetandsavorybyshinee.com"
+            ]
+        },
+        {
+            "rule": "swpsvc\\.com\\/s\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radiopaedia.org",
+                "teachmeanatomy.info",
+                "www.automotiveforums.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "swoop.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "swpcld.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 3
+    },
+    "nameservers": [
+        "abby.ns.cloudflare.com",
+        "dion.ns.cloudflare.com"
+    ]
+}

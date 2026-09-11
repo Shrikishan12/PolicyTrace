@@ -1,0 +1,119 @@
+{
+    "domain": "delfi.ee",
+    "owner": {
+        "name": "AS EKSPRESS MEEDIA",
+        "displayName": "EKSPRESS MEEDIA"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "logs.kaya"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "delfi\\.ee\\/683d8da10049ec077c553232\\.module\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "logs.kaya"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0dd9b69491718b3f9e3a310812ce0c84e9380a854b4f587b00c88ce045649fe8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_k5a": {
+                    "ttl": 31536019,
+                    "length": 78,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delfi.lv",
+                "www.delfi.lt"
+            ]
+        },
+        {
+            "rule": "delfi\\.ee\\/683d8da10049ec077c553232\\.streams\\.module\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs.kaya"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "219025814a07f6e4ab6462c6c49698131a9ba1bb3741e5ad184f2a1ae7cd1b16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delfi.lv",
+                "www.delfi.lt"
+            ]
+        },
+        {
+            "rule": "delfi\\.ee\\/683d8da10049ec077c553232\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs.kaya"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1483e2fd066702f66605d4c5e4421a2a143556a79edc5e4a9f5f702933bd7e0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delfi.lt",
+                "www.delfi.lv"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1864.awsdns-41.co.uk",
+        "ns-1049.awsdns-03.org",
+        "ns-350.awsdns-43.com",
+        "ns-1018.awsdns-63.net"
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "domain": "trackjs.com",
+    "owner": {
+        "name": "TrackJS LLC",
+        "displayName": "TrackJS"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0011,
+    "sites": 161,
+    "subdomains": [
+        "capture",
+        "usage",
+        "forwarder",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "tjs.iheartjane.com",
+            "resolved": "forwarder.trackjs.com"
+        },
+        {
+            "original": "trck.coomeet.com",
+            "resolved": "forwarder.trackjs.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "trackjs\\.com\\/capture",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture"
+            ],
+            "apis": {},
+            "sites": 34,
+            "prevalence": 0.000233,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.virginatlantic.com",
+                "www.swagbucks.com",
+                "www.postcodeloterij.nl",
+                "www.blindster.com",
+                "www.super.com",
+                "www.gangbangcreampie.com",
+                "www.thetiebar.com",
+                "www.21sextury.com",
+                "spicychat.ai",
+                "www.papajohns.co.uk",
+                "www.futa3dx.com",
+                "www.agentredgirl.com",
+                "www.nurumassage.com",
+                "www.havertys.com",
+                "www.bilia.se",
+                "www.express.com",
+                "www.darkx.com",
+                "www.onlinehomeshop.com",
+                "www.orthofeet.com",
+                "www.puregym.com"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/usage\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usage",
+                "forwarder"
+            ],
+            "apis": {},
+            "sites": 100,
+            "prevalence": 0.000685,
+            "cnames": [
+                {
+                    "original": "trck.coomeet.com",
+                    "resolved": "forwarder.trackjs.com"
+                },
+                {
+                    "original": "tjs.iheartjane.com",
+                    "resolved": "forwarder.trackjs.com"
+                }
+            ],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.gangbangcreampie.com",
+                "www.puregym.com",
+                "www.blindster.com",
+                "www.unbound.org",
+                "www.girlfriendsfilms.com",
+                "www.blacksonblondes.com",
+                "www.allblackx.com",
+                "www.puretaboo.com",
+                "www.darkx.com",
+                "www.softsurroundings.com",
+                "www.transfixed.com",
+                "www.hardx.com",
+                "www.havertys.com",
+                "www.crazypatterns.net",
+                "www.delta.com",
+                "softsurroundings.com",
+                "www.sportpursuit.com",
+                "halloweencostumes.com",
+                "www.gloryholesecrets.com",
+                "www.credly.com"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/agent\\/v3\\/latest\\/t\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 23,
+                "Navigator.prototype.userAgent": 23,
+                "window.name": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7,
+                "window.screenX": 7,
+                "window.screenY": 7,
+                "window.outerWidth": 7,
+                "window.outerHeight": 7,
+                "window.devicePixelRatio": 7,
+                "window.screenLeft": 7,
+                "window.screenTop": 7,
+                "window.indexedDB": 7,
+                "window.sessionStorage": 7,
+                "window.localStorage": 7
+            },
+            "sites": 23,
+            "prevalence": 0.000158,
+            "cnames": [],
+            "responseHashes": [
+                "3169a71c8da47b07411a0edd846dde35975f54102b8b75c3b4563194e84ff506"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coomeet.com",
+                "www.coomeet.com",
+                "www.crazypatterns.net",
+                "www.softsurroundings.com",
+                "www.onlinehomeshop.com",
+                "orthofeet.com",
+                "www.dolcegabbana.com",
+                "xperienceunited.com",
+                "www.sugardaddy.com",
+                "www.ferrellgas.com",
+                "www.hear.com",
+                "my.acculynx.com",
+                "bluerhino.com",
+                "www.lenskart.com",
+                "www.havertys.com",
+                "www.secretbenefits.com",
+                "www.papajohns.co.uk",
+                "www.betzold.de",
+                "www.tradeinn.com",
+                "softsurroundings.com"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/usage\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pixelchat.ai",
+                "spicychat.ai"
+            ]
+        },
+        {
+            "rule": "trackjs\\.com\\/releases\\/current\\/tracker\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "window.screenX": 1,
+                "window.screenY": 1,
+                "window.outerWidth": 1,
+                "window.outerHeight": 1,
+                "window.devicePixelRatio": 1,
+                "window.screenLeft": 1,
+                "window.screenTop": 1,
+                "window.indexedDB": 1,
+                "window.sessionStorage": 1,
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b083af11bff8f6237c9b83a2910ccb07625602e3c386de94daeedb8dab2b195d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "credly.com",
+                "www.express.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5945017182130584
+        },
+        {
+            "domain": "gammacdn.com",
+            "prevalence": 0.29553264604810997
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.020618556701030927
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.020618556701030927
+        },
+        {
+            "domain": "clickview.com.au",
+            "prevalence": 0.013745704467353952
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.010309278350515464
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.010309278350515464
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.006872852233676976
+        },
+        {
+            "domain": "donately.com",
+            "prevalence": 0.006872852233676976
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.006872852233676976
+        }
+    ],
+    "types": {
+        "XHR": 34,
+        "Image": 100,
+        "Script": 25,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "dns2.registrar-servers.com",
+        "dns1.registrar-servers.com"
+    ]
+}

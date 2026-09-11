@@ -1,0 +1,71 @@
+{
+    "domain": "markitondemand.com",
+    "owner": {
+        "name": "Markit Group Limited",
+        "displayName": "Markit Group"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "mod-content.pershing",
+        "mod-content.netxinvestor"
+    ],
+    "cnames": [
+        {
+            "original": "mod-content.netxinvestor.com",
+            "resolved": "mod-content.netxinvestor.markitondemand.com"
+        },
+        {
+            "original": "mod-content.pershing.com",
+            "resolved": "mod-content.pershing.markitondemand.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "markitondemand\\.com\\/f2\\/Authentication\\/logout",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mod-content.pershing",
+                "mod-content.netxinvestor"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "mod-content.pershing.com",
+                    "resolved": "mod-content.pershing.markitondemand.com"
+                },
+                {
+                    "original": "mod-content.netxinvestor.com",
+                    "resolved": "mod-content.netxinvestor.markitondemand.com"
+                }
+            ],
+            "responseHashes": [
+                "7644f39224f732932f4da4a3c3fd175cbd4c8dfd8337091690292ef1b8ca2b24"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pershing.com",
+                "www.netxinvestor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "ns0071.secondary.cloudflare.com",
+        "ns0248.secondary.cloudflare.com"
+    ]
+}

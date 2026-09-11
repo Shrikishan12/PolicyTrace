@@ -1,0 +1,105 @@
+{
+    "domain": "sirius.press",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "campaign.services.forecast",
+        "creative.services.forecast"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sirius\\.press\\/forecast\\.campaigns\\.v1\\.EvaluateService\\/EvaluateCampaignBulk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign.services.forecast"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.courrierinternational.com",
+                "www.lemonde.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "sirius\\.press\\/forecast\\.campaigns\\.v1\\.EvaluateService\\/EvaluateCampaignBulk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campaign.services.forecast"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "cb6660aade74564d4c24331ee13dfa0e8aa8b96efa00c94e3ffa040dee0b0281"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.courrierinternational.com",
+                "www.lemonde.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "sirius\\.press\\/api\\/v1\\/creative",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "creative.services.forecast"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa3f7dae5cd7f69a52e7216bfc4fbdda2290f92e7041043cf379cce230ec3bbf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c4.googledomains.com"
+    ]
+}

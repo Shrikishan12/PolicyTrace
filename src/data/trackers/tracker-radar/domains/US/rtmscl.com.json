@@ -1,0 +1,96 @@
+{
+    "domain": "rtmscl.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "rtmscl\\.com\\/config",
+            "cookies": 0.00000685,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1,
+                "window.sessionStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.vendorSub": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "620834ea59df4b701a5e3f8d3b8586954fc39332f8ca53a3853d7eeb317c0801"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UniqAnalyticsId": {
+                    "ttl": 466560008,
+                    "length": 16,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drogariasaopaulo.com.br",
+                "www.kabum.com.br"
+            ]
+        },
+        {
+            "rule": "rtmscl\\.com\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drogariasaopaulo.com.br",
+                "www.kabum.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "qntm.pro",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "citydsp.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dns1.regway.com",
+        "dns2.regway.com",
+        "dns3.regway.com",
+        "dns4.regway.com"
+    ]
+}

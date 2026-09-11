@@ -1,0 +1,141 @@
+{
+    "domain": "stripe.network",
+    "owner": {
+        "name": "Stripe, Inc",
+        "displayName": "Stripe",
+        "privacyPolicy": "https://stripe.com/privacy",
+        "url": "http://stripe.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00201,
+    "sites": 293,
+    "subdomains": [
+        "m"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "stripe\\.network\\/inner\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {},
+            "sites": 275,
+            "prevalence": 0.00188,
+            "cnames": [],
+            "responseHashes": [
+                "92844e6b1ad5890a9e5e4b9dfb7abdb37dca64e8ca7365052c9d2fc8103c349d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "money.cnn.com",
+                "prezi.com",
+                "www.cnn.com",
+                "scootaround.com",
+                "crumblcookies.com",
+                "buywander.com",
+                "r6.tracker.network",
+                "www.the-race.com",
+                "www.lightinthebox.com",
+                "www.cariboucoffee.com",
+                "teaching.pitt.edu",
+                "www.vvng.com",
+                "skycoach.gg",
+                "scottsmiraclegro.com",
+                "www.404media.co",
+                "www.usssa.com",
+                "www.siff.net",
+                "www.festoolusa.com",
+                "www.independentvanguardadviser.com",
+                "www.nationalbook.org"
+            ]
+        },
+        {
+            "rule": "stripe\\.network\\/out-4\\.5\\.45\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 256,
+                "Navigator.prototype.doNotTrack": 256,
+                "Navigator.prototype.languages": 256,
+                "Navigator.prototype.platform": 256,
+                "Navigator.prototype.plugins": 244,
+                "Screen.prototype.availWidth": 252,
+                "Screen.prototype.availHeight": 252,
+                "Screen.prototype.colorDepth": 252,
+                "window.devicePixelRatio": 252,
+                "Date.prototype.getTimezoneOffset": 267,
+                "window.sessionStorage": 260,
+                "window.localStorage": 252,
+                "CanvasRenderingContext2D.prototype.measureText": 251,
+                "Navigator.prototype.userAgent": 256,
+                "Navigator.prototype.mimeTypes": 256,
+                "HTMLCanvasElement.prototype.toDataURL": 250
+            },
+            "sites": 271,
+            "prevalence": 0.00186,
+            "cnames": [],
+            "responseHashes": [
+                "f2a8a36c74c59cfbe7a73d441cfd180ca6e6a9942a74ef9b240191d1c6056a59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "money.cnn.com",
+                "prezi.com",
+                "www.cnn.com",
+                "gardenofgods.com",
+                "www.rentometer.com",
+                "skater-stats.com",
+                "screenwiseapp.com",
+                "www.nugs.net",
+                "www.dreamcloudsleep.com",
+                "worldviewtube.com",
+                "www.foodsafetynews.com",
+                "letsenhance.io",
+                "www.hertz.co.uk",
+                "www.sonoraquest.com",
+                "www.nakedwanderings.com",
+                "crepal.ai",
+                "citysquares.com",
+                "www.capitalweather.com",
+                "www.tenniswarehouse-europe.com",
+                "gamersguildaz.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Online Payment",
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "stripe.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 275,
+        "Script": 271
+    },
+    "nameservers": [
+        "ns-423.awsdns-52.com",
+        "ns-705.awsdns-24.net",
+        "ns-1882.awsdns-43.co.uk",
+        "ns-1087.awsdns-07.org"
+    ]
+}

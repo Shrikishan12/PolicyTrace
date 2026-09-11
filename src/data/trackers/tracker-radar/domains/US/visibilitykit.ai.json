@@ -1,0 +1,176 @@
+{
+    "domain": "visibilitykit.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "visibilitykit\\.ai\\/vk-core\\.min\\.js",
+            "cookies": 0.0000753,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "window.localStorage": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "b90bec2606151746adc60b8c5fbe03475d238c443a64becb2360909c04018c84"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_vk_referrer": {
+                    "ttl": 15552001,
+                    "length": 6,
+                    "prevalence": 0.00007534607823662778,
+                    "uniqueness": 0.09090909090909091
+                },
+                "_vk_landing": {
+                    "ttl": 15552001,
+                    "length": 44,
+                    "prevalence": 0.00007534607823662778,
+                    "uniqueness": 1
+                },
+                "_vk_session_id": {
+                    "ttl": 15552001,
+                    "length": 36,
+                    "prevalence": 0.00007534607823662778,
+                    "uniqueness": 1
+                },
+                "_vk_vid": {
+                    "ttl": 31536001,
+                    "length": 36,
+                    "prevalence": 0.00007534607823662778,
+                    "uniqueness": 1
+                },
+                "_vk_attr_first": {
+                    "ttl": 15552001,
+                    "length": 132,
+                    "prevalence": 0.00007534607823662778,
+                    "uniqueness": 0.09090909090909091
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoimmune.org",
+                "boatsgeek.com",
+                "celebratingthesoaps.com",
+                "fodlist.com",
+                "sarkariyojana.com",
+                "www.buildingsguide.com",
+                "www.doutorfinancas.pt",
+                "www.geelark.com",
+                "www.inmotionhosting.com",
+                "www.soapoperaspy.com",
+                "www.thinkinitalian.com"
+            ]
+        },
+        {
+            "rule": "visibilitykit\\.ai\\/api\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autoimmune.org",
+                "boatsgeek.com",
+                "celebratingthesoaps.com",
+                "fodlist.com",
+                "sarkariyojana.com",
+                "www.buildingsguide.com",
+                "www.doutorfinancas.pt",
+                "www.geelark.com",
+                "www.inmotionhosting.com",
+                "www.soapoperaspy.com",
+                "www.thinkinitalian.com"
+            ]
+        },
+        {
+            "rule": "visibilitykit\\.ai\\/t\\/9d91be004552d837\\/vk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef4985a1c58acfdfdb1da3a765208b7d887886969daada673af185b2520a2bb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buildingsguide.com",
+                "www.buildingsguide.com"
+            ]
+        },
+        {
+            "rule": "visibilitykit\\.ai\\/t\\/886c8721711bdd86\\/vk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4de150ad02ba68fc3a62d48c145a727cdc3767e202bf10ff7a36b516bf62959"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soapoperaspy.com",
+                "www.soapoperaspy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000103,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Fetch": 11
+    },
+    "nameservers": [
+        "aisha.ns.cloudflare.com",
+        "olof.ns.cloudflare.com"
+    ]
+}

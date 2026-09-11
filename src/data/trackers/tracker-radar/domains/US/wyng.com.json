@@ -1,0 +1,100 @@
+{
+    "domain": "wyng.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "experiences",
+        "services-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wyng\\.com\\/api\\/v1\\/auth\\/tokens",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "experiences"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d1ca56890b36f61deeedca0f6a216f325ef069ba7afe81323d488e4ef2708166"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laurageller.com",
+                "www.laurageller.com"
+            ]
+        },
+        {
+            "rule": "wyng\\.com\\/api\\/v1\\/auth\\/tokens",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "experiences"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laurageller.com",
+                "www.laurageller.com"
+            ]
+        },
+        {
+            "rule": "wyng\\.com\\/api\\/v1\\/experiences\\/6a20b26b08d2a75ab097ba2f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6107fc28ca00c191e800b5e10066ab5d26602b3f85db1650b85317887a7cfa8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "laurageller.com",
+                "www.laurageller.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-192.awsdns-24.com",
+        "ns-907.awsdns-49.net",
+        "ns-1947.awsdns-51.co.uk",
+        "ns-1433.awsdns-51.org"
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "domain": "octocom.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "api",
+        "www",
+        "chat"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "octocom\\.ai\\/shopify\\/shop-url-to-web-chat-config-id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "185486091df0b98cd0497e39891912209209c94df89bd989a0ab397cde61f1d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrsquilty.com",
+                "www.aneros.com"
+            ]
+        },
+        {
+            "rule": "octocom\\.ai\\/chatbot\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Navigator.prototype.languages": 7,
+                "Navigator.prototype.language": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrsquilty.com",
+                "waterdefense.org",
+                "www.aneros.com",
+                "www.crockettdoodles.com",
+                "www.justkampers.com",
+                "www.putco.com",
+                "www.thecountrysquireonline.com"
+            ]
+        },
+        {
+            "rule": "octocom\\.ai\\/bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "310cb5772914a25468e9e6f76cd8e1b1c045f71c2f43601daec9805b2602e97a",
+                "b5bc3915492759e0f6982e7a7e1c3206307ebfe7832596831530b70d27b4d867",
+                "fe30ae2b457a407ac91e0b180828e8b63566e273917cb1526f297a97de5b7169",
+                "d5357a45b8f55567fac5ae2a39c37cef84b0beb42a9202c7fbbece6e30262ead"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mrsquilty.com",
+                "waterdefense.org",
+                "www.aneros.com",
+                "www.crockettdoodles.com",
+                "www.justkampers.com",
+                "www.putco.com",
+                "www.thecountrysquireonline.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 14
+    },
+    "nameservers": [
+        "haley.ns.cloudflare.com",
+        "carlos.ns.cloudflare.com"
+    ]
+}

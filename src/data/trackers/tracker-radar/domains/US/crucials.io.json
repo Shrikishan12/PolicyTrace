@@ -1,0 +1,174 @@
+{
+    "domain": "crucials.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000151,
+    "sites": 22,
+    "subdomains": [
+        "app",
+        "cdn",
+        "log-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "crucials\\.io\\/bc\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.innerWidth": 11,
+                "window.localStorage": 11,
+                "window.sessionStorage": 11,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "538f15d5d14b7232431cafe25d98ea99ee237f567c40bc2bff4c4b73cc9edea0",
+                "ff8d387571fcd2a8d7eea87ae55a1d1fc9f97a298e227b2959ccb4937c63030d",
+                "2efae1698cb26bcb9ca3302403097047457f7d978fd8f2fc2b3af79ef81cb971",
+                "c1845de4620856a516ab1b21a53fe48bb436ce20b6443439b73301040a08022b",
+                "5310bf04e9964a9df40aa8075be7960c02e06ef9f630d4cdba2749ab8c1fea04",
+                "3b4fd7cee1a3098d04c4df897c68e41a64895f4b666252b6e3cb0a811e172f43",
+                "814aea74858d5c91e075fe687ad010ff846012a18960e408a9e1c9ef85800a7b",
+                "2c691c04b3372ef6ba1a3697146bbdffa8a1e3ec2f0e41f2766caf32da301680",
+                "bc5f80b159ebaebeb763521050d9bfd9f87aee1840b107d9f35f8208baa03d39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1up-usa.com",
+                "autom.com",
+                "everygunpart.com",
+                "herringtonarms.com",
+                "realtree.com",
+                "shop.hodgdon.com",
+                "shop.rcbs.com",
+                "store.paizo.com",
+                "www.autom.com",
+                "www.creedmoorsports.com",
+                "www.golfbox.com.au"
+            ]
+        },
+        {
+            "rule": "crucials\\.io\\/asset\\/splide\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "4a609c6dfff57a1865067c376468a736ee9f8d0578ef52c3063738c8c30986c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1up-usa.com",
+                "formexwatch.com",
+                "tanbooks.com",
+                "toolstoday.com"
+            ]
+        },
+        {
+            "rule": "crucials\\.io\\/asset\\/splide-core\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "5f2634a24775898b4af50f16049dc79c9b4d8093d2e541afec4e2a4c1b1b03ff"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "1up-usa.com",
+                "formexwatch.com",
+                "tanbooks.com",
+                "toolstoday.com"
+            ]
+        },
+        {
+            "rule": "crucials\\.io\\/bc\\/openApi\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hodgdon.com",
+                "shop.hodgdon.com",
+                "www.creedmoorsports.com"
+            ]
+        },
+        {
+            "rule": "crucials\\.io\\/asset\\/stencil-utils\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6fcb046305cfab7419eae89aea86c752441380e744eca3b08789de8a007580be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tanbooks.com",
+                "www.sailrite.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Stylesheet": 4,
+        "Ping": 3
+    },
+    "nameservers": [
+        "tia.ns.cloudflare.com",
+        "mustafa.ns.cloudflare.com"
+    ]
+}

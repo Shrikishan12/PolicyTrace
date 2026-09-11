@@ -1,0 +1,88 @@
+{
+    "domain": "weforads.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "weforads\\.com\\/prebid11\\.17\\.0-b4\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerHeight": 4,
+                "window.innerWidth": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.cookieEnabled": 4,
+                "Document.cookie setter": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Navigator.prototype.connection": 4,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "566ab7ccfbf327d30ab5605db65df2629d496196cd6c37d3abd02b5844d295f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pubcid": {
+                    "ttl": 31536003,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "_pubcid_cst": {
+                    "ttl": 31536003,
+                    "length": 12,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdm.press",
+                "ilifehacks.com",
+                "massmenus.com",
+                "mcpepacks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "vera.ns.cloudflare.com",
+        "shane.ns.cloudflare.com"
+    ]
+}

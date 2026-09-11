@@ -1,0 +1,120 @@
+{
+    "domain": "atgsvcs.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "static.atgsvcs.com",
+            "resolved": "static.atgsvcs.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "atgsvcs\\.com\\.edgekey\\.net\\/js\\/atgsvcs\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.atgsvcs.com",
+                    "resolved": "static.atgsvcs.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ab5daa4883e08defad68f0b8d8f80a703810d844e331485c8188ac658a3d6b1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "xdVisitorId": {
+                    "ttl": null,
+                    "length": 51,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "atgRecVisitorId": {
+                    "ttl": 358303489,
+                    "length": 51,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "atgRecSessionId": {
+                    "ttl": null,
+                    "length": 75,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "custhelp.com",
+                "www.mysql.com"
+            ]
+        },
+        {
+            "rule": "atgsvcs\\.com\\.edgekey\\.net\\/js\\/pp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.atgsvcs.com",
+                    "resolved": "static.atgsvcs.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0d38a363f74b583fa2be04f51c767993cbd001fd245a896b77e6ac69d041e55a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mysql.com",
+                "www.mysql.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "oracle.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

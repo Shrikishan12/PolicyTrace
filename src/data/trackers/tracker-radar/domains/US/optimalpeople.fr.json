@@ -1,0 +1,114 @@
+{
+    "domain": "optimalpeople.fr",
+    "owner": {
+        "name": "Ano Nymous",
+        "displayName": "Ano Nymous"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "optimalpeople\\.fr\\/js\\/rd-o-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "9500fe535d835dd5e034ee5f0cf6021351ddee821bb9fd8e94e3b5e74a8e6aa9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "glamuse.com",
+                "groceries.morrisons.com",
+                "uk.milwaukeetool.eu",
+                "www.andertons.co.uk",
+                "www.bananamoon.com",
+                "www.itaka.pl",
+                "www.opinel.com"
+            ]
+        },
+        {
+            "rule": "optimalpeople\\.fr\\/d\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "97fc19066343c38d0c8275b807c31d2ef33a2267245b8c0dc5d5a4217d4b4921",
+                "1a8cd1ba66e479100f0fc657c58e93f59c04301d4c4d92fc8aa54a11936c54b9",
+                "44ad930b711ee7c64902ee01139ed56bffb9131ac29ce1d99e43f9a296913313",
+                "d58a73019f55957d5b657a6623fbf24e85ffc337989157400b509ef1ac20973d",
+                "cec7ee76a7d5e917dcca13493eb42097dc15e02506c52c83e3d63524a2dfb0d8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "glamuse.com",
+                "groceries.morrisons.com",
+                "uk.milwaukeetool.eu",
+                "www.andertons.co.uk",
+                "www.bananamoon.com",
+                "www.itaka.pl",
+                "www.opinel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tradedoubler.com",
+            "prevalence": 0.21428571428571427
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "glamu.se",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "hal.ns.cloudflare.com",
+        "athena.ns.cloudflare.com"
+    ]
+}

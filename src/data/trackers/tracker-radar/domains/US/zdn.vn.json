@@ -1,0 +1,75 @@
+{
+    "domain": "zdn.vn",
+    "owner": {
+        "name": "VNG Corporation",
+        "displayName": "VNG"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "za"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zdn\\.vn\\/v3\\/za\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "za"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.javaEnabled": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.deviceMemory": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Navigator.prototype.storage": 4,
+                "Navigator.prototype.webdriver": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "fcfc958bbaa0c332a6a289205e7bacec65c15d42ba8d94cf999e836ddbfc88b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "thoitiet.tv",
+                "vietnamnet.vn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "zalo.me",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "zans1.zadns.me",
+        "zans1.zadns.vn",
+        "zans2.zadns.me",
+        "zans2.zadns.vn"
+    ]
+}

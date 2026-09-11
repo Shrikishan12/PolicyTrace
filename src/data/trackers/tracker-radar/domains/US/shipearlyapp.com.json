@@ -1,0 +1,89 @@
+{
+    "domain": "shipearlyapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "bikes",
+        "hollywoodracks",
+        "marin-bikes"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "shipearlyapp\\.com\\/widgets\\/dist\\/shipearly-widgets\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bikes",
+                "hollywoodracks",
+                "marin-bikes"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3332aea7e71354eea17b276233d3b04392f8f1d24092a32eb7cce583a2bc3802"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes.com",
+                "hollywoodracks.com",
+                "www.marinbikes.com"
+            ]
+        },
+        {
+            "rule": "shipearlyapp\\.com\\/widgets\\/dist\\/shipearly-widgets\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bikes",
+                "hollywoodracks",
+                "marin-bikes"
+            ],
+            "apis": {
+                "window.name": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "46a3b4f17747d7c5d0dfaae203f8defd6b9b3b191cb0c15d2705cc5fcbca4453"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bikes.com",
+                "hollywoodracks.com",
+                "www.marinbikes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

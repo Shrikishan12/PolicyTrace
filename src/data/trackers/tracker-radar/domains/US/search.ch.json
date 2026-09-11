@@ -1,0 +1,81 @@
+{
+    "domain": "search.ch",
+    "owner": {
+        "name": "Swisscom Directories AG",
+        "displayName": "Swisscom Directories"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "map"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "search\\.ch\\/api\\/map\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "map"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.userAgent": 2,
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gr.ch",
+                "www.localcities.ch"
+            ]
+        },
+        {
+            "rule": "search\\.ch\\/map\\/api\\/map\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bab785655c5dad048a5c8cec94d26eeb1e4dabe76e769f524df3345068051596"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gr.ch",
+                "www.localcities.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

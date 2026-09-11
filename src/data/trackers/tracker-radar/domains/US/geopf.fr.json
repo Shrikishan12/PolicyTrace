@@ -1,0 +1,81 @@
+{
+    "domain": "geopf.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "data"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "geopf\\.fr\\/wmts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "40c4f4e0a5caa369305b221b4c14399ab42d0ec7f8574cafdbeadb0b15b58087"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sante.fr",
+                "dondesang.efs.sante.fr"
+            ]
+        },
+        {
+            "rule": "geopf\\.fr\\/wmts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1f49be7e12522bc7ad1adb103cbb9bc3730c35f5fbd4551bd1bebbf332853fac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chamonix.com",
+                "www.chamonix.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.76
+        },
+        {
+            "domain": "mapbox.com",
+            "prevalence": 0.24
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns2.geopf.fr",
+        "ns1.geopf.fr"
+    ]
+}

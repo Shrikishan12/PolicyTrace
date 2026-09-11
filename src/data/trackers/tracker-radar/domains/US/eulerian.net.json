@@ -1,0 +1,106 @@
+{
+    "domain": "eulerian.net",
+    "owner": {
+        "name": "Eulerian Technologies",
+        "displayName": "Eulerian"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "ioca1",
+        "bca"
+    ],
+    "cnames": [
+        {
+            "original": "r1c.ricardocuisine.com",
+            "resolved": "bca.eulerian.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "eulerian\\.net\\/ea\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ioca1"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.plugins": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1240d250390de80d66cb709be90a3a6704e39645c73fc31da5ac517c856eb85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "peterthomasroth.com",
+                "www.peterthomasroth.com"
+            ]
+        },
+        {
+            "rule": "eulerian\\.net\\/rpset\\/ricardo\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bca"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "r1c.ricardocuisine.com",
+                    "resolved": "bca.eulerian.net"
+                }
+            ],
+            "responseHashes": [
+                "aa1e2bee510a15bf920ac797510728e85c1a238a51bd6fdd06e672d05bc7efe5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ricardocuisine.com",
+                "www.ricardocuisine.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns01.eulerian.net",
+        "ns03.eulerian.com",
+        "ns02.eulerian.fr",
+        "ns04.eulerian.eu"
+    ]
+}

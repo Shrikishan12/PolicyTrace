@@ -1,0 +1,371 @@
+{
+    "domain": "instabot.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "widget",
+        "widgetapi",
+        "chat",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "instabot\\.io\\/jsapi\\/rokoInstabot\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "24de06a5497ca137eeac7a45dbff30e579f04dbd3cd86431f03dcc74e1e27bb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rokoAPISession": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "rokoAPI": {
+                    "ttl": 31536003,
+                    "length": 79,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arthritis.org",
+                "www.draperinc.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/instabot\\/getConversationsStorage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1e3aad757e907d678f6faac2c23e8c047704b7dd191f1af4f62ab560a20c9e91",
+                "1ca1d2fe34412c583830ac5eab788c7f8d2fc7b477037c0d1643d5fb5a6a9fee"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tld": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "arthritis.org",
+                "www.arthritis.org",
+                "www.draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/instabot\\/getConversationsStorage",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__tld": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "arthritis.org",
+                "www.draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/plugins\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c244d8d9fac1407acb8f23a820e8a8f9af1924ff58998888b795e6d6a40b51f3",
+                "50983c12c7d9f9422d31e1b64d1216265b74473cebd42b06af941ef07f7751a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/jsapi\\/bot-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "dda735b816c6dd077c9bf232b3a42d8dd91d955ec6bac2ec71d696388c53940b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/getClientUserInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/getClientUserInfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b1255075b6d86a3388052dec4f7e0c4748aef49203446e828d0a1f578ce67f14",
+                "c0d1e5fbce3e9ce1c248637e5b84ec261694143b4619984866cb8577c0d880de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/trackUserSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/user\\/trackUserSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgetapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f76d0fea7720a7a13f33481fbdae115d724366ef469fff4c375dd8b6dd25d41a",
+                "bdfe9eb7ad6fb56ba5af02f1ae86beb3bc81fbcca3765af5ecba8a86f875e25b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/clientlogin",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "43f8d9c9590fd1d44926319df25a79ec0f00a3182f4700f89f0b3f6db9299f5b",
+                "10442c9218b35e1f77f7e93b26cac4da284426515df831fb8a444fa11bc61bca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draperinc.com",
+                "www.kubotausa.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/0c296368-45c9-4602-ad58-c2906a0224ec\\/4a5418db-106b-4aab-8815-f25e1dbb6302",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ed9caf97faa801cac8ff5633fe86ccf15a36dbdccab3ccd78ede07a2c5c91e9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kubotausa.com",
+                "www.kubotausa.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/psvqlJY1WDDHh8_5fF2f2NmtRDBYc6tf1jg8KA3Mhkg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newyorkurologyspecialists.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        },
+        {
+            "rule": "instabot\\.io\\/storage\\/psvqlJY1WDDHh8_5fF2f2NmtRDBYc6tf1jg8KA3Mhkg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newyorkurologyspecialists.com",
+                "www.newyorkurologyspecialists.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "XHR": 16,
+        "Preflight": 12,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-156.awsdns-19.com",
+        "ns-849.awsdns-42.net",
+        "ns-1294.awsdns-33.org",
+        "ns-1744.awsdns-26.co.uk"
+    ]
+}

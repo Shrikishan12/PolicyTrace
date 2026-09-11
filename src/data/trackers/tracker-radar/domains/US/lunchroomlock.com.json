@@ -1,0 +1,86 @@
+{
+    "domain": "lunchroomlock.com",
+    "owner": {
+        "name": "Leven Labs, Inc. DBA Admiral",
+        "displayName": "Admiral"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "lunchroomlock\\.com\\/v2lieYVhiGF8bx9-REoAj8zMyiJkKKKcr0nAKXBFvaZ9fQwIoC0LWiAo",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 1,
+                "Navigator.prototype.connection": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "CookieStore.prototype.getAll": 1,
+                "CookieStore.prototype.set": 1,
+                "Notification.permission": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ebc690c913e92ccbf5d6cfbeb3407d35ceebd240391b63377e43a9215f08f131"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "startribune.com",
+                "www.newsday.com"
+            ]
+        },
+        {
+            "rule": "lunchroomlock\\.com\\/r1ri7aapl0q2mv7gw2wskdtp1c44sqk9ktf1luatit",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33c70c297b1a729f965a6aca60b7b3bb7a3b06bd13efe07698516fa98ac8b9f9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "startribune.com",
+                "replica.startribune.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-134.awsdns-16.com",
+        "ns-805.awsdns-36.net",
+        "ns-1910.awsdns-46.co.uk",
+        "ns-1524.awsdns-62.org"
+    ]
+}

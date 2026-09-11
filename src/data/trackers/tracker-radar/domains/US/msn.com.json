@@ -1,0 +1,183 @@
+{
+    "domain": "msn.com",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "assets",
+        "c",
+        "browser.events.data",
+        "srtb",
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "c.nine.com.au",
+            "resolved": "c.msn.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "msn\\.com\\/resolver\\/api\\/resolve\\/v3\\/config\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25b61b85d7520e474b69e03f5a953dcf581ac1aafbc264097e81c80dd0c97cf7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "www.deseret.com"
+            ]
+        },
+        {
+            "rule": "msn\\.com\\/c\\.gif",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "c.nine.com.au",
+                    "resolved": "c.msn.com"
+                }
+            ],
+            "responseHashes": [
+                "8f84c4ced509262009163e45994b45ed7ee9d4dbac88674be5f2db5c9e5be38e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "nationalgeographic.com",
+                "mumble.nationalgeographic.com",
+                "www.deseret.com",
+                "www.nine.com.au",
+                "www.yourtv.com.au"
+            ]
+        },
+        {
+            "rule": "msn\\.com\\/OneCollector\\/1\\.0",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "browser.events.data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "mumble.nationalgeographic.com",
+                "www.deseret.com"
+            ]
+        },
+        {
+            "rule": "msn\\.com\\/notify\\/served",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srtb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalgeographic.com",
+                "mumble.nationalgeographic.com"
+            ]
+        },
+        {
+            "rule": "msn\\.com\\/widgets\\/fullpage\\/weatherWidgets\\/transparentwidget",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.matchMedia(\"prefers-color-scheme\")": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51bd5c9fac18853928abe0082fb797ab32b120275a4b6d2c35c4881b4beb6f61"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deseret.com",
+                "www.deseret.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "bing.com",
+            "prevalence": 0.6896551724137931
+        },
+        {
+            "domain": "9cdn.net",
+            "prevalence": 0.20689655172413793
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.10344827586206896
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Image": 7,
+        "Ping": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "dns1.p09.nsone.net",
+        "ns1-204.azure-dns.com",
+        "ns2-204.azure-dns.net",
+        "ns4-204.azure-dns.info",
+        "ns3-204.azure-dns.org"
+    ]
+}

@@ -1,0 +1,733 @@
+{
+    "domain": "admicro.vn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "media1",
+        "lg1.logging",
+        "adi",
+        "sspapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "admicro\\.vn\\/cms\\/Arf\\.min\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.userAgent": 7,
+                "window.innerHeight": 7,
+                "window.innerWidth": 7,
+                "Screen.prototype.height": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "abb43e821ad75f03989b00c0d934fd2679f6d0e6d91e69e4c0cb765f956bc2e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_uidcms": {
+                    "ttl": 180000005,
+                    "length": 19,
+                    "prevalence": 0.000041097860856342424,
+                    "uniqueness": 1
+                },
+                "dtdz": {
+                    "ttl": 111611,
+                    "length": 23,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/admcorearf\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 7,
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.appVersion": 7,
+                "Navigator.prototype.plugins": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Navigator.prototype.appName": 4,
+                "Navigator.prototype.userAgent": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "5d221a8267f47ccf457f431f39ed310a58fe4fe28a86199d4105f976a5a0016b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__uidac": {
+                    "ttl": 172800016,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__uif": {
+                    "ttl": 864021,
+                    "length": 63,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__RC": {
+                    "ttl": 630720021,
+                    "length": 3,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__R": {
+                    "ttl": 630720021,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/advbcms",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uidcms": 0.0000479475043323995,
+                "__admUTMtime": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/admcoreext\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "783604e9e09657b71dbd16178f5fa49b79d18775fbe48fd86500e2566ccab7d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/adt\\/cpc\\/tvcads\\/tracking\\/genjs_ht26032019\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adi"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "3b25b6e1d14254c703faf68beb2fb3f5f32ea17e8a315a3eb9b2865ec39160af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/pgsync",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "tuoitre.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/ssppage\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.userAgent": 7,
+                "Date.prototype.getTime": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "71cdfb1b69fbda49b1bd16b72200df8d98633c09794eeb851112d09fb4f5fb9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/cpx_cms",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_uidcms": 0.0000479475043323995,
+                "__admUTMtime": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/core\\/adm_tracking\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 7,
+                "Navigator.prototype.plugins": 7,
+                "Navigator.prototype.mimeTypes": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Screen.prototype.colorDepth": 7,
+                "Navigator.prototype.cookieEnabled": 7,
+                "Navigator.prototype.javaEnabled": 7,
+                "Navigator.prototype.appVersion": 7,
+                "Date.prototype.getTime": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "window.innerHeight": 2,
+                "Navigator.prototype.appName": 1,
+                "window.innerWidth": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "732e3adfbb78cd899b23772419eee461ff5feba60041aa6237b4fbe076f3b83a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__uif": {
+                    "ttl": 864010,
+                    "length": 63,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__RC": {
+                    "ttl": 630720010,
+                    "length": 3,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__R": {
+                    "ttl": 630720010,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ssp_page_request\\/pc\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sspapi"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "f73820487166ca8d3cacd77bd5bb0efdc25aad3c8b1d1d29592f2bfc7f234180",
+                "f6748897aae429210c434a685e6396cd1c82dfff507f9991d458eadbf29eb2a0",
+                "49ce95fcb737af54945c203b211dc1651768ed3434fe788be7be4e31a99143ba",
+                "553ff91ce5305400b5f0f277cdfc94643f43a3c48ffe79a38f99fd381ab67126",
+                "5fe5f51e6d4d072767b9ad9a4b47931968c97af743bf31764f265670ac429520",
+                "03a22fdc5774bf7872186ce579804596c0490b5756b848cdcfc0f139c0316552"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0001438425129971985,
+                "__uidac": 0.0000479475043323995,
+                "__admUTMtime": 0.000013699286952114143,
+                "cookies.js": 0.000013699286952114143,
+                "isCookieDomain": 0.000013699286952114143,
+                "backup_fosp_aid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ads_codes\\/ads_code_1\\.ads",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media1"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "nhathuoclongchau.com.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ftest",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.0000479475043323995,
+                "_hjTLDTest": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "nhathuoclongchau.com.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/_tracking1\\.gif",
+            "cookies": 0.0000616,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.0001643914434253697,
+                "__uidac": 0.00005479714780845657,
+                "_hjTLDTest": 0.000006849643476057072,
+                "__admUTMtime": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "nhathuoclongchau.com.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/ssp",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.000020548930428171212,
+                "__admUTMtime": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/mapid",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/tl",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__uidac": 0.00005479714780845657,
+                "_hjTLDTest": 0.000006849643476057072,
+                "__admUTMtime": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "baomoi.com",
+                "bongda24h.vn",
+                "kenh14.vn",
+                "nhathuoclongchau.com.vn",
+                "thanhnien.vn",
+                "tuoitre.vn",
+                "vietnamnet.vn",
+                "vtv.vn"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/_tracking1\\.gif",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b8e0482aa8eef105fa81e221df816f75abf8e58f7acff0f0004018260a80bb6f",
+                "57d6a96c996b45064ea42529b64c25889e9e22d10c1ed250c1b7c030b69dc3ae",
+                "52f512ba2763311b24fca86ffc68b832ffda14f0935ed9fe617e062a812165d9",
+                "4de7f5e2db2d9f90f276c64e62dbe60b0541d0870db8ef854ba8b08bb20b5cdb",
+                "7214cfa0bfe4af2cf990d5d16df2eb5a0eab769e632c9f1401df71096e0ed14d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.00008904536518874193,
+                "__uidac": 0.00003424821738028536,
+                "_hjTLDTest": 0.000006849643476057072,
+                "__admUTMtime": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "bongda24h.vn",
+                "kenh14.vn",
+                "nhathuoclongchau.com.vn",
+                "tuoitre.vn",
+                "vtv.vn",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/cpa2",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.000006849643476057072,
+                "__uidac": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "nhathuoclongchau.com.vn",
+                "vtv.vn",
+                "www.vietnamairlines.com"
+            ]
+        },
+        {
+            "rule": "admicro\\.vn\\/rtg_bn",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lg1.logging"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_hjTLDTest": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "nhathuoclongchau.com.vn",
+                "vtv.vn",
+                "www.vietnamairlines.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.34285714285714286
+        },
+        {
+            "domain": "amcdn.vn",
+            "prevalence": 0.18095238095238095
+        },
+        {
+            "domain": "contineljs.com",
+            "prevalence": 0.17142857142857143
+        },
+        {
+            "domain": "aiservice.vn",
+            "prevalence": 0.10476190476190476
+        },
+        {
+            "domain": "kenh14cdn.com",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "sohatv.vn",
+            "prevalence": 0.06666666666666667
+        },
+        {
+            "domain": "deqik.com",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "vnncdn.net",
+            "prevalence": 0.01904761904761905
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.009523809523809525
+        },
+        {
+            "domain": "mediacdn.vn",
+            "prevalence": 0.009523809523809525
+        }
+    ],
+    "types": {
+        "Script": 43,
+        "Image": 61,
+        "Fetch": 7,
+        "XHR": 7,
+        "Document": 6
+    },
+    "nameservers": [
+        "ns7.synerfy.vn",
+        "ns6.synerfy.vn",
+        "ns8.synerfy.vn"
+    ]
+}

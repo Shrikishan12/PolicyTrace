@@ -1,0 +1,108 @@
+{
+    "domain": "virtuele-gemeente-assistent.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/static\\/js\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a0975f9fea6671e4f59d9aa48fa580aedb11b58117578b0f64a5397c39fe05e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leiden.nl",
+                "www.eindhoven.nl",
+                "www.rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        },
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/domain-metadata-api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leiden.nl",
+                "www.eindhoven.nl",
+                "www.rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        },
+        {
+            "rule": "virtuele-gemeente-assistent\\.nl\\/domain-metadata-api",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "896ef49356cdc065b8ed1e4111a25a2d9841e8d49d6f873973a5b41371e44a98",
+                "d8d1de1c09abe070510ee730b74f62fa2f5a4cdea9c36f8677aa8f5675408d11",
+                "1b1ac215f1a6f557ac519d6efc6c28efdf8ec0ac35338dcc3245145b197ecf26"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leiden.nl",
+                "www.eindhoven.nl",
+                "www.rotterdam.nl",
+                "www.utrecht.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "kcmg.nl",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns2.qsp.nl",
+        "ns1.qsp.nl"
+    ]
+}

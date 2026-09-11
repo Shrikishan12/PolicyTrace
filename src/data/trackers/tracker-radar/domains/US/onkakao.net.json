@@ -1,0 +1,64 @@
+{
+    "domain": "onkakao.net",
+    "owner": {
+        "name": "Kakao Corp.",
+        "displayName": "Kakao"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "aem-kakao-collector"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "onkakao\\.net\\/api\\/13528\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "aem-kakao-collector"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "634b309b4f98a394a1e1b4c81ed6748baf6561ed16b6c96b22085dff1ccfca65"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tistory.com",
+                "clubmasaki.tistory.com",
+                "jmarketcom.tistory.com",
+                "verval5.tistory.com",
+                "vlxxorg.tistory.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "daumcdn.net",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns2.kakao.com",
+        "ns1.kakao.com"
+    ]
+}

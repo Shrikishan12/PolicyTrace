@@ -1,0 +1,77 @@
+{
+    "domain": "browser-intake-ap2-datadoghq.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "browser-intake-ap2-datadoghq\\.com\\/api\\/v2\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshare.com.au",
+                "www.healthshare.com.au"
+            ]
+        },
+        {
+            "rule": "browser-intake-ap2-datadoghq\\.com\\/api\\/v2\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5eb2cc87aeec88363b6c3f1053a89a018472550abfb8b5aae69439c881a46fb2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tripadeal.com.au",
+                "www.tripadeal.com.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.88
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.12
+        }
+    ],
+    "types": {
+        "Other": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-89.awsdns-11.com",
+        "ns-801.awsdns-36.net",
+        "ns-1703.awsdns-20.co.uk",
+        "ns-1368.awsdns-43.org"
+    ]
+}

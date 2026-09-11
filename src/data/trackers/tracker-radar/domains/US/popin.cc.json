@@ -1,0 +1,1302 @@
+{
+    "domain": "popin.cc",
+    "owner": {
+        "name": "popIn Inc.",
+        "displayName": "popIn"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000329,
+    "sites": 48,
+    "subdomains": [
+        "api",
+        "jp",
+        "tw",
+        "id",
+        "log",
+        "r",
+        "rlog",
+        "inrecsys",
+        "asset",
+        "trace"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "popin\\.cc\\/td_js_sdk_171\\.js",
+            "cookies": 0.000192,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.localStorage": 28,
+                "Document.cookie setter": 28,
+                "Document.cookie getter": 28,
+                "Date.prototype.getTime": 28,
+                "Navigator.prototype.language": 27,
+                "Screen.prototype.colorDepth": 27,
+                "Screen.prototype.width": 27,
+                "Screen.prototype.height": 27,
+                "window.innerHeight": 27,
+                "window.innerWidth": 27,
+                "Navigator.prototype.userAgent": 27,
+                "Navigator.prototype.platform": 27
+            },
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "906b6bddd2ef3b6d40c60673e5626b2195e21f44bba44042553be4de34c69f89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 4,
+                    "length": 9,
+                    "prevalence": 0.000191790017329598,
+                    "uniqueness": 0.03571428571428571
+                },
+                "_td": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.00018494037385354093,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.kompas.tv",
+                "www.ntv.co.jp",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "mynavi.jp",
+                "newsdig.tbs.co.jp",
+                "dime.jp",
+                "blog.udn.com",
+                "trafficnews.jp",
+                "tokubai.co.jp",
+                "yamahack.com",
+                "news.ltn.com.tw",
+                "hugkum.sho.jp",
+                "ejje.weblio.jp",
+                "oceans.tokyo.jp",
+                "www.vogue.co.jp",
+                "www.businessinsider.jp",
+                "eiga.com",
+                "girlschannel.net",
+                "hinata.me"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/popin_discovery\\/recommend",
+            "cookies": 0.000171,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jp",
+                "tw",
+                "id"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000185,
+            "cnames": [],
+            "responseHashes": [
+                "dcaeb885fd3358981dd6468fb9f5d679726c3e231475d330eaff1b178b5d0805",
+                "e570da2f1df04dde2dd0d5a04350d4030c15414ecea2f1f6f090b3c7d8a30734",
+                "69d7afe698a6da53e2d2b0314a83b49b49c72ccf20071f80c92bf875d0149ca6",
+                "8eec8084c4a1eae6a90dd9d015afbbf1fdd88f419fbe9aa2baac605fd9300122",
+                "0cdd61d2064363b2ac41fcfddd678d488dfcbf76bf8e0fcecf37ea8c0a79b36d",
+                "77247994d32ceadd17323dd172610e5e0e278e9c722ec12346c32d874aa7e500",
+                "1d7fd5344d4d82a70c0d40fa523bf786ccd205d07c3809659c6b8d7f50b17f8e",
+                "60bfbf03d0b8e6dad7623e6fa49950337d52e1320fb13cd555176d172c08adb2",
+                "63a90f0d13d4432d871f0076871c775c0f8e2e38b1654cccbee0bcb4a774476b",
+                "8ea830ad3a6f48ff8e243d0e799f24f41574a42c34afeaf5500e09a69cbbac9d",
+                "e3b8d3ca354191f3ed65600d2500d47289474e1841c34e7aa86a09118c9e13ee",
+                "c92b65a687e6c2c41770c85fad7e7d7ea909a36fb5854077eef0cb7822d604fb",
+                "2ba778af48019e2e95adb805679ab8bd42714056eaad52ff2790a22ddd7798b9",
+                "474478f42d93b9515f88082ff5645158b3fb3b230d8f31746e3736157d2497a7",
+                "b896957c5f5165ee9a295f8fd088a99b668f891c63ae7b5f62d1f8c10aff3014",
+                "d4f6ce9e469617855e65d64d77ec429578096debaed8a51a1ca6ef9d683caa96",
+                "5c2ca76a09c40813fc8c3004bf175374343f628c1f39afe7daaf9b553280722d",
+                "e6a7bb1347ca2b257c83b24bc64cc333b7f085ac3f3926dcc56f6c8969c98e47",
+                "3b45bed85e388f9dfc9f96489fe0a2a8b8c40b6183416d4ff861c2e0d18c43da",
+                "e2d2475055dd72c4562a7f11702b6e069c35355f0a425159d30232e8d523a392",
+                "8ea70d32baa729b459bcac6ea7e483ebf89bc899782ed598f8cbb4d7e8876a2b",
+                "4da0a634833ff8e0dabd2ea00357d2049a3b69c020497fc5d521badc7c26be52",
+                "6b8cefb9b049c35a3e59347d97ad3cf51bde1ad120cf12f5554896074a608a82",
+                "433e3b45f163f1ba1c56beb3bdee2fe0798175ec9f488971bca07460dbc6b7ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ss_pp_id": 0.00025343680861411165,
+                "lotame_domain_check": 0.000020548930428171212,
+                "_ss_pp_id_new": 0.000013699286952114143,
+                "__pid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "eiga.com",
+                "www.ntv.co.jp",
+                "dime.jp",
+                "hinata.me",
+                "souzoku.asahi.com",
+                "www.nownews.com",
+                "blog.udn.com",
+                "tokubai.co.jp",
+                "camphack.nap-camp.com",
+                "www.kompas.tv",
+                "cancam.jp",
+                "tsurihack.com",
+                "yamahack.com",
+                "hugkum.sho.jp",
+                "mdpr.jp",
+                "trafficnews.jp",
+                "newsdig.tbs.co.jp",
+                "oceans.tokyo.jp",
+                "ejje.weblio.jp",
+                "www.e-sogi.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/popin_discovery5-min\\.js",
+            "cookies": 0.0000753,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.cookieEnabled": 11,
+                "Document.cookie getter": 11,
+                "window.localStorage": 11,
+                "Document.cookie setter": 11,
+                "window.sessionStorage": 10,
+                "window.innerHeight": 8,
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "61d96a4c9eaa6ac781177f0e542cd1f6671ddeadec20a998b3129ca09bc4879b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ss_pp_id": {
+                    "ttl": 31536006,
+                    "length": 32,
+                    "prevalence": 0.00006164679128451365,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "blog.udn.com",
+                "cancam.jp",
+                "girlschannel.net",
+                "news.ltn.com.tw",
+                "tsurihack.com",
+                "www.businessinsider.jp",
+                "www.kompas.tv",
+                "www.lifehacker.jp",
+                "www.moomoo.com",
+                "www.nownews.com",
+                "www.ntv.co.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/log\\/popin_media\\/discoverylogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tokubai.co.jp",
+                "www.ntv.co.jp",
+                "hinata.me",
+                "yamahack.com",
+                "girlschannel.net",
+                "newsdig.tbs.co.jp",
+                "tsurihack.com",
+                "www.bepal.net",
+                "www.lifehacker.jp",
+                "forbesjapan.com",
+                "hugkum.sho.jp",
+                "trafficnews.jp",
+                "ejje.weblio.jp",
+                "souzoku.asahi.com",
+                "www.e-sogi.com",
+                "dime.jp",
+                "agri.mynavi.jp",
+                "www.businessinsider.jp",
+                "www.kompas.tv",
+                "www.vogue.co.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/test\\/popin_send_cookie_set_fail\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "5cd346875d100956f33b228c65b2eea3e958621a4d906b95c612c0c0c617a2d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "blog.udn.com",
+                "cancam.jp",
+                "girlschannel.net",
+                "tsurihack.com",
+                "www.businessinsider.jp",
+                "www.lifehacker.jp",
+                "www.moomoo.com",
+                "www.nownews.com",
+                "www.ntv.co.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/discovery\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "e96506d1da37f52382a432b523ee0021c4c7b3610417e5e08185792dfb0a4729"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "camphack.nap-camp.com",
+                "cancam.jp",
+                "dime.jp",
+                "hugkum.sho.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tokubai.co.jp",
+                "tsurihack.com",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/images\\/logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "a328ad0662dbe982b94a0e3dd08776275f42468f09a0961aed456926d67eae8d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "camphack.nap-camp.com",
+                "cancam.jp",
+                "dime.jp",
+                "girlschannel.net",
+                "hugkum.sho.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tsurihack.com",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/log\\/popin_ads\\/adlogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "log"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "camphack.nap-camp.com",
+                "cancam.jp",
+                "dime.jp",
+                "hugkum.sho.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tsurihack.com",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/s\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r",
+                "rlog"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ss_pp_id": 0.00010959429561691315,
+                "cookies.js": 0.000006849643476057072,
+                "__pid": 0.000006849643476057072,
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "mynavi.jp",
+                "agri.mynavi.jp",
+                "camphack.nap-camp.com",
+                "cancam.jp",
+                "dime.jp",
+                "girlschannel.net",
+                "hugkum.sho.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tokubai.co.jp",
+                "tsurihack.com",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/PopinService\\/Logs\\/other",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "inrecsys"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mynavi.jp",
+                "camphack.nap-camp.com",
+                "cancam.jp",
+                "dime.jp",
+                "girlschannel.net",
+                "hugkum.sho.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tsurihack.com",
+                "www.e-sogi.com",
+                "www.nownews.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/log\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 25,
+            "prevalence": 0.000171,
+            "cnames": [],
+            "responseHashes": [
+                "7fff1569ea68ef52782ba25b0cf3934627f7a4fc1e8e22f4652de959c5f97978"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ss_pp_id": 0.00010959429561691315,
+                "__pid": 0.000006849643476057072,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "girlschannel.net",
+                "yamahack.com",
+                "cancam.jp",
+                "tokubai.co.jp",
+                "www.nownews.com",
+                "mynavi.jp",
+                "blog.udn.com",
+                "hugkum.sho.jp",
+                "www.bepal.net",
+                "www.e-sogi.com",
+                "souzoku.asahi.com",
+                "www.vogue.co.jp",
+                "www.businessinsider.jp",
+                "newsdig.tbs.co.jp",
+                "mdpr.jp",
+                "www.lifehacker.jp",
+                "oceans.tokyo.jp",
+                "trafficnews.jp",
+                "www.ntv.co.jp",
+                "dime.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/js\\/cookieSync\\.html",
+            "cookies": 0.000103,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 15,
+                "Document.cookie setter": 15,
+                "Document.cookie getter": 15,
+                "Date.prototype.getTime": 15
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "ce2664ad735e30fbd023df26d7ecd89161b9da4cce9ba243bacec538c3fbfc6e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "belcy.jp",
+                "filmarks.com",
+                "folk-media.com",
+                "gourmet.aumo.jp",
+                "hochi.news",
+                "itojisan.xyz",
+                "myhome.nifty.com",
+                "news.tv-asahi.co.jp",
+                "samurai-gamers.com",
+                "thetv.jp",
+                "w.atwiki.jp",
+                "www.kurashiru.com",
+                "www.kyureki.com",
+                "www.mapple.net",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/ju\\/cs\\/eplist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trace"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "0f3507177995de84599c7e6c53bc961b6dfc01ddf9d307d222b5c7caeaf457f1",
+                "a9f8b78a3b3b1097e6eed8f8ebcbfc2ebac334d74992c7141f2176586841e866",
+                "80cfe968a918be98f72393def7904c27295cd07ca9d85b377843e035343e9593",
+                "e34ee73c7c09cdc816a2d56d978dc87b0ec6e57adcb33ac7a7ebef6f75aa363a",
+                "48f0faa71f03a2e3f016ed8fc35ba1cfc1fa5b573dde48fbdcaafa3d1312b9dd",
+                "231847d47dbfdcef6bc611e5737e82109b6ed9d053aa4a0ebab7270c0507dc7f",
+                "6609c393806259d248e78e8464144b2989aac4a8ddc76eebe30b9cf63554bc50",
+                "e8cee9fe9679c26249131a78a1661cee61a5192694682d856ddde0f263366259",
+                "8ff7e9929fd6a402c324363c44a8d86d4af7538fa115cc29d93ff3a733941d13",
+                "24df4635cc31796761ac42a03ddc58a5867ef2ae4db41a7d7f6187ce6f9a8abe",
+                "424a5296b3289963e40278a10d1701c18be37ca9fb114a8216cea4b68f1209d9",
+                "cb2a8b4690c101c1c03b43a90cf466e0b322236aa9ab8db99c2820725fa9459c",
+                "181a0416e17da31d17e54c635283df86b22196ebb4c59768f49d8ab15b88268a",
+                "790e78bcdfd3a9cea66c02ccc2acc78460a02151d8d3b9f317ca857dd9690c61",
+                "8f866eb2bf520f74f04117dfef88c0aa85b117d36479d19487879def87eaef14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belcy.jp",
+                "filmarks.com",
+                "folk-media.com",
+                "gourmet.aumo.jp",
+                "hochi.news",
+                "itojisan.xyz",
+                "myhome.nifty.com",
+                "nativecamp.net",
+                "news.tv-asahi.co.jp",
+                "rekisiru.com",
+                "samurai-gamers.com",
+                "thetv.jp",
+                "w.atwiki.jp",
+                "www.kurashiru.com",
+                "www.kyureki.com",
+                "www.mapple.net",
+                "www.moomoo.com",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/lib8-lightweight\\/popIn-common-8\\.min\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.sessionStorage": 14,
+                "window.localStorage": 14,
+                "Date.prototype.getTimezoneOffset": 14,
+                "Date.prototype.getTime": 14,
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14,
+                "window.innerHeight": 14,
+                "window.innerWidth": 14,
+                "Navigator.prototype.language": 14,
+                "Screen.prototype.colorDepth": 14,
+                "Navigator.prototype.platform": 14
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "8f3fb07410ae69ae3dc1aa4a0b64dc42148b523ce6a006d87433e0bdd8da5388"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ss_pp_id": {
+                    "ttl": 31536006,
+                    "length": 32,
+                    "prevalence": 0.00008904536518874193,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nap-camp.com",
+                "dime.jp",
+                "eiga.com",
+                "ejje.weblio.jp",
+                "hinata.me",
+                "hugkum.sho.jp",
+                "mdpr.jp",
+                "newsdig.tbs.co.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tokubai.co.jp",
+                "www.bepal.net",
+                "www.e-sogi.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/lib8-lightweight\\/popIn-discovery-8\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "504e22402c8071a133d8365a1baa9508730919bddb36ad439a20b759e38befa0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nap-camp.com",
+                "dime.jp",
+                "eiga.com",
+                "ejje.weblio.jp",
+                "hinata.me",
+                "hugkum.sho.jp",
+                "mdpr.jp",
+                "newsdig.tbs.co.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tokubai.co.jp",
+                "www.bepal.net",
+                "www.e-sogi.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/lib8-lightweight\\/popIn-read-8\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.innerHeight": 1
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "330e673f9146dd263552d6145d2aa6b252be8ef55be5df273577ecfc2ecb3cca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nap-camp.com",
+                "dime.jp",
+                "eiga.com",
+                "hinata.me",
+                "hugkum.sho.jp",
+                "mdpr.jp",
+                "newsdig.tbs.co.jp",
+                "oceans.tokyo.jp",
+                "souzoku.asahi.com",
+                "tokubai.co.jp",
+                "www.bepal.net",
+                "www.e-sogi.com",
+                "yamahack.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/PopinService\\/Logs\\/discovery",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "inrecsys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dime.jp",
+                "girlschannel.net"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/js\\/pixel\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.language": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.getBattery": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c793553ce54e457ef399ee8b43d6011b34132318022f1c0cba089066b47f8fc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dv0qai26lg6v2y6kl7yyc36brextdvcuhj2evhl": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdwe1d3lvibqo": {
+                    "ttl": 4,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdiiywv5v342r": {
+                    "ttl": 4,
+                    "length": 12,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdavb65czi1h6": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdmtue2zoxwk": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd693wm0g1k4d": {
+                    "ttl": 4,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdmcnfvef3xfq": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_mg_ckp": {
+                    "ttl": 31536005,
+                    "length": 19,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd4bskm7wj8k": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdv3d4k08fgmm": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdzj2bcati5xh": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdh73en0q13qr": {
+                    "ttl": 4,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd23phc1kcfcp": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdcw8xr0g943r": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__mguid_": {
+                    "ttl": 31536005,
+                    "length": 32,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdp9adduils7n": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd93t65d5h4ta": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdpzkvq8nsra9": {
+                    "ttl": 6,
+                    "length": 12,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdwbos9rkfqd": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdjv5876unrg": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdsshdiidhujk": {
+                    "ttl": 6,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdfqusw1ungno": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdz5pq5sjdska": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdervc4t1ahmv": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdbgug94tsjpg": {
+                    "ttl": 2,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdaabk1mkjwe8": {
+                    "ttl": 2,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd0hzy25628e5e": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextds9codbi4f1": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdwwkagrx60la": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd171t8fj080dh": {
+                    "ttl": 2,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd7dpq3gwsc3l": {
+                    "ttl": 2,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd5re2ld83a8o": {
+                    "ttl": 2,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdqqymj8cns0k": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdm31m6c42ltl": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdob6rirz0zvt": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdfkm7iu17dw": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdrs299vcdxya": {
+                    "ttl": 3,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdruv9wo0rqy": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdsgwm24q47y": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdvcv9jph4wdi": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdngaebavefsp": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd1ljgwx8gunq": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdbjg1zqb10y": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdo5lgbazb4la": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextde1akvnxc4yu": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd6h7pisllu9y": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdz77bxse9ec": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdvmrvuo6app": {
+                    "ttl": 3,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdnoy8viy7p7j": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd894b0j7ytyr": {
+                    "ttl": 12,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd0kcu2mim399p": {
+                    "ttl": 12,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd86fub6lo2fp": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd86hlpah2kck": {
+                    "ttl": 12,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextddl8swdjtaq": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextddlvodn4hldp": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdaqlito2q50p": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd8fuj4n69mqn": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdgniwgtgdizn": {
+                    "ttl": 12,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdcx714ep5igp": {
+                    "ttl": 12,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdvem9gy5ywi": {
+                    "ttl": 17,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdj0clqixo8mn": {
+                    "ttl": 17,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdm0pn1di6uwm": {
+                    "ttl": 17,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd983qveqjjyu": {
+                    "ttl": 17,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextd65qvtxprefn": {
+                    "ttl": 17,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdxgs1umcz02": {
+                    "ttl": 17,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdufhl1hvj5jb": {
+                    "ttl": 17,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "dv0qai26lg6v2y6kl7yyc36brextdtd8v67es1": {
+                    "ttl": 17,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nativecamp.net",
+                "rekisiru.com",
+                "www.moomoo.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/js\\/h\\/val\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "025e0432cd05131c056f2f14e3116f6373f7d0fa002726a9f6fe932e2cd59945"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nativecamp.net",
+                "rekisiru.com",
+                "www.moomoo.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/api\\/bidder\\/track\\/pixel\\/pageview",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trace"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__mguid_": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "nativecamp.net",
+                "rekisiru.com",
+                "www.moomoo.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/iframe\\/piuid\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ltn.com.tw",
+                "www.moomoo.com"
+            ]
+        },
+        {
+            "rule": "popin\\.cc\\/iframe\\/code\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04c6c975b97fd6160efc079e002348af1a6f6fd74df86f5504c3dfe06ce1b965"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nownews.com",
+                "www.nownews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000322,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7628865979381443
+        },
+        {
+            "domain": "flux-cdn.com",
+            "prevalence": 0.16494845360824742
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.061855670103092786
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.010309278350515464
+        }
+    ],
+    "types": {
+        "Script": 140,
+        "Image": 105,
+        "XHR": 12,
+        "Document": 22,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-517.awsdns-00.net",
+        "ns-497.awsdns-62.com",
+        "ns-1753.awsdns-27.co.uk",
+        "ns-1328.awsdns-38.org"
+    ]
+}

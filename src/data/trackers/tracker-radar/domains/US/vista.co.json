@@ -1,0 +1,105 @@
+{
+    "domain": "vista.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "curzn-digital-api.app",
+        "ntflix-digital-api.app"
+    ],
+    "cnames": [
+        {
+            "original": "digital-api.curzon.com",
+            "resolved": "curzn-digital-api.app.vista.co"
+        },
+        {
+            "original": "digital-api.paristheaternyc.com",
+            "resolved": "ntflix-digital-api.app.vista.co"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "vista\\.co\\/ocapi\\/v1\\/film-screening-dates",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "curzn-digital-api.app",
+                "ntflix-digital-api.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digital-api.curzon.com",
+                    "resolved": "curzn-digital-api.app.vista.co"
+                },
+                {
+                    "original": "digital-api.paristheaternyc.com",
+                    "resolved": "ntflix-digital-api.app.vista.co"
+                }
+            ],
+            "responseHashes": [
+                "dd4aa8c687ff3789a9044344df1fe0bb66832f48568e98751c6e7e4710e029ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "curzon.com",
+                "www.paristheaternyc.com"
+            ]
+        },
+        {
+            "rule": "vista\\.co\\/ocapi\\/v1\\/film-screening-dates",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "curzn-digital-api.app",
+                "ntflix-digital-api.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digital-api.curzon.com",
+                    "resolved": "curzn-digital-api.app.vista.co"
+                },
+                {
+                    "original": "digital-api.paristheaternyc.com",
+                    "resolved": "ntflix-digital-api.app.vista.co"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "curzon.com",
+                "www.paristheaternyc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "casey.ns.cloudflare.com",
+        "piper.ns.cloudflare.com"
+    ]
+}

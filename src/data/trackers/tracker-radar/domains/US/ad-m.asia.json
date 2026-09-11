@@ -1,0 +1,102 @@
+{
+    "domain": "ad-m.asia",
+    "owner": {
+        "name": "FreeBit Co, Ltd.",
+        "displayName": "FreeBit"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "sync-dsp",
+        "bidding-dsp"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ad-m\\.asia\\/dsp\\/api\\/sync\\/send",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sync-dsp"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allthingshvac.com",
+                "bbs.animanch.com",
+                "coinmintages.com",
+                "ejje.weblio.jp",
+                "ncode.syosetu.com",
+                "paint.net",
+                "tenantrightsinfo.com",
+                "wondia.net",
+                "www.kidztype.com",
+                "www.orangepage.net",
+                "www.ttundra.com"
+            ]
+        },
+        {
+            "rule": "ad-m\\.asia\\/dsp\\/api\\/bid\\/s\\/s\\/freepass",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bidding-dsp"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dramanavi.net",
+                "eow.alc.co.jp",
+                "gameludens.com",
+                "kusanomido.com",
+                "www.server-world.info"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising"
+    ],
+    "performance": {},
+    "cookies": 0.0000753,
+    "topInitiators": [
+        {
+            "domain": "googlesyndication.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "genieesspv.jp",
+            "prevalence": 0.37142857142857144
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.22857142857142856
+        }
+    ],
+    "types": {
+        "Image": 11,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns21.freebit.net",
+        "ns22.freebit.net"
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "domain": "widgets-infor.b-cdn.net",
+    "owner": {
+        "name": "BunnyCDN",
+        "displayName": "BunnyCDN"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "widgets.infor.pl",
+            "resolved": "widgets-infor.b-cdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/widgets\\/payWallLogIn\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "a14eade5c24697b5d2ba2f08884a9542dd38217a30328b660ce6f6ce69b5d5a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/widgets\\/userSegments\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "ac7675bd81747a098e0f8021d65e7f061330c9973f346d160df696f63a60724a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/widgets\\/eventBusLite\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "8780616e8bbb9005b4648b45370d3b3331dd908f0ebd206fdf3265eea1b8b2e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "local_infor_fuid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "cpu_session": {
+                    "ttl": 1803,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "cpu_token": {
+                    "ttl": null,
+                    "length": 184,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "session_global_time": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/cookie\\/loader",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "f2bbe04b1a39ca604809ebcd161e13e67c2d9d5940cb0e6778ce485cc9707279",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "e681783df73c3876c72c6df2c088f2a1b4c74ea44ba039db9d8aa5339501b11e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "kadry.infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/cpu_user\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/cpu_user\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "e9e3b5155e187ead22d9d24f3f05939e008292ee1a382daf555fcc0bee1f7dd3",
+                "a868214788921e3f8d2cc994d2a2b3889cc36f595020a9f1e6464fb37044706f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/cpu_user\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "680875133f10390e0a8a34b01bd4674c706a3f7ec13131f964c576cead978c0a",
+                "13f370c7b2de4178cce36924829cf13af371ff09a4cdfd43ce026084394a7381"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        },
+        {
+            "rule": "widgets-infor\\.b-cdn\\.net\\/cpu_user\\/session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "widgets.infor.pl",
+                    "resolved": "widgets-infor.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "infor.pl",
+                "www.gazetaprawna.pl",
+                "www.infor.pl"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "XHR": 10,
+        "Preflight": 6
+    },
+    "nameservers": []
+}

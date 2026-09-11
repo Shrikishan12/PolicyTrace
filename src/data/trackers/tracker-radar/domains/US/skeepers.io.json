@@ -1,0 +1,367 @@
+{
+    "domain": "skeepers.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000315,
+    "sites": 46,
+    "subdomains": [
+        "sdk.ugv",
+        "cl-pbr.cxr",
+        "swa.datap",
+        "api.ugv",
+        "sdk",
+        "widgets.rr"
+    ],
+    "cnames": [
+        {
+            "original": "swa.dermalogica.com",
+            "resolved": "swa.datap.skeepers.io"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "skeepers\\.io\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d97655d4caa0f2cb483de2df4237c7093da5a3f466fa585c3336b8e8b872cf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomy.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk.ugv"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb47fc29486b17d1e4ad860d0a27c427ef628681b15b687a5f8871bdc2dc998d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomy.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/28935fb1-ea87-c6a4-d1aa-3a30dc5ed7f0\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "719d4605740f169fd2c5672108185a1fcf37c8eb121061e9e7d9a7dfba694ef9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "croq-kilos.com",
+                "www.croq-kilos.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/v1\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "swa.datap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "swa.dermalogica.com",
+                    "resolved": "swa.datap.skeepers.io"
+                }
+            ],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dermalogica.com",
+                "www.dermalogica.com",
+                "www.gifi.fr"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/75c5d324-42bd-9154-2d31-6d1e86eeae97\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "842ba6809111268e34a3e5ad12058bd7decab988ed15a802c8a11d3f05239cf7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bad16de8638af4f89f8a54078b572ccb41695b65dcc20df55838125693c7980c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/data\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d03494f5274858b1364b98d3c3cacaa807da0e965b3a9407f2c6361b621ecf05"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/data\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.ugv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "h2r-equipements.com",
+                "www.h2r-equipements.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/bus\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "785ae9bd85eb815285e06c1a5038890b9f740ba263ac0a06b57f14c7dfdb8284"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krups.de",
+                "www.moulinex.fr",
+                "www.rowenta.fr",
+                "www.tefal.de"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/cfb186ee-6f4a-ebb4-f918-9ee36c95a0a7\\/links\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bea4dc4862e1a5605d643d384229d7dac9042fe9ca770337cd4a655f767dfeb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tradeinn.com",
+                "www.tradeinn.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/carousel\\/58347b31-d20a-f7a4-fd5a-c29026af8ec5\\/d222e0a2-512d-4421-bde8-acd19851b1ea\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets.rr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a45dd1d0f80d9c736366b84f95348563bce533968f863447c066384ca688f8a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ultalabtests.com",
+                "www.ultalabtests.com"
+            ]
+        },
+        {
+            "rule": "skeepers\\.io\\/58347b31-d20a-f7a4-fd5a-c29026af8ec5\\/brand_widget\\/brief\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cl-pbr.cxr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ultalabtests.com",
+                "www.ultalabtests.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "apisearch.cloud",
+            "prevalence": 0.08163265306122448
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.04081632653061224
+        },
+        {
+            "domain": "teester.com",
+            "prevalence": 0.02040816326530612
+        },
+        {
+            "domain": "506.io",
+            "prevalence": 0.02040816326530612
+        },
+        {
+            "domain": "contentsquare.net",
+            "prevalence": 0.02040816326530612
+        },
+        {
+            "domain": "trackjs.com",
+            "prevalence": 0.02040816326530612
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.01020408163265306
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 12,
+        "XHR": 3,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ryan.ns.cloudflare.com",
+        "jillian.ns.cloudflare.com"
+    ]
+}

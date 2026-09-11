@@ -1,0 +1,77 @@
+{
+    "domain": "tv2api.dk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "play"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tv2api\\.dk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tv2.dk",
+                "play.tv2.dk"
+            ]
+        },
+        {
+            "rule": "tv2api\\.dk\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a5e0a1634776fda0037ec1feefb015de1c0417a03821f3da34a44739f58c6906"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tv2.dk",
+                "play.tv2.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns3-05.azure-dns.org",
+        "ns4-05.azure-dns.info",
+        "ns1-05.azure-dns.com",
+        "ns2-05.azure-dns.net"
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "domain": "wbd.com",
+    "owner": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "displayName": "Warner Bros. Discovery"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "lightning"
+    ],
+    "cnames": [
+        {
+            "original": "lightning.dc.com",
+            "resolved": "lightning.wbd.com"
+        },
+        {
+            "original": "lightning.discoveryplus.com",
+            "resolved": "lightning.wbd.com"
+        },
+        {
+            "original": "lightning.foodnetwork.com",
+            "resolved": "lightning.wbd.com"
+        },
+        {
+            "original": "lightning.harrypottershop.com",
+            "resolved": "lightning.wbd.com"
+        },
+        {
+            "original": "lightning.hgtv.com",
+            "resolved": "lightning.wbd.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "wbd\\.com\\/cdp\\/psm\\/i\\/web\\/release\\/4\\.5\\.1\\/psm\\.legacy\\.min\\.umd\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "lightning.harrypottershop.com",
+                    "resolved": "lightning.wbd.com"
+                },
+                {
+                    "original": "lightning.dc.com",
+                    "resolved": "lightning.wbd.com"
+                },
+                {
+                    "original": "lightning.discoveryplus.com",
+                    "resolved": "lightning.wbd.com"
+                },
+                {
+                    "original": "lightning.foodnetwork.com",
+                    "resolved": "lightning.wbd.com"
+                },
+                {
+                    "original": "lightning.hgtv.com",
+                    "resolved": "lightning.wbd.com"
+                }
+            ],
+            "responseHashes": [
+                "307655adb7b08986c5b344f0e107bf9252dc0dfd209a2955afa6c32395b1fcfd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "harrypottershop.com",
+                "shop.dc.com",
+                "www.discoveryplus.com",
+                "www.foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        },
+        {
+            "rule": "wbd\\.com\\/cdp\\/psm\\/brands\\/dcshop\\/web\\/release\\/psm\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lightning.dc.com",
+                    "resolved": "lightning.wbd.com"
+                }
+            ],
+            "responseHashes": [
+                "94e4e2b09b78436879000a07c25b25c0494fb8f75421f9e4efe818fe40223712"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dc.com",
+                "shop.dc.com"
+            ]
+        },
+        {
+            "rule": "wbd\\.com\\/cdp\\/psm\\/brands\\/discoveryplus\\/web\\/release\\/psm\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lightning.discoveryplus.com",
+                    "resolved": "lightning.wbd.com"
+                }
+            ],
+            "responseHashes": [
+                "be9994e45a00359855f7aa18a9c2a0dd8ce4484410020a1b24f41080d526bc5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discoveryplus.com",
+                "www.discoveryplus.com"
+            ]
+        },
+        {
+            "rule": "wbd\\.com\\/cdp\\/psm\\/brands\\/foodnetwork\\/web\\/release\\/psm\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lightning.foodnetwork.com",
+                    "resolved": "lightning.wbd.com"
+                }
+            ],
+            "responseHashes": [
+                "894cca577100334a95ab1e3959a7a1a671790320dd04f79fe989528b081e9faa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.com",
+                "www.foodnetwork.com"
+            ]
+        },
+        {
+            "rule": "wbd\\.com\\/cdp\\/psm\\/brands\\/hgtv\\/web\\/release\\/psm\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lightning"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "lightning.hgtv.com",
+                    "resolved": "lightning.wbd.com"
+                }
+            ],
+            "responseHashes": [
+                "aa815a83278e78451ae44c8f399bc8f3d2624c2566062cf6a8539cb3f79947a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hgtv.com",
+                "www.hgtv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 13
+    },
+    "nameservers": [
+        "ns-29.awsdns-03.com",
+        "ns-826.awsdns-39.net",
+        "ns-1210.awsdns-23.org",
+        "ns-2020.awsdns-60.co.uk"
+    ]
+}

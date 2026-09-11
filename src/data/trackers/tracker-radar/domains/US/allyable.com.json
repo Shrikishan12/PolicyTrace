@@ -1,0 +1,128 @@
+{
+    "domain": "allyable.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "portal"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "allyable\\.com\\/aweb",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ea8ae857f31ca1be160ad1f71e622735d56a6925c3fcc8f4d010696a02bb9f18",
+                "443738e7ff2c6f0a8f02241e13eadaf0c206c2303b074eeb80f964044b17e564",
+                "a99f90d14a81a80c7903857d607f12736fefa1ab0a9a31e060dcc810400b690f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scufgaming.com",
+                "www.elgato.com",
+                "www.inter.it",
+                "www.originpc.com",
+                "www.phly.com"
+            ]
+        },
+        {
+            "rule": "allyable\\.com\\/aweb\\/assets\\/a-web\\.rules\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7ae67b92299cef49cf968006508da267e82be45de912cf10afa58dbdcc159b2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgato.com",
+                "www.elgato.com",
+                "www.originpc.com"
+            ]
+        },
+        {
+            "rule": "allyable\\.com\\/aweb\\/storage",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "portal"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "65d73beb6bd10cd93e78cfb7ea8ceadcaf6a0c00e2acbc589ad19994b2fcf533"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elgato.com",
+                "www.elgato.com",
+                "www.originpc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "corsair.com",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Document": 3
+    },
+    "nameservers": [
+        "ns71.domaincontrol.com",
+        "ns72.domaincontrol.com"
+    ]
+}

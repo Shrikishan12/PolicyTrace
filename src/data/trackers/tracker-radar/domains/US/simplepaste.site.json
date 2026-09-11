@@ -1,0 +1,111 @@
+{
+    "domain": "simplepaste.site",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000233,
+    "sites": 34,
+    "subdomains": [
+        "play"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "simplepaste\\.site\\/embed",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {
+                "Document.cookie getter": 28,
+                "Navigator.prototype.userAgent": 28,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "1ce98942ef3dfd8a66425c7807f6d4035f89378075e51085430e796af3a67e8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "firstReferer": {
+                    "ttl": 3601,
+                    "length": 6,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokepabg.tokyo",
+                "bokepindon.tokyo",
+                "bokepbox.cfd",
+                "galeridood.tokyo",
+                "kimcilonly.pics",
+                "asupanbokep.tokyo",
+                "duniabokep.tokyo",
+                "bokepbaru.tokyo",
+                "galeribokep.click",
+                "pasarbokep.tokyo",
+                "onlybokep.click",
+                "kingbokep.vu",
+                "togebokep.tokyo",
+                "xpanas.tokyo",
+                "indocrot.click",
+                "onlybokep.tokyo",
+                "mesumlokal.site",
+                "indoav.tokyo",
+                "bokepindonesia.tokyo",
+                "bokepnakal.click"
+            ]
+        },
+        {
+            "rule": "simplepaste\\.site\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "play"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asupanbokep.tokyo",
+                "sange.tokyo"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9459459459459459
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.05405405405405406
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "XHR": 2
+    },
+    "nameservers": [
+        "wells.ns.cloudflare.com",
+        "pat.ns.cloudflare.com"
+    ]
+}

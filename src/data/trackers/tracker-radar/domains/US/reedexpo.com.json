@@ -1,0 +1,134 @@
+{
+    "domain": "reedexpo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "reedexpo\\.com\\/secure\\/connect\\/token",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2c7389810c5f7d0e9da73a44bf0ba5f563338932c5d97dae8455840a3e38b199",
+                "9533624b58529337b22c9aca218e521144855029bb0e9663bc32c86d4e3b5673"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paxsite.com",
+                "west.paxsite.com",
+                "www.newyorkcomiccon.com"
+            ]
+        },
+        {
+            "rule": "reedexpo\\.com\\/secure\\/connect\\/token",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paxsite.com",
+                "west.paxsite.com",
+                "www.newyorkcomiccon.com"
+            ]
+        },
+        {
+            "rule": "reedexpo\\.com\\/analytics\\/cross-domain",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "726b7168a8231ee40ad5d3a06e7b44ac41b4eed6b108bb2fa05a2c75c41bfe9f",
+                "bf04401c676f796c97f07b80e97406a0d83449b2225c343b9170c196d6931c92",
+                "9d772986ee01cea171ce6b89dc87919a93c3d3b98e9743db472fb0b24c230d74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paxsite.com",
+                "unplugged.paxsite.com",
+                "west.paxsite.com",
+                "www.newyorkcomiccon.com"
+            ]
+        },
+        {
+            "rule": "reedexpo\\.com\\/mixpanel\\/track\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paxsite.com",
+                "west.paxsite.com",
+                "www.newyorkcomiccon.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "rxweb-prd.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns2.netnames.net",
+        "ns1.netnames.net",
+        "ns5.netnames.net",
+        "ns6.netnames.net"
+    ]
+}

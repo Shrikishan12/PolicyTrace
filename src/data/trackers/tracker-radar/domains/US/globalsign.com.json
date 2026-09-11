@@ -1,0 +1,168 @@
+{
+    "domain": "globalsign.com",
+    "owner": {
+        "name": "GMO GlobalSign, Inc.",
+        "displayName": "GMO GlobalSign"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "seal",
+        "ssif1",
+        "seal.atlas"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "globalsign\\.com\\/SiteSeal\\/gmogs_image_100-40_en_dblue\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "seal"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3d191aca6b7ff236b4e67e5b378c9acc5cd16d71b91775d2ea3512baf084aaff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checksunlimited.com",
+                "www.checks.com",
+                "www.checksunlimited.com"
+            ]
+        },
+        {
+            "rule": "globalsign\\.com\\/SiteSeal\\/siteSeal\\/siteSeal\\/siteSeal\\.do",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssif1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "abb43d7839954474e455ba6e63354b6e62f41f0d2a1910a73f36b3c50793fe19",
+                "7b1fe98ba60abbe57e4f3a6f7a1e9b7c32d3b4574e83b16ba5c77904d85844a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checksunlimited.com",
+                "www.checks.com",
+                "www.checksunlimited.com"
+            ]
+        },
+        {
+            "rule": "globalsign\\.com\\/SiteSeal\\/siteSeal\\/siteSeal\\/siteSealImage\\.do",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssif1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0a5ecf2de2e177ff8dacb34901988262dbe5f94d3f108894ff9562307c3494cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "checksunlimited.com",
+                "www.checksunlimited.com",
+                "www.checks.com"
+            ]
+        },
+        {
+            "rule": "globalsign\\.com\\/gss\\/one\\/seal",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "seal.atlas"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1831684e52a5681d6b82e0199516263eefc39450cdeaf65281f704a64cc3de9f",
+                "0b3be5c68dd6d923d863fd9978820ba9d274df7558b56d4d0ffcab78fcecd4a5",
+                "4ff55507fe225a911886d17ced4a8cdd67e3f45db5725cd4acb41e1cfffe804d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.com",
+                "www.ballwatch.com",
+                "www.furusato-tax.jp",
+                "www.rsc.org.uk"
+            ]
+        },
+        {
+            "rule": "globalsign\\.com\\/gss\\/one\\/image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "seal.atlas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4d318bd316ee3d493ebdf7d039027418643911d26bf597bd578a5b2b5489bf16",
+                "91ba018dca71392ac9404e0b3f61feea5a03bb195a5de8404c1686eec9793f63"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ballwatch.com",
+                "www.furusato-tax.jp",
+                "www.rsc.org.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 6
+    },
+    "nameservers": [
+        "dns1.p07.nsone.net",
+        "dns2.p07.nsone.net",
+        "dns3.p07.nsone.net",
+        "dns4.p07.nsone.net",
+        "ns04.globalsigndns.com",
+        "ns01.globalsigndns.com",
+        "ns02.globalsigndns.com",
+        "ns03.globalsigndns.com"
+    ]
+}

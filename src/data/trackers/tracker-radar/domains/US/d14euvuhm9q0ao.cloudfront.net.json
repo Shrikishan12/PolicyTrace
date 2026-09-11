@@ -1,0 +1,89 @@
+{
+    "domain": "d14euvuhm9q0ao.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ours.natera.com",
+            "resolved": "d14euvuhm9q0ao.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d14euvuhm9q0ao\\.cloudfront\\.net\\/cmp-init",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ours.natera.com",
+                    "resolved": "d14euvuhm9q0ao.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "584ee635d59180ebc75cfdb12e951fb807cc4deaadbd299119d8581a68573c2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natera.com",
+                "www.natera.com"
+            ]
+        },
+        {
+            "rule": "d14euvuhm9q0ao\\.cloudfront\\.net\\/ingest",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ours.natera.com",
+                    "resolved": "d14euvuhm9q0ao.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "be5c82e5f06dbf963c1a1d2b733359fda91aafc5093de2d1a0761ba3b40aa523"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natera.com",
+                "www.natera.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1308.awsdns-35.org",
+        "ns-1915.awsdns-47.co.uk",
+        "ns-573.awsdns-07.net",
+        "ns-79.awsdns-09.com"
+    ]
+}

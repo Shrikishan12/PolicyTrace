@@ -1,0 +1,66 @@
+{
+    "domain": "xboxlive.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "images-eds-ssl"
+    ],
+    "cnames": [
+        {
+            "original": "images-eds-ssl.xboxlive.com",
+            "resolved": "images-eds-ssl.xboxlive.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "xboxlive\\.com\\.edgekey\\.net\\/image",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "images-eds-ssl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "images-eds-ssl.xboxlive.com",
+                    "resolved": "images-eds-ssl.xboxlive.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b1b52d0e6d9a1434614c861726dfc68da7f508016c619dac6c1aa5e342492033"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "microsoft.com",
+                "www.seaofthieves.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2
+    },
+    "nameservers": []
+}

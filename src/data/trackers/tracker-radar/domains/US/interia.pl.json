@@ -1,0 +1,112 @@
+{
+    "domain": "interia.pl",
+    "owner": {
+        "name": "Grupa Interia.pl Sp. z o.o. sp. k.",
+        "displayName": "Interia"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "iwa3.hit",
+        "adc"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "interia\\.pl\\/iwa_core",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwa3.hit"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "61ec405671c3535abf4ca09d5685fdc22411c13ab5d973713de5b23ebd0e66fc",
+                "b9b6b296cf83724067efec79a763d14d7c1b53a887bd029552f44c9fa31fac04"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.twojapogoda.pl"
+            ]
+        },
+        {
+            "rule": "interia\\.pl\\/collector",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwa3.hit"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.twojapogoda.pl"
+            ]
+        },
+        {
+            "rule": "interia\\.pl\\/adc\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adc"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "054677866d48705f65a7c7a47f058e400c88d203147da3df147b51aa34f60aeb",
+                "ced81d39542d3f11a9a05e62f9f3dfa9a57b43d5498d67a29d2350fd8680a7cc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.twojapogoda.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "iplsc.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "WebSocket": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "dns1.interia.pl",
+        "dns2.interia.pl",
+        "dns3.interia.pl"
+    ]
+}

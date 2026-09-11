@@ -1,0 +1,87 @@
+{
+    "domain": "imgdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "frankonia-traffic",
+        "intersport-de"
+    ],
+    "cnames": [
+        {
+            "original": "bilder.frankonia.de",
+            "resolved": "frankonia-traffic.imgdn.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "imgdn\\.net\\/fsicache\\/server",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frankonia-traffic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.frankonia.de",
+                    "resolved": "frankonia-traffic.imgdn.net"
+                }
+            ],
+            "responseHashes": [
+                "31a7ebcbd46c091769c45759d6795364b3ffa50f2bef977080015a67d64392be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frankonia.de",
+                "www.frankonia.de"
+            ]
+        },
+        {
+            "rule": "imgdn\\.net\\/fsi\\/server",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "intersport-de"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "67131b3a328c07b99be01dbf4228bc0759d8c4fee9cf91c332208bce590b4bad"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intersport.de",
+                "www.intersport.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 4
+    },
+    "nameservers": [
+        "ns200.anycast.me",
+        "dns200.anycast.me"
+    ]
+}

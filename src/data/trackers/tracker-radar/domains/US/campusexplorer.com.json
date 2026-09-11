@@ -1,0 +1,90 @@
+{
+    "domain": "campusexplorer.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "widget",
+        "seku"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "campusexplorer\\.com\\/js\\/widget\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "36d95c531a61fa1ded646aaf171578790effbd9d7c9fd3573cba249df99e0e8a",
+                "7c34bced0a61f573a0e8393bf92b42e71ad9c5c830bdba70aeb9e48eb15870a5",
+                "b5a44602b984fe79dbbd962315471255f6687780b354e6c1d894375f8e0ec7a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "collegeevaluator.com",
+                "www.collegefactual.com",
+                "www.edsmart.org",
+                "www.univstats.com"
+            ]
+        },
+        {
+            "rule": "campusexplorer\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "seku"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "univstats.com",
+                "www.univstats.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-129.awsdns-16.com",
+        "ns-855.awsdns-42.net",
+        "ns-1912.awsdns-47.co.uk",
+        "ns-1481.awsdns-57.org"
+    ]
+}

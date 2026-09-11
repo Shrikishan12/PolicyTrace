@@ -1,0 +1,103 @@
+{
+    "domain": "securetoken.googleapis.com",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "securetoken\\.googleapis\\.com\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1a4c23c3999be4cd7e90cd5aae6eedd69fac0f2b31c1bdbb1d6ec29339b0b0e2",
+                "f6a9c873fd3085e4c9bf150f653f2a1e205d5c0fff6db55c40d20c210875979e",
+                "7ed274b5fd5a62bafa1c2466e3da34059665a00c8fb342274beccde3ebd07c82"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aidungeon.com",
+                "play.aidungeon.com",
+                "www.lenouvelliste.ch",
+                "www.sigstick.com"
+            ]
+        },
+        {
+            "rule": "securetoken\\.googleapis\\.com\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aidungeon.com",
+                "play.aidungeon.com",
+                "rhythm-plus.com",
+                "www.alarabiya.net",
+                "www.lenouvelliste.ch",
+                "www.sigstick.com"
+            ]
+        },
+        {
+            "rule": "securetoken\\.googleapis\\.com\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c0e9d02534b96e85e408cf3c8f0eca3e7ac657443d502298213409abd022027"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rhythm-plus.com",
+                "www.alarabiya.net"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 6,
+        "XHR": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,626 @@
+{
+    "domain": "brand-display.com",
+    "owner": {
+        "name": "Knorex Pte. Ltd.",
+        "displayName": "Knorex"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000329,
+    "sites": 48,
+    "subdomains": [
+        "dmp",
+        "cdn",
+        "tr"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "brand-display\\.com\\/cm3\\/pixel",
+            "cookies": 0.000164,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amvgg.com",
+                "hearthstone-decks.net",
+                "www.lakehouse.com",
+                "www.kerrang.com",
+                "www.out.com",
+                "sofifa.com",
+                "ribblr.com",
+                "roundtable.io",
+                "soundboardguys.com",
+                "www.comicbookherald.com",
+                "goat-lab.app",
+                "www.advocate.com",
+                "smitebrain.com",
+                "thehockeynews.com",
+                "m.gsmarena.com",
+                "www.zerotackle.com",
+                "vgtimes.com",
+                "grindnstrat.com",
+                "gamestratwiki.com",
+                "fr.vgtimes.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/sv\\/js\\/fingerprint3\\.min\\.js",
+            "cookies": 0.0000411,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.vendor": 6,
+                "OfflineAudioContext.prototype.constructor": 6,
+                "Screen.prototype.availTop": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.availWidth": 6,
+                "Screen.prototype.availLeft": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.availHeight": 6,
+                "AudioBuffer.prototype.getChannelData": 6,
+                "Navigator.prototype.language": 6,
+                "Navigator.prototype.languages": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Navigator.prototype.hardwareConcurrency": 6,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 6,
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "window.indexedDB": 6,
+                "Navigator.prototype.platform": 6,
+                "Navigator.prototype.plugins": 6,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 6,
+                "HTMLCanvasElement.prototype.toDataURL": 6,
+                "Navigator.prototype.maxTouchPoints": 6,
+                "Document.cookie setter": 6,
+                "Document.cookie getter": 6,
+                "Navigator.prototype.deviceMemory": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "a1f80ad7ddeaf7cae12ca92666f090bfa4754e1249557ec413814791e13b7fef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787657667,
+                    "length": 1,
+                    "prevalence": 0.000041097860856342424,
+                    "uniqueness": 0.16666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tr\\/tag\\/cfix\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "536ebd57976f7182c4eaa62a2e3f67ff898b09efd3a007249332331811876bf3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tracking\\/api\\/remarketing",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "05c4cc82e30439bb88e3189e19b3ae0ea83c22fff0eb8c94aea737fd377be643"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "www.niagarafallstourism.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tracking\\/api\\/remarketing",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ipe_131138_dealer_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tracking\\/api\\/r",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/taboola",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/appnexus",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/liveramp",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/tapad",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/roqad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/smaato",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/index",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/cm\\/api\\/pulsepoint",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/adx\\/cm\\/pixel",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "atctrailers.com",
+                "buildersdiscount.net",
+                "foxcu.org",
+                "www.cityexperiences.com",
+                "www.kenya-airways.com",
+                "www.nationalshrine.org",
+                "www.niagarafallstourism.com",
+                "www.smarttoyota.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/sv\\/js\\/fingerprint2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.productSub": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Navigator.prototype.deviceMemory": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ba50544bc52682e3884d79402fa65bbc8149866ff097223c48d9da54bb02e280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buildersdiscount.net",
+                "www.niagarafallstourism.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tr\\/knx137134\\/45682af58d5ad0eaa2c0357139f466d754f19eed\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "57bbbc58516cf15c7cb9f989017392a0869a767ddd8fe518cf24f84394ff52ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_knxcm_": {
+                    "ttl": 2592017,
+                    "length": 177,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityexperiences.com",
+                "www.cityexperiences.com"
+            ]
+        },
+        {
+            "rule": "brand-display\\.com\\/tr\\/knx62007\\/477d8fbb3b7a2356bb90d32b41456e0b5f594cb5\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de54dab5befaa0b5c5f0e75f36f0a13f3f9005e51628031bdc5939ba805f113f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_knxcm_": {
+                    "ttl": 2592011,
+                    "length": 193,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "niagarafallstourism.com",
+                "www.niagarafallstourism.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000267,
+    "topInitiators": [
+        {
+            "domain": "eyeota.net",
+            "prevalence": 0.6458333333333334
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "colossusssp.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.020833333333333332
+        }
+    ],
+    "types": {
+        "Image": 116,
+        "Script": 15,
+        "Document": 8
+    },
+    "nameservers": [
+        "ns-218.awsdns-27.com",
+        "ns-866.awsdns-44.net",
+        "ns-1549.awsdns-01.co.uk",
+        "ns-1409.awsdns-48.org"
+    ]
+}

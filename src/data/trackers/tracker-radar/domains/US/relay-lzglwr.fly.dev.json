@@ -1,0 +1,75 @@
+{
+    "domain": "relay-lzglwr.fly.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "relay2.weatherwise.app",
+            "resolved": "relay-lzglwr.fly.dev"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "relay-lzglwr\\.fly\\.dev\\/ws\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "relay2.weatherwise.app",
+                    "resolved": "relay-lzglwr.fly.dev"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weatherwise.app",
+                "web.weatherwise.app"
+            ]
+        },
+        {
+            "rule": "relay-lzglwr\\.fly\\.dev\\/ws\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "relay2.weatherwise.app",
+                    "resolved": "relay-lzglwr.fly.dev"
+                }
+            ],
+            "responseHashes": [
+                "c9ebcef5c394e2dc13802a19b9fb4188ce72e19698c4d3e00da34c369d7d680e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weatherwise.app",
+                "web.weatherwise.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,94 @@
+{
+    "domain": "inmar.com",
+    "owner": {
+        "name": "Inmar, Inc.",
+        "displayName": "Inmar"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "c.retailcloud",
+        "x.retailcloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "inmar\\.com\\/10058372\\/sdk\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c.retailcloud"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60ee0ce27e5e36e88cb8cba7bde7542fb92fc607f312253f1e75060ef5ca8505"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ubid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topsmarkets.com",
+                "www.topsmarkets.com"
+            ]
+        },
+        {
+            "rule": "inmar\\.com\\/bsda",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "x.retailcloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7cd3d44a9209ea319cf8f2a9af283fe0ef597b769eba131367d6e45f7c09e269"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topsmarkets.com",
+                "www.topsmarkets.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-553.awsdns-05.net",
+        "ns-372.awsdns-46.com",
+        "ns-1182.awsdns-19.org",
+        "ns-2015.awsdns-59.co.uk"
+    ]
+}

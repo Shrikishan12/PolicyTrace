@@ -1,0 +1,168 @@
+{
+    "domain": "eclick.vn",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "scdn",
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "eclick\\.vn\\/delivery\\/eclick\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scdn",
+                "s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "804c100cc120f33182bcc468ff8aac5ebac7ffe9cdae9c3d8d32fd5309b55b2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vnexpress.net",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "eclick\\.vn\\/delivery\\/asset\\/357445090\\/adsbyeclick\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scdn",
+                "s"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Screen.prototype.height": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5018325b63d44109f01b2c71104534fd72bd2e60ec855cb80e46dd92c9deff5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 6,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "isCookieDomain": {
+                    "ttl": 6,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "orig_aid": {
+                    "ttl": 31449607,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "fosp_uid": {
+                    "ttl": 31449607,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vnexpress.net",
+                "thanhnien.vn"
+            ]
+        },
+        {
+            "rule": "eclick\\.vn\\/delivery\\/elookup\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eecb9d7fd0fadb58d274a21f3dcc19445f243bd38a90787bdafbb0c1e4c4e562"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "cookies.js": {
+                    "ttl": 10,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "backup_fosp_aid": {
+                    "ttl": 10,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {
+                "orig_aid": 0.000013699286952114143,
+                "fosp_uid": 0.000013699286952114143,
+                "fosp_aid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "thanhnien.vn",
+                "vnexpress.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.725
+        },
+        {
+            "domain": "vnecdn.net",
+            "prevalence": 0.225
+        },
+        {
+            "domain": "deqik.com",
+            "prevalence": 0.025
+        },
+        {
+            "domain": "vnncdn.net",
+            "prevalence": 0.025
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.fptonline.vn",
+        "ns2.fptonline.vn"
+    ]
+}

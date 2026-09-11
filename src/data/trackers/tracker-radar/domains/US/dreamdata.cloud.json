@@ -1,0 +1,160 @@
+{
+    "domain": "dreamdata.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000171,
+    "sites": 25,
+    "subdomains": [
+        "cdn",
+        "quo_com.customers"
+    ],
+    "cnames": [
+        {
+            "original": "dd.quo.com",
+            "resolved": "quo_com.customers.dreamdata.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dreamdata\\.cloud\\/api\\/v1\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "quo_com.customers"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [
+                {
+                    "original": "dd.quo.com",
+                    "resolved": "quo_com.customers.dreamdata.cloud"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vlex.com",
+                "case-law.vlex.com",
+                "deepgram.com",
+                "jumpcloud.com",
+                "krisp.ai",
+                "testsigma.com",
+                "whereby.com",
+                "www.cloudtalk.io",
+                "www.egnyte.com",
+                "www.gainwelltechnologies.com",
+                "www.getmaintainx.com",
+                "www.idtdna.com",
+                "www.kpler.com",
+                "www.optery.com",
+                "www.ptc.com",
+                "www.quo.com",
+                "www.tungstenautomation.com",
+                "www.ul.com",
+                "www.warp.dev",
+                "www.wrike.com"
+            ]
+        },
+        {
+            "rule": "dreamdata\\.cloud\\/scripts\\/analytics\\/next\\/dreamdata\\.min\\.js",
+            "cookies": 0.0000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "quo_com.customers"
+            ],
+            "apis": {
+                "window.localStorage": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie setter": 9,
+                "Document.cookie getter": 9,
+                "Navigator.prototype.onLine": 10,
+                "Navigator.prototype.language": 10,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 10
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [
+                {
+                    "original": "dd.quo.com",
+                    "resolved": "quo_com.customers.dreamdata.cloud"
+                }
+            ],
+            "responseHashes": [
+                "9e294d849da9790685b5463c60eed00ec0ad70190a8e911dd3db2c8651e7c70a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "dd_anonymous_id": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.00006164679128451365,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deepgram.com",
+                "jumpcloud.com",
+                "krisp.ai",
+                "testsigma.com",
+                "www.egnyte.com",
+                "www.idtdna.com",
+                "www.optery.com",
+                "www.quo.com",
+                "www.tungstenautomation.com",
+                "www.warp.dev",
+                "www.wrike.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "drda.io",
+            "prevalence": 0.35714285714285715
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "default.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "reo.dev",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03571428571428571
+        }
+    ],
+    "types": {
+        "Fetch": 20,
+        "Script": 11
+    },
+    "nameservers": [
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

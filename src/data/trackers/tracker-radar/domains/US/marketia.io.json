@@ -1,0 +1,169 @@
+{
+    "domain": "marketia.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "clearwatercreditunion",
+        "sidfco",
+        "aacu",
+        "stellar",
+        "usb1"
+    ],
+    "cnames": [
+        {
+            "original": "assets.sfcuonline.org",
+            "resolved": "sidfco.marketia.io"
+        },
+        {
+            "original": "resources.aacu.com",
+            "resolved": "aacu.marketia.io"
+        },
+        {
+            "original": "webservice.clearwatercreditunion.org",
+            "resolved": "clearwatercreditunion.marketia.io"
+        },
+        {
+            "original": "ww3.stellar.bank",
+            "resolved": "stellar.marketia.io"
+        },
+        {
+            "original": "ww3.unionsavings.com",
+            "resolved": "usb1.marketia.io"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "marketia\\.io\\/requestserver\\/rest\\/v1\\/pageFeatures",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clearwatercreditunion",
+                "sidfco",
+                "aacu",
+                "stellar",
+                "usb1"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "webservice.clearwatercreditunion.org",
+                    "resolved": "clearwatercreditunion.marketia.io"
+                },
+                {
+                    "original": "assets.sfcuonline.org",
+                    "resolved": "sidfco.marketia.io"
+                },
+                {
+                    "original": "resources.aacu.com",
+                    "resolved": "aacu.marketia.io"
+                },
+                {
+                    "original": "ww3.stellar.bank",
+                    "resolved": "stellar.marketia.io"
+                },
+                {
+                    "original": "ww3.unionsavings.com",
+                    "resolved": "usb1.marketia.io"
+                }
+            ],
+            "responseHashes": [
+                "4f77cc236f3f30bd6cbba92843d5b879bb97e193577b110c5cf4d42f5ff92aab",
+                "ca2fc37388cdedcb7f480ff88a900275387f063290be7bad00549326767a4680",
+                "9f28ed2749f20e82ca73d2bf5d4a377bb0ebd3ef8e2fd6ee6b5c8f2a3bc5c713",
+                "a37498bcb10cbd7e885a88789e4d62a3ebb080fe8183daf4da5c12ca915a626b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clearwatercreditunion.org",
+                "sfcuonline.org",
+                "www.aacu.com",
+                "www.stellar.bank",
+                "www.unionsavings.com"
+            ]
+        },
+        {
+            "rule": "marketia\\.io\\/requestserver\\/rest\\/v1\\/pageFeatures",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clearwatercreditunion",
+                "sidfco",
+                "aacu",
+                "stellar",
+                "usb1"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "webservice.clearwatercreditunion.org",
+                    "resolved": "clearwatercreditunion.marketia.io"
+                },
+                {
+                    "original": "assets.sfcuonline.org",
+                    "resolved": "sidfco.marketia.io"
+                },
+                {
+                    "original": "resources.aacu.com",
+                    "resolved": "aacu.marketia.io"
+                },
+                {
+                    "original": "ww3.stellar.bank",
+                    "resolved": "stellar.marketia.io"
+                },
+                {
+                    "original": "ww3.unionsavings.com",
+                    "resolved": "usb1.marketia.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clearwatercreditunion.org",
+                "sfcuonline.org",
+                "www.aacu.com",
+                "www.stellar.bank",
+                "www.unionsavings.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "onlineaccess1.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "XHR": 5,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-1974.awsdns-54.co.uk",
+        "ns-1404.awsdns-47.org",
+        "ns-137.awsdns-17.com",
+        "ns-986.awsdns-59.net"
+    ]
+}

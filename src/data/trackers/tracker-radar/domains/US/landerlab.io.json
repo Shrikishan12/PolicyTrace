@@ -1,0 +1,139 @@
+{
+    "domain": "landerlab.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "resources",
+        "track"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "landerlab\\.io\\/css\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "eab53ab1b7f2830ce57571b78c17f4dca8b298a2e1437a9de05f539ba67b57f0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvaluepick.net",
+                "idealshopping.net",
+                "topvaluepicks.org"
+            ]
+        },
+        {
+            "rule": "landerlab\\.io\\/cf\\/p\\/69a5f9e8b1e26900127e15b7",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "da1cccae291eb87c75402e1786d2b624b1bba2a84b26a1a93618534236a3cb05",
+                "58f8ee42008164351acaedf7be6ded244767ae7aaf2004ddee388da6024fb8bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvaluepick.net",
+                "idealshopping.net",
+                "topvaluepicks.org"
+            ]
+        },
+        {
+            "rule": "landerlab\\.io\\/js\\/scripts\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e7468bb8f16edc47ed1b5776bbaa916c07adbfdb5d652059f33dbaf2d1952192"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "llCountdown": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvaluepick.net",
+                "idealshopping.net",
+                "topvaluepicks.org"
+            ]
+        },
+        {
+            "rule": "landerlab\\.io\\/css\\/animate\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5fbaeb9f8e25d7e0143bae61d4b1802c16ce7390b96ceb2d498b0d96ff4c853f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestvaluepick.net",
+                "idealshopping.net",
+                "topvaluepicks.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 6,
+        "Script": 6
+    },
+    "nameservers": [
+        "dina.ns.cloudflare.com",
+        "paul.ns.cloudflare.com"
+    ]
+}

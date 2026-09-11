@@ -1,0 +1,590 @@
+{
+    "domain": "omeda.com",
+    "owner": {
+        "name": "Omeda Communications",
+        "displayName": "Omeda Communications"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00061,
+    "sites": 89,
+    "subdomains": [
+        "olytics",
+        "oqs",
+        "cdp",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "omeda\\.com\\/olytics\\/css\\/v3\\/p\\/olytics\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 61,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [
+                "67ca40f8bcde75156537845617fcd5e3469952e86147098dc5915de9c143bf38"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.finegardening.com",
+                "www.cliniciansbrief.com",
+                "www.rdhmag.com",
+                "www.antiquetrader.com",
+                "skyandtelescope.org",
+                "www.freightwaves.com",
+                "dailyhive.com",
+                "www.policemag.com",
+                "lit.newcity.com",
+                "www.flyingmag.com",
+                "www.militarytrader.com",
+                "www.ocbj.com",
+                "www.cruisingworld.com",
+                "airlinegeeks.com",
+                "www.americanbanker.com",
+                "soundingsonline.com",
+                "www.businessrecord.com",
+                "www.officer.com",
+                "www.edn.com",
+                "www.fireengineering.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/js\\/v3\\/p\\/olytics\\.min\\.js",
+            "cookies": 0.000418,
+            "fingerprinting": 2,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {
+                "window.localStorage": 60,
+                "Navigator.prototype.userAgent": 61,
+                "Document.cookie setter": 61,
+                "Document.cookie getter": 61,
+                "Date.prototype.getTime": 56,
+                "Navigator.prototype.vendor": 61,
+                "Navigator.prototype.webkitTemporaryStorage": 61,
+                "Performance.prototype.memory": 61,
+                "window.innerWidth": 3,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 61,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [
+                "fb74498ac1676c8a9eeca1797ebaf1a39bbdbd64c42330a64b0420357572f75d",
+                "66c01e9d25ab5d2948c4e5f8addebacf34a25dbddaf12c892dff303356f0771f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__tld__": {
+                    "ttl": 3,
+                    "length": 4,
+                    "prevalence": 0.00034933181727891065,
+                    "uniqueness": 0.0196078431372549
+                },
+                "oly%3Atest": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0003424821738028536,
+                    "uniqueness": 0.02
+                },
+                "oly%3Acookies": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0003424821738028536,
+                    "uniqueness": 0.02
+                },
+                "oly_enc_id": {
+                    "ttl": 2,
+                    "length": 4,
+                    "prevalence": 0.0003424821738028536,
+                    "uniqueness": 0.02
+                },
+                "oly_fire_id": {
+                    "ttl": 31536002,
+                    "length": 15,
+                    "prevalence": 0.000383580034659196,
+                    "uniqueness": 0.6428571428571429
+                },
+                "oly_anon_id": {
+                    "ttl": 31536002,
+                    "length": 35,
+                    "prevalence": 0.00034933181727891065,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skyandtelescope.org",
+                "www.astronomy.com",
+                "www.officer.com",
+                "www.ecmweb.com",
+                "www.boatingmag.com",
+                "www.motherearthnews.com",
+                "www.enr.com",
+                "momentmag.com",
+                "dailyhive.com",
+                "www.businessrecord.com",
+                "www.oldcarsweekly.com",
+                "www.cruisingworld.com",
+                "www.saltwatersportsman.com",
+                "truewestmagazine.com",
+                "www.electronics-tutorials.ws",
+                "www.greenbuildingadvisor.com",
+                "www.antiquetrader.com",
+                "www.threadsmagazine.com",
+                "airlinegeeks.com",
+                "www.writersdigest.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/oqs\\/rest\\/olytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oqs"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.00039,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.sportfishingmag.com",
+                "www.farmcollector.com",
+                "www.enr.com",
+                "www.threadsmagazine.com",
+                "soundingsonline.com",
+                "www.militarytrader.com",
+                "www.policemag.com",
+                "www.gardengatemagazine.com",
+                "www.ocbj.com",
+                "www.edn.com",
+                "www.boatingmag.com",
+                "www.officer.com",
+                "www.cruisingworld.com",
+                "www.oldcarsweekly.com",
+                "www.springfieldnewssun.com",
+                "lit.newcity.com",
+                "www.antiquetrader.com",
+                "www.freightwaves.com",
+                "www.food-safety.com",
+                "www.finewoodworking.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/oqs\\/rest\\/olytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oqs"
+            ],
+            "apis": {},
+            "sites": 57,
+            "prevalence": 0.00039,
+            "cnames": [],
+            "responseHashes": [
+                "ee2bd946a7a0e25dd3f7606bf975cfaa824c7eb902568f5e711f361be35196ee",
+                "8fed0359a978607741335672c13815cef49036c52f9d3c3173d365840a967ccb",
+                "68330f6767efe4ea90f23cb4bb722810d19758395bc24f59c7c893c0d4ae69ce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.ocbj.com",
+                "www.fireengineering.com",
+                "soundingsonline.com",
+                "labusinessjournal.com",
+                "www.rdhmag.com",
+                "www.flyingmag.com",
+                "www.cliniciansbrief.com",
+                "www.firehouse.com",
+                "www.freightwaves.com",
+                "www.antiquetrader.com",
+                "www.fiercepharma.com",
+                "www.sportfishingmag.com",
+                "www.officer.com",
+                "www.food-safety.com",
+                "www.fiercehealthcare.com",
+                "www.militarytrader.com",
+                "www.electronics-tutorials.ws",
+                "www.writersdigest.com",
+                "momentmag.com",
+                "www.boatingmag.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 61,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [
+                "4c412b6a26bfca29cb8c95debf472f2a2720fe5e638f8f7a7e9e7b806380e30b",
+                "a902dacf4bde6ed357c92051844b33cc9698c2a6c4e95fc8b15e710afd035bf2",
+                "ab64560cf10e232d83b783805d267b1675aa728828db773daefe5936e0e4ed67",
+                "d301721a125e30a29de55563531c5e5f8ddb7146ed2909a4c04f8a2c30e12de9",
+                "dd0103b71a9f800bf8509fb3f34f29a1af4b26a10ceef71cea5bb29ae4ea106d",
+                "a8e427db11a8744bebbcdfd050f7b9d0a84b5a1754d086f1787c40db21955264",
+                "15bbe6be7ae621bebdb8a3769db41896057f06f92c12fa0a3eb58ea8921fd4cc",
+                "73f237e28912b29e0eb33ef990b657a0cb0946675cf7a31af5e6049c6c0f6607",
+                "b1a0be459ce1d2ce7c4b62a8f3c70311745c980f148e39fa3d6180187b822106",
+                "0565fc276a5d5554cac3df3fa6bc2b7708952167d4d6032d15f8ee0df8566c82",
+                "1de877015fdbf60978015ec455fcbb4c55f63f2db2abe70d7989d343236b5a65",
+                "5876e390e87928147415c7506ebf0fb1565207ada7717e7a6df390c03a6bf39b",
+                "5b5c55d4471c27cd953ecab43abfbc06fab3c49c66622c2666989b74fb40efc2",
+                "dbdeaf4503ba07829327809bc131a0030154bcc69b40cc886f6b3027ba2c3f03",
+                "a2abca1714b5c59809747e89172a5dbd44bdf4f51d7bee27878bf46dbca3dd67",
+                "45b01e38ac3d644832f9aa7afe1af7614e5a624805bb795dd2dfae5eb87561d0",
+                "a185708326aada18900e4ad56661351d5f40657a5a4e67a718c55de2c3bcae5f",
+                "281a5817a2f857425c339be94f6d6f0d1dee9c0b91506c3cc7dbdd2a255a13a3",
+                "5e80d7ad8a3e24685f106d9d09804aa53f0b2b922ab5fda73c75dd0b5be5c79f",
+                "f10db8033bdccb00cdfe7ed63e808eb7fc7db5486f056820dcd22173ea95f323",
+                "71b97a8b683655f3c203fde99becdec6b6b592d8ffb92fb922aa62a4a8ca5b39",
+                "a096c4b47fbf8707b23afc51c4b5335b363a346959816377a0b8b6d9555fd73c",
+                "de3b5263ecc8f279037d96005e474179e0a9212fd797d7ec812ee5e1a3dd8e28",
+                "9aa0af7f358c1c1ff55abc3c678f9df1a2d9d2aecbbb9525d1f085ea809cc020",
+                "1d06f36d6e0dc4945be59ca1ad652ea8b0ac8efc531b5b697b5e1682d286c10a",
+                "7228ccd79eee5358e6b9f7ad217e9574f3f4b86876976aa55077a8bcb7ae95a7",
+                "36bb12cdb17edc7e9ac0394b59c7c89342ad9d7ac91721a922e8daf3f7c31ec6",
+                "fc41709ee3faebd067a77d97fc069eb7fcd0bbde0966a0d58f4ef841a0133a89",
+                "e6b844c0d30a6ff425b43ec343da84165637eb284c0c5ba12616acabf97726fd",
+                "fe8c9f306344cfeffaaaed86554cbd9426e058a10622fb262bcbf0024b85f625",
+                "15cb67f2adb7e3d36cbdd6191171869c1ba0f6c4e4350f810b2724fa4d1cedca",
+                "69d78f6c59669581ae8f05e5ddd2db78768ffcb1bfd9a9ff47301579b8fd63f0",
+                "f4f90a2f28604124fc8261c037283f04a9397cf5671cae128cb780b6730871a7",
+                "1a1605663a59bf0666c9344d2e33adfdefa90a446c8ca75705f09206538d8a36",
+                "929c84885673c171c5b866d26122ae85eedde54122b781d6c8777de01381cfe8",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "fc1899d4f039676ad5d78599d90718b2d669f9453df8a73840f4aae234f4d209",
+                "f42019ae959aaf501dfad4aa06ca6282fd222ee5e9fddea774776d653e614666",
+                "07a17b863d80aae1649aadffe79c9b562116d701bd6cd7118276273e030622cc",
+                "f2b876220a9ba3f7d8a06b8136a78138f69042c4864e6ee53575b98bea353c60",
+                "34a9046dc609a03f247325c893879cd203b0778e6100cde1935db370d3a9d169"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.popularwoodworking.com",
+                "www.motherearthnews.com",
+                "www.cruisingworld.com",
+                "soundingsonline.com",
+                "www.cliniciansbrief.com",
+                "www.fireengineering.com",
+                "www.publishersweekly.com",
+                "www.gardengatemagazine.com",
+                "momentmag.com",
+                "www.enr.com",
+                "www.saltwatersportsman.com",
+                "www.officer.com",
+                "www.rdhmag.com",
+                "www.fierce-network.com",
+                "www.eetimes.com",
+                "www.finegardening.com",
+                "www.fiercepharma.com",
+                "airlinegeeks.com",
+                "www.sportfishingmag.com",
+                "www.grit.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/p",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 61,
+            "prevalence": 0.000418,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.grit.com",
+                "www.springfieldnewssun.com",
+                "www.threadsmagazine.com",
+                "www.businessrecord.com",
+                "www.antiquetrader.com",
+                "www.fiercepharma.com",
+                "www.enr.com",
+                "www.policemag.com",
+                "airlinegeeks.com",
+                "www.ocbj.com",
+                "www.daytondailynews.com",
+                "www.kitplanes.com",
+                "www.motherearthnews.com",
+                "www.eetimes.com",
+                "www.woodsmith.com",
+                "www.freightwaves.com",
+                "www.astronomy.com",
+                "www.sportfishingmag.com",
+                "www.edn.com",
+                "www.greenbuildingadvisor.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "a8e427db11a8744bebbcdfd050f7b9d0a84b5a1754d086f1787c40db21955264",
+                "ab64560cf10e232d83b783805d267b1675aa728828db773daefe5936e0e4ed67",
+                "dd0103b71a9f800bf8509fb3f34f29a1af4b26a10ceef71cea5bb29ae4ea106d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.antiquetrader.com",
+                "www.boatingmag.com",
+                "www.hortmag.com",
+                "www.writersdigest.com",
+                "www.farmcollector.com",
+                "www.eetimes.com",
+                "www.saltwatersportsman.com",
+                "www.finehomebuilding.com",
+                "www.firehouse.com",
+                "www.grit.com",
+                "www.gardengatemagazine.com",
+                "www.rdhmag.com",
+                "planeandpilotmag.com",
+                "www.fiercepharma.com",
+                "www.electronics-tutorials.ws",
+                "www.oldcarsweekly.com",
+                "www.officer.com",
+                "www.motorcycleclassics.com",
+                "www.cruisingworld.com",
+                "www.ecmweb.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/segments\\/imp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdp"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.electronics-tutorials.ws",
+                "www.firehouse.com",
+                "www.gardengatemagazine.com",
+                "www.officer.com",
+                "www.grit.com",
+                "www.saltwatersportsman.com",
+                "iamcountryside.com",
+                "www.sportfishingmag.com",
+                "www.eetimes.com",
+                "www.edn.com",
+                "www.astronomy.com",
+                "backyardpoultry.iamcountryside.com",
+                "www.motorcycleclassics.com",
+                "www.ecmweb.com",
+                "www.militarytrader.com",
+                "www.flyingmag.com",
+                "www.cruisingworld.com",
+                "planeandpilotmag.com",
+                "www.fiercepharma.com",
+                "www.finehomebuilding.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/img\\/xclose\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000158,
+            "cnames": [],
+            "responseHashes": [
+                "d872c0831159ae2595e5a8525f3bfb9bf049976ba80069d08db06c131df326e9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.astronomy.com",
+                "www.flyingmag.com",
+                "www.saltwatersportsman.com",
+                "www.177milkstreet.com",
+                "www.motorcycleclassics.com",
+                "www.eetimes.com",
+                "www.food-safety.com",
+                "www.sportfishingmag.com",
+                "www.farmcollector.com",
+                "www.boatingmag.com",
+                "boatingmag.com",
+                "www.grit.com",
+                "iamcountryside.com",
+                "backyardpoultry.iamcountryside.com",
+                "www.enr.com",
+                "www.writersdigest.com",
+                "www.gardengatemagazine.com",
+                "www.cliniciansbrief.com",
+                "www.edn.com",
+                "www.electronics-tutorials.ws"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/hosted\\/images\\/dragon\\/generic\\/spinner\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "06cffb3c9838883f0210d2cc17ff189b7104907edbe2262d036dded2905c1612"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iamcountryside.com",
+                "boatingmag.com",
+                "www.antiquetrader.com",
+                "www.boatingmag.com",
+                "www.cruisingworld.com",
+                "www.enr.com",
+                "www.flyingmag.com",
+                "www.gardengatemagazine.com",
+                "www.mdm.com",
+                "www.militarytrader.com",
+                "www.saltwatersportsman.com",
+                "www.sportfishingmag.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/img\\/xcloseorange\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "14bfc481ea6d7d439dc59dd630d3fb76d4edb67b41bf1abd2c477d469d6db125"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "antiquetrader.com",
+                "www.militarytrader.com",
+                "www.oldcarsweekly.com"
+            ]
+        },
+        {
+            "rule": "omeda\\.com\\/olytics\\/img\\/xclosewhite\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "olytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d0e043ceab3d6c4c7374e8665747bb31a207df8e8ca0d62a9acf534c3becbaa0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hortmag.com",
+                "www.hortmag.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000582,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.46646341463414637
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4176829268292683
+        },
+        {
+            "domain": "dragonforms.com",
+            "prevalence": 0.10670731707317073
+        },
+        {
+            "domain": "brightspotcdn.com",
+            "prevalence": 0.003048780487804878
+        },
+        {
+            "domain": "pelcro.com",
+            "prevalence": 0.003048780487804878
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.003048780487804878
+        }
+    ],
+    "types": {
+        "Stylesheet": 61,
+        "Script": 61,
+        "Preflight": 147,
+        "XHR": 147,
+        "Image": 40
+    },
+    "nameservers": [
+        "a1.uberns.co.uk",
+        "a1.uberns.com",
+        "a1.uberns.net",
+        "b1.uberns.org",
+        "b1.uberns.info"
+    ]
+}

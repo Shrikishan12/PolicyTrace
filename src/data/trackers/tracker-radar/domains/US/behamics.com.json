@@ -1,0 +1,110 @@
+{
+    "domain": "behamics.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "engine5"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "behamics\\.com\\/giesswein\\/behamics\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "02ebe7f119973568d71fabe37970924d89732368506ec0f85c580e86ec4c1e07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giesswein.com",
+                "www.giesswein.com"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/giesswein\\/behamics\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e5eaeb793ff83b39bd578cfdab04716aefe9e3e3a2b38ba16e38f01445b53de4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giesswein.com",
+                "www.giesswein.com"
+            ]
+        },
+        {
+            "rule": "behamics\\.com\\/api\\/getmessage",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d54b97bf9dc712b7e2a071128b29a8b876221dc2016af9ce0a8d86e0a43f0218",
+                "a2472ed0446d4040f8aa9044fbf28bc7cf7cfe75c7491a1859438c969b717849"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "giesswein.com",
+                "gonser.ch",
+                "www.giesswein.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 2,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns.udag.de",
+        "ns.udag.net",
+        "ns.udag.org"
+    ]
+}

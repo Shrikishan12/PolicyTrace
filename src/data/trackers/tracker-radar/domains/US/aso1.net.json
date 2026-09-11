@@ -1,0 +1,121 @@
+{
+    "domain": "aso1.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "media",
+        "srv",
+        "trkr"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "aso1\\.net\\/js\\/code\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "Navigator.prototype.languages": 5,
+                "Date.prototype.getTime": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "81823b2c630b9d29bd2c0bc47a8a86977dbfc73033626c1832b1632d607a73a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itaincontri.com",
+                "pt-br.sexlog.com",
+                "uk.empirescort.com",
+                "www.hebban.nl",
+                "www.nudeandhappy.com"
+            ]
+        },
+        {
+            "rule": "aso1\\.net\\/rotor",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "srv"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "97a6a6127acd77ad9b92d58eadfc78a47e763e8d63b57c9d19eecc6ec08eb7cc",
+                "b2eede6f8c06aade5becd581f28519bc695cfef71eb3aea4e8ec2cf2c61fe98b",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itaincontri.com",
+                "pt-br.sexlog.com",
+                "uk.empirescort.com",
+                "www.hebban.nl",
+                "www.nudeandhappy.com"
+            ]
+        },
+        {
+            "rule": "aso1\\.net\\/wtf\\.gif",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trkr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "itaincontri.com",
+                "pt-br.sexlog.com",
+                "uk.empirescort.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "superup322.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Ping": 3
+    },
+    "nameservers": [
+        "kate.ns.cloudflare.com",
+        "ian.ns.cloudflare.com"
+    ]
+}

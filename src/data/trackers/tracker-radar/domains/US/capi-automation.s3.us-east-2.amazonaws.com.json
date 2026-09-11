@@ -1,0 +1,169 @@
+{
+    "domain": "capi-automation.s3.us-east-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00779,
+    "sites": 1138,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "capi-automation\\.s3\\.us-east-2\\.amazonaws\\.com\\/public\\/client_js\\/capiParamBuilder\\/clientParamBuilder\\.bundle\\.js",
+            "cookies": 0.00494,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 764,
+                "Document.cookie getter": 727,
+                "Navigator.prototype.vendor": 759,
+                "Document.cookie setter": 721
+            },
+            "sites": 804,
+            "prevalence": 0.00551,
+            "cnames": [],
+            "responseHashes": [
+                "2a6eb27150e9c27e58f99a64245de8305398375b4f69797ed6b8d53c9a6cb825",
+                "e2cb7a57d39b342cedfdac778248fee068306f7fae092473a665c3bebd9a20c5",
+                "6d5d52ddd42aa3f8b0611def1dc5e1a1c431e18481693f5818a242b27ea91e3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fbp": {
+                    "ttl": 7776005,
+                    "length": 45,
+                    "prevalence": 0.004876946154952635,
+                    "uniqueness": 1
+                },
+                "_fbi": {
+                    "ttl": 86402,
+                    "length": 32,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.techradar.com",
+                "www.tomsguide.com",
+                "www.tomshardware.com",
+                "occ-ortho.com",
+                "www.epcor.com",
+                "camping.tcs.ch",
+                "aveola.live",
+                "www.trim-tex.com",
+                "www.peakcu.org",
+                "www.boat-lifestyle.com",
+                "www.livingetc.com",
+                "www.aapc.com",
+                "bank.ent.com",
+                "www.thegoodguys.com.au",
+                "texashighways.com",
+                "soranews24.com",
+                "www.shoplc.com",
+                "www.hacc.edu",
+                "www.claro.com.co",
+                "moneyweek.com"
+            ]
+        },
+        {
+            "rule": "capi-automation\\.s3\\.us-east-2\\.amazonaws\\.com\\/public\\/client_js\\/clientParamsHelper\\/clientParamsHelper\\.bundle\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "389e6a12117030049d8bdbcf402590c59ea3b422260f621ede663a2de135dcec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fbp": {
+                    "ttl": 7776006,
+                    "length": 46,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okuracookware.com",
+                "onuia.com",
+                "veras-copper.com",
+                "www.fashionnova.com",
+                "www.forever21.com",
+                "www.sandcloud.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00689,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7558849171752398
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2048823016564952
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.010462074978204011
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.006974716652136007
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.004359197907585004
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.0034873583260680036
+        },
+        {
+            "domain": "gokwik.co",
+            "prevalence": 0.0026155187445510027
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.0017436791630340018
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.0017436791630340018
+        },
+        {
+            "domain": "clym-sdk.net",
+            "prevalence": 0.0017436791630340018
+        }
+    ],
+    "types": {
+        "Script": 810
+    },
+    "nameservers": [
+        "ns-1009.awsdns-62.net",
+        "ns-1428.awsdns-50.org",
+        "ns-1974.awsdns-54.co.uk",
+        "ns-90.awsdns-11.com"
+    ]
+}

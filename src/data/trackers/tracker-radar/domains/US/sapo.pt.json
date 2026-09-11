@@ -1,0 +1,119 @@
+{
+    "domain": "sapo.pt",
+    "owner": {
+        "name": "MEO Servicos de Comunicacoes e Multimedia SA",
+        "displayName": "MEO Servicos de Comunicacoes e Multimedia"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sapo\\.pt\\/Projects\\/CPU\\/latest\\/lazypub\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.outerWidth": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ac1c08504160d10627d067bcfb0d7d6688658c72b44d2cf2cb505dfa7096a6bb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "observador.pt",
+                "www.noticiasaominuto.com"
+            ]
+        },
+        {
+            "rule": "sapo\\.pt\\/Projects\\/CPU\\/latest\\/prebid11\\.28\\.0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.language": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d828a17295a4c0c02f836008428ab062cf111f853516b7f057ab7aede3ae18ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pbjs-unifiedid": {
+                    "ttl": 5184006,
+                    "length": 151,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "pbjs-unifiedid_cst": {
+                    "ttl": 5184006,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "observador.pt",
+                "www.noticiasaominuto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns.sapo.pt",
+        "ns2.sapo.pt",
+        "dns01.sapo.pt",
+        "dns02.sapo.pt"
+    ]
+}

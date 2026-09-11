@@ -1,0 +1,107 @@
+{
+    "domain": "tmyamz.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "ip",
+        "jjscript"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tmyamz\\.com\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ip"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "27a97bb87698cce32c18e25006f259f658f8db17fbf90ac5c24614c040221831"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news18.com",
+                "tamil.news18.com",
+                "www.news18.com"
+            ]
+        },
+        {
+            "rule": "tmyamz\\.com\\/api\\/script",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jjscript"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openthemagazine.com",
+                "www.123greetings.com",
+                "www.tovima.gr"
+            ]
+        },
+        {
+            "rule": "tmyamz\\.com\\/api\\/script",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jjscript"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "openthemagazine.com",
+                "www.123greetings.com",
+                "www.tovima.gr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "b-cdn.net",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "d22swxawtpfyg.cloudfront.net",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-711.awsdns-24.net",
+        "ns-457.awsdns-57.com",
+        "ns-1877.awsdns-42.co.uk",
+        "ns-1262.awsdns-29.org"
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "domain": "nutrisense-webflow.web.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "webflow-cdn.nutrisense.io",
+            "resolved": "nutrisense-webflow.web.app"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nutrisense-webflow\\.web\\.app\\/production\\/v2\\.nutrisense\\.io\\/pages\\/footer\\.latest\\.bundle\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webflow-cdn.nutrisense.io",
+                    "resolved": "nutrisense-webflow.web.app"
+                }
+            ],
+            "responseHashes": [
+                "8747929f4986e7d2568ed690a073c25f7553238df7e084055bac005ac3eca844"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutrisense.io",
+                "www.nutrisense.io"
+            ]
+        },
+        {
+            "rule": "nutrisense-webflow\\.web\\.app\\/production\\/v2\\.nutrisense\\.io\\/pages\\/head\\.latest\\.bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webflow-cdn.nutrisense.io",
+                    "resolved": "nutrisense-webflow.web.app"
+                }
+            ],
+            "responseHashes": [
+                "d25c31fc0e20a2e753de44c9ce7e66e393daf55b330717675da3e5fe68853bc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutrisense.io",
+                "www.nutrisense.io"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

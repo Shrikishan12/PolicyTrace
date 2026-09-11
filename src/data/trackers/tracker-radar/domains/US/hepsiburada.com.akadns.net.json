@@ -1,0 +1,150 @@
+{
+    "domain": "hepsiburada.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "leo.hepsiburada.com.cedexis-3",
+        "hstats.hepsiburada.com.cedexis-5"
+    ],
+    "cnames": [
+        {
+            "original": "hba1.hepsiburada.com",
+            "resolved": "hstats.hepsiburada.com.cedexis-5.hepsiburada.com.akadns.net"
+        },
+        {
+            "original": "hba5.hepsiburada.com",
+            "resolved": "hstats.hepsiburada.com.cedexis-5.hepsiburada.com.akadns.net"
+        },
+        {
+            "original": "htm6.hepsiburada.com",
+            "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+        },
+        {
+            "original": "htm9.hepsiburada.com",
+            "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hepsiburada\\.com\\.akadns\\.net\\/api\\/v1\\/s\\/desktop\\/r6t2x",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leo.hepsiburada.com.cedexis-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "htm9.hepsiburada.com",
+                    "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+                },
+                {
+                    "original": "htm6.hepsiburada.com",
+                    "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "0dca6785201b46ca065dbbcc0ec2593ca20baf3b145a4539c4c8bff8e6510076"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hepsiburada.com",
+                "www.hepsiburada.com"
+            ]
+        },
+        {
+            "rule": "hepsiburada\\.com\\.akadns\\.net\\/api\\/v1\\/s\\/desktop\\/r6t2x",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "leo.hepsiburada.com.cedexis-3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "htm9.hepsiburada.com",
+                    "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+                },
+                {
+                    "original": "htm6.hepsiburada.com",
+                    "resolved": "leo.hepsiburada.com.cedexis-3.hepsiburada.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hepsiburada.com",
+                "www.hepsiburada.com"
+            ]
+        },
+        {
+            "rule": "hepsiburada\\.com\\.akadns\\.net\\/api\\/f2y3m",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hstats.hepsiburada.com.cedexis-5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "hba1.hepsiburada.com",
+                    "resolved": "hstats.hepsiburada.com.cedexis-5.hepsiburada.com.akadns.net"
+                },
+                {
+                    "original": "hba5.hepsiburada.com",
+                    "resolved": "hstats.hepsiburada.com.cedexis-5.hepsiburada.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hepsiburada.com",
+                "www.hepsiburada.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7272727272727273
+        },
+        {
+            "domain": "hepsiburada.net",
+            "prevalence": 0.2727272727272727
+        }
+    ],
+    "types": {
+        "Ping": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

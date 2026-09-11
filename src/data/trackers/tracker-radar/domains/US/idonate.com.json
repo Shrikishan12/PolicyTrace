@@ -1,0 +1,851 @@
+{
+    "domain": "idonate.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "embed",
+        "lambda-scaffolding",
+        "geo"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/idonatelib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c6ce1551ee59f05e84a834327a341508b192a8e76b5649fdd3ab172fa05197f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/a559fbfe-c015-42ec-9118-93004743fbc4\\/null\\/child",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fd9d4ca522e3051dd651c3b105551f2a6f35c9ee1826e1f4218094e50d090192"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/metrics\\/instance",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/document-preload\\.0ec786c1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6533e5091c55a102524d8855e98613ccef605958cbac9fad23d3a17e87aa62a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/index\\.efc49fe0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4b5ce2ab6f1e2bfa34f13d8f121ae49ce47b56f94299d198588c4419b5eb353a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/dwn_profiling\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.appVersion": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.permissions": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.plugins": 2,
+                "Notification.permission": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "Navigator.prototype.vendor": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "window.outerHeight": 2,
+                "window.outerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.availHeight": 2,
+                "Performance.prototype.memory": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "89361fafec0aaafd2f010c45547452faaa770ecdcef2e4a93291ce6e8f76b3e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787642555,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/fetch\\/a559fbfe-c015-42ec-9118-93004743fbc4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lambda-scaffolding"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d832b3cbb48968c242a2dc8c69f6a54a5d51df478c6116f1c4a5307772237ae1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/874\\.a82672db\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/form-display\\.47bf72f6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/417\\.ecd8d56f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/239\\.5ae177f5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/652\\.923f56fd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/790\\.b6763825\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/css\\/async\\/370\\.559dc820\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/370\\.31297eda\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/196\\.33ce6051\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/css\\/async\\/scaffolding-elements-base\\.6fe7cd32\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/scaffolding-elements-base\\.0f4a9aae\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/combined-scopes\\.854d5877\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/874\\.a82672db\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a9d0f4d12cf6b429e555f847c4ceaf0fa7024715fe4f633ae457dbb39592940"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/form-display\\.47bf72f6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed6099c20555d554d4effd00bb79944612176b9288dfc658dbcdc25ab17bc9fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/417\\.ecd8d56f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0de491e336c3e6b22715ca55fd5e0532ca9507fdcccaf6298fd1c3feb5e33dd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/239\\.5ae177f5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8cc3203d16e315fc208c58803deb1cc3175d469e49e96e126a9b7d1cd1645ad1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/652\\.923f56fd\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d0173dc8173b27b9a8c744617803a066e1185d9718e0231628e75725298e4d64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/790\\.b6763825\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9de092c567ed66e4155e9cfc445bc2830b5dfcf37aa44796280d5f6c1417ba9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/css\\/async\\/370\\.559dc820\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cebc5953450dce1cdcebaf29ce0de862f061679843db2edde2786f9f9f3f11cc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/370\\.31297eda\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33c9178aea45ba133982b3b33b32cf457a4d15daed53cd339484ef2a7991257d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/196\\.33ce6051\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20ba1d3e38b5bc55e947ed508338ec91ba897b08d8e8134f91dfdb00f53039a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/css\\/async\\/scaffolding-elements-base\\.6fe7cd32\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "91c7e769b766d27b6910e2a90fffa65435f738721405ef570d3962ae7b7ecd24"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/scaffolding-elements-base\\.0f4a9aae\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc614750ba79453f3219ab87b8a18a9e345b2834ed95c6ffc29e2714b7639026"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/scaffolding-elements-unified-payment\\.01dbb457\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3f9b7d97cff0fb1902133d8d49e3285feb66b9eaf4c4d19fdea989a3fbc1f81a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/scaffolding\\/static\\/js\\/async\\/combined-scopes\\.854d5877\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "010ed5aec9068e5ed1fd97f9c5eba11e6ff4500ac5d31fe81585e0bdc3fff7f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/fetch-designation-by-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lambda-scaffolding"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be73a9d9f1f86f4b47165b15de44578e379fccc20e786ad821ed8c0e01e14986"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        },
+        {
+            "rule": "idonate\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7cfb5e0f9b098aa1e935177c31fa337bd1094c5612a7c6ab3e05106b415ea48d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newsbusters.org",
+                "www.newsbusters.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 30,
+        "Document": 2,
+        "Fetch": 6,
+        "Other": 24,
+        "Stylesheet": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pam.ns.cloudflare.com",
+        "donovan.ns.cloudflare.com"
+    ]
+}

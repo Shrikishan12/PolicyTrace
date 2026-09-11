@@ -1,0 +1,138 @@
+{
+    "domain": "hsmedia.ru",
+    "owner": {
+        "name": "\"HS Media\" LLC",
+        "displayName": "HS Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "hsmedia\\.ru\\/scrooge-client\\/hsm-creative-manager\\.819\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "window.innerWidth": 5,
+                "Document.cookie getter": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e71789a9ba83a0006f38d6922567661287cf271550d589349ed1fda4c991a6d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fontanka.ru",
+                "www.marieclaire.ru",
+                "www.maximonline.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "hsmedia\\.ru\\/dist\\/gm\\/94a01bbb\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "236d82d6515ae725ab09cde17014d43a24b0275758cc3ed37fec8f958187a490"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "hsmedia\\.ru\\/public\\/fonts\\/inter\\/inter-v3-latin_cyrillic-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3dbf18cb66e71fd6fbc8423f098eeb371480d921becca94067e5f7d6caa96e48"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maximonline.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "hsmedia\\.ru\\/public\\/fonts\\/inter\\/inter-v3-latin_cyrillic-600\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c58e0475eb0dd7b34edf45c860825c87302cd05ddaac1d00d7843a98f41f8fee"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maximonline.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Image": 2,
+        "Font": 6
+    },
+    "nameservers": [
+        "ns.hsmedia.ru",
+        "ns1.hsmedia.ru",
+        "ns.hsdrn.ru",
+        "ns1.ngs.ru"
+    ]
+}

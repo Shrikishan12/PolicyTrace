@@ -1,0 +1,138 @@
+{
+    "domain": "saasweb.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "nabu-stats",
+        "matomo-caritas"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.carinet.de",
+            "resolved": "matomo-caritas.saasweb.cloud"
+        },
+        {
+            "original": "stats.nabu.de",
+            "resolved": "nabu-stats.saasweb.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "saasweb\\.cloud\\/matomo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "nabu-stats",
+                "matomo-caritas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "stats.nabu.de",
+                    "resolved": "nabu-stats.saasweb.cloud"
+                },
+                {
+                    "original": "analytics.carinet.de",
+                    "resolved": "matomo-caritas.saasweb.cloud"
+                }
+            ],
+            "responseHashes": [
+                "292824eb1b3ee31a61670d6896e6697a7023ff2a2e74dcaa15e1878fe21c9af5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nabu.de",
+                "www.caritas.de",
+                "www.nabu.de"
+            ]
+        },
+        {
+            "rule": "saasweb\\.cloud\\/js\\/container_yHwWih9i\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nabu-stats"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "stats.nabu.de",
+                    "resolved": "nabu-stats.saasweb.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e1065a1fe3d985a3b5c7516db40dd6bf04bb872283642012d243416bcfe5a829"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nabu.de",
+                "www.nabu.de"
+            ]
+        },
+        {
+            "rule": "saasweb\\.cloud\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nabu-stats",
+                "matomo-caritas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "stats.nabu.de",
+                    "resolved": "nabu-stats.saasweb.cloud"
+                },
+                {
+                    "original": "analytics.carinet.de",
+                    "resolved": "matomo-caritas.saasweb.cloud"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nabu.de",
+                "www.caritas.de",
+                "www.nabu.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns4.saasweb.gmbh",
+        "ns3.saasweb.gmbh",
+        "ns1.saasweb.gmbh",
+        "ns2.saasweb.gmbh"
+    ]
+}

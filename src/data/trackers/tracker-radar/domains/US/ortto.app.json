@@ -1,0 +1,132 @@
+{
+    "domain": "ortto.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "capture-api-us",
+        "accounts-api-us"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ortto\\.app\\/-\\/events\\/page-event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture-api-us"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "65c18a4b3a00fdb205bf6776088fe0f31c4addb36bd42ae988ac308bd82d2aff",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "27801059feaf32a1cb6518115c91ba070b23f47203333e86c7d5c95e9082b224",
+                "3c45a1f1478a1f20b25cde63ea7cb719bea84f8a5d98fc4b98ddd000cbf0d5b5",
+                "8078c2341f53aacd43efa797dbd78eb6d45c7274d6dc76e5ee3b45194a06072f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meermin.com",
+                "whitney.org",
+                "www.christendom.edu",
+                "www.hpacademy.com",
+                "www.hulkapps.com",
+                "www.senior65.com"
+            ]
+        },
+        {
+            "rule": "ortto\\.app\\/-\\/widgets\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture-api-us"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "f4dacc416319dac24c3bf7d524e069da337b6332b030311fa4378cdc63879f32",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "3d67d38b5573136675182ba80552037e0c4d3448499fdc6c5f9549b6493ab680",
+                "dec49ccb0d2928e09e9f549a65e0ae918525c94de713943b68535f6e98d827bc",
+                "df38d40d1812b3f44691897938aa7e8faab547acb273776cf9332e30c46e8002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meermin.com",
+                "whitney.org",
+                "www.christendom.edu",
+                "www.hpacademy.com",
+                "www.hulkapps.com",
+                "www.senior65.com"
+            ]
+        },
+        {
+            "rule": "ortto\\.app\\/-\\/settings\\/custom-fonts\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-api-us"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "10bd039c81ad6dc3d029bc14d295d428c457c315867c916ed54c9f6ea41bd95e",
+                "cd2d2d0537648947387275a95c8c3588dcacc3ee18d9f3731d20b45507585108"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hulkapps.com",
+                "www.hulkapps.com",
+                "www.wri.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cdn3l.ink",
+            "prevalence": 0.5416666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 12,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-1319.awsdns-36.org",
+        "ns-1001.awsdns-61.net",
+        "ns-306.awsdns-38.com",
+        "ns-1563.awsdns-03.co.uk"
+    ]
+}

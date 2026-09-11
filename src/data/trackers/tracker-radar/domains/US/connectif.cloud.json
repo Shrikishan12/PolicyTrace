@@ -1,0 +1,88 @@
+{
+    "domain": "connectif.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "eu8-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "connectif\\.cloud\\/scripts\\/service-worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8db145be89c54221c0faea9b5063d72cd7adee88ec667bb840c47926625a43f8"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ak-interactive.com",
+                "www.gandhi.com.mx"
+            ]
+        },
+        {
+            "rule": "connectif\\.cloud\\/integration-type\\/system\\/scrippet-notification\\/5fa76d69-d535-4225-8e28-4e2d12c4e41f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eu8-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c55b796cebbf18ca17404ad6f945fbd466f4bcb80fc0cfbd03a60bda15a21cf3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "escapadarural.com",
+                "www.escapadarural.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05
+        },
+        {
+            "domain": "quanta.io",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Other": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns1-08.azure-dns.com",
+        "ns2-08.azure-dns.net",
+        "ns3-08.azure-dns.org",
+        "ns4-08.azure-dns.info"
+    ]
+}

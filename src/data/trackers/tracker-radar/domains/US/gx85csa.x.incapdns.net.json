@@ -1,0 +1,80 @@
+{
+    "domain": "gx85csa.x.incapdns.net",
+    "owner": {
+        "name": "Imperva Inc.",
+        "displayName": "Imperva"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "prd-east.webapi.alamo.com",
+            "resolved": "gx85csa.x.incapdns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gx85csa\\.x\\.incapdns\\.net\\/gma-alamo\\/session\\/current",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prd-east.webapi.alamo.com",
+                    "resolved": "gx85csa.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alamo.com",
+                "www.alamo.com"
+            ]
+        },
+        {
+            "rule": "gx85csa\\.x\\.incapdns\\.net\\/gma-alamo\\/session\\/current",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prd-east.webapi.alamo.com",
+                    "resolved": "gx85csa.x.incapdns.net"
+                }
+            ],
+            "responseHashes": [
+                "bf1ae5d59d4b7afb017d29e91ba9a9c326ba28827fe703a986a85c2f671085d7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alamo.com",
+                "www.alamo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

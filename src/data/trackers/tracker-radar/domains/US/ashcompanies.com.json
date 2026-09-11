@@ -1,0 +1,79 @@
+{
+    "domain": "ashcompanies.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "subscriptiongraphql.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ashcompanies\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subscriptiongraphql.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activeandfitdirect.com",
+                "www.silverandfit.com"
+            ]
+        },
+        {
+            "rule": "ashcompanies\\.com\\/graphql",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "subscriptiongraphql.api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8acf46ae0c8d89150c598430ee38e1476ed9f137ca34eb5b5ff95448a263b75d",
+                "131312e887629736652f64001810533d03a9ca42a6d98c163ee7c92ddcd600e3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "activeandfitdirect.com",
+                "www.activeandfitdirect.com",
+                "www.silverandfit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns1-08.azure-dns.com",
+        "ns2-08.azure-dns.net",
+        "ns3-08.azure-dns.org",
+        "ns4-08.azure-dns.info"
+    ]
+}

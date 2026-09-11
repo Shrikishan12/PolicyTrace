@@ -1,0 +1,86 @@
+{
+    "domain": "chat-marketing.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "chat-marketing\\.tech\\/index\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cbec7b376426ba41ab6fddcf7375a8f9a5522986080b443c9077413eb945fe87"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fromjapan.co.jp",
+                "www.fujisan.co.jp"
+            ]
+        },
+        {
+            "rule": "chat-marketing\\.tech\\/clients\\/2be12b4e-fe54-4e5a-9cd9-5dae62bffdf6\\/public\\/images\\/169_9a734a14f404e42a1067d9dcf55b76be\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9e5267c647cbd5470bf0d0593a89e005db6b5f434dd3afdebdd2294541bc6a47"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "script_flag": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "fromjapan.co.jp",
+                "www.fromjapan.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "chichat.tw",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "paul.ns.cloudflare.com",
+        "dahlia.ns.cloudflare.com"
+    ]
+}

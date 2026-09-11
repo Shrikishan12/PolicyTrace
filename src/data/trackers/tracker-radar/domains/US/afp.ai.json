@@ -1,0 +1,78 @@
+{
+    "domain": "afp.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "afp\\.ai\\/ssp\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.orientation": 5,
+                "window.localStorage": 5,
+                "window.innerHeight": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9dd5cb260e95dc2d3e38b0098f33d4670fc139bcc167f33a21c94b509596b6b4",
+                "96ef50be3b2abc0a52ced737c2dbd9ba527152ba969cde1fa8b65703bc7a0ed8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manilatimes.net",
+                "www.manilatimes.net",
+                "www.prensalibre.com",
+                "www.the-star.co.ke",
+                "www.yapokupayu.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "adriver.ru",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "ns4.selectel.ru",
+        "ns3.selectel.ru",
+        "ns1.selectel.ru",
+        "ns2.selectel.ru"
+    ]
+}

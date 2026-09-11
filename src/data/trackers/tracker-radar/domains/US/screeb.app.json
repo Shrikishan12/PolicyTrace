@@ -1,0 +1,450 @@
+{
+    "domain": "screeb.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "t",
+        "rpc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "screeb\\.app\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.name": 7,
+                "window.sessionStorage": 7,
+                "Navigator.prototype.language": 7,
+                "window.localStorage": 7,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "3baf83a26d48cb290789adfa5bb6a41989214964a551d9c0bd3012f07821e14d",
+                "90cbb08385e0bd2353e9ffb82f9d3cfa80146e00b771f8b8e77875e157975f90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.fr",
+                "www.doctolib.it",
+                "www.iledefrance-mobilites.fr",
+                "www.nissan.de",
+                "www.nissan.co.uk",
+                "www.ouigo.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/tag\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "90cbb08385e0bd2353e9ffb82f9d3cfa80146e00b771f8b8e77875e157975f90"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.it",
+                "www.iledefrance-mobilites.fr",
+                "www.nissan.co.uk",
+                "www.nissan.de",
+                "www.ouigo.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.language": 5,
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "window.devicePixelRatio": 5,
+                "Screen.prototype.width": 5,
+                "Screen.prototype.height": 5,
+                "Navigator.prototype.languages": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 5,
+                "NavigatorUAData.prototype.brands": 5,
+                "NavigatorUAData.prototype.platform": 5,
+                "NavigatorUAData.prototype.getHighEntropyValues": 5,
+                "window.sessionStorage": 5,
+                "window.name": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 2,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a2649a8d29a920363648697020d11641ba5f2a40dfa222f378a382ffb7313cf2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doctolib.fr",
+                "www.doctolib.it",
+                "www.nissan.co.uk",
+                "www.nissan.de",
+                "www.ouigo.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6fac37748cbeffc49f6eaab7335181ed34e6da4a77674bc927fe13605be5261"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.nissan.co.uk"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Element.prototype.getClientRects": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f084b66423cec5940d53caf17bb5044c39ae6dd86d30adf217c021b86f500280"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.nissan.co.uk"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/assets\\/lang\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dddc2d024d9843653f039079572616e46fcad4d3ca4c43930cf09ab6d72c88e7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.nissan.co.uk"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/widget\\.survey\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6178c4ff1340f82d49f7f457ea8ea19225f995f233c6c64f50761a35c1b8a3e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.nissan.co.uk"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/widget\\.vendors\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f18f98ee590e11aa511ed0be5482a11304768a0a2d1dd95017818d8bb938f49d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iledefrance-mobilites.fr",
+                "www.nissan.co.uk"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2017bc6b9da00b8bb3ec6c9d73faa85bf56013a27b6f7c4c538f50b72f5850d9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/core\\.sr\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "74a07ce90e739bcbe8b609bcb9a2b45d72efbf0896884a8ae6170c99c5155f8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de",
+                "www.ouigo.com"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259\\/respondent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25300a99ff8f7cd159a9a7c8d104156b6d58140ed2b49a8a3d353bf9490b6ea6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259\\/capture",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "685ba926ae5f9e77bb3b359146843b1bd2432538cfe756925cab674f6cafae81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259\\/capture",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/v0\\.50\\.0\\/core\\.targeting\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9014c75d53bf232020b1737293a9e654976553393587edd80c8d45df66f47d0d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259\\/targeting\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7b68cbb14e0cbb085fd1a481119e06446f655d93445091641759f3150f6be7d1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        },
+        {
+            "rule": "screeb\\.app\\/rpc\\/1\\.3\\.0\\/channel\\/5b764081-1414-49d0-9606-d0c572937259\\/targeting\\/check",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rpc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nissan.co.uk",
+                "www.nissan.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6470588235294118
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "matomo.cloud",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Stylesheet": 2,
+        "Fetch": 10,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "elias.ns.cloudflare.com",
+        "aleena.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,353 @@
+{
+    "domain": "mycliplister.com",
+    "owner": {
+        "name": "Cliplister GmbH",
+        "displayName": "Cliplister"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000151,
+    "sites": 22,
+    "subdomains": [
+        "cdn3",
+        "mads"
+    ],
+    "cnames": [
+        {
+            "original": "asset.conrad.com",
+            "resolved": "cdn3.mycliplister.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mycliplister\\.com\\/lc\\/246858\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "05dc8ba896bb657b130d862b4c8704f795b4b9aa53e3654b19baefb0534b5506"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "auchan.pt",
+                "www.auchan.pt"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/cliplister\\/precheck",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bauhaus.dk",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/merge",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "9ab9103b4c72bb974ed2cf5a8489615564ded4b97c01f7e20d45351369aa9943"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bosch-professional.com",
+                "www.bosch-professional.com",
+                "www.boschtools.com",
+                "www.lidl.de",
+                "www.lidl.fr",
+                "www.lidl.nl",
+                "www.lidl.pl"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/250865\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "805438953b47c1334ceea3c46cfce6c5ad42fb8eccd8c2b4ad04d3d026dba194"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calumet.de",
+                "www.calumet.de"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/newmerge",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "URL.createObjectURL": 3,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.appVersion": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "Navigator.prototype.languages": 1,
+                "window.innerWidth": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "530588bf53cbb3872293f37ee62dea80b55e8e93b4cca0bb8cb48ef97dbc671e",
+                "4171870f20fec2054b6f187f81295384a9f386f0441ab5287ea02811f5c9e3e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calumet.de",
+                "www.hella.com",
+                "www.karcher.com"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/media10\\/isa\\/160267\\/c1\\/-\\/nl\\/003045527PI00\\/image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "asset.conrad.com",
+                    "resolved": "cdn3.mycliplister.com"
+                }
+            ],
+            "responseHashes": [
+                "50fb5b67badeaafbfba8ff4d789bbf069da93fffffaf581db46ea8a5d059abdd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.nl",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/media10\\/isa\\/160267\\/c1\\/-\\/nl\\/003045527PI01\\/image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "asset.conrad.com",
+                    "resolved": "cdn3.mycliplister.com"
+                }
+            ],
+            "responseHashes": [
+                "b96dbf5263635ca12a1e4973c1d4fbf805882540e853ec129366e9e8ca1e791e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "conrad.nl",
+                "www.conrad.nl"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/255042\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "021134c575c0abc965e02c1051ef9735b98ea80b8fb7e8f5ed1ddf7a70ca0831"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gedimat.fr",
+                "www.gedimat.fr"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/246909\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7479dab20fc6c9a46110666b612d0ecd48dc72633d26817ce13569366935a249"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jimms.fi",
+                "www.jimms.fi"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/transcriptions\\/156406\\/v7a0e5AXB4oEUNbfl_Secvi8m9B_1H__w\\/en-GB\\.srt",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2cfea3da8aee09d69d26f5567d97609f5208f7f55da7d5e6bc99cd716f309058"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karcher.com",
+                "www.karcher.com"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/254365\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f08fd537cc434982d511cb852caac6825691d3da455550ef9245cdc2b3ffd86b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sport2000.fr",
+                "www.sport2000.fr"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/89065\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37df63fa7ebb31fbc733c6c05f2ac664b247cf9b2671e9ca340926ebb01736af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "testberichte.de",
+                "www.testberichte.de"
+            ]
+        },
+        {
+            "rule": "mycliplister\\.com\\/lc\\/250938\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80af8d20f88649bd12bdd2d46108637c5a60589de2f220f54332541076fd4b4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travisperkins.co.uk",
+                "www.travisperkins.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "demoup.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "karcher-media.com",
+            "prevalence": 0.11688311688311688
+        },
+        {
+            "domain": "aspnetcdn.com",
+            "prevalence": 0.012987012987012988
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.012987012987012988
+        }
+    ],
+    "types": {
+        "Fetch": 16,
+        "XHR": 2,
+        "Script": 10,
+        "Image": 4
+    },
+    "nameservers": [
+        "georgia.ns.cloudflare.com",
+        "javon.ns.cloudflare.com"
+    ]
+}

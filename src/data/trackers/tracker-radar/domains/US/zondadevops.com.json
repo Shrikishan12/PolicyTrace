@@ -1,0 +1,87 @@
+{
+    "domain": "zondadevops.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "contentaccessapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "zondadevops\\.com\\/api\\/content-access\\/process-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "contentaccessapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "121472ad68ca282fe696b5bd38f2837330f0c4b6d35224eeb2ed4ae7b29af53b",
+                "b86a2aa36c21be2bbb3c21f91302c961297b2fb61a1f2353f886fb4d0387187e",
+                "991f380b46d07cace4824f3f9c07b542a7adcca257f95c778e3cf057589ccf9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarin.com",
+                "www.clarin.com",
+                "www.lavoz.com.ar",
+                "www.ole.com.ar"
+            ]
+        },
+        {
+            "rule": "zondadevops\\.com\\/api\\/content-access\\/process-page",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "contentaccessapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clarin.com",
+                "www.clarin.com",
+                "www.lavoz.com.ar",
+                "www.ole.com.ar"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "clarin.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

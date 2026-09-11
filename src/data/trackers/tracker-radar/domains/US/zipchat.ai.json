@@ -1,0 +1,129 @@
+{
+    "domain": "zipchat.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zipchat\\.ai\\/widget\\/zipchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "window.innerWidth": 7,
+                "window.innerHeight": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "d61aeb41ccd37e3bf28b7eee338c182074851ef0624ce8454d3f908a124b64dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europe-moto.com",
+                "bmw.europe-moto.com",
+                "burgertuning.com",
+                "charliescustomclones.com",
+                "truorganicbeef.com",
+                "www.12gobiking.nl",
+                "www.fahrrad24.de",
+                "www.shootersconnectionstore.com"
+            ]
+        },
+        {
+            "rule": "zipchat\\.ai\\/widget_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europe-moto.com",
+                "bmw.europe-moto.com",
+                "charliescustomclones.com",
+                "truorganicbeef.com",
+                "www.12gobiking.nl",
+                "www.fahrrad24.de",
+                "www.shootersconnectionstore.com"
+            ]
+        },
+        {
+            "rule": "zipchat\\.ai\\/widget_data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "4315403e18e8286eab7578cbb31c141806ef5e6505e6af8ecec0c3836b9c98c4",
+                "3ad54cca2f87c4d6a491448279fed1e5ec6deccecbe5eb45c6fc627e482c172e",
+                "aa3feb867d20b17f272a7344d8dd62ec7754c8ee1ad2e81490e67ab970d79b8d",
+                "ed7c92514f413b90474120664da407a40f94fe314286a66e4c0eaea04b4a1806"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "europe-moto.com",
+                "bmw.europe-moto.com",
+                "charliescustomclones.com",
+                "truorganicbeef.com",
+                "www.12gobiking.nl",
+                "www.fahrrad24.de",
+                "www.shootersconnectionstore.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "monetico-services.com",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Preflight": 7,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "lila.ns.cloudflare.com",
+        "ridge.ns.cloudflare.com"
+    ]
+}

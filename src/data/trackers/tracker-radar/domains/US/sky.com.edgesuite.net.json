@@ -1,0 +1,122 @@
+{
+    "domain": "sky.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "uiapi.id"
+    ],
+    "cnames": [
+        {
+            "original": "uiapi.id.sky.com",
+            "resolved": "uiapi.id.sky.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "sky\\.com\\.edgesuite\\.net\\/assets\\/sky_common\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 3,
+            "subdomains": [
+                "uiapi.id"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "uiapi.id.sky.com",
+                    "resolved": "uiapi.id.sky.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9a53c3076870c3c029138e6baf33933f19004068215b00717279d3f8dfbfdc06",
+                "eae0a4d98fa174d80b2f6b80647fd722e8a46ea08a34bf11f2d417133987b507",
+                "2d9ec9ea5524da355d6af3ffaeef352cb71a9e213a1074a55151eaa17b783216"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sky.com",
+                "id.sky.com",
+                "mysky.sky.com",
+                "skyid.sky.com"
+            ]
+        },
+        {
+            "rule": "sky\\.com\\.edgesuite\\.net\\/portal\\/check-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uiapi.id"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "uiapi.id.sky.com",
+                    "resolved": "uiapi.id.sky.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "46ec12b20c3b7f207d8d0210964c8e6eac29b6b012fe625d9fb512751140f4c7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sky.com",
+                "mysky.sky.com",
+                "skyid.sky.com"
+            ]
+        },
+        {
+            "rule": "sky\\.com\\.edgesuite\\.net\\/portal\\/check-session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uiapi.id"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "uiapi.id.sky.com",
+                    "resolved": "uiapi.id.sky.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sky.com",
+                "mysky.sky.com",
+                "skyid.sky.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "types": {
+        "Script": 4,
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": []
+}

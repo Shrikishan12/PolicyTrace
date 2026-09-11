@@ -1,0 +1,73 @@
+{
+    "domain": "dev-nordicware.pantheonsite.io",
+    "owner": {
+        "name": "Pantheon Systems, Inc.",
+        "displayName": "Pantheon Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dev-nordicware\\.pantheonsite\\.io\\/wp-content\\/themes\\/nordic_ware\\/images\\/Reviewed-Allyant-Accessibility-Badge_White\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c9b49645761af26544162b485d28cbe0caff6984b1669ed4768274ed557497d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordicware.com",
+                "www.nordicware.com"
+            ]
+        },
+        {
+            "rule": "dev-nordicware\\.pantheonsite\\.io\\/wp-content\\/themes\\/nordic_ware\\/js\\/adaFix2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb452525c6d10a59c48bc816640d54adfceb22f0ef365a2462d515324e9c3cb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordicware.com",
+                "www.nordicware.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": []
+}

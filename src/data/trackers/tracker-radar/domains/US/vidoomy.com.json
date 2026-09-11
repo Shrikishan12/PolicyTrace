@@ -1,0 +1,791 @@
+{
+    "domain": "vidoomy.com",
+    "owner": {
+        "name": "Soluciones Corporativas IP, SL",
+        "displayName": "Soluciones Corporativas IP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000384,
+    "sites": 56,
+    "subdomains": [
+        "vpaid",
+        "ad",
+        "d",
+        "a",
+        "a-prebid",
+        "ads"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vidoomy\\.com\\/player\\/test\\/vidoomy-player-v19-1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 30,
+                "Navigator.prototype.userAgent": 30,
+                "Navigator.prototype.language": 30,
+                "window.innerWidth": 30,
+                "window.localStorage": 29,
+                "HTMLMediaElement.prototype.canPlayType": 5
+            },
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "4f12f6a517b6515b51f3e8d83d531863690c00b5e0e1e0afa884a31cd3422abc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pik.bg",
+                "www.purepeople.com.br",
+                "www.creaders.net",
+                "m.jbzd.com.pl",
+                "www.tportal.hr",
+                "www.wyborkierowcow.pl",
+                "mi.tv",
+                "www.ferrate365.it",
+                "www.starsinsider.com",
+                "forum.lowyat.net",
+                "www.90minut.pl",
+                "www.webcamsdeasturias.com",
+                "vandal.elespanol.com",
+                "m.dailyhunt.in",
+                "usob.it",
+                "www.pentapostagma.gr",
+                "doci.pl",
+                "www.cinemagia.ro",
+                "www.prensaescrita.com",
+                "www.diariolibre.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wyborkierowcow.pl",
+                "mvlehti.net",
+                "www.aceshowbiz.com",
+                "tvrepublika.pl",
+                "www.periodistadigital.com",
+                "usob.it",
+                "www.sennik.biz",
+                "www.webcamsdeasturias.com",
+                "adonai.pl",
+                "m.jbzd.com.pl",
+                "www.creaders.net",
+                "m.milannews.it",
+                "www.eleconomista.com.mx",
+                "www.ferrate365.it",
+                "m.dailyhunt.in",
+                "www.guardian.co.tt",
+                "www.pentapostagma.gr",
+                "www.diariolibre.com",
+                "www.lifeder.com",
+                "www.tportal.hr"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "30760ba5ec1169343ff3a2a1433973ab93870e317dc6535ec867f82a76abe42d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.periodistadigital.com",
+                "www.ferrate365.it",
+                "www.sohu.com",
+                "m.jbzd.com.pl",
+                "tvrepublika.pl",
+                "pik.bg",
+                "www.aceshowbiz.com",
+                "www.cinemagia.ro",
+                "adonai.pl",
+                "www.starsinsider.com",
+                "mvlehti.net",
+                "www.tportal.hr",
+                "www.lifeder.com",
+                "www.webcamsdeasturias.com",
+                "www.90minut.pl",
+                "www.pentapostagma.gr",
+                "forum.lowyat.net",
+                "www.guardian.co.tt",
+                "m.dailyhunt.in",
+                "www.eleconomista.com.mx"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/prebid\\/prebid-vidoomy_pbjs\\.js",
+            "cookies": 0.000178,
+            "fingerprinting": 2,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 26,
+                "NavigatorUAData.prototype.platform": 26,
+                "window.sessionStorage": 27,
+                "Date.prototype.getTime": 27,
+                "Screen.prototype.width": 23,
+                "Screen.prototype.height": 23,
+                "window.innerHeight": 23,
+                "window.innerWidth": 23,
+                "Navigator.prototype.userAgent": 24,
+                "Navigator.prototype.language": 23,
+                "Navigator.prototype.cookieEnabled": 26,
+                "Document.cookie setter": 26,
+                "Document.cookie getter": 26,
+                "window.localStorage": 26,
+                "PerformanceTiming.prototype.navigationStart": 17,
+                "Navigator.prototype.connection": 23
+            },
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "57550d7c1c868567cce3734cdc1553199897ad9515d05b2abbfceb2ef853d4fd",
+                "69972a83f043f51cc4c161039b54dac6a50ee5c4301598bd9f9ba66147ce6194",
+                "f074f13254491fb882d0ec6136bb06dcaa46db9fd942dbabab60730bfe05d2a0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ym_uid": {
+                    "ttl": 31536012,
+                    "length": 19,
+                    "prevalence": 0.00017809073037748386,
+                    "uniqueness": 1
+                },
+                "_ym_uid_cst": {
+                    "ttl": 31536012,
+                    "length": 12,
+                    "prevalence": 0.00017809073037748386,
+                    "uniqueness": 0.038461538461538464
+                },
+                "cto_bundle": {
+                    "ttl": 33696011,
+                    "length": 211,
+                    "prevalence": 0.00015069215647325556,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696011,
+                    "length": 160,
+                    "prevalence": 0.00015069215647325556,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.starsinsider.com",
+                "www.ferrate365.it",
+                "m.dailyhunt.in",
+                "www.cinemagia.ro",
+                "www.sennik.biz",
+                "pik.bg",
+                "doci.pl",
+                "www.eleconomista.com.mx",
+                "www.diariolibre.com",
+                "adonai.pl",
+                "www.aceshowbiz.com",
+                "www.guardian.co.tt",
+                "mvlehti.net",
+                "www.lifeder.com",
+                "www.90minut.pl",
+                "www.pentapostagma.gr",
+                "forum.lowyat.net",
+                "m.jbzd.com.pl",
+                "www.wyborkierowcow.pl",
+                "www.webcamsdeasturias.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "31ef862e0dace3b4d8d68bb8c7c78cc8a28a31ce80ed7adcb06d438ad19f32a6",
+                "9bf0aad20145fd633ba25463055290d8a9cd88b557275754522103b2757683d3",
+                "fcb9a928de453a9518a5bf854855a1f4cfdf0f50b50b020001a3b162811c1a30",
+                "5fe609dabe7d2248be774e1d2e8f2d461fe7a1b12ecadb6bff84cf4370e5e6f1",
+                "691c4c2f554e0757df396bf4d2997246ff5188292f338eec47a91415beb47519",
+                "ce3c48a51cbad1fd174b9fe4ad0096eddd39d6c911ac86597fd396d967250885",
+                "f2d2342e3a3cab17a3a33fe5ca9d696529aa75bb0ab5819c64c76af966913e91",
+                "1639107eaf30456855a1f2c212d3a8c42d0066c213b4642fe35e7d65c45b5ae6",
+                "26b4a2646bab2e87ea2168df4049f0e32b76520076b686c71161d100c1124d2c",
+                "d094716f2a72bdd1f1b029b4b5e0301ac355a9a25a361faf6661b5faf50c6ea6",
+                "ee5fa46abf8eec9efdcd414655b53eea805425055e2427fb90917571f93b913d",
+                "ae708783f13b308bc12ccd04bfd7b61c7b5d2d162ff5b393292dde8313df19f9",
+                "3941ce15a57dcecfe4365b98104f91fde3681ed416c437c6ab3d99e558029a51",
+                "156686e486b81d2e59e003b86fb7c4f997e6069c1e689a0b70d481d36c745807",
+                "bcec2062842c83f7763834b6225ef8f7c9e26e81c603735a9e4e7a5fe2e417df",
+                "c90555c593270ab9d20851420cacaf6e9629046c58036f3f90a1f624540f0431",
+                "423797c206ab5f3ef299915356ae2cacaf8bb470a041ac87bdc4d3886d3141f4",
+                "15e5cbbe450e212998bf2d015550f976ceb3fa280ca7d0c605fcf0c735227f51",
+                "18806ef0dee5904b2b492e9afe2b5b7c6181f9f657d0a7e35f42d11a10c509e8",
+                "75f83cbea363439f3b258ac3e18d4a73425b1a99714241c6a09910c958a1f8c9",
+                "ac6e31f6383bae7cdc12f11d6a7764a761cf6501a1d36fe34caf9939dcb5c245",
+                "88a426dedeab057e17c0965b56388b3d18b19d5a73172fe9627b2200f0288178",
+                "2f0be3564fb71286bfb4247579d067636b62cdab06dd63b009dd0de1f42324bd",
+                "1704b58364c21cc5697f25b4158a50b2d67d0ce807d71343a2eb465c07647d8c",
+                "7435e7c17ef3e516210a43b1d8bad121b3ae7815bc42bba12167157aeb195d0c",
+                "e3c9ead3c11369019876c0e91a8a3fe96b4f212168f1afa2489c8c3f668560bc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.aceshowbiz.com",
+                "www.starsinsider.com",
+                "mvlehti.net",
+                "www.prensaescrita.com",
+                "www.eleconomista.com.mx",
+                "doci.pl",
+                "m.dailyhunt.in",
+                "www.sohu.com",
+                "www.guardian.co.tt",
+                "adonai.pl",
+                "www.90minut.pl",
+                "mi.tv",
+                "www.cinemagia.ro",
+                "www.pentapostagma.gr",
+                "www.tportal.hr",
+                "pik.bg",
+                "www.wyborkierowcow.pl",
+                "www.diariolibre.com",
+                "www.sennik.biz",
+                "tvrepublika.pl"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.creaders.net",
+                "mi.tv",
+                "tvrepublika.pl",
+                "m.milannews.it",
+                "www.sohu.com",
+                "m.dailyhunt.in",
+                "www.90minut.pl",
+                "www.starsinsider.com",
+                "usob.it",
+                "pik.bg",
+                "www.diariolibre.com",
+                "www.wyborkierowcow.pl",
+                "www.eleconomista.com.mx",
+                "www.cinemagia.ro",
+                "www.ferrate365.it",
+                "www.pentapostagma.gr",
+                "www.meteo.pl",
+                "mvlehti.net",
+                "www.aceshowbiz.com",
+                "www.guardian.co.tt"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/prebid\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cto_bidid": 0.00006164679128451365,
+                "lotame_domain_check": 0.000041097860856342424,
+                "panoramaId": 0.0000479475043323995,
+                "_sharedID": 0.000006849643476057072,
+                "_pubcid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "tvrepublika.pl",
+                "m.dailyhunt.in",
+                "www.webcamsdeasturias.com",
+                "www.aceshowbiz.com",
+                "www.ferrate365.it",
+                "www.lifeder.com",
+                "usob.it",
+                "www.pentapostagma.gr",
+                "worldofbuzz.com",
+                "mvlehti.net",
+                "www.sennik.biz",
+                "www.sohu.com",
+                "www.90minut.pl",
+                "adonai.pl",
+                "www.eleconomista.com.mx",
+                "pik.bg",
+                "www.creaders.net",
+                "www.guardian.co.tt",
+                "m.milannews.it",
+                "marineweather.net"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "30760ba5ec1169343ff3a2a1433973ab93870e317dc6535ec867f82a76abe42d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mi.tv",
+                "m.dailyhunt.in",
+                "doci.pl",
+                "www.aceshowbiz.com",
+                "pik.bg",
+                "mvlehti.net",
+                "m.milannews.it",
+                "www.sennik.biz",
+                "www.creaders.net",
+                "www.eleconomista.com.mx",
+                "www.tportal.hr",
+                "forum.lowyat.net",
+                "www.pentapostagma.gr",
+                "www.meteo.pl",
+                "www.starsinsider.com",
+                "www.ferrate365.it",
+                "www.wyborkierowcow.pl",
+                "www.sohu.com",
+                "www.lifeder.com",
+                "usob.it"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 23,
+            "prevalence": 0.000158,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.starsinsider.com",
+                "usob.it",
+                "tvrepublika.pl",
+                "www.sennik.biz",
+                "mvlehti.net",
+                "adonai.pl",
+                "doci.pl",
+                "www.tportal.hr",
+                "www.pentapostagma.gr",
+                "www.meteo.pl",
+                "www.ferrate365.it",
+                "m.milannews.it",
+                "mi.tv",
+                "forum.lowyat.net",
+                "www.creaders.net",
+                "www.lifeder.com",
+                "www.webcamsdeasturias.com",
+                "www.sohu.com",
+                "m.dailyhunt.in",
+                "www.eleconomista.com.mx"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/cookie",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "cleanplates.com",
+                "forum.lowyat.net",
+                "localhoneyfinder.org",
+                "m.milannews.it",
+                "marineweather.net",
+                "mi.tv",
+                "mvlehti.net",
+                "thesaurus.weblio.jp",
+                "tvrepublika.pl",
+                "usob.it",
+                "worldofbuzz.com",
+                "www.24h.com.vn",
+                "www.adelaidenow.com.au",
+                "www.ferrate365.it",
+                "www.marieclaire.ru",
+                "www.pentapostagma.gr",
+                "www.psychologies.ru",
+                "www.starsinsider.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/pbscookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "m.dailyhunt.in",
+                "m.milannews.it",
+                "marineweather.net",
+                "mi.tv",
+                "mvlehti.net",
+                "tvrepublika.pl",
+                "usob.it",
+                "worldofbuzz.com",
+                "www.24h.com.vn",
+                "www.ferrate365.it",
+                "www.marieclaire.ru",
+                "www.pentapostagma.gr",
+                "www.psychologies.ru",
+                "www.sohu.com",
+                "www.starsinsider.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/setuid",
+            "cookies": 0.00011,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a-prebid"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowyat.net",
+                "m.dailyhunt.in",
+                "m.milannews.it",
+                "marineweather.net",
+                "mi.tv",
+                "mvlehti.net",
+                "tvrepublika.pl",
+                "usob.it",
+                "worldofbuzz.com",
+                "www.24h.com.vn",
+                "www.ferrate365.it",
+                "www.marieclaire.ru",
+                "www.pentapostagma.gr",
+                "www.psychologies.ru",
+                "www.sohu.com",
+                "www.starsinsider.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/tracking\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailyhunt.in",
+                "pik.bg",
+                "usob.it",
+                "www.meteo.pl"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/player\\/latest\\/t-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e65d2ae491762cbb1191b150817affb7abf909feec197dce4254b7a2b5400b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mi.tv",
+                "www.prensaescrita.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/aceshowbiz\\.com_27844\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5a8f397634ce7c9a1418a98db37de73e4575decf086a35e45860c17dac5164ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aceshowbiz.com",
+                "www.aceshowbiz.com"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/cnc3tt_15836\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2316d55a828b19cb6334bd55168090fa0cf04a46745a035daaf4e8a22816acd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guardian.co.tt",
+                "www.guardian.co.tt"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/sync\\/urls\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vpaid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f63d6b4e1f07291e7472fb5be55143634c817ab4633e202fc3e404a05bbc244"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.ru",
+                "www.psychologies.ru"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/rtbserver\\/prebid\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marieclaire.ru",
+                "www.marieclaire.ru",
+                "www.psychologies.ru"
+            ]
+        },
+        {
+            "rule": "vidoomy\\.com\\/api\\/adserver\\/ad\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "prensaescrita.com",
+                "www.prensaescrita.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00026,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "anymind360.com",
+            "prevalence": 0.14814814814814814
+        },
+        {
+            "domain": "hsmedia.ru",
+            "prevalence": 0.1388888888888889
+        },
+        {
+            "domain": "adpushup.com",
+            "prevalence": 0.10185185185185185
+        },
+        {
+            "domain": "wtg-ads.com",
+            "prevalence": 0.05555555555555555
+        },
+        {
+            "domain": "outbrain.com",
+            "prevalence": 0.046296296296296294
+        },
+        {
+            "domain": "pubguru.net",
+            "prevalence": 0.046296296296296294
+        },
+        {
+            "domain": "optad360.io",
+            "prevalence": 0.018518518518518517
+        },
+        {
+            "domain": "adeqmedia.com",
+            "prevalence": 0.018518518518518517
+        }
+    ],
+    "types": {
+        "Script": 68,
+        "Preflight": 80,
+        "XHR": 88,
+        "Fetch": 24,
+        "Image": 51,
+        "Other": 6
+    },
+    "nameservers": [
+        "ns7.dondominio.com",
+        "ns2.dondominio.com"
+    ]
+}

@@ -1,0 +1,437 @@
+{
+    "domain": "stytch.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "api",
+        "separated-sauroposeidon-7655.customers",
+        "web",
+        "thirsty-range-5768.customers",
+        "elements"
+    ],
+    "cnames": [
+        {
+            "original": "api.stytchb2b.groq.com",
+            "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+        },
+        {
+            "original": "login.cookunity.com",
+            "resolved": "thirsty-range-5768.customers.stytch.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-ec713cfd-4d77-4590-9d64-36e7aaab9b15",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-ec713cfd-4d77-4590-9d64-36e7aaab9b15",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "48a0870b0aae2677070a119f70a9641f8c26f99de91b6396095a6b97455bddbc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "separated-sauroposeidon-7655.customers",
+                "web",
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                },
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com",
+                "console.groq.com",
+                "notice.co",
+                "vondy.com",
+                "www.cookunity.com",
+                "www.goodles.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api",
+                "separated-sauroposeidon-7655.customers",
+                "web",
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                },
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com",
+                "console.groq.com",
+                "notice.co",
+                "vondy.com",
+                "www.cookunity.com",
+                "www.goodles.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/telemetry\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "elements"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.hardwareConcurrency": 1,
+                "Navigator.prototype.deviceMemory": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.plugins": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.colorDepth": 1,
+                "window.devicePixelRatio": 1,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Date.prototype.getTime": 1,
+                "OfflineAudioContext.prototype.constructor": 1,
+                "AudioBuffer.prototype.getChannelData": 1,
+                "NavigatorUAData.prototype.brands": 1,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "WebGLRenderingContext.prototype.readPixels": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "CanvasRenderingContext2D.prototype.getImageData": 1
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "fe2889bcec13f30f154861d8bca5786675fcc8527f73cbfc3dcf44a0ce0c179d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joinhomebase.com",
+                "app.joinhomebase.com",
+                "mail.snopes.com",
+                "trustarts.org",
+                "vondy.com",
+                "www.eviemagazine.com",
+                "www.readbluebill.com",
+                "www.revenuememo.com",
+                "www.worseonpurpose.com",
+                "www.yeovalley.co.uk"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-58df57a9-a1f5-4066-bc0c-2ff942db684f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "separated-sauroposeidon-7655.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groq.com",
+                "console.groq.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-58df57a9-a1f5-4066-bc0c-2ff942db684f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "separated-sauroposeidon-7655.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [
+                "cdd915fc4998cafecdd6c8b522af273af103226d45ccbe5c08de63ee1c5441ce"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groq.com",
+                "console.groq.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/b2b\\/sessions\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "separated-sauroposeidon-7655.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groq.com",
+                "console.groq.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/b2b\\/sessions\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "separated-sauroposeidon-7655.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.stytchb2b.groq.com",
+                    "resolved": "separated-sauroposeidon-7655.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [
+                "dbec4b9b3c3fb1f8baba7ec929eaadc01c0e60fbb0776be5db69786a8147623b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "groq.com",
+                "console.groq.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-e4d40d92-e665-406d-8885-4ff72b69f1c0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookunity.com",
+                "www.cookunity.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/projects\\/bootstrap\\/public-token-live-e4d40d92-e665-406d-8885-4ff72b69f1c0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [
+                "c49bf28fb75194d5c86d2ce2fd1d327c3ea7100d48beacd0c12aa85ea4bf2d5c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookunity.com",
+                "www.cookunity.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/sessions\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [
+                "a61d7b116d4a27ac6271101f921dcda358b9f7b6a79b01e08eb419840d5d71dd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookunity.com",
+                "www.cookunity.com"
+            ]
+        },
+        {
+            "rule": "stytch\\.com\\/sdk\\/v1\\/sessions\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "thirsty-range-5768.customers"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.cookunity.com",
+                    "resolved": "thirsty-range-5768.customers.stytch.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cookunity.com",
+                "www.cookunity.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9629629629629629
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Preflight": 17,
+        "Fetch": 17,
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-2013.awsdns-59.co.uk",
+        "ns-1320.awsdns-37.org",
+        "ns-521.awsdns-01.net",
+        "ns-217.awsdns-27.com"
+    ]
+}

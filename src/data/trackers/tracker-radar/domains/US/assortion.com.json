@@ -1,0 +1,172 @@
+{
+    "domain": "assortion.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "assortion\\.com\\/client\\/app\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Document.cookie setter": 5,
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "5b410489b05dffb8d7405efff71e4316cca9e3f01f421b39570c40a6f0f69d01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "assortion": {
+                    "ttl": 157766402,
+                    "length": 36,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.com.au",
+                "store.necaonline.com",
+                "thedieseldudes.com",
+                "transguysupply.com",
+                "www.flashforge.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "assortion\\.com\\/client\\/base\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "6901cd09dcf43ce516f55e0a96fba4fa92011f2cb8eea13298ebaedc4900d0a9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.com.au",
+                "store.necaonline.com",
+                "thedieseldudes.com",
+                "transguysupply.com",
+                "www.flashforge.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "assortion\\.com\\/client\\/chunks\\/vendors\\.CysRXecK\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.innerHeight": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "73fab26eac2f554230e9b9c88d4eb99661a77515c7f0ca32038422968e240603"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.com.au",
+                "store.necaonline.com",
+                "thedieseldudes.com",
+                "transguysupply.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "assortion\\.com\\/client\\/sprite\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "739a74659d68a824f29298b67f405f49f8efd2e3a884ab0de45d13c015086871"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muji.com.au",
+                "store.necaonline.com",
+                "thedieseldudes.com",
+                "transguysupply.com",
+                "www.goruck.com"
+            ]
+        },
+        {
+            "rule": "assortion\\.com\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "warriorland.net",
+                "www.thistleandspire.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Stylesheet": 6,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "earl.ns.cloudflare.com",
+        "anahi.ns.cloudflare.com"
+    ]
+}

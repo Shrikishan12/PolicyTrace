@@ -1,0 +1,114 @@
+{
+    "domain": "aller.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "cdn.video"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "aller\\.com\\/loader\\/latest\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.video"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0bb26576204cc72c12a2d762372f3d8f0a80c55c5c153626d21442d42e189435"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.se",
+                "recept.se",
+                "spisbedre.dk",
+                "www.allas.se",
+                "www.hant.se"
+            ]
+        },
+        {
+            "rule": "aller\\.com\\/reels\\/latest\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.video"
+            ],
+            "apis": {
+                "Navigator.prototype.maxTouchPoints": 7,
+                "Navigator.prototype.platform": 7,
+                "Navigator.prototype.userAgent": 7,
+                "window.innerHeight": 7,
+                "Document.cookie getter": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "b05f6a819b704fcc71aed8b9f243185fddd83959c673633360fa7589ac7d3b91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elle.se",
+                "recept.se",
+                "spisbedre.dk",
+                "www.allas.se",
+                "www.dagbladet.no",
+                "www.hant.se",
+                "www.seher.no"
+            ]
+        },
+        {
+            "rule": "aller\\.com\\/reels\\/latest\\/video-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.video"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4eef96b7a66c2241b8b9380ee1ee643f74baad9b2b1b48f38b2e703d6337e087"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dagbladet.no",
+                "www.seher.no"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "rob.ns.cloudflare.com",
+        "vera.ns.cloudflare.com"
+    ]
+}

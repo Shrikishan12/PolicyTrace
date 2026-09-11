@@ -1,0 +1,76 @@
+{
+    "domain": "redeal.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "redeal\\.se\\/widget\\/js\\/redeal\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.sessionStorage": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.language": 9
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "59efecbb8dc33c3138a463e0a19f1a9a2ad28d05d49fec9874a61f3cd9f857fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luhta.com",
+                "megabad.com",
+                "pipoos.com",
+                "www.chilli.se",
+                "www.jigsaw-online.com",
+                "www.klattermusen.com",
+                "www.masku.com",
+                "www.megabad.com",
+                "www.simonlevelt.nl",
+                "www.sportfiskeprylar.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-737.awsdns-28.net",
+        "ns-283.awsdns-35.com",
+        "ns-2037.awsdns-62.co.uk",
+        "ns-1062.awsdns-04.org"
+    ]
+}

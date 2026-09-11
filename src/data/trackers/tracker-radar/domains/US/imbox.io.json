@@ -1,0 +1,844 @@
+{
+    "domain": "imbox.io",
+    "owner": {
+        "name": "ImBox Sweden AB",
+        "displayName": "ImBox Sweden"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "files",
+        "widget",
+        "widget-launcher",
+        "triggers-v3",
+        "wss",
+        "apiv2",
+        "internal-api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "imbox\\.io\\/app\\/dist\\/initWidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "b059145ffa6aa02ad3988e000b90dd5e0cc96a6bc4ffbe6538bf670c37e446bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cancerfonden.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-v2\\/prod\\/widget\\.js",
+            "cookies": 0.0000616,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Navigator.prototype.userAgent": 14,
+                "window.sessionStorage": 14,
+                "Navigator.prototype.language": 14,
+                "Date.prototype.getTime": 14,
+                "Document.cookie setter": 9
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "7bfe1e20c569e7518753b0baa8c387b5d53957e89f86fb9075b65987f24bcfb7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "imbox": {
+                    "ttl": 2592005,
+                    "length": 54,
+                    "prevalence": 0.00006164679128451365,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cancerfonden.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/index\\.03106be\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "ce7e2f7a861b00ff2b1ff4a73676c63e63c05bc4f10edc19894e1554f25c76fd"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cancerfonden.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/roboto\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "cdd39cf2871bf6cda343526f29ff204c925f1d3b8f90854f525c6d65a616ff33"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/bundle\\.d0fcaea7bd9d8b7e6010\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 13
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "c4f555ed5e0c2f25e45186fd322d3045a8019e803a32489eae8d5dfca169cb31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.d0fcaea7bd9d8b7e6010\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "6be2936b2bd8a4cb6c34e9eda1c33fef8fc2d23054637c3d3dc34aeae97a8e69"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.bundle\\.da0a2a105f506dae1d6f\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.appVersion": 14,
+                "Navigator.prototype.mediaDevices": 14,
+                "Navigator.prototype.appName": 14,
+                "Screen.prototype.width": 14,
+                "Screen.prototype.height": 14,
+                "window.localStorage": 14,
+                "Navigator.prototype.language": 14,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "00141476289dc0e547d4939c013f8c832debed2ce5732cdc0bf1c24fdeb640ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/client\\.6c1d4efdb761a2b9656f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "200f08a1a4e60e9e20fa3da1e384277f88a190c6d5555d2ed04cd4a5c0e16d2e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/fonts\\/launcher-icon\\.634e72cd5a6b2d9b8a09\\.\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-launcher"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "7d1e758f217dc92b6d4d2a593c823b938ff44f9b88b837e941605197c1972e72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/localization-en\\.8d50b33a14d53b97b969\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "c5161b7317cc473c822262f0f62b779f4814ca44705d407e3fd767860a58baa6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/trigger",
+            "cookies": 0.0000959,
+            "fingerprinting": 0,
+            "subdomains": [
+                "triggers-v3"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "80a7bd26d88b5a6496bf0feeeb1906604ac62a1ebd63b4b9f32fc07868369a39",
+                "7b2eeaaba996c822b722a19fddee1133eb8c8195ffe5ec94ab0b99cec71c9c38",
+                "c0ce4540a8cd03f1800a8d6545597c0884af5fb12c92a53d43b6fe3ac47def5f",
+                "2e37ced8316e2c8c6b9cbd4e88cca254a48989959189ce64241cf2fbfe44e9ed",
+                "a619d01f88e254630c53161207a347479f146a05fc918165a0165743e798b6c1",
+                "50380b16a1fc03795c8690baf519dd80559bb46bb420240716b2ee81a930379a",
+                "97399828dd3462677ca9e5c14f78291b9f57af4d6fb77aaf81e52b5710828987",
+                "24661e96fad2e272859e48dd8c604da3fcd41cc33e5bc566484c03dd2433a5de",
+                "6eeafacf1ec189edb2a5231168003156a77fad4ab7f5b5255886f1d768de57a2",
+                "9f1d56d783b414b70474d028193fc4af0338dc0693d4da870ef1c6b1e073cfe4",
+                "c03042eaa7e0c868c9a9c32d14297911f056c27a8cbe9c3eacb389f22cbd2d5a",
+                "46d879bbacdbb8dcdebf57a63908ca6ceb71dc866e06f6cebdcbc997fef718db",
+                "4b9c547253e91549b5b73219910c575ad1d449c9334d7c4b1e885d1e17d9025f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "kulturhusetstadsteatern.se",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.lager157.com",
+                "www.liseberg.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/localization-sv\\.163827f8824b6ce96f27\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "ab4630597085aba6523c590e3b6f201c339b2c83009e1edb410b5a6ac010d89f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.willys.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/primus\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {
+                "Navigator.prototype.onLine": 7,
+                "Navigator.prototype.userAgent": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "34390c9cf06e1ccabb7ea666827a57e8a83c995567c8db9a75fe823c9a2713dd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "nordicwellness.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/fonts\\/roboto\\/roboto-v27-latin-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "81d931a8c973b5bc8f9ded86a3440bd247a58e592b3897bf755c1a5d8390d763"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "birk.no",
+                "nordicwellness.se",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.blomsterlandet.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se",
+                "www.liseberg.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/primus\\/info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wss"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "6cbf2879f8cc4d15acee2079cff10669d17a29753465d2b4340febf2e0a71bfe",
+                "d58feea1c8dfda8c342b025f5b069482a36de8f2d15ee5a2776a110ccb4b69cd",
+                "4fe4f42992737f7f426684d7d0ea8c7eb92661f6787b9a1183cc318d43ef1700",
+                "b1b882f4aef94047f0ef353b804e4c91dfd9b1145f4d5412ac928a738736f648",
+                "830cb6b7a36d264f18a8fe661a81ad21a29e265257bf83ec67515211b9037cff",
+                "78f5cf8807284b3afa8155c970bb4b57eefb415620f9539bcff9ce3c0b3eba06"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "batteriexperten.com",
+                "nordicwellness.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.cykloteket.se",
+                "www.dormy.com",
+                "www.elon.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/svg\\/Biltema\\/chat\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "108807e9996142599b75a412368c82e3e23b255efeafed04d33ab5a55e57d48d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biltema.se",
+                "www.biltema.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/api\\/widgeturl\\/2426",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "29c7bf1fc7f5b10556f57113f8b1acb93fbfacb65754161f880509755047e636"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birk.no",
+                "www.bikester.se",
+                "www.cykloteket.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "internal-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birk.no",
+                "vparts.se",
+                "www.blomsterlandet.se",
+                "www.liseberg.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "internal-api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "02c045b5a38b1e9a01bf15ab6d48d526dc60a726bf041fe32d153b4ffd71e761"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birk.no",
+                "vparts.se",
+                "www.blomsterlandet.se",
+                "www.liseberg.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/flow\\/default\\/images\\/launcher-icon\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "7d1e758f217dc92b6d4d2a593c823b938ff44f9b88b837e941605197c1972e72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birk.no",
+                "vparts.se",
+                "www.bikester.se",
+                "www.bilia.se",
+                "www.cykloteket.se",
+                "www.elon.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/flow\\/1986\\/fonts\\/8hbmCXFR4w1lD1Ns1GqZOEtF4DEFOMmN\\.otf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "757553a4b6c62541b1b191b13012a1b2decae65f77792e2e800b17854fc4bf7c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.bilia.se"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-app\\.6c1d4efdb761a2b9656f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47e9be389c5b2c568f2f58013bcd330335517d56f76d061db7389a3be3d3d2ee"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.dormy.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-app\\.bc97b52e206e835dddf9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6887427c8bf437f8b73340e3ee331bbed327ea5748c673a78ae09229395e3d2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.dormy.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/app\\/static\\/material-icons\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5784af48158b5fdb223ac320b922f4f1e6b576d12dc85007819331ea151cb02c"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.dormy.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-answers\\.6c1d4efdb761a2b9656f\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a826dbcf9178e3db9668ec6206eb39e7efaa1f67e648498419b15656166a340"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.dormy.com"
+            ]
+        },
+        {
+            "rule": "imbox\\.io\\/widget-answers\\.577eab577b73b4ca96d9\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6c5388b8314cc3d4a452b18ac08d37dbd16e21861c10e8fd89b330c8f22c7eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilia.se",
+                "www.dormy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000959,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "imbox.se",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 94,
+        "Document": 15,
+        "Stylesheet": 46,
+        "Image": 22,
+        "Fetch": 18,
+        "Font": 15,
+        "XHR": 7,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "sue.ns.cloudflare.com",
+        "tim.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,201 @@
+{
+    "domain": "tracklution.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api.karkkainen",
+        "api.bhg"
+    ],
+    "cnames": [
+        {
+            "original": "tralut.karkkainen.com",
+            "resolved": "api.karkkainen.tracklution.com"
+        },
+        {
+            "original": "tralut.netrauta.fi",
+            "resolved": "api.bhg.tracklution.com"
+        },
+        {
+            "original": "tralut.taloon.com",
+            "resolved": "api.bhg.tracklution.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "tracklution\\.com\\/js\\/script-dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "api.karkkainen",
+                "api.bhg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "tralut.karkkainen.com",
+                    "resolved": "api.karkkainen.tracklution.com"
+                },
+                {
+                    "original": "tralut.netrauta.fi",
+                    "resolved": "api.bhg.tracklution.com"
+                },
+                {
+                    "original": "tralut.taloon.com",
+                    "resolved": "api.bhg.tracklution.com"
+                }
+            ],
+            "responseHashes": [
+                "d015a5c8cecdd78a2a1ad375320f416bc51999a392381ddd387ff599610fbdfd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karkkainen.com",
+                "www.netrauta.fi",
+                "www.taloon.com"
+            ]
+        },
+        {
+            "rule": "tracklution\\.com\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.karkkainen",
+                "api.bhg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "tralut.karkkainen.com",
+                    "resolved": "api.karkkainen.tracklution.com"
+                },
+                {
+                    "original": "tralut.netrauta.fi",
+                    "resolved": "api.bhg.tracklution.com"
+                },
+                {
+                    "original": "tralut.taloon.com",
+                    "resolved": "api.bhg.tracklution.com"
+                }
+            ],
+            "responseHashes": [
+                "05fcb8645472310b240f6df66c587a9a67591ae3111f9b3f8bac8053a918ac67",
+                "ca4c8e291eb95ece1d30faeba08b4f796d91bf3d07c491bb2e81c3673d026851"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karkkainen.com",
+                "www.netrauta.fi",
+                "www.taloon.com"
+            ]
+        },
+        {
+            "rule": "tracklution\\.com\\/collect",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.karkkainen",
+                "api.bhg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "tralut.karkkainen.com",
+                    "resolved": "api.karkkainen.tracklution.com"
+                },
+                {
+                    "original": "tralut.netrauta.fi",
+                    "resolved": "api.bhg.tracklution.com"
+                },
+                {
+                    "original": "tralut.taloon.com",
+                    "resolved": "api.bhg.tracklution.com"
+                }
+            ],
+            "responseHashes": [
+                "c798373eaa79de5083e0beb582b1e3a7a1b91cf4b4ec34c7d62301788c995c27",
+                "a89ec689a4a1ce4977cce80e32c0e6ab5680377d0a6881e35e57a03c6c34468d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gbuuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "karkkainen.com",
+                "www.netrauta.fi",
+                "www.taloon.com"
+            ]
+        },
+        {
+            "rule": "tracklution\\.com\\/collect\\/value",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.karkkainen",
+                "api.bhg"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "tralut.karkkainen.com",
+                    "resolved": "api.karkkainen.tracklution.com"
+                },
+                {
+                    "original": "tralut.netrauta.fi",
+                    "resolved": "api.bhg.tracklution.com"
+                },
+                {
+                    "original": "tralut.taloon.com",
+                    "resolved": "api.bhg.tracklution.com"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karkkainen.com",
+                "www.netrauta.fi",
+                "www.taloon.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3,
+        "Document": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns77.domaincontrol.com",
+        "ns78.domaincontrol.com"
+    ]
+}

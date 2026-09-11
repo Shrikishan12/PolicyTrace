@@ -1,0 +1,130 @@
+{
+    "domain": "youmaker.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "vs1",
+        "comment",
+        "sc"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "youmaker\\.com\\/assets\\/js\\/epochplayer7\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theepochtimes.com",
+                "cmsapi.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "youmaker\\.com\\/api\\/v1\\/counts",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comment"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fbbe95b682a511847104cab855a59d24a624feb0b5a34b4961cfc237f5688cea",
+                "69391d3e1fed07aed4ee9706e8aafc05c1b12d9e0d67dbcc86bd93eba48d849b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theepochtimes.com",
+                "www.ntd.com",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "youmaker\\.com\\/api\\/v1\\/counts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "comment"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theepochtimes.com",
+                "www.ntd.com",
+                "www.theepochtimes.com"
+            ]
+        },
+        {
+            "rule": "youmaker\\.com\\/site\\/article\\/count",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sc"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ee2aa45df24e7ed1c2576d0665712d5274f98b2dd070deefa55e432876edaa0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "theepochtimes.com",
+                "www.theepochtimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 3,
+        "Preflight": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c4.googledomains.com"
+    ]
+}

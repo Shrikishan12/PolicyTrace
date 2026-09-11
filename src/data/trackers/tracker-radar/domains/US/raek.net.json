@@ -1,0 +1,157 @@
+{
+    "domain": "raek.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "raek\\.net\\/js\\/raek\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "83fca37ee6351e4d5c0becf1b4ee2e83ee9290df907e2d60c65a84048e537737"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lensdirect.com",
+                "safelifedefense.com",
+                "www.lensdirect.com",
+                "www.tannersfish.com"
+            ]
+        },
+        {
+            "rule": "raek\\.net\\/v1\\.2\\.4\\/site\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "338e8fe1ccd6ec0538a26fa5bd363f0f64a09096a28a149498225dc334d4d958"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lensdirect.com",
+                "safelifedefense.com",
+                "www.lensdirect.com",
+                "www.tannersfish.com"
+            ]
+        },
+        {
+            "rule": "raek\\.net\\/v1\\.2\\.4\\/site\\/authenticate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lensdirect.com",
+                "safelifedefense.com",
+                "www.lensdirect.com",
+                "www.tannersfish.com"
+            ]
+        },
+        {
+            "rule": "raek\\.net\\/v1\\.2\\.4\\/session\\/initiate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "625fb2dc236373a218f5f45fa57a4bf20a2c71bcd84b21698b0e7b2c75830467",
+                "90a393c4f4fa25b25d93e9c28610f16e7314fea9e9d0b4e53b21269deee31745",
+                "6d203d583994d35db604e8dc5735e276a1570881333d2dd5b6b2d213346a5447"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lensdirect.com",
+                "safelifedefense.com",
+                "www.lensdirect.com",
+                "www.tannersfish.com"
+            ]
+        },
+        {
+            "rule": "raek\\.net\\/v1\\.2\\.4\\/session\\/initiate",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lensdirect.com",
+                "safelifedefense.com",
+                "www.lensdirect.com",
+                "www.tannersfish.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "clark.ns.cloudflare.com",
+        "braelyn.ns.cloudflare.com"
+    ]
+}

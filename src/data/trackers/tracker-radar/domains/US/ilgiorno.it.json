@@ -1,0 +1,86 @@
+{
+    "domain": "ilgiorno.it",
+    "owner": {
+        "name": "MonrifNet Srl",
+        "displayName": "MonrifNet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "ilgiorno\\.it\\/cassaforte\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ac06f26b1e358bd5e25db6bdc8e1967161d6067988840cc3c5387d25ceb1d66b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilrestodelcarlino.it",
+                "www.lanazione.it",
+                "www.quotidiano.net"
+            ]
+        },
+        {
+            "rule": "ilgiorno\\.it\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilrestodelcarlino.it",
+                "www.lanazione.it",
+                "www.quotidiano.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "audrey.ns.cloudflare.com",
+        "bryce.ns.cloudflare.com"
+    ]
+}

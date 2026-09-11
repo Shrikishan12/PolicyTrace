@@ -1,0 +1,146 @@
+{
+    "domain": "usf-gtm-tagging.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "ssgtm.usfca.edu",
+            "resolved": "usf-gtm-tagging.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "usf-gtm-tagging\\.azurewebsites\\.net\\/g\\/collect",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "ssgtm.usfca.edu",
+                    "resolved": "usf-gtm-tagging.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "b79bbfff466835c3c4f59bf7f6e42b729eaca4e70b36f1eb62bf34802176d105",
+                "c9aaf5c069c02ededf7630ef92f003c4827f53cc53064201f325abb8379161c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "usfca.edu",
+                "myusf.usfca.edu",
+                "www.usfca.edu"
+            ]
+        },
+        {
+            "rule": "usf-gtm-tagging\\.azurewebsites\\.net\\/_\\/service_worker\\/68d0\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ssgtm.usfca.edu",
+                    "resolved": "usf-gtm-tagging.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "9a60ef8786444f4253ab1373ce86224a8bb90452b51576960d4f60fabeae6124"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usfca.edu",
+                "www.usfca.edu"
+            ]
+        },
+        {
+            "rule": "usf-gtm-tagging\\.azurewebsites\\.net\\/_\\/service_worker\\/68d0\\/sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ssgtm.usfca.edu",
+                    "resolved": "usf-gtm-tagging.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "9e8d0bce33a76b81e36dae8d8d947b1589880fba4e83238454fd2ce291882719"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usfca.edu",
+                "www.usfca.edu"
+            ]
+        },
+        {
+            "rule": "usf-gtm-tagging\\.azurewebsites\\.net\\/_\\/set_cookie",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ssgtm.usfca.edu",
+                    "resolved": "usf-gtm-tagging.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usfca.edu",
+                "www.usfca.edu"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Document": 2,
+        "Other": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

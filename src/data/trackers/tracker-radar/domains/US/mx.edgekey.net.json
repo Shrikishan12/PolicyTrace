@@ -1,0 +1,74 @@
+{
+    "domain": "mx.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn.homedepot.com"
+    ],
+    "cnames": [
+        {
+            "original": "cdn.homedepot.com.mx",
+            "resolved": "cdn.homedepot.com.mx.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mx\\.edgekey\\.net\\/assets\\/fonts\\/mui\\/thd-mui-icons\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.homedepot.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.homedepot.com.mx",
+                    "resolved": "cdn.homedepot.com.mx.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b96b7612ca061785ed92ddfd867ebb8ba12a361fbd22020633abbaf52559f942"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homedepot.com.mx",
+                "www.homedepot.com.mx"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.17857142857142858
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.03571428571428571
+        }
+    ],
+    "types": {
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,652 @@
+{
+    "domain": "gbqofs.io",
+    "owner": {
+        "name": "Glassbox Ltd.",
+        "displayName": "Glassbox"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000466,
+    "sites": 68,
+    "subdomains": [
+        "report.jpm",
+        "report.citi-na-prod",
+        "report.netapp",
+        "report.dutchboy",
+        "report.lorealus",
+        "report.corebridge",
+        "report.uhg",
+        "report.swp",
+        "report.perdoceo",
+        "report.cspire",
+        "report.hyundaicap",
+        "report.nestle",
+        "report.thehartford",
+        "report.virginaus"
+    ],
+    "cnames": [
+        {
+            "original": "prod.report.nacustomerexperience.citi.com",
+            "resolved": "report.citi-na-prod.gbqofs.io"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/64654ad3-6f20-4015-a04e-6a2f544f8231\\/cls_report",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.jpm"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5eb55057ef1b0a9b5100bf295436e27878660ed3f8bc0dfe25e5e7808e62ce55",
+                "8dc762f123f7f85330472c0ef3a62974c85fe3f9c146cb19bdf40682e736c044"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000020548930428171212,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "jpmorgan.com",
+                "am.jpmorgan.com",
+                "privatebank.jpmorgan.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/validation\\/cf7626ad-def0-a4e4-0448-cbb3c576c98b\\/cls_validation",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.citi-na-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prod.report.nacustomerexperience.citi.com",
+                    "resolved": "report.citi-na-prod.gbqofs.io"
+                }
+            ],
+            "responseHashes": [
+                "9b56aca787050e16a1fa7d6e51c3169e18faaa823b4479249d4c48bbdea4f6a1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citibankonline.com",
+                "citiretailservices.citibankonline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/glassbox\\/reporting\\/feb3fa29-a555-4ed1-a8f2-27f1ba65f2fb\\/cls_report",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.netapp"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2a2434bd1180119d7a8a84404b24b312bf4f902f7c435b56a7cb86122527310d",
+                "952f9b7760a598dc0109b4885eb44582e1ffe0fcf5d618c6b193ea84d1433927"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "netapp.com",
+                "docs.netapp.com",
+                "kb.netapp.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/ed3530ce-b0ab-ca6c-00ca-5f0780a433a3\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.dutchboy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "96cc91959027f10511a13915650a7c613a795afbda001ae6b0f5d5dbb26127de"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "sherwin-williams.com",
+                "industrial.sherwin-williams.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/6eijeunr\\/reporting\\/aaba6666-5171-5b46-569c-0068fcc7457f\\/cls_report",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.lorealus"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ef39e19ec9ffa2ed28386a52da3bd0cc59b5aa986e8723e2d212ca8b5e725e74",
+                "25cb1524fa7a4ae17eae0df1ccb0fe1efc66acff16b8f5e5960aa428e767df78",
+                "b93dbc29b937813b8e7aba872b016e00e9d66d9d531f820d16b72e568ab621b8",
+                "0e89c68b3d7238a886dd363d280f5506b7eb4850a74afc240ba54d0941b29d7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.00003424821738028536
+            },
+            "exampleSites": [
+                "lorealparisusa.com",
+                "maybelline.com",
+                "www.garnierusa.com",
+                "www.lorealparisusa.com",
+                "www.maybelline.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/978208ed-b302-c17c-19d5-41315a7de961\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.corebridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4278b0014fa5799c25c9ac273d59b71ee7f870ca5cdbd034f0c9debe28edb678"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "valic.com",
+                "myaccount.valic.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/glassbox\\/reporting\\/e1e18aed-4a42-aa12-7a4f-2b0713ad7430\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.uhg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d0d846dd5a68e0a15e82ffff293ebf7337fefeb53d06334b3775a9b4d7bc34d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "optumrx.com",
+                "www.optumrx.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/94a29740-bc22-dc9b-ec34-70161a94e1e7\\/cls_report",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.swp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "f39dd3c78db9e46be290a58b50945e416c95123f7b41b9c8ee51bbae0db7491a",
+                "8ccabe0d68184291be18801ff928d6e44cc447ed2d3f835a5892696bbe5baa4c",
+                "093f5bdedfc6206882a8df5e392e5a0740192a1d2f9d11b2d392f4d0f10d40a8",
+                "03d5716d7c6ff205e8f4bbdd98aa50ec474a9d18e325fe1f0a6400d132c317ed",
+                "4a5dd7a29d3d392c0ee1dca0f3a1c155bf12a52b5c4561b18ec13923a361c822"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000041097860856342424,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "cabotstain.com",
+                "www.cabotstain.com",
+                "www.hgtvhomebysherwinwilliams.com",
+                "www.krylon.com",
+                "www.minwax.com",
+                "www.valspar.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/glassbox\\/reporting\\/798b2f12-9162-4a94-91ee-805d883ca266\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.citi-na-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prod.report.nacustomerexperience.citi.com",
+                    "resolved": "report.citi-na-prod.gbqofs.io"
+                }
+            ],
+            "responseHashes": [
+                "a68f9c22b061b04acdba6ed1966102b2c5878f9348fa1f2207099a2b32be2a78"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "citi.com",
+                "www.citi.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/6eijeunr\\/reporting\\/cfed0fef-a0b3-3db1-b164-b494868f506d\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.lorealus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c30a075be642f498d5da946b50723b12ce616fea4baab7ba232e127a8c615b1b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "cerave.com",
+                "www.cerave.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/333fc278-ff9d-7e66-415b-1e18de929a54\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.perdoceo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d763a4c8042eca9d85cd0953c465d6854de36d08574b9c71053154d5c277b73c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "coloradotech.edu",
+                "www.coloradotech.edu"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/96a29a1b-a649-bbfb-3c1e-e7b187be1aa4\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.corebridge"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d57f77ed2f0663997a8ad4842a155d612a0228d717865d9d12ab11e3f5c1a4c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "corebridgefinancial.com",
+                "www.corebridgefinancial.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/056a3132-41e3-693d-e865-e38e92f506d2\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.cspire"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d69f64e62e738f7fccc37ca194b6f23b4322c7220c8232f8a11e9068d7503637"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "cspire.com",
+                "www.cspire.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/ayl8o7p6\\/reporting\\/748767fc-63f8-8718-8b22-db20f8dbc2b5\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.hyundaicap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "41ba0e007c673f74008f32e2652b0cea7dee0c3f3e37a9503ff2c48ed33148c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "hmfusa.com",
+                "www.hmfusa.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/ayl8o7p6\\/reporting\\/2933387d-d715-42d4-561c-859d43007cbc\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.hyundaicap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f43272e10969c2b4a43af44417ffaa6aa75ac27ed11a89383ae763aeeae1a980"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "kiafinance.com",
+                "www.kiafinance.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/c1b7d94b-ec4a-aed6-a616-5760dc0d9335\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.nestle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "42e1dbc101e79c96ff58f73322b250e0587f803d91e0b9d093439c00b0cfc985"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "petfinder.com",
+                "www.petfinder.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/v68cx6fr\\/reporting\\/2fdbd2b1-c799-3844-3db9-ba887c605374\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.nestle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "276ec08b1b63292c8f7a49d42409337bf6fea2d2b8b85f25e80e1c4a53b06aa8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "purina.com",
+                "www.purina.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/e364031c-502a-5789-a561-6e32f935d970\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.swp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b2da70d54a1b306abb99f276d974c09acef73ca189651d57550949d48e0c09c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "sherwin-williams.com",
+                "www.sherwin-williams.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/9lh4ev2t\\/reporting\\/72b885c9-1478-4c5c-9b6e-c9035b0c92f5\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.thehartford"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bab0b16a291981c2bed2fd86e60e1cb75c15b045685793f0e72718acbc9b4f5e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "thehartford.com",
+                "www.thehartford.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/v68cx6fr\\/reporting\\/42d77b8e-da77-45f0-bb9a-12201adaaf1a\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.nestle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54fb56fe36580acc5e385c14a1a39b007817de80bcd885ca3d0e1d519cb0abeb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "verybestbaking.com",
+                "www.verybestbaking.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/reporting\\/d4e7556a-aed6-422f-adfd-9ba96cc8f662\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.virginaus"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "041efc9f8c176cfac51f3690f0def34e840fd907d4079c4ab219e1e13cfb5000"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "virginaustralia.com",
+                "www.virginaustralia.com"
+            ]
+        },
+        {
+            "rule": "gbqofs\\.io\\/v68cx6fr\\/reporting\\/24fe017f-d923-d902-9469-9ed6449d371b\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "report.nestle"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb62e1dfbca5579cb9c7ea68abd9cf5099815727e87726b554e1ed6d4f45fba5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143,
+                "_cls_s": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "vitalproteins.com",
+                "www.vitalproteins.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000459,
+    "topInitiators": [
+        {
+            "domain": "gbqofs.com",
+            "prevalence": 0.37549407114624506
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2134387351778656
+        },
+        {
+            "domain": "d22xmn10vbouk4.cloudfront.net",
+            "prevalence": 0.13043478260869565
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.12648221343873517
+        },
+        {
+            "domain": "ketchcdn.com",
+            "prevalence": 0.09881422924901186
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.02766798418972332
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.015810276679841896
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.007905138339920948
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.003952569169960474
+        }
+    ],
+    "types": {
+        "XHR": 53
+    },
+    "nameservers": [
+        "ns-1035.awsdns-01.org",
+        "ns-90.awsdns-11.com",
+        "ns-1985.awsdns-56.co.uk",
+        "ns-905.awsdns-49.net"
+    ]
+}

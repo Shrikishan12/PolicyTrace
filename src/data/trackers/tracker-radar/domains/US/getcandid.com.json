@@ -1,0 +1,307 @@
+{
+    "domain": "getcandid.com",
+    "owner": {
+        "name": "FIVEACES INC",
+        "displayName": "FIVEACES"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getcandid\\.com\\/scripts\\/wall-isotope\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f7c2abc865c6d565811eaf06e18a60b57b5eeb8e0689912ce0b01ca1c1fe102"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/scripts\\/widget\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "d3bc6ffbc326fb15c694de442cd985797092b28fd53b997173d86feddda2bf49"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "candid_userid": {
+                    "ttl": 31536001,
+                    "length": 36,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.surya.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/scripts\\/keen-tracker\\.3\\.0\\.7\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c5877c0a54b8b29f8cfa13be67ff82cd42d78bf50127a8f9f377a20b889c7529"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.surya.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/content\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "4bf4cfb96e5198dc21f797abdf09d615b67a9832c8b03113852dd7bda3f20686"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/stream\\/css\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "38fa29d9c88fd32d61cd7240bc9010f19b0c6b37e9dd45e0254b75d00491ebfc",
+                "6d2bb3d8603188d0ce398f76450e35f004ab8bda74f67a795aabf8ec1393f6b2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/images\\/blank\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "3ee040b7d8cdab93f7861803c95222296770dd1e31033f80fc9d03028f09387e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/stream\\/frame\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "806b374fbb45f424525a336d946817468abae53295dfb5b4f15f735cda61e217",
+                "68917e81752aa44e378f0ccc0327b9dadc83e6b4dda8e881569d978b9102ede5",
+                "20f96e7b71f59a1a337625ed01a8285dad6a7db96fabac6d60685298dbc26a07"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/scripts\\/widget\\.frame\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "18528d0b511e777346ea84e27ab52427091b56f52df6ce96028dc404593a799d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/stream\\/page\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e8d1406986cd2b09bf99231dfce67ede0e8d3c541156f9d29a162fee237d4081",
+                "284261dbb4698e376202e34caecc6a96c78f8a82432e8ba2659b430bc63285f2",
+                "6085088620b4154f332af79951f3253ebfb208abaa104cc10cf5d9ab4e3cfa21"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        },
+        {
+            "rule": "getcandid\\.com\\/stream\\/tags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "058a293f797fa2a004cae346f85cd14c322863755a0d6dca40bc7989578dfdfd",
+                "08e587e7c0058e81fa33a870e50cb99eae1ab81327a74ef7d6301f31ac632806",
+                "80f8c7d8cd429fd6d8ce16912cae71c62957bd87aa91e452393885fe65dc9667"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hubbardtonforge.com",
+                "kelty.com",
+                "www.thermatru.com",
+                "www.uttermost.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.7634408602150538
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23655913978494625
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Stylesheet": 8,
+        "Image": 4,
+        "Document": 4,
+        "XHR": 8
+    },
+    "nameservers": [
+        "yichun.ns.cloudflare.com",
+        "maya.ns.cloudflare.com"
+    ]
+}

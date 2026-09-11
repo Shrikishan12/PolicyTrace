@@ -1,0 +1,60 @@
+{
+    "domain": "wm.com",
+    "owner": {
+        "name": "Waste Management Inc.",
+        "displayName": "Waste Management"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "rest-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "wm\\.com\\/assets\\/file\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rest-api"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d69113f44e702f08634b1d46cf26bc0c0e16ea34afaeb3559bd2cee751e2e3d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebagster.com",
+                "www.wmnorthwest.com",
+                "www.wmsolutions.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "hlpputl002.wm.com",
+        "hlpputl001.wm.com"
+    ]
+}

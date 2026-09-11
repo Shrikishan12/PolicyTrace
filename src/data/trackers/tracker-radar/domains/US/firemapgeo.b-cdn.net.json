@@ -1,0 +1,87 @@
+{
+    "domain": "firemapgeo.b-cdn.net",
+    "owner": {
+        "name": "BunnyCDN",
+        "displayName": "BunnyCDN"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "geo.firemap.live",
+            "resolved": "firemapgeo.b-cdn.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "firemapgeo\\.b-cdn\\.net\\/geoserver\\/ows",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "geo.firemap.live",
+                    "resolved": "firemapgeo.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "58a2c067f1d5a784a7fc9e80bce08934576e9aa082b94295da797508dd8a9966"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firemap.live",
+                "www.firemap.live"
+            ]
+        },
+        {
+            "rule": "firemapgeo\\.b-cdn\\.net\\/geoserver\\/gwc\\/service\\/wmts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "geo.firemap.live",
+                    "resolved": "firemapgeo.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "f54fe2218931a2415b38e7bc02572b0cccecfe3556e67effcd56958f13bebc91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firemap.live",
+                "www.firemap.live"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "mapbox.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": []
+}

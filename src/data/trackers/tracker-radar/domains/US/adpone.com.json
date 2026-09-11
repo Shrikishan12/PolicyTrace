@@ -1,0 +1,150 @@
+{
+    "domain": "adpone.com",
+    "owner": {
+        "name": "Adpone, S.L.",
+        "displayName": "Adpone"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "rtb",
+        "hb"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "adpone\\.com\\/bid-request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rtb"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "20bb6c4de7b78b623f8260844f19ba915197710ebed73c7d62c84c05731c30d6",
+                "a034608c52c235b30d437a2872f236a515ed0200f0474b6f2abb6c3f0bd39f01",
+                "3f31ca191642476070a555ca6e5edd06b6ea9621631117b4ba8cd950e4189c28",
+                "3cf4f3fa20ed573167db005ba874f2004d2344d5dfcfed1f3efb5c7b92bd4be0",
+                "fc81e87386a13de4df84d4129d93550fdaa0c1871387320ae781e49381fb9879",
+                "d78dcd6edfd6675aec796e383bb444fa9ed8b671c0613862a10ad67365d57bfa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuerda.net",
+                "acordes.lacuerda.net",
+                "samequizy.pl",
+                "www.caradisiac.com",
+                "www.idokep.hu",
+                "www.msze.info",
+                "www.newindianexpress.com"
+            ]
+        },
+        {
+            "rule": "adpone\\.com\\/prebid10\\.20\\.0\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Date.prototype.getTime": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.doNotTrack": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Document.cookie setter": 1,
+                "Document.cookie getter": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "4a2e80661c9dd3df7d500aef1edb4f318ce75fbd8e20636a57962686a0eb21d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "informer.rs",
+                "www.cesoirtv.com",
+                "www.freepressjournal.in",
+                "www.irishcentral.com",
+                "www.la.lv",
+                "www.programme-tv.net",
+                "www.writersdigest.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "flashnetic.com",
+            "prevalence": 0.37142857142857144
+        },
+        {
+            "domain": "slinkway.com",
+            "prevalence": 0.24761904761904763
+        },
+        {
+            "domain": "sopalk.com",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "flowkir.com",
+            "prevalence": 0.09841269841269841
+        },
+        {
+            "domain": "wrufer.com",
+            "prevalence": 0.08253968253968254
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.025396825396825397
+        },
+        {
+            "domain": "affinitymatrix.com",
+            "prevalence": 0.01904761904761905
+        },
+        {
+            "domain": "spolecznosci.net",
+            "prevalence": 0.006349206349206349
+        },
+        {
+            "domain": "nitropay.com",
+            "prevalence": 0.0031746031746031746
+        },
+        {
+            "domain": "publisher1st.com",
+            "prevalence": 0.0031746031746031746
+        }
+    ],
+    "types": {
+        "Fetch": 7,
+        "Script": 7
+    },
+    "nameservers": [
+        "bill.ns.cloudflare.com",
+        "elma.ns.cloudflare.com"
+    ]
+}

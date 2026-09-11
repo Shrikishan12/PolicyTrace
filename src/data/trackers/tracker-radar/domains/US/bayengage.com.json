@@ -1,0 +1,531 @@
+{
+    "domain": "bayengage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "sf",
+        "sfc-api",
+        "t",
+        "api-rvsf",
+        "img"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bayengage\\.com\\/sf\\.js",
+            "cookies": 0.0000753,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sf"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 11,
+                "Document.cookie setter": 11,
+                "window.localStorage": 8,
+                "window.sessionStorage": 6,
+                "Navigator.prototype.userAgent": 6
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "63ab633efe35b1a5051e95792688bacaa53a718f47f28bfe6332355aa85f6411",
+                "f0b03a14241c75e02297469a066900a6451b906cc342608cc342805708839099"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "be_migrated_6418": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_6419": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_6420": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_6418": {
+                    "ttl": 2592007,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "bay_vid": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "bay_sid": {
+                    "ttl": 1807,
+                    "length": 36,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "bay_ssid": {
+                    "ttl": 31536007,
+                    "length": 36,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "store_id": {
+                    "ttl": 1807,
+                    "length": 12,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "__bay_vid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.000041097860856342424,
+                    "uniqueness": 1
+                },
+                "be_migrated_8231": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_8231": {
+                    "ttl": 2592005,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_7204": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_7236": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_7302": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_7863": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8195": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8388": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8737": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8848": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8885": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_8195": {
+                    "ttl": 62,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_7308": {
+                    "ttl": 31536005,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8567": {
+                    "ttl": 31536012,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8585": {
+                    "ttl": 31536012,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8586": {
+                    "ttl": 31536012,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8590": {
+                    "ttl": 31536012,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8591": {
+                    "ttl": 31536012,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_8567": {
+                    "ttl": 2592012,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8408": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8461": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8462": {
+                    "ttl": 31536004,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_8461": {
+                    "ttl": 2592004,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8392": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_migrated_8406": {
+                    "ttl": 31536006,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "be_seen_8392": {
+                    "ttl": 2592007,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {
+                "store_id": 0.00005479714780845657
+            },
+            "exampleSites": [
+                "bchtechnologies.com",
+                "blessedperformance.com",
+                "casterhq.com",
+                "drfossums.com",
+                "hi-luxoptics.com",
+                "magneticmag.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.rainierarms.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sfc-api"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "c23a03f90231b24ac9e32493e82187548ab697534045819643df5f3e7561fe1a",
+                "b7035f97876509bcd711f32612459c54d87acf650471c3903c357cacb1c25794",
+                "abd86212a212cc5648b3316cab17a79d65f39b036431a8057832f5d8adf3b1aa",
+                "f5d5422842ee97bb41d1d03ec59ae2bcff4b53cda3ee07d0ed031fb8b6cedb03",
+                "57f481f3da752c17ccb2b8e241ac67b10da1d89387237332a7014606998b282d",
+                "49838f745283d23839f390a3ae6cf74141f7a5abf1025dd9558804551135004f",
+                "70d4879ef5c990185f12965476a1564228993134274b47defddbdceaff6717b2",
+                "3162f3048794bb0f89b58866fe72e295263b07295f3761a3cace7facf203e218",
+                "c5578fcfcf219223e872c9888747a5004c5f8e701dea4145b5d88c8e4e40b2ac",
+                "00ccef2c2d76300e04ed7996a23d046e9efe37184949b77758e28087354f8ae6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "bay_vid": 0.00003424821738028536,
+                "bay_ssid": 0.00003424821738028536,
+                "store_id": 0.00005479714780845657,
+                "__bay_vid": 0.000041097860856342424
+            },
+            "exampleSites": [
+                "bchtechnologies.com",
+                "blessedperformance.com",
+                "casterhq.com",
+                "drfossums.com",
+                "hi-luxoptics.com",
+                "magneticmag.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.rainierarms.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/t\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sf"
+            ],
+            "apis": {
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 7,
+                "Navigator.prototype.language": 8,
+                "window.localStorage": 8,
+                "Navigator.prototype.appVersion": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.appName": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "f12c96f5467eeecabf3539999c596cc8317161ce324f5ad73e11fa3de20bdad5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com",
+                "hi-luxoptics.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.rainierarms.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/be\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sf"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "5afc8e85640d3eb586149c64d9327d111550231f740d8af045cc6d2fb7021a9a",
+                "45fcd782a709fef799d163a01d4546f559002a61fbcdd48b5a53e538312d5d4f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com",
+                "magneticmag.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/api\\/v1\\/tracking\\/popup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com",
+                "magneticmag.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/api\\/v1\\/tracking\\/popup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "0a28af1b5fefbc6fbef9eacbc4ec4e01a548ea1bed265dce1522065765aa24fa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com",
+                "magneticmag.com",
+                "www.hernandosun.com",
+                "www.hirekogolf.com",
+                "www.lisonparis.com",
+                "www.vbeltsupply.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/api\\/v1\\/product\\/reviews\\/default\\/all\\/1\\/newest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-rvsf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "179cf54fe5f5b1c428512eb04d92f7c49a45f65ca7c8fcf86ffe1d66033b0d84"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/api\\/v1\\/product\\/reviews\\/default\\/all\\/1\\/newest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-rvsf"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchtechnologies.com",
+                "casterhq.com"
+            ]
+        },
+        {
+            "rule": "bayengage\\.com\\/90f3c265c63b\\/studio\\/228834\\/logo-1-\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9f465a889d877c92e8f375963f76baa8ad1e536c1754448d9b19cbfb5d533a2e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "store_id": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "lisonparis.com",
+                "www.lisonparis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9493670886075949
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.012658227848101266
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "XHR": 18,
+        "Stylesheet": 7,
+        "Preflight": 9,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-64.awsdns-08.com",
+        "ns-928.awsdns-52.net",
+        "ns-1673.awsdns-17.co.uk",
+        "ns-1236.awsdns-26.org"
+    ]
+}

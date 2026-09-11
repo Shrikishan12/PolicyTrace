@@ -1,0 +1,81 @@
+{
+    "domain": "sellioapps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "redirect-app"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sellioapps\\.com\\/api\\/redirect-hits",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect-app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "georgiaboot.com",
+                "muckbootcompany.com",
+                "sonoff.tech",
+                "www.feit.com",
+                "xtratuf.com"
+            ]
+        },
+        {
+            "rule": "sellioapps\\.com\\/api\\/redirect-hits",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect-app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "cc22e1d535a83267ebe4c5f61332e30059289c74ebcf0f4299968358e30d538e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "georgiaboot.com",
+                "muckbootcompany.com",
+                "sonoff.tech",
+                "www.feit.com",
+                "xtratuf.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "XHR": 5
+    },
+    "nameservers": [
+        "ns23.domaincontrol.com",
+        "ns24.domaincontrol.com"
+    ]
+}

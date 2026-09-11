@@ -1,0 +1,101 @@
+{
+    "domain": "loom-app.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "count",
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "loom-app\\.com\\/v1\\.0\\/increment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.jp",
+                "www.gizmodo.jp"
+            ]
+        },
+        {
+            "rule": "loom-app\\.com\\/v1\\.0\\/increment",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "count"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6f0f09279f2537357bf0837d6bb15e4dcad52683c355a94bed6a4ed12f662bfd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.jp",
+                "www.gizmodo.jp"
+            ]
+        },
+        {
+            "rule": "loom-app\\.com\\/loom\\/2026\\/08\\/21\\/2d811223-298f-4a4e-bcf3-a8eaa4ed62c3\\/original\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "578eafe273da6aaf7e4f52eda7499471d908ae0e752edf5e0edbb8e8b825b837"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.jp",
+                "www.lifehacker.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-291.awsdns-36.com",
+        "ns-898.awsdns-48.net",
+        "ns-1258.awsdns-29.org",
+        "ns-1894.awsdns-44.co.uk"
+    ]
+}

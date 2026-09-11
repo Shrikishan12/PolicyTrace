@@ -1,0 +1,131 @@
+{
+    "domain": "prezenapps.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "wrapin",
+        "justviewed",
+        "donatesource"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prezenapps\\.com\\/public\\/js\\/load-wrapin-v5-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wrapin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "06bdad4bccce9043f2bc499eab39b0e6702c1583123cc56febbe4f95599a6810"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brighton.com",
+                "kieljamespatrick.com",
+                "www.brighton.com"
+            ]
+        },
+        {
+            "rule": "prezenapps\\.com\\/public\\/store_test",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wrapin",
+                "justviewed",
+                "donatesource"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "a5ec0b213125b7777caf745691c568860953518241352d5b989cf5fcffb0630a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "brighton.com",
+                "elitegates.net",
+                "kieljamespatrick.com",
+                "ninjatransfers.com",
+                "shop.equalexchange.coop",
+                "www.brighton.com",
+                "www.doctorsbest.com",
+                "www.gasmonkeygarage.com",
+                "www.luluandgeorgia.com",
+                "www.spyderco.com"
+            ]
+        },
+        {
+            "rule": "prezenapps\\.com\\/public\\/js\\/recent-app\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "justviewed"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "829769710451ceb13bbc30cc807bea447a4aea6559312b8c1305a41058e70aea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elitegates.net",
+                "ninjatransfers.com",
+                "www.doctorsbest.com",
+                "www.luluandgeorgia.com",
+                "www.spyderco.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000959,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.10714285714285714
+        },
+        {
+            "domain": "heyamplify.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.03571428571428571
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "nora.ns.cloudflare.com",
+        "pedro.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "domain": "yads.tech",
+    "owner": {
+        "name": "Yandex LLC",
+        "displayName": "Yandex",
+        "privacyPolicy": "https://yandex.com/legal/privacy/",
+        "url": "http://yandex.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "mc"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yads\\.tech\\/int\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mc"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie setter": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.language": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.getBattery": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "window.devicePixelRatio": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.webdriver": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Screen.prototype.orientation": 3,
+                "Navigator.prototype.onLine": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cd0e4323b409f64dc4edea3363f67ae01bb218151a63f59a958cfa3be46f6657"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ym_uid": {
+                    "ttl": 31536008,
+                    "length": 19,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_ym_d": {
+                    "ttl": 31536008,
+                    "length": 10,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ikea.com.tr",
+                "www.sodimac.cl",
+                "www.sodimac.com.pe"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-47.awsdns-05.com",
+        "ns-956.awsdns-55.net",
+        "ns-1504.awsdns-60.org",
+        "ns-1954.awsdns-52.co.uk"
+    ]
+}

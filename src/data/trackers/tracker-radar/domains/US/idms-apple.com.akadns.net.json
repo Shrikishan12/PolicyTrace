@@ -1,0 +1,257 @@
+{
+    "domain": "idms-apple.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "appleid",
+        "idmsa"
+    ],
+    "cnames": [
+        {
+            "original": "appleid.apple.com",
+            "resolved": "appleid.idms-apple.com.akadns.net"
+        },
+        {
+            "original": "idmsa.apple.com",
+            "resolved": "idmsa.idms-apple.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/account\\/manage\\/gs\\/ws\\/token",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/account\\/manage\\/gs\\/ws\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/jslog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/jslog",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/v2\\/jslogs",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/v2\\/jslogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "appleid.apple.com",
+                    "resolved": "appleid.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "account.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/appleauth\\/auth\\/signin",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idmsa"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "idmsa.apple.com",
+                    "resolved": "idmsa.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "2f37ec975c936302bd860327e8c7f4937c82cf1d951e309f2e5f67c78a8ae2ec",
+                "b8798e7ac17fc032df09d1065a741ef84bd141d4c64ddd50659ec9acde4b9058"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appstoreconnect.apple.com",
+                "business.apple.com",
+                "itunesconnect.apple.com"
+            ]
+        },
+        {
+            "rule": "idms-apple\\.com\\.akadns\\.net\\/appleauth\\/jslog",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idmsa"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "idmsa.apple.com",
+                    "resolved": "idmsa.idms-apple.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apple.com",
+                "appstoreconnect.apple.com",
+                "itunesconnect.apple.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "cdn-apple.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 6,
+        "Document": 4,
+        "XHR": 3
+    },
+    "nameservers": []
+}

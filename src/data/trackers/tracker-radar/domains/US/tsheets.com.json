@@ -1,0 +1,92 @@
+{
+    "domain": "tsheets.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "consent.intuit"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tsheets\\.com\\/api\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.intuit"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "academy.intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "quickbooks.intuit.com",
+                "turbotax.intuit.ca",
+                "workforce.intuit.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "tsheets\\.com\\/api\\/sync",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.intuit"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "academy.intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "quickbooks.intuit.com",
+                "turbotax.intuit.ca",
+                "workforce.intuit.com",
+                "www.intuit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "intuitcdn.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns3.tsheets.com",
+        "ns2.tsheets.com",
+        "ns1.tsheets.com"
+    ]
+}

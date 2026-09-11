@@ -1,0 +1,168 @@
+{
+    "domain": "vigo.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000089,
+    "sites": 13,
+    "subdomains": [
+        "api",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "vigo\\.tech\\/html5\\/Vigo\\.min\\.js",
+            "cookies": 0.0000822,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 12,
+                "window.localStorage": 12,
+                "Document.cookie setter": 12
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "959ef6c41d1e6f8f5cec66c5bbddae1cae83c56269a9bd8d0a94a343f650159d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "v_did": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00008219572171268485,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcus.ru",
+                "fikbooks.ru",
+                "inmaxdisk.ru",
+                "jutsu.media",
+                "knigavuhe.org",
+                "librain.ru",
+                "pro-books.ru",
+                "royallib.com",
+                "rutube.ru",
+                "ucrazy.org",
+                "wamanga.ru",
+                "www.yaplakal.com",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "vigo\\.tech\\/html5\\/cgi-bin\\/vigoUrandId\\.php",
+            "cookies": 0.0000616,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "window.localStorage": 9,
+                "Document.cookie setter": 9
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "6bd6e8b5c9fe42770455d86157a808864200b7376c0e83ae3ae8e29894d48723",
+                "ef079ac8e97a78ed675e9dbd1875424228d2e88ebf81ad676ecd6e07f92d6b21",
+                "ed534a49142975463435949a2a99376b2bf43632382eef870d31c413368702c4",
+                "07cd268c6d34d357829a51139ade809410a06a9d288e7dd8aa5f7f0ce04604dd",
+                "a3a426e4bd048f7d07f775fc73bd2a340697a6137fa91310b6fa3fabab7c8dfc",
+                "cdcc1f3bcf0d82d490dc3b2bdb0654c2eeb87a110471a98436a7cc08df250c99",
+                "74fe9810c84c1740301c091ae8669b3bb9bc85c8d7ee659aadacc6084f965b40",
+                "7ccca50fc17babe1abb3fb09a0725e3b7ab3acf8a6f9bbd1f564b959b4c2f249",
+                "a5ab45954b6edf730492219c6785113fe6c0c3dce18ca79a31dbcf8e8e9ca653",
+                "4303adb5fbc125c02cd2156e2539fa567935817f238db025787a48ca03f3b8de",
+                "272999e21ffe593131872663956376a0700b7f6b79b9bdd6a812bd67c624b161"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "v_did": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.00006164679128451365,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcus.ru",
+                "fikbooks.ru",
+                "inmaxdisk.ru",
+                "jutsu.media",
+                "knigavuhe.org",
+                "librain.ru",
+                "pro-books.ru",
+                "royallib.com",
+                "rutube.ru",
+                "wamanga.ru",
+                "www.yaplakal.com",
+                "yandex.kz"
+            ]
+        },
+        {
+            "rule": "vigo\\.tech\\/1\\/balancer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "b7aebae0a6d934b12270dafdbcfcebe9072ed131411783b16f82691b503021e3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calcus.ru",
+                "fikbooks.ru",
+                "inmaxdisk.ru",
+                "jutsu.media",
+                "knigavuhe.org",
+                "librain.ru",
+                "pro-books.ru",
+                "royallib.com",
+                "rutube.ru",
+                "wamanga.ru",
+                "www.yaplakal.com",
+                "yandex.kz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "rutube.ru",
+            "prevalence": 0.9825581395348837
+        },
+        {
+            "domain": "rtbcdn.ru",
+            "prevalence": 0.01744186046511628
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Document": 12,
+        "XHR": 12
+    },
+    "nameservers": [
+        "dns1.yandex.net",
+        "dns2.yandex.net"
+    ]
+}

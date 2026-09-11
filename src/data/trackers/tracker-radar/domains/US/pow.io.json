@@ -1,0 +1,122 @@
+{
+    "domain": "pow.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "showtimes-v2.s-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "pow\\.io\\/v2\\.0\\/app\\/regions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "showtimes-v2.s-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coyotevsacme.com",
+                "www.odysseymovie.com",
+                "www.pawpatrol.movie"
+            ]
+        },
+        {
+            "rule": "pow\\.io\\/v2\\.0\\/app\\/regions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "showtimes-v2.s-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "82c838db89f72c4b574bd7dda2eb1afc3cf79262c9a8a1b3a1b0642c7201e115",
+                "46f413264a641d1a6a6da8711e290e4bb887aa8c6a4f91bf08272c4511c789f8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coyotevsacme.com",
+                "www.odysseymovie.com",
+                "www.pawpatrol.movie"
+            ]
+        },
+        {
+            "rule": "pow\\.io\\/v2\\.0\\/screenings\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "showtimes-v2.s-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2627c8d29eaf40c9000bde42b28ee03d0fa386ba338854d7960519fc2d73085e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coyotevsacme.com",
+                "www.pawpatrol.movie"
+            ]
+        },
+        {
+            "rule": "pow\\.io\\/v2\\.0\\/screenings\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "showtimes-v2.s-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coyotevsacme.com",
+                "www.pawpatrol.movie"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 5,
+        "Fetch": 5
+    },
+    "nameservers": [
+        "ns-923.awsdns-51.net",
+        "ns-1399.awsdns-46.org",
+        "ns-1740.awsdns-25.co.uk",
+        "ns-60.awsdns-07.com"
+    ]
+}

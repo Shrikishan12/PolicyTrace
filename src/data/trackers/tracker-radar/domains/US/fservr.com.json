@@ -1,0 +1,136 @@
+{
+    "domain": "fservr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "fservr\\.com\\/o\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a11f0d31ba5a6efc2df388d42f4c962f11e3d3ef9b3b863daa91269b5df4fb22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modernluxury.com",
+                "www.modernluxury.com",
+                "www.thewrap.com"
+            ]
+        },
+        {
+            "rule": "fservr\\.com\\/px\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "be515b0e9ad546d83e67741a518d7acc31974bc261627f3ecb9b7764f7dab573"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modernluxury.com",
+                "www.modernluxury.com",
+                "www.thewrap.com"
+            ]
+        },
+        {
+            "rule": "fservr\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "830de4471f5900d1203754f187da5f10d5781e07f48290acc5b75dbe47c45d02",
+                "4c49d98a12138faf5e0c0e4a68161b62528b902ab92cb1fd38fb91e91304aba4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modernluxury.com",
+                "www.modernluxury.com",
+                "www.thewrap.com"
+            ]
+        },
+        {
+            "rule": "fservr\\.com\\/m\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.innerHeight": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "af1b19855e459bb534e064de11ad5d359fda67d0e46fb675dd3d05aa0f5e2e01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "modernluxury.com",
+                "www.modernluxury.com",
+                "www.thewrap.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns-126.awsdns-15.com",
+        "ns-921.awsdns-51.net",
+        "ns-1624.awsdns-11.co.uk",
+        "ns-1132.awsdns-13.org"
+    ]
+}

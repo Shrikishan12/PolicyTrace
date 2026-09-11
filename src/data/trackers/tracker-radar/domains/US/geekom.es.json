@@ -1,0 +1,172 @@
+{
+    "domain": "geekom.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cat"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "geekom\\.es\\/matomo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cat"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff2088d4e337f7dbe09b435bb8f98cc8976b4a59bf66352db9af6231ae6e67f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.3.80f1": {
+                    "ttl": 33955206,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_ses.3.80f1": {
+                    "ttl": 1811,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_id.2.783d": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_ses.2.783d": {
+                    "ttl": 1804,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geekom.de",
+                "www.geekompc.com"
+            ]
+        },
+        {
+            "rule": "geekom\\.es\\/js\\/container_bABCdulw\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cat"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "908beba97468ba5f1e678028e4984910717133bded5303f84043dd7bd07a3e2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geekompc.com",
+                "www.geekompc.com"
+            ]
+        },
+        {
+            "rule": "geekom\\.es\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "geekom.de",
+                "www.geekompc.com",
+                "www.geekom.de"
+            ]
+        },
+        {
+            "rule": "geekom\\.es\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c63ba5c11ed02605b76447ede557943755a16b994725eb23a53fb28845febb0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "geekom.de",
+                "www.geekompc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Ping": 3
+    },
+    "nameservers": [
+        "hattie.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

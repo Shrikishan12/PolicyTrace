@@ -1,0 +1,109 @@
+{
+    "domain": "humana.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "s1",
+        "s7"
+    ],
+    "cnames": [
+        {
+            "original": "smetrics.centerwellpharmacy.com",
+            "resolved": "s1.humana.com.edgekey.net"
+        },
+        {
+            "original": "smetrics.humanamilitary.com",
+            "resolved": "s7.humana.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "humana\\.com\\.edgekey\\.net\\/ee\\/va6\\/v1\\/identity\\/acquire",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "smetrics.centerwellpharmacy.com",
+                    "resolved": "s1.humana.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "39da0fe8eed21dd9ebb73c30bad6ae83529b9ac0ad163494bb0aa3fd696fb889"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellpharmacy.com",
+                "www.centerwellpharmacy.com"
+            ]
+        },
+        {
+            "rule": "humana\\.com\\.edgekey\\.net\\/ee\\/va6\\/v1\\/interact",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s1",
+                "s7"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "smetrics.centerwellpharmacy.com",
+                    "resolved": "s1.humana.com.edgekey.net"
+                },
+                {
+                    "original": "smetrics.humanamilitary.com",
+                    "resolved": "s7.humana.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fe16ecef528bf0d01d3cb1baaa0642546d7a316725ee8e0a7135c7feafe5b3fc",
+                "fe6ee7b9b3ef2d785ebfd66f4190fb8c147fcae878436eb4102f664af780dd7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centerwellpharmacy.com",
+                "www.centerwellpharmacy.com",
+                "www.humanamilitary.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "humana.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "adoberesources.net",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 5
+    },
+    "nameservers": []
+}

@@ -1,0 +1,70 @@
+{
+    "domain": "tlt-cdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "files"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tlt-cdn\\.com\\/tlt\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Document.cookie getter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "6e83f95ab44ed2f9ee93a91af159cc95220719e6c7e6fcca1e586cbf9484e7bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geekflare.com",
+                "goongen.ai",
+                "mozartai.com",
+                "ones.health",
+                "oxiline.shop",
+                "wavespeed.ai",
+                "www.clipfly.ai",
+                "www.fotor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "lasio.ai",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 8
+    },
+    "nameservers": [
+        "rayden.ns.cloudflare.com",
+        "robin.ns.cloudflare.com"
+    ]
+}

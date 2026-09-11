@@ -1,0 +1,102 @@
+{
+    "domain": "usertracks.live",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "cdn",
+        "track",
+        "ws"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "usertracks\\.live\\/js\\/tracker\\.v2\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a75d9c3644825dbcb8abd120988100f3531d17796467209474b118fb1811a45f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ut_session": {
+                    "ttl": 31536002,
+                    "length": 41,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "ut_consent": {
+                    "ttl": 31536002,
+                    "length": 8,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "answersingenesis.org",
+                "arkencounter.com",
+                "creationmuseum.org"
+            ]
+        },
+        {
+            "rule": "usertracks\\.live\\/trackimg\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "track",
+                "ws"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a78f5274860567e57d2ac863200ca099c728979915fbe47696a200b3000a7c93"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ut_client_id": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "answersingenesis.org",
+                "arkencounter.com",
+                "bbn1.bbnradio.org",
+                "creationmuseum.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 4
+    },
+    "nameservers": [
+        "mark.ns.cloudflare.com",
+        "isla.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,103 @@
+{
+    "domain": "credible.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "sdk",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "credible\\.com\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "9d5b0185a87531f112e619fece4c3741065f4048a48151f4446d29e2b0946de3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fox10phoenix.com",
+                "www.fox13news.com",
+                "www.fox13seattle.com",
+                "www.fox29.com",
+                "www.fox26houston.com",
+                "www.fox2detroit.com",
+                "www.fox32chicago.com",
+                "www.fox4news.com",
+                "www.fox5atlanta.com",
+                "www.fox5ny.com",
+                "www.fox6now.com",
+                "www.fox7austin.com",
+                "www.fox9.com",
+                "www.foxbusiness.com",
+                "www.foxla.com",
+                "www.ktvu.com",
+                "www.livenowfox.com"
+            ]
+        },
+        {
+            "rule": "credible\\.com\\/api\\/logs-fe",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "372b46260bc809c523b7da2eef505ba5fba70a787c68859ff04c484b62b26e8f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxbusiness.com",
+                "www.foxbusiness.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "foxtv.com",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "foxnews.com",
+            "prevalence": 0.15
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1257.awsdns-29.org",
+        "ns-1910.awsdns-46.co.uk",
+        "ns-59.awsdns-07.com",
+        "ns-983.awsdns-58.net"
+    ]
+}

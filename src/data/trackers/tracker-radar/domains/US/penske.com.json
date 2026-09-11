@@ -1,0 +1,104 @@
+{
+    "domain": "penske.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "calendar-element.apps",
+        "consumer-rental-flow.apps"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "penske\\.com\\/styles\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "calendar-element.apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d628a3dfa45bd23cd9dbbc2c1aecfa434b1e45aedb50b3814d49151287aed3aa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pensketruckrental.com",
+                "www.pensketruckrental.com"
+            ]
+        },
+        {
+            "rule": "penske\\.com\\/calendar-element\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "calendar-element.apps"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bf7ad95c4a76ece2dba29e2e2c3aa9e6ced5a2c3b2c9201a356a49374706f96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pensketruckrental.com",
+                "www.pensketruckrental.com"
+            ]
+        },
+        {
+            "rule": "penske\\.com\\/consumer-rental-flow\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-rental-flow.apps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "57ccf4e653494e459902a13282905b33cc5354a9b9437671715232f09b2ecc6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pensketruckrental.com",
+                "www.pensketruckrental.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns1.f5clouddns.com",
+        "ns2.f5clouddns.com"
+    ]
+}

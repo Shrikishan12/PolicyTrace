@@ -1,0 +1,84 @@
+{
+    "domain": "justid.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "justid\\.io\\/front\\/kv\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "NavigatorUAData.prototype.brands": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c9db9f84e4263a577bb17821ea6739f44d833cd84646b7ef9e62c23f48c05751"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetakrakowska.pl",
+                "gazetawroclawska.pl",
+                "telemagazyn.pl",
+                "www.sennik.biz"
+            ]
+        },
+        {
+            "rule": "justid\\.io\\/front\\/kvConfig\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "aa8b97d8a8de9b7ac93fa46973cefa409faa29da30fdf47be9ebbfa4c53c8abb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gazetakrakowska.pl",
+                "gazetawroclawska.pl",
+                "telemagazyn.pl",
+                "www.sennik.biz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ppstatic.pl",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "wtg-ads.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "dns14.ovh.net",
+        "ns14.ovh.net"
+    ]
+}

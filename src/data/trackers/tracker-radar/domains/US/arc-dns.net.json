@@ -1,0 +1,455 @@
+{
+    "domain": "arc-dns.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000322,
+    "sites": 47,
+    "subdomains": [
+        "api-prisa-el-pais-in-english-prod",
+        "api-prisa-el-pais-prod",
+        "api-gmg-wkmg-prod",
+        "api-gmg-ksat-prod",
+        "api-copesa-la-tercera-prod",
+        "api-gmg-wsls-prod",
+        "api-nzme-nzme-prod",
+        "gray-assets-prod"
+    ],
+    "cnames": [
+        {
+            "original": "api.latercera.com",
+            "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+        },
+        {
+            "original": "profile.nzherald.co.nz",
+            "resolved": "api-nzme-nzme-prod.arc-dns.net"
+        },
+        {
+            "original": "publicapi.elpais.com",
+            "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+        },
+        {
+            "original": "publicapi.english.elpais.com",
+            "resolved": "api-prisa-el-pais-in-english-prod.arc-dns.net"
+        },
+        {
+            "original": "subs.api.clickorlando.com",
+            "resolved": "api-gmg-wkmg-prod.arc-dns.net"
+        },
+        {
+            "original": "subs.api.ksat.com",
+            "resolved": "api-gmg-ksat-prod.arc-dns.net"
+        },
+        {
+            "original": "subs.api.wsls.com",
+            "resolved": "api-gmg-wsls-prod.arc-dns.net"
+        },
+        {
+            "original": "webpubcontent.gray.tv",
+            "resolved": "gray-assets-prod.arc-dns.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-in-english-prod",
+                "api-prisa-el-pais-prod",
+                "api-gmg-wkmg-prod",
+                "api-gmg-ksat-prod",
+                "api-copesa-la-tercera-prod",
+                "api-gmg-wsls-prod"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "publicapi.english.elpais.com",
+                    "resolved": "api-prisa-el-pais-in-english-prod.arc-dns.net"
+                },
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.clickorlando.com",
+                    "resolved": "api-gmg-wkmg-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.ksat.com",
+                    "resolved": "api-gmg-ksat-prod.arc-dns.net"
+                },
+                {
+                    "original": "api.latercera.com",
+                    "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.wsls.com",
+                    "resolved": "api-gmg-wsls-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "english.elpais.com",
+                "motor.elpais.com",
+                "www.clickorlando.com",
+                "www.ksat.com",
+                "www.latercera.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-in-english-prod",
+                "api-prisa-el-pais-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "publicapi.english.elpais.com",
+                    "resolved": "api-prisa-el-pais-in-english-prod.arc-dns.net"
+                },
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "2d1aa79debcd284d10d1f9ae8a89b4f13491b5f632f57f2d42a60f36be323bb4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "motor.elpais.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v1\\/entitlements",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-prod",
+                "api-gmg-wkmg-prod",
+                "api-gmg-ksat-prod",
+                "api-copesa-la-tercera-prod",
+                "api-gmg-wsls-prod"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.clickorlando.com",
+                    "resolved": "api-gmg-wkmg-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.ksat.com",
+                    "resolved": "api-gmg-ksat-prod.arc-dns.net"
+                },
+                {
+                    "original": "api.latercera.com",
+                    "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+                },
+                {
+                    "original": "subs.api.wsls.com",
+                    "resolved": "api-gmg-wsls-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "2d1aa79debcd284d10d1f9ae8a89b4f13491b5f632f57f2d42a60f36be323bb4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "www.clickorlando.com",
+                "www.ksat.com",
+                "www.latercera.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v2\\/subscriptions\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-in-english-prod",
+                "api-prisa-el-pais-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "publicapi.english.elpais.com",
+                    "resolved": "api-prisa-el-pais-in-english-prod.arc-dns.net"
+                },
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "e94e9247a689247ebc3582a373025fddad1247698e076039479651dc7ac3ff71"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "motor.elpais.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v2\\/subscriptions\\/entitlements",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-in-english-prod",
+                "api-prisa-el-pais-prod",
+                "api-copesa-la-tercera-prod"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "publicapi.english.elpais.com",
+                    "resolved": "api-prisa-el-pais-in-english-prod.arc-dns.net"
+                },
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                },
+                {
+                    "original": "api.latercera.com",
+                    "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "english.elpais.com",
+                "motor.elpais.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/sales\\/public\\/v2\\/subscriptions\\/entitlements",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-prisa-el-pais-prod",
+                "api-copesa-la-tercera-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "publicapi.elpais.com",
+                    "resolved": "api-prisa-el-pais-prod.arc-dns.net"
+                },
+                {
+                    "original": "api.latercera.com",
+                    "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "45afa6713ca5b6feb95319176bdb17ee0ad3be665c3cbb0984182b98d7f3ed82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elpais.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/edge\\/kEGXCuLtnWouFhs6\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-copesa-la-tercera-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.latercera.com",
+                    "resolved": "api-copesa-la-tercera-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "8a04411e363b31ded0ff824d0cbe53912d13487daab37cccf23070cd330ab608"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "latercera.com",
+                "www.latercera.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/identity\\/public\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-nzme-nzme-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "profile.nzherald.co.nz",
+                    "resolved": "api-nzme-nzme-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzherald.co.nz",
+                "www.nzherald.co.nz"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/identity\\/public\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-nzme-nzme-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "profile.nzherald.co.nz",
+                    "resolved": "api-nzme-nzme-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "ad09d1bdb3bfbf49ec95f9a680c304a2f5429ffce4ad76e69cd22cf1560e9699"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzherald.co.nz",
+                "www.nzherald.co.nz"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/gdm\\/gsync\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "gray-assets-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webpubcontent.gray.tv",
+                    "resolved": "gray-assets-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "02f4b3acc1390142eeb38d407b566a03d81527cb01023cc9dc550137fcfbe28b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wkyt.com",
+                "www.wkyt.com"
+            ]
+        },
+        {
+            "rule": "arc-dns\\.net\\/wkyt\\/NEW7DAY-HD600_WEB\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gray-assets-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "webpubcontent.gray.tv",
+                    "resolved": "gray-assets-prod.arc-dns.net"
+                }
+            ],
+            "responseHashes": [
+                "ce925caaa3f0062199e5ba4de1e164e6f5a2eb6ed253fc34d651f9b6da643bd5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wkyt.com",
+                "www.wkyt.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000616,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9154929577464789
+        },
+        {
+            "domain": "prisa.com",
+            "prevalence": 0.08450704225352113
+        }
+    ],
+    "types": {
+        "Preflight": 13,
+        "Fetch": 6,
+        "XHR": 9,
+        "Document": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "a7-64.akam.net",
+        "a1-56.akam.net",
+        "a18-65.akam.net",
+        "a20-66.akam.net",
+        "a9-65.akam.net",
+        "a24-67.akam.net"
+    ]
+}

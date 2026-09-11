@@ -1,0 +1,148 @@
+{
+    "domain": "cdn-wsprod.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cdn-wsprod\\.azureedge\\.net\\/public\\/cwp\\/1037\\/dist\\/EN\\/styles\\.2543d239512451253136\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b57673f851c6c61dd5f6aecbe05e26b2806f9219a59c654f9318682690cc36e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mygoodtogo.com",
+                "www.mygoodtogo.com"
+            ]
+        },
+        {
+            "rule": "cdn-wsprod\\.azureedge\\.net\\/public\\/cwp\\/1037\\/dist\\/EN\\/runtime-es2015\\.bc5deafda99e083ed4b1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a0010ccfc6cc4f22462f9bb75556e16b1085b3f545af948977d14adc92e018b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mygoodtogo.com",
+                "www.mygoodtogo.com"
+            ]
+        },
+        {
+            "rule": "cdn-wsprod\\.azureedge\\.net\\/public\\/cwp\\/1037\\/dist\\/EN\\/polyfills-es2015\\.9a804a4dd24603e3e2b1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c1c8b62b29c5806424e10b58c7dd7f5844676cdff5637551490a82f0d78b177"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mygoodtogo.com",
+                "www.mygoodtogo.com"
+            ]
+        },
+        {
+            "rule": "cdn-wsprod\\.azureedge\\.net\\/public\\/cwp\\/1037\\/dist\\/EN\\/scripts\\.05c6a971fca30860e3d1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1572bf3683644dbb49f72f4b4909397976f8658af6ab3fc9c9e31aef36f059cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mygoodtogo.com",
+                "www.mygoodtogo.com"
+            ]
+        },
+        {
+            "rule": "cdn-wsprod\\.azureedge\\.net\\/public\\/cwp\\/1037\\/dist\\/EN\\/main-es2015\\.3e23dec76cc933f7026a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae6388ccb99433ca19468bc52653f922060ab08d20e556c9e7d885b5594e7220"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mygoodtogo.com",
+                "www.mygoodtogo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "gstatic.com",
+            "prevalence": 0.09090909090909091
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 8
+    },
+    "nameservers": []
+}

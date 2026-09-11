@@ -1,0 +1,330 @@
+{
+    "domain": "unidadeditorial.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "components",
+        "adtcdn",
+        "adtcdn2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "unidadeditorial\\.es\\/lib\\/tpi\\/ue-swg\\/v1\\.9\\.0\\/ue-swg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "components"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "console.memory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c279d79d4254c15cc9bd844e798e328a6c82cb404175466d61af29cb6d8e061f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expansion.com",
+                "www.expansion.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/lib\\/tpi\\/ue-swg\\/v1\\.8\\.0\\/ue-swg\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "components"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "console.memory": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23e7489c43093ef4f657186371b972899c46b60e822f823a41134f5c2d9ef710"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmundo.es",
+                "www.elmundo.es"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/gexp\\/_gam_kv_\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Navigator.prototype.userAgent": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.connection": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.doNotTrack": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "605d89752d2ea404e77bd7a02c49298cd3a9b529ee19d75f14eee9e42d8a4773"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmundo.es",
+                "www.elmundo.es",
+                "www.expansion.com",
+                "www.marca.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/gexp\\/getCfg-elmundo-US-d\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5d515ce956bf3565f1754ecf2b0a1af9a32fd548137b4f16d0d72f795d02eb34"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmundo.es",
+                "www.elmundo.es"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/mdw\\/wkh\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "738a3400d9f064d65526a561c8d4c7cd3d417f20e76675bc7783787b702d4cb4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmundo.es",
+                "www.expansion.com",
+                "www.marca.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/mdw\\/pspWorker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fa64c5dd522c02960eb0d0f5caea507907761dafa1cf90129214c195590a7346"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elmundo.es",
+                "www.expansion.com",
+                "www.marca.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/edw\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "79ed4ef3315c86abe20b9da3753ebfdb77cf574b26d592ffc92c8db8aebfc3bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expansion.com",
+                "www.expansion.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/gexp\\/getCfg-expansion-US-d\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn2",
+                "adtcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff8a8325fc0e97ff0b775c38a966b29df516e176ce823aa71632ae97af0e9bdb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expansion.com",
+                "www.expansion.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/mdw\\/migrate\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.getBattery": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.platform": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.maxTouchPoints": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5e96e30932c69dd86fdc67da149d0e08647defaf65c74ef9f1441ffac6c973e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marca.com",
+                "www.marca.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/mdw\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef1c7ff7455d47918a141d4f1d0950c7d0ae82fd752982b6cae9d1d431af6fe7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marca.com",
+                "www.marca.com"
+            ]
+        },
+        {
+            "rule": "unidadeditorial\\.es\\/gexp\\/getCfg-marca-US-d\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "adtcdn",
+                "adtcdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ad1433b93de1d03c83c028fde9236ecfe50da471bed8a5c43fff1bb89fb06391"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marca.com",
+                "www.marca.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7727272727272727
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.22727272727272727
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 6,
+        "Document": 3,
+        "Other": 3,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns.el-mundo.net",
+        "ns.elmundo.org",
+        "ns.elmundo.es"
+    ]
+}

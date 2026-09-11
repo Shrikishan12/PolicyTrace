@@ -1,0 +1,84 @@
+{
+    "domain": "drome6.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "captcha",
+        "img2"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "drome6\\.com\\/api\\/v2\\/captcha",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "captcha"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1cc70eef5aac0f41620981084008dbf736bc1935b20373031302197246c0e92f",
+                "0ce861d0962dc6e27917016266ecb43ed775ee479dba568555b78895a0293dd3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "escortbabylon.net",
+                "fortunecookies.com.listcrawler.eu",
+                "meqapersonals.eu"
+            ]
+        },
+        {
+            "rule": "drome6\\.com\\/imgs\\/9\\/4\\/0\\/3\\/9403a756121c16b0a9d7300ad0a7439e_s\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "img2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "65fa0b45e858672d79a94732fe2ad91a2e6cfb1cb1862b9fdc633541dbdb9334"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "listcrawler.eu",
+                "fortunecookies.com.listcrawler.eu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.984375
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.015625
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "perla.ns.cloudflare.com",
+        "cameron.ns.cloudflare.com"
+    ]
+}

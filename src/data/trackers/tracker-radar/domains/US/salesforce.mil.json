@@ -1,0 +1,85 @@
+{
+    "domain": "salesforce.mil",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "usaf.scrt"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "salesforce\\.mil\\/embeddedservice\\/v1\\/embedded-service-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usaf.scrt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "09f616603ae4f0e4df1ba691e2e590f8820976cce540270abeb6163d78a2b31f",
+                "a7b0d815dcefad5a890e5953223fdf28b0659355dafc3d15fcda3eaccd7c5ce5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airforce.com",
+                "www.airforce.com",
+                "www.spaceforce.com"
+            ]
+        },
+        {
+            "rule": "salesforce\\.mil\\/embeddedservice\\/v1\\/businesshours",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "usaf.scrt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b44caffbbd38ea74b3cbe01927fe5224ab7b2a4052fd132a10f4cd0c00046896",
+                "48733e945c9166ae3648c9e30d1ea56d65cb2958bfa4f50239468ff9ca8d196d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airforce.com",
+                "www.airforce.com",
+                "www.spaceforce.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "crmforce.mil",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "dns2.nipr.mil",
+        "dns3.nipr.mil",
+        "dns6.nipr.mil",
+        "dns5.nipr.mil",
+        "dns1.nipr.mil",
+        "dns4.nipr.mil"
+    ]
+}

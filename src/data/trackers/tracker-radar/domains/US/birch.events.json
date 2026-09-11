@@ -1,0 +1,67 @@
+{
+    "domain": "birch.events",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "signals"
+    ],
+    "cnames": [
+        {
+            "original": "ev.drift.co",
+            "resolved": "signals.birch.events"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "birch\\.events\\/sdk\\/capig-events\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "signals"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ev.drift.co",
+                    "resolved": "signals.birch.events"
+                }
+            ],
+            "responseHashes": [
+                "c06ac822b0e019a91f5b844c2acb820c0eb729c57b7df7910c1618a7de0b2852"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canonpress.com",
+                "drift.co"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "sean.ns.cloudflare.com",
+        "vivienne.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "domain": "elcorteingles.es",
+    "owner": {
+        "name": "El Corte Ingles S.A.",
+        "displayName": "El Corte Ingles"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cuenta"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "elcorteingles\\.es\\/oidc\\/check-session",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cuenta"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "52f02b3847a8faf3ee7fb06a90929ce92cd0d2e2281d698a1e9df8a16f74ab83"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hipercor.es",
+                "www.viajeselcorteingles.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2
+    },
+    "nameservers": [
+        "dns3.elcorteingles.es",
+        "dns4.elcorteingles.es",
+        "dns5.elcorteingles.es",
+        "dns6.elcorteingles.es"
+    ]
+}

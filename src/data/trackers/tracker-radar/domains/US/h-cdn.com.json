@@ -1,0 +1,479 @@
+{
+    "domain": "h-cdn.com",
+    "owner": {
+        "name": "Hola Networks Ltd.",
+        "displayName": "Hola Networks"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "perr",
+        "player",
+        "zagent24",
+        "zagent7",
+        "zagent16",
+        "zagent32",
+        "zagent1542",
+        "link",
+        "zagent891"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "h-cdn\\.com\\/hola_player\\/license_init",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "perr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "565339bc4d33d72817b583024112eb7f5cdf3e5eef0252d6ec1b9c9a94e12bb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "18dreams.net",
+                "www.flyflv.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "window.localStorage": 12,
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.product": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "ea185ebcce6a5b8fdfd4bf61816c6897aa0be18711216ea7eac23f9eee75d7c0",
+                "9379cb4eabbea07b69d5a9aca12595ca8222f330465ea078dc787df3e30f842b",
+                "8d46e9de28fb0de31b787acd842a10c7c43c2fb82bc9199cd97770509630c985",
+                "930c0cf109d2977ca5faebf703e99de27e2f202e57ac7c3f51d1e78d038d9ef8",
+                "49306f6981e2d741f48bcb78c5ed1d49a3599bb73bc32ec553944a42a39029f9",
+                "d26d927222c096a344b0b302587ed2e37abb305ad9b7b71d90a275e146a45fda",
+                "a461038b686f14a74e9fda2437cbc87e18233651591119863c8950d4f298cec5",
+                "9b1411ac52c4273e50236b81a2371c2b50c1d743232cfde35fafe683636fbc43",
+                "4f4f72d6afbb7e42ace8314a9243ffde40179f257b8ba2dd76b99ecd91ace0de",
+                "a0b5a8e8869947218d4f326556f4afafea1a69047bc3651f960aced961579f4f",
+                "9421dad5e85c99a83f24aaecd52f655aa2c250abfbd2724bb662efe9edc82836",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "my.foxnews.com",
+                "noticias.foxnews.com",
+                "www-ak-ms.foxnews.com",
+                "www.ard.de",
+                "www.foxbusiness.com",
+                "www.foxnews.com",
+                "www.outkick.com",
+                "www.polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.sportschau.de",
+                "www.tagesschau.de",
+                "www.tvp.info"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "2203cfb262020267a77324147453c38ac128fd32a66e5fd3fbfee056fd4385ff",
+                "362a1d250677de8070e562ff95bd40051d3083af505c75d0f5cb5da0cf39e5df",
+                "111abde86e6ea1c9f94f74c3fcf4d890d1dc405d5385ec57502c584767a525fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "noticias.foxnews.com",
+                "www-ak-ms.foxnews.com",
+                "www.ard.de",
+                "www.foxbusiness.com",
+                "www.foxnews.com",
+                "www.outkick.com",
+                "www.polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/be_client_cgi\\/perr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "perr"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "d723a603d3a114b1def5093b4cfad8597246891011293eeb1079fa0c7670da9c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www-ak-ms.foxnews.com",
+                "www.foxbusiness.com",
+                "www.foxnews.com",
+                "www.outkick.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/be_client_cgi\\/perr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "perr"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxnews.com",
+                "www.foxbusiness.com",
+                "www.outkick.com",
+                "www.polsatsport.pl",
+                "www.sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/cmd\\/get_links_info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zagent24",
+                "zagent7",
+                "zagent16",
+                "zagent32",
+                "zagent1542"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "49e9013a3e5f0c10f28945115612bbb6d58b4dde380cd152b0100df6f52aef25",
+                "5b17f1038d7ac742cf4835dc68c29078e0976bb28f1fa92ffe2b51fda6cf3296",
+                "bbb78d96ed1e38802b6a424f5da377b24233a177413652da08d5dcdabae1f7e7",
+                "028ea2d8f23611909d74c73ba7380b8c144259163c5d5bcab2b1e37f83334244"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ard.de",
+                "www.ard.de",
+                "www.outkick.com",
+                "www.polsatsport.pl",
+                "www.polsatnews.pl",
+                "www.sportschau.de",
+                "www.tagesschau.de"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b141a7524bb772ea57aaf05440bcae1e74fe44208644cad5bcd70f8a3c6e2ba4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxbusiness.com",
+                "www.foxbusiness.com",
+                "www.foxnews.com",
+                "www.outkick.com",
+                "www.polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/playlist\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "42224d4aca0ff3faca9c8ff6dddfc649dfdda53c48cede3db38150b71190bf07"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxbusiness.com",
+                "www.foxbusiness.com",
+                "www.foxnews.com",
+                "www.outkick.com",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c6c17dceaeb3949ae8883b3b92493101a907ddf8eca3990ef0670ac6e68fb51d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxbusiness.com",
+                "www.foxbusiness.com",
+                "www.outkick.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "link"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxbusiness.com",
+                "www.foxbusiness.com",
+                "www.outkick.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/ws_client",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zagent16",
+                "zagent891"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outkick.com",
+                "www.outkick.com"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/watch_later\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7b4f4ab6e72f1fe486a751512743841d7ef2475fd6b868ea56cfb8fe0369f1a1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/css\\/casting\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ccb0dbde9ca221036804a7ccb05809a3e0d62cc1ffa2aa6692f2cd44da39c39a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/img\\/watch_later_add\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8ae3dd389b22a4179e743da1d72fcb3141d57fdcf658bce95eee61709faa1df7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/img\\/watch_later_wait\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d27eef7f158e3a02824a71ee7fbc79135b8338f586d85def06d97982e035300e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        },
+        {
+            "rule": "h-cdn\\.com\\/svc\\/cdn\\/pub\\/img\\/watch_later_done\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1f4e6e1a63c5f362e64e10b412d8696d2409bb2e06a38bbbc5e6268a1898683"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polsatsport.pl",
+                "www.polsatnews.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5483870967741935
+        },
+        {
+            "domain": "foxnews.com",
+            "prevalence": 0.3870967741935484
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06451612903225806
+        }
+    ],
+    "types": {
+        "XHR": 17,
+        "Script": 24,
+        "Ping": 6,
+        "Stylesheet": 15,
+        "Preflight": 3,
+        "WebSocket": 2,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns-1405.awsdns-47.org",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-43.awsdns-05.com",
+        "ns-661.awsdns-18.net"
+    ]
+}

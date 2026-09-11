@@ -1,0 +1,1143 @@
+{
+    "domain": "unbxdapi.com",
+    "owner": {
+        "name": "Unbxd Software Private Limited",
+        "displayName": "Unbxd Software"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00061,
+    "sites": 89,
+    "subdomains": [
+        "tracker",
+        "libraries"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "unbxdapi\\.com\\/v2\\/1p\\.jpg",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "eb790d67ecadf8b71ca8f7523631ad5a9d6bd4b2926739f9e87fea95a5e63a53",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "unbxd.userId": 0.000191790017329598,
+                "unbxd.visit": 0.00019863966080565506,
+                "unbxd.visitId": 0.00020548930428171213,
+                "IR_gbd": 0.00006849643476057071,
+                "_li_dcdm_c": 0.00006164679128451365,
+                "fcd_li_attempted_whitelist_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "equippers.com",
+                "www.bostonscally.com",
+                "countrystorecatalog.com",
+                "bws.com.au",
+                "www.hsn.com",
+                "www.motosport.com",
+                "www.childrensplace.com",
+                "www.sanity.com.au",
+                "childrensplace.com",
+                "www.gardner-white.com",
+                "www.jeromes.com",
+                "www.unique-vintage.com",
+                "advanceautoparts.com",
+                "www.apmex.com",
+                "www.express.com",
+                "shop.advanceautoparts.com",
+                "www.ezcontacts.com",
+                "apmex.com",
+                "serengetifashions.com",
+                "motosport.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/prod-apmex807791568789776_autosuggest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4a900588dbbd5cd1a96abadecfd5a5dc697dd4c54158eb5eff147e987ca7d6b8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apmex.com",
+                "www.apmex.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua-js\\/v1\\.0\\.0\\/uaLibrary\\.js",
+            "cookies": 0.0000411,
+            "fingerprinting": 2,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.language": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "window.sessionStorage": 5,
+                "window.localStorage": 5,
+                "window.indexedDB": 5,
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.doNotTrack": 5,
+                "Navigator.prototype.appName": 5,
+                "Navigator.prototype.plugins": 5,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "a136eff86d817854b0b27804d8bb434c8bf512eba6c0cce6955ba0fa307c72c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787656555,
+                    "length": 3,
+                    "prevalence": 0.000041097860856342424,
+                    "uniqueness": 0.16666666666666666
+                },
+                "unbxd.userId": {
+                    "ttl": 297810451,
+                    "length": 23,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1803,
+                    "length": 10,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 0.2
+                },
+                "unbxd.visitId": {
+                    "ttl": 1805,
+                    "length": 27,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apmex.com",
+                "www.apmex.com",
+                "www.gardner-white.com",
+                "www.jeromes.com",
+                "www.stantonoptical.com",
+                "www.tradetools.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/prod-apmex807791568789776_autosuggest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aaaf504316e77a16bb2f702ec53de3868fda65f12374229662933174b0ba53ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apmex.com",
+                "www.apmex.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ballarddesigns-com701601521729626\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bcf416df74893dfd12a97266b486210629ac67904ef0da3539921cd90419b6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ballarddesigns.com",
+                "www.ballarddesigns.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua\\/v6\\.3\\.1\\/uaLibrary\\.js",
+            "cookies": 0.0000959,
+            "fingerprinting": 2,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.sessionStorage": 14,
+                "Document.cookie getter": 14,
+                "window.localStorage": 14,
+                "Document.cookie setter": 14,
+                "Date.prototype.getTime": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.language": 14,
+                "Screen.prototype.colorDepth": 14,
+                "Date.prototype.getTimezoneOffset": 14,
+                "window.indexedDB": 14,
+                "Navigator.prototype.platform": 14,
+                "Navigator.prototype.doNotTrack": 14,
+                "Navigator.prototype.appName": 14,
+                "Navigator.prototype.plugins": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "6ea9391175f4c5061a5ec1372fe450202ddcd73c900f65b21651ef7d20dbba37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787639180,
+                    "length": 3,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 0.07142857142857142
+                },
+                "unbxd.userId": {
+                    "ttl": 297817437,
+                    "length": 23,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1807,
+                    "length": 10,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 0.07142857142857142
+                },
+                "unbxd.visitId": {
+                    "ttl": 1809,
+                    "length": 27,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ballarddesigns.com",
+                "boscovs.com",
+                "frontgate.com",
+                "garnethill.com",
+                "grandinroad.com",
+                "locations.boscovs.com",
+                "www.ballarddesigns.com",
+                "www.boscovs.com",
+                "www.frontgate.com",
+                "www.garnethill.com",
+                "www.globalgolf.com",
+                "www.grandinroad.com",
+                "www.pilates.com",
+                "www.propper.com",
+                "www.worldwidegolfshops.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/v2\\/1p\\.jpg",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "eb790d67ecadf8b71ca8f7523631ad5a9d6bd4b2926739f9e87fea95a5e63a53"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "unbxd.userId": 0.000191790017329598
+            },
+            "exampleSites": [
+                "www.worldwidegolfshops.com",
+                "locations.boscovs.com",
+                "www.propper.com",
+                "www.boscovs.com",
+                "www.suttons.co.uk",
+                "frontgate.com",
+                "www.thompson-morgan.com",
+                "www.dobies.co.uk",
+                "boscovs.com",
+                "www.globalgolf.com",
+                "farmstore.com",
+                "www.frontgate.com",
+                "www.homemakers.com",
+                "www.andaazfashion.com",
+                "www.extra.com",
+                "www.canadacomputers.com",
+                "www.adairs.com.au",
+                "www.nfm.com",
+                "www.eldoradofurniture.com",
+                "www.unique-vintage.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/boscovs-com811221579175852_autosuggest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8153d140800cc1ae029c0a4f94d334901af449368a1527a4448864c26e884194"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boscovs.com",
+                "www.boscovs.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/boscovs-com811221579175852\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7384292b1bac625c061888d06889baa2c12ab4053184536dcbbc3414e29d8039"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boscovs.com",
+                "locations.boscovs.com",
+                "www.boscovs.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/boscovs-com811221579175852_autosuggest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94f2c3d7a2434353df6d18569358ad3f7c38d55627e56d6d4785be07f2e09170"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boscovs.com",
+                "www.boscovs.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/recs-sdk\\/v3\\.1\\.1\\/unbxd_recs_template_sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "Screen.prototype.height": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9e914864133f3697f4f4b0446710de5d32c2d5f3028c352dd92a63b90fb2e6d4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countrystorecatalog.com",
+                "cuddledown.com",
+                "northstyle.com",
+                "serengetifashions.com",
+                "www.appleseeds.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua\\/v5\\.0\\.8\\/uaLibrary\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "67da48c8ae1fd946d5691ce893f04a86925ed5cd22c43f178a61feb9adc23370"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787684440,
+                    "length": 3,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "unbxd.userId": {
+                    "ttl": 297846808,
+                    "length": 23,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1808,
+                    "length": 10,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "unbxd.visitId": {
+                    "ttl": 1808,
+                    "length": 26,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "equippers.com",
+                "www.mwave.com.au"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/prod-ezcontacts-com810191571375321_autosuggest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "135140d2a376941761dea3d44c56abe86a1e27d12a1d2bd8637a0a55fcf54792"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/prod-ezcontacts-com810191571375321_autosuggest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "84c1056ff7ceec92c38261be353cde43ed77e4360a4acc937b11f6f85cc0fe5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua\\/v6\\.3\\.2\\/uaLibrary\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 2,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.sessionStorage": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 9,
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.language": 9,
+                "Screen.prototype.colorDepth": 9,
+                "Date.prototype.getTimezoneOffset": 9,
+                "window.indexedDB": 9,
+                "Navigator.prototype.platform": 9,
+                "Navigator.prototype.doNotTrack": 9,
+                "Navigator.prototype.appName": 9,
+                "Navigator.prototype.plugins": 9,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "7a56fa6603adadd3249f893b442b32507d90b386ccca7998ff7c7dc9a26127ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787623411,
+                    "length": 3,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                },
+                "unbxd.userId": {
+                    "ttl": 297831389,
+                    "length": 23,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1802,
+                    "length": 10,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                },
+                "unbxd.visitId": {
+                    "ttl": 1804,
+                    "length": 27,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "farmstore.com",
+                "woolery.com",
+                "www.canadacomputers.com",
+                "www.dobies.co.uk",
+                "www.eldoradofurniture.com",
+                "www.homemakers.com",
+                "www.nfm.com",
+                "www.thompson-morgan.com",
+                "www.unique-vintage.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/frontgate-com701601521464564\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bbd1af2893a52e5b14e7554fb41f548467dffab749841ac78460df620c5fd378"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frontgate.com",
+                "www.frontgate.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/garnethill-com701601521464415\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc79351b6e8a0b52f58413b35aaba4d54fca9dc9c89705f173804f5c85fa566a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garnethill.com",
+                "www.garnethill.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/grandinroad-com701601521722972\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4c3b8e42cf212019f5e38508c06199b8af2012ceae981b2cb31179130b3787ef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandinroad.com",
+                "www.grandinroad.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/unbxdAutosuggest_v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "19791548288224764e48a1cdf0ad7a7cbdcd5fa859a7babe59620ed447fad42b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motosport.com",
+                "www.motosport.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-gus-cust-99-ranch45791775224166\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0edc6d018c7ec4e3a83851b2473616d495d6ee03592496c72cefa525e3254c60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "99ranch.com",
+                "www.99ranch.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua\\/v6\\.3\\.9\\/uaLibrary\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 3,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.vendor": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availHeight": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.plugins": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b1d5929a97ece5c345ee5059d5351dd2813ea6e76582604c10392a1abdbfb12d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787612246,
+                    "length": 3,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "unbxd.userId": {
+                    "ttl": 297842554,
+                    "length": 23,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1801,
+                    "length": 10,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "unbxd.visitId": {
+                    "ttl": 1805,
+                    "length": 27,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1787612245,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "99ranch.com",
+                "www.99ranch.com",
+                "www.suttons.co.uk"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/ua\\/v6\\.3\\.10\\/uaLibrary\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 3,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.vendor": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availHeight": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.plugins": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "929c157d907be3610aaea459a8faed0ab4712fe99dd715bed09ba7b3f8d4b4f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787619274,
+                    "length": 3,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "unbxd.userId": {
+                    "ttl": 297835526,
+                    "length": 23,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1802,
+                    "length": 10,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "unbxd.visitId": {
+                    "ttl": 1805,
+                    "length": 27,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1787619273,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adairs.com.au",
+                "www.andaazfashion.com",
+                "www.shoplc.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/v2\\/1p\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "dunhamssports.com",
+                "www.dunhamssports.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/unbxdAnalytics\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.plugins": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a136eff86d817854b0b27804d8bb434c8bf512eba6c0cce6955ba0fa307c72c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "unbxd.foo": {
+                    "ttl": -1787656555,
+                    "length": 3,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "unbxd.userId": {
+                    "ttl": 297825816,
+                    "length": 23,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "unbxd.visit": {
+                    "ttl": 1801,
+                    "length": 10,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "unbxd.visitId": {
+                    "ttl": 1801,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gardner-white.com",
+                "www.gardner-white.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-gcp-usprod-globalgolf-com19121703709844\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1db1ee6e355ddbb1ceb62919dcfd4347cfcbaeefaaf86744f390b44d4c592942"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalgolf.com",
+                "www.globalgolf.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-gus-prod-nfm25971742752629\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2325613e2f6554818c80d662d9e8ac2149205215203c34184a6cb7ff3557de12"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nfm.com",
+                "www.nfm.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/autosuggest-js-sdk\\/v1\\.1\\.2-beta\\.3\\/autosuggest\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b4321c7904ede43b02c939f6ed436c0ad31a1bf66f72d36b231b085f1d21025f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shoplc.com",
+                "www.shoplc.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-aus-shoplc-shopify-prod818081783425717\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dfbf601281d95bcbca40b21411078dd066fae96cb05e4683ed379cdd0deb9bf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shoplc.com",
+                "www.shoplc.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-gus-Prod-UniqueVintage36331749185404\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1f55e8b44ba6b3c3697f9bc0787775d092e63c43ef058e4551145c7b013e8800"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unique-vintage.com",
+                "www.unique-vintage.com"
+            ]
+        },
+        {
+            "rule": "unbxdapi\\.com\\/sdk-clients\\/ss-unbxd-gcp-prod-worldwidegolf19121695152854\\/ua\\/ua\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "libraries"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07109521852370b233d34ce06bdcaaf8e2fdafd50e3d63d0740021fa947e2e76"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "worldwidegolfshops.com",
+                "www.worldwidegolfshops.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000425,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7028301886792453
+        },
+        {
+            "domain": "d21gpk1vhmjuf5.cloudfront.net",
+            "prevalence": 0.19811320754716982
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.02830188679245283
+        },
+        {
+            "domain": "visually.io",
+            "prevalence": 0.02830188679245283
+        },
+        {
+            "domain": "clarity.ms",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "pandect.es",
+            "prevalence": 0.009433962264150943
+        },
+        {
+            "domain": "chimpstatic.com",
+            "prevalence": 0.0047169811320754715
+        },
+        {
+            "domain": "betterstack.net",
+            "prevalence": 0.0047169811320754715
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.0047169811320754715
+        }
+    ],
+    "types": {
+        "Image": 30,
+        "Stylesheet": 8,
+        "Script": 76,
+        "Ping": 29,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1206.awsdns-22.org",
+        "ns-1985.awsdns-56.co.uk",
+        "ns-796.awsdns-35.net",
+        "ns-102.awsdns-12.com"
+    ]
+}

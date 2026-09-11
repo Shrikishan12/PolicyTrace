@@ -1,0 +1,85 @@
+{
+    "domain": "bambuser.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bambuser\\.net\\/player\\/lib\\/bambuser-video-core\\/b2bc71517ed60c37ca39fbbdb56bb221f3a56475\\/bambuser-video-core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "MediaSource.isTypeSupported": 1,
+                "Navigator.prototype.platform": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "Navigator.prototype.mediaCapabilities": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0c15dcb7a9f5227acfcd77bb2e5d02cd7109a6ed827e313e1319b17976baee9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eltamd.com",
+                "www.benefitcosmetics.com",
+                "www.sisley-paris.com"
+            ]
+        },
+        {
+            "rule": "bambuser\\.net\\/contentRequests",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sisley-paris.com",
+                "www.sisley-paris.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bambuser.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-700.awsdns-23.net",
+        "ns-40.awsdns-05.com",
+        "ns-1388.awsdns-45.org",
+        "ns-1541.awsdns-00.co.uk"
+    ]
+}

@@ -1,0 +1,138 @@
+{
+    "domain": "r2net.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "affiliates",
+        "ido"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "r2net\\.com\\/scripts\\/0gvjgz",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "affiliates"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5c42c1473c991eb42bc7001744d16f38de17c5d57d100e1411fa712bd608ce01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "PAPVisitorId": {
+                    "ttl": 31536008,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluenile.com",
+                "www.bluenile.com"
+            ]
+        },
+        {
+            "rule": "r2net\\.com\\/ido",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ido"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ccc686a66d1de1c87ce911733f524b550800849b697c91dad490bb4966239b4a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluenile.com",
+                "www.bluenile.com"
+            ]
+        },
+        {
+            "rule": "r2net\\.com\\/scripts\\/0gvrgz",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliates"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4282574963130543400f2c441e28f37fb31256efeb34d8a38125d9555deadda6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "bluenile.com",
+                "www.bluenile.com"
+            ]
+        },
+        {
+            "rule": "r2net\\.com\\/scripts\\/imp\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliates"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cf3b301c3fc7bb3fdb44c7fa958d384649705d3317dee809144cdd7cbab3eac9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jewelryshoppingguide.com",
+                "www.jewelryshoppingguide.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-702.awsdns-23.net",
+        "ns-371.awsdns-46.com",
+        "ns-1617.awsdns-10.co.uk",
+        "ns-1465.awsdns-55.org"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "domain": "getclipara.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "widget",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "getclipara\\.com\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1d3e1a24cf2471833521718c2c4082b0efd142f254124d8c33d519917d7cf366"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wetforher.com",
+                "www.berkshireeagle.com",
+                "www.sosyncd.com"
+            ]
+        },
+        {
+            "rule": "getclipara\\.com\\/widget\\/get",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80717c1eb4d26afc4bc7768a63727d85498d12e742d698806055e1e07006b9ee"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "wetforher.com",
+                "www.sosyncd.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-585.awsdns-09.net",
+        "ns-430.awsdns-53.com",
+        "ns-1867.awsdns-41.co.uk",
+        "ns-1405.awsdns-47.org"
+    ]
+}

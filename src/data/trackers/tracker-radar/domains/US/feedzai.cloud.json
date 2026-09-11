@@ -1,0 +1,103 @@
+{
+    "domain": "feedzai.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "fd.digitaltrust",
+        "frontguard.digitaltrust.eu-03",
+        "frontguard.ceteo.eu-03"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "feedzai\\.cloud\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fd.digitaltrust"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kutxabank.es",
+                "portal.kutxabank.es"
+            ]
+        },
+        {
+            "rule": "feedzai\\.cloud\\/signature\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontguard.digitaltrust.eu-03",
+                "frontguard.ceteo.eu-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3da86e4eb10f0e7c1e24c02624c65ed951b08ad50ae36f542d7ff51a5905216e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kutxabank.es",
+                "www.caixabank.es"
+            ]
+        },
+        {
+            "rule": "feedzai\\.cloud\\/signature\\/verify",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frontguard.digitaltrust.eu-03",
+                "frontguard.ceteo.eu-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kutxabank.es",
+                "www.caixabank.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-101.awsdns-12.com",
+        "ns-1408.awsdns-48.org",
+        "ns-1787.awsdns-31.co.uk",
+        "ns-833.awsdns-40.net"
+    ]
+}

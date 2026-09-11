@@ -1,0 +1,286 @@
+{
+    "domain": "indiatimes.com",
+    "owner": {
+        "name": "Times Internet Ltd",
+        "displayName": "Times Internet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "geoapi",
+        "jssocdn",
+        "agi-static",
+        "jsso",
+        "global-feed",
+        "langstatic",
+        "langnetstorage"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "indiatimes\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e23507fe0124884489d1d2e73e1b14fb979f16dec8a87a0b1fa2e533ca17d59a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pregatips.com",
+                "tamil.samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/crosswalk\\/61\\/widget\\/crosswalk\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jssocdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "28138c3b827cf591bbf9703849ad408bef73f544f3b955d1bae73d7f232cb336"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pregatips.com",
+                "tamil.samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/cms-common\\/ibeat\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "agi-static"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerHeight": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3fb212185b46ba70b9b44a6e1181de0c3b325f407ec5505596d72bd611d74531"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_iibeat_session": {
+                    "ttl": 15768005,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_iibeat_vt": {
+                    "ttl": 2592005,
+                    "length": 8,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pregatips.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/sso\\/crossapp\\/identity\\/web\\/getUserDetails",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsso"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ddfd865e7f12769fb2bda5bcaa84657980cae7117acc679be6877a2d318909b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pregatips.com",
+                "tamil.samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/sso\\/crossapp\\/identity\\/web\\/getUserDetails",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jsso"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pregatips.com",
+                "tamil.samayam.com",
+                "telugu.samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/wufs\\/feed\\/list\\/mixed",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "global-feed"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "73dd5e8ef27acafd2d90e035de1f830c5ef389024da3f34dc8ac96245b98154f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "tamil.samayam.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/assets\\/html\\/common\\/youtubesubscribe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "langstatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "22362ba75ee300fe736043ad958a6040c8147d42d97791cee9ece3a36f7601e1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/media\\/sprites\\/et\\/svgsprite_tree_scb\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "langstatic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a5b7209a97423cc6541d97cdb167c49636106dc2dd1d661866ef12f8c689b8ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        },
+        {
+            "rule": "indiatimes\\.com\\/Score\\/nbtappcricwidget\\.htm",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "langnetstorage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07c8944f42ddcbec9a9815a13a4d7c45ed4be3d8ddd8379cf608134227d5c324"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "samayam.com",
+                "vijaykarnataka.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "storage.googleapis.com",
+            "prevalence": 0.17045454545454544
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.011363636363636364
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "XHR": 4,
+        "Preflight": 4,
+        "Fetch": 6,
+        "Document": 2
+    },
+    "nameservers": [
+        "a1-127.akam.net",
+        "a28-67.akam.net",
+        "a9-64.akam.net",
+        "a26-66.akam.net",
+        "a2-65.akam.net"
+    ]
+}

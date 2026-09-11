@@ -1,0 +1,240 @@
+{
+    "domain": "hlpst.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "web",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hlpst\\.app\\/launch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c40cf8c8574cd5cf8fa474f2c665c1d4686953d8ed13aab922b449756f5221cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/web_app\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/web_app\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4bd6e7ae88d314676ae707c85c0ba3ea8b7ad2640a7ad5f72d54a967d876b69e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/widget-frame\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5f658b1f8f7aa2f1942838f001fd2be593a5bc54e3623cd2c44092c31aefc98"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00d4a7039633adb9d66b3093397161d071d2f8fd644ba44f5eb148e71b1116a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/assets\\/index-5kckSipL\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "193f23133d8a87e4b97a73d97e5b336b82507dbcdd164761534d53f7c28d4beb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/assets\\/index-ezkGB1FI\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "285fca1f1273a5ad2d06a8a5beb0ae7d55a64f2383c1ace890534157a7569740"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/assets\\/fbPixel-CzQ4z2x3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f0bac1d59c77c4e427c12b36bbb6031fbff643b64620215471b2e355f1c32db7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        },
+        {
+            "rule": "hlpst\\.app\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacity.gov",
+                "www.cvgairport.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "Document": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "nancy.ns.cloudflare.com",
+        "dylan.ns.cloudflare.com"
+    ]
+}

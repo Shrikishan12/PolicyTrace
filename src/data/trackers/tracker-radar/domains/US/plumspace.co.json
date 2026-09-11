@@ -1,0 +1,106 @@
+{
+    "domain": "plumspace.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "age",
+        "polls"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "plumspace\\.co\\/css\\/show-popup\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age",
+                "polls"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "3206e8817f63738d5a4a5b16c182f380b0535a8a2f6f1c53df69140aabc8ae36"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emacstactical.com",
+                "pgfirearms.com",
+                "www.anarchyoutdoors.com",
+                "www.trustworthy.com"
+            ]
+        },
+        {
+            "rule": "plumspace\\.co\\/api\\/front\\/countViews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a00fb0c50741f81bb51d35b4475a4357f8039aabd896a21036bc516839401595"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgfirearms.com",
+                "www.anarchyoutdoors.com"
+            ]
+        },
+        {
+            "rule": "plumspace\\.co\\/api\\/front\\/countViews",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "age"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgfirearms.com",
+                "www.anarchyoutdoors.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bestfreecdn.com",
+            "prevalence": 0.625
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.375
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "roan.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "domain": "sales-marker.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "www.analytics",
+        "api.analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sales-marker\\.jp\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www.analytics"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e458469e624fc028d3acef4ec3290eb5aaeb629df54ca351c842c1f6d422ab9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qualtrics.com",
+                "www.qualtrics.com"
+            ]
+        },
+        {
+            "rule": "sales-marker\\.jp\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qualtrics.com",
+                "community.qualtrics.com",
+                "www.qualtrics.com"
+            ]
+        },
+        {
+            "rule": "sales-marker\\.jp\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.analytics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3c80613e33b126cd7b916bfdd7c5e14d4a601e07eb4a7732c53ff9025f44af33",
+                "acdf32c72956201c7c684f740d1d085ecaeccdecc4dc215c27626dc67092036f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "qualtrics.com",
+                "community.qualtrics.com",
+                "www.qualtrics.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "visualwebsiteoptimizer.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-1913.awsdns-47.co.uk",
+        "ns-463.awsdns-57.com",
+        "ns-878.awsdns-45.net",
+        "ns-1125.awsdns-12.org"
+    ]
+}

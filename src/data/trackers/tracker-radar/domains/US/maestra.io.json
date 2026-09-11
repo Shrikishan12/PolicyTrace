@@ -1,0 +1,383 @@
+{
+    "domain": "maestra.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000171,
+    "sites": 25,
+    "subdomains": [
+        "api",
+        "personalization-speedtest.omega",
+        "api.omega"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "maestra\\.io\\/scripts\\/v1\\/tracker\\.js",
+            "cookies": 0.000103,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "console.memory": 15,
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.cookieEnabled": 15,
+                "Document.cookie setter": 15,
+                "Document.cookie getter": 15,
+                "window.localStorage": 15,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "5ccc44c1195f767a44aea13bb764ad1208178cfb17bcf3d780af6003ad6655e2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "maestraDeviceUUID": {
+                    "ttl": 362517125,
+                    "length": 36,
+                    "prevalence": 0.00010274465214085606,
+                    "uniqueness": 1
+                },
+                "directCrm-session": {
+                    "ttl": 63120833,
+                    "length": 67,
+                    "prevalence": 0.00010274465214085606,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeropress.com",
+                "allfreshseafood.com",
+                "coolibar.com",
+                "enlightenedequipment.com",
+                "forum.audiogon.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "overgear.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.nationsphotolab.com",
+                "www.sena.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/v1\\.1\\/customer\\/track-visit",
+            "cookies": 0.000123,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "c76c53c5dcdd733edb1dd88bf653108f8548638e9c7697e4e64e8e01b8987644",
+                "7160760a875d61ddf897896ed035ed3a8d67b53dfa6f2d59d009bb21d3e88ed5",
+                "7cb18e385424ee3b3cc688743552bf36a5fa22d8487b37f86e89fac967a20cbe",
+                "8fe4603a91e70e0ae41debb11a732f7b51bb075099b9243c32ee81310551f34e",
+                "460cf2e2b628010d9e5ed1b89ec47ff4e00904847c20290ee1ccc0dba1b34c8f",
+                "02d96516ac3ba00943d7c7375cfd5fb5b6f871d3f8437578b3617ece2df5540c",
+                "5c038794556ef9ac40b1418db362e200da285e3b435f21404b8982d0c70ba6bd",
+                "ea2ee188d82ae03044589b70e271b1e8056ec964c8d2b97c0adf230d1effc742",
+                "12ceda72ef50c0df59b71e3c458ba7550e9deb1572361eef5d23a45de4006759",
+                "8b81fd73b66bd72909a9c8bc4eaa4c858898c10550c8c503df4a5d928d1fd978",
+                "630e94f1380c54f86de499535e4bef0a2fa20b95c71ab0c6d75ccc1ef2af32da",
+                "4223154d3d1975d2c51135d54ad65916d0a1b5afc3ca9a8b1a007fd3f2b4f921",
+                "21e699f97c7c6524f053a85396989bb34e94e550816a77d4ad4053d4a3b5566f",
+                "51c104f1901406884f7ca63d40ef1fcb0ee8011ca8fc047ef25707b330d372ae",
+                "3c1ac5f64443c1da26aa5465fe4a94714b258fab4b5ac2c31591af1ef0859634",
+                "523cc100b138dff6cc1b68b6579eb4002906808f399c309a90496d8741bbe996",
+                "e353277c7e4b82abac831f0f2612674e67335be9fd8042e1cf5a4f9d75a8b099"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeropress.com",
+                "allfreshseafood.com",
+                "coolibar.com",
+                "enlightenedequipment.com",
+                "forum.audiogon.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "overgear.com",
+                "sunnyflowerdelivery.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.movavi.com",
+                "www.nationsphotolab.com",
+                "www.screencapture.com",
+                "www.sena.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/scripts\\/modules\\/shopify\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "window.sessionStorage": 18
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "78bdffd21420e4d1b4713b683b4182df3aa9c6b49360ae67fd86cf15028c50cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aeropress.com",
+                "allfreshseafood.com",
+                "coolibar.com",
+                "enlightenedequipment.com",
+                "forum.audiogon.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "overgear.com",
+                "sunnyflowerdelivery.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.movavi.com",
+                "www.nationsphotolab.com",
+                "www.screencapture.com",
+                "www.sena.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/v3\\/js\\/operations\\/sync",
+            "cookies": 0.000089,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "420edb6ea93f5d7bae0245c7bedfd770d990ffccff5848abdc83c001b2b8abd5",
+                "b8af8869a15eea0dbfc68df60f3212e221bca636a81c9cc1ff45a9938aab584b",
+                "b7ee2b9fcd08a49d91eebba1c2965481d633b69a502a8221a08937ffd37a1319",
+                "967b8d87a23610485cdd033d02aa36e828663b534a133e694af3b08ddbb72743",
+                "10685ce85f21e64e65ff9e01d0fc17ea84d13d83885288a74dc5565fa1bbb78c",
+                "e35c2ad5432a0b04b65d344123be6ee1fa80f86d507a9a83dfb0e02104c8b512",
+                "bb52dd08305dad5639d907516d738f694786eaa1b1e7e8a68c57cebc8240f050",
+                "13bc166a11d01740dcfa7e5f89446bbf3b09dd1bb5e5597462cdaae9b04119f1",
+                "efc207ff7633d69f5db954887e37d64606f5c6ece5b90b67cb06067afa1a5f5c",
+                "b8e3835876e893cd2990961055617f5230201fc6903fe21385fc45f34e549b4b",
+                "13c35c91c8c5d02f7321306c9c77f20ef68021cae346a5319072523dd51a99ee",
+                "2c5ddf71e9b16e5598db71f6db77c18f1bc0ddb66d85f1b3a141fe6afa1f325c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "enlightenedequipment.com",
+                "forum.audiogon.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "overgear.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.movavi.com",
+                "www.screencapture.com",
+                "www.sena.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/v3\\/js\\/operations\\/async",
+            "cookies": 0.000089,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "enlightenedequipment.com",
+                "forum.audiogon.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "overgear.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.movavi.com",
+                "www.screencapture.com",
+                "www.sena.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/client-stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-speedtest.omega"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "enlightenedequipment.com",
+                "furniturefair.net",
+                "lectricebikes.com",
+                "lucyandyak.com",
+                "svahausa.com",
+                "www.audiogon.com",
+                "www.coolibar.com",
+                "www.trashie.io"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/check-reco",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "personalization-speedtest.omega"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enlightenedequipment.com",
+                "furniturefair.net",
+                "lucyandyak.com",
+                "svahausa.com",
+                "www.audiogon.com"
+            ]
+        },
+        {
+            "rule": "maestra\\.io\\/geo\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.omega"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "08b1979056bd6843cee54aa0b70db59ca39354e3f232e9b3b1b9a9ca75b59d37"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "furniturefair.net",
+                "lectricebikes.com",
+                "svahausa.com",
+                "www.coolibar.com",
+                "www.sena.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000164,
+    "topInitiators": [
+        {
+            "domain": "maestra-static.io",
+            "prevalence": 0.47019867549668876
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.36423841059602646
+        },
+        {
+            "domain": "mindbox.cloud",
+            "prevalence": 0.059602649006622516
+        },
+        {
+            "domain": "staticont.net",
+            "prevalence": 0.039735099337748346
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.033112582781456956
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.019867549668874173
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.006622516556291391
+        },
+        {
+            "domain": "posthog.com",
+            "prevalence": 0.006622516556291391
+        }
+    ],
+    "types": {
+        "Script": 33,
+        "XHR": 36,
+        "Ping": 13,
+        "Image": 13
+    },
+    "nameservers": [
+        "ns-1898.awsdns-45.co.uk",
+        "ns-210.awsdns-26.com",
+        "ns-1236.awsdns-26.org",
+        "ns-1005.awsdns-61.net"
+    ]
+}

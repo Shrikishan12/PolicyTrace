@@ -1,0 +1,108 @@
+{
+    "domain": "goaffpro.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000247,
+    "sites": 36,
+    "subdomains": [
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "goaffpro\\.app\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 22
+            },
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "82035b3d5b5cee60b8274e5ab2ac782cb69759e89f19f21bda340e2d627681c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "store.anycubic.com",
+                "flyhoneycomb.com",
+                "legacyicons.com",
+                "www.pulsar.gg",
+                "www.cleaneatzkitchen.com",
+                "signaturesolar.com",
+                "www.frizzlife.com",
+                "trysprinkle.com",
+                "primals.shop",
+                "limbsaver.com",
+                "rogerssportinggoods.com",
+                "incrediwear.com",
+                "www.stirlingkit.com",
+                "www.oneida-air.com",
+                "goblutech.com",
+                "mammotion.com",
+                "nl.pit-pit.com",
+                "modiphius.net",
+                "www.counter.com",
+                "echowater.com"
+            ]
+        },
+        {
+            "rule": "goaffpro\\.app\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "82035b3d5b5cee60b8274e5ab2ac782cb69759e89f19f21bda340e2d627681c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "incrediwear.com",
+                "trysprinkle.com",
+                "www.cleaneatzkitchen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.45
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.35
+        },
+        {
+            "domain": "goaffpro.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "ivy.ns.cloudflare.com"
+    ]
+}

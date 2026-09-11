@@ -1,0 +1,200 @@
+{
+    "domain": "duckduckgo.com",
+    "owner": {
+        "name": "Duck Duck Go, Inc.",
+        "displayName": "Duck Duck Go"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000164,
+    "sites": 24,
+    "subdomains": [
+        "icons",
+        "external-content"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "duckduckgo\\.com\\/ip3\\/x\\.com\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icons"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b2dab498089311aba0272c5a6dbf37db34e077dc406afbaa45e443734067db59"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fap-nation.com",
+                "helpmoji.com",
+                "www.entireweb.com"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/search\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f6dfa49ae0822999c4a06f271341f538578ba3867fc5c2152af9511323e42668"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmplib.org",
+                "www.astronautix.com",
+                "www.easthamptonstar.com",
+                "www.gratissoftwaresite.nl",
+                "www.ib.bioninja.com.au"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/assets\\/logo_icon60\\.v101\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f746c96ec6f700cea8bf074739d947c4b855f566959c4bb9eda7fe4b8bc4b8b9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmplib.org",
+                "www.astronautix.com",
+                "www.easthamptonstar.com",
+                "www.gratissoftwaresite.nl",
+                "www.ib.bioninja.com.au"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/assets\\/search_dropdown_homepage\\.v102\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "61e644c6748da21b9105bd79587575c94a0f86a4bb04d749963e49bbbed5729a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmplib.org",
+                "www.astronautix.com",
+                "www.easthamptonstar.com",
+                "www.gratissoftwaresite.nl",
+                "www.ib.bioninja.com.au"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/ip3\\/discord\\.com\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icons"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5169a2957a1e44406a2782bca7bed791d999669408ed26c055a2eea8b1c0fd60"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helpmoji.com",
+                "www.entireweb.com"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/iu\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "external-content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hstream.moe",
+                "mademanministries.com"
+            ]
+        },
+        {
+            "rule": "duckduckgo\\.com\\/ip3\\/www\\.facebook\\.com\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "icons"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7b4852945bb520008ec1457bbc3884b42b6172ae703e4ab4a4371c4ef03bd900"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outagedown.com",
+                "www.entireweb.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Non-Tracking"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9932885906040269
+        },
+        {
+            "domain": "get-advantage.org",
+            "prevalence": 0.006711409395973154
+        }
+    ],
+    "types": {
+        "Image": 19,
+        "Document": 5
+    },
+    "nameservers": []
+}

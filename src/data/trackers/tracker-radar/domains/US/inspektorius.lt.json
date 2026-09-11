@@ -1,0 +1,84 @@
+{
+    "domain": "inspektorius.lt",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "static2",
+        "static3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "inspektorius\\.lt\\/static\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00888507482200c68d9620a031d545ed373c6b1a84223a983c05bf5dfe60c411"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tv3.lt",
+                "www.tv3.lt"
+            ]
+        },
+        {
+            "rule": "inspektorius\\.lt\\/static\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static3",
+                "static2"
+            ],
+            "apis": {
+                "Element.prototype.getClientRects": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 2,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef0968035e387c8b468f4a943a9b5998d159c9e2f1a4994c70aa86bf53a9316d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tv3.lt",
+                "www.tv3.lt"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "mark.ns.cloudflare.com",
+        "pola.ns.cloudflare.com"
+    ]
+}

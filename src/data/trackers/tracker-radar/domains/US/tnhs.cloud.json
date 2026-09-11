@@ -1,0 +1,219 @@
+{
+    "domain": "tnhs.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "ntny-tnew-prod",
+        "smre-tnew-prod",
+        "cmoa-tnew-prod",
+        "nash-tnew-prod",
+        "natt-tnew-prod"
+    ],
+    "cnames": [
+        {
+            "original": "my.92ny.org",
+            "resolved": "ntny-tnew-prod.tnhs.cloud"
+        },
+        {
+            "original": "secure.strathmore.org",
+            "resolved": "smre-tnew-prod.tnhs.cloud"
+        },
+        {
+            "original": "ticketing.clevelandart.org",
+            "resolved": "cmoa-tnew-prod.tnhs.cloud"
+        },
+        {
+            "original": "tickets.nashvillesymphony.org",
+            "resolved": "nash-tnew-prod.tnhs.cloud"
+        },
+        {
+            "original": "tickets.nationaltheatre.org.uk",
+            "resolved": "natt-tnew-prod.tnhs.cloud"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tnhs\\.cloud\\/components\\/sharedsession",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ntny-tnew-prod",
+                "smre-tnew-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "my.92ny.org",
+                    "resolved": "ntny-tnew-prod.tnhs.cloud"
+                },
+                {
+                    "original": "secure.strathmore.org",
+                    "resolved": "smre-tnew-prod.tnhs.cloud"
+                }
+            ],
+            "responseHashes": [
+                "5e04b34cd143bbc22e998b0e69a222a4317506524dbb84d0e5899becc5e87be1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "92ny.org",
+                "www.strathmore.org"
+            ]
+        },
+        {
+            "rule": "tnhs\\.cloud\\/utate-and-Angue-That-my-wouldst-When-inhabid-all",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ntny-tnew-prod",
+                "smre-tnew-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "my.92ny.org",
+                    "resolved": "ntny-tnew-prod.tnhs.cloud"
+                },
+                {
+                    "original": "secure.strathmore.org",
+                    "resolved": "smre-tnew-prod.tnhs.cloud"
+                }
+            ],
+            "responseHashes": [
+                "aacf3a9cbec2267b1f585376c00eb6b1fb6dfbd0bdf0c45566a37f9e7866a4d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "92ny.org",
+                "www.strathmore.org"
+            ]
+        },
+        {
+            "rule": "tnhs\\.cloud\\/_Incapsula_Resource",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ntny-tnew-prod",
+                "smre-tnew-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "my.92ny.org",
+                    "resolved": "ntny-tnew-prod.tnhs.cloud"
+                },
+                {
+                    "original": "secure.strathmore.org",
+                    "resolved": "smre-tnew-prod.tnhs.cloud"
+                }
+            ],
+            "responseHashes": [
+                "6fdb825c69d05d3b4baad65796867166cf85efe3af26ea565f2a82f196ef15ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "92ny.org",
+                "www.strathmore.org"
+            ]
+        },
+        {
+            "rule": "tnhs\\.cloud\\/api\\/Session\\/SessionKey",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cmoa-tnew-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ticketing.clevelandart.org",
+                    "resolved": "cmoa-tnew-prod.tnhs.cloud"
+                }
+            ],
+            "responseHashes": [
+                "7c6564227b6a93c4a76facca2db552db070d3e29d4b430844b82be26f47f2883"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandart.org",
+                "www.clevelandart.org"
+            ]
+        },
+        {
+            "rule": "tnhs\\.cloud\\/api\\/session\\/sessionkey",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nash-tnew-prod",
+                "natt-tnew-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "tickets.nashvillesymphony.org",
+                    "resolved": "nash-tnew-prod.tnhs.cloud"
+                },
+                {
+                    "original": "tickets.nationaltheatre.org.uk",
+                    "resolved": "natt-tnew-prod.tnhs.cloud"
+                }
+            ],
+            "responseHashes": [
+                "80e32020ecce6d47a3568d85bb1aea5e63a6b9443699a969e934a09b8ad0514e",
+                "ab6d7dc499e7ca79bf712074c850e16bb90ee66f9b7f20d29271960f31cec44a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nashvillesymphony.org",
+                "www.nashvillesymphony.org",
+                "www.nationaltheatre.org.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000616,
+    "topInitiators": [
+        {
+            "domain": "d35y46dv539h1e.cloudfront.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "Script": 4,
+        "XHR": 2,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-885.awsdns-46.net",
+        "ns-1737.awsdns-25.co.uk",
+        "ns-477.awsdns-59.com",
+        "ns-1438.awsdns-51.org"
+    ]
+}

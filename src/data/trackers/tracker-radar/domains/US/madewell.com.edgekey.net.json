@@ -1,0 +1,179 @@
+{
+    "domain": "madewell.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "proxy",
+        "chat"
+    ],
+    "cnames": [
+        {
+            "original": "chat.madewell.com",
+            "resolved": "chat.madewell.com.edgekey.net"
+        },
+        {
+            "original": "proxy.madewell.com",
+            "resolved": "proxy.madewell.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/mt\\/se\\/js\\/2\\/a-088824c9\\/p\\/madewell\\.com\\/entry\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "proxy.madewell.com",
+                    "resolved": "proxy.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2df5e199ec62802715e17f1bbace6d5e14de1a5f9a5341ddfd733d5e878c6ca6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        },
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/mt\\/se\\/js\\/3\\/a-088824c9\\/p\\/madewell\\.com\\/t1730956170\\/c59bff963e76c58e\\/custom\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "proxy.madewell.com",
+                    "resolved": "proxy.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "03b0437bfe25ce272097723e694724776e17249a58db35cc3bb1988a57d3fd02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        },
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/mt\\/sb\\/img\\/1\\/p\\/1191\\/6194907\\.js\\/monetate\\.c\\.cr\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "proxy.madewell.com",
+                    "resolved": "proxy.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "27f095211adf9adac896fe48f3193e12778415bb729518fa943255a05e418beb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        },
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "chat.madewell.com",
+                    "resolved": "chat.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        },
+        {
+            "rule": "madewell\\.com\\.edgekey\\.net\\/api\\/v2\\/Agent\\/CheckSkillStatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "chat.madewell.com",
+                    "resolved": "chat.madewell.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "32e707a1bad7f30fcf9a6f777aaf5bbf1c6dd743daaff3d5676485bbd244fc69"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "madewell.com",
+                "www.madewell.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,151 @@
+{
+    "domain": "honeybadger.io",
+    "owner": {
+        "name": "Honeybadger Industries",
+        "displayName": "Honeybadger Industries"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000171,
+    "sites": 25,
+    "subdomains": [
+        "js",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "honeybadger\\.io\\/v6\\.14\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82dffa8a482d5f4f32814149195b59f688bceadb72ad57c6045fd652606a27fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicalacademicpress.com",
+                "exhibits.stanford.edu"
+            ]
+        },
+        {
+            "rule": "honeybadger\\.io\\/v4\\.3\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "61e2a0c86ad89ec81d6fc2045f1208803d173313885c54d5bd55f37b45edf096"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hawaiiobituaries.com",
+                "obits.al.com",
+                "obits.cleveland.com",
+                "obits.gazette.com",
+                "obits.dallasnews.com",
+                "obits.lehighvalleylive.com",
+                "obits.masslive.com",
+                "obits.mlive.com",
+                "obits.nj.com",
+                "obits.oregonlive.com",
+                "obits.pennlive.com",
+                "obits.syracuse.com",
+                "obituaries.the-journal.com",
+                "www.legacy.com"
+            ]
+        },
+        {
+            "rule": "honeybadger\\.io\\/v1\\/notices\\/js\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "599b341c28662538d16ef1714a9c50a2a5d6a9f7798536bd9ca37dafe6ed1661"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "simplisafe.com",
+                "www.machinerypete.com"
+            ]
+        },
+        {
+            "rule": "honeybadger\\.io\\/v3\\.0\\/honeybadger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "18a0c72749f7fc62974ac442882fbf68d83172352b791d3d7a5cebb03a506d3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "haymarketbooks.org",
+                "www.morgan-properties.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "pledge.to",
+            "prevalence": 0.5384615384615384
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4230769230769231
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.038461538461538464
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1478.awsdns-56.org",
+        "ns-157.awsdns-19.com",
+        "ns-1637.awsdns-12.co.uk",
+        "ns-869.awsdns-44.net"
+    ]
+}

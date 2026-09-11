@@ -1,0 +1,109 @@
+{
+    "domain": "prod-estore-frontend-api-alb-981136153.us-west-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "estore-api.quicken.com",
+            "resolved": "prod-estore-frontend-api-alb-981136153.us-west-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prod-estore-frontend-api-alb-981136153\\.us-west-2\\.elb\\.amazonaws\\.com\\/js\\/fixit\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "estore-api.quicken.com",
+                    "resolved": "prod-estore-frontend-api-alb-981136153.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "aeffd735aa2e1935bc1cb4393da5fbd2c5745ff674c301d24c8e9c0580f6bb2f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "prod-estore-frontend-api-alb-981136153\\.us-west-2\\.elb\\.amazonaws\\.com\\/assets\\/libs\\/qknpricing\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "estore-api.quicken.com",
+                    "resolved": "prod-estore-frontend-api-alb-981136153.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "b3e68c2cbafa3d513ade07fa7d07cef7b1ffd645dd640823f29993e1927d55f8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        },
+        {
+            "rule": "prod-estore-frontend-api-alb-981136153\\.us-west-2\\.elb\\.amazonaws\\.com\\/get_sku_coupon_prices",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "estore-api.quicken.com",
+                    "resolved": "prod-estore-frontend-api-alb-981136153.us-west-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "74da6e7ae7e83d1469516a4092cb64154272c5237492344f2caa3045e45079ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quicken.com",
+                "www.quicken.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 4,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,159 @@
+{
+    "domain": "tileshop.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "middleware-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tileshop\\.io\\/api\\/auth\\/GetGuestToken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        },
+        {
+            "rule": "tileshop\\.io\\/api\\/auth\\/GetGuestToken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "604c248d83ea20b92ace210f06b0b1a5234646d482235465b983b2bf30b72c8b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        },
+        {
+            "rule": "tileshop\\.io\\/api\\/generic\\/getsitesettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        },
+        {
+            "rule": "tileshop\\.io\\/api\\/generic\\/getalttext",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        },
+        {
+            "rule": "tileshop\\.io\\/api\\/generic\\/getsitesettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9ecb1c90c145342a60af12ea76a173f4933c44b3df996f47486a7381c39a1996"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        },
+        {
+            "rule": "tileshop\\.io\\/api\\/generic\\/getalttext",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "middleware-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "525d0375b2b4be47df791b58c99f588782f4fe66904d67897453e682771dc808"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tileshop.com",
+                "www.tileshop.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "lady.ns.cloudflare.com",
+        "mark.ns.cloudflare.com"
+    ]
+}

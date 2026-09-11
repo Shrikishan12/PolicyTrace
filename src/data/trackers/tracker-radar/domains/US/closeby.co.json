@@ -1,0 +1,81 @@
+{
+    "domain": "closeby.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "embed",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "closeby\\.co\\/v1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed"
+            ],
+            "apis": {
+                "window.innerWidth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c2ec818551e316ba8aa0180639e7b379d9961062ef6d2a6c598c6e10b01df859"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blochworld.com",
+                "us.blochworld.com",
+                "www.goose-gear.com"
+            ]
+        },
+        {
+            "rule": "closeby\\.co\\/embed\\/e70ef6fd768d21d90861e7cb1b561805\\/launcher",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7396a566372ea47b3d00a51bf89b6a9887f0cf7c6685b0ea984481c47c56591"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blochworld.com",
+                "us.blochworld.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "reza.ns.cloudflare.com",
+        "amir.ns.cloudflare.com"
+    ]
+}

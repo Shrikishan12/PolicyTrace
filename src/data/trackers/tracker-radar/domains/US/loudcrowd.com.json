@@ -1,0 +1,88 @@
+{
+    "domain": "loudcrowd.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "pub"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loudcrowd\\.com\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "1ba90ed8957c669100b3e78b9fda1f4f904c44fc98d9286c00b62fd4526829ab",
+                "826028e6eeffcbe4ef5f3847ad4f8abb8ba155fd68b296a79109a4966b1d9a25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scheels.com",
+                "us.boohoo.com",
+                "www.boohoo.com",
+                "www.boxlunch.com",
+                "www.hottopic.com",
+                "www.scheels.com"
+            ]
+        },
+        {
+            "rule": "loudcrowd\\.com\\/storefront-c6f69188\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pub"
+            ],
+            "apis": {
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "c6d400fde27258fb4a219e05e7bf694be5fdf094ef31520f4c383293c0cf9749"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scheels.com",
+                "us.boohoo.com",
+                "www.boohoo.com",
+                "www.boxlunch.com",
+                "www.hottopic.com",
+                "www.scheels.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "venus.ns.cloudflare.com",
+        "burt.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,1459 @@
+{
+    "domain": "ziffstatic.com",
+    "owner": {
+        "name": "Ziff Davis LLC",
+        "displayName": "Ziff Davis"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000466,
+    "sites": 68,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ziffstatic\\.com\\/jst\\/zdconsent\\.js",
+            "cookies": 0.00024,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 35,
+                "window.sessionStorage": 35,
+                "Document.cookie setter": 35,
+                "Screen.prototype.width": 34,
+                "Screen.prototype.height": 34,
+                "window.localStorage": 9
+            },
+            "sites": 36,
+            "prevalence": 0.000247,
+            "cnames": [],
+            "responseHashes": [
+                "06e9a90cfc387bc6ffe4b18b073b48ca065aea4a98f5b3d3699017999c162b92",
+                "8a49fe218ad73d42ae64bcce08120535957672e57c9bee59cc0ca95c2a195cee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536002,
+                    "length": 12,
+                    "prevalence": 0.0002397375216619975,
+                    "uniqueness": 0.02857142857142857
+                },
+                "OTGPPConsent": {
+                    "ttl": 31536002,
+                    "length": 22,
+                    "prevalence": 0.0002397375216619975,
+                    "uniqueness": 0.11428571428571428
+                },
+                "usprivacy": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0002397375216619975,
+                    "uniqueness": 0.05714285714285714
+                },
+                "opt_out": {
+                    "ttl": 33955200,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "zd_core_lialready": {
+                    "ttl": 1296000,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "community.spiceworks.com",
+                "lifehacker.com",
+                "www.cnet.com",
+                "www.offers.com",
+                "www.dicebreaker.com",
+                "www.eurogamer.de",
+                "www.humblebundle.com",
+                "www.speedcheck.org",
+                "www.extremetech.com",
+                "howlongtobeat.com",
+                "www.everydayhealth.care",
+                "www.castleconnolly.com",
+                "moz.com",
+                "www.popsci.com",
+                "www.rockpapershotgun.com",
+                "www.purexbox.com",
+                "www.bphope.com",
+                "www.nintendolife.com",
+                "www.timeextension.com",
+                "maxroll.gg"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/lifehacker\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.height": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "au.lifehacker.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/lifehacker\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "au.lifehacker.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/lifehacker\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072002,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072002,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3602,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592002,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "cto_bundle": {
+                    "ttl": 33696002,
+                    "length": 194,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696002,
+                    "length": 139,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "au.lifehacker.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/ajs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "59af606fa46f8e635dcf3f123d69cec07fdb4f1269ddd91e3a2644edd436e609"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.cnet.com",
+                "www.dealsofamerica.com",
+                "www.pushsquare.com",
+                "www.popsci.com",
+                "www.eurogamer.pl",
+                "www.dicebreaker.com",
+                "www.zdnet.com",
+                "www.timeextension.com",
+                "www.eurogamer.net",
+                "www.eurogamer.de",
+                "www.vg247.com",
+                "mapgenie.io",
+                "www.speedcheck.org",
+                "www.nintendolife.com",
+                "maxroll.gg",
+                "www.humblebundle.com",
+                "howlongtobeat.com",
+                "au.lifehacker.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/jst\\/otBannerSdk\\.202604\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.doNotTrack": 41,
+                "Document.cookie getter": 41,
+                "Date.prototype.getTime": 41,
+                "Navigator.prototype.userAgent": 41,
+                "window.innerHeight": 1
+            },
+            "sites": 41,
+            "prevalence": 0.000281,
+            "cnames": [],
+            "responseHashes": [
+                "0a188f01d700a297e0e49286292077f91dfabb59bfb7e2e6f0542156f4cc22d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.cnet.com",
+                "www.offers.com",
+                "www.babycenter.com.au",
+                "www.domino.com",
+                "www.speedcheck.org",
+                "www.zdnet.com",
+                "www.emmasdiary.co.uk",
+                "www.theblackfriday.com",
+                "www.babycenter.com",
+                "www.humblebundle.com",
+                "www.babycenter.ca",
+                "maxroll.gg",
+                "www.bphope.com",
+                "www.dealsofamerica.com",
+                "moz.com",
+                "www.dwell.com",
+                "www.babycentre.co.uk",
+                "www.pushsquare.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/jst\\/otGPP\\.202604\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 41,
+            "prevalence": 0.000281,
+            "cnames": [],
+            "responseHashes": [
+                "10d6bf6d61f26845c4dacae743c2bddc62b493a9a5192dff38802c87c8202649"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "community.spiceworks.com",
+                "www.cnet.com",
+                "www.domino.com",
+                "www.emmasdiary.co.uk",
+                "www.eurogamer.pl",
+                "community.babycenter.com",
+                "www.eurogamer.de",
+                "www.castleconnolly.com",
+                "www.extremetech.com",
+                "www.babycenter.com",
+                "www.dwell.com",
+                "www.theblackfriday.com",
+                "au.lifehacker.com",
+                "www.babycenter.ca",
+                "www.vg247.com",
+                "www.dealsofamerica.com",
+                "www.babycenter.com.au",
+                "www.bphope.com",
+                "www.humblebundle.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/jst\\/zdconsenth\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "window.sessionStorage": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "06e9a90cfc387bc6ffe4b18b073b48ca065aea4a98f5b3d3699017999c162b92",
+                "8a49fe218ad73d42ae64bcce08120535957672e57c9bee59cc0ca95c2a195cee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "OptanonConsent": {
+                    "ttl": 31536002,
+                    "length": 12,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                },
+                "OTGPPConsent": {
+                    "ttl": 31536002,
+                    "length": 22,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                },
+                "usprivacy": {
+                    "ttl": null,
+                    "length": 4,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "babycenter.com",
+                "community.babycenter.com",
+                "community.babycentre.co.uk",
+                "www.babycenter.com.au",
+                "www.babycenter.com",
+                "www.babycenter.ca",
+                "www.babycentre.co.uk"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/spiceworks\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "084e359ba93a8599a405cb5cf99cd5836054931362d2395615083a584eacfb08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/spiceworks\\.prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b283ef14f5d69752af277cf55825c93466dafa15b7497dd7e5b70014ac56d09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/spiceworks\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6a1ca2185f90f0a1c42fbf7b43a4dd6304365633133f3c8133bf11e93c198ea8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiceworks.com",
+                "community.spiceworks.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/geo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0dcc305a7b45a1ea291f6330e3ba21ee9bbd392cc3e9bf664b475539facad476"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "geoCC": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "geoRC": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifehacker.com",
+                "maxroll.gg"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/mapgenie\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Element.prototype.getClientRects": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b70f5701ecff2b0a030497a60f3f4b1b356c5a2b4b03c0ee58af06e7df37119c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pv": {
+                    "ttl": 85079,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapgenie.io",
+                "rdr2map.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/mapgenie\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "350d83895078b00db6de7ecaf4c1d867bef18821b21175ce4620f69d949e828b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072005,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072005,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3606,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592006,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "cto_bundle": {
+                    "ttl": 33696005,
+                    "length": 183,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696005,
+                    "length": 136,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapgenie.io",
+                "rdr2map.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/mapgenie\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5011588ced67fcb6d3a7f87e77bf29c738302449feb0bdb661bc5573a69962c8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapgenie.io",
+                "rdr2map.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pub\\/icong1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4113d279946438b4918c84bbe33d1441ce810ffa0df8c30787a83f977a28b980"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxroll.gg",
+                "www.cnet.com",
+                "www.domino.com",
+                "www.humblebundle.com",
+                "www.popsci.com",
+                "www.speedcheck.org"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/cnet2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8db3d2f18ada476baadc1e948a0497184175a37a61c4dd008522563f289f466"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/cnet2\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99fc71ee4095b46c64201967e31dccf4902225ed46137216853737f4f9f3e98f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072002,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072002,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3602,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592002,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "cto_bundle": {
+                    "ttl": 33696002,
+                    "length": 190,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696002,
+                    "length": 139,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/cnet2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60a9ba1f484125a78dfcef3bead3d7b8bd9b0db0580ab7b02224b75a4fde6297"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnet.com",
+                "www.cnet.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/domino\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d91b994a70535018d5fd0d6e5e5e589cee0863b79544f02c03d41a3a5a7e62bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domino.com",
+                "www.domino.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/domino\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b283ef14f5d69752af277cf55825c93466dafa15b7497dd7e5b70014ac56d09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 11,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072002,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072002,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domino.com",
+                "www.domino.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/domino\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a9c5790c388caacb7b6552cbc7f94f64a8c1f030a2ac6a9f59d32f00982c0dae"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "domino.com",
+                "www.domino.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/dwell\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4707ac217bf289d78032e481d3fa5eeb31b3433f3d1c1e0abb792cd0ed1bf82f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dwell.com",
+                "www.dwell.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/dwell\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b283ef14f5d69752af277cf55825c93466dafa15b7497dd7e5b70014ac56d09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072005,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072005,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dwell.com",
+                "www.dwell.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/dwell\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e561bcebb10cd438924f4339402e58832f49fa1f8073e4674b7db7b43e943e09"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dwell.com",
+                "www.dwell.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/extremetech\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c38d04d879ed0c67c9806101a18986c11852d82e1b21639f2dbf41f13eca4016"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extremetech.com",
+                "www.extremetech.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/extremetech\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "46d1b5aee12d3abe8c74f87c9d43a218b4cd4ec2715cd68228c54ecd858f3553"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extremetech.com",
+                "www.extremetech.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/extremetech\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49c6a90bd1d82177138811ffe8878e607363cc326d68dfd383becc9b475bd32f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072003,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072003,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lr_retry_request": {
+                    "ttl": 3603,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592003,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "cto_bundle": {
+                    "ttl": 33696002,
+                    "length": 192,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696002,
+                    "length": 131,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "extremetech.com",
+                "www.extremetech.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/popsci\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0af6407da5ccb94064398c62a1ee193efe61ff1984b35e128ecc17b3c9e7c744"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "popsci.com",
+                "www.popsci.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/popsci\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b283ef14f5d69752af277cf55825c93466dafa15b7497dd7e5b70014ac56d09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 11,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072002,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072002,
+                    "length": 29,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bundle": {
+                    "ttl": 33696002,
+                    "length": 194,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696002,
+                    "length": 134,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "popsci.com",
+                "www.popsci.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/popsci\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "98a3105b74b59b2119f7005dd711a5dbc67175d48e11fe6b2efc314cd4759b5d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "popsci.com",
+                "www.popsci.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/zdnet\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Element.prototype.getClientRects": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f8ebba9e089fc39944f414a5eae30564b568af77fe29ba7f3dd02be2275a671"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zdnet.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/zdnet\\.prebid\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.name": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "28528f829bdf816f8cb70727ccec276e062f793a58d44999a641d1b160b8b126"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_lr_retry_request": {
+                    "ttl": 3609,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_lr_env_src_ats": {
+                    "ttl": 2592009,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "cto_bundle": {
+                    "ttl": 33696009,
+                    "length": 186,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "cto_bidid": {
+                    "ttl": 33696009,
+                    "length": 141,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_li_dcdm_c": {
+                    "ttl": null,
+                    "length": 10,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi": {
+                    "ttl": 63072006,
+                    "length": 40,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_lc2_fpi_meta": {
+                    "ttl": 63072006,
+                    "length": 29,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zdnet.com",
+                "www.zdnet.com"
+            ]
+        },
+        {
+            "rule": "ziffstatic\\.com\\/pg\\/zdnet\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "40946e298925faa2e2cb65415a208cc9d686706062a199e86cca8c421237bb65"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zdnet.com",
+                "www.zdnet.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000459,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.845360824742268
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.08762886597938144
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.03608247422680412
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.010309278350515464
+        },
+        {
+            "domain": "nsstatic.net",
+            "prevalence": 0.010309278350515464
+        },
+        {
+            "domain": "rollbar.com",
+            "prevalence": 0.010309278350515464
+        }
+    ],
+    "types": {
+        "Script": 163,
+        "Stylesheet": 18,
+        "Image": 32
+    },
+    "nameservers": [
+        "ns-1014.awsdns-62.net",
+        "ns-430.awsdns-53.com",
+        "ns-1330.awsdns-38.org",
+        "ns-1711.awsdns-21.co.uk"
+    ]
+}

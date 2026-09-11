@@ -1,0 +1,572 @@
+{
+    "domain": "appdomain.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "integrations.us-south.assistant.watson",
+        "integrations.eu-gb.assistant.watson",
+        "web-chat.global.assistant.watson",
+        "hybrid-cloud-widgets-production.s3.us.cloud-object-storage",
+        "integrations.us-east.assistant.watson",
+        "s3.eu-de.cloud-object-storage"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "appdomain\\.cloud\\/analytics\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-south.assistant.watson",
+                "integrations.eu-gb.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "floridasnursing.gov",
+                "www.clerkofcourt.maricopa.gov",
+                "www.sanjac.edu",
+                "www.skrill.com"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/latest\\/WatsonAssistantChatEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {
+                "window.sessionStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "f5760b52b02c68b00fc0bbafa176f486ce8ccd46f714ee03ed03ccb5b83c65e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wv.gov",
+                "www.americannational.com",
+                "www.bna.com.ar",
+                "www.como.gov",
+                "www.leeclerk.org",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/8\\.12\\.6\\/chat\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "c0b7a18e5b1234850de752fc6baa7a0a54b43986ecb1df4426547d0686c8b2e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wv.gov",
+                "www.americannational.com",
+                "www.bna.com.ar",
+                "www.como.gov",
+                "www.leeclerk.org",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/8\\.12\\.6\\/chat~cds-ai-chat-bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6,
+                "window.sessionStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "534c756960fd22a8e959e6c0953ea9e7728e90dedbe1ed379d112c2fb972810c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wv.gov",
+                "www.americannational.com",
+                "www.bna.com.ar",
+                "www.como.gov",
+                "www.leeclerk.org",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/8\\.12\\.6\\/chat~266\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "d1d4443ad29702bb94f21bef528482813f075e91da6f318ce42ce61842978500"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wv.gov",
+                "www.americannational.com",
+                "www.bna.com.ar",
+                "www.como.gov",
+                "www.leeclerk.org",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/8\\.12\\.6\\/chat~cds-ai-chat-render\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "fefa1fc24347d203216415f43983b0f3f4f95e4216d6a30fcc2491561d6a5850"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wv.gov",
+                "www.americannational.com",
+                "www.bna.com.ar",
+                "www.como.gov",
+                "www.leeclerk.org",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/analytics\\/2\\/httpapi",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-south.assistant.watson",
+                "integrations.eu-gb.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c50b3127a97b72545266a799d75020f28433309107efab01705f9f47a63f69d9",
+                "e99e57f1274c36eae9e4b1d3f5dcc620385d5699b0b03476efbc896627b79ddf",
+                "64b17be378242e997d252ca0e7170344de26a5c6cb5acd5fa3bc2e5fa57d74ba"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maricopa.gov",
+                "www.clerkofcourt.maricopa.gov",
+                "www.sanjac.edu",
+                "www.skrill.com"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hybrid-cloud-widgets-production.s3.us.cloud-object-storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "27bd4509edd2c9c44784fa2a871077b8f3f790826a1d7f8228e7e2597a0ce0b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibm.com",
+                "www.ibm.com"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/public\\/chat\\/197c33e6-ae4c-4988-99d4-0ffecb26c881\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-south.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07ba63e8750b6398165bbcde7397f80274fbbc727c68358569d7b8b76773fad3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leeclerk.org",
+                "www.leeclerk.org"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/public\\/chat\\/ce365264-8943-4b8c-a2a7-481624663491\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-east.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5dcf95b0212cfcc120c3b8348ca2cca5c9ad7a797c269774900ebe6551216b24"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pwcs.edu",
+                "www.pwcs.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/WatsonAssistantChatEntry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b938d3e69cc895df62c51c25d08237fa05c901a00e9c0c526e427d656b4dd5d3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/public\\/chat\\/afffdb1b-fc26-4aef-ac87-5ad7aedf2297\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "integrations.us-south.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8706b2339b789dd1332dcfacb75ec9a0b15064c6050bd9fe6b25361f14f5d097"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/6752\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a54057ce7a6be87e940f6f61316841a48122b5f0bb8b50721db6848577239ae8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/4137\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9e9c05db897e4b8d087c8ec9cc457b0a548ba5388abf08eff46fb1d84737dc4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/render\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c9ba3dc85bc686a977602497c3bc87bd5823bc6eb0268dc853608edf0d04835f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/7696\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f27dfd5af913bfd7b42722d3f8da076d64465e01a809704612846c02fc45e40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/haa\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2858b9e171920573b1739f4ba685caabedb636b990e63f427226e745108ba4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/variables-g10\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82b6853edda8e38bca4147a5c775d4454a7ac1b472a448c5ccf0cda4fb1b533d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/styles\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c13b9e77ed5263c99f8371ebf9e0b8eb989cfb85302952c0c34a47e8085623e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/component-styles\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20b16bcf2251b8fce18391cd927423db10b3951163116c2c82a8190c42a34ae3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/versions\\/7\\.5\\.0\\/experiment-config\\.Entry-v7\\.5\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-chat.global.assistant.watson"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5bcd4127f00acb39d2e0e28b0bf8f7cbbb3bca2a0850c1ec5435e6e387a02d1d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanjac.edu",
+                "www.sanjac.edu"
+            ]
+        },
+        {
+            "rule": "appdomain\\.cloud\\/storage-platform-prod\\/logos\\/143\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3.eu-de.cloud-object-storage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "93c4089e96fe0ce37be83a5347dda7182b77995a2287755ade0ae25624f4c9d5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telepass.com",
+                "www.telepass.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7948717948717948
+        },
+        {
+            "domain": "indigo.ai",
+            "prevalence": 0.15384615384615385
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05128205128205128
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Script": 52,
+        "Fetch": 10,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns130.name.cloud.ibm.com",
+        "ns119.name.cloud.ibm.com"
+    ]
+}

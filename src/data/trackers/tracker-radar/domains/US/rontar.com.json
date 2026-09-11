@@ -1,0 +1,78 @@
+{
+    "domain": "rontar.com",
+    "owner": {
+        "name": "Rontar",
+        "displayName": "Rontar"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "shopifyapp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rontar\\.com\\/ScriptTags\\/onlinestore\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopifyapp"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rnt_imps": {
+                    "ttl": 31536014,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "rnt_s": {
+                    "ttl": 31536014,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "rnt_id": {
+                    "ttl": 31536014,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usfireplacestore.com",
+                "www.firgelliauto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "tani.ns.cloudflare.com",
+        "finley.ns.cloudflare.com"
+    ]
+}

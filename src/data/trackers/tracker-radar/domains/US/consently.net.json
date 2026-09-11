@@ -1,0 +1,164 @@
+{
+    "domain": "consently.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "app",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "consently\\.net\\/consently\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7bfaa3e1d26604649cc8d7589e5a1466737620a4bcdf41d7a7a32387f868e3b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ga_EFN21YRR8P": {
+                    "ttl": 63072004,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga": {
+                    "ttl": 63072004,
+                    "length": 26,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biasly.com",
+                "www.biasly.com"
+            ]
+        },
+        {
+            "rule": "consently\\.net\\/api\\/v1\\/consent-banners\\/public\\/69d751da9a39ae7fe261e00f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "752fae5373e32be3f48ddec7bb6a4de90332a15bf57bdffd89e50446a4679287"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biasly.com",
+                "www.biasly.com"
+            ]
+        },
+        {
+            "rule": "consently\\.net\\/banner-translations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "42dc47d72a93a4bd92a91bd12954f5e1bc6bf42181d8ad149ab2bd6a9bc167be"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biasly.com",
+                "www.biasly.com"
+            ]
+        },
+        {
+            "rule": "consently\\.net\\/api\\/v1\\/vendors-list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b039b481d420c1f2e49ac35e04bd9f30dc18d745a81f82886a973bf1b60e7862"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biasly.com",
+                "www.biasly.com"
+            ]
+        },
+        {
+            "rule": "consently\\.net\\/api\\/v1\\/google-vendors-list",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e835df7993a9d6310513d08f541424c022840337640ff25c976ef749c48e2dc4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "biasly.com",
+                "www.biasly.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "jack.ns.cloudflare.com",
+        "jean.ns.cloudflare.com"
+    ]
+}

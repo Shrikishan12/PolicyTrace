@@ -1,0 +1,710 @@
+{
+    "domain": "de.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "cdn.prod.www.spiegel",
+        "cdn.prod.www.manager-magazin",
+        "bilder.baur"
+    ],
+    "cnames": [
+        {
+            "original": "bilder.baur.de",
+            "resolved": "bilder.baur.de.edgesuite.net"
+        },
+        {
+            "original": "cdn.prod.www.manager-magazin.de",
+            "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+        },
+        {
+            "original": "cdn.prod.www.spiegel.de",
+            "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/spon\\/generated\\/css\\/styles\\.c81d82bd25f6187bc3a9\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9d08de6080a9adef81d3eae1f9a54199d038854cc39bd4ded41952419af9cb21"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/generated\\/js\\/commons\\.2ed008925e1b7cbcde0e\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.prod.www.spiegel",
+                "cdn.prod.www.manager-magazin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                },
+                {
+                    "original": "cdn.prod.www.manager-magazin.de",
+                    "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "11412fe6bbd8145250c15434ce13eff20809be79f3dba19e8b2c414105566924"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.manager-magazin.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/generated\\/js\\/header\\.995ced9451a5d781edc0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel",
+                "cdn.prod.www.manager-magazin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                },
+                {
+                    "original": "cdn.prod.www.manager-magazin.de",
+                    "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9f30c36b10c415d45e9b201c96cef41af34d3f493d5de2f389f7758fa0d2b0a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.manager-magazin.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/generated\\/js\\/vendors\\.40170a23403dfb7c11c2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.prod.www.spiegel",
+                "cdn.prod.www.manager-magazin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                },
+                {
+                    "original": "cdn.prod.www.manager-magazin.de",
+                    "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9ba3aa8725c9b8aa5a50b0ebc3efb4d5b3851e7262bb4f7774b8259325065824"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.manager-magazin.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/generated\\/js\\/index\\.8772cd0fb4dbe9532d20\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.prod.www.spiegel",
+                "cdn.prod.www.manager-magazin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                },
+                {
+                    "original": "cdn.prod.www.manager-magazin.de",
+                    "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "da46f13f9edae20d741f98947580710d6472f086b1fa25806fd5c70ab436511c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.manager-magazin.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSlab4UICd-ExtraBold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0dc6718d7c58d56bee130197e2d2618de643d79c16c91dea0ddec1013f387bfa"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSerifTextUI-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "6dcd2c0f66dedd3c1b5eab475f3cf318cb19638437e02777ddc0c15a28de7f4d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSerifTextUI-Italic\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "ed8a6b8b14fa7eab81f2365d8399b1cb5d995d0e1a88b836066bbaef41e86cd1"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSerifTextUI-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "37acc9353af89afa9c685cc73ab236f7720ddcb0ee7494e6ef256245db05ce5e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSerifTextUI-BoldItalic\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9328cd40a4462066eb77f91aa198a9594319a5746352b894e10fb60b93915036"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSerifDisplayUI-BoldItalic\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "1817c332c1df98ad81e37f0c15b49427422e9fc665ab0bb84eee2a3df6d77e31"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSans4UI-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "711fb635a058564b81588bfc84e168a37b27f4e772e3187a24d7bf0a31f17fbe"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSans4UI-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c53ee30959cba0416f936ba377243950dd014b71ff3bd713194e33069719a0bf"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/public\\/shared\\/fonts\\/SpiegelSans4-6SemiBold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2cf71df175efbde9fab48af84432e5faa0b651a9da3ad699f4f02b981952d57e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/assets\\/news\\/breakingnews\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel",
+                "cdn.prod.www.manager-magazin"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                },
+                {
+                    "original": "cdn.prod.www.manager-magazin.de",
+                    "resolved": "cdn.prod.www.manager-magazin.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.manager-magazin.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/assets\\/iqd\\/cdn_iqdspiegel\\/iqadcontroller\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.prod.www.spiegel"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.prod.www.spiegel.de",
+                    "resolved": "cdn.prod.www.spiegel.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4edcac5184f8476a1370e388572aca0943d394cd1f50419ff5ee810d02b8c872"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spiegel.de",
+                "www.spiegel.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/b6af5365bd7ace3b972b2f4679f4460d\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "377ec035c5324a20bbae7a188fa65ba159a1ce8123302fc31a9cdb4286687995"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/0f14972eef7739be2fb98acedccea803\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2fb374bd61ce7d4d7c20b4e065451bb9365c1d77af11dbe00b36fe8b96611f39"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/614b58b8121e96c38141105049a8ea9a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2a92e6750349d95ea0a1548dae1a3d318bb183e73fc93f7fc48b06dbcb8cb614"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/a731386391dac24b3cd157ead4932f28\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a6b2942563aa86ddb4460163c4d28c260a3cf4ff60cd51e15e3a6e6eaad2288d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/b1de434ee3d5da35de261c6fa27b149f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "ad5ba0e9de776c6312ba89ea2815d7ba93ba4f9d3be212a85548cbf87c701633"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/0fb94c453d7d1c7a0d034224819bfe2d\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "551434f791b6b4f9766b95faa8131f07ebdaf5460c9806ca7fca2cc38a66d0fa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        },
+        {
+            "rule": "de\\.edgesuite\\.net\\/i\\/empiriecom\\/43ddef0e8a7a50edbcab5ac47e78a592\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bilder.baur"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "bilder.baur.de",
+                    "resolved": "bilder.baur.de.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "998ebd60d3fab037edf2556397cba81f1271f75a3d9e0f50e9e41ca9bbe6d3d5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baur.de",
+                "www.baur.de"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8333333333333334
+        },
+        {
+            "domain": "idealo.com",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 14,
+        "Font": 18,
+        "Fetch": 3,
+        "Image": 14
+    },
+    "nameservers": []
+}

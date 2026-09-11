@@ -1,0 +1,254 @@
+{
+    "domain": "plug.it",
+    "owner": {
+        "name": "ItaliaOnLine SpA",
+        "displayName": "ItaliaOnLine"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "i5",
+        "i",
+        "i4",
+        "i2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "plug\\.it\\/cmp\\/qciol\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i5",
+                "i"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Screen.prototype.width": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "9d14def6a76ed0fe101168dd43a678e833c5e2d6f5b9d298fff254b9ffa73bbb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "m.tuttocitta.it",
+                "siviaggia.it",
+                "www.buonissimo.it",
+                "www.pgcasa.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/paywall\\/paywall\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bf384be98f1aaa61b7c4b681d0f16601fbc12b52719bede1e9b2ad376d159e2d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "siviaggia.it",
+                "www.buonissimo.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/analytics\\/engine\\/IOL\\.Analytics\\.Tracking\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "i",
+                "i4"
+            ],
+            "apis": {
+                "Document.cookie getter": 6,
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.languages": 6,
+                "Navigator.prototype.language": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "Date.prototype.getTime": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.javaEnabled": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "f6e614bbefe58982dabbd8b557c76a49825449f5386b14c8ac2172bb6b798661"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "m.tuttocitta.it",
+                "siviaggia.it",
+                "www.buonissimo.it",
+                "www.pgcasa.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/wp\\/siviaggia\\/js\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i2"
+            ],
+            "apis": {
+                "Navigator.prototype.appVersion": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1cd2992f204e0482d992f0ed43c9ad181b7a1c6dd6cd5043179cf20ba66f2ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "siviaggia.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/analytics\\/ads\\/banners\\/_adv\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i4"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0718476f9aeec1cbd746c569d6768a28c021163de52ceb5c7d89005484f16b8e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dilei.it",
+                "siviaggia.it",
+                "www.buonissimo.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/cmp\\/iub_conf_tuttocitta\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "i5"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e0c1580bdaa2ac232a9b573cd8f5fd213e21faa9d211c9ceb2f5c2f10c3a9dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/iplug\\/js\\/lib\\/iol\\/analytics\\/data\\/www-tuttocitta-it\\/tracking_www-tuttocitta-it\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc2915cfd986b03e403bcf2411259764a731ecfec90e036f49ee4618f3609c67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        },
+        {
+            "rule": "plug\\.it\\/cmp\\/V2\\.7\\/css\\/iub_conf_tuttocitta\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9387b958fa32d4a9e198329157a7810a72ca7faa1e12701c714e3560b3870d9e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuttocitta.it",
+                "www.tuttocitta.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9508196721311475
+        },
+        {
+            "domain": "iubenda.com",
+            "prevalence": 0.04918032786885246
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns1.italiaonline.it",
+        "ns2.iol.it"
+    ]
+}

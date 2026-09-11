@@ -1,0 +1,469 @@
+{
+    "domain": "liveservices.fr",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "partners-prd.1v1",
+        "mdz-prd.1v1"
+    ],
+    "cnames": [
+        {
+            "original": "consent.orange.fr",
+            "resolved": "partners-prd.1v1.liveservices.fr"
+        },
+        {
+            "original": "consent.sosh.fr",
+            "resolved": "partners-prd.1v1.liveservices.fr"
+        },
+        {
+            "original": "datalayer.orange.fr",
+            "resolved": "partners-prd.1v1.liveservices.fr"
+        },
+        {
+            "original": "front.bot.orange.fr",
+            "resolved": "mdz-prd.1v1.liveservices.fr"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "liveservices\\.fr\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "partners-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "datalayer.orange.fr",
+                    "resolved": "partners-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "163bf8c8f5ed667cab4ae1d41edb23aa96138ca88b924be181572b345d045d9b",
+                "8e1b396e620c48ceb8d0948313949928aac19c1b70329e208b54637e20534c28",
+                "1f9ec0de39c78fe824cb7100b705a9d46a69f0f9b7a4e8f26d5ac75b064117c2",
+                "fbaebc500b847846468af2aa3244edceba47a82512e3ffbbde74235658dc13e4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "assistance.orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr",
+                "www.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/global-cookies\\/9e19cc2f8415950cc0615951fe4a6c4da57fc43b\\/global-cookies\\.9e19cc2f8415950cc0615951fe4a6c4da57fc43b\\.html",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "partners-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "consent.orange.fr",
+                    "resolved": "partners-prd.1v1.liveservices.fr"
+                },
+                {
+                    "original": "consent.sosh.fr",
+                    "resolved": "partners-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "1a25620c6742aa3d7f3eca4e06bcc207251f8ac554a86c4b19c0c089e4819553"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "assistance.orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr",
+                "messagerie.orange.fr",
+                "www.orange.fr",
+                "www.sosh.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/public\\/webChat-resp-gcp-prod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "cc726b7d0dde6e4821ba6e7bfdee5f3193893c41ee2e125881b20e888c94bec6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/public\\/css\\/parentStyle\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "ff92c6b751874575607c8e571109cc74ea8f90dd2020c75134b80b5de1e67a57"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/assets\\/css\\/sosh-font-family\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "4b2f0282b0fec1c5077272e5f696de646ecc355ceab60bd1524c04c6872cc60c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "assistance.orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/public\\/jsLibrary\\/ua-parser\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "bd8dca99c13a2cfd7337d11c311b81ac59ccca0d9903bc91e78455b27403892c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "37f00b20d6a495aab9dae835bf44009f5a5fc004f14264a8fccaf1398b918ba6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/assets\\/css\\/emoji\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "92586707dfa8d537227adeca3b7edf5df9d7619782eea2d87e296c48b64a5a3e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/assets\\/ob1\\/web\\/css\\/style\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "9d33a3c6e899f5b119971673c7cb7ebc76800b5e21ce1d1306ae391cdc60121f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/runtime\\.f59d969ecadf0ddc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "f4664435adaf244b49631a5387c50e9450e2388527438bb18538fb4ae5dd82b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/polyfills\\.f307577438c81376\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "db3c3ccf2734a2326560ff56a3b2560da8637a90b687d464807ffed01055972d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/scripts\\.794f4d4df1e62a35\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "af7ba144e37459d6aa8edcfeb642e648465673291026b713b3dd18d06ab88997"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/main\\.b32adae02960a4c5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "7f949d4472b1e8b1e59515d375c8ebd68100850e02f43ee3d391f177b0ef3589"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        },
+        {
+            "rule": "liveservices\\.fr\\/appWebChatFront\\/webchat\\/styles\\.88ec984911d5f5f8\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mdz-prd.1v1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "front.bot.orange.fr",
+                    "resolved": "mdz-prd.1v1.liveservices.fr"
+                }
+            ],
+            "responseHashes": [
+                "bf92420845c99cbd640f9d5826ac06fc48c7a393f440327e90022c3cc1535311"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orange.fr",
+                "boutique.orange.fr",
+                "espace-client.orange.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.4375
+        },
+        {
+            "domain": "woopic.com",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Document": 10,
+        "Script": 18,
+        "Stylesheet": 16
+    },
+    "nameservers": [
+        "ns4.orange.fr",
+        "ns1.orange.fr",
+        "ns3.orange.fr",
+        "ns2.orange.fr"
+    ]
+}

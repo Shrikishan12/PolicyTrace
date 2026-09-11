@@ -1,0 +1,232 @@
+{
+    "domain": "botbonnie.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "asset",
+        "chat",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "botbonnie\\.com\\/sdk\\/sdk\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "asset"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e9d618e470a2acd65bbd5d8d61830aabbab4ba3e525453160c071aa8bac2408"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bb_page-5a07e95002354f1eb389d0af_token": {
+                    "ttl": 8639913619,
+                    "length": 275,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "bb_page-5a07e95002354f1eb389d0af_uuid": {
+                    "ttl": 8639913607,
+                    "length": 24,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fd6a9a7db096ccf963e898743c8c7952fb8e4044110161bc33b21fc73a40814"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "bb_page-5a07e95002354f1eb389d0af_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/assets\\/index-Dcs6I3XX\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6ee27efb85e012fcba4997f2e79aebdd6175f18f51d5bdf756bd0f38a1d0586"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bb_page-5a07e95002354f1eb389d0af_token": {
+                    "ttl": 8639913632,
+                    "length": 275,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/assets\\/index-CeJpcjWU\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "66044fb6de24f10673a028ba0ec7db8c659245135dda7f3436391563b73e184a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/locales\\/en\\/Common\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ecfd122538aaed1034b11e721dade474d3590934bf3e5a3f7742b449e50eb61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/locales\\/en\\/Webchat\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54bdf4ab47163bb8fa1b3f4899db055afd168607ffd5ef8e5e2c45918f153a33"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "botbonnie\\.com\\/image\\/trQDV9xWu\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8670029b8d99a39ea5fb00532012b9dab8605b38d843aff05186d4658b99e17b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2,
+        "Stylesheet": 2,
+        "Fetch": 4,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-194.awsdns-24.com",
+        "ns-921.awsdns-51.net",
+        "ns-2015.awsdns-59.co.uk",
+        "ns-1485.awsdns-57.org"
+    ]
+}

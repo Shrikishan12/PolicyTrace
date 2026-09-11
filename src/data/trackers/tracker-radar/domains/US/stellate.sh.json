@@ -1,0 +1,113 @@
+{
+    "domain": "stellate.sh",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "liaison-bettercare-prod",
+        "liaison-homeguide-prod",
+        "liaison-lawful-prod",
+        "liaison-lessons-prod",
+        "liaison-thervo-prod",
+        "kiva",
+        "mecum",
+        "opi-us"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "stellate\\.sh\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "liaison-bettercare-prod",
+                "liaison-homeguide-prod",
+                "liaison-lawful-prod",
+                "liaison-lessons-prod",
+                "liaison-thervo-prod",
+                "kiva",
+                "mecum",
+                "opi-us"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "85d198f7ce08957557207c236edf1893022cb76d6b137d1c77c8e15c46673dcd",
+                "1bc47c8d95964a3f5133ab6c5e8a621b6c15def9162c6e37a4cc11de43cf870e",
+                "880e71527d28c50eeb1afe514c43c4f7fdb336c1749d57d1175c5fe5f1f38562",
+                "5233ef259e742716fc2b140123b7f80c46035ed9b2dbf318d37b0aa6fa5a2258",
+                "ec977121ab7211f3d2c602ea1f06654af5d8202c9fbedff398970eadd83a17e4",
+                "639dd4897ce54f6a24843866b85ddc2548e8410c2db59b14c84836a773ffdfd3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettercare.com",
+                "homeguide.com",
+                "lawful.com",
+                "lessons.com",
+                "thervo.com",
+                "www.kiva.org",
+                "www.mecum.com",
+                "www.opi.com"
+            ]
+        },
+        {
+            "rule": "stellate\\.sh\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "liaison-bettercare-prod",
+                "liaison-homeguide-prod",
+                "liaison-lawful-prod",
+                "liaison-lessons-prod",
+                "liaison-thervo-prod",
+                "kiva",
+                "mecum",
+                "opi-us"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bettercare.com",
+                "homeguide.com",
+                "lawful.com",
+                "lessons.com",
+                "thervo.com",
+                "www.kiva.org",
+                "www.mecum.com",
+                "www.opi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

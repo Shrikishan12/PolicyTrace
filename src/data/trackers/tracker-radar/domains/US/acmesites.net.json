@@ -1,0 +1,68 @@
+{
+    "domain": "acmesites.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "coppercolorado-prod.powdr-corp",
+        "powdr-production"
+    ],
+    "cnames": [
+        {
+            "original": "cms.coppercolorado.com",
+            "resolved": "coppercolorado-prod.powdr-corp.acmesites.net"
+        },
+        {
+            "original": "cms.snowbird.com",
+            "resolved": "powdr-production.acmesites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "acmesites\\.net\\/api\\/v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coppercolorado-prod.powdr-corp",
+                "powdr-production"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cms.coppercolorado.com",
+                    "resolved": "coppercolorado-prod.powdr-corp.acmesites.net"
+                },
+                {
+                    "original": "cms.snowbird.com",
+                    "resolved": "powdr-production.acmesites.net"
+                }
+            ],
+            "responseHashes": [
+                "c36e1911a1149abfc5954bd2e6f304ba22e2d8505348ddc5ee354fffaf1b6cad"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "coppercolorado.com",
+                "www.snowbird.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "XHR": 2
+    },
+    "nameservers": [
+        "sydney.ns.cloudflare.com",
+        "harley.ns.cloudflare.com"
+    ]
+}

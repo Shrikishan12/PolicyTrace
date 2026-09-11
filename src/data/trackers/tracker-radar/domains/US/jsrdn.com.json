@@ -1,0 +1,146 @@
+{
+    "domain": "jsrdn.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "hb",
+        "c",
+        "s"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jsrdn\\.com\\/hb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abc17news.com",
+                "arizonasports.com",
+                "denversports.com",
+                "kesq.com",
+                "keyt.com",
+                "ktar.com",
+                "kyma.com",
+                "mynorthwest.com",
+                "seattlered.com",
+                "sports.mynorthwest.com",
+                "www.applevalleynewsnow.com",
+                "www.koamnewsnow.com",
+                "www.kxly.com",
+                "www.news8000.com",
+                "www.wishtv.com"
+            ]
+        },
+        {
+            "rule": "jsrdn\\.com\\/s\\/cs\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "window.localStorage": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "Navigator.prototype.language": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Navigator.prototype.cookieEnabled": 6,
+                "window.devicePixelRatio": 6,
+                "Screen.prototype.colorDepth": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "ebbb056ae76da9647ad1dc2ba177ccc40fe2c6dda06439f5326e50c665f6c948"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blizzardwatch.com",
+                "jambands.com",
+                "www.fuelly.com",
+                "www.kulr8.com",
+                "www.montanarightnow.com",
+                "www.nbcrightnow.com"
+            ]
+        },
+        {
+            "rule": "jsrdn\\.com\\/s\\/1\\.js",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blizzardwatch.com",
+                "jambands.com",
+                "www.fuelly.com",
+                "www.kulr8.com",
+                "www.montanarightnow.com",
+                "www.nbcrightnow.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "aditude.io",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "htlbid.com",
+            "prevalence": 0.13333333333333333
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Fetch": 15,
+        "Script": 12
+    },
+    "nameservers": [
+        "ns-745.awsdns-29.net",
+        "ns-436.awsdns-54.com",
+        "ns-1941.awsdns-50.co.uk",
+        "ns-1345.awsdns-40.org"
+    ]
+}

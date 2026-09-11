@@ -1,0 +1,670 @@
+{
+    "domain": "smct.io",
+    "owner": {
+        "name": "SMARTER CLICK TECHNOLOGY LTD",
+        "displayName": "SMARTER CLICK"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000288,
+    "sites": 42,
+    "subdomains": [
+        "js",
+        "ls",
+        "ipl",
+        "fonts",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "smct\\.io\\/csp\\/csp\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 33,
+            "prevalence": 0.000226,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.arrowfilms.com",
+                "wickes.co.uk",
+                "leicacamerausa.com",
+                "braceability.com",
+                "amiclubwear.com",
+                "www.e-firstaidsupplies.com",
+                "www.miniaturemarket.com",
+                "www.radioshack.com",
+                "mobile.asda.com",
+                "thefantasybox.com",
+                "www.firstleaf.com",
+                "www.hotelsbyday.com",
+                "mowrator.com",
+                "benchmarkabrasives.com",
+                "www.imobie.com",
+                "login.frontier.com",
+                "www.natgeokids.com",
+                "ca.shop.runningroom.com",
+                "www.braceability.com",
+                "petertyson.co.uk"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/t\\/tag-v6\\.07\\.js",
+            "cookies": 0.000158,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 24,
+                "Navigator.prototype.platform": 24,
+                "Navigator.prototype.userAgent": 24,
+                "Screen.prototype.width": 24,
+                "Navigator.prototype.cookieEnabled": 24,
+                "Navigator.prototype.language": 24,
+                "Notification.permission": 24,
+                "window.localStorage": 23,
+                "Document.cookie getter": 23,
+                "Document.cookie setter": 23,
+                "window.sessionStorage": 23
+            },
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "e7fbf8fa7d3ff2340db80bf3a4effeeb31d61bc3282d1c7a3aa203efd377bf7c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "smc_ls_session": {
+                    "ttl": null,
+                    "length": 13,
+                    "prevalence": 0.0001232935825690273,
+                    "uniqueness": 1
+                },
+                "smc_uid": {
+                    "ttl": 315360007,
+                    "length": 16,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "smc_tag": {
+                    "ttl": 31536007,
+                    "length": 49,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "smc_session_id": {
+                    "ttl": null,
+                    "length": 32,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "smc_tpv": {
+                    "ttl": 315360009,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "smc_spv": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "smc_sesn": {
+                    "ttl": 315360009,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "smc_not": {
+                    "ttl": 315360009,
+                    "length": 7,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "smct_session": {
+                    "ttl": null,
+                    "length": 111,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "smc_refresh": {
+                    "ttl": 63072008,
+                    "length": 5,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "smct_dyn_BasketCount": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "smct_last_ov": {
+                    "ttl": 2592008,
+                    "length": 121,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "smc_v4_131592": {
+                    "ttl": 315360011,
+                    "length": 236,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "higherdose.com",
+                "www.wickes.co.uk",
+                "www.arrowfilms.com",
+                "login.frontier.com",
+                "braceability.com",
+                "mowrator.com",
+                "petertyson.co.uk",
+                "ca.shop.runningroom.com",
+                "www.radioshack.com",
+                "gregnormancollection.com",
+                "www.pearson.de",
+                "wickes.co.uk",
+                "benchmarkabrasives.com",
+                "www.braceability.com",
+                "mobile.asda.com",
+                "www.imobie.com",
+                "hunterboots.com",
+                "wildlyorganic.com",
+                "amiclubwear.com",
+                "www.arrowvideo.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/lse1\\.3\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ls"
+            ],
+            "apis": {
+                "window.localStorage": 25
+            },
+            "sites": 25,
+            "prevalence": 0.000171,
+            "cnames": [],
+            "responseHashes": [
+                "017217e952a763a6a3ac2688bb3c1c17db0a42721148434b9060158bd08716d6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gregnormancollection.com",
+                "login.frontier.com",
+                "www.arrowvideo.com",
+                "petertyson.co.uk",
+                "amiclubwear.com",
+                "braceability.com",
+                "www.radioshack.com",
+                "www.wickes.co.uk",
+                "leicacamerausa.com",
+                "www.pearson.de",
+                "higherdose.com",
+                "wildlyorganic.com",
+                "www.imobie.com",
+                "www.natgeokids.com",
+                "mowrator.com",
+                "www.e-firstaidsupplies.com",
+                "mobile.asda.com",
+                "www.braceability.com",
+                "ca.shop.runningroom.com",
+                "hunterboots.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/e\\/events-1\\.6\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 26,
+                "Navigator.prototype.userAgent": 25,
+                "Document.cookie getter": 20
+            },
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "cef05fac44885210172633f42c2fe0bee2958cb5118485e07f77e36735c1a29e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.leaseloco.com",
+                "wickes.co.uk",
+                "www.braceability.com",
+                "www.imobie.com",
+                "www.e-firstaidsupplies.com",
+                "thefantasybox.com",
+                "mowrator.com",
+                "www.radioshack.com",
+                "hunterboots.com",
+                "amiclubwear.com",
+                "benchmarkabrasives.com",
+                "braceability.com",
+                "www.wickes.co.uk",
+                "higherdose.com",
+                "gregnormancollection.com",
+                "ca.shop.runningroom.com",
+                "mobile.asda.com",
+                "petertyson.co.uk",
+                "www.pearson.de",
+                "www.natgeokids.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/o\\/overlays-v6\\.07\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "window.sessionStorage": 9,
+                "Document.cookie getter": 9,
+                "window.innerWidth": 9,
+                "window.innerHeight": 9
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "c149ef553a468c43dbf425e68aa8eb5328216fda6f34984dc1df9bcc1a4cbfd1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benchmarkabrasives.com",
+                "braceability.com",
+                "gregnormancollection.com",
+                "hunterboots.com",
+                "leicacamerausa.com",
+                "thefantasybox.com",
+                "wildlyorganic.com",
+                "www.arrowvideo.com",
+                "www.arrowfilms.com",
+                "www.braceability.com",
+                "www.duralexusa.com",
+                "www.e-firstaidsupplies.com",
+                "www.radioshack.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/jq\\/smcJQ-v3\\.4\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Element.prototype.getClientRects": 6,
+                "Event.prototype.timeStamp": 5
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "f4263a8611b0ef723e5bab1fef193f37c3fc4395cfa367d3eb9e8e250cdd458b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "braceability.com",
+                "gregnormancollection.com",
+                "hunterboots.com",
+                "leicacamerausa.com",
+                "wildlyorganic.com",
+                "www.arrowvideo.com",
+                "www.arrowfilms.com",
+                "www.braceability.com",
+                "www.duralexusa.com",
+                "www.e-firstaidsupplies.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v7\\.8\\.3\\/bb-v7\\.8\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "297b9fe17530e9303e8a7a5ca59758a26adf3572af65a4c0882cc9f5cda601e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hunterboots.com",
+                "leicacamerausa.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v1\\/MTI4LjIwMy4xODEuNTA=\\/0dfe23f63267f9f6e01759786cff6021\\/urgjope",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ipl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7e56c060cc2123be690323e13ee63cb3edb9fd229458e62b5777f008664c7222"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asda.com",
+                "www.hotelsbyday.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/OpenSans-Cond\\/OpenSans-Cond\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fonts"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39be7fb615bc797578794cee01cef02536ec187459cb6d2ea33cc96dd6bb7590"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arrowvideo.com",
+                "www.arrowvideo.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/89189-270\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec752d3801a8bffe6bc83e0f9319c2da1ef1048b02eb472c2562e2037474bc78"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arrowvideo.com",
+                "www.arrowvideo.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v7\\.13\\.1\\/tag-v7\\.13\\.1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.height": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "697437bbbb28991585a86a3eda8c0723a1108dff62f937cb08c5726d223d958e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "intently_sessionId": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bodybody.com",
+                "www.bodybody.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v7\\.15\\.0-beta\\.11\\/tag-v7\\.15\\.0-beta\\.11\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.height": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e3453e73c07ed2e2ee83197032c4ed2414809259d300c9f8417c2361c30bd68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "intently_sessionId": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firstleaf.com",
+                "www.sharkninja.co.uk"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v7\\.14\\.0-beta\\.19\\/tag-v7\\.14\\.0-beta\\.19\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.height": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00e84789b5cd242e9b78dc1b769eb091cf179670648048c048e07786fc75f570"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "intently_sessionId": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotelsbyday.com",
+                "www.hotelsbyday.com"
+            ]
+        },
+        {
+            "rule": "smct\\.io\\/v7\\.14\\.0\\/tag-v7\\.14\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Screen.prototype.height": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Notification.permission": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b8ccd62384b75dbe54bd214f54fd5189932f6fd5024667cd207204517aa5975f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "miniaturemarket.com",
+                "www.miniaturemarket.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00026,
+    "topInitiators": [
+        {
+            "domain": "smct.co",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.18095238095238095
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.02857142857142857
+        },
+        {
+            "domain": "hunterboots.co.uk",
+            "prevalence": 0.01904761904761905
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.01904761904761905
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.009523809523809525
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.009523809523809525
+        },
+        {
+            "domain": "cheekybranding.com",
+            "prevalence": 0.009523809523809525
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.009523809523809525
+        }
+    ],
+    "types": {
+        "XHR": 35,
+        "Script": 83,
+        "Document": 25,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "terin.ns.cloudflare.com",
+        "brianna.ns.cloudflare.com"
+    ]
+}

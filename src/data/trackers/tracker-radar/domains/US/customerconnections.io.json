@@ -1,0 +1,305 @@
+{
+    "domain": "customerconnections.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "cdn",
+        "scriptapi",
+        "fpcdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "customerconnections\\.io\\/Script\\/6c88e4fa2dff4b32b88b8693d76dc479",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a69f476bfb4fc484153ea7a583977616918e8fb5ca7e177036af47c68d19e8e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "firestorm_dev_id": {
+                    "ttl": 86408,
+                    "length": 20,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/api\\/Script\\/register-script-fire",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/api\\/Script\\/register-script-fire",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "69f6495961420035a7813845984fda854da5d9be2a270d20c030b84755d2fae9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/web\\/v4\\/8SMYTmlRdqyGTGMYPwF5",
+            "cookies": 0.0000137,
+            "fingerprinting": 3,
+            "subdomains": [
+                "fpcdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "Document.cookie getter": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "Navigator.prototype.vendor": 2,
+                "Navigator.prototype.connection": 2,
+                "Navigator.prototype.mediaCapabilities": 2,
+                "Navigator.prototype.permissions": 2,
+                "speechSynthesis.__proto__.getVoices": 2,
+                "Screen.prototype.availTop": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availLeft": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.availHeight": 2,
+                "Navigator.prototype.mediaDevices": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "OfflineAudioContext.prototype.constructor": 2,
+                "Navigator.prototype.requestMediaKeySystemAccess": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.webkitTemporaryStorage": 2,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "Navigator.prototype.getBattery": 2,
+                "Navigator.prototype.keyboard": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Performance.prototype.memory": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Screen.prototype.colorDepth": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "window.indexedDB": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Navigator.prototype.productSub": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "window.outerWidth": 2,
+                "window.outerHeight": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.vendorSub": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.appCodeName": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.onLine": 2,
+                "Navigator.prototype.presentation": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 2,
+                "WebGLRenderingContext.prototype.getContextAttributes": 2,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 2,
+                "WebGL2RenderingContext.prototype.getSupportedExtensions": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "AudioBuffer.prototype.getChannelData": 2,
+                "Notification.permission": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50aa86c998f4617ac3f68f968503176c59789b7c4f2f7a7be5420b3d8ef5471f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787642526,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_vid_t": {
+                    "ttl": 31536008,
+                    "length": 78,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/UPtwH\\/Z7vTESn\\/Eo5plh\\/d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fpcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b10529a1ed2b1249c93a20837768b550b0844d7fd112d3896ba93848cc48a231"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fpcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d747067eb971ef763b8c80f8c599a75af7f5a890b7053c355c46d3ef82c58175"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/api\\/Script\\/onboard-event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e60da704acd27db23692758fc242b14135a50be59eedc9aadcd91972f070d7a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        },
+        {
+            "rule": "customerconnections\\.io\\/api\\/Script\\/onboard-event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "scriptapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mahindrausa.com",
+                "www.mahindrausa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Preflight": 4,
+        "Fetch": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pdns04.domaincontrol.com",
+        "pdns03.domaincontrol.com"
+    ]
+}

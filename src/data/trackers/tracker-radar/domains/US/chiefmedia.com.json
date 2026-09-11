@@ -1,0 +1,126 @@
+{
+    "domain": "chiefmedia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chiefmedia\\.com\\/moment\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6665e15f7ae65bf5a5b2c5ed095a74f9da6532ee2d20015f8dc78714a8f3da26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "earthbreeze.com",
+                "laurageller.com",
+                "plantpaper.us",
+                "thekidsguide.com",
+                "www.laurageller.com"
+            ]
+        },
+        {
+            "rule": "chiefmedia\\.com\\/moment-timezone-with-data-10-year-range\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "658ca71fe3d27ffe7f1ed9f9ac48e523c461f46da2550df80115dac0bc7650d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "earthbreeze.com",
+                "laurageller.com",
+                "plantpaper.us",
+                "thekidsguide.com",
+                "www.laurageller.com"
+            ]
+        },
+        {
+            "rule": "chiefmedia\\.com\\/cookie_referrerv2\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "82235a6ba2a2aef2c72831f2cc38098917f121d08f794bd1870b6d73e7640db5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_referrer": {
+                    "ttl": 10819,
+                    "length": 30,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_original_datetime": {
+                    "ttl": 10819,
+                    "length": 19,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "earthbreeze.com",
+                "plantpaper.us",
+                "thekidsguide.com",
+                "www.laurageller.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "daisy.ns.cloudflare.com",
+        "lewis.ns.cloudflare.com"
+    ]
+}

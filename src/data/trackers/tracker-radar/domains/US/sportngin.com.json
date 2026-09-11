@@ -1,0 +1,1117 @@
+{
+    "domain": "sportngin.com",
+    "owner": {
+        "name": "Sport Ngin",
+        "displayName": "Sport Ngin"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "se-fe-analytics.ui",
+        "api",
+        "app-assets2",
+        "app-assets3",
+        "app-assets1",
+        "se-aws-snap",
+        "cdn1",
+        "login",
+        "cdn4",
+        "cdn2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sportngin\\.com\\/se-analytics-core\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "se-fe-analytics.ui"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1859b892c6b7dfc7a672066f1424e37f8004d5fde7a3302834e9201763a8592f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsengine.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/global_session\\/me",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85d59293e0eedd12c21ee6d524ad23231b2ab095d2c8e87b8e15b553dde6afca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsengine.com",
+                "www.sportsengine.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/site_stylesheets_secure\\/3638\\/custom\\/page_elements\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b76f76f56a6ecea40692fdfa8c630e69b4078ffae960959cb10d99c212d2f83a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/site_stylesheets_secure\\/3638\\/custom\\/sports\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ebc3b10b912c690bb8464e80d151cff71ca6e851ee2a114d848c8bdfd8b4f5d2"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/site_stylesheets_secure\\/3638\\/custom\\/default\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56af3478c718a78c027eb8af80561e2b8d694c31e8ce77bc16fd34021f5f9981"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/site_stylesheets_secure\\/jquery_treeTable\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "828c386534b75c32bbfccb902acac4ffe80a3b28354d7fd3bad647cd50a2ce20"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/stylesheets\\/sn\\/shared_components\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0b4d4048964feba0aa3912f6efa7d4a0116c81869904e3304d4c01c43cef0fb6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/sportngin-snap-production\\/ui_themes\\/ngin\\/latest\\/ngin-bar\\.css",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "se-aws-snap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f332a03f201e9067f99a92dce5922b5606eafb2f00e4b03f676c417b50588125"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/se-analytics-js\\.umd\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bb25f2de47a89f3f1f85386f93f599a06022ca9303537c56ac83fdde2ac4675c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/jquery\\/jquery-3\\.7\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {
+                "Element.prototype.getClientRects": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fc9a93dd241f6b045cbff0481cf4e1901becd0e12fb45166a8f17f95823f0b1a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/jquery\\/jquery-migrate-3\\.4\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5274f11e6fb32ae0cf2dfb9f8043272865c397a7c4223b4cfa7d50ea52fbde89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/base_packaged\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-assets2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6bfaeecac5d2c79d3bcbef7180f9683a578ee106ab963a8a61e8207d7f30979b",
+                "75ab431327b58ac9d13dd851f89bbf455e34d29bf0c78edf675fa597212453ec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/dropdown_nav\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6b66beb586658b412038c66a140a5bce432adebc9c012dc226143be5ab71702f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/sportngin-snap-production\\/ui_themes\\/inline-manual\\/1\\/main\\.css",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "se-aws-snap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c6d525ed10ffdd03111f29cb2fa381c51e097e5da3691aedbc8cfaa7d7dd61a4"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/grecaptcha\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a9287f91b897cbdd4715f9166db5069d26f1c454f6e547583f9e00dfed834e35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/javascripts\\/jquery\\/jquery\\.toolbar\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f7b9a61e6fc00f0df348cc69db0ef6f1def0525ad5a05a7fef69439e4c3dfaa7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/stylesheets\\/print\\/website_print_v4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d82b37a13080bf6d6ae35063aa789f6d9c9957224f12f767cd87121845a8a554"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/logo_graphic\\/e6d6-217350560\\/Arc_and_Star_small\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5c47ebf572652b36b76d44aea97edab65a359f43629877cb631cc27c237e6f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/fonts\\/FontAwesome\\/fontawesome-webfont\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3",
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "473842579288c04e865ecfa63ae67a45d6e9a0871c9cf2aea4db32637cf7bbb8"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/logo_images\\/logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5b0091c4b3e7dc7314e085002ecb1a4ff2a299677f76ff40b847282f9d91ac6b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/check_login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/site_stylesheets_secure\\/3638\\/custom\\/theme\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/sportngin-snap-production\\/ui_themes\\/ngin-bar\\/latest\\/main-v2\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "se-aws-snap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9a655b678f5bb45d8fbb8fa4a8283371239ebadb1b1170cf05229aec840f25ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com",
+                "www.uslchampionship.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/fonts\\/FontAwesome\\/fa-brands-400\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-assets3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16021e4052e5764ccf9396a55e754acaddee819fd6a71b05a57b5adfa517552b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9021\\/3399\\/adm\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "850a390b25081af08979aee161916f8fa61f054e3331f71d4820bda495b9c841"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/ac68-204860382\\/Chipotle_AA_Logo_-_For_Print\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8978d73d6807db100a11e622913717b06ebdb4caf8bced2483f7c97890f8ac51"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9021\\/3514\\/hallOfFame\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f55fc33dc76e46427034a0bbc96cc94d84bdcca45ca35db853a0096611fff91e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/e6af-184467306\\/HWAA_Logo_2023\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "75f60d0fe269f97b9c1f60d07f357d5f5f90e45f01e47ef2197b2994cfd36dc5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/aaa2-184467598\\/Rectangle_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "462acc711693ab5b93816d6de8471ccfd916cb4a0708077d9378933abcdf51f2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9021\\/3558\\/pkma\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9e92dd223018b1900c6e1e56b269cc50339027e6f43525b70a3e90130e6916b8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9130\\/2652\\/Screen_Shot_2017-10-11_at_2\\.48\\.41_PM\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32261556995e467fff775722424d013b1248e6bd653c168b6bb6d212ef9c3b08"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/e478-208022762\\/TryHockeyForFree25\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "305d92c431f4a28b63c5194d64fdcb240b6d6b320e2a7e22313fe66ba321099b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9129\\/3209\\/arena\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ad13e3bea1f437aa8ea09f44abf0d2a14c066b443ff59219df647243da998890"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9276\\/3056\\/blue-usahockeylogo_small\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7aeaf19416e83616ccdea7572b5ba8026ef0add8dc23eb948df110901e0e0872"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/1003\\/6912\\/IMG_6293\\.PNG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64a1cd0c563a9c96d0a2079f5512c72e792c1e687b1b6d8ac97a6a92b637a9ac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/1003\\/0578\\/2017_1114_USA_Hockey__11_\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "066bbe9da9f6992ef08dd8ad40aeafba541316e34492ec2aea90e09d1f20f380"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9263\\/0272\\/FirstSteps11\\.1\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3bbd53faa93dfcd806e420c34b14391b055f40acc7109ee360094ca67d7575b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/1038\\/7679\\/Osaer_Phil_BOS_Coaching_Symposium_2017_1\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "73d1a3387bb870dcd9f3c3c09a1e6e38b0aba1da145ed7022b2033742cf6bce5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/1042\\/6261\\/2018_0519_Fargo_wins_Clark_Cup_11\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8019b63174a079f2b728d232090cde14cba7aa6d9cb714f0312663e50bea52a5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/5a2f-104410209\\/DSC_5208__1_\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74c5d80b74f549f1329321102c8781b0356e0d12fba76d089ae8c86b5920391a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/0887-217350550\\/USA_Hockey_Arc_and_Star_Logo__White_Registered_Symbol_\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9d12f57c88d24680d8367a68345fd43d867a56dde51ad45b46eaaaccbec1ff7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/acd6-214138182\\/IIHF_PrimaryLogo_FullColour_Negative_RGB\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa9f382c765480920c864c6af3833351462ccc13b7c87a22aac0e00d06afecff"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/9126\\/2755\\/nhl_logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74bf3947aa84d070dcb71bbfe1603c14bbb228116e0d34e089a1ded5c3d91df4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/b031-141917571\\/nsm_logo_large\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2c6549bcaef65692bf5ff654622e9aa619b3363705ad26dc0180abd6697d5a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/2a32-142237329\\/1582069907526_Integrass-Sports_large\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c26319a92736f8259f975f6d14166150923e69557b51a5810cb609ecf0d5f693"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/photo\\/f67e-162583242\\/FHNYScreen_large\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9039d6020a43a97ff282040cbfcf36a3e0de57f2a882abaa6414178eedfdee8d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "usahockey.com",
+                "www.usahockey.com"
+            ]
+        },
+        {
+            "rule": "sportngin\\.com\\/attachments\\/news_article\\/66ac-220133704\\/CH_OTW_Team_webcover_W25\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn4",
+                "cdn1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efaa45424c85ccd2fe56bc13849f7fe3352ed096f510ef4e6d0fa22a2513f712"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uslchampionship.com",
+                "www.uslchampionship.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "osano.com",
+            "prevalence": 0.6387755102040816
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.24081632653061225
+        },
+        {
+            "domain": "ngin.com",
+            "prevalence": 0.12040816326530612
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "Fetch": 2,
+        "Stylesheet": 26,
+        "Image": 53,
+        "Font": 5
+    },
+    "nameservers": [
+        "ns1.tstserver.com",
+        "ns2.tstserver.com",
+        "ns3.tstserver.com",
+        "ns4.tstserver.com",
+        "ns5.tstserver.com"
+    ]
+}

@@ -1,0 +1,408 @@
+{
+    "domain": "socy.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000178,
+    "sites": 26,
+    "subdomains": [
+        "prra.spxl",
+        "godo.spxl",
+        "ms20.spxl",
+        "noxv.spxl",
+        "elde.spxl",
+        "epre.spxl",
+        "dphp.spxl",
+        "tvee.spxl",
+        "zeco.spxl",
+        "joly.spxl"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/PRRA_827_738_836\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prra.spxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9f120ed9ded67f4ac4db35c78e4683e05a7bea813e91edf6771f95e41f068e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bs_id": {
+                    "ttl": 31536001,
+                    "length": 19,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_MAT_RNG_": {
+                    "ttl": 2592002,
+                    "length": 7,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_MAT_TK_": {
+                    "ttl": 902,
+                    "length": 34,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "matSessionID": {
+                    "ttl": 3603,
+                    "length": 32,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadenaser.com",
+                "caracol.com.co"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prra.spxl",
+                "godo.spxl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7a552d68b5c0376c13ef310c99341bba56eea7e186fa99debaddddb0570b53e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__bs_id": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "cadenaser.com",
+                "www.lavanguardia.com"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prra.spxl",
+                "ms20.spxl",
+                "noxv.spxl",
+                "elde.spxl",
+                "epre.spxl",
+                "godo.spxl",
+                "dphp.spxl",
+                "tvee.spxl"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "1567e25d595cef05ed5e8f0c6a0fbd66fd6400230e9bf9ca653b3b20d9a6d356",
+                "6e6b6aae9f163e0b02a14ecfbcb69072f804391a0cc89f9fc7bdf6f82d6b0a79",
+                "dab4e6222594d96d090ce5d0bc076dd2363026a87addbb363d1e2308a327d184",
+                "4967aa65d49bb71d284e299cd8250efe5cc8a22fb28241bbf1a534eeb0774813",
+                "9d671397463d3f25f96ba3075a02cc77b3a0470d2c25652007413a519e80e2e5",
+                "7ff3310a809f7e1561aa7fa9c807495ce3ca3618c1fab23c452268d2b21b1e2e",
+                "1a00276b6364bc9653899ca9cf965a304ab8d75c9ba33c9eccc9ee906cc172b8",
+                "2e5bdf66f754f4a9be41518643734ce965e6ea530d43cc772f751d0a2b042006",
+                "3d4cc0b13948151927e08e84a08c5ed61a0de1b576f591ad97266245464137f1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__bs_id": 0.00008904536518874193,
+                "_ga": 0.00007534607823662778,
+                "_gid": 0.000013699286952114143,
+                "lotame_domain_check": 0.00003424821738028536
+            },
+            "exampleSites": [
+                "caracol.com.co",
+                "los40.com",
+                "www.cuatro.com",
+                "www.divinity.es",
+                "www.ecartelera.com",
+                "www.eldebate.com",
+                "www.eldesmarque.com",
+                "www.europapress.es",
+                "www.formulatv.com",
+                "www.mundodeportivo.com",
+                "www.publico.es",
+                "www.rtve.es",
+                "www.telecinco.es"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/ZECO_453_877_194\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zeco.spxl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gestion.pe",
+                "trome.com"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/MS20_873_234_125\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ms20.spxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.width": 4,
+                "window.innerWidth": 4,
+                "Screen.prototype.availHeight": 4,
+                "Screen.prototype.height": 4,
+                "window.innerHeight": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d9f120ed9ded67f4ac4db35c78e4683e05a7bea813e91edf6771f95e41f068e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bs_id": {
+                    "ttl": 31536003,
+                    "length": 19,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuatro.com",
+                "www.divinity.es",
+                "www.eldesmarque.com",
+                "www.telecinco.es"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/JOLYOzD0eCrpfv\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "joly.spxl"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diariodecadiz.es",
+                "www.diariodesevilla.es",
+                "www.granadahoy.com",
+                "www.malagahoy.es"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/NOXV_491_646_733\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "noxv.spxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9f120ed9ded67f4ac4db35c78e4683e05a7bea813e91edf6771f95e41f068e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bs_id": {
+                    "ttl": 31536003,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecartelera.com",
+                "www.formulatv.com"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/GODO_816_926_112\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "godo.spxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9f120ed9ded67f4ac4db35c78e4683e05a7bea813e91edf6771f95e41f068e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bs_id": {
+                    "ttl": 31536002,
+                    "length": 23,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lavanguardia.com",
+                "www.mundodeportivo.com"
+            ]
+        },
+        {
+            "rule": "socy\\.es\\/pixel\\/js\\/TVEE_738_746_736\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tvee.spxl"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.width": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Screen.prototype.height": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9f120ed9ded67f4ac4db35c78e4683e05a7bea813e91edf6771f95e41f068e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__bs_id": {
+                    "ttl": 31536004,
+                    "length": 19,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rtve.es",
+                "www.rtve.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5862068965517241
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3448275862068966
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.034482758620689655
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.034482758620689655
+        }
+    ],
+    "types": {
+        "Script": 18,
+        "XHR": 2,
+        "Fetch": 13
+    },
+    "nameservers": [
+        "ruth.ns.cloudflare.com",
+        "henry.ns.cloudflare.com"
+    ]
+}

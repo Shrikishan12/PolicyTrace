@@ -1,0 +1,601 @@
+{
+    "domain": "oursprivacy.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000295,
+    "sites": 43,
+    "subdomains": [
+        "cdn",
+        "adventist-health-care-domain",
+        "rothman-orthopaedic-institute",
+        "function-health",
+        "doctronic",
+        "lawrence-memorial-hospital-lmh",
+        "spring-health-domain"
+    ],
+    "cnames": [
+        {
+            "original": "data.rothmanortho.com",
+            "resolved": "rothman-orthopaedic-institute.oursprivacy.com"
+        },
+        {
+            "original": "metrics.adventisthealthcare.com",
+            "resolved": "adventist-health-care-domain.oursprivacy.com"
+        },
+        {
+            "original": "metrics.functionhealth.com",
+            "resolved": "function-health.oursprivacy.com"
+        },
+        {
+            "original": "metrics.lmh.org",
+            "resolved": "lawrence-memorial-hospital-lmh.oursprivacy.com"
+        },
+        {
+            "original": "op.springhealth.com",
+            "resolved": "spring-health-domain.oursprivacy.com"
+        },
+        {
+            "original": "thedoc2.doctronic.ai",
+            "resolved": "doctronic.oursprivacy.com"
+        },
+        {
+            "original": "thedoci4.doctronic.ai",
+            "resolved": "doctronic.oursprivacy.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "oursprivacy\\.com\\/consent\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "adventist-health-care-domain",
+                "rothman-orthopaedic-institute"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [
+                {
+                    "original": "metrics.adventisthealthcare.com",
+                    "resolved": "adventist-health-care-domain.oursprivacy.com"
+                },
+                {
+                    "original": "data.rothmanortho.com",
+                    "resolved": "rothman-orthopaedic-institute.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "74ca7e6ba885b98df9fa59f7fb2c330c3eaf8a0a14174930dfeacd9842bc7e76"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilh.org",
+                "corephysicians.org",
+                "mountauburnhospital.org",
+                "nebh.org",
+                "sleepdoctor.com",
+                "www.adhdadvisor.org",
+                "www.adventisthealthcare.com",
+                "www.bidmc.org",
+                "www.bookmarkmedical.com",
+                "www.evvy.com",
+                "www.lahey.org",
+                "www.rothmanortho.com",
+                "www.sleepapnea.org",
+                "www.sleepfoundation.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/cmp-init",
+            "cookies": 0.0000822,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "adventist-health-care-domain",
+                "rothman-orthopaedic-institute"
+            ],
+            "apis": {
+                "window.sessionStorage": 10,
+                "Document.cookie getter": 10,
+                "window.localStorage": 10,
+                "Document.cookie setter": 10,
+                "Navigator.prototype.language": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Screen.prototype.height": 10,
+                "Screen.prototype.width": 10
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [
+                {
+                    "original": "metrics.adventisthealthcare.com",
+                    "resolved": "adventist-health-care-domain.oursprivacy.com"
+                },
+                {
+                    "original": "data.rothmanortho.com",
+                    "resolved": "rothman-orthopaedic-institute.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "1e9d8f3342f77960834b3e97dfe0a68a314b7ec4a52b618420835e1ef0655f81",
+                "e9d8faa0ef3d8a40b0416cf256a270298987ca1ed1ec2679a08f4a892b20d92f",
+                "936fea9a05fb436c8f83f0a9fe1df149d0b7ee6f24897cc2b0b58378ba99a197",
+                "b45603bbbe7546f3acf7677b305e62f540c0955e1e86fc1718618c131bd9f254",
+                "eb270553c93880a7296ab5dda85fc3d0e8734751fc33cbc1522978505d95b790",
+                "4bb75df4d946f8cfe392239a6c95d38b57319bbec7d7e9388688faf687bcfbbf",
+                "1bafebcaa88a82c0c9f87d20a3951e8708cbee71fbb04cdfaf1df66daff67e2a",
+                "88962cdb3c7b909b8b8a38037156f3313063fe3e48ba80c82146a1550685c220",
+                "1edcf6e9f325df0e0924ea4075080ba3a37e784aa9515285ff2cf641a338cfa3",
+                "855b7a44b22159aef130e3177e7cb19ba5aa7bca6db26a5549e0bd64e6ca45e5",
+                "6107ac96df3ae173cde8c0e26e524529922c79c3cd2fb4a6c54375352d2457c4",
+                "44c42a16665461364f49c297a489d0656b814e0e52975033f141db3c3e811ccf",
+                "0f9a5127260a5ea194ee53bacbc25a3b0af3fbb162643767440130dda1cfb51a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ours_device_id": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.00006849643476057071,
+                    "uniqueness": 1
+                },
+                "_cord_sdk_data": {
+                    "ttl": 31536001,
+                    "length": 26,
+                    "prevalence": 0.00006849643476057071,
+                    "uniqueness": 0.1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilh.org",
+                "corephysicians.org",
+                "mountauburnhospital.org",
+                "nebh.org",
+                "sleepdoctor.com",
+                "www.adhdadvisor.org",
+                "www.adventisthealthcare.com",
+                "www.bidmc.org",
+                "www.bookmarkmedical.com",
+                "www.evvy.com",
+                "www.lahey.org",
+                "www.rothmanortho.com",
+                "www.sleepapnea.org",
+                "www.sleepfoundation.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/embed\\/translate\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Navigator.prototype.language": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "257e94e9af8b09b78931f09968a57d32eeff461641e39b3e5f10887387047db6",
+                "4c7a017cd45f78b6b4cf40626d42b5f3c53520537e2e2eee9b83a4b5caf4c29b",
+                "6682e7ae6e885f0b886f07479efea66a6e220a25a8c7066a5c6a80ec537cdf5f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilh.org",
+                "corephysicians.org",
+                "mountauburnhospital.org",
+                "nebh.org",
+                "www.adventisthealthcare.com",
+                "www.bidmc.org",
+                "www.lahey.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/ingest",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "function-health",
+                "adventist-health-care-domain",
+                "doctronic",
+                "lawrence-memorial-hospital-lmh",
+                "rothman-orthopaedic-institute"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [
+                {
+                    "original": "metrics.functionhealth.com",
+                    "resolved": "function-health.oursprivacy.com"
+                },
+                {
+                    "original": "metrics.adventisthealthcare.com",
+                    "resolved": "adventist-health-care-domain.oursprivacy.com"
+                },
+                {
+                    "original": "thedoci4.doctronic.ai",
+                    "resolved": "doctronic.oursprivacy.com"
+                },
+                {
+                    "original": "metrics.lmh.org",
+                    "resolved": "lawrence-memorial-hospital-lmh.oursprivacy.com"
+                },
+                {
+                    "original": "data.rothmanortho.com",
+                    "resolved": "rothman-orthopaedic-institute.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "1a528fdd13818921af9ec056d53b76529ad5aa9f6cbe4377bda0b40fcd4e9f2f",
+                "3639af4f31593c88ea0f2c08e4c7b184b8e5879a3aebc310c5e46a69bdef8e03",
+                "fc5285c16b315e730e78608e3fc8b3f5b8510d6f1b27319494aeaa9ca98e4e3f",
+                "dd01054a9c5bc7694cbe5ea13d3fcfaca0870a038a174289075479eb0b2e668f",
+                "09d313998f79be065d383768e6569677b0a1fc75a1eb67aa189724869a103282",
+                "dd534e5b9a948eba0453457cc7fc3acd1c2117289b7ba29803896a6b0562afc7",
+                "5d74b278af65fc2b234517a125ef327957035f2bcdefd4a9d0535fbbee11b777",
+                "6e3b4af908615fbb983cd8f1ae935d9439a5ec44b10092c32ee9537100d6f087",
+                "852fcee1dc7a36a0c6ba797b850d3106225917ca36d84c3e34543d57234e85c0",
+                "c313d069ffe8a6cb471b414cbb0faa269ac38ebc9bc10f571a9cf549ccdda9df",
+                "4921d60cce4950cf316ef34c73815dbcf8e85f73985e0ea19d0f64bbe2f944b2",
+                "85e6bbf0bdefc0bd59e8398678f4c45fccc94e30b511131d4a38f88bc6076869",
+                "78daf79c4a26bded541b803829737d565a9cfe3db54f65372d389b69fd906eb7",
+                "1e5ed691ad6e46de0a8de442aca3de3b02160d9b713e1ce84413ce0cb41aa4c0",
+                "b44c7aa828058724c033f14eb09da641cfe6be09a8c43ae0078a0fe718925c5c",
+                "fdb89f526dc77d2e645a733c1bb08472c7e6e5bd442952d374b613c8fe95770d",
+                "07a237874d5ab8661eedb4b44fcb5def62f245abbd90f5b650911881d62029eb",
+                "8036092e170a6b7af668366f260d2897d17ed0e5d1c0000676de7648ca7b1770",
+                "d380049ab70babee85660cff84377f0f6e69016a56470c15670da858005cf7be",
+                "9738cce2d4c2ceb12958308e162ab88a2f576fcc97a5ccec8b219e5b11e588e9",
+                "7db880bc91eac219d51bc54e90f6f952d8f0821c39c598b346d1ad7c9d72b68d",
+                "67924b6f1fcb2cd5e391165b0cd38090ed01432a163b2ba9998c35d4e0f5e989",
+                "d7da04213da608cec90064a03af82b9b81cad74f30612105a4c21c2ce47acb10",
+                "609d775a148d9c11eda4297a0db7742ce19767129fc5777433e251175ea4a421",
+                "882d20037a0129b9c80d8f1e29d44f6800597d19171e948f77ac93032c6833e0",
+                "b0f5f3bde3c14783a21625258413de4dc6cb147ee4f96a5c9969410b5f21ed4d",
+                "6f2a1deffb964f46655a3d112c2044e8c97d63aa849c4079080fdc8af437d1dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lmh.org",
+                "www.sleepfoundation.org",
+                "my.functionhealth.com",
+                "mountauburnhospital.org",
+                "nebh.org",
+                "www.springhealth.com",
+                "www.sphealth.org",
+                "www.parsleyhealth.com",
+                "www.sleepapnea.org",
+                "corephysicians.org",
+                "www.doctronic.ai",
+                "www.sailorhealth.com",
+                "corewellhealth.org",
+                "bilh.org",
+                "www.theoriginway.com",
+                "conradpearson.com",
+                "www.evvy.com",
+                "www.bidmc.org",
+                "www.touchstoneimaging.com",
+                "www.mdvip.com"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/embed\\/translate\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "4b3371efff1fc144adcb129723233cb30c6954efd104234d954eb2d6392da612"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bilh.org",
+                "corephysicians.org",
+                "mountauburnhospital.org",
+                "nebh.org",
+                "www.adventisthealthcare.com",
+                "www.bidmc.org",
+                "www.lahey.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/main\\.js",
+            "cookies": 0.000185,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn",
+                "adventist-health-care-domain",
+                "doctronic",
+                "lawrence-memorial-hospital-lmh",
+                "rothman-orthopaedic-institute",
+                "spring-health-domain"
+            ],
+            "apis": {
+                "window.sessionStorage": 22,
+                "NavigatorUAData.prototype.getHighEntropyValues": 20,
+                "Document.cookie getter": 22,
+                "window.localStorage": 22,
+                "Document.cookie setter": 22,
+                "window.innerHeight": 22,
+                "Navigator.prototype.language": 22,
+                "Navigator.prototype.userAgent": 22,
+                "Screen.prototype.height": 22,
+                "Screen.prototype.width": 22,
+                "Navigator.prototype.webdriver": 1,
+                "Navigator.prototype.plugins": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.maxTouchPoints": 1,
+                "window.innerWidth": 3
+            },
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [
+                {
+                    "original": "metrics.adventisthealthcare.com",
+                    "resolved": "adventist-health-care-domain.oursprivacy.com"
+                },
+                {
+                    "original": "thedoc2.doctronic.ai",
+                    "resolved": "doctronic.oursprivacy.com"
+                },
+                {
+                    "original": "metrics.lmh.org",
+                    "resolved": "lawrence-memorial-hospital-lmh.oursprivacy.com"
+                },
+                {
+                    "original": "data.rothmanortho.com",
+                    "resolved": "rothman-orthopaedic-institute.oursprivacy.com"
+                },
+                {
+                    "original": "op.springhealth.com",
+                    "resolved": "spring-health-domain.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "fde99806e05a696eda5fd7521dcb1003d824009061db3a310795d31384e43993",
+                "c2930b6b345ca27d3de4c577fc7a9590f01b0ce153cb47817df9691e2488a293"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_cord_sdk_data": {
+                    "ttl": 31536002,
+                    "length": 203,
+                    "prevalence": 0.00015069215647325556,
+                    "uniqueness": 1
+                },
+                "ours_device_id": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.00015069215647325556,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.mdvip.com",
+                "login.mdvip.com",
+                "www.doctronic.ai",
+                "www.evvy.com",
+                "www.theoriginway.com",
+                "www.sleepapnea.org",
+                "nebh.org",
+                "www.sailorhealth.com",
+                "www.touchstoneimaging.com",
+                "www.bidmc.org",
+                "www.rothmanortho.com",
+                "www.sphealth.org",
+                "www.springhealth.com",
+                "corewellhealth.org",
+                "www.bookmarkmedical.com",
+                "sleepdoctor.com",
+                "www.lmh.org",
+                "www.adventisthealthcare.com",
+                "bilh.org",
+                "www.parsleyhealth.com"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/tag-manager-init",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "lawrence-memorial-hospital-lmh",
+                "spring-health-domain"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "metrics.lmh.org",
+                    "resolved": "lawrence-memorial-hospital-lmh.oursprivacy.com"
+                },
+                {
+                    "original": "op.springhealth.com",
+                    "resolved": "spring-health-domain.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "85354dd872c961ce94b0e691635d5b12e50dc3ceb0f32dab0a1292aa4f5ff26c",
+                "16188ca6c3791d33774f099a3df64134f336f66109b30a03c4008b636556a341",
+                "9d7db636a81ad3d01593dfe06f121667f7a52636f559c8fa047f9b43fd1b568f",
+                "ae5c66b6b7e590a6fa474900edc5a7141387f35bc835bd58d44071f6388fb27b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mdvip.com",
+                "www.bookmarkmedical.com",
+                "www.lmh.org",
+                "www.mdvip.com",
+                "www.springhealth.com"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/replay-init",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "adventist-health-care-domain",
+                "doctronic"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "metrics.adventisthealthcare.com",
+                    "resolved": "adventist-health-care-domain.oursprivacy.com"
+                },
+                {
+                    "original": "thedoci4.doctronic.ai",
+                    "resolved": "doctronic.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "6fac2df995c9487e5da6b772f8f1d9472c036c2d27065504586885c6e06d9572",
+                "8fd4c2e037f992f808bd1b319d7549e434a613a008294776eeacc4b36dbafd90",
+                "464560195150c5a163867905ac8dd91af4e55874ea747c399bc91bd06fc2a5e7",
+                "ec394d14c10a4741bb85cdf903a47e83eda695cc2083835543630ef1179f6117"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepdoctor.com",
+                "www.adhdadvisor.org",
+                "www.adventisthealthcare.com",
+                "www.doctronic.ai",
+                "www.sleepfoundation.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/replay-ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "doctronic"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "thedoc2.doctronic.ai",
+                    "resolved": "doctronic.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepdoctor.com",
+                "www.adhdadvisor.org",
+                "www.adventisthealthcare.com",
+                "www.doctronic.ai",
+                "www.sleepfoundation.org"
+            ]
+        },
+        {
+            "rule": "oursprivacy\\.com\\/replay-ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn",
+                "doctronic"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "thedoc2.doctronic.ai",
+                    "resolved": "doctronic.oursprivacy.com"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sleepdoctor.com",
+                "www.adhdadvisor.org",
+                "www.adventisthealthcare.com",
+                "www.doctronic.ai",
+                "www.sleepfoundation.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000288,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6486486486486487
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.27927927927927926
+        },
+        {
+            "domain": "adhdadvisor-assets.s3.amazonaws.com",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "piwik.pro",
+            "prevalence": 0.018018018018018018
+        }
+    ],
+    "types": {
+        "Stylesheet": 21,
+        "Script": 59,
+        "Fetch": 33,
+        "Preflight": 5
+    },
+    "nameservers": [
+        "ns-403.awsdns-50.com",
+        "ns-854.awsdns-42.net",
+        "ns-1273.awsdns-31.org",
+        "ns-1977.awsdns-55.co.uk"
+    ]
+}

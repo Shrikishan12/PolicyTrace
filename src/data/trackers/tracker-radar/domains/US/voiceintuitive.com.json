@@ -1,0 +1,111 @@
+{
+    "domain": "voiceintuitive.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "static",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "voiceintuitive\\.com\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.sessionStorage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "9d6e9ea753d59c66e0ef925b8b5b5464137b825796d4676250d2c52f58d18244"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pohde.fi",
+                "www.duodecimlehti.fi",
+                "www.kaypahoito.fi",
+                "www.terveyskirjasto.fi"
+            ]
+        },
+        {
+            "rule": "voiceintuitive\\.com\\/config\\/master-translations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "6a09d0767df803bf926fdd0ab57ffae1b71fafa01f2aa55823447a4d689c1f73"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pohde.fi",
+                "www.duodecimlehti.fi",
+                "www.kaypahoito.fi",
+                "www.terveyskirjasto.fi"
+            ]
+        },
+        {
+            "rule": "voiceintuitive\\.com\\/config\\/duodecimlehti\\.fi\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "30e868c0301a2025a65f42e2c9d02994cba543e1cc0407ef38da049eed077387"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duodecimlehti.fi",
+                "www.duodecimlehti.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.875
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.125
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 6
+    },
+    "nameservers": [
+        "paislee.ns.cloudflare.com",
+        "anton.ns.cloudflare.com"
+    ]
+}

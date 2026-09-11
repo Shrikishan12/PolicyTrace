@@ -1,0 +1,75 @@
+{
+    "domain": "deckbox.org",
+    "owner": {
+        "name": "Leaping Frog Studios",
+        "displayName": "Leaping Frog Studios"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "deckbox\\.org\\/javascripts\\/tooltip\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "acaf7def2bb2b538fbf65ccf0b58701c051cbb0fc58a8cab40ce35b628d3034d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardgamebase.com",
+                "www.tabletopbattles.com"
+            ]
+        },
+        {
+            "rule": "deckbox\\.org\\/assets\\/external\\/deckbox_tooltip\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "51f4679d64099de01ac1cfa454856f338233c2183c22d59d1770fcdc1bf9540c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cardgamebase.com",
+                "ultimateguard.com",
+                "www.tabletopbattles.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "donna.ns.cloudflare.com",
+        "ken.ns.cloudflare.com"
+    ]
+}

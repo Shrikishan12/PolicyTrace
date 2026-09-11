@@ -1,0 +1,75 @@
+{
+    "domain": "squarespace.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [
+        {
+            "original": "static1.squarespace.com",
+            "resolved": "prod.squarespace.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "squarespace\\.map\\.fastly\\.net\\/static\\/5134cbefe4b0c6fb04df8065\\/t\\/5af9c6776d2a73e4ccb62191\\/1526318741713\\/cookie-banner\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static1.squarespace.com",
+                    "resolved": "prod.squarespace.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e0b7e5feb6b3466ae51bf3c03762ad9e6d2a8747757d5e520ee3ac0f5af759c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "squarespace.com",
+                "support.squarespace.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

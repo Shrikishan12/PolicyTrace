@@ -1,0 +1,304 @@
+{
+    "domain": "webability.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "widget-v2",
+        "fixes",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "webability\\.io\\/widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widget-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/liquorandwineoutlets\\.com\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fixes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/v\\/2026-08-24\\/widget-bootstrap\\.6b379360\\.widget\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget-v2"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "asw": {
+                    "ttl": 2592005,
+                    "length": 713,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/liquorandwineoutlets\\.com\\/manifest-telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fixes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/liquorandwineoutlets\\.com\\/manifest-telemetry",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fixes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1cc203a92bfadb0e4b3e18390ab1d23cee2f1bf7cc0ba80e1f114f6f8723372"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/widget\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/widget\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dae7b0f6d99da99bc6e786f1ed630c1032c1aa6a140b08e08ea382f93e7f2658"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/v\\/2026-08-24\\/widget-language-en\\.38d3bddc\\.widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "223325a3a1b922e89ff7540c29993f337b27367ca903df995af376c5cf572ad8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/liquorandwineoutlets\\.com\\/dom-snapshot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fixes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        },
+        {
+            "rule": "webability\\.io\\/liquorandwineoutlets\\.com\\/dom-snapshot",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fixes"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b203b106c25982af865f7424035fb3f30fc7a5c2a5b0c066d4526011361d0d3b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liquorandwineoutlets.com",
+                "www.liquorandwineoutlets.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 10,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "sara.ns.cloudflare.com",
+        "yichun.ns.cloudflare.com"
+    ]
+}

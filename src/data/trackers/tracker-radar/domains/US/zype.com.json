@@ -1,0 +1,187 @@
+{
+    "domain": "zype.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "resources"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "zype\\.com\\/bitmovin\\/player\\/8\\.200\\.0\\/bitmovinplayer\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.devicePixelRatio": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.product": 3,
+                "window.localStorage": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.language": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "URL.createObjectURL": 3,
+                "Event.prototype.timeStamp": 3,
+                "MediaSource.isTypeSupported": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4090a975b5aa38c2d51f7656592c6dce917e4f2c8b773982c0304e407049afe3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "bitmovin_analytics_uuid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackamericaweb.com",
+                "salemnewschannel.com",
+                "www.clayandbuck.com"
+            ]
+        },
+        {
+            "rule": "zype\\.com\\/bitmovin\\/ui\\/3\\.88\\.0\\/css\\/bitmovinplayer-ui\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "775f21a85ba3a0fdce128b8982d039e8f2e2c60b26570677027cbff9cbfaeaa9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackamericaweb.com",
+                "salemnewschannel.com",
+                "www.clayandbuck.com"
+            ]
+        },
+        {
+            "rule": "zype\\.com\\/bitmovin\\/ui\\/3\\.88\\.0\\/js\\/bitmovinplayer-ui\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "60133e8ddd324f02e0d788410cefba1abf7278f89a0ea6c0a2fdb851bdd0a9c1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackamericaweb.com",
+                "salemnewschannel.com",
+                "www.clayandbuck.com"
+            ]
+        },
+        {
+            "rule": "zype\\.com\\/bitmovin\\/advertising\\/8\\.200\\.0\\/bitmovinplayer-advertising-bitmovin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c70fb0929c1f9257e2df3f8c69c9a2ee6c1fd5b1ecffc0a40e67bf5ec9348ca6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blackamericaweb.com",
+                "salemnewschannel.com",
+                "www.clayandbuck.com"
+            ]
+        },
+        {
+            "rule": "zype\\.com\\/bitmovin\\/analytics\\/2\\.48\\.0\\/bitmovinanalytics\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0a8bb2fa92b00d8cf19b4b115b1122640fa0bfe575b7f76febf4f187d93f92fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salemnewschannel.com",
+                "www.clayandbuck.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6290322580645161
+        },
+        {
+            "domain": "salemnewschannel.com",
+            "prevalence": 0.14516129032258066
+        },
+        {
+            "domain": "saleminteractivemedia.com",
+            "prevalence": 0.11290322580645161
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.11290322580645161
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "ns-644.awsdns-16.net",
+        "ns-2034.awsdns-62.co.uk",
+        "ns-195.awsdns-24.com",
+        "ns-1240.awsdns-27.org"
+    ]
+}

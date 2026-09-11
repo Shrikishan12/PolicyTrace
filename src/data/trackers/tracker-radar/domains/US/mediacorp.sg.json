@@ -1,0 +1,1749 @@
+{
+    "domain": "mediacorp.sg",
+    "owner": {
+        "name": "MEDIACORP PTE. LTD.",
+        "displayName": "MEDIACORP"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "www16",
+        "recommend-zoom",
+        "uid",
+        "boost-recommend",
+        "dam",
+        "rt"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mediacorp\\.sg\\/prebid\\/9\\.30\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www16"
+            ],
+            "apis": {
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.connection": 2,
+                "window.devicePixelRatio": 2,
+                "Screen.prototype.orientation": 2,
+                "Navigator.prototype.hardwareConcurrency": 2,
+                "Navigator.prototype.deviceMemory": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9eb4bf985fc4351d27bae8d9e0c31464548b938232e3ee9914c4512cb85f35f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mothership.sg",
+                "www.8days.sg",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/tag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "recommend-zoom"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7fb12fb89cda09459ece76019b00e5a95d70e043757c9a41e4394ab4bb5b13b7",
+                "a1146d145f447eae451c200c2022264bd9d1f76b316e4b09469b82623efb0970"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8days.sg",
+                "www.8days.sg",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7beb5653ca4aab7039bac51426025160d114ba6792b9574f5df33685a7738084",
+                "921bd66fa57fd454d4eb7595b33e0c56638c1e0d3145c1b68c9abb8fa31ebbef",
+                "3cd1046962e3f22df4a3c13ef03ebdbbaba4b5c920567e58e4904ae673bd9f2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "UID": {
+                    "ttl": 31536008,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                },
+                "MeID_Seg": {
+                    "ttl": 31536011,
+                    "length": 11,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.5
+                },
+                "adtechTargetingKeys": {
+                    "ttl": 31536011,
+                    "length": 12,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "8days.sg",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/api\\/scripts\\/meid_sync_3rd\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8b8554ef3a6212c31551026ac1e7756e42366c9740c1e6822b086e5a7c064bc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/bssegs",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "uid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c0374d8456f7f43257ecd7d63961a0951f3cc52095ff36e6aa0607f6440725ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "8days.sg",
+                "www.8days.sg",
+                "www.channelnewsasia.com",
+                "www.mewatch.sg"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/universal\\/loader",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boost-recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c95bbe52338ccf5f3e43a7362917f2ee87aeea0fc88d9989842158b91e3f7125"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.000013699286952114143,
+                "_cb_svref": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "8days.sg",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/pixel\\.gif",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boost-recommend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "UID": 0.000013699286952114143,
+                "_cb_svref": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "8days.sg",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--g0ga9DTc--\\/c_fill,h_256,w_320\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/ai_generated_shopee_tiktok_videos\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "28b325ffc080cfee24618529a7e0a30bf1fcf715b1f95f8dbf90e518cb660cc5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--BPzPc3r0--\\/c_crop,h_1332,w_1666,x_166,y_0\\/c_fill,h_256,w_320\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/istock-1145769206\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e9d04c6dd606720a8000f823d6c909d6099cadacf89d6a73863930a7132bc1d8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--Y9UZQB6O--\\/c_fill,h_256,w_320\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2024\\/06\\/20\\/office%20workers%20CBD%20singapore%202\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c6fc82485acecda1e2bc72837c61a734a0a8ae0758d4ef79c9fec9894f3530a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--WlNhJRIR--\\/c_crop,h_1530,w_1913,x_44,y_-1\\/c_fill,h_256,w_320\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/23\\/img_3817\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d29c38633e4385379c01631839cf7aad181f4114eb533188a478500b407bcd91"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--DhbjT8cY--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787649435-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9162cf1c9ee711591b0dd443d19c99a4ec069442fea1ee0e22bbd376e2fac59"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s---8-5c8K_--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787643433-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ade13aebecdcf48082cc22f1b135cfb47116c86bc2b3cbc2e1b811e498d49ad9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--kRGMOvhp--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787632933-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8835c462bee783b93e0095169f691764c43abbc0cc14423d98dc953d45a4a6ea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--H4iC1710--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787635034-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "acd2ef9dab4ace74bdb5acf7e59a68b978aeabb48a97fa125c6b3cb2edcccd74"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--QtaiUaWv--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787634433-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3707a837e2da92b0fa73543931d6b87f0560b5e2abd97e62e7407c0b93b23ccb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--ETI0yQKL--\\/c_fill,g_auto,h_463,w_260\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/1787633237-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "97ee84f55d9154633ae9cf1e66a5fde6abf4e5829ec8f07e360f24774d5adca6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--DkBy0igR--\\/c_crop,h_533,w_666,x_133,y_1\\/c_fill,g_auto,h_147,w_183\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0\\.1\\/f_auto,q_auto\\/v1\\/one-cms\\/core\\/2026-08-25T010017Z_1_LYNXMPEM7O01S_RTROPTP_3_IRAN-CRISIS-ECONOMY\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc770b21d52bb1c4c25791ddff04999a85eca033618a8c952826b511ab884a7a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--uqT1SZul--\\/c_crop,h_533,w_666,x_75,y_1\\/c_fill,g_auto,h_147,w_183\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0\\.1\\/f_auto,q_auto\\/v1\\/one-cms\\/core\\/2026-08-12T025537Z_2_LYNXMPEM7B014_RTROPTP_3_NORTHKOREA-MISSILE\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c374e0a4b8b4e1c0e7e5ac0272b36534b0c2cffc23f8fac23a149253bf57399e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--RrVpfTs5--\\/c_crop,h_1333,w_1666,x_173,y_1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/dsc06222-2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "635b7d6d5d157168d413fcbb1006778c514289bd4b28e81a6d64f92ffdb3d73d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--OobEA8vp--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/deep-dive-ndr-2026-more-support-parents-children-jasmin-lau-25aug26-website\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0fd4a36888171d7015d89c0542c5d594c9b23db74576dfcc5e2da2044fba5140"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--RtESEwvE--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/money-talks-japanese-yen-18aug26\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec3ab9899834bf3b4a02aac996b95220645d94a2dddb6f811f933024449c2a1b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--Zwsom3Nx--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/work_it_170826_website\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "55edc741bcdd9cf845c13598a6a335189205a7276128e8cd9fec55de40d3c22b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--9ZYTQCPd--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/20\\/deep-dive-will-ai-remove-art-website-20aug26\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "02677d29198539b7c376d45852bbbabecd775fb7a8f28b5fe57f0f0aee0bf27f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--b_c2Mc8f--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/19\\/cna-correspondent-china-livestreaming-website-19aug26\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d0a4ae2e86b675c904fe202a2ee338fb8536a3835b3b69dbbd92f0cc17359dd4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--HwZFp3iO--\\/c_crop,h_1530,w_1913,x_44,y_-1\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/23\\/img_3817\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c5d62ca91e711a54fa929ca2b009308c7fd5bd4fd6e96f6dee708334ebea4e98"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--UGbiz6Fb--\\/c_crop,h_1113,w_1392,x_378,y_1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/23\\/adjectif_another_coffee_festival_2026_-_leon_foo_will_leow_-_4\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e57a1c9160e5e419da3c7526c128867860337a8b4cdd38650c96a657bae6d90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--IiIn8VFI--\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/mat_yeung_six_hub_roast_house_restaurant_kuala_lumpur\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c78f01616adc68c4b6afa12a32be878995971e0660268216387d0d3e9c5fa965"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--EjtJZls7--\\/c_crop,h_1600,w_2000,x_0,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/flow_naruto_concert_jujutsu_kaisen_concert\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "40a847858e104599584d7846a7b2aa38328e33e3cc6c2a4c8bedb935f4c838b2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--kJKtAamB--\\/c_crop,h_1500,w_1875,x_83,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/raja_azreen_meditasi_drummer\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d741131a593766919c28795407bae8943567093008b24fb7e5cd043e68687c5a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--AoaO9GyK--\\/c_crop,h_1268,w_1585,x_70,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/takashimaya_mid-autumn_2026_banyan\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aaf421b725febc252fcf7e64ffa999daa8a5cb61c0fc3efdd10eb7f7f98b09d9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--wtBcK7h1--\\/fl_relative,g_south_east,l_one-cms:core:watermark:ap_data-1,w_0\\.1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/one-cms\\/core\\/britain_stray_kids_concert_20420\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cfcb0976365db719d2336bddc4bb48083eeb6c6fa951a389f4ea5f216b40b8b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--AsZVb4J5--\\/c_fit,w_640\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/03\\/11\\/cna-button-games_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d93b7bb8eebc967a417ada1a4a7d2242a2102c996a470e981878cca61ecb9a0b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--47B0TU6h--\\/c_fit,w_640\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/03\\/11\\/cna-button-app_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af22007bddaa4b473028b9eca3f80cc4e1d9cef7a51a80379dd1d7fa5710c73f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--nXEEJ2H_--\\/c_fit,w_640\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/03\\/11\\/cna-button-newsletter_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "580710b16883a9b755eb0dc505ef2c4aaee7445f69e23522acb685765276b056"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--mkxMKXWB--\\/c_fit,w_640\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/03\\/11\\/cna-button-podcasts_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b3baf505d1d8fb46ce5b58d2e9bd0f9ad180bdbfec4efc8f6e3694553237e53"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--kIa2wF0Y--\\/c_fit,w_640\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/03\\/11\\/cna-button-interactive_1\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "70dec4bb6773ab7fba8f3757bdd412495af12277fb6b954bfc1a2dfe0ccf5589"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--fNrZgvEQ--\\/c_crop,h_496,w_620,x_131,y_-1\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2024-04:reuters_1,w_0\\.1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/one-cms\\/core\\/2026-08-18T210608Z_1_LYNXMPEM7H1FR_RTROPTP_3_TECH-AI-ANTHROPIC\\.JPG",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f13f722f549a73b733a92edf46be4fd2f1aee9ffc33d917fdf787a0752181ad6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--IN-nbJKK--\\/c_fill,g_faces:auto,h_140,w_140\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2022\\/04\\/13\\/dr_kalpanas_headshot\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "409878bcb74ed1c1030ac46abe5f26031cedb3797014c9bfa0bb0536ec8984a1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--L3AZ7UMT--\\/c_fill,g_faces:auto,h_140,w_140\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2025\\/07\\/10\\/Edwin%20Yeo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2744f4d823b5943fdcd69b352398e160655975d7452eda14721e60b750b8f569"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--GfIyX42F--\\/c_crop,h_1452,w_1452,x_30,y_0\\/c_fill,g_faces:auto,h_140,w_140\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2023\\/01\\/20\\/charlene_tan_01resize\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4a0d682175749b3e6ed63590ec4026dbeaafb0909712714b5fd3f17e9a5fc90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--hYvD5Bvw--\\/c_fill,g_faces:auto,h_140,w_140\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/20\\/trevor_yu\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f84030a580cf7f686ae8a37ba765e747d97bb41292015a6aa0294fbb7172667c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--RhdqzkIX--\\/c_crop,h_629,w_629,x_84,y_47\\/c_fill,g_faces:auto,h_140,w_140\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2025\\/03\\/12\\/sinderpal_singh\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e0c657028a294b674f58a88f5cec364ab5f2b6a351dcfd34fdcb446b1cedc96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--L0RzAeil--\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/25\\/japan-human-fridge3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a18367ad93548b1363da887e717461510af4d22098de747ed51c8d92ba0eab6a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--COl4xWT9--\\/c_crop,h_2000,w_1125,x_126,y_-1\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/2026-08-14t091719z_176366485_rc23ymav9e4h_rtrmadp_3_asia-weather-indonesia-wildfire\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8f4ba64fb03f66cc9d01b652d9375ca78ef807a920cad33a5219e19c58a62243"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--zVCPDv7y--\\/c_crop,h_1333,w_749,x_591,y_1\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/20260805_alyssa_oyster_cake_3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0028fdda4bfc84ffb5121816181db73c130ce44cebc0a0fbd414d10144ec31a9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--V-NpkUDr--\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/chinavj_humanoid_robot_game-3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "97820a9620e6954c69c603f5f46804f7229b290c7f16c692c424bbe22d989a92"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--v_Aga38o--\\/c_crop,h_2000,w_1125,x_1,y_0\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/20\\/20260820-jk-sg_night_fest_v-01_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ffd5b5898ff5758ea892e0811de45b6140638bb11de3d569875630a9fd70d943"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--DYVVq7CR--\\/c_crop,h_1392,w_783,x_549,y_-1\\/c_fill,g_auto,h_1600,w_900\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/19\\/20260729_bk_upclose-tan-chun-lim_19\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "954706f063c3bcbaf2a11bcee376e0f38de96502e0176d0a8e330120c57497a0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--JLTYn5I3--\\/c_crop,h_1500,w_1875,x_126,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/18\\/man_looking_at_contract_document_istock\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae14bf939b29b790904fbe01d17a0c8e3071adbc0c84cb14df5ad030dfa6e8ef"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--tBUO_wjh--\\/c_crop,h_1440,w_1800,x_60,y_0\\/c_fill,g_auto,h_147,w_183\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/20\\/personal-finance-debt-loan-credit-card-job-loss-scam-investment-gfx-cna-today-voices\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "18edfe398b3fddbf6e11b73e7537605ffb2df1664b3ced39941dfb1d89c326cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--ss8_11RE--\\/c_crop,h_1333,w_1666,x_166,y_1\\/c_fill,g_auto,h_147,w_183\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/19\\/20260805_alyssa_oyster_cake_3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f9dffcac058f25c74186876a5dbd5a89deaa9bb700066c88be18b0a8cfda41c0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--nPuRvFNC--\\/c_crop,h_1440,w_1800,x_49,y_0\\/c_fill,g_auto,h_147,w_183\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/21\\/masculinity-younger-men-conservative-traditional-views-identity-gfx-cna-today-big-read\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "360db1c268fb6508d1d996f89c03b4786ca73d86e3326c509838b9605080b999"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--AIi-AfJk--\\/c_fill,g_auto,h_147,w_183\\/f_auto,q_auto\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/19\\/image-s8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0178a7aabcb98e66a8c9817693943e8583876081e6400561b60d077ed1a739ef"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--1nDFaYFt--\\/c_crop,h_959,w_1199,x_37,y_1\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/21\\/h_red_watches\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "22fafd27ffb1f3d9528bd9e883fadaa64b692accd169370e7c1adab2237a3f7a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--cMjQbLlv--\\/c_crop,h_1332,w_1666,x_166,y_-1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/nike_shibuya_japan_1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7a7f58b296abb2c8f523c8e99cef62d60a8e652d1234f5e0b141c36b8472471d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--ynEKGeEN--\\/c_crop,h_1200,w_1500,x_100,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/21\\/h_1_travel_influencer\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aec71315181ea060000cc179612580b71c410e307d3424c679d9291cf60e0ed6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--Xn9X8gXq--\\/c_crop,h_1200,w_1500,x_50,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/18\\/h_jakarta-house-privacy-tropical-design\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0d70c4a5070e4f36c07fb0e40ba625561d2d260a8c4501b3aeef3d6922796ee9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--MjEYfS2i--\\/c_crop,h_1500,w_1875,x_63,y_0\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/22\\/mercedes-benz_studio_singapore-2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a589e7fbba145ffe75b078c2708b38d98f9b42000179d8fd5339b00c271080b3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--65aOBMS6--\\/c_crop,h_959,w_1199,x_48,y_1\\/fl_relative,g_south_east,l_mediacorp:cna:watermark:2021-08:cna,w_0\\.1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/20\\/decluttering-letting-go\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "999a321db41e57b2be4535d2d38a721b07e620fbb6463db1a55dcfb3fde16e7b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--0ZVJP6Gk--\\/c_crop,h_771,w_963,x_1,y_4\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/17\\/hero_conrad_jiuzhaigou_breakfast\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9b826b5d699b261212c2d05224a9f777c8aded8406d9711c4cac96faa51856f9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--hALPobI6--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/img_20260824_235636_6156\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e942066884fc342e082ac9fc90661ffe4341d2f1ef292ec986e45d9f4967782"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--xDNuC-L2--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/1787583436-image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4c5d594b1fb04eeca1ea9bd390d492b3bf7438db899a76c37b6ac449122b94a3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--WNOCZPM2--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/img_20260824_233851_3312_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2aa0664d32e7396aeaa3d8d3d995516662f2762e41d1a3693ba58c6a0dc07032"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--g4YiGNwF--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/img_20260824_232755_3961\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56272dad4cc5f79e248c340b1501d5343a565a81cbbe660650eec3083d030a4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--d5XVhgn1--\\/f_auto,q_auto\\/c_fill,g_auto,h_450,w_800\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/24\\/img_20260824_231737_2516_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7a5d264b2eb8a4e71a4773d6984a8e7d9dd87036f1dade95ac7f2e3e7df4f2f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--DBqOJ83N--\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/03\\/bstudio_zion-aesthetic-clinic_dr-ng_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fffab56a668fffa1f35d9c4057149e28429720d9863b5da93e780022e3c62a70"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--4OjSJxaz--\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/12\\/bstudio_scholarshall_isabellestudent\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb0731e80d88818602e8ea8b799936bcaef40470599180526fd9f5dc512b517d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--DaA_ni_C--\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/07\\/bstudio_lg_dualcool_s1_premium_lifestyle_frontview_hero_image\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b45d882b799a2527c84caf829ff9efff5cdd5645eafcc876205a48ba7752c47"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--rgMJcutW--\\/c_crop,h_667,w_833,x_97,y_1\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/07\\/15\\/bstudio_dksh_lead\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "442f9626bd228029ad54515c6b7e83747047a85b4e757d2fb0b1cd389ab5c725"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/s--aV9B-bkP--\\/f_auto,q_auto\\/c_fill,g_center,h_598,w_747\\/v1\\/mediacorp\\/cna\\/image\\/2026\\/08\\/11\\/dsc05878\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4ddfd0b775f8ac0ed08d397550436b6ad50c71ee847e80b1be06b3c2b6c70d7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/v1784623235\\/google-play_qkpzyb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "35fb28ba9ab694807e86a51f79ac72460cabe901e6347cd4d28742699f92d090"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/image\\/upload\\/v1784623235\\/app-store_kvv9we\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dam"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "931e7f7520b2bf2286ec59a36013ef4b2d2db1059b2e76bb4709bb8400cbe57b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "mediacorp\\.sg\\/mediacorp\\/pageanalytics",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d8704d659b8db3f14dc320981d5b0c10eea98277693130e65c12b67792206e09"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mewatch.sg",
+                "www.mewatch.sg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9475806451612904
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.04435483870967742
+        },
+        {
+            "domain": "newrelic.com",
+            "prevalence": 0.008064516129032258
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Image": 134,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-329.awsdns-41.com",
+        "ns-637.awsdns-15.net",
+        "ns-1493.awsdns-58.org",
+        "ns-1734.awsdns-24.co.uk"
+    ]
+}

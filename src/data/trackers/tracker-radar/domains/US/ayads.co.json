@@ -1,0 +1,352 @@
+{
+    "domain": "ayads.co",
+    "owner": {
+        "name": "Sublime Skinz Labs",
+        "displayName": "Sublime Skinz Labs"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0005,
+    "sites": 73,
+    "subdomains": [
+        "antenna",
+        "antenna-us",
+        "geoworker",
+        "optchk",
+        "ads",
+        "sac"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ayads\\.co\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "antenna",
+                "antenna-us"
+            ],
+            "apis": {},
+            "sites": 67,
+            "prevalence": 0.000459,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.00027398573904228286,
+                "__pid": 0.0003082339564225682,
+                "lotame_domain_check": 0.0001232935825690273
+            },
+            "exampleSites": [
+                "www.readingchronicle.co.uk",
+                "www.dailyecho.co.uk",
+                "www.bucksfreepress.co.uk",
+                "www.eadt.co.uk",
+                "www.paroles.net",
+                "ccm.net",
+                "www.eveningnews24.co.uk",
+                "tennisuptodate.com",
+                "www.southwalesargus.co.uk",
+                "www.hampshirechronicle.co.uk",
+                "www.lacoccinelle.net",
+                "www.westerntelegraph.co.uk",
+                "themanc.com",
+                "www.yourlocalguardian.co.uk",
+                "www.watfordobserver.co.uk",
+                "www.lancashiretelegraph.co.uk",
+                "www.psychologies.com",
+                "www.thewestmorlandgazette.co.uk",
+                "www.warringtonguardian.co.uk",
+                "blog.juliendelmas.fr"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geoworker"
+            ],
+            "apis": {},
+            "sites": 66,
+            "prevalence": 0.000452,
+            "cnames": [],
+            "responseHashes": [
+                "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.somersetcountygazette.co.uk",
+                "www.countytimes.co.uk",
+                "www.basingstokegazette.co.uk",
+                "themanc.com",
+                "www.liverpool-rumours.co.uk",
+                "forums.vitalfootball.co.uk",
+                "www.newsshopper.co.uk",
+                "www.greenocktelegraph.co.uk",
+                "www.glasgowtimes.co.uk",
+                "www.nwemail.co.uk",
+                "www.worcesternews.co.uk",
+                "www.swindonadvertiser.co.uk",
+                "www.yourlocalguardian.co.uk",
+                "www.sthelensstar.co.uk",
+                "www.leaderlive.co.uk",
+                "www.demotivateur.fr",
+                "www.psychologies.com",
+                "ccm.net",
+                "www.wiltshiretimes.co.uk",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "optchk"
+            ],
+            "apis": {},
+            "sites": 65,
+            "prevalence": 0.000445,
+            "cnames": [],
+            "responseHashes": [
+                "49120de5d47bd735b7fe51736fde6bfd75dcdadbe3862c7eff507f27214ad6c2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.liverpool-rumours.co.uk",
+                "www.bournemouthecho.co.uk",
+                "www.demotivateur.fr",
+                "www.ipswichstar.co.uk",
+                "www.basingstokegazette.co.uk",
+                "www.programme-tv.com",
+                "www.dorsetecho.co.uk",
+                "www.warringtonguardian.co.uk",
+                "www.canalturf.com",
+                "all.rugby",
+                "www.theargus.co.uk",
+                "www.southwalesargus.co.uk",
+                "www.salisburyjournal.co.uk",
+                "www.lacoccinelle.net",
+                "www.thewestmorlandgazette.co.uk",
+                "www.hampshirechronicle.co.uk",
+                "www.countypress.co.uk",
+                "www.eadt.co.uk",
+                "www.thenorthernecho.co.uk",
+                "www.glasgowtimes.co.uk"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/ajs\\.php",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ads"
+            ],
+            "apis": {
+                "window.name": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 1,
+                "Navigator.prototype.connection": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "juliendelmas.fr",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/sublime\\/16295",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sac"
+            ],
+            "apis": {
+                "window.name": 45,
+                "window.localStorage": 45,
+                "Navigator.prototype.userAgent": 45,
+                "window.innerWidth": 45,
+                "Navigator.prototype.language": 45,
+                "window.innerHeight": 41,
+                "Navigator.prototype.connection": 41,
+                "Date.prototype.getTime": 9
+            },
+            "sites": 45,
+            "prevalence": 0.000308,
+            "cnames": [],
+            "responseHashes": [
+                "55c5cedec2784d732ea1092d2d89d370222cae84dc25f9d658605fad9b8dacbf",
+                "50efbcc15b0a0f950182a34fb01526c50dc70673af75b34c3e87b50d99190e70",
+                "528c3ba0d03493be2685f0a08e14a492b322478f1e68973d5cd10c8341487430",
+                "bf340d03b62c183853f07439cd1158dba753d3c73a8ee440d6f5154620cf2d3b",
+                "2df0f7eeeb64bbb80db5f7a701864b24d21b17659435e8c69a049962d8c4dd01",
+                "4b32817f23d6e0c6adc35ab4e2c39d9637161ec99074b2bdd41222883584867a",
+                "b887da5ac9fe3d724c1e7abdcf6de09b211503b4995f021658699560cbc5637d",
+                "15ea05190e5d87dbb07b101a09773f50304f67e93bb3d0bdf644c2896cd1969f",
+                "cc7a2e415043f8b6a1e1cf016b318ab34498d4be1c33076bcb06feeb9f18ac9d",
+                "ef8061082a9a74b05149588f1a7315ab9af8225cf0222ee8205296614495bdfd",
+                "5992cecc257e21802d8a5baf9dac8197919b50cd034f6a62940b0991216079ec",
+                "ab620ea6fef5798f754c6bb963f0c019c49812ecb9ac0bccb922d497057bd68c",
+                "d5101cd2a81eac1a6369ee8bdee3e8b221c10d1caab51dc4c9802ba866ee70ff",
+                "1aa453267fae0e078f29fea54e5f685fc535946d997a2bc68cabe838f67c5f11",
+                "c4d64e2c77542f55c553167f03b29c87e7dd66972236714e5ca971da917c922f",
+                "ce50cc10acc25f0f6f024f36b3ac13eaa4ac578e6b00aa3bfe98e81c88e0d7b2",
+                "8110110f760bc96c36d53ecf22bae86ba44af9dcfe0b090cbcb544e473d8baa2",
+                "ab1a7860f7369cca0b20d9acdac01199d04cd848d7dd4f757ee76c577eb87ba3",
+                "175f6695204144ca03c2c1d4e24b747eea5f2558aa012e35bd42e076b42cde2c",
+                "7d690b1413f85379bda00b3ea9c32c9bc810762531bded710c9fe3b6c67652f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.wirralglobe.co.uk",
+                "www.bucksfreepress.co.uk",
+                "www.greenocktelegraph.co.uk",
+                "www.readingchronicle.co.uk",
+                "www.falmouthpacket.co.uk",
+                "www.echo-news.co.uk",
+                "www.newsshopper.co.uk",
+                "www.eveningnews24.co.uk",
+                "www.chesterstandard.co.uk",
+                "www.salisburyjournal.co.uk",
+                "www.southwalesargus.co.uk",
+                "www.oxfordmail.co.uk",
+                "www.leaderlive.co.uk",
+                "www.countytimes.co.uk",
+                "www.herefordtimes.com",
+                "basingstokegazette.co.uk",
+                "www.somersetcountygazette.co.uk",
+                "www.thewestmorlandgazette.co.uk",
+                "www.theboltonnews.co.uk",
+                "www.sthelensstar.co.uk"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/sublime\\/9678",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sac"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "06504f2bf7c1e53f5102ee32b96bd5e8a976968c2d923bd46730d159aae52ff9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paroles.net",
+                "www.paroles.net"
+            ]
+        },
+        {
+            "rule": "ayads\\.co\\/sublime\\/21542\\/prebid",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sac"
+            ],
+            "apis": {
+                "window.name": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6107f67a89ea3a270b896057e0f9ab295478755df84996694c8c80766d32bf2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sortiraparis.com",
+                "www.sortiraparis.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.5949367088607594
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1518987341772152
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06329113924050633
+        },
+        {
+            "domain": "dugwood.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "sascdn.com",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "snack-media.com",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "reworldmediafactory.com",
+            "prevalence": 0.02531645569620253
+        },
+        {
+            "domain": "consentframework.com",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "flashb.id",
+            "prevalence": 0.012658227848101266
+        }
+    ],
+    "types": {
+        "Image": 67,
+        "XHR": 66,
+        "Script": 116
+    },
+    "nameservers": [
+        "paul.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

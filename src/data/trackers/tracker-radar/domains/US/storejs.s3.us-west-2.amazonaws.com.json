@@ -1,0 +1,110 @@
+{
+    "domain": "storejs.s3.us-west-2.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00486,
+    "sites": 710,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "storejs\\.s3\\.us-west-2\\.amazonaws\\.com\\/a\\/JKRHX5WD\\/recb_JKRHX5WD_2025_03_26\\.js",
+            "cookies": 0.0025,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 366,
+                "Document.cookie getter": 365,
+                "Document.cookie setter": 365,
+                "Navigator.prototype.cookieEnabled": 365,
+                "Navigator.prototype.userAgent": 365
+            },
+            "sites": 536,
+            "prevalence": 0.00367,
+            "cnames": [],
+            "responseHashes": [
+                "3989881d3cb1c50c149519ad0c7fbd0e494577646de2e3d16a8c046492446200"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_geuid": {
+                    "ttl": 15552000,
+                    "length": 36,
+                    "prevalence": 0.0024864205818087167,
+                    "uniqueness": 1
+                },
+                "_geffran": {
+                    "ttl": 172800,
+                    "length": 1,
+                    "prevalence": 0.001335680477831129,
+                    "uniqueness": 0.005128205128205128
+                },
+                "_getdran": {
+                    "ttl": 172800,
+                    "length": 1,
+                    "prevalence": 0.0013288308343550718,
+                    "uniqueness": 0.005154639175257732
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "screenrant.com",
+                "www.makeuseof.com",
+                "www.barndominiumlife.com",
+                "haircutinspiration.com",
+                "homestudiobasics.com",
+                "www.autumlove.com",
+                "pinchofnom.com",
+                "caesarcipher.org",
+                "architecturecourses.org",
+                "metalcharts.org",
+                "www.sciencing.com",
+                "www.jalopnik.com",
+                "progolfadvisor.com",
+                "www.dirtinmyshoes.com",
+                "winsides.com",
+                "podcastreview.org",
+                "maintenanceschedule.com",
+                "lyricsondemand.com",
+                "www.sosyncd.com",
+                "thetreetrove.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00354,
+    "topInitiators": [
+        {
+            "domain": "mediavine.com",
+            "prevalence": 0.6535211267605634
+        },
+        {
+            "domain": "journeymv.com",
+            "prevalence": 0.2647887323943662
+        },
+        {
+            "domain": "pubnation.com",
+            "prevalence": 0.08169014084507042
+        }
+    ],
+    "types": {
+        "Script": 536
+    },
+    "nameservers": [
+        "ns-1144.awsdns-15.org",
+        "ns-1997.awsdns-57.co.uk",
+        "ns-352.awsdns-44.com",
+        "ns-546.awsdns-04.net"
+    ]
+}

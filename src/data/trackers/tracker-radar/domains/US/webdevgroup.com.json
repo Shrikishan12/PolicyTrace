@@ -1,0 +1,66 @@
+{
+    "domain": "webdevgroup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "webdevgroup\\.com\\/truneb\\/entry\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6460fde9c1c9b7e02b5f2e6ed3502e0c5edd4e195b40e0978a225a3dc0540090"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "first_landing_url": {
+                    "ttl": 7776000,
+                    "length": 46,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "stored_url_params": {
+                    "ttl": 7776000,
+                    "length": 6,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truneb.com",
+                "blog.truneb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "andy.ns.cloudflare.com",
+        "jo.ns.cloudflare.com"
+    ]
+}

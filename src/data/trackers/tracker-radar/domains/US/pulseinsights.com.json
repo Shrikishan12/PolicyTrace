@@ -1,0 +1,211 @@
+{
+    "domain": "pulseinsights.com",
+    "owner": {
+        "name": "Jeremy Bieger",
+        "displayName": "Jeremy Bieger"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "js",
+        "survey"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pulseinsights\\.com\\/pulse\\/latest\\/pulse\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fe8bac7cc06673210194499574b146349ca7eecb06584f8b8be7963f1931824"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benjaminmoore.com",
+                "www.benjaminmoore.com"
+            ]
+        },
+        {
+            "rule": "pulseinsights\\.com\\/integrity\\/PI-53817864",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "survey"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "668c27f2375b4554eb01e96b154e93ecafffb2c03b71e29e7203674b52107176"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benjaminmoore.com",
+                "www.benjaminmoore.com"
+            ]
+        },
+        {
+            "rule": "pulseinsights\\.com\\/serve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "survey"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16c302e91b03812a5843a7f87021e370f178e72811586afd656e5966b0a70cb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benjaminmoore.com",
+                "www.benjaminmoore.com"
+            ]
+        },
+        {
+            "rule": "pulseinsights\\.com\\/surveys\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "Document.cookie getter": 11,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "4b4368be6227032a0e9e004a27a5627e349b0e39477e5af98fd77320a9bffd46"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comcast.net",
+                "med.nyu.edu",
+                "nyulangone.org",
+                "openstax.org",
+                "www.americancentury.com",
+                "www.crocs.com",
+                "www.heydude.com",
+                "www.njtransit.com",
+                "www.xfinity.com",
+                "xfinity.com",
+                "xjs.xfinity.com"
+            ]
+        },
+        {
+            "rule": "pulseinsights\\.com\\/serve",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "survey"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "16c302e91b03812a5843a7f87021e370f178e72811586afd656e5966b0a70cb5",
+                "252033dd68cfe3a850f15ed2dbeaceb3e0d447d3feeb773b655a3670bac70d33"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comcast.net",
+                "med.nyu.edu",
+                "nyulangone.org",
+                "openstax.org",
+                "www.americancentury.com",
+                "www.crocs.com",
+                "www.heydude.com",
+                "www.njtransit.com",
+                "www.skechers.com",
+                "www.xfinity.com",
+                "xfinity.com",
+                "xjs.xfinity.com"
+            ]
+        },
+        {
+            "rule": "pulseinsights\\.com\\/bootstrappers\\/piBootStrapperV1_2-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "45f1a04bdc329064cbcda34a02ec82e9eccedb6d9c889470f76ef6ab10eb5d68"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skechers.com",
+                "www.skechers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4489795918367347
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3469387755102041
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.16326530612244897
+        },
+        {
+            "domain": "xfinity.com",
+            "prevalence": 0.04081632653061224
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-317.awsdns-39.com",
+        "ns-862.awsdns-43.net",
+        "ns-1541.awsdns-00.co.uk",
+        "ns-1457.awsdns-54.org"
+    ]
+}

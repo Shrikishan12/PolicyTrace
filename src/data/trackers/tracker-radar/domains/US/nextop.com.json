@@ -1,0 +1,209 @@
+{
+    "domain": "nextop.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "livechat",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nextop\\.com\\/nextop-im-sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "livechat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "65cc29a72f0fd29e618469cc64dbb919bad09b957872b502e38409b037904821"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "3wliners.com",
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livechat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23894f44bc2e16243c2f2cc09cb31dd1bf06696960556e8f14194b99dd80ed2e"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/assets\\/main-78b169ff\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "livechat"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fcb6050e6a8b2d70617ded1e43f117f1612e12a84d153b27f47b1e8103bbaa85"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/assets\\/index-8bf77da2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livechat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bf77da20f6ac2e23b3881dfbe071488728d376984b6af67e51d53c4decd0da8"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/ticketOrder\\/ably\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/ticketOrder\\/ably\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16a8baa4bd681126d1e77c23d3925fee9d0184f9acf28f93cde6b3c3d8662e70"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        },
+        {
+            "rule": "nextop\\.com\\/notify\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livechat"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dabd005d00af2918b3f245814f857f1ff554c2bd849550a16bd46020a84ae053"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costway.com",
+                "www.costway.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3333333333333333
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Document": 2,
+        "Stylesheet": 2,
+        "Preflight": 2,
+        "Fetch": 2,
+        "Media": 2
+    },
+    "nameservers": [
+        "vip1.alidns.com",
+        "vip2.alidns.com"
+    ]
+}

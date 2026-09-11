@@ -1,0 +1,106 @@
+{
+    "domain": "alia-cloudflare.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000178,
+    "sites": 26,
+    "subdomains": [
+        "backend",
+        "files"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "alia-cloudflare\\.com\\/public\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "backend"
+            ],
+            "apis": {
+                "window.sessionStorage": 9,
+                "Navigator.prototype.userAgent": 9,
+                "window.innerWidth": 9,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "3e370e39e8f0552939755d305a0f557c1bc7e5bb78e9eebb4880378fb1b57108",
+                "f9da7ff56c643e3dcddce9ffdb89160f4908fbfb16af898eb2946155a0a93f7e",
+                "e842d5a464e477605fc79562e92e29145be43ebb787371a6f27865de40688bee",
+                "a33b518d4c2ac9b99be91207f3538dcc11fac771f6b0c6fbe9c4937ee155398b",
+                "0236cabc1f2ea0737d3f21fad6630ae1962541ae665abee8b10f9380b664fbab",
+                "2f9ab918cfb26a90721cc912815b2c26bd0444befbdcbffd23262d1b0b824133",
+                "765c6dce65cf7eb7b0813dada3887781cd1e9902dd881eedb98f48c9c6e2f1e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byltbasics.com",
+                "carewell.com",
+                "www.anthros.com",
+                "www.carawayhome.com",
+                "www.carewell.com",
+                "www.eastwood.com",
+                "www.kachava.com",
+                "www.trumpstore.com",
+                "www.weargustin.com"
+            ]
+        },
+        {
+            "rule": "alia-cloudflare\\.com\\/logowhite\\.png-1745248690920",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be08debd6e6b62667d3d5ba3283092481c176ec90990101c664baaeb5c78daa4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woolx.com",
+                "www.woolx.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4642857142857143
+        },
+        {
+            "domain": "alia-prod.com",
+            "prevalence": 0.39285714285714285
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Image": 2
+    },
+    "nameservers": [
+        "sid.ns.cloudflare.com",
+        "ruth.ns.cloudflare.com"
+    ]
+}

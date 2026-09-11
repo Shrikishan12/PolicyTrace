@@ -1,0 +1,210 @@
+{
+    "domain": "metadata.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "cdn",
+        "api-gw"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "metadata\\.io\\/site-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "aaae5a0c83a009eb3249a034f48f9ad63dbf217852cde1d34df09d9fee3e6e0e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rippling.com",
+                "birdeye.com",
+                "duo.com",
+                "guide.duo.com",
+                "www.crusoe.ai",
+                "www.cvent.com",
+                "www.mycase.com",
+                "www.rippling.com",
+                "www.usertesting.com",
+                "www.zoom.com",
+                "zoom.us"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/site-insights\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "476cda2bde7910a58186b7b58d2be6d22d3cfacdfeda3354134b84e43d76ac98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "Metadata_visitor_id": {
+                    "ttl": 31536012,
+                    "length": 19,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "Metadata_session_id": {
+                    "ttl": 1812,
+                    "length": 19,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birdeye.com",
+                "duo.com",
+                "guide.duo.com",
+                "www.crusoe.ai",
+                "www.usertesting.com"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/pixel\\/config\\/default\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "717cd9aa86a632508cdd1efab9d008810d7d4b0941e4ca96254d7caefd98c4ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "birdeye.com",
+                "www.usertesting.com"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/pixel\\/config\\/1765\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50306992d697eb7d89f54d5b9df2ab238db6d47dfa9edbab80d84188f58d7755"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duo.com",
+                "guide.duo.com"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/traffic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duo.com",
+                "www.crusoe.ai"
+            ]
+        },
+        {
+            "rule": "metadata\\.io\\/traffic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-gw"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duo.com",
+                "www.crusoe.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3548387096774194
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.3548387096774194
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.22580645161290322
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.03225806451612903
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Fetch": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-1375.awsdns-43.org",
+        "ns-477.awsdns-59.com",
+        "ns-825.awsdns-39.net",
+        "ns-1614.awsdns-09.co.uk"
+    ]
+}

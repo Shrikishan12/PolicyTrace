@@ -1,0 +1,234 @@
+{
+    "domain": "admetrics.events",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "shopify",
+        "v6.shopify"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "admetrics\\.events\\/conversion-v1\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 3,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.vendor": 4,
+                "OfflineAudioContext.prototype.constructor": 4,
+                "Screen.prototype.availTop": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availLeft": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.availHeight": 4,
+                "AudioBuffer.prototype.getChannelData": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.deviceMemory": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "window.sessionStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.plugins": 4,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "WebGLRenderingContext.prototype.getExtension": 4,
+                "WebGLRenderingContext.prototype.getParameter": 4,
+                "Navigator.prototype.mediaDevices": 4,
+                "MediaDevices.prototype.enumerateDevices": 4,
+                "WebGLRenderingContext.prototype.readPixels": 4,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 4,
+                "WebGL2RenderingContext.prototype.getSupportedExtensions": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "95ffda0eba7337ce73567ba08a3df542b866f3ce695a359a47be47249af22dfe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "app_admf": {
+                    "ttl": 7776012,
+                    "length": 129,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.5
+                },
+                "app_admq": {
+                    "ttl": 7776006,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "cookietest": {
+                    "ttl": -1787603075,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "app_admdf": {
+                    "ttl": 7776013,
+                    "length": 234,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "app_admpa": {
+                    "ttl": 7776006,
+                    "length": 307,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deutscher-gesundheits-fachkreis.de",
+                "gesundheitsvergleich-deutschland.de",
+                "lieblingsgarn.de",
+                "www.bogensportwelt.de"
+            ]
+        },
+        {
+            "rule": "admetrics\\.events\\/e\\.json",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "403010a052dc600e1d8cc669db8b011387dfc7d65f5fcc8a14e58b283b2d0fd8",
+                "e611988e48dc2861cee2d25a14b6112b3105dddd73f74b1145466d610ba0cb8a",
+                "a83079e44b7a44f291b5c7d79e098de6ee41906a43991b12e0f9e538d3e385ba"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deutscher-gesundheits-fachkreis.de",
+                "gesundheitsvergleich-deutschland.de",
+                "lieblingsgarn.de",
+                "www.bogensportwelt.de"
+            ]
+        },
+        {
+            "rule": "admetrics\\.events\\/receive",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a4c3ed04a95a3da14a9d235c83d868bed7c0f45cf7f3faa751ee8f50598d2211"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00003424821738028536,
+                "app_admq": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "deutscher-gesundheits-fachkreis.de",
+                "gesundheitsvergleich-deutschland.de",
+                "lieblingsgarn.de",
+                "www.bogensportwelt.de"
+            ]
+        },
+        {
+            "rule": "admetrics\\.events\\/receiveipv6",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v6.shopify"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00003424821738028536,
+                "app_admq": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "deutscher-gesundheits-fachkreis.de",
+                "gesundheitsvergleich-deutschland.de",
+                "lieblingsgarn.de",
+                "www.bogensportwelt.de"
+            ]
+        },
+        {
+            "rule": "admetrics\\.events\\/receive2",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a4c3ed04a95a3da14a9d235c83d868bed7c0f45cf7f3faa751ee8f50598d2211"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_fbp": 0.00003424821738028536,
+                "app_admq": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "deutscher-gesundheits-fachkreis.de",
+                "gesundheitsvergleich-deutschland.de",
+                "lieblingsgarn.de",
+                "www.bogensportwelt.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4,
+        "Ping": 12
+    },
+    "nameservers": [
+        "todd.ns.cloudflare.com",
+        "kara.ns.cloudflare.com"
+    ]
+}

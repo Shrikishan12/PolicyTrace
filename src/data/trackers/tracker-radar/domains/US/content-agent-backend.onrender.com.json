@@ -1,0 +1,70 @@
+{
+    "domain": "content-agent-backend.onrender.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "content-agent-backend\\.onrender\\.com\\/widget\\/research-chat\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "41f13aefb49b7eba5e9c0bd232aeddcf3164337fa14475f95e7c7954d564feac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truneb.com",
+                "blog.truneb.com"
+            ]
+        },
+        {
+            "rule": "content-agent-backend\\.onrender\\.com\\/api\\/research-agent\\/widget\\/rcw_eb2146966c7af3f4ed1fb5adea771a89ec7356df2cce4cb2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "359e0a41c1c7bf8f9fc7d468f00f54578703b6951de036b9e038c765807a368e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "truneb.com",
+                "blog.truneb.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

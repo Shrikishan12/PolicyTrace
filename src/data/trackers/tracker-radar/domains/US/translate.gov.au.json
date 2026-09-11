@@ -1,0 +1,167 @@
+{
+    "domain": "translate.gov.au",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "public-cdn",
+        "api-public"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "translate\\.gov\\.au\\/ajax\\/odwt-translation\\/default\\/translation\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "public-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "26a287c82fb9ce2a6352006252924d640c8e636f81d541686fa6a5744269d2ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        },
+        {
+            "rule": "translate\\.gov\\.au\\/ajax\\/odwt-translation\\/default\\/configuration\\.conf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "171eefcf108179c3cfccedab0dc0cd028dc2f10117e5422e15ccfc8207273409"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        },
+        {
+            "rule": "translate\\.gov\\.au\\/v2\\/visibility",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4841436b8f07fa1e0023471a8051d80bb7941ed2909ff60adbc7cd8f9797a5d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        },
+        {
+            "rule": "translate\\.gov\\.au\\/v2\\/languages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64a3445e906b6ac39b6ac83a776831c11c42c82b85d78503efb217671afd8090"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        },
+        {
+            "rule": "translate\\.gov\\.au\\/v2\\/visibility",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        },
+        {
+            "rule": "translate\\.gov\\.au\\/v2\\/languages",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homeaffairs.gov.au",
+                "immi.homeaffairs.gov.au"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 6,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-418.awsdns-52.com",
+        "ns-884.awsdns-46.net",
+        "ns-1155.awsdns-16.org",
+        "ns-1904.awsdns-46.co.uk"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "domain": "iid.jp",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "deliver.ads2",
+        "recruitbox.media"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "iid\\.jp\\/ads\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deliver.ads2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamespark.jp",
+                "www.gamespark.jp"
+            ]
+        },
+        {
+            "rule": "iid\\.jp\\/sites\\/gamespark\\.jp\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "recruitbox.media"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0aa73cc7247595d92d276519da12f9c893328075744fed525e374976568fa2e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamespark.jp",
+                "www.gamespark.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns10.bbtower.ne.jp",
+        "ns15.bbtower.ne.jp"
+    ]
+}

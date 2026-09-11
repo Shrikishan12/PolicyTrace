@@ -1,0 +1,62 @@
+{
+    "domain": "premiumads.com.br",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "tags"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "premiumads\\.com\\.br\\/scripts\\/pbjs-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tags"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 4,
+                "NavigatorUAData.prototype.brands": 4,
+                "NavigatorUAData.prototype.platform": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "239f8a98540d3fb728efd7ea2b2db9fe5b6eb41b75f8ef24cf7239d6d8f1f559"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lorenzigo.com",
+                "www.jornaldacidadeonline.com.br",
+                "www.mundoboaforma.com.br",
+                "www.recantodasletras.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dorthy.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

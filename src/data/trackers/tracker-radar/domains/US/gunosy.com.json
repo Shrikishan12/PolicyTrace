@@ -1,0 +1,132 @@
+{
+    "domain": "gunosy.com",
+    "owner": {
+        "name": "Gunosy Inc",
+        "displayName": "Gunosy"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "tr",
+        "wa",
+        "cv",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gunosy\\.com\\/v1\\/beacon",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tr",
+                "wa"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tanaka.co.jp",
+                "job-medley.com",
+                "www.boatrace.jp",
+                "www.iijmio.jp",
+                "www.kao-kirei.com",
+                "www.nitori-net.jp",
+                "www3.nissan.co.jp"
+            ]
+        },
+        {
+            "rule": "gunosy\\.com\\/lp\\/impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cv"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "f4eef8263281c0b26486637831251059757bc3fdc4c3a48045a8ef8646b36e8f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__gunoad": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "boatrace.jp",
+                "www.iijmio.jp",
+                "www.kfc.co.jp",
+                "www.lawson.co.jp"
+            ]
+        },
+        {
+            "rule": "gunosy\\.com\\/tag\\/lp_imp\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e59b02374ac462f41857adf8985cc20aa6103e9026075dd60639920f6225d38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__gunoad": {
+                    "ttl": 359886102,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kfc.co.jp",
+                "www.lawson.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Image": 11,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1956.awsdns-52.co.uk",
+        "ns-1234.awsdns-26.org",
+        "ns-846.awsdns-41.net",
+        "ns-78.awsdns-09.com"
+    ]
+}

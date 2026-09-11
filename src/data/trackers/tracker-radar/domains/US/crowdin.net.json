@@ -1,0 +1,98 @@
+{
+    "domain": "crowdin.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "proxy-translator.app",
+        "website-translator.app",
+        "distributions"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "crowdin\\.net\\/assets\\/proxy-translator\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy-translator.app",
+                "website-translator.app"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 1,
+                "Navigator.prototype.languages": 1,
+                "Navigator.prototype.language": 1,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e79ed6a996bedad10f18cab39e8df76923dacfccc5a6e49d7558b7aedff5cafc",
+                "776adbaabe3d6ac63e268ccceb9001c8ef6ec450361780cf7fa0d0dd3b97a817"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alarm.com",
+                "docs.lizardbyte.dev",
+                "wayground.com"
+            ]
+        },
+        {
+            "rule": "crowdin\\.net\\/e-7955682fcb9efb17a1473b3ger\\/content\\/en\\/schema-translations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "distributions"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2247a0a4b42996c5758ba91dd193657f31522ed372811e1d2d6fc506b66a38fe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orangetheory.com",
+                "www.orangetheory.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6111111111111112
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.3333333333333333
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1222.awsdns-24.org",
+        "ns-39.awsdns-04.com",
+        "ns-1816.awsdns-35.co.uk",
+        "ns-948.awsdns-54.net"
+    ]
+}

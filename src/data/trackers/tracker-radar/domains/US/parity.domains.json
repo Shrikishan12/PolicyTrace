@@ -1,0 +1,99 @@
+{
+    "domain": "parity.domains",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "lander"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "parity\\.domains\\/js\\/pa-6FZUe2Iv3m6Yx_KBS2sv2\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lander"
+            ],
+            "apis": {
+                "window.innerHeight": 10,
+                "Navigator.prototype.webdriver": 10,
+                "window.localStorage": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "bbdff8b7624c35f1d4822e9f0b0d472749dd410916ddf8c4a207e9558ef49a57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "candyflossmagazine.com",
+                "computerknown.com",
+                "gomaemealprep.com",
+                "ladysanity.com",
+                "made-organics.com",
+                "modestmylk.com",
+                "ngcruise.com",
+                "noodlemagazine.tv",
+                "parkmodo.com",
+                "yobygames.com"
+            ]
+        },
+        {
+            "rule": "parity\\.domains\\/api\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lander"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "candyflossmagazine.com",
+                "computerknown.com",
+                "gomaemealprep.com",
+                "ladysanity.com",
+                "made-organics.com",
+                "modestmylk.com",
+                "ngcruise.com",
+                "noodlemagazine.tv",
+                "parkmodo.com",
+                "yobygames.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns4.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns2.dnsimple.com"
+    ]
+}

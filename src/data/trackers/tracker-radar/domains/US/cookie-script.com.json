@@ -1,0 +1,3090 @@
+{
+    "domain": "cookie-script.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00277,
+    "sites": 405,
+    "subdomains": [
+        "cdn",
+        "consent",
+        "geo",
+        "validator",
+        "crossdomain",
+        "chs03"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cookie-script\\.com\\/s\\/27c9a335bf152d2a1c460205b479f480\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a1dcc7e8f86fbb95f5a9e515f36a39fc32154ce635c956f35ba91e96148d367a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15724811,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abeka.com",
+                "athome.abeka.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 176,
+            "prevalence": 0.00121,
+            "cnames": [],
+            "responseHashes": [
+                "a8bad4ce528f56b9788b057074b8277fee89d3a7cfcedf5f64fd33062579d8cf",
+                "a5b84ce5c1ea282d4fe1574d933e5c6fb5d1bc9db8faf099e802df8088e1e82b",
+                "1b5848527fd40c3279f63105cefbb577549b97a1cc0355a66000811389838749",
+                "36e311f7a434021256741aea089b28e3c140b623c7d50cb1d80928641f9e6e27",
+                "974f6de77c1d4b94a53f449fbad89b7249ced193e5cd32e98dfeaf9887cd0c41",
+                "d50ca0bf7efc6d46bc0aae5790415e9854c98e3ed87fe1c18e06246e09de6298",
+                "70abb0a70d417898c92eab428226af3b0d6ecc95d78d3e2485339946fe80542f",
+                "400c4cb012e43b594e8fdd0247074bef6913c7fe875e9c31b0a0615f0a24e884",
+                "ab614e56cc0d6c74ed7ac8e6996c05db9e1234ed74e22e69d8603b676c292360",
+                "1bcf390fbf5048a40bede4c8494de0b9e3f1257aacd8359e7083dba6c91018fc",
+                "76ed9f0742a57b536a576355260029432099ea8e25dc2c88751fbd228ce3fd5e",
+                "214a1ed7f14e3b0215abfb4e4a6a7f87e48a5753d61f4abcfa0264429b46e3a6",
+                "2f5edfe46446d954b5d4babe1f0b45459df5019494ab807809309a6ade4f6d0a",
+                "688030d86e27f65e4878bfe772583b0428ca194383c059f078e5d26ccecfaac0",
+                "831d2aaec99958162404d681a6fd62238bb5eaec355354da403ed0aaa3a6935b",
+                "08c9d27d38052ab167daf66d13dabdd8ed1025a5b35ac0c589ea3b47b6d92a8c",
+                "2db51852dd2c1de42a9d198a1ccdc0982f94a0306d13e9591b3ad99da3e774e0",
+                "0d9921afa22beab310a956fb0be5d262943ce0ca09005501b91c429fc4527a03",
+                "108b4fb92fc99d24c56fc8a5044d44e1fd9061a5492b6e2400d47e32910893c9",
+                "205d0c5d05c0892f70b5bf130995fbd7b1ea3e05bc98b14a654b785d46574c8a",
+                "7bfd2e28a89ca5fb2f20d3aedfa566a1b59b35447df2b36f248308a10511003e",
+                "e3eb4255e3ad75edc8ac7bc5c63f172340ac5b58d55f9e3eedadfcafd2b72ef0",
+                "220659c04537cc9173757969bd28ed9aba0624bfe1064647313abe676d2d7b0b",
+                "cfab24aae80eeca31c9b17db40039bd4237c29ddded0c587a4c793e9e36f4fb2",
+                "1b3abdcac3415c8324a97a3871aed066320e683a8a8f3dfedff72ef17f2055ef",
+                "d7979464cb39c5b0ff72af3fad9d93cc76b5965b6f2286958255076d5705e3fd",
+                "4983642001cf45d1f2bbf3a3f996d00bb0e1daaab2177d0c1d1f6dc8ea188a9b",
+                "15e833382bedb89e2052b2717d65649ba58bde0cba894bf7bdb2a9ff7741c852",
+                "18882609b9856843295f315e7a84bdd721732bfc273ed10caebe86681c88c2ac",
+                "ed49e71d2dafb76f960b02574a642b487500e16e37059c2d8b7f530f4fd256b5",
+                "a514189d2b2b1b34fc8d273c767a5a34114a9ba3250a072c6114048148fa9a14",
+                "04c1a3ac1d78fd3c69ae06b80940572ad0c4455ae9dc8c2380ad4a4bceea56eb",
+                "28dd239fa517fffb1c8d86cfc51ec70af862b16af0589f0827a3b7cae56a668f",
+                "8ef6b5a85e65f96a1c67285e30f58eea09d67044fba03b2f6759aa49d93218ac",
+                "4542668e232f90a9afc5d49b924d464b0a9a41dd49158299300a248d03634f3e",
+                "4459b2c61889191816f8905b96c5202e039ddbf0b38387c10262fdfcb92d9045",
+                "04fc9dee29ce8813f04df55071c9c82128600491c951f1bc8f293d42fd8fa15e",
+                "2b2df40da32240a312fe277f18b78bb8ca0b5a78370feab4aa60a893f05e6d6b",
+                "cbde807002d8454ee30305ee71fab7c145f6b8854654d58e69f10ad70a83bc8e",
+                "23fdd80af25428965f3e4b58f4d6c999a42b4730aed99f6c92f15ab6d5f93050",
+                "0f342b1952a7fc689f495a536fdb120412dc62735aabc03c689a2a9a137cf410",
+                "294c83fbdf2916d58f5f801a914af0988437a1c60f585b3142eeecd1e74122b7",
+                "fb76704290347a28f9dbb1ca957d0090eb5161e2204f35a004b7eaccd9791213",
+                "16c1b520ef53ad24f9cfe9a769b8e0ce5a1686b77c09817a359324fa3014601e",
+                "a0305ee50bcc3a2ae262ee84769c6e0cd99160fc08f3e17c663c4759390b8788",
+                "7710fd3ac630942efb561e98c70bb1439394de253b3170de0d1f0d3a31597a28",
+                "cd1a1a0ce4f0f327102a8b050eb5c415c7544300bd80919bd7c8cf95ca570aa0",
+                "18f312f537ae238f12d046223019aa2ba03a7c125e0302bc2b9d429c41a8343b",
+                "d8c3917bc1ce143e215426440810f2cec3138928693b173b8223d70bc87ca5ad",
+                "637a1d6190ee977931c3ca098f9ba54963abdf47fbfd68af35d6fde96a4f8f4c",
+                "e2b3cccebd42f7f8fca06ff160fb062480e975c4abe6ccdbbaca574edf6870a4",
+                "e35674c03438f1738722cc16794411944a3859159d25ac4b5640a719f56286cf",
+                "406136925f15e486e13f570cb66f1dbe142e54b01b8d0e40c86fc0f0a58ec6bd",
+                "8413f48a4ce48f501794163027e8a6a6164d9dcf87e14dfbba4fea1fda456d66",
+                "df660922ce00aeaf4cf86a8f0f948bc29ad5fb1a7181e2f4fe5c7bd770faefa3",
+                "a219c850a2e8cafa2f33ca26f9caec317835e61bcd50bd6b1850c63d3ee26644",
+                "a52bc1cf84efa5ded9221380353a0c178aed051a6cae6e5fd223c73023345cad",
+                "a670549bb6b6b7e70069a2750c49f09cdf949fc1346e639eb0b39228e6131f8d",
+                "814239d9adb495baae9733b58a31af686246d2bcf8f6b30ca47f9aa553db53a6",
+                "d5e1ec551ba262ea7aa9b9a016289618edb71d6cf117f43bb2c5d969cc3187c7",
+                "e84540d0fb9cfb530ad0ae1545743be756cc19bd7e99f6284fcb4d2c2cda3fe9",
+                "b8ee020f2cecb7386eea999a6f36b6c28045ba1f37b439e29a1f632efa3bf2b5",
+                "b76e7b017987b68e4863fe483293631dadd816a262e3035bcbda237bf7883294",
+                "87ad654fd295b45ec397081457ec70fe71cc403a6d802de1a91c347b6d08b0cb",
+                "ef7640b95507fa1433eff9127fecbc576e099289842ab4d930746b6426533880",
+                "92cc50ba9d285aca8bed51f9057dd2bc4f50a6e4d3da4a2d9deecefa48accd83",
+                "b874289b692f76df6ff464c20d608a7528b470606e4d570f05e23441b0595892",
+                "c720b43767fc4007ba992e4125f2469282683f9a17c9de57289397992d107375",
+                "50dd3a8461ba77e5b91e4823662df941f0477a922a51d9471d42d9037c034290",
+                "e71faf65a13883b7e04d08b4b9fb57fcedaeeaa53eb19a14115f15c0ba470017",
+                "7d3d47981693a02c7bfafc364281e99bfcfa15ffb70b9d95bc960ab1a86a6378",
+                "3f41db7dd5d7a8434918a22e03432cda65729d6e70163a884b4f9f9503749695",
+                "ac7fa2e2963b74743b7d78ade6af08ea32ffe88e85c2c10de1523a4a86b3ecba",
+                "7c6c9b5cdbb9cd1abbb98b0b0e750f992d51acfe3801ea6eb6ff5db721aefd05",
+                "20aa6895c46071f5fbae7ef7d316b88c050d1aa08b9f069a19ac6074799fb804",
+                "b5ed392fea2793ebc63e9e935aabe422e3d14e1387d83a6ca80be30761dd74cb",
+                "6c7e433cb0e5d4f3bffa0a4f433749dbef86aa23c6208d35be07c3bb9feef74c",
+                "f6b54ed6c414337d7dabe80ec1b7d532bfbdff2b2c95118598487c3173c17b17",
+                "a051951a62aeadfd04b7f9527869e20b332936456995ff9a81750cbab61103e5",
+                "43cf2ee4aa355566d91cf6f6da37d2a0965a55277bb81dddc8258824d4200a6e",
+                "f67e5ac5df425980e319dd5d4b85e16f7989a0d6a499468d7140e39b46c87066",
+                "cce32d3d24ef1166287cb9fb0c02249d952e5f417485776b4c637a5b9842623d",
+                "3ba32f41a76367f063a4161a743bb255bf724f75fd4d37032ff4b27dad821db7",
+                "8b128321f05b99ba40281db18d3165d5873b119197060667ef1305554dda2b42",
+                "152a56026d768a8c5474e03a437c2a87dc7a6714dc1ac404c6b5b0f024b3d2c6",
+                "39d22170b12f1988da2cb6476da269084bc4f2d329d6ec3dfc6203414eecf036",
+                "fa7bd002fe77fefe41f9a003ddca2874f1ad92272bbaac30ac4bc1d6a2bff7cf",
+                "20f43da88f95f3ea9110f1b63f2c7f981590084043662bb8443544e592ce866a",
+                "957d13c2e9f4f1ea317f1de314e5a176638d1f78e8e05fd1acaf6c3bcf8b8e4f",
+                "69a1c5ffed6629698fe3774e24920cb1e517777fe7b1ededb15ae4a010fb4b13",
+                "000ed43b38fd94efc2ba786a73982cbfd6cdfc2652fb40d52221d473eec05843",
+                "a4343fec70fd2880388740b3e71f9ec734980708103f7d7b600f196a122a5553",
+                "2316d4dea37f02de9119e69bc20c03c31a430a3240ab4cb85c5236b90ae966f1",
+                "cc27e7a4209bc43d761c99f4f831a752d650ededa726f3b731756916df752b24",
+                "50b95cf073fd2bd1327d31dd79c7d44da0491477ccdff0e5381dddab4adef637",
+                "84fba72de25830081313fcb4d0e92be5886b6c2f49e4759ff4d62676acf051e4",
+                "caea3a9697716aeb797f7882092e5b22fe833f4d683d6545bf282ae81edcc676",
+                "b559d4bf80ec07c94b5db5051c6a8c57f1fcfa6bf9f5abc3264dd317c9e86073",
+                "4a152065662e770bd6e06d16f9cec99280aee3c3f9246ec35c69f071c78655e6",
+                "ae95d2b7f515a4f0f8ffbaa67f6144c09fbd5157e2c8ded448576b0e361491a7",
+                "37d32a32b8211eb0f96da879c4a0514a56d8b554f63c93657258969c1ce79396",
+                "77980da9771f525ea601ef24cb049152bb3b74957635c1d4357b54446e683ecb",
+                "fc8c8bcd176796c3fc5766367f4d385b9c5e0579cf4b914768f36c8349bfdb79",
+                "326885af4b84b9b818072b12eb44337b15c5896dccd74c2bc404788e8b4887be",
+                "842e3edd37ae36d5aa17d54e841a7c48e38dfbe222b68004a68f236d5b9c3acd",
+                "bd35a9a94ddbf454a68855347efe9805aeda23381d663f94b3f0550da0569179",
+                "3eff1cd149429a8c252a5ca70682b676e53966c9eab6623b8bf741f4462cf7e3",
+                "5b4a99baa0d59e4e6d43eec97022984130a1596979b17b5aef33ff8ce9fc56ee",
+                "5cab9bcdc6f5702e124170c8c3bd639a95795aa6795a1cc3fa3539082cb56324",
+                "9a44af3d2253753a0e421d508538e90785f739abe9496c428de0fc51225eb763",
+                "4f0c4d93a98891a9cea8752febc8b97bbdecb4a5ef7ea5d8809312c19676c855",
+                "984dfd8f8aeda1c33b624ba1d03960400418391412dd783659d76eb08cb597b6",
+                "f3ff5c7177ddad04aa2462de634498d5c7bcebd287934dec7b4fbf4c254fc925",
+                "63fadcb7132fa39fbd5a9c0b0c73770af845fab1965c5c3525107ae5c477a33c",
+                "ff0a3f456264840969229b783e01dd8dc1d75b007c122baa68756636bc3cea17",
+                "81fbb62cc19e2499621da08fb3bd75791d5a10bcb71c20c468ac66b2788f11a9",
+                "a9a2fd979646a498da0f632e8bb3f7602168dad33b7ca4b050287e40b72388cf",
+                "b4f21e4b71596fcf71ff85ae930716aa269439ca943b7e3d5307d63d0c6b2ac0",
+                "eacec3a08543da1a58893df4c4a658093066c17ac4b9894a2c367da8db60c6a5",
+                "a5eb7a4edc861938619a448cbd6c5dc2a63375b7f6aa157ba66ba2042cc6b7da",
+                "02a4eb485173ab82717cbecaace7962516b657665b5426b542f9c58b242a80ad",
+                "93f7c3ddf75ec0597d547095fa7b313a4a58e828a042b00a2c0db7bb7e559186",
+                "1d76e9ccb82c66b8d48531b4970abf6184109704ef604a7bb350b826f0d5694c",
+                "f60bc2603eb2c800f98bc7c9ad531ba789b8c02a5ed3f73bc2d7fc5f72a30fee",
+                "0f785aba4942f1d873d85a845faf5f10fd0bfd13c494b1ccf3727b67276edf41",
+                "dd5c58be6af7d20a53fb7f2bdb23052d61584514b00499525418b0ac071734f6",
+                "eff9ef5716cc000454bbb32d1b2c216331d99de564d62eed55412fbd435c87dd",
+                "f93f1269ca7d56b490b07b77f5e89266ac225977854f9a2aabddcfb446453b16",
+                "eeea5c19edae24eedd624032c8a8f0cb36f008d65810d93b887c121fbaaccae4",
+                "8d67734594c6d070df51635b329a6bf667f5128c50211ecba0fec862741833bb",
+                "724d168d288b15c8946edd3c065c90abe9a1edd9fcc31639e224a42af12b405e",
+                "bb5adbdc0d2f3bf77d7f29833005cb18f7fdaebbf78ce41983ef577364a1b2f3",
+                "8ce917c1b317d83f7e4418002ce07d93735b4937cd4d11fef67ca435f3f1568a",
+                "dd74cad1bfe7563df96aa53950484cbdd3fce3db694ba102f1b60da37382032c",
+                "51ca24b5418238375d41ef4b9b94ae88823677e7804ea3505872616291bbff53",
+                "4b68ffd66110938c8e1fdee90643d1be085a1cd593b83968ffa55a832acef0e9",
+                "14ed94f76dcbdab7f28dcfb804696979fd6e0f33d88c4911671c052c790de221",
+                "37170eae8eb59a3746a3684687913aa84c15bd5bcb29506f33246de212e94a44",
+                "f4b7b4a0aa7dae8017b9e3ce6bac15611bec1f94b64aa0fdbc5c6fd3f07641ce",
+                "3314ea06d323c8862b2e65f4a7b647e9b37dc4832f9559a57669c553a534c380",
+                "769ddaa9774e8b26a34bf8c2ea33344cde0cdaf1b3074a5747b904d09b163255",
+                "aef7044d3032b17e09ddbb3ac6af6cdb56ca92ba8e53075fdf1f7be4efc36437",
+                "4068ca4b2836fde04c8a3b96447762f046e34b9a9fb4055c7817589c7170765e",
+                "da3dd5996a26241464ea20480b5ae25b21d5b82acd9d63e0f6f619d30372fc7c",
+                "adac350b02cfdde1c0021517a0a0736db044458267820b02ccb80da20aa89cf2",
+                "8566019a42597525bc50b64a70ffd29fdcfbc40505d0d24e282a9b1bf91243e0",
+                "2a373c34e5f4cc53a4473b5d3747aba74ac6158e1df03aa066a1dde58515c667",
+                "fbf7f1171e6a9ad0c66e8766c80c6a3eba7bdcbafac5800bd8b4f0076d95c323",
+                "313ead375d318cb204aefe8a20bab4ff0c9924a3b154fa8b1e5b67fdbe0939f0",
+                "af46460591bbda1099d49a25a97becdac87fef246e849b671ff93b28de6ab023",
+                "aaca36c882401cb4f78d7a277c4955a94749f5ae7562619afe9392a0dcd0d60b",
+                "534dd891fbbe96c65d012c10c1dd35748dcfb08e3285cad6fc1e3175f1c2d17a",
+                "16e730ce01f6826a7386b6666733e076a30fad1e51c6b06c6c11c72a41f40df8",
+                "06c3bbbf849575e69e31b02e93449f00db696e3e341480e984119fb0d8c66a37",
+                "596b44e96407bd5a53c36204faa794489ec79228138812b18a7b71a8ea67cf7f",
+                "64cced32f55b4c0139f2fec33d27c273868b30676bb9df6fefbe1e4e4714d593",
+                "948a60b18658c6c349cf3c33b2de79bda6df826c72ca3b001eb1fd1e6b6c40ff",
+                "347943399f7d9d4835f5ed1f8bd5746678a43030beab8cd26aa49de78b71a7ef",
+                "6ff5883d1cbbdb85d294111942c5997f9f19030b672b4ec0936d767452eed467",
+                "077fcf50a420b08e279e3b7fe5fa09df843162798b11b4f247b8c7a991b52283",
+                "d582a807ebde41b8535c725d5ffbcefc6a7b7d15a1b0f1fb412ba2c1539486d7",
+                "ed8d5e686e7ffee74e72f2d038fe33728a8c4623ec59e8709ad81175d3f56cb3",
+                "ddc673d6d71e6cb3156015fb1edcb41412f66772d34f0916d622f3ca18615f5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.raymarine.com",
+                "www.acfe.com",
+                "www.decksdirect.com",
+                "www.popupbagels.com",
+                "deonlinedrogist.nl",
+                "www.visitsoutheastengland.com",
+                "www.finlandiakirja.fi",
+                "www.assistedlivingcenter.com",
+                "playlistsound.com",
+                "marketdino.pl",
+                "www.micksgarage.com",
+                "sextechguide.com",
+                "www.visitliverpool.com",
+                "www.autism.org.uk",
+                "loaf.com",
+                "www.goodvibes.com",
+                "divorce.com",
+                "www.home-max.bg",
+                "www.rebuy.de",
+                "varimeslaskou.sk"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.2\\/iab_stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "cb62421b3df9f7fedba6cfa244d6e826884194cf757e81c1c8aeaa14a7347749"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ak-interactive.com",
+                "community.n8n.io",
+                "discovernorthernireland.com",
+                "visitbirmingham.com",
+                "visitbristol.co.uk",
+                "www.swipein.restaurant",
+                "www.visitdevon.co.uk",
+                "www.visitisleofwight.co.uk",
+                "www.visitliverpool.com",
+                "www.visitmanchester.com",
+                "www.wlw.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/a52be48a31f50475bd697e1db8507f9d\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uptodown.com",
+                "capcut.en.uptodown.com",
+                "com-community-oneroom.en.uptodown.com",
+                "en.uptodown.com",
+                "pubg-mobile-lite.en.uptodown.com",
+                "viamaker.en.uptodown.com",
+                "vidmate.en.uptodown.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/725bd15ed090ecfd0b965c636cb7997f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "candid.org",
+                "app.candid.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/dd02b30012c4714575f4d1cfc0361f82\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99b911cabee3f0eaf637ff809cbfa2ef5486d6faac8bf574ccd68624482b9fb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15552002,
+                    "length": 469,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "assistedlivingcenter.com",
+                "www.assistedlivingcenter.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/failed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "validator"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072,
+                "_li_dcdm_c": 0.000006849643476057072,
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "assistedlivingcenter.com",
+                "splice.com",
+                "symless.com",
+                "visitbirmingham.com",
+                "www.americancampus.com",
+                "www.apartadox.com",
+                "www.assistedlivingcenter.com",
+                "www.cdkitchen.com",
+                "www.eurocampings.nl",
+                "www.lento.pl",
+                "www.micksgarage.com",
+                "www.pennydellpuzzles.com",
+                "www.spitfireaudio.com",
+                "www.yorck.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/sdk_cmp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 43,
+                "window.localStorage": 1
+            },
+            "sites": 44,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "e74cc944c3c86d0df27a5cf567ea11f6c994cf6420e680d88ab582c46ca17660",
+                "0df8a977d1715e4ccecb63c786649aa9496f889bcd79cb3cf20267e0a19aede2",
+                "bec00870c07eebf0bf3ea7ae0dbd9ab41b29b8c6d8eacef355b312979e27e14b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.deskmodder.de",
+                "www.gardenbuildingsdirect.co.uk",
+                "www.zkouknout.cz",
+                "www.visitliverpool.com",
+                "www.m25traffic.co.uk",
+                "visitbristol.co.uk",
+                "secure.cougarpartscatalog.com",
+                "www.visitdevon.co.uk",
+                "bazar.bg",
+                "muusikoiden.net",
+                "www.myabandonware.com",
+                "www.virtasenkauppa.fi",
+                "www.eetspiratie.nl",
+                "www.phantomoftheopera.com",
+                "www.cdkitchen.com",
+                "tinybuddha.com",
+                "www.okazii.ro",
+                "discovernorthernireland.com",
+                "www.lento.pl",
+                "www.marktcom.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 44,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "4946e7a3184cc7dfed197bf272659edfba29450da7e007e14e66bab433fbfd7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.visit-dorset.com",
+                "www.siroko.com",
+                "secure.cougarpartscatalog.com",
+                "www.goldenpages.ie",
+                "jakiwniosek.pl",
+                "www.1188.lv",
+                "www.mobile.bg",
+                "www.visitliverpool.com",
+                "www.visitdevon.co.uk",
+                "www.imot.bg",
+                "www.wlw.de",
+                "www.visitmanchester.com",
+                "discovernorthernireland.com",
+                "www.kinetico.com",
+                "www.cdkitchen.com",
+                "www.solitalian.it",
+                "mapa.targeo.pl",
+                "playlistsound.com",
+                "bazar.bg",
+                "www.zkouknout.cz"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/google-vendors\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 44,
+            "prevalence": 0.000301,
+            "cnames": [],
+            "responseHashes": [
+                "603a66ae27c372720070314bed7b4efdf31b6b0fc16ef24686cc2bbdfcd51300"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.visit-dorset.com",
+                "www.imot.bg",
+                "www.okazii.ro",
+                "www.kinetico.com",
+                "www.cdkitchen.com",
+                "www.epodex.com",
+                "www.myabandonware.com",
+                "www.phantomoftheopera.com",
+                "visitbelfast.com",
+                "www.m25traffic.co.uk",
+                "discovernorthernireland.com",
+                "www.zkouknout.cz",
+                "www.solitalian.it",
+                "www.mobile.bg",
+                "www.visitsoutheastengland.com",
+                "www.visitliverpool.com",
+                "www.wlw.de",
+                "www.marktcom.de",
+                "playlistsound.com",
+                "www.crossreference-sparkplug.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/948bace0892a00d61c6c82820f6d02a4\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a8920a585026ef276dcc46dcb7c878c5a9144e5337ba6c638693b401f1d4849"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592004,
+                    "length": 369,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bwfbadminton.com",
+                "bwfworldchampionships.bwfbadminton.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a5c6fe3caa82f727b186873f0362fc3e75590574ed4dc0697626c2a604ba6cb0",
+                "4523065239499e77c6962b179c432e5c636d35ea1d8789e8dd15ce53fd9003f8",
+                "bd1fa8cffec1f2e2cc7463d1b340e376762dcb05fe20c44c54ea9adb2cd23b67",
+                "a17a3454f77bb11f2a0c7a2c8ad03abe0d92da4b3bf742efbdf8101846ae111f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072,
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "churchleaders.com",
+                "www.247games.com",
+                "www.caringbridge.org",
+                "www.cdkitchen.com",
+                "www.performancehealth.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/5c21561bbdd60ecf2d50f10b54b299cb\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0d763d3b789df667d3b8949e31362ecef0e42a6661e0844a3274d280c67868d8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536003,
+                    "length": 296,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "n8n.io",
+                "docs.n8n.io"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/645d516524c483f4ab61594d7ac49656\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "48cb3de8e5882b85206c20b150ef16461cac8eaa830468697bc6547084e1d641"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 93312002,
+                    "length": 349,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "decksdirect.com",
+                "www.decksdirect.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/f5af66884c3b06fe9a9247457ea69bab\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe11220a54057141dc2e03bb044ba1df55186d7df73749b4adc7bf559b6b08b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deonlinedrogist.nl",
+                "www.deonlinedrogist.nl"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/db4349f46272ea806f6815a5bebc97f8\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae0557afe2f101486cb94a34c6d8724e543d61433150e4e9a85033aa973c7406"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592005,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitbergen.com",
+                "en.visitbergen.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/164147ba7a27a6096e0c1d6e0afa0a27\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scamdoc.com",
+                "www.scamdoc.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/9f2e4f3ae272e6239af3325a81c28bb6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "veeam.com",
+                "helpcenter.veeam.com",
+                "www.veeam.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/bb841988d25342a2ae35833d136e53e0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15552002,
+                    "length": 378,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "veeam.com",
+                "www.veeam.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/9f2e4f3ae272e6239af3325a81c28bb6\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "veeam.com",
+                "www.veeam.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/bb841988d25342a2ae35833d136e53e0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3df67318ea035987abef4278d316efc4e17a525b070c22f15a30909861d3f6cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15552002,
+                    "length": 378,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "veeam.com",
+                "www.veeam.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/bcb95ba9632d2af9c5303254e296fbb5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "signal-arnaques.com",
+                "www.signal-arnaques.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/purposes-pl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4a5db5f216cc331cebc6d4349ee4b9a7a82b0b6078b602d0b298f07479117d52"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jakiwniosek.pl",
+                "www.lento.pl"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.2\\/sdk_cmp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 14
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "e74cc944c3c86d0df27a5cf567ea11f6c994cf6420e680d88ab582c46ca17660"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luxtoday.lu",
+                "m.aktionspreis.de",
+                "varimeslaskou.sk",
+                "watchbase.com",
+                "www.123test.com",
+                "www.247games.com",
+                "www.aktionspreis.de",
+                "www.freizeit.ch",
+                "www.hierhebikpijn.nl",
+                "www.policemag.com",
+                "www.swipein.restaurant",
+                "www.turfoo.fr",
+                "www.visitisleofwight.co.uk",
+                "www.visitlakedistrict.com",
+                "www.watchmojo.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.2\\/vendor-list\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "4946e7a3184cc7dfed197bf272659edfba29450da7e007e14e66bab433fbfd7c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luxtoday.lu",
+                "m.aktionspreis.de",
+                "varimeslaskou.sk",
+                "watchbase.com",
+                "www.123test.com",
+                "www.aktionspreis.de",
+                "www.freizeit.ch",
+                "www.hierhebikpijn.nl",
+                "www.policemag.com",
+                "www.swipein.restaurant",
+                "www.turfoo.fr",
+                "www.visitisleofwight.co.uk",
+                "www.visitlakedistrict.com",
+                "www.watchmojo.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.2\\/google-vendors\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "603a66ae27c372720070314bed7b4efdf31b6b0fc16ef24686cc2bbdfcd51300"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luxtoday.lu",
+                "m.aktionspreis.de",
+                "varimeslaskou.sk",
+                "watchbase.com",
+                "www.123test.com",
+                "www.aktionspreis.de",
+                "www.freizeit.ch",
+                "www.hierhebikpijn.nl",
+                "www.policemag.com",
+                "www.swipein.restaurant",
+                "www.turfoo.fr",
+                "www.visitisleofwight.co.uk",
+                "www.visitlakedistrict.com",
+                "www.watchmojo.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/getCookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crossdomain"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "targeo.pl",
+                "www.city-kinos.de",
+                "www.eurocampings.nl",
+                "www.eurocampings.de",
+                "www.rains.com",
+                "www.thamesclippers.com",
+                "www.yorck.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/getCookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "crossdomain"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "targeo.pl",
+                "www.city-kinos.de",
+                "www.eurocampings.nl",
+                "www.eurocampings.de",
+                "www.rains.com",
+                "www.thamesclippers.com",
+                "www.yorck.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/c2590a528c3eac6dfd9379f573b23b10\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chs03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "movie-locations.com",
+                "www.movie-locations.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/iab_stub\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "cb62421b3df9f7fedba6cfa244d6e826884194cf757e81c1c8aeaa14a7347749"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muusikoiden.net",
+                "n8n.io",
+                "www.hotfrog.com",
+                "www.lento.pl",
+                "www.outwell.com",
+                "www.phantomoftheopera.com",
+                "www.visitsoutheastengland.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/purposes-fi\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5095c6beb06a96b17f7ca3f3a17e1bceca7c6880af2687ca1222a44d6111f4d8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "muusikoiden.net",
+                "www.siroko.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/e4e91cde522010c5f2c57f907ad57168\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a07e3c1ff57495b00c8546c6722b16afe47be34172a7ae46d144a40d5b7dd7b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 20736002,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aerotime.aero",
+                "www.aerotime.aero"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/0d59301206c4ab5d0b99049bb1b0b991\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bee688063fdca40f272cbbfe359aec3345769f34d1a62d3238cf5f5d6e79bbce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536008,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americancampus.com",
+                "www.americancampus.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/b115ae05f93beeb1e7a9b9587a1920fb\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ab5ab34e59de39d34e7019fef79ae9858b96d0ab76125f919ec7e6250ffd2fc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592005,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autism.org.uk",
+                "www.autism.org.uk"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/0bb458acfaa477c966be5a608eb4701e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caringbridge.org",
+                "www.caringbridge.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/0ecf8139ce64bbf415ce1ddcdb947e30\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.doNotTrack": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b234e21fc401e39c7c63c2bcf09752a7f91a056c16093aa89221091a1040b70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 62208028,
+                    "length": 505,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "caringbridge.org",
+                "www.caringbridge.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/c380b5bc71f083305a79575ffbedef16\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ea877dbbbba83cbacd20da3ba8005e5abdd139e3751e1309a7beced3d408a595"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 63072002,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "catholicmatch.com",
+                "www.catholicmatch.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/93e9c5791581f2fd782dc18731300839\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "584701d6383461f150296cc4cce07387305a299a9ff772678eeeb8e11b7d7820"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 10368004,
+                    "length": 274,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "city-kinos.de",
+                "www.yorck.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/5201a58ef0f14b7bea499e7ba244def2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de004bf8f7d99ca9f4ca1df8a5e1383d6412d09f43b3c874ab56b6792e462a30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592017,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "compareinternet.com",
+                "www.compareinternet.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/73b092543a6f0586f2c9b333011e29f6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f8f11b5d059e789dd5e72baedf4b5d1313cdb8de29608f3466ab66f2311e9f8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cotswolds.com",
+                "www.cotswolds.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/ec89275c345c7b7c4d3e62ec381d44ad\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85b637340aa0a98a7cf54a546e3feb01f1b1105f8a58740168ee53ca4c4bf5a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31104004,
+                    "length": 378,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cruisebooking.com",
+                "www.cruisebooking.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.3\\/purposes-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "364337d15c318f0074e1e0126c81e2106275f55ffc521128759dd64d3d75ad39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "die-beste-reisezeit.de",
+                "www.handmadekultur.de",
+                "www.wlw.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8e8856cac4f187a6a9ed2501e5c4397c\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "43a4ea95f1b53d386b1bbe572317a13dd2d09d5ea20c9bbd0c9f274ec3e94c17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dillonprecision.com",
+                "www.dillonprecision.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/469baac464f3a1aaa44acaaf57071f09\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c8391cf61e98457358163692f5905138fc7db14b60c5d9c41f5979567d99fb70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 25920005,
+                    "length": 91,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "discovergreece.com",
+                "www.discovergreece.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8ec99d880e653c0a0a43478fc7185f85\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "14f2f7fa73d63eaa734cb7cd2ae28b891dd4feaec917be324f6ef699c3c03cc4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536009,
+                    "length": 248,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donorschoose.org",
+                "www.donorschoose.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/15624abd232cdef478b9553d15bd767c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8735ce0d0153ee747ca95a36129eecbe05c183df5713f52086d4b71946127408"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "donorschoose.org",
+                "www.donorschoose.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/f4e7e1ee81fa8fb33e400f57fa93afb5\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "05ea91cbdedcff62142b69ddd91a90f80d823b8f33a5f1f686e137572933a606"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592005,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "english-heritage.org.uk",
+                "www.english-heritage.org.uk"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/784c71da78753beade1e7bb250fdb768\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enjoyillinois.com",
+                "www.enjoyillinois.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/b292ee90376d35a3f45c3a5264693bcf\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0a054d843083f6439475dce1fc2e1b78afa6e084d424d4ce537f5d070e0ed245"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592010,
+                    "length": 338,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "enjoyillinois.com",
+                "www.enjoyillinois.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/1b6cdeecc5b468894903f99cf3541abd\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0a3d3c8d31f3123708b462ccb96e8b5d336fc752a2ba8b69c0488ceb7b1c8dee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 269,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eurocampings.nl",
+                "www.eurocampings.de"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/43388a52d92afc109c920c665af6dc23\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7abc528d16ab3d848943ffef97b1b8dfdfdff6a269d2170cb3bd06da336025a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536001,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fetish.com",
+                "www.fetish.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/69ca5576f793845be33824c2877c034b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe24c701ec0c4ea93f031f96d4eb5f78816a525263e884e9f9476ac8d5f813ee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 141,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fluentu.com",
+                "www.fluentu.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/iabtcf\\/2\\.2\\/purposes-de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "364337d15c318f0074e1e0126c81e2106275f55ffc521128759dd64d3d75ad39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freizeit.ch",
+                "www.swipein.restaurant"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/305b108b8183df633c7e98e14ff47ccd\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "681ca8176efc4a1c1cb85b5d2e086560c7a325dd2d40b49b83e04fc789c08ca3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592004,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "geneseo.edu",
+                "www.geneseo.edu"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/1e74bc4fcf952cf1f879955f4e8f18c4\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ea6519cf9837514516426e63a12887ea3f4a594935fdd9e6392df1fdfa92705"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592004,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodvibes.com",
+                "www.goodvibes.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/6f00ab27e740c479125d568e7931b959\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hollyland.com",
+                "www.hollyland.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8169de065d92b881655a8cb8cc37fc6b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32e54ba51d33c60ed186b30c9667846df38cb9abd9a21986a4f46d6a02b39d75"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hotfrog.com",
+                "www.hotfrog.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/5c760deb65c222a8f1c56f4e52a09291\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9187a3951c924fdf36e5bb4fe750dbc918bedde5c98c5172869f9963440eb5c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592001,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "housinglist.com",
+                "www.housinglist.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/4511a214bb052381096c97c24bf715cb\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25760d3afca9f1610cd236f1339bf8d2d8f1646def62d1d5ca666bbfd4121d0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592010,
+                    "length": 354,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "liveqordie.com",
+                "www.liveqordie.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/16fe0a9f808e8a0c10d1c358be4d3768\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "947ac730cb83a942ed7aced4d21b16b4432de0c343f4c4781c4b56fb23f3e1f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manshop.com",
+                "www.manshop.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/e6458c7be376f7525a92ac3a4f144afa\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2bc0ee1a9368524f9788d44dcc2d2b596fc8f81de2d4ae201108b0400c454e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15552002,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myabandonware.com",
+                "www.myabandonware.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8426ea6c8dbc69c9f574d7c8cef661ce\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0dbb52350ad923ae2970574fc9b002371ec20b2aabcca469754f46c5f12a66df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nam.ac.uk",
+                "www.nam.ac.uk"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/d3390dd9c6aea5a75f33065e30fccf77\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8e4e511cae8e28e509d8899f92bd15bdce0cb568629712e08fbe93b94d64a17c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordkeyboards.com",
+                "www.nordkeyboards.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/4f90e58179a569cd1ab5da0bb5a95c73\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "500bafcd9e853bbff679d2882c2fdc26c2fc5496ed679aaa2765db16a162cc94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parktool.com",
+                "www.parktool.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/ca32215c4a65a3d566e373e79423b5b0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ca0485b96f83d3b2c6ba930a7c00bbb5b2eee3f710c4ce7a4d04693df14312d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 7776004,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "parktool.com",
+                "www.parktool.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/842009b7bea14605ec1feff40777948d\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "97df05b95ca6d5f4634915902a1c6d544d424ecd4d18ebf4a216910cc3e72593"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "permanentstyle.com",
+                "www.permanentstyle.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/258efcf350d40b25edb57d0a2d8bbf35\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "738e33f1528c1f53ae18d8f3196f1293a377c564d9165f1f7cebdd579d93da31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 157,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "permobil.com",
+                "www.permobil.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8d6614fb228951cbd346cc0fd6dac0b4\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7780e5e583f08a9d1cf45c0566a838a6aea9ade598c27a1434881af9ef89a3f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592001,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pivotcycles.com",
+                "www.pivotcycles.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/d4e5f2e37a56e322fe931a6126338550\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb0fad67c4640c39b0925a7c8807a0a60c7f94ac0e67ced9dac8d0d249a3a43b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536009,
+                    "length": 344,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "policemag.com",
+                "www.policemag.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/99d40f7dafdbc2d40947db474ea80db7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raymarine.com",
+                "www.raymarine.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/d67af6e7f86b817349909d1f6b9a46df\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb22ad13e072fc3b0c31dcfda84da55d07987c5d82c7abe7348b1c6b1145f090"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592004,
+                    "length": 157,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raymarine.com",
+                "www.raymarine.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/c9044fe5e06f844465e7d119ce24b97c\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a2a157e87f9251f1e3bbe902083337f5d71055ca08c2886e6b0ac7b06e52decf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592006,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ruggedsuppressors.com",
+                "www.ruggedsuppressors.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/e7f4f0364e30c372db200f708bc7b28b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "runpod.io",
+                "www.runpod.io"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8d2e318f30e868219f050028bc2b82de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "41b805ea7ac014e23556e98bb374702a08344268f92489a02f0880849394a1e4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sceen-it.com",
+                "www.sceen-it.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/9fc4269e62e9490ffe5c54833f126449\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a542b2f4e0fac016291958ce48a0a84c178869f8c6a028f7b12e46d3fbfa2467"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 7776003,
+                    "length": 378,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shsu.edu",
+                "www.shsu.edu"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/136f6e7d5815cd2301ab9810be79d21e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "410bc8d1eb2ea5fd7b0d3e048f3578290e962090d9c44b201afd01beef5acd9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 7776010,
+                    "length": 315,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skil.com",
+                "www.skil.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/47999bfe07958e6e09e5e642671ebfaf\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "92eea93aee31117b982db38b3c85ceb9f0242eb9acd5b7e668301da4878bb94b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "slrlounge.com",
+                "www.slrlounge.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/2fc52b44d33899cdc99aef1aee0d23cf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartbuyglasses.com",
+                "www.smartbuyglasses.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/e7495cf7e4f70e0441c6bcbd2bcbef00\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soundsnap.com",
+                "www.soundsnap.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8360005f3c887666eabcdf6930974a4b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4004ce15be51e7c0f5b0390c33170ce8fce09e859048257235a1aaa8105d9384"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 31536003,
+                    "length": 225,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spitfireaudio.com",
+                "www.spitfireaudio.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/e80c18a3683b5ecdac9dfccdcadeba41\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc76647cc42ae6ebe1ee60179b31c3d556b3a255f57459de0c4fe091aad2988"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsgambler.com",
+                "www.sportsgambler.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8cf405d94c4bcb0b177292cb64e2e78b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eeed87fbf81cff6ff7cd0c7a4c43c056c9cc37a9a1da4628ee5afe7825f6aaf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592001,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starlinebrass.com",
+                "www.starlinebrass.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/647be5bfc3aed74794808cb3e2fcbb64\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fdeed9bead08caabcdaf91da6010f57528af4ec2199180d02509175268e21b67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theartnewspaper.com",
+                "www.theartnewspaper.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/94b7cc6c9fc21539df794b2352d762c1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "69371d3fbc03b0ef8dbcbdbe93f6b3fd03c8accca68cc23b00927a8d8f8b3ce0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thepleasurechest.com",
+                "www.thepleasurechest.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/2bed0b404d97642ef42ff71af1976065\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "befc6c8cce573a8e512ba5b00e51f29bf1cbd34426c1bbae8359e7d79e034d6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 258,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "uci.org",
+                "www.uci.org"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/89746fee8434869589e4f74b3ca4a058\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "69afb3f83574ac955be08786931006605fc5c7fb9f00a31ce048e80d01b24834"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592002,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vidnoz.com",
+                "www.vidnoz.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/8b95898590136c49f6d3c76d658407fc\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5bc0cab35687e15371e255044b02f4977767f52be1e01d1242a24c0b9a27a7a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 2592003,
+                    "length": 274,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visititaly.eu",
+                "www.visititaly.eu"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/cc14c02deea1c7e30453ae2aaac42e5e\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de91018f875b561fdda00b16c571a199d830c5cdaa16020b1cc5646b90f0c85b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 15552002,
+                    "length": 208,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "watchmojo.com",
+                "www.watchmojo.com"
+            ]
+        },
+        {
+            "rule": "cookie-script\\.com\\/s\\/c2b9462bd59ef34b5ef0a66b246ae40f\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d4207d1b87c0e956c1505019e72c0bdf2a2319e8a7b4c592153cc9df6e3a4f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieScriptConsent": {
+                    "ttl": 864006,
+                    "length": 378,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zyxel.com",
+                "www.zyxel.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00211,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5590828924162258
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3862433862433862
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.015873015873015872
+        },
+        {
+            "domain": "d18yn9dcojt05d.cloudfront.net",
+            "prevalence": 0.007054673721340388
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.005291005291005291
+        },
+        {
+            "domain": "gitbook.com",
+            "prevalence": 0.003527336860670194
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.003527336860670194
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.003527336860670194
+        },
+        {
+            "domain": "matomo.cloud",
+            "prevalence": 0.003527336860670194
+        },
+        {
+            "domain": "msecnd.net",
+            "prevalence": 0.003527336860670194
+        }
+    ],
+    "types": {
+        "Script": 223,
+        "XHR": 255,
+        "Fetch": 72,
+        "Other": 4,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "ns3.digitalocean.com",
+        "ns1.digitalocean.com",
+        "ns2.digitalocean.com"
+    ]
+}

@@ -1,0 +1,451 @@
+{
+    "domain": "americanexpress.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "functionshydra",
+        "iwmapapi",
+        "gctv4hydra",
+        "homepage1uplifthydra"
+    ],
+    "cnames": [
+        {
+            "original": "functions.americanexpress.com",
+            "resolved": "functionshydra.americanexpress.com.akadns.net"
+        },
+        {
+            "original": "gct.americanexpress.com",
+            "resolved": "gctv4hydra.americanexpress.com.akadns.net"
+        },
+        {
+            "original": "homepage1uplifthydra.americanexpress.com",
+            "resolved": "homepage1uplifthydra.americanexpress.com.akadns.net"
+        },
+        {
+            "original": "iwmapapi.americanexpress.com",
+            "resolved": "iwmapapi.americanexpress.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadUserSession\\.v1",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "fc0ee9476197548dbfb6314915f5e97a80d1983e7dd441572ca23771f351a5c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "global.americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadScriptRegistry\\.v1",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3ce23af8f4803cb58d9133051a838fbcdfc2cb456b2840f855150ae40a17cd2f",
+                "73223cf4b0773587ac024d21fbc5cc914d5f7c01d87b7d1285783a8ec474ae4b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "global.americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com",
+                "www.thecenturionlounge.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadScriptRegistry\\.v2",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "global.americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadScriptRegistry\\.v2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "de06160f0af7ef10f2eae097fc9c80e7b83498c04789f88a8f39cd652b0fe3fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "global.americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwmapapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "iwmapapi.americanexpress.com",
+                    "resolved": "iwmapapi.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "global.americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadWebpageMetaTags\\.v2",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadWebpageMetaTags\\.v2",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7a878bc5b67c65fe998b33570fe67841fe7d1017e358c099725c6276e76b28ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/beacon",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iwmapapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "iwmapapi.americanexpress.com",
+                    "resolved": "iwmapapi.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadUserSession\\.v1",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/ReadExperimentationIdentifiers\\.v1",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "3fac8da742c486677ff48f8c2f31fc8d05d2ea7aa593b8846b537e89dcefb074",
+                "7ab9d0d63b841171a1454e5e737a01f1e09f5c62dc404acca2eb0c40b38657f1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/UpdateUserSession\\.v1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "40a91b0413e3680ee73fe6ecb6c52d2e509d11d57a584e873f73dc3ef059750b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/UpdateUserSession\\.v1",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "functionshydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "functions.americanexpress.com",
+                    "resolved": "functionshydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/gct\\/captureevents\\.do",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gctv4hydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "gct.americanexpress.com",
+                    "resolved": "gctv4hydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        },
+        {
+            "rule": "americanexpress\\.com\\.akadns\\.net\\/_\\/report\\/security\\/csp-violation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "homepage1uplifthydra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "homepage1uplifthydra.americanexpress.com",
+                    "resolved": "homepage1uplifthydra.americanexpress.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanexpress.com",
+                "online.americanexpress.com",
+                "www.americanexpress.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "aexp-static.com",
+            "prevalence": 0.9529411764705882
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.047058823529411764
+        }
+    ],
+    "types": {
+        "Fetch": 25,
+        "Preflight": 17,
+        "Ping": 3,
+        "Other": 3
+    },
+    "nameservers": []
+}

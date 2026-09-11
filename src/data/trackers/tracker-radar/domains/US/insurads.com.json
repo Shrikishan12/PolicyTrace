@@ -1,0 +1,991 @@
+{
+    "domain": "insurads.com",
+    "owner": {
+        "name": "InsurAds",
+        "displayName": "InsurAds"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000377,
+    "sites": 55,
+    "subdomains": [
+        "cdn",
+        "services",
+        "web-messaging"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/55QXK4XS\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c4dc77e289ebdcfc2f2a74d5986777eb5c0969f2228cbd926f482ce293734a51"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1803,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552003,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacuerda.net",
+                "acordes.lacuerda.net"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/init",
+            "cookies": 0.000192,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000253,
+            "cnames": [],
+            "responseHashes": [
+                "8a5d743e50c40449cedaa400c84f8bb0e8ee67f41089dab96fa5a6c003e3fe59",
+                "180cbf68fbdb7566de7f0bf605853197a4ab92d457bf806d413f4e79393d8973",
+                "895f966732f11a610b72719c8f28b16d67bd5cc9041169897383def81899ddd1",
+                "b4d587cecda63acc6a4c5574619791f557d0b59e0676453fbba7b347e0bc4bd4",
+                "3cd1f4378da537a230ac6232fadd634138615d1a613ac4e697543c1e56b59058",
+                "fa221b4abce8fb8d2d1c1ade4e8fb69b6c26953ce061ecbd3bb25e1aca03b81a",
+                "ab78d9ce7db6979406ea3deea657fa56e175425fd30f0e2b63188c2dc8966f51",
+                "e3862ae0ee56531bce0383677f27af00c55b11a335d4ff493edc5b08dace5e21",
+                "034e023144abae8c651de701f8a268b296b247ebe3367d5bac7ff7679b427d78",
+                "c32d32685877b72283a0fd912117957dc775d5bd06647383572b562ab502d416",
+                "c53930432f12f0d2234e9c3b8268cce4170b2420e5240bd4cb1df9ef12a106c7",
+                "6acf6586b1d63cc206a3a2955b6c3c1d94eb174cd0167cdbe520612f9393bb49",
+                "f1eb77ece95ff7d0ad8dc86021b18229080a0e8f67683c9b28183338c86eb0b7",
+                "1412bec44342731ec9ef09bee73b124604232f965c8ae8e7c558bb4a301c027f",
+                "ab2b2cded517b05e11bcec3298c12e2877b1543eeecaeb72a629edc43e9b84a3",
+                "3cf1a86112d193f5377212b55cc72cdf1480cfda7e5993ec25289e4e6143dfd6",
+                "076b895882ce6bf25d925e2a8516c77f61d1017d272f06c5de25c2a72defb6b3",
+                "9dad112ab5466e6fad35bbf483adfd86ea25991a848cf43986c28ee94f6cebe6",
+                "0da957376cdb79d03fda7ff8fc9a142a8e3542eb56929a91a8179a24a2c8402f",
+                "3b501dfef1050c77af4e8c928aaf9707957fa63f8f36f7e6334a922f551760c4",
+                "9ee63021e4d6538b7943848e70204254914b9a59398b64870ea892f00cc27388",
+                "c651eecfc683008103144af1c8fe801a59638dde47b541821cae6b32c7454802",
+                "7dadf78e6faf7296b1acefc6748e5dbdf481bf6d9366e220fdd4a26f28628dd8",
+                "e62308d01d5e0896fe268290cb9ad76bb874776f1c33a9584e75abe798b3fffa",
+                "5aefe325eea5d623d854e97ad58dcd35265382f161b06c84bdc5e24ce2fbccf9",
+                "f60f2f87e413c955d6ed3408f3595a771afd858b93ef2c2f4720a481c2b5c934",
+                "49e7027bd83518043a0fe7b0a55af737bc3aa86ec6f34a3c701b6d3d946eca41",
+                "d83526670de99a1ba8ddd434f913d304e6be7975b5b91a4048e2c228a0cc70fb",
+                "a4be04912780a3739d974afb075de946acd8349c2f976ea04ce9c614493c90c6",
+                "c2d5ec895d7c957e70ef36e00526635d00aca296525c4e627a919660c02514d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00011644393909297021,
+                "__dtmids": 0.00003424821738028536,
+                "_li_dcdm_c": 0.000013699286952114143,
+                "utag_main_vapi_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "www.todamateria.com.br",
+                "www.birgun.net",
+                "wolipop.detik.com",
+                "lacuerda.net",
+                "www.folha.uol.com.br",
+                "www.record.pt",
+                "www.news24.com",
+                "acordes.lacuerda.net",
+                "www.culturagenial.com",
+                "www.autotrader.ca",
+                "canaltech.com.br",
+                "www.autohebdo.net",
+                "www.eldiario.es",
+                "caracol.com.co",
+                "www.translate.com",
+                "topszotar.hu",
+                "hot.detik.com",
+                "health.detik.com",
+                "www.wallstreet-online.de",
+                "travel.detik.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-realtime-10\\.0\\.11\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 27
+            },
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "7d1a18d790a245c22d122b5036d7424b87c93322203f8c672706d548e382c918"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.significados.com.br",
+                "inet.detik.com",
+                "travel.detik.com",
+                "www.wallstreet-online.de",
+                "www.significados.com",
+                "www.pensador.com",
+                "caracol.com.co",
+                "acordes.lacuerda.net",
+                "www.dicio.com.br",
+                "www.sinonimos.com.br",
+                "www.autohebdo.net",
+                "www.record.pt",
+                "health.detik.com",
+                "www.translate.com",
+                "www.news24.com",
+                "www.culturagenial.com",
+                "www.eldiario.es",
+                "www.autotrader.ca",
+                "www.open.online",
+                "t24.com.tr"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-client-1\\.18\\.4b\\.js",
+            "cookies": 0.000192,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 28,
+                "Date.prototype.getTime": 28,
+                "Document.cookie setter": 28,
+                "window.innerWidth": 25,
+                "window.innerHeight": 25
+            },
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "d31cda369946c308c401ed189ee3d561b8f1c07e8ee7f6dcbaaa257e5b10e056"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_idl": {
+                    "ttl": 86400,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canaltech.com.br",
+                "www.todamateria.com.br",
+                "www.conjugacao.com.br",
+                "www.folha.uol.com.br",
+                "www.record.pt",
+                "inet.detik.com",
+                "t24.com.tr",
+                "www.autohebdo.net",
+                "www.birgun.net",
+                "www.translate.com",
+                "www.open.online",
+                "health.detik.com",
+                "www.eldiario.es",
+                "www.culturagenial.com",
+                "www.dicio.com.br",
+                "www.wallstreet-online.de",
+                "www.significados.com",
+                "www.news24.com",
+                "acordes.lacuerda.net",
+                "caracol.com.co"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/initcb",
+            "cookies": 0.000185,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 30,
+            "prevalence": 0.000205,
+            "cnames": [],
+            "responseHashes": [
+                "c23dfc12777df606573920a2b7b3ab66b79981baf7ab5f85dbdb5e467f8c9fde"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.00019863966080565506,
+                "lotame_domain_check": 0.00008904536518874193,
+                "__dtmids": 0.00003424821738028536,
+                "_li_dcdm_c": 0.000013699286952114143,
+                "utag_main_vapi_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "hot.detik.com",
+                "www.significados.com.br",
+                "inet.detik.com",
+                "www.news24.com",
+                "www.sinonimos.com.br",
+                "www.conjugacao.com.br",
+                "www.significados.com",
+                "www.open.online",
+                "www.todamateria.com.br",
+                "www.eldiario.es",
+                "canaltech.com.br",
+                "health.detik.com",
+                "www.folha.uol.com.br",
+                "www.wallstreet-online.de",
+                "travel.detik.com",
+                "acordes.lacuerda.net",
+                "www.dicio.com.br",
+                "www.translate.com",
+                "www.birgun.net",
+                "www.culturagenial.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/rt-pub\\/node\\/hub",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-messaging"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00008904536518874193,
+                "__dtmids": 0.00003424821738028536,
+                "_li_dcdm_c": 0.000013699286952114143,
+                "utag_main_vapi_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "canaltech.com.br",
+                "wolipop.detik.com",
+                "www.translate.com",
+                "www.wallstreet-online.de",
+                "www.news24.com",
+                "www.culturagenial.com",
+                "www.calendarr.com",
+                "www.conjugacao.com.br",
+                "www.autotrader.ca",
+                "www.pensador.com",
+                "health.detik.com",
+                "www.todamateria.com.br",
+                "acordes.lacuerda.net",
+                "t24.com.tr",
+                "www.eldiario.es",
+                "www.autohebdo.net",
+                "www.sinonimos.com.br",
+                "www.cmjornal.pt",
+                "www.dicio.com.br",
+                "travel.detik.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/ad",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "13caa590b34dad69e106683cc3b7d041baef77ef7f8103daf92685a32ec2282d",
+                "5ae4229a85f49461314eeaebc1b47ac04a32cb1f53380c9c397b407f52597b13"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.000027398573904228286,
+                "lotame_domain_check": 0.000006849643476057072,
+                "__dtmids": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "lacuerda.net",
+                "acordes.lacuerda.net",
+                "inet.detik.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/lb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "lacuerda.net",
+                "acordes.lacuerda.net",
+                "inet.detik.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/dfp\\/mapping\\/batch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "ae6f75902e817393da8758859f9b8ed72028667b83055e5912b97c13521900e4",
+                "678e20e6cce479a5e55867aafa9b46c6d32160f1a84388b5f55e4f53c5331f80",
+                "f5e52b81883e8b67d764ec98d671142b12c393a47245d740c650081e602fc6fd",
+                "bda6a932c59e880e50e03779735d055065424b94cebb4ccf350e832f97b472b5",
+                "e109e74df7d82b132444681eaa7b8bb2e7b943209961d8f5d6be554ba4f62933",
+                "fa45ad484d6844bfca894417c0d696ff0740b4fc775614a0848cc2cebf6db904",
+                "bfa548a84614036893fb81650d4c04acbe457555ce5d4b398969258ab25222a7",
+                "6cfd337024e67931832689d305d9f15ed0db4ab566281e080f67ded60fcb748e",
+                "7e9b71e7a2e8e635d343a466be11cd87ce464c1b11a2e53f4d3cbcec2557c646",
+                "f4d086d238e06251afb2d982a3c0451db6c5458c095b8d9982ae41cbcce311e1",
+                "315a0705cf9c70da4480a21aa33db43b184fe9998e73abe2e021048d10d28fac",
+                "8e8418f8f8ae5f5dab687634730d8d3cf0457bec9ba83603769fea880112ebfc",
+                "002206d2a709adf380bc362055d8933c9150930500f705aa847375be3572da5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.00006164679128451365,
+                "__dtmids": 0.000027398573904228286,
+                "utag_main_vapi_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "lacuerda.net",
+                "canaltech.com.br",
+                "caracol.com.co",
+                "health.detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "t24.com.tr",
+                "travel.detik.com",
+                "www.birgun.net",
+                "www.cmjornal.pt",
+                "www.dicio.com.br",
+                "www.news24.com",
+                "www.open.online",
+                "www.pensador.com",
+                "www.record.pt",
+                "www.sinonimos.com.br",
+                "www.todamateria.com.br",
+                "www.wallstreet-online.de"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/S9H7OMZB\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie setter": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTimezoneOffset": 5,
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "WebGLRenderingContext.prototype.getExtension": 5,
+                "WebGLRenderingContext.prototype.getParameter": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.languages": 5,
+                "Navigator.prototype.hardwareConcurrency": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "4f40f42da1f4ea2e5331c3d0bec183b9554c0ced29993e55cc17a8137a4dcf01"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1809,
+                    "length": 16,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552010,
+                    "length": 122,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "travel.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-pay-attention-1\\.0\\.26\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "7e0b245cdbb2b9ba348139c58f0718885107647b6350fc209de11ddbbce88776"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "travel.detik.com",
+                "wolipop.detik.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/TFO9OQP3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e4982c977152d12ac3b8ba01196789474a46e3225d9c3f9201800c1a70ac4556"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "la7.it",
+                "www.la7.it"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/L4OHQCNG\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f3df7946be48d4313c5acbda3b945ecb8bedb08f6112c18883e7e61cc9da252e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1814,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552014,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.ca",
+                "www.autotrader.ca"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/I2V7X2FS\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5a59aa8bef6856a54f198beb05ad1c048cd30c367ef5d57c0503bd33821ecf4b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1803,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552003,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "calendarr.com",
+                "www.calendarr.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/Q44VVSEX\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ad7e4923afe5819f1776225a4ed2dae90b29b7cb315db9f91878b5e91311668d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclist.co.uk",
+                "www.cyclist.co.uk"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/CVCKAUKP\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "58ae95736e79d7f8356add4bf2146d5c8785ead0d239cb10498317d1afd8242d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1803,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552003,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dicio.com.br",
+                "www.dicio.com.br"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/R0PFNQA6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64eec86f0a0ddb9da01ab4e86aecf9195513263272c3723cf4338613e93e886e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1812,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552012,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/R0PFNQA6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1812,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552012,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/init",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-realtime-10\\.0\\.11\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/iat-client-1\\.18\\.4b\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/initcb",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "___iat_ses": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "news24.com",
+                "www.news24.com"
+            ]
+        },
+        {
+            "rule": "insurads\\.com\\/bootstrap\\/KMEWL53M\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.language": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.hardwareConcurrency": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eec61b3dca42da8a917e267a8756a5165a3f08ea3532915d42048cdb23e8d28f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___iat_ses": {
+                    "ttl": 1804,
+                    "length": 16,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "___iat_vis": {
+                    "ttl": 15552004,
+                    "length": 122,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "translate.com",
+                "www.translate.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00024,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.379746835443038
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.27848101265822783
+        },
+        {
+            "domain": "seroundprince.com",
+            "prevalence": 0.12658227848101267
+        },
+        {
+            "domain": "rcsobjects.it",
+            "prevalence": 0.05063291139240506
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "prisasd.com",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "headerbidding.services",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.012658227848101266
+        },
+        {
+            "domain": "dngroup.com",
+            "prevalence": 0.012658227848101266
+        }
+    ],
+    "types": {
+        "Script": 175,
+        "WebSocket": 29,
+        "Image": 3,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "ns-196.awsdns-24.com",
+        "ns-560.awsdns-06.net",
+        "ns-1779.awsdns-30.co.uk",
+        "ns-1070.awsdns-05.org"
+    ]
+}

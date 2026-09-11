@@ -1,0 +1,149 @@
+{
+    "domain": "picreel.com",
+    "owner": {
+        "name": "Webfolio Management Inc",
+        "displayName": "Webfolio Management"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "picreel\\.com\\/assets\\/js\\/edit\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f4a765bcbb86ad44dedae6a5798e76a9b47637b51466d51f630e7bc9ad2be079"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "officialbarbaraoneill.com",
+                "www.itmtrading.com"
+            ]
+        },
+        {
+            "rule": "picreel\\.com\\/assets\\/events\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "082e020428000032b9edb97c161219839faef3c0af928d96b319b5965801d02d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "PicreelUser_pages": {
+                    "ttl": 86404,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "returning_visitor": {
+                    "ttl": 2592004,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "officialbarbaraoneill.com",
+                "www.itmtrading.com"
+            ]
+        },
+        {
+            "rule": "picreel\\.com\\/visitor\\/get_campaigns\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "officialbarbaraoneill.com",
+                "www.itmtrading.com"
+            ]
+        },
+        {
+            "rule": "picreel\\.com\\/api\\/getUserTypeByUrl\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d7eb7fc1e9aeeb7c4e589cb8e165694b01f4576d5b473f774a77248c447394e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exceltip.com",
+                "www.itmtrading.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "pcrl.co",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-187.awsdns-23.com",
+        "ns-1010.awsdns-62.net",
+        "ns-1315.awsdns-36.org",
+        "ns-1615.awsdns-09.co.uk"
+    ]
+}

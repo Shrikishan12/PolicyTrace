@@ -1,0 +1,785 @@
+{
+    "domain": "k.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "analytics.gadventures.com",
+            "resolved": "k.sni.global.fastly.net"
+        },
+        {
+            "original": "cmp.telerama.fr",
+            "resolved": "k.sni.global.fastly.net"
+        },
+        {
+            "original": "storyblok-assets.mindvalley.com",
+            "resolved": "k.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/js\\/tcfv2-stub\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cmp.telerama.fr",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fa0297e17db4726ff917c4e7df0acec252d8996dd6bd2974d801c4138abefbe1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/js\\/telerama\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cmp.telerama.fr",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "84369d126b24ac5498929c2dd7dee417a436ae58d9099c5f0d018c36344d574e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/html\\/telerama\\/wall\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cmp.telerama.fr",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "eb2efe4f31d390e7807d83d74b514229c0707aa0d783ae54b3b328d93f611671"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cmp.telerama.fr",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/api\\/impression",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cmp.telerama.fr",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerama.fr",
+                "www.telerama.fr"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.gadventures.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e2c43945822a6c34d47f9586a8a8698801b8efdc5488cfd3212a731789bc15ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000013699286952114143,
+                "IR_gbd": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "gadventures.com",
+                "www.gadventures.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/_\\/set_cookie",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.gadventures.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gadventures.com",
+                "www.gadventures.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/pages\\/_product\\/_page\\.157d97054fb95fb92ed4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "64e5ca61bb7759267ffd5b9d75ea24d727d15ea9c6dbf796c56897ba8ff61d21"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/pages\\/_product\\/_\\/pages\\/_product\\/_page\\/pages\\/test-no-tw\\/pages\\/trainers\\/_\\/pages\\/trainers\\/_slug\\.fe8c347bcd604f87c41f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b741c34411b405ac95329a3facf220a041fa52110f8fe8905731d881a670ab89"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/page\\.407e72070e1a962759eb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8452bb98b5cae22435eb58fd18576f262ca8d6d3c51430a58291830fd6087fcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/icon\\.755054f0ddb405a21a47\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a47b5937bb751ba9a7cefe6e202290e08daf688161d2e3ffec1f2a0a8c77ea6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/column\\.26c90a9bcb81d2ee4576\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "430858e7987aea49e6e920d36d60c343b8ed63654d15bc7dc94ab7588ee339c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/webinar-video-player-wrapper\\.abcabb887920b54c9a1a\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "725e3e9becdd9e9e78dd2cb3cb2f1af831fd3a28b448e6e4f948900a5911cded"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/vendors\\/components\\/static-webinar-video-player\\/components\\/static-webinar-video-player-wrapper\\/compon\\/2d388e79\\.49f24f42eeb37feb0a63\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "50fe4b1e5d28821ffd4c24be754512dcbac355b4c16a8941bfaae68f60a6c36e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/static-webinar-video-player\\/components\\/static-webinar-video-player-wrapper\\/components\\/tab\\/0daac4ed\\.813a3074bd40f1bc4d41\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "57787bd5472188dff50d7fec3eac9976d05b48bcbb29e57c5d91845e4b02cc4c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/static-webinar-video-player\\/components\\/static-webinar-video-player-wrapper\\/components\\/web\\/4f8a6a27\\.f5c6530f6904500a8b9e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "661643ade67d085d5cad411a966d7d72de54b191b4202332f0703ed65059a0eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/webinar-video-player-with-popup\\.88c81abfd291a4168718\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "1e7c24dbf9a3960434f2b68e7d4e2996664a65ddb77e8ef99705c634c4428137"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/double-media-scroll\\.2a526abb89eb1e693aaa\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a2590750c46a618a1c12a9fca5ec492b35736d026c64e90f0b49408e94b388c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/swiper-carousel\\.399e968139bbf710d800\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "88dc685f6227ba79c151e802f07404fd950d0adb051153ed6c1cfdacf1fd4ab9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/vendors\\/components\\/carousel\\/components\\/content-switcher\\/components\\/dynamic-story-widget\\/components\\/p\\/6b721464\\.ea5ea79f08aac90a9f34\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "cd5eebfe010e7502b8029befb370149efcbb516fa05523e332f9e07215205cd3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/vendors\\/components\\/carousel\\/components\\/dynamic-story-widget\\/components\\/phone-frame-auto-scroll\\/compo\\/00d78411\\.9dc23f4cd51b8a12291f\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "00815ef1786cf509bf31b6019d608ed381e1e8b41a396a52412e525128b2fbab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/author-card\\.34e52ff907e5ab809ccc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b8813f615b38283dac29250303dd133cf8b039a9e91a62b7a1246a4e592f3a52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/full-screen-modal\\.1afd43b0b40a6cf38e00\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "f490516f0172432371884a3143d86f0019530a4b807f2cff72853dc65ab0dc64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/include\\.d60e9fad24e15a5048e7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "bc5371b912214c4d8c976a2886ea3b8cac14beecd7862429ec7ad74255e76c9c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/faq-layout\\.8a4015abc9fd3d6fd48b\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "82c914dfbbd83a48162d44642118c549e08e47b45224fceb3fcea9ba2e3de55a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/faq-item\\.4be22850ffd6a0928a99\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "d6bd1ea5eef3d3e3b6ef07b35a54015d524a4fd33eb9e350b4f0464f18a6834f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/submission-content-switcher\\.a7ca9c5467f6ce0080b4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "78c8165c68c1d8477f514e93931c2fe00c4dfd13ec214ee23557d58e2786f81b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/components\\/rsvp-now\\.787a236953f7630c6142\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "00237b8319a76c15b8d801446b21d792688c8b19735ae61cd91f7dc28c20878c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        },
+        {
+            "rule": "k\\.sni\\.global\\.fastly\\.net\\/scripts\\/vendors\\/components\\/phone-number-form\\/components\\/registration\\/components\\/registration-one-step\\/compon\\/36cc953f\\.efdd1b03224d9609af7c\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "storyblok-assets.mindvalley.com",
+                    "resolved": "k.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5a946ab1643454beda841abcf53bab289ebcb75b7a74bdab37565c63d3dd1c5c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindvalley.com",
+                "www.mindvalley.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.9473684210526315
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 48,
+        "Fetch": 6,
+        "Preflight": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

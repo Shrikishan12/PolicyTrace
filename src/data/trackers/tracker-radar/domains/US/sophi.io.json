@@ -1,0 +1,2654 @@
+{
+    "domain": "sophi.io",
+    "owner": {
+        "name": "The Globe and Mail Inc.",
+        "displayName": "The Globe and Mail",
+        "privacyPolicy": "https://www.theglobeandmail.com/privacy-terms/privacy-policy",
+        "url": "http://theglobeandmail.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00108,
+    "sites": 158,
+    "subdomains": [
+        "cdn",
+        "paywall",
+        "ad-revenue-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/619277896\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e402d75711df7a811f542e467e2f7b7de757816b796e460526cbc3915caf6ca2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.chicagotribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/619277896\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e4d4f72c467bb0f9d83e349ca849fad6e6fc796374c5dd67f063a37b23aaeab9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.chicagotribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/hosts\\/www\\.chicagotribune\\.com\\/decisions\\/me",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "paywall"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c87adad844f24b42b05f791905adcf2655697b7c05c07bb2398271ffa392a1db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chicagotribune.com",
+                "www.chicagotribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/v1\\/hosts\\/ma63069\\/adUnits\\/5512684462_2384441166_21683158012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-revenue-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae595b8e1daeb9fa151cce4d517f1cb41a37e7a23310d2f454ffb0b06f631ac6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "obituaries.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/v1\\/hosts\\/ma63069\\/adUnits\\/4618056380_138484660404_5512685932_2384441166_21683158012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-revenue-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "12803fac52ca2da6b339edb53092dd34abd689ec22c240d252201873c1aba6d6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "www.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/v1\\/hosts\\/ma63069\\/adUnits\\/5512685932_2384441166_21683158012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-revenue-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "897f53e8b7aba38b4d32d233daa36bb6aedc83e748d756ac947ba57926a54954"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "obituaries.bangordailynews.com",
+                "www.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2457978780\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ba5d921ba9e13d814683353008b57342343f990afbe33c6f61c2fbdf1874ae6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158400,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901200,
+                    "length": 20,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abqjournal.com",
+                "www.abqjournal.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3793651022\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f049979e8f6d635e23a97d63c2eac0cf7e33fe4d4e5a931ca082ab9ede598596"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158408,
+                    "length": 71,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901208,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "architecturaldigest.com",
+                "www.architecturaldigest.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3207229559\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a5c8e840ed46c2177c881300d9c8e0540692567d790c7dc4aa257cb42efbcec8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158400,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901200,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "www.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/v1\\/hosts\\/ma63069\\/adUnits\\/4516291143_138566026349_7360685481_2240109319_21683158012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-revenue-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d83b23caa552499df3b5d1746abaf9c550af9b56625d0202c6e360b10c6e6f3b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "www.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/v1\\/hosts\\/ma63069\\/adUnits\\/7360685481_2240109319_21683158012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad-revenue-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80f4b24674c44245d0f32761bce0d31eff25a6e7f3e2495e3c96f897d9357a91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangordailynews.com",
+                "www.bangordailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2051966105\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ae0195aad7a019ec60fde7a20708c856036f22e2547d61a7541dd237f83a1e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bonappetit.com",
+                "www.bonappetit.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1207387832\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d0d9caac7fd0c81c0d706737b4bf61f28b16f562f7849094704065a0d01cc6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bostonherald.com",
+                "www.bostonherald.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1207387832\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bostonherald.com",
+                "www.bostonherald.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2514807332\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d28522d0fce923203da29673a3a6a56a9c1ac99a30ef760c9fb30a7ba60eb30f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158408,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901208,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3282604121\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c2283411153229e540d3732c4ecfba35eb067daf47cd93e7d0f3b3ba3d11267"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citizensvoice.com",
+                "www.citizensvoice.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3282604121\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "citizensvoice.com",
+                "www.citizensvoice.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3850888242\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d93fd58fe66212b0d0f2f6e28ef8d03f7583122ee508f9bc39aaed7686ab69dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "courant.com",
+                "www.courant.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3850888242\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "courant.com",
+                "www.courant.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2891391404\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a063f64c6692d36a2e4fca9b0d45daf886383079a8a3667c3df0eb68dae008bd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailybreeze.com",
+                "www.dailybreeze.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2891391404\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailybreeze.com",
+                "www.dailybreeze.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1321371076\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a9434afa2380ddc602783bd771f6aa25f750bca776b056d1accfed163e0df1ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158402,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901202,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailymail.com",
+                "www.dailymail.com",
+                "www.dailymail.co.uk"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3014757041\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efde587f52a3a32dcf9046f509de9e9be267faab1b2ccf97ac46a6532afb5693"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailynews.com",
+                "www.dailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3101589387\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailynews.com",
+                "www.dailynews.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2516223323\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "88eb1465c33707f82688459630b37182b550a31d9cb01bfdb638eb87f8d20788"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailypress.com",
+                "www.dailypress.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2516223323\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailypress.com",
+                "www.dailypress.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/567484083\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d0922ded1952f1173682ca4c470b60da255de64b5a9e705e1228511df5c3a3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delcotimes.com",
+                "www.delcotimes.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/567484083\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delcotimes.com",
+                "www.delcotimes.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2701601521\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3ebd5f492f524877bf437f8840deffda013a94eb1ed202fea6e0e8a6eb3426a1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "denverpost.com",
+                "www.denverpost.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3792376536\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8de433f1658fb1369121a495283d165fdc5aaa14645e4222f246e110b24603f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158407,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901207,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3191435292\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d47304fd8b6d270330020a751318c23349a3ce7189313a5b0d1dbeffb32bcd29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastbaytimes.com",
+                "www.eastbaytimes.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3191435292\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eastbaytimes.com",
+                "www.eastbaytimes.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2191732647\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ba7e81b1c545784cc8ff9b612cd8e18c69d972668aab865b28ef3ebf198b218"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158402,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901202,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2137712140\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "36adc6155e7f53caa0cfd9656008a12793270563a81773b3be678ce752767335"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idahostatejournal.com",
+                "www.idahostatejournal.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3860032797\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "769a46065cc032a4d3628c9fae73fe437da74addc676ab32b5d4657caad02643"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "idahopress.com",
+                "www.idahopress.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3861179937\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7dc5a218f9ec1a39755d57d4f786b0820947e284727e44d3f3226e46407d7aae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158406,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901206,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/4237770873\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9116ac5117433758970603f342201fa922547bdadcc0682cc8d9273cdd495148"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inquirer.com",
+                "www.inquirer.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/sdks\\/paywall\\/1\\/stable\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "643ebbc472378fac2613aefd1b6f6ebf97995fe402c80e8a8bcf1dcbe646bc0a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inquirer.com",
+                "www.inquirer.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/4237770873\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "58b289951110460ce93b2bd5f74ede5cd3595d11d1553cbe3ec485265908fcf9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158416,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901216,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inquirer.com",
+                "www.inquirer.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1507163522\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "507b90e5e9ce051b480fd8de012e0af89ce123a1c71daceaade627e7cc364f02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "irishtimes.com",
+                "www.irishtimes.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3499727789\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d5eae9597d22509e6513946191740a62a8ce68337520b300c7dcd4bf1e1e26ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowellsun.com",
+                "www.lowellsun.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3499727789\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lowellsun.com",
+                "www.lowellsun.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3411124809\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b96d33cdcf6c027ac77b4a1e063e95f6bf84f38021c87a6a7c6bbe3db69bc4a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macombdaily.com",
+                "www.macombdaily.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3411124809\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macombdaily.com",
+                "www.macombdaily.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/447460804\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d4b2332a1fcf2fc9f7444aca01c59de2a5c3926f4dc81c23a550f72e5faf629"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marinij.com",
+                "www.marinij.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/447460804\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marinij.com",
+                "www.marinij.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2845824249\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "888139ebd561ad1d125e87a07fae6ae94e49fe24be08e84e9e046f6181ea9f0f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mcall.com",
+                "www.mcall.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2845824249\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mcall.com",
+                "www.mcall.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/899335980\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0eebca442cfb4fc5cec590100ae3897d2c6ef7c1e9b5e81013d5a8dda4e237f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercurynews.com",
+                "www.mercurynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/899335980\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercurynews.com",
+                "www.mercurynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/193295629\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c72d35ddeb2422821e3d67210c6e2dad9e3c50d17469913deef45bb3288f6824"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news-herald.com",
+                "www.news-herald.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/193295629\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news-herald.com",
+                "www.news-herald.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2916333213\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcc28ed6b6dc58e38703d59e651595cf349f38a89d4d27cd83eaea8af2bf0022"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158406,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901206,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "newyorker.com",
+                "www.newyorker.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/hosts\\/www\\.newyorker\\.com\\/decisions\\/me",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "paywall"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "035680910235baafb786bf288e01b819ce8e54cef8ff36d4b2203b088eff2201"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_td_domain_newyorker.com": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "newyorker.com",
+                "www.newyorker.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3101589387\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "30b19180cd089f49398cf1040e8866ca08723388931b1f842fe7768050ddcf9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nydailynews.com",
+                "www.nydailynews.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/491643944\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2be8592b002a47032ae2ff30dee7f6cac2c5e66485b52e5d4faea46b802c2043"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ocregister.com",
+                "www.ocregister.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/491643944\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ocregister.com",
+                "www.ocregister.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3469324202\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4156f7489395165d25e10b8cd24fa7e8f5e5538af94f83a568d91b191e9eb89f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orlandosentinel.com",
+                "www.orlandosentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3469324202\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orlandosentinel.com",
+                "www.orlandosentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1916818068\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21d6863ae523b2e4a87e37377639ce56c762e339ec8d29eb62d371a6f4490567"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pilotonline.com",
+                "www.pilotonline.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1916818068\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pilotonline.com",
+                "www.pilotonline.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2912300655\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80bdf42d4765c2e07900ae695f6f8e34a558cf1f9a2e913148c095ee18641692"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158401,
+                    "length": 71,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901201,
+                    "length": 40,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "post-gazette.com",
+                "www.post-gazette.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2099394527\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2740e69eaa8552612944ad7971b416eab01a0cb9c85e0627163eb31f3e96dc1c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158408,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901208,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2835070335\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc0f8f58b1cee3f217483985511e2a4e33ad970e3f8d37a54191156fae277d86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressdemocrat.com",
+                "www.pressdemocrat.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2835070335\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressdemocrat.com",
+                "www.pressdemocrat.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/842112666\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76cb4f098d9bf4a5b7b23e3b6aae088684a31dee024244be086179c6c5812c53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressenterprise.com",
+                "www.pressenterprise.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/842112666\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressenterprise.com",
+                "www.pressenterprise.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/876862967\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "675dfc8d50ce3e3ebbebad9d461ba181d2615a577b08318f7748cccd7a52b244"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readingeagle.com",
+                "www.readingeagle.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/876862967\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readingeagle.com",
+                "www.readingeagle.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1073443563\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6af3d4ba16a49ad23e7e06f757af3065fbc659fc7f9ce0837d74dd8851504286"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandiegouniontribune.com",
+                "www.sandiegouniontribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3419558011\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0704affd1cf5ddb5e58a38c5b6010b108588f5bfd31ab0b90ba2cbb931e906c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "santacruzsentinel.com",
+                "www.santacruzsentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3419558011\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "santacruzsentinel.com",
+                "www.santacruzsentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2853384454\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e00f95995679c48313b9b1682e2db28cd0d183d94037b37c154ccf7465c9a4c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbsun.com",
+                "www.sbsun.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2853384454\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sbsun.com",
+                "www.sbsun.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1759378855\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "95e06f65f0ae90391eca79d005f72fcb1a1aec81ed8b0f678854cd9b0484e7da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "standardspeaker.com",
+                "www.standardspeaker.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2696132541\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c09d9ff6a5da056d52701ff7572994de5ddffd8218114f15775967eb0204ab83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sun-sentinel.com",
+                "www.sun-sentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2696132541\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sun-sentinel.com",
+                "www.sun-sentinel.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3372937438\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "566d509e679b89fcca04c4641c8f2b4ebc7a9c66748929bab9fa91b22c6231ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158401,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901201,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2336147925\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49378ac3cb07c99aec67028d3a7b6f2fad3aef50d8cdd14cf56559a2cefddc40"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158402,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901202,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1746422322\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc78715f99db1d423cb371419151d0404b61daacc1593220c0734296829b833e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thetimes-tribune.com",
+                "www.thetimes-tribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1746422322\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thetimes-tribune.com",
+                "www.thetimes-tribune.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/3599730833\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94640fe92e02048372064baf1fe2e269adf7675836d6bba14609eb90f41febf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158402,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901202,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thewrap.com",
+                "www.thewrap.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/607853728\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd3cafb3e90aa3b189150a01c37cae40a27ae5dd2dc13bfc9de11261d27114d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158402,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901202,
+                    "length": 40,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toledoblade.com",
+                "www.toledoblade.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1237740280\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8319808a8e0a3daa211577789144801cd66194d92d3d4dbca2ae011bbb4b4216"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twincities.com",
+                "www.twincities.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/1237740280\\/extensions\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5988de7082cfc3273b6fef0f05f50f38b807eccbc76d37b1729e789b77da730c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twincities.com",
+                "www.twincities.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2405563451\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4204d06a239583c1756df3871d415c962e6ecf6c079d4d66aa806433475a418"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158408,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901208,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vanityfair.com",
+                "www.vanityfair.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/assets\\/demeter\\/1\\/stable\\/2057487818\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2d4f9d2c5f32da1273f44c11b22c5316983a91a322f937c86a3d30ac7df4f5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ml_id": {
+                    "ttl": 63158409,
+                    "length": 71,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_matheriSegs": {
+                    "ttl": 15901209,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wired.com",
+                "www.wired.com"
+            ]
+        },
+        {
+            "rule": "sophi\\.io\\/hosts\\/www\\.wired\\.com\\/decisions\\/me",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "paywall"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ed7871ac5906e8643d4b6b3038bcc90a76299ffa74cb894b2d0a36bbdb3c67b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_td_domain_wired.com": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "wired.com",
+                "www.wired.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5314685314685315
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.34615384615384615
+        },
+        {
+            "domain": "matheranalytics.com",
+            "prevalence": 0.08391608391608392
+        },
+        {
+            "domain": "newzware.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "dailymail.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "flip-pay.com",
+            "prevalence": 0.006993006993006993
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.0034965034965034965
+        }
+    ],
+    "types": {
+        "Script": 162,
+        "Fetch": 17
+    },
+    "nameservers": [
+        "ns-1220.awsdns-24.org",
+        "ns-150.awsdns-18.com",
+        "ns-1615.awsdns-09.co.uk",
+        "ns-800.awsdns-36.net"
+    ]
+}

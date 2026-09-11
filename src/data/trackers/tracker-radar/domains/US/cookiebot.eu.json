@@ -1,0 +1,879 @@
+{
+    "domain": "cookiebot.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00116,
+    "sites": 170,
+    "subdomains": [
+        "consent",
+        "consentcdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cookiebot\\.eu\\/uc\\.js",
+            "cookies": 0.00101,
+            "fingerprinting": 2,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Document.cookie getter": 148,
+                "Document.cookie setter": 148,
+                "Navigator.prototype.languages": 149,
+                "Navigator.prototype.userAgent": 148,
+                "Navigator.prototype.doNotTrack": 149,
+                "Navigator.prototype.cookieEnabled": 149,
+                "Date.prototype.getTime": 33,
+                "window.localStorage": 5,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 155,
+            "prevalence": 0.00106,
+            "cnames": [],
+            "responseHashes": [
+                "00007a362204c0eb21a9cddcd578884893993abc7f6db51138b4e696879bac9f",
+                "405599ee79ca614c195294bcbeb7950354e601d8d4e50abcafa25a9277a5d0de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "CookieConsent": {
+                    "ttl": -1787621940,
+                    "length": 31,
+                    "prevalence": 0.0010137472344564466,
+                    "uniqueness": 0.20945945945945946
+                },
+                ".AspNet.Consent": {
+                    "ttl": null,
+                    "length": 3,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.intersport.nl",
+                "www.penguinlibros.com",
+                "www.flughafen-zuerich.ch",
+                "woolworth.de",
+                "www.flatex.de",
+                "www.strath.ac.uk",
+                "foedevarestyrelsen.dk",
+                "dildoking.de",
+                "mrq.com",
+                "www.jacques.de",
+                "www.ggdreisvaccinaties.nl",
+                "solarhandel24.de",
+                "www.han.nl",
+                "www.jellinek.nl",
+                "www.suhrkamp.de",
+                "www.sonderpreis-baumarkt.de",
+                "www.arcam.co.uk",
+                "www.synevo.ro",
+                "www.praktischarzt.de",
+                "www.scribbr.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/sdk\\/bc-v4\\.min\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {
+                "window.localStorage": 110
+            },
+            "sites": 149,
+            "prevalence": 0.00102,
+            "cnames": [],
+            "responseHashes": [
+                "738e5435f2d18427d291a0d6289eee0ebbc87b596d6003919f255760ac293104"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.edmundoptics.com",
+                "us.typology.com",
+                "support.casio.com",
+                "www.soelden.com",
+                "mokivezi.lt",
+                "www.kefairport.com",
+                "www.erf.de",
+                "www.chesterzoo.org",
+                "pocketmags.com",
+                "www.flatex.de",
+                "www.medi-karriere.de",
+                "www.mitti.se",
+                "www.opus.pro",
+                "www.gaggia.com",
+                "www.vogelbescherming.nl",
+                "www.ellos.fi",
+                "www.bjurfors.se",
+                "www.scribbr.nl",
+                "www.arcam.co.uk",
+                "languagetool.org"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/7bb142c6-13bc-4510-a38f-5b9f31566b57\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "eb3b8c1ca9bb1c869850af29726ab65edf7b93726d0b1372b12c876d71402af1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "typology.com",
+                "us.typology.com",
+                "www.typology.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/7bb142c6-13bc-4510-a38f-5b9f31566b57\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f9f1ea85c16d204b261602561787069d3af36c52f40cb2d987769b0e5e409750"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "typology.com",
+                "us.typology.com",
+                "www.typology.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/Framework\\/IAB\\/consent-sdk-2\\.3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "91936f7992e9fa0d32f8bf71b71c76cccdf3e8b52250e7feb992a83e1f5bb4ea",
+                "e0a9296e34353705932625a7149dd5cef141adb466776da0fb26c2fb65caec19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emojiterra.com",
+                "www.arcam.co.uk",
+                "www.dasinvestment.com",
+                "www.medi-karriere.de",
+                "www.mitti.se",
+                "www.praktischarzt.de",
+                "www.private-banking-magazin.de",
+                "www.rcn.nl",
+                "www.ricettedellanonna.net",
+                "www.tecson.de",
+                "www.theater.nl",
+                "www.wilier.com",
+                "www.zeelandnet.nl"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/c35ee43d-8f79-4693-b40a-6de9d34059ce\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "888514e261368d8789cd37cf4a63124c93f4345ea1da6a4054bc53e5ad92d8d9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heima24.de",
+                "www.heima24.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/c35ee43d-8f79-4693-b40a-6de9d34059ce\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "65cbc1bbed830b138d041437c22b106e9fff71a431756467559f6fbc9c3bdce2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heima24.de",
+                "www.heima24.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/834827f4-da0e-4a10-ae49-68948ce81a7a\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9622a0fb76847c1426375194ffdb2cc2cafcae9b3e1674719db5d4f62ba897a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aruba.it",
+                "www.aruba.it"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/834827f4-da0e-4a10-ae49-68948ce81a7a\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7e27dedb3f5a05d3a11b660d7b278db8ae2bfa816dbff5895385edb26b6529fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aruba.it",
+                "www.aruba.it"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/ed707b01-feb2-4833-a68e-76d257081a62\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5fb4368ca0af9197d236d4f9837db9b2ee5382c64cb75a9748d6424505eea00b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricodepot.es",
+                "www.bricodepot.pt"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/ed707b01-feb2-4833-a68e-76d257081a62\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc3b211d5dfe3e40fdea7e840f8690ba332947e98f2ad51ee47a4cee46c1977e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricodepot.es",
+                "www.bricodepot.pt"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/55937094-a84b-46ba-9ea2-f7ab682b6f76\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07bad4dc7852cdf54c3c783c9ee7da9589afc7a9f684bcd2ece44b816ec0c334"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dasinvestment.com",
+                "www.dasinvestment.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/94ae87c0-4163-47a8-a565-c09ba562fb67\\/edmundoptics\\.com\\/configuration\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23491fc65496c80f63ca8463a6fe6c2bc19725fb93e16eab21b151a0040f0a7f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edmundoptics.com",
+                "www.edmundoptics.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/94ae87c0-4163-47a8-a565-c09ba562fb67\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ab338fb3f411a34f022cb3e5ad7d7aae3c7ea557818876c9c06e31eea8752505"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edmundoptics.com",
+                "www.edmundoptics.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/94ae87c0-4163-47a8-a565-c09ba562fb67\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d800d2c3fb33897203ac776e26f128cb74ae3dde1023a359ed0a9548071cdba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "edmundoptics.com",
+                "www.edmundoptics.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/98a6baeb-017f-4778-903c-70d96c162f49\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7868396810d641f799d4bc3e7cdeda5182c4acc83ef69a4bf78440188d445017"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gaggia.com",
+                "www.gaggia.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/98a6baeb-017f-4778-903c-70d96c162f49\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b788c9bd2affbe15bdf1409448c5a5a21f3aca9f915c1ff03d89988d76770537"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gaggia.com",
+                "www.gaggia.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/54cec29a-3262-4780-837e-f867ea4823cb\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b24f19df650d6e8a859d4a00c029e3849ffb3ba9ed3519c1e1a4b5d73f66ecc7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opus.pro",
+                "www.opus.pro"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/54cec29a-3262-4780-837e-f867ea4823cb\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "14460695844e93e9c719be395be4480d04785c0f955aa6f0592aa3035874199d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "opus.pro",
+                "www.opus.pro"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/92d157ab-c2ec-4b72-914d-9da33c6120f7\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "510e10955d1f1ac57859000224ac5399ebc1749a2bde462de344d3c61c6308b6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "private-banking-magazin.de",
+                "www.private-banking-magazin.de"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/d3984ebd-52e9-4dbd-a421-280ab4b1a71b\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "11c372a1c2945d65d785b4d950ecc9e6c8b032998fd8dde10b618278f2cf0612"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rcn.nl",
+                "www.rcn.nl"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/d3984ebd-52e9-4dbd-a421-280ab4b1a71b\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "14db173525c88e608af25d2501fe4c6602aee20c4c005b977cb38a721edd8e3e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rcn.nl",
+                "www.rcn.nl"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/a5e6197f-2d0c-4ea9-be01-a5018b6b94dd\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b63bccef5f6fb6d880a0ecf0fad178194d825166b3592f84a87ba6df1066e445"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/a5e6197f-2d0c-4ea9-be01-a5018b6b94dd\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9a46c011e63e89705da74caec61b093d2b8f73f75d15d4d0693d7795ee9d33fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/logconsent\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "628087de0ccc8430f3d42eaedad9bf6d2ce3636d1cb14aeb32d21ddb48249ec6",
+                "23d8964dbc318a4919899258b9d168ece7dbcebb44c4fa40bfa856b7dca20f96",
+                "4698eade082e835588a37fbeb14ccbb3295a53596441b4940b10879dda3060ac",
+                "e5f590efe90cedc4e422ad79f58685293b7bf699393ac93e9b4d11228823323f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.com",
+                "www.scribbr.de",
+                "www.scribbr.fr",
+                "www.scribbr.nl"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/a5e6197f-2d0c-4ea9-be01-a5018b6b94dd\\/state\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b97bab9bf4fca8d386ef5fc83cd58b492f2132e2d28053ade2f212a8b151b0c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scribbr.com",
+                "www.scribbr.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/746f1272-7cf9-443c-9b81-03a7b0a181b7\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef4e63244530b66c157cec2117bbe0e891e0ef3ed9d738964e3260e8f07dffdf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens-healthineers.com",
+                "www.siemens-healthineers.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/746f1272-7cf9-443c-9b81-03a7b0a181b7\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "document.fonts.check": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "83e3891769d9000385c8f6eeca6f714d9c2a74a2439847384d5ad7324790a62b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siemens-healthineers.com",
+                "www.siemens-healthineers.com"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/7f992887-203a-4988-8f2d-47093557d472\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c4912337735054ebbb0a04b7d0e2558ec0333f35c0ba6a555975df3941abedfa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twickets.live",
+                "www.twickets.live"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/7f992887-203a-4988-8f2d-47093557d472\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af01320e7b2f0780a230c9da5401c38f58e288d9629e932f7c7149ffc2c9c8ef"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "twickets.live",
+                "www.twickets.live"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/consentconfig\\/5fe4aebc-fb3d-44d3-88f5-e54176286be5\\/settings\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consentcdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e57f0bca5544c336a21437c957470936e7a4edac52219270f5e22b4206bf76c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vangoghmuseum.nl",
+                "www.vangoghmuseum.nl"
+            ]
+        },
+        {
+            "rule": "cookiebot\\.eu\\/5fe4aebc-fb3d-44d3-88f5-e54176286be5\\/cc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.devicePixelRatio": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ea634bbd5c3d65385a1ff039e685980a5468e979b62a00a969ce18c2df918d5e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vangoghmuseum.nl",
+                "www.vangoghmuseum.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00112,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5483870967741935
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.423963133640553
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.009216589861751152
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.004608294930875576
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.004608294930875576
+        },
+        {
+            "domain": "prosopo.io",
+            "prevalence": 0.004608294930875576
+        },
+        {
+            "domain": "d3dvi1l4i1go4x.cloudfront.net",
+            "prevalence": 0.004608294930875576
+        }
+    ],
+    "types": {
+        "Script": 206,
+        "Document": 149,
+        "XHR": 25
+    },
+    "nameservers": [
+        "keanu.ns.cloudflare.com",
+        "kiki.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,101 @@
+{
+    "domain": "mypostcardmania.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "platdevapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mypostcardmania\\.com\\/pcmip\\/pcmip\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "platdevapi"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTimezoneOffset": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "84c3ca31bdd098111eeb3a8fef52abbb71e82653160847c6031b7ab96831dbd2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__pcmip_uid": {
+                    "ttl": 63072002,
+                    "length": 19,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gosun.co",
+                "metalcloak.com",
+                "www.bankatpeoples.com",
+                "www.riverpoolsandspas.com"
+            ]
+        },
+        {
+            "rule": "mypostcardmania\\.com\\/user-data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platdevapi"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pcmip_uid": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "gosun.co",
+                "metalcloak.com",
+                "www.bankatpeoples.com",
+                "www.riverpoolsandspas.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Ping": 4
+    },
+    "nameservers": [
+        "ns37.domaincontrol.com",
+        "ns38.domaincontrol.com"
+    ]
+}

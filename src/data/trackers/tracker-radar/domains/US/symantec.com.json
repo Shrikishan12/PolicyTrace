@@ -1,0 +1,446 @@
+{
+    "domain": "symantec.com",
+    "owner": {
+        "name": "Broadcom Inc.",
+        "displayName": "Broadcom"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "nsg"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/AltSealInfo\\.aspx",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "80ec1044d0314f916fbb8dbb35971cb16b7cb838d114b8ae71aeb50754d7ca05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allivet.com",
+                "dungarees.com",
+                "outdoorlimited.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/gjs\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {
+                "Screen.prototype.width": 1
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "352185286e35967951743f862205ae2d5c7401253411f27bcd1348435b75990c",
+                "acd59e91b8c39134301b356cdb746b150d94238cabf085c5950d46e8b0e951ee",
+                "69b42761548894b326d359bf4925a6676dc949c7a15c4396ed45b3e8ee3112ac",
+                "5d647c91bc22ed23af8cd048dbf2f307ace181e60cc55ba53be27f608ac5cc07",
+                "b24038d87e1825dad698d49482532a1491d9626a2b0220c0583140b121f35ff7",
+                "279c8831ecd4a38a4eefc6c5ff3f21a2bd57ef9e2abd731fe64156248d8d50db",
+                "8768b24634c9bbfcdf52233d6e367b387e004ec3109ed5bb91ef349013c1765c",
+                "268ad50c81dc3fa172e30426976181818123e151a9ea26a1869e49049228483b",
+                "d9bddd6fac67a6174614cf3e2afbf875fcc8b95f055cc8a604aac87db61bc1b8",
+                "cd1f6ef5b2007108f4d9077f22f9002baa83a4d0e05e25d9760d3d2ef658494a",
+                "aaf1f84bb4fcf712ac8318c3e07fe24c53f799525abb4b0f95145ed90e707929",
+                "13660314509da503e22c1bd7ec7699b8c77e60461daf62d19a79cd9e6f124e6c",
+                "29bf603349f991cf64cd8e627b6cc0b190a06ceee1f59167435f975149b69f1f",
+                "893544f59b80e2f3904eefc2b30ce512d374ddd842420c2374d8ad4cfb954958"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crossbreedholsters.com",
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "outdoorlimited.com",
+                "www.americangolf.co.uk",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.gmpartsdirect.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/private\\/rollover\\/rollover\\.core\\.js",
+            "cookies": 0.000103,
+            "fingerprinting": 1,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 16,
+                "Navigator.prototype.userAgent": 16,
+                "Document.cookie getter": 16,
+                "Date.prototype.getTime": 15,
+                "Document.cookie setter": 15,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "eaa182ffcdee208a4a5129bd08774536a3745ffb04146936c1c0f502adf841e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "buySAFEUID": {
+                    "ttl": -86396,
+                    "length": 50,
+                    "prevalence": 0.00010274465214085606,
+                    "uniqueness": 1
+                },
+                "_guarantee_tmp": {
+                    "ttl": -86397,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_guarantee_fpc": {
+                    "ttl": 31536005,
+                    "length": 39,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "outdoorlimited.com",
+                "www.americangolf.co.uk",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.gmpartsdirect.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.tiremart.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/ii\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "69f1d34006918331a376bb918e28ccf0a6f6017543d7f44d52a179bc1f295f86",
+                "a13406b88a56eec7f68262cef60897c9712c40e0c0159c25a832f1630c4a789f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "outdoorlimited.com",
+                "www.americangolf.co.uk",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.gmpartsdirect.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.tiremart.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/AltSealInfo\\.aspx",
+            "cookies": 0.000103,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "dda0baf3142683db05987db9d4b42774dc9892811a25d28c098028f3bb23eb0c",
+                "dca46ae4b9e7f1997bf3bef59df5d82eeba68e6a4da6948963448a4771235706",
+                "1fad55113a664a3499fe8d1ae7efe63d7e7b11164b9623d23747491b31cd4caa",
+                "094e718122b8a080509401245e1942c3ea1ce65bece88eddb5cdb39f8c3a89f6",
+                "2378d57a27489365a1e4a37e68c7f5030443e0cb08cbd1e25108e3e72251bc17",
+                "fd030f24d3b4ce26c4fc0dff9d78a41e50535f5d91c1bd56efe24e99cb43bd0a",
+                "9a98c9bfa38d915933e505c67c89eac01b445e2aeb654d01690cb9518d7cce15",
+                "f0b442d02d101f769d6e64adeb4b3f1c53ec7094eacc692a9cdfe8c9556271ca",
+                "65e3042d3bd94358b0ae117a53de3f21f3d923353edb118bf1f5f9026830b2f6",
+                "8c9f1639e45d4e9f0c33d9b20fe75281520588c7d02e1b89ac021def7677480f",
+                "067d965c4efa59ff23a534ea07eb3cf37b832433d229381d9d92ec0042f708fc",
+                "365890da593f24e1339c56a8887df4b52c05588296e0ed7b34476e891650c1c5",
+                "5f0cea456e056e3b9bb2de9983882734b10560b66c9675ceb0c5927f74ad1d86",
+                "fd5ae6d5234241d5c89948c92e6ea09d8b2f444aaf7dcbf044117433ade78047"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "outdoorlimited.com",
+                "www.americangolf.co.uk",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.gmpartsdirect.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.tiremart.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/sealcore\\/api\\/si",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2abba79ce33c51f8a8ba10e966d88fb0d8eba7515e4a699b926a0038573c0b0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "www.shedsforlessdirect.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/Static\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "713128397e519dfacff6683e2e65903b90e966553df071e759491893ac2d2af2",
+                "6e98a5d1d75fb50d4fbe17d528f161d5d690ae39b3f0c346294873f6758a4090",
+                "2ce758070a9c9a60b8e37c3934b0a3fd16fcab7e360212806eb15ef00068593b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "www.americangolf.co.uk",
+                "www.bumperonly.com",
+                "www.greetingcarduniverse.com",
+                "www.shedsforlessdirect.com",
+                "www.tiremart.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/Dynamic\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "cb3e4299b9a47e3c0963ef53143ca69dc2dba8cfe9d9e56c4e91cb874416e435",
+                "e434cacd8c95872eb3ace5de4a0b241a671af2f2b20e021f75adea87524d15a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_guarantee_fpc": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "dirtybirdusa.com",
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "outdoorlimited.com",
+                "www.americangolf.co.uk",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.bumperonly.com",
+                "www.gmpartsdirect.com",
+                "www.greetingcarduniverse.com",
+                "www.powerstream.com",
+                "www.shedsforlessdirect.com",
+                "www.tiremart.com",
+                "www.vaporauthority.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/si\\.aspx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "6b391d5d7a1295d6201c6cfc0fab85721feb1427bb6b87321e726297474d40fa",
+                "83c65f5f5988cb103a8de00a01295db8e6a996f9e3a1fa3975fe0f1d77963b20",
+                "0b47ebfbefd70f533b3175d49b7b77d12d0be3b69bc5460f58484eabb874d749",
+                "d8ed92b040a8b2211009679b01d0de2e41ad8a5cc1bc127d21b0158fdf623504",
+                "c9dffa2d232e3e0bd80ea12d38e19c281b618ae9dcddc0465452964b00f9c258",
+                "fc9c900f22491fe386f0ce2fa3dfd7fe6cc701c16cd93f87a9250a7c19a5fd55",
+                "07d2c381052d174b5c320fb6d9474231808017e021b0862455e214b92225d2c1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dungarees.com",
+                "elementgames.co.uk",
+                "futoncreations.com",
+                "www.americangolf.co.uk",
+                "www.bumperonly.com",
+                "www.greetingcarduniverse.com",
+                "www.tiremart.com",
+                "www.watchmaxx.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/private\\/rollover\\/rollover\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "279c8831ecd4a38a4eefc6c5ff3f21a2bd57ef9e2abd731fe64156248d8d50db"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futoncreations.com",
+                "www.tiremart.com"
+            ]
+        },
+        {
+            "rule": "symantec\\.com\\/Web\\/Seal\\/AltSeal\\.aspx",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nsg"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "80ec1044d0314f916fbb8dbb35971cb16b7cb838d114b8ae71aeb50754d7ca05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "outdoorlimited.com",
+                "www.asseenontvlive.com",
+                "www.bondarms.com",
+                "www.gmpartsdirect.com",
+                "www.powerstream.com",
+                "www.vaporauthority.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000151,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Image": 26,
+        "Script": 91
+    },
+    "nameservers": [
+        "edns161.ultradns.biz",
+        "edns161.ultradns.com",
+        "edns161.ultradns.net",
+        "edns161.ultradns.org"
+    ]
+}

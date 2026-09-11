@@ -1,0 +1,3884 @@
+{
+    "domain": "pendo.io",
+    "owner": {
+        "name": "Pendo.io, Inc.",
+        "displayName": "Pendo.io"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0011,
+    "sites": 160,
+    "subdomains": [
+        "cdn",
+        "data",
+        "5900884519026688-content.customer",
+        "6309816517066752-content.customer",
+        "5767638279389184-content.customer",
+        "6543497268887552-content.customer",
+        "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer",
+        "content-6352988662464512.static",
+        "9mogids1cphmtnlcnqtsauloie4nc7qv-data.customer",
+        "cdn.eu",
+        "data.eu",
+        "5646969712803840-content.customer",
+        "5646969712803840-data.customer",
+        "content-5450801348804608.static",
+        "5896416007815168-data.customer"
+    ],
+    "cnames": [
+        {
+            "original": "content.analytics.myschoolbucks.com",
+            "resolved": "5646969712803840-content.customer.pendo.io"
+        },
+        {
+            "original": "content.data.mheducation.com",
+            "resolved": "5900884519026688-content.customer.pendo.io"
+        },
+        {
+            "original": "content.guides.cri.studentaid.gov",
+            "resolved": "6309816517066752-content.customer.pendo.io"
+        },
+        {
+            "original": "content.nelnet.studentaid.gov",
+            "resolved": "5767638279389184-content.customer.pendo.io"
+        },
+        {
+            "original": "content.pendo.lexisnexis.com",
+            "resolved": "6543497268887552-content.customer.pendo.io"
+        },
+        {
+            "original": "data.analytics.myschoolbucks.com",
+            "resolved": "5646969712803840-data.customer.pendo.io"
+        },
+        {
+            "original": "data.pendo.lexisnexis.com",
+            "resolved": "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer.pendo.io"
+        },
+        {
+            "original": "data.pendo.scopus.com",
+            "resolved": "5896416007815168-data.customer.pendo.io"
+        },
+        {
+            "original": "data.trk.cna.com",
+            "resolved": "9mogids1cphmtnlcnqtsauloie4nc7qv-data.customer.pendo.io"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/3ea752a9-db33-4708-6ee4-31659e519c8b\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Document.cookie getter": 3,
+                "BroadcastChannel.prototype.constructor": 3,
+                "Date.prototype.getTime": 3,
+                "window.name": 3,
+                "Navigator.prototype.languages": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.indexedDB": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ed75efd3b4f12200bc24b517b3600b5ea9bcb2cf536600705771a306f1387e10",
+                "c636cae7864af0c49d9151c55f172324c11178e5849a4d1df41bdae8bb098423"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "protectmyid.com",
+                "opm.myidcare.com",
+                "portal.experianidworks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/3ea752a9-db33-4708-6ee4-31659e519c8b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "protectmyid.com",
+                "opm.myidcare.com",
+                "portal.experianidworks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/3ea752a9-db33-4708-6ee4-31659e519c8b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "49d6802914d00d10c0d6d9debd1c6e10e9fecc67bc0505e188ce62613d8277c9",
+                "c95ffdbf9cb86776fa47dae5f7d11d9682124740be141a9fd9ffc7a14cce0394"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "protectmyid.com",
+                "opm.myidcare.com",
+                "portal.experianidworks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/3ea752a9-db33-4708-6ee4-31659e519c8b",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "protectmyid.com",
+                "opm.myidcare.com",
+                "portal.experianidworks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/18d76257-91ba-4c9e-6af4-658651768608",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "interfolio.com",
+                "account.interfolio.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "URL.createObjectURL": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bbc91b1ae8a1dbd5a46ee09f89dcc2a1ccbbb940c33e391972c5db73c3bb461d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/recordingconf\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8a3f9e185bcf77a8c27fd426576b9dc64a03990fdc5d0153c5b51de1dccad63f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5d5394ff57fa92b71c481c51ae9d06262cf5b3361e7a353009f6d952e6754bf6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/devlog\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/devlog\\/125e14c6-efdb-45a7-7cc2-3bd0112916b1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autotrader.com",
+                "www.autotrader.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/1ce0d199-3fa9-4865-5bca-6570109ec56f\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Document.cookie getter": 7,
+                "BroadcastChannel.prototype.constructor": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "113d3e0f2e6cbd731c54903200579e3624affa9dd2a1e5e7d2a8cde0e6ca3e58",
+                "6263a98a02e1e27d7e42dbfdd2d0e6851b6975ddcfbb06cc3755be4b7172d6a0",
+                "22633dee28b82dd113e2fa271e1b1fef31fe996cb9e02cff999c219a8885954e",
+                "6a6c9238f4f59740392c851e8478441f53c10ca7efc9ab952c9ae1f7602e25b0",
+                "4fd7ecc1d4b0e5818e6d9ea3f423f107189b8ffe80ca63f293ca594b28a6771d",
+                "259e54a6e39d13b74131d1e7d38722c051859f2681d478f8880f51fa5c82f691",
+                "9a6ed5f34df9ce44151d4a5ca111a3cced225247b0a61758b6bdae2bf4ce022b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ent.com",
+                "bank.ent.com",
+                "digital.redwoodcu.org",
+                "digital.wingscu.com",
+                "olb.citadelbanking.com",
+                "online.oneazcreditunion.com",
+                "safe.bcu.org",
+                "umassfive.coop"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/d605c993-ff5c-42b2-5af8-2b9abe742fd5\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Document.cookie getter": 5,
+                "BroadcastChannel.prototype.constructor": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "51a9e23155e4bca65c14e70868bc40e82b5985459b6cd7b9934e361df5008c19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amd.com",
+                "careers.alaskaair.com",
+                "careers.hrblock.com",
+                "careers.ulta.com",
+                "www.pepsicojobs.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/85872289-85e6-434e-7f1b-a803c02ed2be\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56a985051612a4841f46173699b5e59641667a0f607cdc862f87f06530b7dfca"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccls.org",
+                "www.dclibrary.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/85872289-85e6-434e-7f1b-a803c02ed2be",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccls.org",
+                "www.dclibrary.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/85872289-85e6-434e-7f1b-a803c02ed2be",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dbb5ce1c031b018c6839532fea65e02ae2abdf8088207d88dd3370c1cbbbac66"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccls.org",
+                "www.dclibrary.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/85872289-85e6-434e-7f1b-a803c02ed2be",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ccls.org",
+                "www.dclibrary.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/183ec609-d20c-40fd-6d6f-af75d69e15ca",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mindbodyonline.com",
+                "clients.mindbodyonline.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/16e9897c-dd20-429c-6ffd-2bf860bcb19e",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluebeam.com",
+                "community.bluebeam.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/d873ab3e-a950-49ee-5f35-9533248a031c\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "5900884519026688-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.data.mheducation.com",
+                    "resolved": "5900884519026688-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "c113ba45e3464df6317e738db610d9f0f78f621b2234fcd501c231657e53d29b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mheducation.com",
+                "connect.mheducation.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/f7570055-633e-4ee9-7881-784aeea304cb\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "6309816517066752-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.guides.cri.studentaid.gov",
+                    "resolved": "6309816517066752-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "25608aa6d2a524bb39cbc200a363200f853a3185569278f2d382ae7b21025bfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "studentaid.gov",
+                "cri.studentaid.gov"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/a9bd3885-93ae-46ab-700b-dd29e613c19d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/a9bd3885-93ae-46ab-700b-dd29e613c19d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5463e3e2c1866c25e7cf568a6d331aa1c52d21f1f762d9fafd346f549438989e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/a9bd3885-93ae-46ab-700b-dd29e613c19d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/296fe027-975d-4e0d-7571-c5020904bfc0\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 11,
+                "window.localStorage": 11,
+                "window.sessionStorage": 11,
+                "Document.cookie getter": 11,
+                "BroadcastChannel.prototype.constructor": 11,
+                "Date.prototype.getTime": 11,
+                "window.name": 11,
+                "Navigator.prototype.languages": 11,
+                "Date.prototype.getTimezoneOffset": 11,
+                "window.indexedDB": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "b342bda53eba7acab314cb1b36bbe95304a41ded556503754eb75e70c2f502c3",
+                "8bce610efb174288bdf06886931e2df12dc92cc07b80137d4de3bf86695a4107"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dortonline.org",
+                "harvardfcu.org",
+                "ionbank.com",
+                "lighthousecu.org",
+                "servicecu.org",
+                "www.4frontcu.com",
+                "www.calcoastcu.org",
+                "www.camdennational.bank",
+                "www.chartway.com",
+                "www.metrocu.org",
+                "www.towerfcu.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/296fe027-975d-4e0d-7571-c5020904bfc0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dortonline.org",
+                "harvardfcu.org",
+                "ionbank.com",
+                "lighthousecu.org",
+                "servicecu.org",
+                "www.4frontcu.com",
+                "www.calcoastcu.org",
+                "www.camdennational.bank",
+                "www.chartway.com",
+                "www.metrocu.org",
+                "www.towerfcu.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/296fe027-975d-4e0d-7571-c5020904bfc0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "b1248001841473d754fedd8e105010038a16f44e4bada59a366af11cb811b160",
+                "80602de1333a0921882c7b6e27bb698adf3ba9b4a3dfb0db0d97afe14dcb4ada",
+                "e83bf638dc0a3b29fffb037d96b56c5b2d0b4caf60c64d857e467ea8f0d211e7",
+                "2bb3580586c4cfb032d8883dd13ba613f8fd02dceb331858524b1ad04fd96df3",
+                "ceda328cf3001b5de8d6d1c6665a51835bb143e589ca7502f72fb619ccfd70b5",
+                "6a643ecb158eb4b6e0bb00f196a47d0bf7e05c482a9def3e1786a75cc7192ca3",
+                "fc1ac8a00533374513a396f86f82c1267a672966e8e3a67009a3b3d1e68142c8",
+                "8d5929aaf852292e646df0950d2ca199980589927d41122adc6accdff2a8d565",
+                "5ed157f1bd392e1726621c7c1f48bcf2fd730628218de5c3584458016d941af5",
+                "c997b1a2714cfb93fdc33fa5948d34358cc05709234cf0c83108a81bff788803"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dortonline.org",
+                "harvardfcu.org",
+                "ionbank.com",
+                "lighthousecu.org",
+                "servicecu.org",
+                "www.4frontcu.com",
+                "www.calcoastcu.org",
+                "www.camdennational.bank",
+                "www.chartway.com",
+                "www.metrocu.org",
+                "www.towerfcu.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/296fe027-975d-4e0d-7571-c5020904bfc0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dortonline.org",
+                "harvardfcu.org",
+                "ionbank.com",
+                "lighthousecu.org",
+                "servicecu.org",
+                "www.4frontcu.com",
+                "www.calcoastcu.org",
+                "www.camdennational.bank",
+                "www.chartway.com",
+                "www.metrocu.org",
+                "www.towerfcu.org"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/ad491d7e-ba5f-4dfe-6d42-dc52bda02451",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wexonline.com",
+                "go.wexonline.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/ad491d7e-ba5f-4dfe-6d42-dc52bda02451",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8def2f3cd8d30ef204d9f3cc32bde9a76f55e2f4f778f605ca44438d4a72f286"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wexonline.com",
+                "go.wexonline.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/ad491d7e-ba5f-4dfe-6d42-dc52bda02451",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wexonline.com",
+                "go.wexonline.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/780a75be-e49a-41b4-64ec-2ebf30a068c0\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "954d26eabaadc217846ccbf19b703c522e72ea6cc43621d9c3a11fd76e46c1e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/780a75be-e49a-41b4-64ec-2ebf30a068c0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/780a75be-e49a-41b4-64ec-2ebf30a068c0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "831c31cad7c6f1640b1de1b7c0eeeefedd6199fb4884a3c05eaa91e0bd6a7c0d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/780a75be-e49a-41b4-64ec-2ebf30a068c0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/d125b4f5-2037-4183-7314-cffe6b491093\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "126396148bb915a04684b27f134e75f753b68111dd683eaf3dc9bce60b862e31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "institutional.fidelity.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/d125b4f5-2037-4183-7314-cffe6b491093",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "institutional.fidelity.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/d125b4f5-2037-4183-7314-cffe6b491093",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "032f9df5f008fac20c324ca89c677e59c4e2aac0be0db9bf16a5b9e507271c67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "institutional.fidelity.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/d125b4f5-2037-4183-7314-cffe6b491093",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fidelity.com",
+                "institutional.fidelity.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/78322bff-a9ab-4229-9f12-c78b3512e4d4\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "URL.createObjectURL": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5d523215f5d63451d962351380bcabd5fe4dc0fda6d583264292d09cb7f5cf6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/recordingconf\\/78322bff-a9ab-4229-9f12-c78b3512e4d4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b106f336683818793225741e5988c68a4d606751c2e0a413a8e385fcbfac726d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/78322bff-a9ab-4229-9f12-c78b3512e4d4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/78322bff-a9ab-4229-9f12-c78b3512e4d4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "799a6c771e4f8c1c0fb019ead03fb4bb7a4b689050baa52b55ee839e57e895d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/78322bff-a9ab-4229-9f12-c78b3512e4d4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/78322bff-a9ab-4229-9f12-c78b3512e4d4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digicert.com",
+                "knowledge.digicert.com",
+                "www.digicert.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/d0fb86a4-67dd-4d7f-4b96-86358c9a1ce7\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "window.localStorage": 1,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "BroadcastChannel.prototype.constructor": 1,
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluesombrero.com",
+                "tshq.bluesombrero.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/d0fb86a4-67dd-4d7f-4b96-86358c9a1ce7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluesombrero.com",
+                "leagues.bluesombrero.com",
+                "tshq.bluesombrero.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/d0fb86a4-67dd-4d7f-4b96-86358c9a1ce7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3a18157f88777e0d8c0ce6b7afa5456d63c53fc352693bdecc8af334c80249d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluesombrero.com",
+                "tshq.bluesombrero.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/d0fb86a4-67dd-4d7f-4b96-86358c9a1ce7",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluesombrero.com",
+                "tshq.bluesombrero.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/d43ca4fd-c072-43c9-52d8-44971b946449\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2904367b7fa6e918051644d92afdf9b594ef12c5ec07093cc37d843e9844d3a2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "municode.com",
+                "library.municode.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/d43ca4fd-c072-43c9-52d8-44971b946449",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "municode.com",
+                "library.municode.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/d43ca4fd-c072-43c9-52d8-44971b946449",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "16a35eab4a75eee4897aa0f39ae673baa553c5cf7e22e3471f8fe8f29097c043"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "municode.com",
+                "library.municode.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/d43ca4fd-c072-43c9-52d8-44971b946449",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "municode.com",
+                "library.municode.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/cfe3c6e1-62b7-419a-7949-c0fcd2685291\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e817e116d91fb760f51d2f8c89d2097bde5e6ff96265beb7d8f905381acd3bad"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brightmls.com",
+                "www.brightmls.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/cfe3c6e1-62b7-419a-7949-c0fcd2685291",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brightmls.com",
+                "login.brightmls.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/cfe3c6e1-62b7-419a-7949-c0fcd2685291",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d191c1e4219198f44140c455a03fa4d7422d13d08eb105f914d795f37e3fea0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brightmls.com",
+                "login.brightmls.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/73a611a9-ac00-4aff-5699-0e400605bf6c\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 1,
+                "window.name": 1,
+                "Navigator.prototype.languages": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "window.indexedDB": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d33a1c8300b2959d54617ec4ae7e77ee99283ccfd2d72f3d31fdbc783255d3d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pearson.com",
+                "plus.pearson.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/73f6fa70-635e-4e4c-7920-c6fd7c0311a3\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2f861a7db0c17e10a7c658cc6d105b6d42c77d7b9bd239db080aa22890a909ac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralreach.com",
+                "members.centralreach.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/13f14692-22c6-4e0d-5891-bab36200250c\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c497119b546c214a2a19f58559ea453df583cf6da3916c335a793a72d01001a3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "michigan.gov",
+                "micourt.courts.michigan.gov"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/0b0bc73d-07f7-4cb4-693c-39672a1814b0\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6,
+                "Document.cookie getter": 6,
+                "BroadcastChannel.prototype.constructor": 6,
+                "Date.prototype.getTime": 6,
+                "window.name": 6,
+                "Navigator.prototype.languages": 6,
+                "Date.prototype.getTimezoneOffset": 6,
+                "window.indexedDB": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "ee05f20591b53d18214230cdd602f47348e55252d4b8c85ff44ac53063846885"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com",
+                "www.runlogin.adp.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/0b0bc73d-07f7-4cb4-693c-39672a1814b0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com",
+                "www.runlogin.adp.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/0b0bc73d-07f7-4cb4-693c-39672a1814b0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "be08dc6d9d59d152c31499b5135d6a7c5646d3283acabcf35dd860a117e95604",
+                "2e61b3072063ae1085a4b6350f7835d1e4a0fffb4b031b18d48dd3b06aeaf512",
+                "4dc96d4ca4a1b73ab7fb2d53c5f3ff7acef38da9c0ba66363085630a674538dc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/0b0bc73d-07f7-4cb4-693c-39672a1814b0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adp.com",
+                "my.adp.com",
+                "runpayroll.adp.com",
+                "workforcenow.adp.com",
+                "www.mykplan.adp.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/de9a9b4b-df49-41ac-9ae3-0bacfa51348c\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "63c591ef4e359c5a4999e2b679137b0e3d350a935f03d0ac5e0a31144b4aef35"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "mylogin.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/de9a9b4b-df49-41ac-9ae3-0bacfa51348c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "mylogin.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/de9a9b4b-df49-41ac-9ae3-0bacfa51348c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b9de501dc5789796b72dc489e7a60c43a69a430975374b361a0f9ecdaf9217e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "mylogin.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/de9a9b4b-df49-41ac-9ae3-0bacfa51348c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "mylogin.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/55c1039a-a1ae-4024-48eb-cc4bab498031\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "5767638279389184-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.nelnet.studentaid.gov",
+                    "resolved": "5767638279389184-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "0594890826e8051bbb103ac9dde32ba61262cda2946badd4dfe22ed4ec76d817"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "studentaid.gov",
+                "nelnet.studentaid.gov"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/120261e0-b522-400f-4eb5-7ae16459afdb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toasttab.com",
+                "payroll.toasttab.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/c74231f5-8d6f-42d8-655c-96425eedc33c\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1bd5e5d303fdbfa9ca9839941cbba17b554f8eb34c789af7f0708a7075f13f16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livelyme.com",
+                "secure.livelyme.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/8621d39c-8c6f-413e-67b0-74762f2cca48\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "df1831c16bc388e43891345318081e9cee682ee05be2b5c000770a0270644976"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paycor.com",
+                "secure.paycor.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/dae8ba14-5bd7-4172-48c5-b335868b70d3\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a280c3db478e3eab8da23b93faa7a9995597e6b5f53a4db220630d651d5dad72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elsevier.com",
+                "shop.elsevier.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/043cb8cd-e76a-4d20-6b6f-563ff9455090\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "6543497268887552-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.pendo.lexisnexis.com",
+                    "resolved": "6543497268887552-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "40249302b128082a416b9f4d97031a9448b4dc3f64bdd050921133d13fec8950"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.com",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/043cb8cd-e76a-4d20-6b6f-563ff9455090",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "data.pendo.lexisnexis.com",
+                    "resolved": "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.com",
+                "signin.lexisnexis.com",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/043cb8cd-e76a-4d20-6b6f-563ff9455090",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.pendo.lexisnexis.com",
+                    "resolved": "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "6571508feabf7dd2cf52403ab98021429ecdfc4912184607a9f0fb1f5e755d56"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.com",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/043cb8cd-e76a-4d20-6b6f-563ff9455090",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.pendo.lexisnexis.com",
+                    "resolved": "ag5o4t7l89o84qudj5u8d97khm3ds9vh-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.com",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/b4b80ddf-36df-457d-7e92-a2db5552cde2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "directsupply.com",
+                "store.directsupply.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/f8bd2822-002a-478f-66a9-0178efd7ee1f\\/pendo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "96edafbbb9a8cc2b86c51c0dcb762f9d3083f9a33e1529926a86d0e0eb6c8fdd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pendo_utm.f8bd2822-002a-478f-66a9-0178efd7ee1f": {
+                    "ttl": 8640007,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pendo_visitorId.577244625": {
+                    "ttl": 8640007,
+                    "length": 20,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pendo_meta.577244625": {
+                    "ttl": 8640007,
+                    "length": 9,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pendo_sessionId.577244625": {
+                    "ttl": 8640007,
+                    "length": 80,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pendo_guides_blocked.f8bd2822-002a-478f-66a9-0178efd7ee1f": {
+                    "ttl": 14407,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/f8bd2822-002a-478f-66a9-0178efd7ee1f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/f8bd2822-002a-478f-66a9-0178efd7ee1f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "edcdf5083eeab12c3e341ec024f374e6297c7727c12a987716353165729a9a72"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/f8bd2822-002a-478f-66a9-0178efd7ee1f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/errorlog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/errorlog",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "okta.com",
+                "support.okta.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "URL.createObjectURL": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc6aadfbe6f52de25fca93558e82f3b30fe011d3f1088fef8110048e9f9e39a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/recordingconf\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6199b6190b7420ca4108a1429c2db93212bc49141d1fcc7d281b05f7230360e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "edc83fd84a600c14f3747195079a09bf8a3917cee272df2b8775213ad9c3491f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide\\.4869493956476928\\.1780468733741\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-6352988662464512.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a924c11a3a65b6490af7baa6f59dfe82f782d1c8814a2e4c8212cfb529741e9d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide-content\\/Vumku1dd0UgWRSMTLQfKZDEeCWA\\/D4YRdbomBOyWLKwxROm-MAj53XQ\\/Jzz2JMyG5r2c6Kyx3tGBV8anlK0\\.dom\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-6352988662464512.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7aabb6764d6ff18508d6c421e8aad7a762108cd48c2c91526416fb2a1160eb9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/bce9ecb9-f206-45d2-93dd-59b30b9e7e46",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zebra.com",
+                "support.zebra.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/bb7b59f1-b542-4892-5ff0-68e91dd35e0a\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe2335bb4d309e59c49bd9ccf2a5067151d21567c0642f3950f2978f35216745"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patsnap.com",
+                "synapse.patsnap.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/bb7b59f1-b542-4892-5ff0-68e91dd35e0a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patsnap.com",
+                "synapse.patsnap.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/bb7b59f1-b542-4892-5ff0-68e91dd35e0a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f7f4138e58fd3a1e3dc34f2f2bdce58f82385c98241472237aa546b96f51f8cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patsnap.com",
+                "synapse.patsnap.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/bb7b59f1-b542-4892-5ff0-68e91dd35e0a",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patsnap.com",
+                "synapse.patsnap.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/a5236d92-14cb-40f4-9c54-cb38ac6a0483",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "viewer.autodesk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/a5236d92-14cb-40f4-9c54-cb38ac6a0483",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0637f2a30b5d178de9b077dcf86ca78904012eb1e14d456527266c7e5a010438"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "viewer.autodesk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/a5236d92-14cb-40f4-9c54-cb38ac6a0483",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "viewer.autodesk.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/03563f28-08ff-45e0-b5d7-42ee3135beec\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a2577a9c1459c6e5067e528fe300b19d825cb186aa214934343136f2633b873"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "www.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/03563f28-08ff-45e0-b5d7-42ee3135beec",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "www.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/03563f28-08ff-45e0-b5d7-42ee3135beec",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25954021b10bceb32c01104a60f66c657740c1ea73c9956d2c01791b453f780b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "www.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/03563f28-08ff-45e0-b5d7-42ee3135beec",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aflac.com",
+                "www.aflac.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/6ba27c37-adea-47b0-778e-1ab4a5f640bb\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "858cb164da55e4d62fafbc2d97cf81f4eff848c5dcfad4de8dbfca48efcc936b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avaloncommunities.com",
+                "www.avaloncommunities.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/6ba27c37-adea-47b0-778e-1ab4a5f640bb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avaloncommunities.com",
+                "www.avaloncommunities.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/6ba27c37-adea-47b0-778e-1ab4a5f640bb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1ca74e3880c662a4e462f1b2f073ae80efe36d6caf52e6574a53839d0c44bc0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avaloncommunities.com",
+                "www.avaloncommunities.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/6ba27c37-adea-47b0-778e-1ab4a5f640bb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "avaloncommunities.com",
+                "www.avaloncommunities.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/198902e9-389c-4460-7917-1b1d000f0001",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "9mogids1cphmtnlcnqtsauloie4nc7qv-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.trk.cna.com",
+                    "resolved": "9mogids1cphmtnlcnqtsauloie4nc7qv-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cna.com",
+                "www.cna.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/rec\\/e0f61078-d576-4014-af74-93173d027053",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cox.com",
+                "www.cox.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/684db7f6-eb91-45c2-7de4-8f120039bc49\\/pendo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6aff572878a3765455a2de88fcb062a07c545cadec2bf1dbe7b2cd206f562cf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pendo_utm.3058967704": {
+                    "ttl": 8640004,
+                    "length": 34,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pendo_visitorId.3058967704": {
+                    "ttl": 8640004,
+                    "length": 20,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_pendo_meta.3058967704": {
+                    "ttl": 8640004,
+                    "length": 10,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_pendo_sessionId.3058967704": {
+                    "ttl": 8640004,
+                    "length": 80,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davita.com",
+                "www.davita.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/684db7f6-eb91-45c2-7de4-8f120039bc49",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davita.com",
+                "www.davita.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/684db7f6-eb91-45c2-7de4-8f120039bc49",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5df37af4678246ac0d293b33f462ddeef3784ab39586022f24cd45795f35bc94"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davita.com",
+                "www.davita.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/684db7f6-eb91-45c2-7de4-8f120039bc49",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "davita.com",
+                "www.davita.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/8112a853-0b55-4c02-40f2-6354e8f491a4\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e24aaba91c66f3060c37aecc15fc09524db1b794c6a2fc8cb90f8bcf29d7c051"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labfinder.com",
+                "www.labfinder.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/6b19eede-3a25-4e66-595f-9a1694fbe963\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn.eu"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1cec710898d641bb4b2457ddd5b377295221c8f6210947cea53bfa9ae23d5c70"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.co.uk",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/6b19eede-3a25-4e66-595f-9a1694fbe963",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.co.uk",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/6b19eede-3a25-4e66-595f-9a1694fbe963",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "469e3d7606057e400a13bdc03e09239574d7de857d6b8a23f02788db00265809"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.co.uk",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/6b19eede-3a25-4e66-595f-9a1694fbe963",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data.eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexisnexis.co.uk",
+                "www.lexisnexis.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/6976a1fc-b13d-485f-ab7a-8115a50705da\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "02c841ea4d70de5316b0abf622e7562ee8725e8a7e87726be6f326365e74aba8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massagebook.com",
+                "www.massagebook.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/783b160d-5143-4182-71ab-35f2e03f9145",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mural.co",
+                "www.mural.co"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/783b160d-5143-4182-71ab-35f2e03f9145",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ffc00732b41dcff1b00452de18ecb7d21d85c2320e178cbce60b1a13e1e6f33f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mural.co",
+                "www.mural.co"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/9d3969cf-99b0-4ea0-6b4f-1f883918be19\\/pendo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "5646969712803840-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.analytics.myschoolbucks.com",
+                    "resolved": "5646969712803840-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "462747477f73e9ceb4681da87021f8c641e0a73b25c36f5167d6fe23484efa24"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myschoolbucks.com",
+                "www.myschoolbucks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/9d3969cf-99b0-4ea0-6b4f-1f883918be19",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5646969712803840-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.analytics.myschoolbucks.com",
+                    "resolved": "5646969712803840-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myschoolbucks.com",
+                "www.myschoolbucks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/9d3969cf-99b0-4ea0-6b4f-1f883918be19",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5646969712803840-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.analytics.myschoolbucks.com",
+                    "resolved": "5646969712803840-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "f822973ad4240cc6f546c50cba43e04a49ed62fa00950fa40502fd11e389ce72"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myschoolbucks.com",
+                "www.myschoolbucks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/9d3969cf-99b0-4ea0-6b4f-1f883918be19",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5646969712803840-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.analytics.myschoolbucks.com",
+                    "resolved": "5646969712803840-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myschoolbucks.com",
+                "www.myschoolbucks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide-content\\/yn6Uhq2vQtFMMZNVxYg7HLtRWx4\\/sokGmwe0jn59WDT3OjpO7y3zZfw\\/TJLVNCFSPERmH8Iz-MLHpsdOu3M\\.dom\\.jsonp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5646969712803840-content.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "content.analytics.myschoolbucks.com",
+                    "resolved": "5646969712803840-content.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "8f893c15d6cf78df568e9b1accef6136cb9d7363cea7012b2f8235082c934639"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myschoolbucks.com",
+                "www.myschoolbucks.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/fe022912-f3b5-4980-6566-2b1868a544c1\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2d7fffdf2a485aa41886da9b60fc1ab9297259870c91ab5cb592d9e11aaf119"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odfl.com",
+                "www.odfl.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/fe022912-f3b5-4980-6566-2b1868a544c1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odfl.com",
+                "www.odfl.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.js\\/fe022912-f3b5-4980-6566-2b1868a544c1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ca5de99ba7fb55303afcc9a50d1d9fcf765b97dc6bc2cf7ddade8f1fcd93338"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odfl.com",
+                "www.odfl.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/fe022912-f3b5-4980-6566-2b1868a544c1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "odfl.com",
+                "www.odfl.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/7aeee923-e189-4e83-b7ef-a9ab74be9742",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "106f4b0c36eeff2148da8d086afbfa5794c58c6e611df5b38848e019999ae1d4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinders.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/7aeee923-e189-4e83-b7ef-a9ab74be9742",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinders.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide-content\\/0Jtydb3qPfgB5b7e73lZNW559tg@NjnuRdPjDMKX8MAvuuxl2ToivDM\\/uz6zKUir_8qWOv0xUXSJDleuXrI\\/4cLunEOyx-3tPjRpJT1HVjJq-t4\\.dom\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-5450801348804608.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b0aef205ebd17d17f0149dd4df1eee24d2dd9ab8b4c11514527eaeacbb826952"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinders.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide-content\\/sLEViUZTcJTtZiCglLJKr8pFQ3c@NjnuRdPjDMKX8MAvuuxl2ToivDM\\/im6NgYXvBJXVaeMwZp32RWVvihE\\/z0m_nk--b3jqmBAz_uP_7TLG4Lg\\.dom\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-5450801348804608.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3b8c6f327f6d1166afd14f52891522f6458f13f0ab28290cf66b56f6c5017c65"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinders.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/guide-content\\/NjnuRdPjDMKX8MAvuuxl2ToivDM\\/Sh7Q8GinRpZKxgGR4yvWc5KC4Lk\\/QwZsbp-qnWgORFWbUMCDL9gIE9k\\.dom\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content-5450801348804608.static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f239fe4a822576df26320be6896ba740f272cfaeff3e34f334291e8c293a719"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "reinders.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/c2234f50-3231-4008-a0a1-65dd1c136d8d\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b2b5dc0656497e5f07690d51f538dcae5ba9ee2322ebe12fb21fbf0b6695a7e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanmar.com",
+                "www.sanmar.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/c2234f50-3231-4008-a0a1-65dd1c136d8d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanmar.com",
+                "www.sanmar.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/c2234f50-3231-4008-a0a1-65dd1c136d8d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2480d01b6abf5c77faf5bca09cb821ceb7c0e550eb31e10f750d6f011ff42612"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanmar.com",
+                "www.sanmar.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/c2234f50-3231-4008-a0a1-65dd1c136d8d",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sanmar.com",
+                "www.sanmar.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/7108b796-60e0-44bd-6a6b-7313c4a99c35",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "5896416007815168-data.customer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "data.pendo.scopus.com",
+                    "resolved": "5896416007815168-data.customer.pendo.io"
+                }
+            ],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scopus.com",
+                "www.scopus.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/93d4e444-d326-4113-62a9-29e1bd7beb59\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2,
+                "Date.prototype.getTime": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.indexedDB": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "183e775cc68d77f1a1312c9403609537f589154bdccd7e9103ffb01bdf2a7e28"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siteone.com",
+                "www.siteone.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/93d4e444-d326-4113-62a9-29e1bd7beb59",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siteone.com",
+                "www.siteone.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.json\\/93d4e444-d326-4113-62a9-29e1bd7beb59",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "694402f592f4bbdd8a716ee837159e8e9472c6017cba2d8474aebf83eeb86a51"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siteone.com",
+                "www.siteone.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/guide\\.gif\\/93d4e444-d326-4113-62a9-29e1bd7beb59",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siteone.com",
+                "www.siteone.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/data\\/ptm\\.gif\\/27f1cce6-d816-4f3f-68f6-edf5868b42bb",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "straighterline.com",
+                "www.straighterline.com"
+            ]
+        },
+        {
+            "rule": "pendo\\.io\\/agent\\/static\\/fd49aa28-21b8-4b0e-532e-4edbcdee5420\\/pendo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "BroadcastChannel.prototype.constructor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6dd48d30b8632fbda61f9affc62d39a07c45260c7b99030af7b04dc5b0fb486b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zipformplus.com",
+                "www.zipformplus.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5994694960212201
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.05570291777188329
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.03978779840848806
+        },
+        {
+            "domain": "poshdevelopment.com",
+            "prevalence": 0.03183023872679045
+        },
+        {
+            "domain": "segment.com",
+            "prevalence": 0.03183023872679045
+        },
+        {
+            "domain": "vega-widgets.s3.us-east-2.amazonaws.com",
+            "prevalence": 0.026525198938992044
+        },
+        {
+            "domain": "newrelic.com",
+            "prevalence": 0.026525198938992044
+        },
+        {
+            "domain": "heretto.com",
+            "prevalence": 0.023872679045092837
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.023872679045092837
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.021220159151193633
+        }
+    ],
+    "types": {
+        "Script": 131,
+        "Image": 108,
+        "Fetch": 25,
+        "XHR": 90,
+        "Preflight": 4,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com",
+        "ns-cloud-e4.googledomains.com"
+    ]
+}

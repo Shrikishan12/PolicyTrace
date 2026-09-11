@@ -1,0 +1,75 @@
+{
+    "domain": "szn.cz",
+    "owner": {
+        "name": "Seznam.cz, a.s.",
+        "displayName": "Seznam.cz"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "login"
+    ],
+    "cnames": [
+        {
+            "original": "login.kupi.cz",
+            "resolved": "login.szn.cz"
+        },
+        {
+            "original": "login.mapy.com",
+            "resolved": "login.szn.cz"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "szn\\.cz\\/api\\/v1\\/user\\/badge",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.mapy.com",
+                    "resolved": "login.szn.cz"
+                },
+                {
+                    "original": "login.kupi.cz",
+                    "resolved": "login.szn.cz"
+                }
+            ],
+            "responseHashes": [
+                "84f89bc1215060e90cdadcd07f19f0ca96d5c9f9f76dd5d7170671518c06fe71"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapy.com",
+                "www.kupi.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "seznam.cz",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ams.seznam.cz",
+        "ans.seznam.cz"
+    ]
+}

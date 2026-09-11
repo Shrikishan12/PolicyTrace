@@ -1,0 +1,195 @@
+{
+    "domain": "anypointdns.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "splunk-elb.lb",
+        "il-prod-emea-lb.lb-prod-eu-rt"
+    ],
+    "cnames": [
+        {
+            "original": "apps-api.splunk.com",
+            "resolved": "splunk-elb.lb.anypointdns.net"
+        },
+        {
+            "original": "crm-il-api-prod.bmwgroup.com",
+            "resolved": "il-prod-emea-lb.lb-prod-eu-rt.anypointdns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "anypointdns\\.net\\/wplt\\/analytics\\/v2\\/tag",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "splunk-elb.lb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps-api.splunk.com",
+                    "resolved": "splunk-elb.lb.anypointdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "anypointdns\\.net\\/wplt\\/analytics\\/v2\\/tag",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "splunk-elb.lb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps-api.splunk.com",
+                    "resolved": "splunk-elb.lb.anypointdns.net"
+                }
+            ],
+            "responseHashes": [
+                "f95d88a70c01c6d31ffc6df6fe13b8b5665fc391be04e0aa158e4001ed9d44d9",
+                "f9fc3bcc14e09fee6323c4b6f25847b13727ea93e701b59182e37ba02eee0120"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "splunk.com",
+                "docs.splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "anypointdns\\.net\\/wplt\\/analytics\\/v2\\/track",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "splunk-elb.lb"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "apps-api.splunk.com",
+                    "resolved": "splunk-elb.lb.anypointdns.net"
+                }
+            ],
+            "responseHashes": [
+                "3c4a45f6668dcf89b05378648c111980b232c4e03ec77d280753785b7d90d384",
+                "3538ebd98e45f454ace734d81a87af7a7ecd0c5d28b8c5dff3516aa31124a250"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "splunk.com",
+                "docs.splunk.com",
+                "help.splunk.com"
+            ]
+        },
+        {
+            "rule": "anypointdns\\.net\\/ckm-genai-chat-prod-api\\/api\\/v1\\/suggestions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "il-prod-emea-lb.lb-prod-eu-rt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "crm-il-api-prod.bmwgroup.com",
+                    "resolved": "il-prod-emea-lb.lb-prod-eu-rt.anypointdns.net"
+                }
+            ],
+            "responseHashes": [
+                "d10906b2dce0ef251fe315f14a79b523044af280386abfa5bf6fe384f8debe42"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmwusa.com",
+                "faq.bmwusa.com"
+            ]
+        },
+        {
+            "rule": "anypointdns\\.net\\/ckm-genai-chat-prod-api\\/api\\/v1\\/suggestions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "il-prod-emea-lb.lb-prod-eu-rt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "crm-il-api-prod.bmwgroup.com",
+                    "resolved": "il-prod-emea-lb.lb-prod-eu-rt.anypointdns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bmwusa.com",
+                "faq.bmwusa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "d7koym0rxduxm.cloudfront.net",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "d221cp5lqk6y64.cloudfront.net",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "d38eume8qu1hmc.cloudfront.net",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 5,
+        "XHR": 3
+    },
+    "nameservers": [
+        "ns-180.awsdns-22.com",
+        "ns-975.awsdns-57.net",
+        "ns-1546.awsdns-01.co.uk",
+        "ns-1343.awsdns-39.org"
+    ]
+}

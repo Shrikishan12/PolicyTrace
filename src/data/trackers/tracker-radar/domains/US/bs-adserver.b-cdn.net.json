@@ -1,0 +1,415 @@
+{
+    "domain": "bs-adserver.b-cdn.net",
+    "owner": {
+        "name": "BunnyCDN",
+        "displayName": "BunnyCDN"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "assets-v2.boisedev.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "assets-v2.invaluable.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "community.jerseyshoreonline.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "connected.county10.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "elevate.spacenews.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "sponsor-v2.lebtown.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "sponsors.asisonline.org",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "sponsors.orthoinfo.org",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "sponsors.salesforceben.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        },
+        {
+            "original": "sponsors.vvng.com",
+            "resolved": "bs-adserver.b-cdn.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [
+                {
+                    "original": "assets-v2.boisedev.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "connected.county10.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsor-v2.lebtown.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "elevate.spacenews.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsors.asisonline.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "community.jerseyshoreonline.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsors.orthoinfo.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsors.salesforceben.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsors.vvng.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "cookies.js_dtest": 0.000013699286952114143,
+                "parsely_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "boisedev.com",
+                "county10.com",
+                "lebtown.com",
+                "spacenews.com",
+                "www.asisonline.org",
+                "www.jerseyshoreonline.com",
+                "www.orthoinfo.org",
+                "www.salesforceben.com",
+                "www.vvng.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/content\\/956315",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.asisonline.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asisonline.org",
+                "www.asisonline.org"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/init-2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets-v2.invaluable.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                },
+                {
+                    "original": "sponsors.vvng.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "a41bd087566ba808d3f2dd7d4fd2602e0bc9a78b0e6def468a0ba9ccf07a9faa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "invaluable.com",
+                "www.vvng.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/content\\/883798",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "community.jerseyshoreonline.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jerseyshoreonline.com",
+                "www.jerseyshoreonline.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/zdisplay\\/151392\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "community.jerseyshoreonline.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "af848744882af450f56b163fb030641b2eacbc379c48088e9ffd43df3e71a517"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jerseyshoreonline.com",
+                "www.jerseyshoreonline.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/emit\\/9112\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.orthoinfo.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "95db4496411b96e0dffc838bb27b713dc169548cb2fdfd9afcaf962d671b7606"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthoinfo.org",
+                "www.orthoinfo.org"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/ndisplay\\/9112\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.orthoinfo.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "3962c60498bef48a55d62efd17f20784afc09f5c082429ec6d8217fb08f2ddc7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthoinfo.org",
+                "www.orthoinfo.org"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/content\\/969104",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.orthoinfo.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthoinfo.org",
+                "www.orthoinfo.org"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/zdisplay\\/160194\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.orthoinfo.org",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "9bd1307833594094a2abbdeb68b84f73782a39bb26730001bd9cab2c69b3d262"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthoinfo.org",
+                "www.orthoinfo.org"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/content\\/966274",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.salesforceben.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salesforceben.com",
+                "www.salesforceben.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/emit\\/8208\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.vvng.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [
+                "53b3ec6cb94c24762a128ab63ebffae63cb6576c55a37a8f196df0718077b3fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vvng.com",
+                "www.vvng.com"
+            ]
+        },
+        {
+            "rule": "bs-adserver\\.b-cdn\\.net\\/content\\/1000938",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sponsors.vvng.com",
+                    "resolved": "bs-adserver.b-cdn.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vvng.com",
+                "www.vvng.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "broadstreetads.com",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "XHR": 9,
+        "Fetch": 10,
+        "Script": 12
+    },
+    "nameservers": []
+}

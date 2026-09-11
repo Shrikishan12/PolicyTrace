@@ -1,0 +1,102 @@
+{
+    "domain": "thereviewsplace.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "api",
+        "widgets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "thereviewsplace\\.com\\/v1\\/widgets\\/posts\\/20969",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "853f82b2a8202fd767d69472b51456251edbe4be24643900eb7d004b228bd7db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "senior65.com",
+                "www.senior65.com"
+            ]
+        },
+        {
+            "rule": "thereviewsplace\\.com\\/2\\.0\\/rw-widget-floating\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {
+                "Screen.prototype.width": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ca0064a769f838cbbb8b81ed9c8234431d14c41966a68a81ca7139cc1ed2045d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "totalorthosportsmed.com",
+                "www.totalorthosportsmed.com"
+            ]
+        },
+        {
+            "rule": "thereviewsplace\\.com\\/v1\\/widgets\\/posts\\/17479",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af2e6833079dcfe2f58763438ec4cf48c7ef5165357c0ad51d9c67f747cba627"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "totalorthosportsmed.com",
+                "www.totalorthosportsmed.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Script": 2
+    },
+    "nameservers": [
+        "noah.ns.cloudflare.com",
+        "ali.ns.cloudflare.com"
+    ]
+}

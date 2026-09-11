@@ -1,0 +1,218 @@
+{
+    "domain": "es.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "empresas.bbva",
+        "grupoeci.elcorteingles",
+        "featureflags.mercadona",
+        "form.lidl"
+    ],
+    "cnames": [
+        {
+            "original": "cuenta.elcorteingles.es",
+            "resolved": "grupoeci.elcorteingles.es.edgekey.net"
+        },
+        {
+            "original": "empresas.bbva.es",
+            "resolved": "empresas.bbva.es.edgekey.net"
+        },
+        {
+            "original": "featureflags.mercadona.es",
+            "resolved": "featureflags.mercadona.es.edgekey.net"
+        },
+        {
+            "original": "form.lidl.es",
+            "resolved": "form.lidl.es.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "es\\.edgekey\\.net\\/tools\\/scripts\\/tools\\/login-public\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "empresas.bbva"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "empresas.bbva.es",
+                    "resolved": "empresas.bbva.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "69b4653092f07c18eecf1ca09b8d41a4d93a2efd1d800f5b6b6bff0a4f3fc430"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bbva.es",
+                "www.bbva.es"
+            ]
+        },
+        {
+            "rule": "es\\.edgekey\\.net\\/oidc\\/check-session\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "grupoeci.elcorteingles"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cuenta.elcorteingles.es",
+                    "resolved": "grupoeci.elcorteingles.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elcorteingles.es",
+                "www.elcorteingles.es"
+            ]
+        },
+        {
+            "rule": "es\\.edgekey\\.net\\/api\\/frontend\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "featureflags.mercadona"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "featureflags.mercadona.es",
+                    "resolved": "featureflags.mercadona.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercadona.es",
+                "tienda.mercadona.es"
+            ]
+        },
+        {
+            "rule": "es\\.edgekey\\.net\\/api\\/frontend\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "featureflags.mercadona"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "featureflags.mercadona.es",
+                    "resolved": "featureflags.mercadona.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mercadona.es",
+                "tienda.mercadona.es"
+            ]
+        },
+        {
+            "rule": "es\\.edgekey\\.net\\/form\\/includes\\/ressource",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form.lidl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "form.lidl.es",
+                    "resolved": "form.lidl.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "195cb0ab5b897fad250988ac917371c9d37a130bc786cb38e0716f3bdabb3e0d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lidl.es",
+                "www.lidl.es"
+            ]
+        },
+        {
+            "rule": "es\\.edgekey\\.net\\/form\\/includes\\/ressource",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "form.lidl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "form.lidl.es",
+                    "resolved": "form.lidl.es.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cfcb6ab8b46e4fba1e274481fb9e713b2d86958ed8cf58e516c8c2dd76aa6965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lidl.es",
+                "www.lidl.es"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2,
+        "Fetch": 2,
+        "Preflight": 2,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

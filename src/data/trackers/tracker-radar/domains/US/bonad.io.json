@@ -1,0 +1,167 @@
+{
+    "domain": "bonad.io",
+    "owner": {
+        "name": "AB Dagens Nyheter",
+        "displayName": "Dagens Nyheter"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "assets",
+        "bam"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bonad\\.io\\/bundles\\/bad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 12
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "8bc411be8da282f2a6bacf6db2bf4e0d57fd1878264a142794b1b0c09d1dcb8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "borsen.dk",
+                "gds.se",
+                "gjoerdetselv.com",
+                "goerdetselv.dk",
+                "idenyt.dk",
+                "iform.dk",
+                "iform.se",
+                "kuntoplus.fi",
+                "teeitse.com",
+                "www.netdoktor.se",
+                "www.st.nu",
+                "www.sydsvenskan.se"
+            ]
+        },
+        {
+            "rule": "bonad\\.io\\/test-vpn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "borsen.dk",
+                "gds.se",
+                "gjoerdetselv.com",
+                "goerdetselv.dk",
+                "idenyt.dk",
+                "iform.dk",
+                "iform.se",
+                "kuntoplus.fi",
+                "teeitse.com",
+                "www.netdoktor.se",
+                "www.st.nu",
+                "www.sydsvenskan.se"
+            ]
+        },
+        {
+            "rule": "bonad\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bam"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "3646514944fc89b7da13d4af01b8da9fbcf1555c0c349d91292328202d1bfb6f",
+                "40b3fa159d6a05ee61fd3ac41580074f2526cb88806fc41d39002ab4c85ad008",
+                "08d1eb68ac9b0b160b5bc87cb8be7f4f923ddd7246b5d94fa49a2013cf2eeca0",
+                "9656726fcbc564cdf49fc12559684872cfdbaa0d1537745dc8bf56d319dd34e3",
+                "33677d82316347b2783a34f4e99d17bdc0c61bf9c8bd4acff3d33d9757b14b27",
+                "6f9a7d7e4c4e70d575c56abe15d08fe35d371ab0be99002ae86d788d749e51b3",
+                "f18cfb65b15519cce663a499d6dd805cd2941407d341468af77460386b1d3ecc",
+                "9ad7b75a4635988ab45a085264d256cdb01e4013cc81d565a660312d9701f109",
+                "ec9b4b37d4de288a613325d51f094b0fda5494ba4a6e8e9e26885d81fdf2a1e8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "borsen.dk",
+                "gds.se",
+                "gjoerdetselv.com",
+                "goerdetselv.dk",
+                "idenyt.dk",
+                "iform.dk",
+                "iform.se",
+                "kuntoplus.fi",
+                "teeitse.com",
+                "www.netdoktor.se"
+            ]
+        },
+        {
+            "rule": "bonad\\.io\\/bundles\\/bad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bc411be8da282f2a6bacf6db2bf4e0d57fd1878264a142794b1b0c09d1dcb8d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "st.nu",
+                "www.sydsvenskan.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 24
+    },
+    "nameservers": [
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d3.googledomains.com"
+    ]
+}

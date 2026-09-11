@@ -1,0 +1,375 @@
+{
+    "domain": "woosmap.com",
+    "owner": {
+        "name": "Web Geo Services",
+        "displayName": "Web Geo Services"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "api",
+        "sdk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "woosmap\\.com\\/geolocation\\/position\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "153c3a130f905132f15d22f140b3901ee0aceaec2b079a7880bb11daa6f31b79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "diy.com",
+                "www.castorama.pl",
+                "www.diy.ie",
+                "www.diy.com",
+                "www.trade-point.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/localities\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ad8110dfb7c6a7e2f7e62f95b1135985350f23d2ce57be3e5a816bca62b1b4f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toolstation.com",
+                "www.carrefour.it",
+                "www.toolstation.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/geolocation\\/position\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e41c10b23df07eb8bdc3888c95509fca1c447d3aca5059b4ab88a4445363b3f5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/geolocation\\/position\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boulanger.com",
+                "www.boulanger.com"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/localities\\/localitieswidget\\.2\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f8248d669c1a2dcd9f9f33630c4d09196161c4d0e9904703a92bf224ade76ce5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cosentino.com",
+                "www.cosentino.com",
+                "www.intimissimi.com",
+                "www.tezenis.com",
+                "www.theworks.co.uk"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/searchwidget\\/woosmapsearchwidget\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3bb9ef14d3ab54043f4ee65bb0f291496ec5a9b7d80085623e7d72317d806b29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electrodepot.fr",
+                "www.electrodepot.fr"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/stores\\/search\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51d230acec762761a47dbb3f778088e416b668c86e8282bfeecb3119beac242d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "location.leclerc",
+                "www.location.leclerc"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/map\\/map\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "URL.createObjectURL": 4,
+                "Navigator.prototype.languages": 2,
+                "window.devicePixelRatio": 2,
+                "WebGLRenderingContext.prototype.getExtension": 2,
+                "WebGLRenderingContext.prototype.getParameter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "079ef7c50257e7293992294b791f7a6c9c44c2873c62c1363d9b1d675b65bfab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.nice.aeroport.fr",
+                "www.theworks.co.uk",
+                "www.toolstation.nl"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/stores\\/883",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ddf59dedd9b043dfb130ae2b9719fbf083abd76e5bfa99cddc6f1649d87663c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.monoprix.fr"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/maps\\/style\\/streets\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c830f8d14d95da5c7b4c779b10d01b90dfd84cc111ef22c9cacb48572eefdc5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.toolstation.nl"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/maps\\/tiles\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "073d78fe6222483cf853048613b6bca6d49100b1d30667c8997a5c9694f0199d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.toolstation.nl"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/maps\\/assets\\/styles\\/streets-v4\\/sprites\\/sprite\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a172a6aeb3698762f76a06498163de47a86f6874cf34479fa8d077f80d63a5dd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.toolstation.nl"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/maps\\/assets\\/styles\\/streets-v4\\/sprites\\/sprite\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b260d1d60ab261f755a11e4d2ce61d82c994f55c5de74dbc350cc2acce057a3e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.toolstation.nl"
+            ]
+        },
+        {
+            "rule": "woosmap\\.com\\/maps\\/assets\\/Noto%20Sans%20Regular\\/0-255\\.pbf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ddb17baf834f364d1eb3541ea0e125755cdc74700c305258a10e15e58acfc0bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "monoprix.fr",
+                "www.toolstation.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8554216867469879
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.14457831325301204
+        }
+    ],
+    "types": {
+        "Fetch": 13,
+        "Script": 14,
+        "XHR": 8,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "chad.ns.cloudflare.com",
+        "jasmine.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "domain": "miqcommerce.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "ws",
+        "cbdp"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "miqcommerce\\.com\\/getcode\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ws"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d047360b479c6beac26f38e244c8236731a95692615c89cef87be7f4dc5eb195"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guideposts.org",
+                "www.pcrichard.com"
+            ]
+        },
+        {
+            "rule": "miqcommerce\\.com\\/wsrule",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cbdp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7a818bf0e56c904f90a2b1a0d4ef9b8df28ee1a821f8dac26983d7efe42c184"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcrichard.com",
+                "www.pcrichard.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-259.awsdns-32.com",
+        "ns-1762.awsdns-28.co.uk",
+        "ns-920.awsdns-51.net",
+        "ns-1138.awsdns-14.org"
+    ]
+}

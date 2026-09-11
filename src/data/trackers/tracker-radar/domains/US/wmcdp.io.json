@@ -1,0 +1,135 @@
+{
+    "domain": "wmcdp.io",
+    "owner": {
+        "name": "Warner Bros. Discovery, Inc.",
+        "displayName": "Warner Bros. Discovery"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "receive",
+        "token"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "wmcdp\\.io\\/v1\\/reg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receive"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dc.com",
+                "shop.dc.com",
+                "www.discoveryplus.com",
+                "www.foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        },
+        {
+            "rule": "wmcdp\\.io\\/v1\\/reg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "receive"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dc.com",
+                "shop.dc.com",
+                "www.discoveryplus.com",
+                "www.foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        },
+        {
+            "rule": "wmcdp\\.io\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "token"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ffecce6f150466db31f369a18815f03ed077af09496c036d5e7cf2fa9f17387d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.com",
+                "www.foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        },
+        {
+            "rule": "wmcdp\\.io\\/v1\\/token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "token"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foodnetwork.com",
+                "www.foodnetwork.com",
+                "www.hgtv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8181818181818182
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Preflight": 8,
+        "XHR": 8
+    },
+    "nameservers": [
+        "ns-1305.awsdns-35.org",
+        "ns-505.awsdns-63.com",
+        "ns-935.awsdns-52.net",
+        "ns-1682.awsdns-18.co.uk"
+    ]
+}

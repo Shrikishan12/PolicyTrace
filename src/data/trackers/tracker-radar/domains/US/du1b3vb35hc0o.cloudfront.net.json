@@ -1,0 +1,95 @@
+{
+    "domain": "du1b3vb35hc0o.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "account.booking.com",
+            "resolved": "du1b3vb35hc0o.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "du1b3vb35hc0o\\.cloudfront\\.net\\/privacy-consents\\/implicit",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "account.booking.com",
+                    "resolved": "du1b3vb35hc0o.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "b9cf3d59e7c6b6b18b5f36dd351383faa2c262037fb14a4644bd3e14cea2ab0b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booking.com",
+                "partner.booking.com",
+                "www.booking.com"
+            ]
+        },
+        {
+            "rule": "du1b3vb35hc0o\\.cloudfront\\.net\\/privacy-consents\\/implicit",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "account.booking.com",
+                    "resolved": "du1b3vb35hc0o.cloudfront.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "booking.com",
+                "partner.booking.com",
+                "www.booking.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "bstatic.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-1445.awsdns-52.org",
+        "ns-1582.awsdns-05.co.uk",
+        "ns-254.awsdns-31.com",
+        "ns-946.awsdns-54.net"
+    ]
+}

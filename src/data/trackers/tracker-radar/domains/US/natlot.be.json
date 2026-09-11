@@ -1,0 +1,101 @@
+{
+    "domain": "natlot.be",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "apim.prd"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "natlot\\.be\\/gameadmin\\/api\\/brands\\/17\\/partners\\/1\\/searchAll\\/games",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apim.prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd03f7f8ed3eb7f01a5f7533b597586b5a79e4df1087cf1bf4fc03f28b411bc1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loterie-nationale.be",
+                "www.nationale-loterij.be"
+            ]
+        },
+        {
+            "rule": "natlot\\.be\\/api\\/v4\\/draw-games\\/draws",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apim.prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d916c3bb591d44a51d2867a07984e944213d6581da86e64608e9e697827444a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loterie-nationale.be",
+                "www.nationale-loterij.be"
+            ]
+        },
+        {
+            "rule": "natlot\\.be\\/lonalo\\.enco\\.io\\/lonalo\\/historicaldraws\\/1\\.1\\.0\\/latest\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apim.prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "67c421b22beeded1c4ff5e749d86ae2d516c401cbc456be6bada2a76e996e7e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationale-loterij.be",
+                "www.nationale-loterij.be"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1-36.azure-dns.com",
+        "ns2-36.azure-dns.net",
+        "ns3-36.azure-dns.org",
+        "ns4-36.azure-dns.info"
+    ]
+}

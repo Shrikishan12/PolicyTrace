@@ -1,0 +1,81 @@
+{
+    "domain": "sinfulservice.dk",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "prod-router"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sinfulservice\\.dk\\/api\\/v1\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-router"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinful.dk",
+                "www.sinful.se",
+                "www.sinful.fi",
+                "www.sinful.co.uk"
+            ]
+        },
+        {
+            "rule": "sinfulservice\\.dk\\/api\\/v1\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-router"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c3daf7e65a6f67cc2d804d6863e3bbc377601ccebdaba6a142860b4fc12b069d",
+                "fdb6dc7feb3166d3a0cc7477b045147ac44cd2466fe0a7d74b5600bd3f6fa9c6",
+                "95c7a2143c8fbbbe7579f014d262f88a2e715c64f505b3f5c63c9d6fc55f9963"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sinful.dk",
+                "www.sinful.se",
+                "www.sinful.fi",
+                "www.sinful.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.wannafind.dk",
+        "ns2.wannafind.dk"
+    ]
+}

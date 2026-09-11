@@ -1,0 +1,82 @@
+{
+    "domain": "eventim.com",
+    "owner": {
+        "name": "CTS Eventim AG & Co. KGaA",
+        "displayName": "CTS Eventim"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "public-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "eventim\\.com\\/websearch\\/search\\/api\\/exploration\\/v2\\/productGroups",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lippu.fi",
+                "www.lippu.fi"
+            ]
+        },
+        {
+            "rule": "eventim\\.com\\/websearch\\/search\\/api\\/exploration\\/v2\\/productGroups",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "public-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8368c15265dc2b2c60b2e355b87cb01d851109365206c7b3eff97b41321184c6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lippu.fi",
+                "www.lippu.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a6-65.akam.net",
+        "a10-65.akam.net",
+        "a1-222.akam.net",
+        "a13-67.akam.net",
+        "a12-66.akam.net",
+        "a3-64.akam.net"
+    ]
+}

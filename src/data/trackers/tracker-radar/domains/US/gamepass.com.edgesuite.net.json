@@ -1,0 +1,146 @@
+{
+    "domain": "gamepass.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "catalog"
+    ],
+    "cnames": [
+        {
+            "original": "catalog.gamepass.com",
+            "resolved": "catalog.gamepass.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "gamepass\\.com\\.edgesuite\\.net\\/sigls\\/v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "catalog.gamepass.com",
+                    "resolved": "catalog.gamepass.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xbox.com",
+                "www.xbox.com"
+            ]
+        },
+        {
+            "rule": "gamepass\\.com\\.edgesuite\\.net\\/sigls\\/v3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "catalog.gamepass.com",
+                    "resolved": "catalog.gamepass.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "cdad37587676d62cc78a62f5c41a1f7a59e373db423ae05880a514c2781ee863"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xbox.com",
+                "www.xbox.com"
+            ]
+        },
+        {
+            "rule": "gamepass\\.com\\.edgesuite\\.net\\/v3\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "catalog.gamepass.com",
+                    "resolved": "catalog.gamepass.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e48d9a210b88509995743830c7c96826f8a402afc3b2aab7d558da2d139bb8a5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xbox.com",
+                "www.xbox.com"
+            ]
+        },
+        {
+            "rule": "gamepass\\.com\\.edgesuite\\.net\\/v3\\/products",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "catalog"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "catalog.gamepass.com",
+                    "resolved": "catalog.gamepass.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xbox.com",
+                "www.xbox.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

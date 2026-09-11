@@ -1,0 +1,92 @@
+{
+    "domain": "fanid.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "tamu",
+        "byu",
+        "sdsu",
+        "mutigers"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fanid\\.co\\/api\\/subscriber\\/organization",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tamu",
+                "byu",
+                "sdsu",
+                "mutigers"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "12thman.com",
+                "byucougars.com",
+                "goaztecs.com",
+                "mutigers.com"
+            ]
+        },
+        {
+            "rule": "fanid\\.co\\/api\\/subscriber\\/organization",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tamu",
+                "byu",
+                "sdsu",
+                "mutigers"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "5455296e0477a414a8801a09854c4acdd8fb37e39f70b0f053f2c3466977b78c",
+                "b2c7950973b9e0ea3d3c1fb82fcc0aecbd1402d8feaa4674f094c26375ba4705",
+                "83e1ad81174038c4d8247ecd3307c05d56c516406e5946acca3642d310516851"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "12thman.com",
+                "byucougars.com",
+                "goaztecs.com",
+                "mutigers.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-cloud-d2.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d4.googledomains.com"
+    ]
+}

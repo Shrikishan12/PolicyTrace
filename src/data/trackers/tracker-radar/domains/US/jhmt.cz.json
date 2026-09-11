@@ -1,0 +1,155 @@
+{
+    "domain": "jhmt.cz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "cm1",
+        "cm3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jhmt\\.cz\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cm1",
+                "cm3"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3e8da7377a08bdf493227e0afb326239ef048717ea82bf0732c644d31d92ef57"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "jhmt\\.cz\\/config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ce148a49cd300a0f8fc0685a563f655e3aeac44081e76057d29b0e1f98c160c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "jhmt\\.cz\\/apicheck\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c308d9d194d0cba3500ee298657c652dbf55661c9871b0d3066ae9021ed369ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        },
+        {
+            "rule": "jhmt\\.cz\\/i\\/v1=\\/v2=\\/v4=API\\/v9=0\\/v12=JHMTIMG\\/v98=26\\.166\\.093351\\/v99=1787606846326\\/e=load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "cnn.iprima.cz"
+            ]
+        },
+        {
+            "rule": "jhmt\\.cz\\/i\\/v1=\\/v2=\\/v4=API\\/v9=0\\/v12=JHMTIMG\\/v98=26\\.166\\.093351\\/v99=1787605802361\\/e=load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cm1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iprima.cz",
+                "fresh.iprima.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Image": 4
+    },
+    "nameservers": [
+        "edns64.ultradns.biz",
+        "edns64.ultradns.com",
+        "edns64.ultradns.net",
+        "edns64.ultradns.org"
+    ]
+}

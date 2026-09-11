@@ -1,0 +1,254 @@
+{
+    "domain": "burdamedia.pl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "burdaffi",
+        "edicloud",
+        "collector-ext",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "burdamedia\\.pl\\/script\\/init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "burdaffi"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b1677d83775070a41c50039f7350f2469dc90b225e9bbd0d025d93f014be0adb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polki.pl",
+                "mamotoja.pl",
+                "viva.pl",
+                "www.mojegotowanie.pl",
+                "www.national-geographic.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/videos\\/get-related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "edicloud"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "0c49d87e9c25cac307c54649ed060317e52a42e1fb968d751cce61b251ea9ca6",
+                "5de86ef199953bd3927969d875f616f2685e30c1aff2c3ce3c0d1a5ed00179e8",
+                "59de46e20e85fe58fa3b9c4287d44edf5cb01cd85f6dd7ad0439e76710b2696f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "polki.pl",
+                "mamotoja.pl",
+                "viva.pl",
+                "www.national-geographic.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/build\\/placement\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "burdaffi"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e7b043b28b208dfc08d382ad64aab52ed07493aa5df1a168c049841ce74a1e73"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polki.pl",
+                "mamotoja.pl",
+                "viva.pl",
+                "www.mojegotowanie.pl",
+                "www.national-geographic.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/build\\/placement\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "burdaffi"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "window.localStorage": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "f0df7f27114d1e678ddbe8568c1e551ba5123b7c2af65e282ba771773352deb2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polki.pl",
+                "mamotoja.pl",
+                "viva.pl",
+                "www.mojegotowanie.pl",
+                "www.national-geographic.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/location\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "burdaffi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "polki.pl",
+                "viva.pl",
+                "www.national-geographic.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/location\\/data",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "burdaffi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cef932a437b89265b31040de5a0b3cd855b0668b8ebb1d80770cc87740d71e2f",
+                "c6c7563f722d4a7e1b2274aca02de08910f4534d8c4502be5b7580fe676477b3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "polki.pl",
+                "viva.pl",
+                "www.national-geographic.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "collector-ext"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "polki.pl",
+                "inspiracje.polki.pl",
+                "mamotoja.pl",
+                "viva.pl",
+                "www.mojegotowanie.pl",
+                "www.national-geographic.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "burdamedia\\.pl\\/burdaffi\\/notice\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "14067fb2ced1294a23cb82058cf01d548b0c8ed3d0ce2d39a053ce091ca5bcf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mamotoja.pl",
+                "www.national-geographic.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9111111111111111
+        },
+        {
+            "domain": "12341234.pl",
+            "prevalence": 0.08888888888888889
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "XHR": 7,
+        "Stylesheet": 6,
+        "Preflight": 3,
+        "Image": 7
+    },
+    "nameservers": [
+        "ns2.burdanet.pl",
+        "ns1.burdanet.pl"
+    ]
+}

@@ -1,0 +1,109 @@
+{
+    "domain": "prod-01-ftc.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "booking.voordeeluitjes.nl",
+            "resolved": "prod-01-ftc.edgekey.net"
+        },
+        {
+            "original": "vucontent.voordeeluitjes.nl",
+            "resolved": "prod-01-ftc.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "prod-01-ftc\\.edgekey\\.net\\/v1\\/home\\/GetCampaignBanner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "vucontent.voordeeluitjes.nl",
+                    "resolved": "prod-01-ftc.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cf5d360335df5c696cd42786acd0fd650187f98f365b9c1f0135b58900eeb03d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voordeeluitjes.nl",
+                "www.voordeeluitjes.nl"
+            ]
+        },
+        {
+            "rule": "prod-01-ftc\\.edgekey\\.net\\/v1\\/GetCheapestTotalPrice",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "booking.voordeeluitjes.nl",
+                    "resolved": "prod-01-ftc.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voordeeluitjes.nl",
+                "www.voordeeluitjes.nl"
+            ]
+        },
+        {
+            "rule": "prod-01-ftc\\.edgekey\\.net\\/v1\\/GetCheapestTotalPrice",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "booking.voordeeluitjes.nl",
+                    "resolved": "prod-01-ftc.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "822439edcd77e47c2eb7a30dcd8db442f6ad9eab2af830b641fac118a2d3b09b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "voordeeluitjes.nl",
+                "www.voordeeluitjes.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

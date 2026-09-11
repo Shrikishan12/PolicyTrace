@@ -1,0 +1,80 @@
+{
+    "domain": "hclsoftware.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "unidiscover-packet-fwdr.prd.micr.now"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hclsoftware\\.cloud\\/DiscoverUIPost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unidiscover-packet-fwdr.prd.micr.now"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crucial.com",
+                "www.crucial.com",
+                "www.micron.com"
+            ]
+        },
+        {
+            "rule": "hclsoftware\\.cloud\\/DiscoverUIPost",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unidiscover-packet-fwdr.prd.micr.now"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "35048a988ebea6acd43108c40897238dae270ba004c3f84f26cc0b17d9b70681",
+                "7a2011a73898189137ee9289bfe68e9799935afc78aa88f7bf266ec5e7c5c6ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crucial.com",
+                "www.crucial.com",
+                "www.micron.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-cloud-d1.googledomains.com",
+        "ns-cloud-d4.googledomains.com",
+        "ns-cloud-d3.googledomains.com",
+        "ns-cloud-d2.googledomains.com"
+    ]
+}

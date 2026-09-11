@@ -1,0 +1,157 @@
+{
+    "domain": "naukri.com",
+    "owner": {
+        "name": "Info Edge (India) Ltd",
+        "displayName": "Info Edge (India)"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "logs",
+        "www"
+    ],
+    "cnames": [
+        {
+            "original": "logs.ambitionbox.com",
+            "resolved": "logs.naukri.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "naukri\\.com\\/collectorapi\\/v1\\/uba",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "logs.ambitionbox.com",
+                    "resolved": "logs.naukri.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        },
+        {
+            "rule": "naukri\\.com\\/mnjuser\\/one-tap",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3019b274d3a8e0eeb421a62c3a60966c0e13a8b0c3a2de872cc408e5e5f95630"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        },
+        {
+            "rule": "naukri\\.com\\/collectorapi\\/v1\\/uba",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "logs.ambitionbox.com",
+                    "resolved": "logs.naukri.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        },
+        {
+            "rule": "naukri\\.com\\/uba",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "logs.ambitionbox.com",
+                    "resolved": "logs.naukri.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ambitionbox.com",
+                "www.ambitionbox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "naukimg.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "google.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Ping": 2,
+        "Document": 2,
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "a1-14.akam.net",
+        "a13-66.akam.net",
+        "a12-65.akam.net",
+        "a3-65.akam.net",
+        "a24-64.akam.net",
+        "a16-67.akam.net"
+    ]
+}

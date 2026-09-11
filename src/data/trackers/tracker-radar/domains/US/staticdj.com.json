@@ -1,0 +1,129 @@
+{
+    "domain": "staticdj.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "staticdj\\.com\\/cuttlefish\\/v1\\/spz\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.devicePixelRatio": 2,
+                "Navigator.prototype.onLine": 2,
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f48281992650e99d84c9c2c587029aec28fdf2dd807bbcb264bffc2b79b47451"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olderin.com",
+                "www.olderin.com"
+            ]
+        },
+        {
+            "rule": "staticdj\\.com\\/cuttlefish\\/v1-prd\\/v26\\.3\\.45\\/spz-lightbox-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olderin.com",
+                "www.olderin.com"
+            ]
+        },
+        {
+            "rule": "staticdj\\.com\\/cuttlefish\\/v1-prd\\/v26\\.3\\.45\\/spz-render-0\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aafddef1e7c02374d94e8d872675e885250b49efbe67ca06a358ec7e072bf734"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olderin.com",
+                "www.olderin.com"
+            ]
+        },
+        {
+            "rule": "staticdj\\.com\\/cuttlefish\\/worker\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2ba79bae9e1a175ff1c58ccdc419145d7f454b4499a7845be1f5ee85dc171d8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olderin.com",
+                "www.olderin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Other": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "greg.ns.cloudflare.com",
+        "tegan.ns.cloudflare.com"
+    ]
+}

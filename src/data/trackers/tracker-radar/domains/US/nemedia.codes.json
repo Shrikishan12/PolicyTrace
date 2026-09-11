@@ -1,0 +1,101 @@
+{
+    "domain": "nemedia.codes",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "ep",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nemedia\\.codes\\/rutube-vpaid-ep\\/xml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ep"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99f8a79acb7df06f8844016b43e2a4d40565669127295c758a9e4e123385456b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brobank.ru",
+                "geexy.net"
+            ]
+        },
+        {
+            "rule": "nemedia\\.codes\\/js\\/libs\\/embed-vpaid-6630\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eb06a34573101331fad7ad7672357d99e22316c264e77e809835518d7bfe800a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brobank.ru",
+                "geexy.net"
+            ]
+        },
+        {
+            "rule": "nemedia\\.codes\\/static\\/images\\/rutube_banner\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3362bd5d9b9522cc92f03b65db80c94c3a6083727b05a5eb9142750bd2d8eb79"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brobank.ru",
+                "geexy.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "viadata.store",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.reg.ru",
+        "ns1.reg.ru"
+    ]
+}

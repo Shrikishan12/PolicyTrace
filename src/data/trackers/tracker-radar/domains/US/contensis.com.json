@@ -1,0 +1,78 @@
+{
+    "domain": "contensis.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cms-hcc.cloud",
+        "api-lse.cloud"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "contensis\\.com\\/api\\/delivery\\/projects\\/website\\/entries\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cms-hcc.cloud",
+                "api-lse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertfordshire.gov.uk",
+                "www.lse.ac.uk"
+            ]
+        },
+        {
+            "rule": "contensis\\.com\\/api\\/delivery\\/projects\\/website\\/entries\\/search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-lse.cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "116e2e17dc2b754ee3ad3d2327cf29c20d98ac0a59a665d364260ae175269f4c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lse.ac.uk",
+                "www.lse.ac.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns0.zengenti.com",
+        "ns1.zengenti.com",
+        "ns2.zengenti.com"
+    ]
+}

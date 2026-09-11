@@ -1,0 +1,80 @@
+{
+    "domain": "dhl.com",
+    "owner": {
+        "name": "Deutsche Post AG",
+        "displayName": "Deutsche Post"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "vawidget",
+        "locator"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "dhl\\.com\\/geolocation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vawidget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cb2277106816e1d0d9921e64e53b9c4802a5348e7a66a19878263d03ae1014f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.dhl",
+                "www.dhlexpress.nl"
+            ]
+        },
+        {
+            "rule": "dhl\\.com\\/ServicePointLocator\\/restV3\\/translations",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "locator"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8df6fe5fc43fa5e942a32043831af0aefa64eb9aaa053f4e7611567c093a5d5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.dhl",
+                "mydhl.express.dhl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns1.f5clouddns.com",
+        "ns2.f5clouddns.com"
+    ]
+}

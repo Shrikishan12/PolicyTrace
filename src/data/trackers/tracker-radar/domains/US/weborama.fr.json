@@ -1,0 +1,472 @@
+{
+    "domain": "weborama.fr",
+    "owner": {
+        "name": "Weborama",
+        "displayName": "Weborama",
+        "privacyPolicy": "https://weborama.com/en/privacy_en/",
+        "url": "http://weborama.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00135,
+    "sites": 197,
+    "subdomains": [
+        "wf-ru.frontend",
+        "wf.frontend",
+        "redirect.frontend",
+        "rd.frontend",
+        "cr.frontend",
+        "amc.solution",
+        "wcm-ru.frontend",
+        "cstatic",
+        "ds.frontend",
+        "idsync.frontend"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "weborama\\.fr\\/stream\\/",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wf-ru.frontend",
+                "wf.frontend"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gnezdo_uid": 0.000013699286952114143,
+                "AFFICHE_C": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "2ch.org",
+                "vm.ru",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/redirect\\/standard",
+            "cookies": 0.000904,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 132,
+            "prevalence": 0.000904,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.moneyvox.fr",
+                "www.zimo.fr",
+                "www.lalanguefrancaise.com",
+                "local.us-info.com",
+                "www.expat.com",
+                "www.funinformatique.com",
+                "neurologymobile.com",
+                "www.alentoor.fr",
+                "www.tourisme-creuse.com",
+                "ontheflix.com",
+                "www.lepetitmoutard.fr",
+                "www.techtimes.com",
+                "www.itechpost.com",
+                "www.kalenderkostenlos.de",
+                "local.infobel.ie",
+                "dicodusport.fr",
+                "consulatesoftheworld.us",
+                "morbihan.com",
+                "mixedwrestling.forumeiros.com",
+                "www.cakecentral.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/rd",
+            "cookies": 0.000178,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect.frontend",
+                "rd.frontend"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "horoscopes.rambler.ru",
+                "www.invitro.ru",
+                "www.avito.ru",
+                "brobank.ru",
+                "www.championat.com",
+                "www.amazon.co.za",
+                "lenta.ru",
+                "motokvadro.vercel.app",
+                "www.amazon.ae",
+                "www.amazon.eg",
+                "woman.rambler.ru",
+                "www.afisha.ru",
+                "www.kaspersky.ru",
+                "www.amazon.in",
+                "spravke.livejournal.com",
+                "bl-antidot.livejournal.com",
+                "obozone.vercel.app",
+                "ohnotheydidnt.livejournal.com",
+                "finance.rambler.ru",
+                "m.lenta.ru"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/cr",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cr.frontend"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brobank.ru",
+                "motokvadro.vercel.app",
+                "obozone.vercel.app",
+                "www.avito.ru",
+                "www.deia.eus",
+                "www.noticiasdealava.eus",
+                "www.noticiasdenavarra.com",
+                "www.noticiasdegipuzkoa.eus"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/fcgi-bin\\/dispatch\\.fcgi",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "amc.solution",
+                "wcm-ru.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalcocina.es",
+                "hh.ru"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/js\\/advertiserv2\\/adperf_conversion\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 1,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d5d34b40e7795d32528d82c552ab5e152c28f9ac95cf47942c375736f7bfdf2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canalcocina.es",
+                "darty.pt"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/stream\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wf.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "darty.pt",
+                "www.radiopopular.pt"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/rd",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "redirect.frontend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "halvacard.ru",
+                "media.halvacard.ru"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/js\\/wam\\/customers\\/wamfactory_dpm\\.wildcard\\.min\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fa943d2e49b43567e0865610ef8e1018eae2bc3b06254eab415c81cc0e43fd67"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "AFFICHE_C": {
+                    "ttl": 15724804,
+                    "length": 14,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artmajeur.com",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/iframe\\/sync\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3e1dac2792ab6c6adeef95c5e0d28ad832c837d58922fa4ceafa0ed3bd0f96a7"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "AFFICHE_C": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "artmajeur.com",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/iframe\\/external_libs\\.v2\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cstatic"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7fbb5eabf9724734a7ec26d08c6030a6b2724dd383687d4630d9437919fb4858"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_xttrk2_ids_sync": {
+                    "ttl": 231621,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_xttrk2_ids": {
+                    "ttl": 231621,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_xttrk2": {
+                    "ttl": 231621,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_xttrk2_mpub": {
+                    "ttl": 231621,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "_xttrk2_uk": {
+                    "ttl": 231621,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artmajeur.com",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds.frontend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6f675403352f848a064a63b8f9fbc7bf8572c463c681efe1b36b7a468e21046b",
+                "e3c415b80e778d9becd9e8dc036f117f9c334c3cedbd22e39f7a86c02b74e40e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artmajeur.com",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        },
+        {
+            "rule": "weborama\\.fr\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "idsync.frontend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "artmajeur.com",
+                "www.artmajeur.com",
+                "www.campingfrance.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics"
+    ],
+    "performance": {},
+    "cookies": 0.00134,
+    "topInitiators": [
+        {
+            "domain": "sddan.com",
+            "prevalence": 0.7216981132075472
+        },
+        {
+            "domain": "ad-tech.ru",
+            "prevalence": 0.08018867924528301
+        },
+        {
+            "domain": "buzzoola.com",
+            "prevalence": 0.054245283018867926
+        },
+        {
+            "domain": "inmobi.com",
+            "prevalence": 0.02830188679245283
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.02358490566037736
+        },
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "citiservi.es",
+            "prevalence": 0.018867924528301886
+        },
+        {
+            "domain": "bumlam.com",
+            "prevalence": 0.014150943396226415
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.01179245283018868
+        },
+        {
+            "domain": "2xclick.ru",
+            "prevalence": 0.009433962264150943
+        }
+    ],
+    "types": {
+        "Image": 177,
+        "Script": 13,
+        "XHR": 2,
+        "Document": 3
+    },
+    "nameservers": [
+        "aub-dns.weborama.fr",
+        "std-dns.weborama.fr"
+    ]
+}

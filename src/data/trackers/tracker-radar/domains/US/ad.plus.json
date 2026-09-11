@@ -1,0 +1,71 @@
+{
+    "domain": "ad.plus",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ad\\.plus\\/player\\/adplus\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.maxTouchPoints": 9,
+                "Navigator.prototype.vendor": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 8,
+                "Event.prototype.timeStamp": 7,
+                "CanvasRenderingContext2D.prototype.getImageData": 7,
+                "Element.prototype.getClientRects": 8,
+                "window.innerHeight": 7
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "b23fc4916851e4d205f1d51013228dc87ff6cb4c0f1f23dec33f8210a5774c88"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bakingbakewaresets.com",
+                "bukamata.id",
+                "channel2now.com",
+                "factsintel.com",
+                "meetyou.me",
+                "techannouncer.com",
+                "www.boiteachansons.net",
+                "www.themost10.com",
+                "www.was-war-wann.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "fred.ns.cloudflare.com",
+        "zoe.ns.cloudflare.com"
+    ]
+}

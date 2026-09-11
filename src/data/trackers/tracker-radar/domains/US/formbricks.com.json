@@ -1,0 +1,89 @@
+{
+    "domain": "formbricks.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "formbricks\\.com\\/js\\/formbricks\\.umd\\.cjs",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "08ee0ddf5ed5072d2d943150a7b2f24054c034d3febb48f8a66dccee1bbe18b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgm.com",
+                "ndla.no",
+                "starting11.com",
+                "supercarblondie.com",
+                "www.bayut.com",
+                "www.registercheck.de"
+            ]
+        },
+        {
+            "rule": "formbricks\\.com\\/js\\/surveys\\.umd\\.cjs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "897aa86eb24eac1ca35dbeda718c53cf580a598d2c46b7351c54575904e529c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgm.com",
+                "starting11.com",
+                "supercarblondie.com",
+                "www.bayut.com",
+                "www.registercheck.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9583333333333334
+        },
+        {
+            "domain": "sector.run",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "brady.ns.cloudflare.com",
+        "emma.ns.cloudflare.com"
+    ]
+}

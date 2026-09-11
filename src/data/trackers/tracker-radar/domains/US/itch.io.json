@@ -1,0 +1,179 @@
+{
+    "domain": "itch.io",
+    "owner": {
+        "name": "Leaf Corcoran",
+        "displayName": "Leaf Corcoran"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "itch\\.io\\/widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "eb0e4b8fc796247ea1b8c73d8f4a9832cdeb99ad8dbc12dd95723c8621b6064b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        },
+        {
+            "rule": "itch\\.io\\/lib\\.min\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Element.prototype.getClientRects": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0451ab174857156c1abb1a91baa9c569591defd2ca5a20fc4f8f78f4f6b1320e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        },
+        {
+            "rule": "itch\\.io\\/widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fa836f24377e0ba8e94d20d6e10ad1b79090c194558c244be5cf98bb5a816922"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        },
+        {
+            "rule": "itch\\.io\\/fonts\\/lato-v14-latin-700\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a9dc74533fc20fa3089459dcb3d1222cbc03c52605f47c643748557dfc210ef5"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        },
+        {
+            "rule": "itch\\.io\\/icons\\/fonts\\/icomoon\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "859738c399cf3f93efaf6780cf8c32cd63c6b4fc4c84cfafb269f911cf10e55e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        },
+        {
+            "rule": "itch\\.io\\/fonts\\/lato-v14-latin-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a709abe176dbee1c2346e2df9405bb5bef7b95fc5479cdf7aa42c3a5ce4a71ff"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ddlc.moe",
+                "www.raylib.com",
+                "www.rustylake.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 6,
+        "Font": 9
+    },
+    "nameservers": [
+        "dawn.ns.cloudflare.com",
+        "noah.ns.cloudflare.com"
+    ]
+}

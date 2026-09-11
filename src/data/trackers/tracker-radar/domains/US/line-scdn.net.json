@@ -1,0 +1,476 @@
+{
+    "domain": "line-scdn.net",
+    "owner": {
+        "name": "LY-Corporation",
+        "displayName": "LY-Corporation"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00163,
+    "sites": 238,
+    "subdomains": [
+        "d",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "line-scdn\\.net\\/r\\/web\\/social-plugin\\/js\\/thirdparty\\/loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {},
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "9f4fff267e575509a2fab753d83a325fdf8bd3d24eb7c21674a588191ec0599e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shonenjumpplus.com",
+                "www.saiseikai.or.jp",
+                "nan-net.com",
+                "rurubu.jp",
+                "www.maruzenjunkudo.co.jp",
+                "imagevideo.net",
+                "retty.me",
+                "udn.com",
+                "recipe.rakuten.co.jp",
+                "1kuji.com",
+                "www.nojima.co.jp",
+                "www.travel.co.jp",
+                "npb.jp",
+                "www.universal-music.co.jp",
+                "diary0.blog.jp",
+                "www.takarakuji-official.jp",
+                "genkimaru1.livedoor.blog",
+                "erogazoumura.com",
+                "www.db.yugioh-card.com",
+                "www.sunday-webry.com"
+            ]
+        },
+        {
+            "rule": "line-scdn\\.net\\/n\\/line_tag\\/public\\/release\\/v1\\/lt\\.js",
+            "cookies": 0.00125,
+            "fingerprinting": 1,
+            "subdomains": [
+                "d"
+            ],
+            "apis": {
+                "Document.cookie getter": 182,
+                "window.localStorage": 184,
+                "Document.cookie setter": 182,
+                "Date.prototype.getTime": 184
+            },
+            "sites": 188,
+            "prevalence": 0.00129,
+            "cnames": [],
+            "responseHashes": [
+                "3038f0de356169dd512a539d5f5c6297aaabb7449f497234eb91538601e2d939"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__lt__cid": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.0011986876083099874,
+                    "uniqueness": 1
+                },
+                "__lt__sid": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.0011986876083099874,
+                    "uniqueness": 1
+                },
+                "__lt__cid.db91ef78": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.db91ef78": {
+                    "ttl": 1808,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.a27bb1a8": {
+                    "ttl": 63072002,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.a27bb1a8": {
+                    "ttl": 1802,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.2d1edd52": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__lt__sid.2d1edd52": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__lt__cid.791847d3": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.791847d3": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.57548081": {
+                    "ttl": 63072002,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.57548081": {
+                    "ttl": 1802,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.72395725": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.72395725": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.eb1bafea": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.eb1bafea": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.d899707f": {
+                    "ttl": 63072002,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.d899707f": {
+                    "ttl": 1802,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.060f9758": {
+                    "ttl": 63072017,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.060f9758": {
+                    "ttl": 1817,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.a5dde550": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.a5dde550": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.c366e723": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.c366e723": {
+                    "ttl": 1808,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.93cdba24": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.93cdba24": {
+                    "ttl": 1803,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.207767a1": {
+                    "ttl": 63072001,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.207767a1": {
+                    "ttl": 1801,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.1c4d9ce8": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.1c4d9ce8": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.a5e4d6a4": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.a5e4d6a4": {
+                    "ttl": 1807,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.b74b3938": {
+                    "ttl": 63072000,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.b74b3938": {
+                    "ttl": 1800,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.b0f51a28": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.b0f51a28": {
+                    "ttl": 1803,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.3d711f46": {
+                    "ttl": 63072005,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.3d711f46": {
+                    "ttl": 1805,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.00a7398c": {
+                    "ttl": 63072009,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.00a7398c": {
+                    "ttl": 1809,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.dc9334dc": {
+                    "ttl": 63072001,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.dc9334dc": {
+                    "ttl": 1801,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.71acdd77": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.71acdd77": {
+                    "ttl": 1804,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.5b0417d1": {
+                    "ttl": 63072028,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.5b0417d1": {
+                    "ttl": 1828,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__cid.dbd6bb42": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__lt__sid.dbd6bb42": {
+                    "ttl": 1806,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mechacomic.jp",
+                "missav123.jp",
+                "www.yoshinoya.com",
+                "domani.shogakukan.co.jp",
+                "av.jpn.support.panasonic.com",
+                "global.oliveyoung.com",
+                "hitosara.com",
+                "jp.shein.com",
+                "www.earth.jp",
+                "hlo.tohotheater.jp",
+                "www.sejuku.net",
+                "www.tokyodisneyresort.jp",
+                "www.tokyo-np.co.jp",
+                "www.goodsmile.com",
+                "www.cmoa.jp",
+                "books.rakuten.co.jp",
+                "zukan.pokemon.co.jp",
+                "www.able.co.jp",
+                "fastdoctor.jp",
+                "www.jreast.co.jp"
+            ]
+        },
+        {
+            "rule": "line-scdn\\.net\\/liff\\/edge\\/2\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.language": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "6d8ac7d99a9deb3f443a48a06f295e41ac3bb6ba6b7ebaad10944f16c8903de8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "terabox.app",
+                "www.1024tera.com",
+                "www.terabox.app",
+                "www.terabox.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00134,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6515151515151515
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.26136363636363635
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.022727272727272728
+        },
+        {
+            "domain": "teraboxcdn.com",
+            "prevalence": 0.015151515151515152
+        },
+        {
+            "domain": "u-komi.com",
+            "prevalence": 0.011363636363636364
+        },
+        {
+            "domain": "sp-trk.com",
+            "prevalence": 0.011363636363636364
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.007575757575757576
+        },
+        {
+            "domain": "ltwebstatic.com",
+            "prevalence": 0.003787878787878788
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.003787878787878788
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.003787878787878788
+        }
+    ],
+    "types": {
+        "Script": 221
+    },
+    "nameservers": [
+        "ns1.naver.jp",
+        "ns2.naver.jp",
+        "ans1.linecorp.com",
+        "ans2.linecorp.com"
+    ]
+}

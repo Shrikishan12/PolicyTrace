@@ -1,0 +1,964 @@
+{
+    "domain": "johndeerecloud.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01",
+        "ui.marketing-prod.us.e06.c01",
+        "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01",
+        "core-media-search.marketing-prod.us.e06.c01",
+        "realtime-clickstream.isg-ecda-prod-vpn.us.e01.c01",
+        "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01",
+        "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01",
+        "ecommerce-diagrams-ui-prod.cps-johndeerestore-prod-vpn.us.e32.c01",
+        "edge.om-machinefinder-prod-vpn.us.e26.c01"
+    ],
+    "cnames": [
+        {
+            "original": "cdn-ux.deere.com",
+            "resolved": "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01.johndeerecloud.com"
+        },
+        {
+            "original": "cdn.ux.deere.com",
+            "resolved": "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01.johndeerecloud.com"
+        },
+        {
+            "original": "core-media-search.deere.com",
+            "resolved": "core-media-search.marketing-prod.us.e06.c01.johndeerecloud.com"
+        },
+        {
+            "original": "dealerlocatorapi.deere.com",
+            "resolved": "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01.johndeerecloud.com"
+        },
+        {
+            "original": "diagrams.deere.com",
+            "resolved": "ecommerce-diagrams-ui-prod.cps-johndeerestore-prod-vpn.us.e32.c01.johndeerecloud.com"
+        },
+        {
+            "original": "ds-ui.deere.com",
+            "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+        },
+        {
+            "original": "edge.machinefinder.com",
+            "resolved": "edge.om-machinefinder-prod-vpn.us.e26.c01.johndeerecloud.com"
+        },
+        {
+            "original": "realtime-clickstream.deere.com",
+            "resolved": "realtime-clickstream.isg-ecda-prod-vpn.us.e01.c01.johndeerecloud.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "johndeerecloud\\.com\\/brand-foundations\\/1\\.3\\.1\\/typography\\/JDSansPro-Medium\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.ux.deere.com",
+                    "resolved": "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "5a86b1d7a329d75389c0f82dbef3a004506e93126bc96581f6fb33479215e568"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "myfinancialaccounts.deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/utils\\/remote-entry\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "b02af0fdaef3e2cafeaf932b4dc47d0277b23bf679c3528b4b8d29c853c569c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/dispatch\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "7b7ab60f49fee88ee2cb925df4f5c367eae8446da44a07bc60c44b87ecdc6bc2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/recommendations-feed\\/latest\\/assets\\/entry\\/umd\\/utils\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "47a882ce72a7cf3fd124872608c8384db7145651688391c0810bf4a46732be91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/recommendations-feed\\/latest\\/assets\\/core\\/umd\\/personalize-recommender\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "40c9fd804c6803749a5f44b8494965693d96d4ff9d52a85b1e3c5e89069d243b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/rolldown-runtime-DtPi1Y-2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "fba86d9a0f7da905a635ce904ae47bdc58e5aee403fb595098f81744c7ac5354"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/_virtual___federation_fn_import-CUlleWFS\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "08209c27b98db1161034ee7f4a570bb36da9979c308ede119eacbbc9b905d251"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/react-CdQy4h4C\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "30f6c10f5614d68c55424b342a054b2fd0a388a727524a2e37d867cbd39920e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/react-dom-DBFsy6XM\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "d2ca52e050a8d62877a2f1d95767bb0bb3829673d531c52c043f130b093a9ce9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ds\\/federate\\/__federation_shared_react-fY1gtchb\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ui.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ds-ui.deere.com",
+                    "resolved": "ui.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "ba5d8442444f811c75bb96e8476cad85a65a106592b9ab32fe4d4e86b2f698ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/api\\/gdl-service\\/translationTerms",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dealerlocatorapi.deere.com",
+                    "resolved": "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "ca81990cbea84f56786f0b1c36779a19121182c86e6585658423fb6697a5a239"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/api\\/gdl-service\\/industries",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "dealerlocatorapi.deere.com",
+                    "resolved": "gdl-service.channel-marketing-site-enableme-prod-vpn.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "c6eec45c42993607904829d315afb63998ae55c8659058b4ade2b50f453d1429"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/brand-foundations\\/2\\.0\\.0\\/logos\\/jd-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-ux.deere.com",
+                    "resolved": "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "5dfe435b96b7d8b3ef786e86c184976a344ac3f24e247cc75cd83aa4f7264a28"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/api\\/v1\\/translation",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "core-media-search.marketing-prod.us.e06.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "core-media-search.deere.com",
+                    "resolved": "core-media-search.marketing-prod.us.e06.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "62170f674503c44a304c2a6b1212d729ad4a7d642be7921f5be241d982d775ed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/digital-analytics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtime-clickstream.isg-ecda-prod-vpn.us.e01.c01"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "realtime-clickstream.deere.com",
+                    "resolved": "realtime-clickstream.isg-ecda-prod-vpn.us.e01.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "myfinancialaccounts.deere.com",
+                "shop.deere.com",
+                "www.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/brand-foundations\\/1\\.4\\.0\\/logos\\/jd-logo\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.ux.deere.com",
+                    "resolved": "fuel-cdn-prod.itm-user-experience-prod-standalone.us.e29.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "5dfe435b96b7d8b3ef786e86c184976a344ac3f24e247cc75cd83aa4f7264a28"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/prodex-header-mfe\\/prod\\/latest\\/client-lite\\/remoteEntryLite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00b5e31a914663b4b805452fa3ff134df2367377a04f9008994e0678ba650f08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/remoteEntryLite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe73db8200d29d38a0e63467e611554bcec94cd380375e371cf655d3a5d74ba5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ui-commons-mfe\\/prod\\/latest\\/client-lite\\/remoteEntryLite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "512cb5e4cf5c2e502a05b8cf0caf85f9c580b52b2ca444bc8995ed0f3afc4929"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/lite\\/remoteEntryLite\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-diagrams-ui-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "diagrams.deere.com",
+                    "resolved": "ecommerce-diagrams-ui-prod.cps-johndeerestore-prod-vpn.us.e32.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "2daa1c23e072a96cd51a121ebe932c041a39f63c598d29deb3143bc549c22aab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/prodex-header-mfe\\/prod\\/latest\\/client-lite\\/vendor\\.1cb0f0beecbc14973a87\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9897c9f1811606c020bda952729695ac5721c9788138661bf99c0061d4acc353"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/prodex-header-mfe\\/prod\\/latest\\/client-lite\\/748\\.439fef4a5b8813c2643e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dad70d8010a6fe4e003e0eabd924567d5a8c26431b643585f98c2e1a2aa4ccee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/prodex-header-mfe\\/prod\\/latest\\/client-lite\\/591\\.8d0440de16a3c5056451\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcd6a6ad1649e76d17189250fd9f4f5eaf9fb1d4acca11f7f2b9c6cc5ff963ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/prodex-header-mfe\\/prod\\/latest\\/client-lite\\/483\\.99e6f153baf79ca9b883\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d7278a234c5c4d0383a86bccbe43d55b9df68ad3579e428b730babae9d92ae1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/vendor\\.767dd99ecce37f24fa20\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fc9e7488a1bc330633b7d376b95285f1eaf28190513fb2aa77790bce4d5c93c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/883\\.2500ef39e4bcd568dd5b\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9934d20b8facc083539cf67a225e34d22dbf0d6fb356d0bf77ee417bc55d22ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/955\\.6a5bd013d6d42fd649aa\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7262549eee0167efbaa6945c9f29f6b9a355be25e4df21ef4b8262ef96f650b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/714\\.f2e01f037e3f8f95aa1e\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.permissions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dc6613f98115552bc5da45ff66c20ff1aedc3ac318c30c08bf3ee8203a2a88f9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/auth-mfe\\/prod\\/latest\\/client-lite\\/332\\.d8652fe94d9823eabe2a\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecommerce-auth-mfe-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d57914964d6b721824dfda15d35b49b86965e15473f6846f975fc0a086e88669"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ui-commons-mfe\\/prod\\/latest\\/client-lite\\/vendor\\.2b5d6f0d88da813767c2\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.language": 2,
+                "window.innerWidth": 2,
+                "Navigator.prototype.webdriver": 2,
+                "Navigator.prototype.permissions": 2,
+                "NavigatorUAData.prototype.brands": 1,
+                "window.devicePixelRatio": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9783f30418d1216b6b4525ee5eaf66f7d44ad9602bac0ffe9025840b910c1706"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ConstructorioID_client_id": {
+                    "ttl": 31536012,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ui-commons-mfe\\/prod\\/latest\\/client-lite\\/231\\.36e90371d33ed8ec9ef0\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.permissions": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "182e5d9f02657dbf113cc1cadf3651b6bb5bafc6900bfd46392a3fdb2beca1b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "industryId": {
+                    "ttl": 31536007,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/ui-commons-mfe\\/prod\\/latest\\/client-lite\\/343\\.f9ba349c7552297b3e89\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecommerce-product-experience-prod.cps-johndeerestore-prod-vpn.us.e32.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d090c55e1fb22a726883abff27edc8fd3d05b746a19fcd293929bc97db59eaea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deere.com",
+                "shop.deere.com"
+            ]
+        },
+        {
+            "rule": "johndeerecloud\\.com\\/javascripts\\/jquery-1\\.11\\.2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "edge.om-machinefinder-prod-vpn.us.e26.c01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "edge.machinefinder.com",
+                    "resolved": "edge.om-machinefinder-prod-vpn.us.e26.c01.johndeerecloud.com"
+                }
+            ],
+            "responseHashes": [
+                "2ecd295d295bec062cedebe177e54b9d6b19fc0a841dc5c178c654c9ccff09c0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "machinefinder.com",
+                "www.machinefinder.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.375
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.3611111111111111
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.20833333333333334
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Font": 3,
+        "Script": 52,
+        "XHR": 6,
+        "Image": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "a1-128.akam.net",
+        "a5-66.akam.net",
+        "a11-67.akam.net",
+        "a4-66.akam.net",
+        "a28-67.akam.net",
+        "a10-66.akam.net"
+    ]
+}

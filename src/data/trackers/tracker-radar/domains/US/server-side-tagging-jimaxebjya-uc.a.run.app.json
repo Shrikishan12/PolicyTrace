@@ -1,0 +1,100 @@
+{
+    "domain": "server-side-tagging-jimaxebjya-uc.a.run.app",
+    "owner": {
+        "name": "Google LLC",
+        "displayName": "Google",
+        "privacyPolicy": "https://policies.google.com/privacy?hl=en&gl=us",
+        "url": "http://google.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "server-side-tagging-jimaxebjya-uc\\.a\\.run\\.app\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "kuiu.com",
+                "www.kuiu.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-jimaxebjya-uc\\.a\\.run\\.app\\/_\\/service_worker\\/68d0\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kuiu.com",
+                "www.kuiu.com"
+            ]
+        },
+        {
+            "rule": "server-side-tagging-jimaxebjya-uc\\.a\\.run\\.app\\/_\\/service_worker\\/68d0\\/sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9e8d0bce33a76b81e36dae8d8d947b1589880fba4e83238454fd2ce291882719"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kuiu.com",
+                "www.kuiu.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "fullstory.com",
+            "prevalence": 0.42857142857142855
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.14285714285714285
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2,
+        "Other": 2
+    },
+    "nameservers": []
+}

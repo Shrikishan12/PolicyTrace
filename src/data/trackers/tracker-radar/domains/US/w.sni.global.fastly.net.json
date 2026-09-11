@@ -1,0 +1,159 @@
+{
+    "domain": "w.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api.gog.com",
+            "resolved": "w.sni.global.fastly.net"
+        },
+        {
+            "original": "login.gog.com",
+            "resolved": "w.sni.global.fastly.net"
+        },
+        {
+            "original": "menu.gog.com",
+            "resolved": "w.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "w\\.sni\\.global\\.fastly\\.net\\/login_process\\/google\\/info",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.gog.com",
+                    "resolved": "w.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "36338c2d4d2575178e7c029b9c69ada8b011efff7d030659d05ef46c8c31a8da"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gog.com",
+                "www.gog.com"
+            ]
+        },
+        {
+            "rule": "w\\.sni\\.global\\.fastly\\.net\\/v1\\/account\\/basic",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "menu.gog.com",
+                    "resolved": "w.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "282886d6edc2d6e8ce67fcadd85ac1b2b23a9630ad8b649883db6a65e77b581b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gog.com",
+                "www.gog.com"
+            ]
+        },
+        {
+            "rule": "w\\.sni\\.global\\.fastly\\.net\\/v1\\/store\\/configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "menu.gog.com",
+                    "resolved": "w.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "3454100801331bb7b4d0775d2fe9abc21400e2382ab6ac81407504e5dd443dca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gog.com",
+                "www.gog.com"
+            ]
+        },
+        {
+            "rule": "w\\.sni\\.global\\.fastly\\.net\\/user\\/accessToken\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.gog.com",
+                    "resolved": "w.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gog.com",
+                "www.gog.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "gog-statics.com",
+            "prevalence": 0.9696969696969697
+        },
+        {
+            "domain": "zdassets.com",
+            "prevalence": 0.030303030303030304
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "XHR": 4
+    },
+    "nameservers": []
+}

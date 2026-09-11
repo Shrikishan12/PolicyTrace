@@ -1,0 +1,87 @@
+{
+    "domain": "crossees.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "js"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "crossees\\.com\\/csslp\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "js"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "c9c3200e8935a282ada7cc1a178dd88fea79c14e14c85a50a1ed963036ce53e8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_fmitp": {
+                    "ttl": 7776002,
+                    "length": 21,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_fmtm": {
+                    "ttl": 60,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_fmreitp": {
+                    "ttl": 7776002,
+                    "length": 21,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "couples.jp",
+                "event.rakuten.co.jp",
+                "item.rakuten.co.jp",
+                "www.sejuku.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-180.awsdns-22.com",
+        "ns-829.awsdns-39.net",
+        "ns-1032.awsdns-01.org",
+        "ns-1996.awsdns-57.co.uk"
+    ]
+}

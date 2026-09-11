@@ -1,0 +1,132 @@
+{
+    "domain": "d29usylhdk1xyu.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "d29usylhdk1xyu\\.cloudfront\\.net\\/load\\/dollar-tree",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fac8f3f5c9609a79992cfd77073f69cb84be74467254af84e2b7705d320bf14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollartree.com",
+                "www.dollartree.com"
+            ]
+        },
+        {
+            "rule": "d29usylhdk1xyu\\.cloudfront\\.net\\/translations\\/login\\/en-US",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f397050057cfd104eeb1f57ef6ec9ab02347bc37fa045cdb6995b5e5a96dc8c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollartree.com",
+                "www.dollartree.com",
+                "www.familydollar.com"
+            ]
+        },
+        {
+            "rule": "d29usylhdk1xyu\\.cloudfront\\.net\\/manifest\\/capture:login",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 3,
+                "window.innerHeight": 3,
+                "window.innerWidth": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appName": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f20a0bd7de568da1117f9330a4052f59d20e595ca5ce46cf5d7b5c385ecf3d38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollartree.com",
+                "www.dollartree.com",
+                "www.familydollar.com"
+            ]
+        },
+        {
+            "rule": "d29usylhdk1xyu\\.cloudfront\\.net\\/load\\/family-dollar-prod",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f97afd7ff56512dd142c236dfd9886b10e36d8c37b48825809d41382f70bf8e5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "familydollar.com",
+                "www.familydollar.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 10
+    },
+    "nameservers": [
+        "ns-1260.awsdns-29.org",
+        "ns-2029.awsdns-61.co.uk",
+        "ns-382.awsdns-47.com",
+        "ns-627.awsdns-14.net"
+    ]
+}

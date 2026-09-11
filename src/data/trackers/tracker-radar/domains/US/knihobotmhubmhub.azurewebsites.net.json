@@ -1,0 +1,133 @@
+{
+    "domain": "knihobotmhubmhub.azurewebsites.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "mhubc.bookbot.de",
+            "resolved": "knihobotmhubmhub.azurewebsites.net"
+        },
+        {
+            "original": "mhubc.knihobot.cz",
+            "resolved": "knihobotmhubmhub.azurewebsites.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "knihobotmhubmhub\\.azurewebsites\\.net\\/api\\/mhubc\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "mhubc.bookbot.de",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                },
+                {
+                    "original": "mhubc.knihobot.cz",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "5f48d34b1a44fb9bb069079de767705b07cf254c530730724bebb18cca47d9c3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookbot.de",
+                "knihobot.cz"
+            ]
+        },
+        {
+            "rule": "knihobotmhubmhub\\.azurewebsites\\.net\\/api\\/proxy\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "mhubc.bookbot.de",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                },
+                {
+                    "original": "mhubc.knihobot.cz",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [
+                "7ce4438a00eae3b757f12b42568cd490093ab96c9c28d450e2e0e9b0ca8cfd20"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookbot.de",
+                "knihobot.cz"
+            ]
+        },
+        {
+            "rule": "knihobotmhubmhub\\.azurewebsites\\.net\\/api\\/se",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "mhubc.bookbot.de",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                },
+                {
+                    "original": "mhubc.knihobot.cz",
+                    "resolved": "knihobotmhubmhub.azurewebsites.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bookbot.de",
+                "knihobot.cz"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "bookbot.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,188 @@
+{
+    "domain": "logr-ingest.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000336,
+    "sites": 49,
+    "subdomains": [
+        "cdn",
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "logr-ingest\\.com\\/logger-1\\.min\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 25,
+                "window.localStorage": 25,
+                "URL.createObjectURL": 13,
+                "Navigator.prototype.userAgent": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.language": 1,
+                "Navigator.prototype.platform": 1,
+                "Navigator.prototype.appVersion": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "PerformanceTiming.prototype.navigationStart": 1,
+                "Performance.prototype.memory": 1
+            },
+            "sites": 25,
+            "prevalence": 0.000171,
+            "cnames": [],
+            "responseHashes": [
+                "1e3ecba33b32b3b21bb4365492fa37096fad7b0662fa471d06d9a9478ef7ecd4",
+                "37e9f4454f1cdec20afcd0a0d51c6481e4873d192fd717ce128bfd0b1364f4c7",
+                "e1ac20fa229b4cdb41aa3a97aed74f37dca6860ed308bb69ae27ad29a1fc6835",
+                "af7cce1f185ddfaabb736d22b965bf6c2b5ecf48c4da84c29f0ffd028ec3746a",
+                "7a022f5b9ee28a19ae343ded91f7ea6f81f497671ff1b063067f164dae2a93f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "aHktdmVlLmNvbQ%3D%3D-_lr_tabs_-rl00u5%2Fhy-vee-prod": {
+                    "ttl": 86414,
+                    "length": 256,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "aHktdmVlLmNvbQ%3D%3D-_lr_hb_-rl00u5%2Fhy-vee-prod": {
+                    "ttl": 86402,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "olb.citadelbanking.com",
+                "bellagio.mgmresorts.com",
+                "spicychat.ai",
+                "dortonline.org",
+                "luxor.mgmresorts.com",
+                "cosmopolitanlasvegas.mgmresorts.com",
+                "www.hy-vee.com",
+                "www.enerpac.com",
+                "mgmresorts.com",
+                "excalibur.mgmresorts.com",
+                "www.salemfive.com",
+                "www.mgmresorts.com",
+                "www.ithinkfi.org",
+                "www.affinityplus.org",
+                "sdfcu.org",
+                "beaurivage.mgmresorts.com",
+                "aria.mgmresorts.com",
+                "parkmgm.mgmresorts.com",
+                "borgata.mgmresorts.com",
+                "mandalaybay.mgmresorts.com"
+            ]
+        },
+        {
+            "rule": "logr-ingest\\.com\\/LogRocket\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "2804175a39979dff1944aa907089e13daa7e1d20697b1196e6661f6acfca2772",
+                "a2c8228d6798f04d03d64d1a8df8bd3ee599ef4cee8151d4172cb8eaa795c108"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asa2fly.com",
+                "gfsstore.com",
+                "mishimoto.com",
+                "mms.mckesson.com",
+                "schellbrothers.com",
+                "tecovas.com",
+                "www.calranch.com",
+                "www.coastalcountry.com",
+                "www.mishimoto.com",
+                "www.tecovas.com"
+            ]
+        },
+        {
+            "rule": "logr-ingest\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hy-vee.com",
+                "www.hy-vee.com"
+            ]
+        },
+        {
+            "rule": "logr-ingest\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hy-vee.com",
+                "www.hy-vee.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "poshdevelopment.com",
+            "prevalence": 0.1388888888888889
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Script": 35,
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "dan.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

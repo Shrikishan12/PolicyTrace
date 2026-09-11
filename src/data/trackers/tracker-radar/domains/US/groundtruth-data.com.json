@@ -1,0 +1,115 @@
+{
+    "domain": "groundtruth-data.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "analytics"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "groundtruth-data\\.com\\/pixel\\.v2\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 3,
+            "subdomains": [
+                "analytics"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Navigator.prototype.vendor": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.appVersion": 4,
+                "Navigator.prototype.connection": 4,
+                "window.outerWidth": 4,
+                "window.outerHeight": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.plugins": 4,
+                "Navigator.prototype.productSub": 4,
+                "Navigator.prototype.mimeTypes": 4,
+                "WebGLRenderingContext.prototype.getParameter": 4,
+                "Navigator.prototype.webdriver": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.permissions": 4,
+                "Notification.permission": 4,
+                "OfflineAudioContext.prototype.constructor": 4,
+                "AudioBuffer.prototype.getChannelData": 4,
+                "Screen.prototype.availTop": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.availWidth": 4,
+                "Screen.prototype.availLeft": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.availHeight": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.deviceMemory": 4,
+                "Navigator.prototype.hardwareConcurrency": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "window.indexedDB": 4,
+                "Navigator.prototype.platform": 4,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 4,
+                "HTMLCanvasElement.prototype.toDataURL": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Document.cookie setter": 3,
+                "WebGLRenderingContext.prototype.getExtension": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7ac338c136816cab70388a6fb72de6e27c136ba7b6581f9dc4c0e67cd94b8822"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787680369,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "gtpx_state": {
+                    "ttl": 31104003,
+                    "length": 310,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "barharbor.bank",
+                "www.crusoe.ai",
+                "www.mesaartscenter.com",
+                "www.visitamishcountry.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "ns-124.awsdns-15.com",
+        "ns-948.awsdns-54.net",
+        "ns-2026.awsdns-61.co.uk",
+        "ns-1507.awsdns-60.org"
+    ]
+}

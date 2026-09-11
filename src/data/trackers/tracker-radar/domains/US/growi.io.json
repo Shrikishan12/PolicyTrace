@@ -1,0 +1,94 @@
+{
+    "domain": "growi.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "shopify"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "growi\\.io\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "071ad30014fd1dff7f61df5f3bfb06ea3eac9bddd409cbce6afe1966b478fc5f",
+                "045c7ce00b476da13a4280352c781b0d27493b0a51d2b1122e97d980416ed93a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfrt.com",
+                "javvycoffee.com",
+                "www.cutsclothing.com"
+            ]
+        },
+        {
+            "rule": "growi\\.io\\/cookie-utils\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "shopify"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5624b6103ddd43119f011effcfadadb2934b23454327c94085ea5e7c142f686f",
+                "1f193b372390c89ee104145f4584faf94674c49dc87d988bce1969b82ddb2833"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "growi_visitor_uid": {
+                    "ttl": 31536015,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfrt.com",
+                "javvycoffee.com",
+                "www.cutsclothing.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "jay.ns.cloudflare.com",
+        "nelci.ns.cloudflare.com"
+    ]
+}

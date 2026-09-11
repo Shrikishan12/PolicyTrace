@@ -1,0 +1,143 @@
+{
+    "domain": "hertz.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "ecom.mss"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hertz\\.io\\/marketing\\/preferences\\/thrifty",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecom.mss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1ba7dab065402fcfc252107bbbf30ebcc169464950e5e73718527ef12bb021b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thrifty.com",
+                "www.thrifty.com"
+            ]
+        },
+        {
+            "rule": "hertz\\.io\\/marketing\\/preferences\\/dollar",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecom.mss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1ba7dab065402fcfc252107bbbf30ebcc169464950e5e73718527ef12bb021b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dollar.com",
+                "www.dollar.com"
+            ]
+        },
+        {
+            "rule": "hertz\\.io\\/marketing\\/preferences\\/hertz",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ecom.mss"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1ba7dab065402fcfc252107bbbf30ebcc169464950e5e73718527ef12bb021b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.com",
+                "www.hertz.com"
+            ]
+        },
+        {
+            "rule": "hertz\\.io\\/shared\\/overlay\\/GB\\/enGB",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecom.mss"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.language": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a65f7ea94a2c52534a3cf38d7dde4fde98da0937d5bb51a54c357a2f678de89f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ecm_pos": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hertz.com.au",
+                "www.hertz.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7692307692307693
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.23076923076923078
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1043.awsdns-02.org",
+        "ns-52.awsdns-06.com",
+        "ns-812.awsdns-37.net",
+        "ns-1862.awsdns-40.co.uk"
+    ]
+}

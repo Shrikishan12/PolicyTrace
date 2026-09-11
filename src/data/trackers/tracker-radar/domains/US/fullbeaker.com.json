@@ -1,0 +1,66 @@
+{
+    "domain": "fullbeaker.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "event"
+    ],
+    "cnames": [
+        {
+            "original": "event.nurse.org",
+            "resolved": "event.fullbeaker.com"
+        },
+        {
+            "original": "event.universities.com",
+            "resolved": "event.fullbeaker.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fullbeaker\\.com\\/log",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "event.nurse.org",
+                    "resolved": "event.fullbeaker.com"
+                },
+                {
+                    "original": "event.universities.com",
+                    "resolved": "event.fullbeaker.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nurse.org",
+                "www.universities.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-635.awsdns-15.net",
+        "ns-383.awsdns-47.com",
+        "ns-1030.awsdns-00.org",
+        "ns-2003.awsdns-58.co.uk"
+    ]
+}

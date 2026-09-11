@@ -1,0 +1,2297 @@
+{
+    "domain": "moengage.com",
+    "owner": {
+        "name": "MoEngage, Inc.",
+        "displayName": "MoEngage"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000582,
+    "sites": 85,
+    "subdomains": [
+        "cdn",
+        "sdk-01",
+        "sdk-04",
+        "sdk-02",
+        "sdk-101",
+        "sdk-03",
+        "sdk-06",
+        "app-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "moengage\\.com\\/webpush\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.000089,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 19,
+                "Navigator.prototype.userAgent": 19,
+                "window.localStorage": 19,
+                "Date.prototype.getTime": 17,
+                "Document.cookie getter": 13,
+                "Document.cookie setter": 13,
+                "NavigatorUAData.prototype.getHighEntropyValues": 16,
+                "NavigatorUAData.prototype.platform": 16,
+                "Date.prototype.getTimezoneOffset": 16,
+                "Navigator.prototype.onLine": 13,
+                "Navigator.prototype.permissions": 14,
+                "Notification.permission": 9,
+                "Navigator.prototype.storage": 9,
+                "window.innerHeight": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [],
+            "responseHashes": [
+                "c761d3296b50632993a286dc2788d63f4a91a07f1e36498aebe5501dd45ae5da"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_c_s": {
+                    "ttl": 63072009,
+                    "length": 1,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 0.2
+                },
+                "moe_u_d": {
+                    "ttl": 63072012,
+                    "length": 94,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "moe_uuid": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.00008904536518874193,
+                    "uniqueness": 1
+                },
+                "cdp_anonmoid": {
+                    "ttl": 31536008,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072012,
+                    "length": 135,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hindustantimes.com",
+                "investingnews.com",
+                "smytten.com",
+                "www.godigit.com",
+                "www.hungama.com",
+                "www.marcustheatres.com",
+                "www.maxi.ca",
+                "www.motel6.com",
+                "www.nofrills.ca",
+                "www.olx.com.pk",
+                "www.oyorooms.com",
+                "www.revolvermag.com",
+                "www.saregama.com",
+                "www.tataplaybinge.com",
+                "www.techjockey.com",
+                "www.vedantu.com",
+                "www.yesstyle.com",
+                "www.yourindependentgrocer.ca",
+                "yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/websdksettings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-04",
+                "sdk-02",
+                "sdk-101",
+                "sdk-03",
+                "sdk-06"
+            ],
+            "apis": {},
+            "sites": 51,
+            "prevalence": 0.000349,
+            "cnames": [],
+            "responseHashes": [
+                "4b88576909a97712785860f21ae85e41fa1b959a8b0d67afd6c861034c744e9a",
+                "fc898971e8bb3105caa9213afe21898e3231d74534db6d9406e19fb7c2dad456",
+                "6a02ad2a4ebbd996107b6b5351c45893389626e25bf4a7fac1640126e5049923",
+                "b7fd53adf479440c760e807d774af2a040f974ad6ba1aaca16542f62dd1c06ae",
+                "02467733debd51d0fc9cd41ce6bb062de1865c672c395fb55f883d8e3f554a7f",
+                "619d402e1611f1e5011e2846c9dac330fc1d0863ce5fdd6d8fdf3fe779bc3f93",
+                "6bf2f9b4063e519dfa9f25de44434c3021a64ccb129bff282a321201d1f951ef",
+                "b04b8c2b2063c764b50e5ca8dd14d474a28810735f6bc8960f6f6693b623c805",
+                "57f36027a2b1de73e981a0ce6677fd38081076e3c579f8248032ccaab9425af7",
+                "44e15a64253da1d332040def5b4dbbfbdee7aeb27a6f6fc5b5bc4f96555bd7fc",
+                "83d4a930d07126a4962042555f2916b85095411e4c96254e9540111b3eb49141",
+                "87b078d4a82312e97fb2742cb650fb6839399d262a02cda6daf24678b2974cfa",
+                "cbf111b4ff98dbb34d8651ebc94911bf1a143f6d1c22e04db53bb4c41f4fbfab",
+                "b0bce2dd58b568a06139fc015f27652f446fc0f61dbe8c871f11daaaa45ed63a",
+                "c2669b00f7f6ae908f6c238d2b9dbdfffafd279b1b5ba6fb81049de73b58715d",
+                "93084e194cf01ebf59e971f507116334c5d14fe17efbb74d258278c21ab94b9a",
+                "9d8f56ed50cf42073a19f24d74d2b34044ff46587ec9d808298c6a3f133f44bb",
+                "ec1731d8ef7cf0010abb2f7317717da86f95c0a043e9c750ac8e832d62835e71",
+                "bfe3c1b8b682a227ea2ad5be49b0499de3c89dc0ba290332c2329a0b8b94eff8",
+                "bfd6f3d754929345f7e6c5d6d7baf409830f2b7b39fce783a3ceb1947315a7d4",
+                "ad15855bc49f926dc58111fa661cb59c2c28992f2ef456bd2ee4095ecd2f028b",
+                "d3b5b4b6180d4a95b94a531bd154c19fc09c33a788617bd6d9316b940432eaa0",
+                "326a373f6e7b9ab0e63d84896eba6297fbea9cc2630ac84fb1c04a0411199426",
+                "e1f895b641fbbcd5289947fa18be2e6140d31e64839e0ba5c6780b65387b15ec",
+                "e0992d27099272ec30fc14b4fb2ebccfa21e9e17efec518a8d41521ea60874dd",
+                "9962e36047ed143b826245a34b8990314a5e36d1cddf066465f88d82634c7590",
+                "2dd1279c6df930f89c523638ef848774f18579377399a5480f57caa432bbc835",
+                "4a8453104de4987b4259504d1ee9fffbf397c4be15c7291d94c94270a2c22745",
+                "ed98b706eebce408b52982cc056478102c121488216a003ef528bb6ebeef3b43",
+                "e567cf0c8bae4c1eb9c1f3e0bcbe61b01be394ba4a3a737371983c43803182b3",
+                "6169c632ebc893e4a724df4393a9f563e654fb9aa7a8ddd687ca5e11f3c478c2",
+                "6a91dedecd0ffc42fdd9b24f6da12d35a86f244016086c6d95403ec1db64c7a3",
+                "42193dced738f37e180e1962f52a42c7c59be321518e5f5af9f1cc8ed97cabef",
+                "e8de86806b36c285131582aaae3aec87846e66545a6a0453473aa492137cd65d",
+                "42c6fb286a0ae73419571860cb9b6d0da7220ab31278fab0b3e23671877f6645",
+                "37efd4a8ecb3dca16088eafdabd74ae1e41d3825f5e5f000b32a9f2855ce860b",
+                "04f7a3c81e40362bfc7a3746232a089fd8a32fb71fd323f164f29918960299a4",
+                "77653d2d8b314cd16d9f146845eedf886c56195a0e22dba2a8e600f9a757c991"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.buffalowildwings.com",
+                "www.yourindependentgrocer.ca",
+                "aventon.com",
+                "yesstyle.com",
+                "www.yesstyle.com",
+                "fiber.t-mobile.com",
+                "www.pch.com",
+                "www.iheartjane.com",
+                "www.manoramaonline.com",
+                "www.nzz.ch",
+                "www.yourparkingspace.co.uk",
+                "www.onmanorama.com",
+                "www.maxi.ca",
+                "www.revolvermag.com",
+                "www.icc-cricket.com",
+                "www.vedantu.com",
+                "www.techjockey.com",
+                "www.oyorooms.com",
+                "bellevue.nzz.ch",
+                "www.aventon.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/device\\/add",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-02",
+                "sdk-101",
+                "sdk-04",
+                "sdk-03",
+                "sdk-06"
+            ],
+            "apis": {},
+            "sites": 42,
+            "prevalence": 0.000288,
+            "cnames": [],
+            "responseHashes": [
+                "8d6b712cd54b8b0c809ed2daa5b35913f5fb92fdb2e643b0e754227068d0f088"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.0002397375216619975,
+                "__pid": 0.000013699286952114143,
+                "IR_gbd": 0.000027398573904228286,
+                "lotame_domain_check": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "www.yourindependentgrocer.ca",
+                "www.pch.com",
+                "www.olx.co.id",
+                "www.onmanorama.com",
+                "www.vedantu.com",
+                "www.canstarblue.com.au",
+                "hindustantimes.com",
+                "myaccount.gng.com",
+                "www.t-mobile.com",
+                "smytten.com",
+                "www.maxi.ca",
+                "www.nzz.ch",
+                "www.straitstimes.com",
+                "gng.com",
+                "www.godigit.com",
+                "yesstyle.com",
+                "www.icc-cricket.com",
+                "www.marcustheatres.com",
+                "www.nutaku.net",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/4HOS97YV5ECL39OO16HAT4PB",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hindustantimes.com",
+                "auto.hindustantimes.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-02",
+                "sdk-04",
+                "sdk-101",
+                "sdk-03",
+                "sdk-06"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000253,
+            "cnames": [],
+            "responseHashes": [
+                "b1a63354df4065033d445ee7764e00bbf1e66f20b0f32c2aa4089642bb3780f3",
+                "87401958c5f1c9e8caba1237e94bada76c8f628d79ade0d2781d699ef69174eb",
+                "37a027887fa66b201a357ad3526267f125d1bb0bb294094444e3022179dd0624",
+                "da5095118d0cc2f6817775d8e53917bc727135b256a48e078d3a58a292eb155a",
+                "9ba524e03c6713dc846511c1d7d3d74a8d3ab0f85e0596b6a2e252723f97632b",
+                "170d45a32e4951e34006c5b69a667fecd239bd487733a5728290f4a5663e23a9",
+                "f173d9653c7bfba55783a964c05809d645cebb9d1425fa05f2a35431ec359851",
+                "76c630b6f3d816341e184285e4cf5bb66cb9badee08123e52ad83f8facf7733e",
+                "8575fdc8d6cc05993dbca87d7a4203bda77a49663dd69c3778e0525b8fc58abe",
+                "35c03f3c5a57175781b9c19426eaf4578dd5ae282ba517e1c47ba3c5cd95441d",
+                "d68cb8ce1000667ec139cb3c98f5c4331eef6699b40c231d97debfa398b9ab4d",
+                "721ca4c115d5880935c9ac7c7cdda2050fe614b0be98056cc0418fbc8b764cc5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.0002465871651380546
+            },
+            "exampleSites": [
+                "www.nutaku.net",
+                "smytten.com",
+                "www.archdaily.com",
+                "www.t-mobile.com",
+                "gng.com",
+                "www.yourparkingspace.co.uk",
+                "www.canstarblue.com.au",
+                "www.bigbustours.com",
+                "www.buffalowildwings.com",
+                "www.nofrills.ca",
+                "www.godigit.com",
+                "www.hungama.com",
+                "www.techjockey.com",
+                "www.motel6.com",
+                "www.airasia.com",
+                "www.tax1099.com",
+                "www.marcustheatres.com",
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "bellevue.nzz.ch"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01",
+                "sdk-02",
+                "sdk-04",
+                "sdk-101",
+                "sdk-03",
+                "sdk-06"
+            ],
+            "apis": {},
+            "sites": 37,
+            "prevalence": 0.000253,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.0002465871651380546
+            },
+            "exampleSites": [
+                "www.icc-cricket.com",
+                "www.yourparkingspace.co.uk",
+                "www.godigit.com",
+                "www.vedantu.com",
+                "gng.com",
+                "t-mobile.com",
+                "www.olx.co.id",
+                "www.motel6.com",
+                "www.airasia.com",
+                "www.tax1099.com",
+                "www.canstarblue.com.au",
+                "www.nzz.ch",
+                "www.hungama.com",
+                "www.techjockey.com",
+                "www.easemytrip.com",
+                "www.oyorooms.com",
+                "myaccount.gng.com",
+                "www.yesstyle.com",
+                "www.onmanorama.com",
+                "www.canstar.com.au"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/moe_webSdk_moe_sdk\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f65457d17f71b55f0e3316f49ccd91fb7884393dcf4dfe449a59fb519da34eab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aventon.com",
+                "www.aventon.com",
+                "www.pch.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/moe_webSdk_shopify\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fd38c0001f0557e6967693b5f8457a0187a0282d2495ca653c4a541ae4424044"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aventon.com",
+                "www.aventon.com",
+                "www.pch.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 7,
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "NavigatorUAData.prototype.platform": 7,
+                "Document.cookie getter": 7,
+                "Document.cookie setter": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Navigator.prototype.permissions": 4,
+                "Navigator.prototype.onLine": 5
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "1d3268ea86428a9729b8d62f1f559b0f0132436649f8a973ee6a78812901436c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072008,
+                    "length": 36,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "moe_c_s": {
+                    "ttl": 63072005,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "moe_u_d": {
+                    "ttl": 63072008,
+                    "length": 96,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072006,
+                    "length": 135,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aventon.com",
+                "gng.com",
+                "locations.papamurphys.com",
+                "myaccount.gng.com",
+                "www.aventon.com",
+                "www.buffalowildwings.com",
+                "www.pch.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/QQYTJ1B8LDZ2MW5B1OYKMFPH",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "851c35e872e8205ee564e48cda21d4a0a690c15e7970c669a3bc57905c6e738b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aventon.com",
+                "www.aventon.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 9,
+                "Navigator.prototype.userAgent": 9,
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 7,
+                "NavigatorUAData.prototype.getHighEntropyValues": 7,
+                "NavigatorUAData.prototype.platform": 7,
+                "Document.cookie getter": 8,
+                "Document.cookie setter": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Navigator.prototype.permissions": 4,
+                "Notification.permission": 2,
+                "Navigator.prototype.storage": 2,
+                "Navigator.prototype.onLine": 7
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "7e2a758f265ce52b3f6c84a518fe5709c20bd9e029b46291787c3a85688ebeb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072007,
+                    "length": 36,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "moe_c_s": {
+                    "ttl": 63072005,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "moe_u_d": {
+                    "ttl": 63072005,
+                    "length": 98,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072005,
+                    "length": 135,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzz.ch",
+                "www.9now.com.au",
+                "www.airasia.com",
+                "www.archdaily.com",
+                "www.canstar.com.au",
+                "www.canstarblue.com.au",
+                "www.khaleejtimes.com",
+                "www.nzz.ch",
+                "www.yourparkingspace.co.uk"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/QRMGZV0ZT5KW43FWDS9EFX9B",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7a137df05b459d3717f819f07078723bfb8395a2951fcbccdb7536907c756dac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nzz.ch",
+                "www.nzz.ch"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_101\\/versions\\/2\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Navigator.prototype.permissions": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.onLine": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "592c6801bea51580efe1372e8fcf53b9a882ff8e55704be8aa5925731fb81513"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_c_s": {
+                    "ttl": 63072003,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "moe_u_d": {
+                    "ttl": 63072017,
+                    "length": 163,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "moe_uuid": {
+                    "ttl": 63072017,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072017,
+                    "length": 135,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "moe_i_m": {
+                    "ttl": 63072006,
+                    "length": 72,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_101\\/versions\\/2\\/moe_webSdk_webp\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7286be4c193596c31d83b2323432021de3ca79d5ac5545a7e6a6f0b26f1a91f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/SPJUIVHAUP6GA3T6R89P77XZ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a09fa0f7023caf3354c3bd769491a73add2e6db6665df0b7867ba5809dc4213b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_101\\/versions\\/2\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/device\\/add",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000006849643476057072,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/SPJUIVHAUP6GA3T6R89P77XZ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/SPJUIVHAUP6GA3T6R89P77XZ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_1\\/sdk\\.gtm\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ab51398bab5370998265d1cdaf055e17934b1b0dff209dac82c18bf5861b7717"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hardwarezone.com.sg",
+                "www.straitstimes.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_1\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.permissions": 2,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Notification.permission": 2,
+                "Navigator.prototype.storage": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "d7f525f3d68a1037bd605192d6a959f726f62ddbab13516fa2af2eedda7b3d9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072009,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hardwarezone.com.sg",
+                "gng.com",
+                "www.bayut.com",
+                "www.dubizzle.com.eg",
+                "www.hindustantimes.com",
+                "www.livehindustan.com",
+                "www.straitstimes.com",
+                "www.zameen.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/moe_webSdk_webp\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "684a89f22338c86d50e9c1c56c8a1309121b3bc88df4b0992cb812ca13c6da3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "www.buffalowildwings.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/web\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04",
+                "sdk-101",
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "86406a30f04aa2e75cf60409fe44ab1b557b827d3ae413d68164cdc82ecb9082",
+                "eeaec889c051c592aaa73970eb2097f8c468af15f26eabf9e5eb741bc1f9b502",
+                "e74a1bf2a7d3948b7c64a6c6e16152208e3011a9d8a8074e8962aaa46c8fb07f",
+                "333f6b252b5fb488e3230b547b1e5820c1319f071757611fb8dcf958d96e682d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "secure.t-mobile.com",
+                "t-mobile.com",
+                "www.buffalowildwings.com",
+                "www.easemytrip.com",
+                "www.manoramaonline.com",
+                "www.onmanorama.com",
+                "www.saregama.com",
+                "www.t-mobile.com",
+                "www.yesstyle.com",
+                "yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/web\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04",
+                "sdk-101",
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "secure.t-mobile.com",
+                "t-mobile.com",
+                "www.buffalowildwings.com",
+                "www.easemytrip.com",
+                "www.manoramaonline.com",
+                "www.onmanorama.com",
+                "www.saregama.com",
+                "www.t-mobile.com",
+                "www.yesstyle.com",
+                "yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/YNV2PCFI5LWFT7B64M9WVMR1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bfa95d4aeaa9bec552cfa828bdcd3d28831cf492fb211c52f104e4fd1626ac1c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "myaccount.gng.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "www.buffalowildwings.com",
+                "www.yesstyle.com",
+                "yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/sdk\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04",
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "5ba1933ac8492f0534ddb16bdde02bc3885329588438e7f9112a7864742ec9b0",
+                "e3a46aa79012e2865beb26e7c67b91521e96e921822711f32e4cc084b62210de",
+                "cc876cf5f07a7558ab47d1d6b5daa5e46e90ad657023f5cd8a19c20ba918cfcd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/sdk\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04",
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gng.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/webpush\\/releases\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "investingnews.com",
+                "smytten.com",
+                "www.bayut.com",
+                "www.dubizzle.com.eg",
+                "www.livemint.com",
+                "www.marcustheatres.com",
+                "www.nutaku.net",
+                "www.olx.com.pk",
+                "www.oyorooms.com",
+                "www.techjockey.com",
+                "www.vedantu.com",
+                "www.zameen.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/6BWSZQND06UB6QLJH0S73OG3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "26abe9f1361da9d953aee5ef775c09795335ca5267eae259050fb856b2fd2000"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "papamurphys.com",
+                "locations.papamurphys.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/6BWSZQND06UB6QLJH0S73OG3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "papamurphys.com",
+                "locations.papamurphys.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/sdk\\/fetch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/web\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "86406a30f04aa2e75cf60409fe44ab1b557b827d3ae413d68164cdc82ecb9082",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t-mobile.com",
+                "secure.t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-101"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "t-mobile.com",
+                "www.t-mobile.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_3\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fd8f30149df250a913c752fffe774d653a3c641f627f6bcec0baa3ce74df5de1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072011,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellbeingnutrition.com",
+                "www.manoramaonline.com",
+                "www.onmanorama.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/sdk\\.gtm\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ab51398bab5370998265d1cdaf055e17934b1b0dff209dac82c18bf5861b7717"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.archdaily.com",
+                "www.canstar.com.au"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/M3RS8KIIGGXQL493TPP0YQG2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3f4e4fcbc6413f1d03529d186973af2469cb3b88894612f2ce788364467d91e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.archdaily.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/versions\\/2\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 1,
+                "NavigatorUAData.prototype.getHighEntropyValues": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.permissions": 1,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7e2a758f265ce52b3f6c84a518fe5709c20bd9e029b46291787c3a85688ebeb1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigbustours.com",
+                "www.bigbustours.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/1ZKWEBQESWF9VZJ6ZN5K8803",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb4ed387c0bb9005369788e2704fe1819fca7a1452662fc8e4dfe75167cd3d46"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buffalowildwings.com",
+                "www.buffalowildwings.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/EAVOFKO54J60ZD376LEG3CGX",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-02"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de7ce452dbe04a1e49814d32ca6a597200efb13d634a532f77cfcdf4d4afe4c4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canstar.com.au",
+                "www.canstarblue.com.au"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/versions\\/2\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.onLine": 3,
+                "Navigator.prototype.permissions": 2,
+                "Notification.permission": 1,
+                "Navigator.prototype.storage": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1d3268ea86428a9729b8d62f1f559b0f0132436649f8a973ee6a78812901436c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072006,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "moe_c_s": {
+                    "ttl": 63072003,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "moe_u_d": {
+                    "ttl": 63072006,
+                    "length": 96,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072005,
+                    "length": 136,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foxwoods.com",
+                "www.foxwoods.com",
+                "www.nutaku.net",
+                "www.tax1099.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/JOCHEVWF8ECM6NH0IDU80L61",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "godigit.com",
+                "www.godigit.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_1\\/versions\\/2\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.permissions": 3,
+                "Notification.permission": 3,
+                "Navigator.prototype.storage": 3,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d7f525f3d68a1037bd605192d6a959f726f62ddbab13516fa2af2eedda7b3d9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_uuid": {
+                    "ttl": 63072004,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com",
+                "www.zameen.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_1\\/versions\\/2\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/IUYPWXMD12YX22V9Z3MLPCAJ",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3f4e4fcbc6413f1d03529d186973af2469cb3b88894612f2ce788364467d91e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthshots.com",
+                "www.healthshots.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/versions\\/2\\.79\\.02\\/moe_webSdk\\.min\\.latest\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d3268ea86428a9729b8d62f1f559b0f0132436649f8a973ee6a78812901436c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "moe_c_s": {
+                    "ttl": 63072003,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "moe_u_d": {
+                    "ttl": 63072003,
+                    "length": 90,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "moe_uuid": {
+                    "ttl": 63072003,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "moe_s_n": {
+                    "ttl": 63072003,
+                    "length": 137,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartjane.com",
+                "www.iheartjane.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/FBMS77MLGF4QMXGVHT88GWLW",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "96a77ba33c575df6c73eb630f2fc32491b635f96ed86cec1689982193be788b2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iheartjane.com",
+                "www.iheartjane.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "joom.com",
+                "www.nzz.ch",
+                "www.yourparkingspace.co.uk"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/versions\\/2\\/serviceworker_cdn\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "293bf47916ffada7e90a23278870d4eb52ab036a7a57e8af36bf1ef56855d257"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_2\\/moe_webSdk_webp\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1f579781430a43759ab0a37c7c4d86d38f90ac7392056c8109464366288e3c26"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "khaleejtimes.com",
+                "www.khaleejtimes.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_3\\/versions\\/2\\/moe_webSdk_webp\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Document.cookie getter": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "403c71b5fedd3b38fbe18f4899709072a27adf86381bbd7e190d4ea6eef3531c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "manoramaonline.com",
+                "www.manoramaonline.com",
+                "www.onmanorama.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/Q36ID3A09SRSI4L50VF5IV8S",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db8f6620ae4cf58f4938abbc28bbac0b78807f9007ffa6ebfb0385555c08ed3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marcustheatres.com",
+                "www.marcustheatres.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/M7VT5L14QFA5434ELXHZ4RL9",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a29f3ba4507aa41402afc46ca54c3dfd7d99866d6215ecc2956017c154cb984b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxi.ca",
+                "www.nofrills.ca",
+                "www.yourindependentgrocer.ca"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/NEUUQZMCZPNNF4GFNLK17C64",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "18b71924e886f93568bebde1924488699978da69dfc88a8ba85cfc120179a755"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motel6.com",
+                "www.motel6.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/NEUUQZMCZPNNF4GFNLK17C64",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "motel6.com",
+                "www.motel6.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/55TBP4GFK6QKVYALK1D0PXKA",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3f4e4fcbc6413f1d03529d186973af2469cb3b88894612f2ce788364467d91e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutaku.net",
+                "www.nutaku.net"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v2\\/sdk\\/report\\/55TBP4GFK6QKVYALK1D0PXKA",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutaku.net",
+                "www.nutaku.net"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/web\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1ea07a1e51a389c8de07120ae5c2e432e9dd8f4fbd6f92489f185b0523a3fd4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "onmanorama.com",
+                "www.onmanorama.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v1\\/experiences\\/web\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "onmanorama.com",
+                "www.onmanorama.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live\\/v2\\/stats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-03",
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "onmanorama.com",
+                "www.techjockey.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/JTOEBKCYKBMDJSB68UG2JA47",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7b9c6dded9d89eceb6817caa6f8216281cf4c01648a3f8f4c5a466d3be227b82"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "revolvermag.com",
+                "www.revolvermag.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/OAYBL6F43HCJG0WD8ZHF4CHD",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d724f59d98b0004283194ff89db58a8515f216aa4c79497fbcd723a070cfe015"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "straitstimes.com",
+                "www.straitstimes.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/KBDAKB333LFLJBPOJPO8G19T",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-03"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db9baec167ff25fa82ef1155cab7e6cf1dcb6039d9913a0b6fac96eee32ab945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techjockey.com",
+                "www.techjockey.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/template-builder\\/popup\\/v2\\.2\\.48\\/dist\\/pro\\/css\\/preview\\.pro\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3fd242f3b14e3d6131713f2322650ecce6a87219b95a98c23592ddaeff50b9b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techjockey.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/template-builder\\/popup\\/v2\\.2\\.48\\/dist\\/pro\\/js\\/preview\\.pro\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "68d0edc047a12b5ed51a382979af8dbf4e3746b965a36c491ba2a4c5bac4ba52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techjockey.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/inbound-ui\\/html-template\\/assets\\/lib\\/template-builder-validator-v2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "10581ac1cef54fa4642dae1f9501978084343f303e214d54fe52914399318530"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techjockey.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/3VTRRG9T5M0L5V3S53GZ10R5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9995ab77a0e8fabb58a536ffd95b475c35c35163afdc62751ff12d71cd7a6562"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vedantu.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live\\/69a05c2c21af6c87585d7df5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "629cea94b2cce75916ba542c52d2a476d5051589544cfe74553865b9eca43523"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "vedantu.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/campaigns\\/inapp\\/live\\/69a05c2c21af6c87585d7df5",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-01"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "moe_uuid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "vedantu.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/template-builder\\/popup\\/v2\\.2\\.48\\/dist\\/free\\/editor\\/css\\/group-3\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "037527c991276099519fddfbd4d0dcc0427b1d3da0f093fca102d307d2b511f7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vedantu.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/template-builder\\/popup\\/v2\\.2\\.48\\/dist\\/free\\/editor\\/js\\/group-3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.appVersion": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80a092c7b5dd2f1a14c00327eaaf61995211264ab3d31af0f0bfc9fd0b12a8f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vedantu.com",
+                "www.vedantu.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/v3\\/sdkconfig\\/web\\/5XH7ED1KEU3IO57JTWLXTOIF",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sdk-04"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c704c6b7523874a71373e57ba1f2914259acec31c3fbd1bf33df4ae4cb2b43ef"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesstyle.com",
+                "www.yesstyle.com"
+            ]
+        },
+        {
+            "rule": "moengage\\.com\\/release\\/dc_4\\/versions\\/2\\/moe_webSdk_webp\\.min\\.latest\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.indexedDB": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.maxTouchPoints": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "684a89f22338c86d50e9c1c56c8a1309121b3bc88df4b0992cb812ca13c6da3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "yesstyle.com",
+                "www.yesstyle.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000425,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7771428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13714285714285715
+        },
+        {
+            "domain": "splunkcloud.com",
+            "prevalence": 0.03238095238095238
+        },
+        {
+            "domain": "quantummetric.com",
+            "prevalence": 0.022857142857142857
+        },
+        {
+            "domain": "static-nzz.ch",
+            "prevalence": 0.01904761904761905
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.011428571428571429
+        }
+    ],
+    "types": {
+        "Script": 89,
+        "XHR": 189,
+        "Ping": 16,
+        "Preflight": 56,
+        "Other": 26,
+        "Fetch": 11,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "ns-1616.awsdns-10.co.uk",
+        "ns-342.awsdns-42.com",
+        "ns-903.awsdns-48.net",
+        "ns-1208.awsdns-23.org"
+    ]
+}

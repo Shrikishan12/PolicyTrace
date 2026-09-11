@@ -1,0 +1,81 @@
+{
+    "domain": "majelan.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "player.voxa"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "majelan\\.com\\/voxa-player\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player.voxa"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "af8c7e44b17abaf8f61d6463348291168489cd3630586ebeeaa79733955b518c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centrepresseaveyron.fr",
+                "www.lindependant.fr",
+                "www.midilibre.fr"
+            ]
+        },
+        {
+            "rule": "majelan\\.com\\/index-Ceb87Jic\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player.voxa"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "633a16569682a1be0d1c89eaa9e5b7ded6ce481404e3fa690b98687e30659ec3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centrepresseaveyron.fr",
+                "www.lindependant.fr",
+                "www.midilibre.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "vera.ns.cloudflare.com",
+        "gerald.ns.cloudflare.com"
+    ]
+}

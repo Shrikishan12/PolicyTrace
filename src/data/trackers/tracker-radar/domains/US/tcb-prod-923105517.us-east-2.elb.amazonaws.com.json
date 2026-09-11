@@ -1,0 +1,64 @@
+{
+    "domain": "tcb-prod-923105517.us-east-2.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "js.probe.tcbk.com",
+            "resolved": "tcb-prod-923105517.us-east-2.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "tcb-prod-923105517\\.us-east-2\\.elb\\.amazonaws\\.com\\/application\\/hp\\/probe-request",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "js.probe.tcbk.com",
+                    "resolved": "tcb-prod-923105517.us-east-2.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "a801b2b54bc9a29b08cb3c54ca35f3750f2e22da90a0eccceec1c8eaf7c9e6bc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tcbk.com",
+                "www.tcbk.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "onlineaccess1.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

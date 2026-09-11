@@ -1,0 +1,65 @@
+{
+    "domain": "lightning-recommend.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lightning-recommend\\.io\\/js\\/main\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf3d2b5022e0cd84cc0687c7830d35c8b7c3af3ceba3d355eb0753253ceb7e09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "l-recommend-sid": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kohnan-eshop.com",
+                "www.loft.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-464.awsdns-58.com",
+        "ns-798.awsdns-35.net",
+        "ns-1483.awsdns-57.org",
+        "ns-1682.awsdns-18.co.uk"
+    ]
+}

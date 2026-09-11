@@ -1,0 +1,153 @@
+{
+    "domain": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "aero.bankofamerica.com",
+            "resolved": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "prod-lb-8-1772099769\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/kurt\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "aero.bankofamerica.com",
+                    "resolved": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "4945286da851b697d172c2a180a31674dc488b7b8e523ea44350eba999680245",
+                "6df96fc4bc7170a13f0a88ad4543bb87623d9ea67aa57de64c323505bc6bdefa",
+                "bebd2fc11dc069877bb67997a6873ef901a71fd7cd9bd153f53727a55df5c3f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankofamerica.com",
+                "secure.bankofamerica.com",
+                "web.bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "prod-lb-8-1772099769\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/C5ib",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "aero.bankofamerica.com",
+                    "resolved": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "c2a26c0d5ff0387368a32e22e9e2239de1a99e9d262785d0e66be8ecc2f9057f",
+                "4ccdb794ca64c8477ae3ea7e3c0515b87360333f901907c13a3e436bef75db16",
+                "e32d4b6c5c276a7945ddf1d3177e0d680106767f3636267560c567f5696e772e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_gpv_url": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "bankofamerica.com",
+                "secure.bankofamerica.com",
+                "web.bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "prod-lb-8-1772099769\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/suboban\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "aero.bankofamerica.com",
+                    "resolved": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "1fde91065be795ac75b13674ec4e0799a761b682d3396b0240b9268d01a49736",
+                "0070a45775e41066bf2d14d01bac33c311e070f308b1a5de98f55840600ec894",
+                "ee00a7695ff8009371376284773c6755d296232231ab5a5db4efbd651dcafc50"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankofamerica.com",
+                "secure.bankofamerica.com",
+                "web.bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        },
+        {
+            "rule": "prod-lb-8-1772099769\\.us-east-1\\.elb\\.amazonaws\\.com\\/30306\\/C5ib",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "aero.bankofamerica.com",
+                    "resolved": "prod-lb-8-1772099769.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "3bcdeedf91e9b8d7646c6c03f1db81ba6edbfa7ee5f4a650cba456051d0a188b",
+                "3f6798d9164bd3ed12c3af1e3c4c2abb43430f416df5f8ef7334ba444cf38d39",
+                "20be38ba6a81a02a40fd9b08c6458cefe38504b048ff08abb8e2e0f045944e9b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bankofamerica.com",
+                "secure.bankofamerica.com",
+                "web.bankofamerica.com",
+                "www.bankofamerica.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 8,
+        "Document": 4,
+        "XHR": 4
+    },
+    "nameservers": []
+}

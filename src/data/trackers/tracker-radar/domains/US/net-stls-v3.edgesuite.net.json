@@ -1,0 +1,113 @@
+{
+    "domain": "net-stls-v3.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000171,
+    "sites": 25,
+    "subdomains": [
+        "p.typekit"
+    ],
+    "cnames": [
+        {
+            "original": "p.typekit.net",
+            "resolved": "p.typekit.net-stls-v3.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "net-stls-v3\\.edgesuite\\.net\\/p\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p.typekit"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "p.typekit.net",
+                    "resolved": "p.typekit.net-stls-v3.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "566b739e9df5cb4c1ce82485ddedc40350d34248c461513d1c962fa05b93e159"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "adobe.com",
+                "account.adobe.com",
+                "acrobat.adobe.com",
+                "get.adobe.com",
+                "helpx.adobe.com"
+            ]
+        },
+        {
+            "rule": "net-stls-v3\\.edgesuite\\.net\\/p\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p.typekit"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [
+                {
+                    "original": "p.typekit.net",
+                    "resolved": "p.typekit.net-stls-v3.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "1c0ff118a4290c99f39c90abb38703a866e47251b23cca20266c69c812ccafeb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adobe.com",
+                "account.adobe.com",
+                "acrobat.adobe.com",
+                "business.adobe.com",
+                "color.adobe.com",
+                "community.adobe.com",
+                "contributor.stock.adobe.com",
+                "creativecloud.adobe.com",
+                "experienceleague.adobe.com",
+                "fonts.adobe.com",
+                "lightroom.adobe.com",
+                "photoshop.adobe.com",
+                "www.adobe.com",
+                "www.photoshop.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 5,
+        "Stylesheet": 14
+    },
+    "nameservers": []
+}

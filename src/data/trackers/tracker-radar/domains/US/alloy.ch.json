@@ -1,0 +1,94 @@
+{
+    "domain": "alloy.ch",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "contextual"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "alloy\\.ch\\/client-sdk\\/2\\.x\\.x\\/alloy-sdk\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b26fd97b4bffdc48db0a466006facdf5e276649de4aec4e32d4f04e7d25cffd6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "search.ch",
+                "www.beobachter.ch",
+                "www.cash.ch"
+            ]
+        },
+        {
+            "rule": "alloy\\.ch\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "contextual"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d33fb3e50799379146da482e7ad944b67d9145dae34689e03f61655bbfa26414",
+                "8c88ae31841e6f1f659e06be8748eb8d1f7fc2c3c5a265076132b149c1c86333",
+                "2a8f9ec1e068d2fd64563657f0aade9716795b9f0e24796d72a11fb7ab9f98aa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "search.ch",
+                "www.beobachter.ch",
+                "www.blikk.hu",
+                "www.cash.ch"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "ringier-advertising.ch",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns-1788.awsdns-31.co.uk",
+        "ns-345.awsdns-43.com",
+        "ns-808.awsdns-37.net",
+        "ns-1190.awsdns-20.org"
+    ]
+}

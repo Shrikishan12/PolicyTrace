@@ -1,0 +1,197 @@
+{
+    "domain": "snipcart.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "app",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "snipcart\\.com\\/api\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1f9cf3553855813d13af3962d5390fc7bb5922ea2bfab2c438c0a9050d8d1397",
+                "4149d5d939eb0ce7cfb65d46c7dec79922c1bddcc6846bbc825c8a1aca45e53b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "publicdomainreview.org",
+                "www.researchsquare.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/api\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gladkokken.no",
+                "pdimagearchive.org",
+                "publicdomainreview.org",
+                "www.mccombs.utexas.edu",
+                "www.monitoraudio.com",
+                "www.researchsquare.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\/default\\/snipcart\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Event.prototype.timeStamp": 4,
+                "Navigator.prototype.vendor": 4,
+                "Document.cookie getter": 4,
+                "window.innerWidth": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1719752a18bee1d9b3362043df35cff5f3de2688fbf0490404e49eb5af505d2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdimagearchive.org",
+                "www.mccombs.utexas.edu",
+                "www.monitoraudio.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.0\\/default\\/snipcart\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3fec90f2917c6fb918267e24e1f179116ad61bbdfd62808efa84446976df900d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdimagearchive.org",
+                "www.monitoraudio.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/api\\/sessions",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "426f662b3b3a2ae4adcfae629d4e71fb56061a56021938ab4717df891e49db1b",
+                "0b1a0785b470e095d42a7a813745025e1c40307933fb718133a7b678266004c0",
+                "5d5ec753090388492e2ae3594e596c0b5d341a6d9bbb87e025fcc2749b596ad0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdimagearchive.org",
+                "www.mccombs.utexas.edu",
+                "www.monitoraudio.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        },
+        {
+            "rule": "snipcart\\.com\\/themes\\/v3\\.9\\.0\\/l10n\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "6efea2551b1aecda23a4ec31599bbd0ec0dd2cf49dc981160c506c64f44813a9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pdimagearchive.org",
+                "www.mccombs.utexas.edu",
+                "www.monitoraudio.com",
+                "www.swallowtailgardenseeds.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9130434782608695
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.043478260869565216
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.043478260869565216
+        }
+    ],
+    "types": {
+        "XHR": 3,
+        "Preflight": 7,
+        "Script": 4,
+        "Stylesheet": 3,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "diva.ns.cloudflare.com",
+        "sri.ns.cloudflare.com"
+    ]
+}

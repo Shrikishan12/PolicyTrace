@@ -1,0 +1,163 @@
+{
+    "domain": "feathery.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "api",
+        "asset-images"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "feathery\\.io\\/api\\/panel\\/v20\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "salvationarmyusa.org",
+                "www.salvationarmyusa.org"
+            ]
+        },
+        {
+            "rule": "feathery\\.io\\/api\\/panel\\/v20\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "855ab2241c0c62a4ebbb37ee26dda512c7cb7fb1193fb00cf2b24031fcc7fbd6",
+                "17567fb8793e396a5509f20ea121b486ad2ba5957886c90373d68e1a029241e8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "salvationarmyusa.org",
+                "www.salvationarmyusa.org"
+            ]
+        },
+        {
+            "rule": "feathery\\.io\\/api\\/panel\\/session\\/v3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "feathery-user-id-b97e273c-baaf-4174-ad15-2f285f6686c8": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "salvationarmy.org",
+                "salvationarmyusa.org",
+                "www.salvationarmyusa.org"
+            ]
+        },
+        {
+            "rule": "feathery\\.io\\/api\\/panel\\/session\\/v3\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e1cc2e2cc14ebc1711378416df86509be39b7ee0005a197b898ff53aba60c11c",
+                "5182fb94611ee2243af665c6baa2bec09f8d92d640a032fce08df2dafaa5672f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "feathery-user-id-b97e273c-baaf-4174-ad15-2f285f6686c8": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "salvationarmy.org",
+                "salvationarmyusa.org",
+                "www.salvationarmyusa.org"
+            ]
+        },
+        {
+            "rule": "feathery\\.io\\/uploaded-images-1\\/uploaded_images\\/16613\\/2024-09-11T18%3A43%3A05\\.946162%2B00%3A00\\/shield\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "asset-images"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5d7dbdae54dc88eedae69f8f764477fc280b5acb374428305d0d7616169a5518"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "salvationarmy.org",
+                "salvationarmyusa.org",
+                "www.salvationarmyusa.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.6923076923076923
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.23076923076923078
+        },
+        {
+            "domain": "salvationarmyusa.org",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "Preflight": 6,
+        "Fetch": 6,
+        "Image": 3
+    },
+    "nameservers": [
+        "dns4.p01.nsone.net",
+        "dns1.p01.nsone.net",
+        "dns2.p01.nsone.net",
+        "dns3.p01.nsone.net"
+    ]
+}

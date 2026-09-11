@@ -1,0 +1,5196 @@
+{
+    "domain": "pure.cloud",
+    "owner": {
+        "name": "Genesys Telecommunications Laboratories, Inc.",
+        "displayName": "Genesys Telecommunications Laboratories"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0014,
+    "sites": 204,
+    "subdomains": [
+        "apps.usw2",
+        "apps.sae1",
+        "apps.euw2",
+        "apps.cac1",
+        "apps.aps1",
+        "api-cdn.usw2",
+        "api-cdn.euw2",
+        "api.usw2",
+        "api-cdn.cac1",
+        "api.cac1",
+        "api.euw2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/genesys\\.min\\.js",
+            "cookies": 0.000363,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 143,
+                "Navigator.prototype.product": 143,
+                "window.localStorage": 142,
+                "Date.prototype.getTime": 143,
+                "Navigator.prototype.platform": 124,
+                "Navigator.prototype.maxTouchPoints": 124,
+                "Screen.prototype.width": 124,
+                "Screen.prototype.height": 124,
+                "window.innerWidth": 124,
+                "window.innerHeight": 124,
+                "Navigator.prototype.language": 124,
+                "Navigator.prototype.onLine": 124,
+                "Document.cookie setter": 53,
+                "Document.cookie getter": 53
+            },
+            "sites": 146,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "ba16ee0481960da01d1b47369de30a512a85d5e8e171eaaabfee9d6df84c22ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.firstflorida.org",
+                "mayocreditunion.org",
+                "www.maurices.com",
+                "umassfive.coop",
+                "www.standardelectricsupply.com",
+                "www.lds.org",
+                "www.domesticandgeneral.com",
+                "myaccount.swgas.com",
+                "www.redkap.com",
+                "www.mlgw.com",
+                "www.viarail.ca",
+                "www.kitchenaid.ca",
+                "history.iowa.gov",
+                "www.ccuky.org",
+                "www.jennair.com",
+                "www.blumenthalarts.org",
+                "www.voxi.co.uk",
+                "consultaremedios.com.br",
+                "www.three.co.uk",
+                "www.kitchenaid.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/thirdparty-plugins\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 102
+            },
+            "sites": 147,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "1d5ed0b7be739944fba8209b70181ca239ecb830b2c35306e676c5b0e2813136"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "register.ridgidpower.com",
+                "gfiber.com",
+                "www.amica.com",
+                "www.pascocountyfl.gov",
+                "support-en.wd.com",
+                "www.kitchenaid.ca",
+                "www.aes-ohio.com",
+                "www.ryobitools.com",
+                "www.servsafe.com",
+                "www.hostgator.com",
+                "www.sportsmansguide.com",
+                "www.metrocu.org",
+                "www.sunwing.ca",
+                "www.poferries.com",
+                "coretecfloors.com",
+                "www.accesscatalog.com",
+                "secure.nsandi.com",
+                "www.owenscorning.com",
+                "www.viarail.ca",
+                "www.forumcu.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/journey\\/messenger-plugins\\/offersHelper\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "4a8b1463d475e411d874ac629409c1ef52da27aca1ef6204766488a4c3ba40d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.lds.org",
+                "secure.ipage.com",
+                "www.forumcu.com",
+                "www.servsafe.com",
+                "www.sonic.com",
+                "whirlpool.com",
+                "mysecure.vcm.com",
+                "zillow.zendesk.com",
+                "www.fcbanking.com",
+                "santanderconsumerusa.com",
+                "www.azhumane.org",
+                "www.kitchenaid.com",
+                "www.electionsquebec.qc.ca",
+                "www.maytag.com",
+                "www.sandisk.com",
+                "myaccount.swgas.com",
+                "www.iowa.gov",
+                "jeld-wen.com",
+                "www.voxi.co.uk",
+                "www.ialottery.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messenger\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 136
+            },
+            "sites": 142,
+            "prevalence": 0.000973,
+            "cnames": [],
+            "responseHashes": [
+                "ece5f756fb71a790ab85e9f5b8bcf54b0f687357f506d019e422bc05463d335f"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "support-en.sandisk.com",
+                "www.domain.com",
+                "www.iqcu.com",
+                "www.aesindiana.com",
+                "www.jennair.com",
+                "support-en.wd.com",
+                "www.purduefed.com",
+                "www.ryobitools.com",
+                "www.nsandi.com",
+                "globalcu.org",
+                "www.viarail.ca",
+                "www.drpower.com",
+                "coretecfloors.com",
+                "www.firstflorida.org",
+                "www.smud.org",
+                "jeld-wen.com",
+                "www.natptax.com",
+                "www.nuskin.com",
+                "www.oge.com",
+                "www.azurestandard.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messenger-renderer\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 125
+            },
+            "sites": 142,
+            "prevalence": 0.000973,
+            "cnames": [],
+            "responseHashes": [
+                "d871d24222959db5355e6521b57bd54db61fc8d29c166dc724fa7a68224f431d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.electionsquebec.qc.ca",
+                "www.accesscorrections.com",
+                "www.pcci.edu",
+                "www.servsafe.com",
+                "www.pascocountyfl.gov",
+                "mayocreditunion.org",
+                "www.ovoenergy.com",
+                "andersontuftex.com",
+                "www.ryobitools.com",
+                "www.sunsetter.com",
+                "www.natptax.com",
+                "www.accesscatalog.com",
+                "academy.abeka.com",
+                "www.dyson.com.au",
+                "www.sdmi-lv.com",
+                "shawfloors.com",
+                "www.hostgator.com",
+                "generac.com",
+                "www.redkap.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/cxbus\\/cxbus\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 145,
+                "Document.cookie getter": 2
+            },
+            "sites": 146,
+            "prevalence": 0.001,
+            "cnames": [],
+            "responseHashes": [
+                "10589191851e6aae71d8f623da4cd0f1b12a470b7584ff5b46e05e79e0de84f0",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "showingtime.com",
+                "www.sdmi-lv.com",
+                "www.lds.org",
+                "santanderconsumerusa.com",
+                "support-en.sandisk.com",
+                "www.globalcu.org",
+                "www.amana.com",
+                "support-en.wd.com",
+                "www.ialottery.com",
+                "www.jennair.com",
+                "www.sportsmansguide.com",
+                "shop.lively.com",
+                "secure.nsandi.com",
+                "www.aesindiana.com",
+                "www.natptax.com",
+                "globalcu.org",
+                "www.dyson.com.au",
+                "www.deltadentalma.com",
+                "www.drpower.com",
+                "www.bluerewards.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/thirdpartyplugins\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 142,
+                "Event.prototype.timeStamp": 142
+            },
+            "sites": 145,
+            "prevalence": 0.000993,
+            "cnames": [],
+            "responseHashes": [
+                "bbdc7699aaca2684917a402c934052517e776b95b21db7059ff88a8562ca357d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.amana.com",
+                "laketrust.org",
+                "consultaremedios.com.br",
+                "www.generac.com",
+                "www.rsfh.com",
+                "www.pascocountyfl.gov",
+                "www.nuskin.com",
+                "www.kemba.org",
+                "santanderconsumerusa.com",
+                "www.superatv.com",
+                "www.sonic.com",
+                "www.duluthtrading.com",
+                "ediblearrangements.com",
+                "mysecure.vcm.com",
+                "www.servsafe.com",
+                "weathertech.com",
+                "gfiber.com",
+                "academy.abeka.com",
+                "www.maurices.com",
+                "www.viarail.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messagingMiddleware\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "b61bc3e27858e7cee4b645199c85019cbab9568f96cc386edbc2013147d4b6e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.duluthtrading.com",
+                "chryslercapital.com",
+                "www.oge.com",
+                "www.kitchenaid.com",
+                "www.forumcu.com",
+                "www.fairfaxwater.org",
+                "www.spypoint.com",
+                "www.kfcu.org",
+                "jeld-wen.com",
+                "www.hostgator.com",
+                "woodmizer.com",
+                "andersontuftex.com",
+                "www.xerox.com",
+                "www.kitchenaid.ca",
+                "www.aes-ohio.com",
+                "www.ithinkfi.org",
+                "www.lds.org",
+                "myaccount.swgas.com",
+                "www.aesindiana.com",
+                "www.drpower.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/muiVendor\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 137
+            },
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "bbc0fd4ab2e569d3b67f674b11d62e4f6727052c02366a86783d646eea449639",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.globalcu.org",
+                "www.sonic.com",
+                "www.support.xerox.com",
+                "www.azhumane.org",
+                "mayocreditunion.org",
+                "www.owenscorning.com",
+                "jeld-wen.com",
+                "kitchenaid.com",
+                "www.dyson.com.au",
+                "history.iowa.gov",
+                "www.bluehost.com",
+                "www.blumenthalarts.org",
+                "www.maytag.com",
+                "www.pascocountyfl.gov",
+                "santanderconsumerusa.com",
+                "www.dyson.co.uk",
+                "www.lookers.co.uk",
+                "www.generac.com",
+                "www.ccuky.org",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/defaultVendors\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "c213c8d18af80ec3b69a28a6091110a54b656ae106e6c3dbe799edc768eb2f30"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.weathertech.com",
+                "www.pcci.edu",
+                "www.ediblearrangements.com",
+                "www.doterra.com",
+                "jeld-wen.com",
+                "www.maurices.com",
+                "support-en.wd.com",
+                "libertysafe.com",
+                "www.ovoenergy.com",
+                "www.lookers.co.uk",
+                "www.lacapfcu.org",
+                "www.xerox.com",
+                "www.tandemdiabetes.com",
+                "drpower.com",
+                "www.jeld-wen.com",
+                "www.hostgator.com",
+                "www.bestbuy.ca",
+                "chryslercapital.com",
+                "desktop.arcgis.com",
+                "www.pascocountyfl.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/main\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 137,
+                "Navigator.prototype.platform": 137,
+                "Navigator.prototype.maxTouchPoints": 137,
+                "Navigator.prototype.languages": 136
+            },
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "95e8b8c125ff5a9edd232e3534b94010d2ea87fb58df3267aa63b5fd888cfa3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.aesindiana.com",
+                "www.azurestandard.com",
+                "www.admiral.com",
+                "www.sonic.com",
+                "www.owenscorning.com",
+                "www.mlgw.com",
+                "ediblearrangements.com",
+                "www.generac.com",
+                "www.domesticandgeneral.com",
+                "aop.com",
+                "www.sportsmansguide.com",
+                "www.superatv.com",
+                "www.ovoenergy.com",
+                "www.firstflorida.org",
+                "www.domain.com",
+                "www.gladiatorgarageworks.com",
+                "laketrust.org",
+                "www.azhumane.org",
+                "whirlpool.com",
+                "desktop.arcgis.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/engage\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "c3345c3b3e70a7f875d38c9b45d80adeb81f98bf995695507d5fd63de0a5c86d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.metrocu.org",
+                "andersontuftex.com",
+                "duluthtrading.com",
+                "www.sonic.com",
+                "smarty.co.uk",
+                "support-en.wd.com",
+                "www.duluthtrading.com",
+                "www.doterra.com",
+                "www.globalcu.org",
+                "www.point-broadband.com",
+                "www.admiral.com",
+                "www.standardelectricsupply.com",
+                "www.rsfh.com",
+                "www.aligncu.com",
+                "www.kitchenaid.com",
+                "ediblearrangements.com",
+                "www.hostgator.com",
+                "www.azurestandard.com",
+                "www.kemba.org",
+                "www.firstflorida.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/broadcast\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "BroadcastChannel.prototype.constructor": 136
+            },
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "2a6652f1da7adb99e50134c0add2744ea58790779dd4eaa9e8698a81c1beacfe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.weathertech.com",
+                "www.servsafe.com",
+                "www.aes-ohio.com",
+                "www.tgw.com",
+                "jeld-wen.com",
+                "shawfloors.com",
+                "www.firstflorida.org",
+                "desktop.arcgis.com",
+                "www.scottishwidows.co.uk",
+                "www.domesticandgeneral.com",
+                "myaccount.swgas.com",
+                "www.drpower.com",
+                "www.smud.org",
+                "www.nuskin.com",
+                "www.abeka.com",
+                "www.mlgw.com",
+                "santanderconsumerusa.com",
+                "www.point-broadband.com",
+                "consultaremedios.com.br",
+                "www.kfcu.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messengerrenderer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 137,
+                "Navigator.prototype.platform": 136,
+                "Navigator.prototype.maxTouchPoints": 136,
+                "window.localStorage": 2
+            },
+            "sites": 140,
+            "prevalence": 0.000959,
+            "cnames": [],
+            "responseHashes": [
+                "1a9cd89e4eeea0df214e3701b716abc44cc14e4c5787eb26b44e23d2890a2636"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ediblearrangements.com",
+                "www.dyson.co.uk",
+                "www.ialottery.com",
+                "andersontuftex.com",
+                "www.iqcu.com",
+                "secure.nsandi.com",
+                "chryslercapital.com",
+                "www.gladiatorgarageworks.com",
+                "www.sunsetter.com",
+                "kitchenaid.com",
+                "www.jeld-wen.com",
+                "www.forumcu.com",
+                "jeld-wen.com",
+                "www.midamericanenergy.com",
+                "secure.ipage.com",
+                "weathertech.com",
+                "www.electionsquebec.qc.ca",
+                "www.smud.org",
+                "www.bchydro.com",
+                "www.bestbuy.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/i18n\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.000932,
+            "cnames": [],
+            "responseHashes": [
+                "11a5d02be94f8d0e683fc3b5c3cb13998072c0f3bd830543ee6967ab727914f1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.amica.com",
+                "andersontuftex.com",
+                "www.three.co.uk",
+                "www.iowa.gov",
+                "www.spypoint.com",
+                "www.whirlpool.com",
+                "www.abeka.com",
+                "www.mlgw.com",
+                "aop.com",
+                "www.lds.org",
+                "generac.com",
+                "www.sonic.com",
+                "www.electionsquebec.qc.ca",
+                "globalcu.org",
+                "www.sdmi-lv.com",
+                "www.mesaaz.gov",
+                "www.xerox.com",
+                "www.doterra.com",
+                "mayocreditunion.org",
+                "www.deltadentalwa.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/i18n\\/vendors\\/date-en\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.euw2",
+                "apps.cac1",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 136,
+            "prevalence": 0.000932,
+            "cnames": [],
+            "responseHashes": [
+                "825037dd2e1585ef91e06603dce1a4fea45f6aeb8b775138c13060de2ce38786",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.maurices.com",
+                "desktop.arcgis.com",
+                "www.smud.org",
+                "generac.com",
+                "laketrust.org",
+                "www.amana.com",
+                "www.electionsquebec.qc.ca",
+                "www.superatv.com",
+                "www.pcci.edu",
+                "www.mesaaz.gov",
+                "www.aligncu.com",
+                "www.globalcu.org",
+                "www.weathertech.com",
+                "www.jennair.com",
+                "www.kitchenaid.com",
+                "www.blumenthalarts.org",
+                "www.lds.org",
+                "www.bluehost.com",
+                "www.three.co.uk",
+                "www.firstflorida.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1c2d1a01-60bc-484c-b533-95ac77296b00\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abeka.com",
+                "athome.abeka.com",
+                "www.abeka.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1c2d1a01-60bc-484c-b533-95ac77296b00\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ec784c50501f5f7a44fa07817e607a874c792e815eadd0d930c79c65b657dade"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abeka.com",
+                "athome.abeka.com",
+                "www.abeka.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/journey\\/messenger-plugins\\/journey\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2",
+                "apps.euw2",
+                "apps.cac1"
+            ],
+            "apis": {
+                "Screen.prototype.height": 20,
+                "Screen.prototype.width": 20,
+                "window.innerHeight": 20,
+                "window.innerWidth": 20,
+                "Navigator.prototype.plugins": 20
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "a87644277c41bedc1558d02e5f90956ffd9950e9368cf12b955b1ee3187e88b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andersontuftex.com",
+                "coretecfloors.com",
+                "ediblearrangements.com",
+                "help.genesys.cloud",
+                "laketrust.org",
+                "libertysafe.com",
+                "lively.com",
+                "shawfloors.com",
+                "shop.lively.com",
+                "support-en.wd.com",
+                "www.amica.com",
+                "www.azurestandard.com",
+                "www.churchill.com",
+                "www.ediblearrangements.com",
+                "www.lively.com",
+                "www.rsfh.com",
+                "www.scottishwidows.co.uk",
+                "www.sunwing.ca",
+                "www.three.co.uk",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/cobrowse-next\\/sharer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 29,
+                "Navigator.prototype.onLine": 29,
+                "Navigator.prototype.languages": 29
+            },
+            "sites": 29,
+            "prevalence": 0.000199,
+            "cnames": [],
+            "responseHashes": [
+                "2fb6fe0bea6cbf5ea8be9f806b79e5a3aae12a915cc9c241ac2d034764871612"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.servsafe.com",
+                "www.owenscorning.com",
+                "aop.com",
+                "myaccount.swgas.com",
+                "laketrust.org",
+                "www.nuskin.com",
+                "shop.lively.com",
+                "www.metrocu.org",
+                "www.deltadentalwa.com",
+                "www.kfcu.org",
+                "www.standardelectricsupply.com",
+                "www.redkap.com",
+                "www.iqcu.com",
+                "mysecure.vcm.com",
+                "www.deltadentalma.com",
+                "www.westerndigital.com",
+                "umassfive.coop",
+                "lively.com",
+                "www.firstflorida.org",
+                "libertysafe.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/hub\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1"
+            ],
+            "apis": {},
+            "sites": 66,
+            "prevalence": 0.000452,
+            "cnames": [],
+            "responseHashes": [
+                "a7cc142243c898acf8c13c6e14c69ce795a7c100b67b2ab8aaeacf9c3258c48b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "www.point-broadband.com",
+                "www.mlgw.com",
+                "www.ccuky.org",
+                "mysecure.vcm.com",
+                "www.nsandi.com",
+                "www.aesindiana.com",
+                "www.sandisk.com",
+                "www.azurestandard.com",
+                "www.oge.com",
+                "help.genesys.cloud",
+                "www.rsfh.com",
+                "www.bestbuy.ca",
+                "www.lively.com",
+                "www.sunwing.ca",
+                "www.spypoint.com",
+                "www.ithinkfi.org",
+                "secure.nsandi.com",
+                "www.churchofjesuschrist.org",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/plugins\\/storagehub\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.sae1",
+                "apps.euw2",
+                "apps.cac1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 64,
+                "window.localStorage": 63,
+                "Document.cookie getter": 2
+            },
+            "sites": 65,
+            "prevalence": 0.000445,
+            "cnames": [],
+            "responseHashes": [
+                "7e16df5505910e0713dd1c5b4c4f24df4cd79868e5520adf377a3ce5201cdc79"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.bestbuy.ca",
+                "www.point-broadband.com",
+                "coretecfloors.com",
+                "shop.lively.com",
+                "www.westerndigital.com",
+                "www.rsfh.com",
+                "www.maurices.com",
+                "consultaremedios.com.br",
+                "www.jeld-wen.com",
+                "www.accesscatalog.com",
+                "www.churchofjesuschrist.org",
+                "www.superatv.com",
+                "www.ithinkfi.org",
+                "www.lively.com",
+                "aop.com",
+                "www.sdmi-lv.com",
+                "www.leupold.com",
+                "www.scottishwidows.co.uk",
+                "www.generacpowerproducts.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/plugins\\/launcher\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.sae1",
+                "apps.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consultaremedios.com.br",
+                "desktop.arcgis.com",
+                "www.owenscorning.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/plugins\\/messenger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.sae1",
+                "apps.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "consultaremedios.com.br",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ffce3e97d8a0bd2afff8a7d933fccc429b7a2ca128dd2597ac3b2678109104a9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af4e7201384e2bc156948681aee6cb8e1d6a8cfa3576359d4935b549ee47b3d3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09bd524dbec5302cd5b4ee839a858aee878210b0a5e772aa2121533fddc89ca0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/82c5a19d-0e11-40dd-92ee-246e84ec1f79\\/fr-ca\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a2b47ea8b3c8c13771e4ba31a8c322fbb23b7b4908ec5821219d875fe0b0397"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doterra.com",
+                "www.doterra.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/c12c2537-08d1-4d5b-a6cb-784928ec0644\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drpower.com",
+                "www.drpower.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/c12c2537-08d1-4d5b-a6cb-784928ec0644\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6352ea84944dbc2e81770eccf35cda321e201476dc034e893c3e0415e45a0ad6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "drpower.com",
+                "www.drpower.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/626fad2e-4a26-451d-a068-3916d5e69496\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthtrading.com",
+                "www.duluthtrading.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/626fad2e-4a26-451d-a068-3916d5e69496\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ba53375adeca25861b849811a936b2880db58d758ca21adbd5e9a346c88f5a4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthtrading.com",
+                "www.duluthtrading.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/626fad2e-4a26-451d-a068-3916d5e69496\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthtrading.com",
+                "www.duluthtrading.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2829c396-82a5-4bda-9f5b-33b9585e2755\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ediblearrangements.com",
+                "www.ediblearrangements.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2829c396-82a5-4bda-9f5b-33b9585e2755\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6def2d90cb921e96e3e78346e3db095e42fb29618e3cbd886a44970ca26a6573"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ediblearrangements.com",
+                "www.ediblearrangements.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2829c396-82a5-4bda-9f5b-33b9585e2755\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ee96e7df6fa4764f4b97ab026f8fa2e83ef866bcedc042505aa6ec3c5e65767"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ediblearrangements.com",
+                "www.ediblearrangements.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e31fac58-642a-4738-9f33-05435bd78fdb\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "899265b12cfb2e6b248a22bfd2ae156f00ec231bb427d4daf73bee4579df7095"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krollmonitoring.com",
+                "enroll.krollmonitoring.com",
+                "web.krollmonitoring.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e31fac58-642a-4738-9f33-05435bd78fdb\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ded0f1794bd3a73fba20049f64ef6d3893bb0182b285e582aab2c5c503fbc853"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "krollmonitoring.com",
+                "enroll.krollmonitoring.com",
+                "web.krollmonitoring.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/45e5944c-f0c9-4847-9a35-35be46128899\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "generac.com",
+                "www.generac.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/45e5944c-f0c9-4847-9a35-35be46128899\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a004febb9d4abd5a96c1703c5209b807402d616b2e0332f25cb27c7347610a50"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "generac.com",
+                "www.generac.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messagingservice\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2",
+                "apps.euw2",
+                "apps.aps1"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "6b4f04d4cd796786edf267e9fd60cfb9246f73e19bee3cc35af4f532fcd2feac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gfiber.com",
+                "support-en.wd.com",
+                "www.amica.com",
+                "www.dyson.co.uk",
+                "www.dyson.com.au",
+                "www.midamericanenergy.com",
+                "www.three.co.uk",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messenger\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8d1c93ac881cd1c72207c29b12b3dad37b930dad4f18f015bf7e816bec8ec449"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gfiber.com",
+                "www.amica.com",
+                "www.midamericanenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/genesyscloud-messaging-transport\\.mod\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2",
+                "apps.euw2",
+                "apps.aps1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.platform": 8,
+                "Navigator.prototype.maxTouchPoints": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "f57b1c777c5c555f12e7b3bd29d65e501b65898450ea3aa49549d250cd9ca898"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gfiber.com",
+                "support-en.wd.com",
+                "www.amica.com",
+                "www.dyson.co.uk",
+                "www.dyson.com.au",
+                "www.midamericanenergy.com",
+                "www.three.co.uk",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8b9c631e-d4d1-4ead-84f0-698e73997840\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalcu.org",
+                "www.globalcu.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8b9c631e-d4d1-4ead-84f0-698e73997840\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5e19c8e63bd5181db9059af44871c597eb3d0bf88408c9fa90ac56affff620b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalcu.org",
+                "www.globalcu.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8b9c631e-d4d1-4ead-84f0-698e73997840\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f1f6b544e884e9ab6b4f3ac888a862bd2e7e733991c68520fb9f4a7ab6e012b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "globalcu.org",
+                "www.globalcu.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/934cd07f-68cc-40ce-93c8-bd7aefc3d37d\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "genesys.cloud",
+                "help.genesys.cloud"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/fd5d0007-c379-4b21-a97f-437f25d88475\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iowa.gov",
+                "www.iowa.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/fd5d0007-c379-4b21-a97f-437f25d88475\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef7ffa943bf37b124a2c5e125e88ef9637c2d4871a34a11e4f61dcaa3bb4ba26"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iowa.gov",
+                "www.iowa.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d2f89c1f-37c6-45d1-befe-516eb41b00bc\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeld-wen.com",
+                "www.jeld-wen.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d2f89c1f-37c6-45d1-befe-516eb41b00bc\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd8b4663d4d0cc61d82199c6d14407a92314be51ed2f8c320b860fe756a943b1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeld-wen.com",
+                "www.jeld-wen.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d2f89c1f-37c6-45d1-befe-516eb41b00bc\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jeld-wen.com",
+                "www.jeld-wen.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/c7d55709-e680-4151-bb65-3eb20fe2d166\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenaid.com",
+                "www.kitchenaid.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/c7d55709-e680-4151-bb65-3eb20fe2d166\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c584352e20aa65534b37ac77925709c645b031cee791346f1dea004dd5f6d57c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenaid.com",
+                "www.kitchenaid.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "shop.lively.com",
+                "www.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f6ab3a982d0f221318ed6ddc450604c42f31414ee9e096a9ef6eb182fca51f3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "shop.lively.com",
+                "www.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "shop.lively.com",
+                "www.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/4b821046-f2d4-40a4-959b-d816a263eee8\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myflfamilies.com",
+                "myaccess.myflfamilies.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/4b821046-f2d4-40a4-959b-d816a263eee8\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d5aa4d6e0cc4b2ef1a90735e02e5b56f9769562ca6b58b3684e9c37b099f164"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myflfamilies.com",
+                "myaccess.myflfamilies.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d9c68f70-33f8-4eae-8950-004592864a66\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dcdc0b4f62322f6b0fb19ab87d819d1d2302cc46d2ed232465873d488cfeb8c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "swgas.com",
+                "myaccount.swgas.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/249b90bc-a95d-435c-a0e5-dc613ec7ffe4\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sutterhealth.org",
+                "myhealthonline.sutterhealth.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/249b90bc-a95d-435c-a0e5-dc613ec7ffe4\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "58fc3c9689b855c7f36cc17d199b81dcb04062c6e3c3300051cc0b09a10c55e4"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sutterhealth.org",
+                "myhealthonline.sutterhealth.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/249b90bc-a95d-435c-a0e5-dc613ec7ffe4\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f054adce88b20d6ab81dcfab1a38535df6e6f2a0fa32602f8732436192ca1f1a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sutterhealth.org",
+                "myhealthonline.sutterhealth.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/cef7fd10-14a1-4577-952b-8c51fd8ccabb\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6c18c95722ffdb20f4e29cf73e2deb2b72f58c7787c831e3e7dc9f309c6deff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vcm.com",
+                "mysecure.vcm.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/b817d804-db17-45dd-8ff4-29b8016026bc\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roadrunnersports.com",
+                "www.roadrunnersports.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/70e55be9-52be-4f0a-bac9-48dc60dec8ad\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.euw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eb2f9fcdf7433db30ed8cd8cc18ed3dce3cb76843c7a0ce5be31d1523c889f9b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsandi.com",
+                "www.nsandi.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/70e55be9-52be-4f0a-bac9-48dc60dec8ad\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.euw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f6146afbde741be805386f1808c5d9cf420dd68dfe73b3bd97292f44d26a9c2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nsandi.com",
+                "www.nsandi.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/customers\\/fe47c2dd-53d0-4f91-a977-da33832b0bc9\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "shop.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6e3d551c-71c8-42f7-ac9a-45b1b19230fb\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandisk.com",
+                "support-en.sandisk.com",
+                "www.sandisk.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6e3d551c-71c8-42f7-ac9a-45b1b19230fb\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "43222c472fa826cd5be407b8e009b8645c7a4dd773e823bce5fa12835c9290c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandisk.com",
+                "support-en.sandisk.com",
+                "www.sandisk.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6e3d551c-71c8-42f7-ac9a-45b1b19230fb\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "94b3089f736ade392e00813f6116ac16ed9f6b161733c4cd92d99edb95f24070"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sandisk.com",
+                "support-en.sandisk.com",
+                "www.sandisk.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/234ef048-ac0d-4aa4-977c-3c114c0fb0e9\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "support-en.wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/234ef048-ac0d-4aa4-977c-3c114c0fb0e9\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "202bdc6a563f7bb4e3d7a0784e2296acb093655a30fbf21dfe075bfdac0e2f2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "support-en.wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/234ef048-ac0d-4aa4-977c-3c114c0fb0e9\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5720f1c4a4d9add65c8a11580dd6c6c05e99efb76168ab30f0d367b132430842"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "support-en.wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2a7f6165-2ba5-4f40-bc83-6e18d4270cde\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weathertech.com",
+                "www.weathertech.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2a7f6165-2ba5-4f40-bc83-6e18d4270cde\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb72d23d9dee7b94b0d57436ab29026be8148aa7dbf6143ad58f0e3a4d9759e1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weathertech.com",
+                "www.weathertech.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2a7f6165-2ba5-4f40-bc83-6e18d4270cde\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a8934b2f7fe71cb7977d0e884286e1b3c0b728fe8c797382f14142a8ce4d032b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weathertech.com",
+                "www.weathertech.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/700574be-b514-42ce-bda7-432b1089b463\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whirlpool.com",
+                "www.whirlpool.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/700574be-b514-42ce-bda7-432b1089b463\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e76fc2745709eca4071fbc5eabdc86b00b3b425f59da64b6d4fa1963b5664a9b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whirlpool.com",
+                "www.whirlpool.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/cee43601-a02a-4926-82e3-0f924d0bb34e\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aes-ohio.com",
+                "www.aes-ohio.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/cee43601-a02a-4926-82e3-0f924d0bb34e\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c3ea748b008dba90c0b847b5cc0688af4d53f7b61c2f6c8d84d40c184649de9b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aes-ohio.com",
+                "www.aes-ohio.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/cee43601-a02a-4926-82e3-0f924d0bb34e\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94b3089f736ade392e00813f6116ac16ed9f6b161733c4cd92d99edb95f24070"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aes-ohio.com",
+                "www.aes-ohio.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6fb49401-1ea1-4fc9-af9b-b59e52646051\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aesindiana.com",
+                "www.aesindiana.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6fb49401-1ea1-4fc9-af9b-b59e52646051\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1954597dce936d550511e8a9cdf9b8e4490c8c28db02602d641b24ef44d7f26c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aesindiana.com",
+                "www.aesindiana.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6fb49401-1ea1-4fc9-af9b-b59e52646051\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94b3089f736ade392e00813f6116ac16ed9f6b161733c4cd92d99edb95f24070"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aesindiana.com",
+                "www.aesindiana.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/9842c616-f00c-45a8-b086-9aef98c8d1aa\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amana.com",
+                "www.amana.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/9842c616-f00c-45a8-b086-9aef98c8d1aa\\/fr-ca\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a2b47ea8b3c8c13771e4ba31a8c322fbb23b7b4908ec5821219d875fe0b0397"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amana.com",
+                "www.amana.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/af1ab532-aefb-4cb4-be5e-940d0d84b5a5\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.com",
+                "www.amica.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/af1ab532-aefb-4cb4-be5e-940d0d84b5a5\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d4859b4ef761e3d0cdd89597bce768c459f3745fa1baf03bd0b1fd8f98501bdc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.com",
+                "www.amica.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/af1ab532-aefb-4cb4-be5e-940d0d84b5a5\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f77e229048650c2f251504c6d9c617a194a63dd1141fd5ea527b1ee196b58a8f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.com",
+                "www.amica.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/af1ab532-aefb-4cb4-be5e-940d0d84b5a5\\/customers\\/8adc6edc-3f55-48a9-872a-045c1e77a3fb\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d357b0ef1f85ba71c5ccebb6671b0c34f4b3950f5b21d2af7b4a3d4e9dcd570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.com",
+                "www.amica.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/af1ab532-aefb-4cb4-be5e-940d0d84b5a5\\/customers\\/960a6f04-d406-4559-aa1c-b7f38867e6be\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d357b0ef1f85ba71c5ccebb6671b0c34f4b3950f5b21d2af7b4a3d4e9dcd570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amica.com",
+                "www.amica.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1ccb8b00-71ce-4f68-998c-194be306d550\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azhumane.org",
+                "www.azhumane.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1ccb8b00-71ce-4f68-998c-194be306d550\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0b198cd6245dea8387c6bbb917e47073aefe06292068ba0c3a9a709e7eadf708"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azhumane.org",
+                "www.azhumane.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5369e569-5383-4ac5-8d32-fedbd95514ca\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azurestandard.com",
+                "www.azurestandard.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5369e569-5383-4ac5-8d32-fedbd95514ca\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "13a656729adc8595e7ea8ca5ab0976bceee5f4702bc8fcea7e465e2347a6a5a7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azurestandard.com",
+                "www.azurestandard.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5369e569-5383-4ac5-8d32-fedbd95514ca\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7075c55c612a68245166c1915980c1fc298a2ad12f4f4f1f2424ea9a1593dd21"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "azurestandard.com",
+                "www.azurestandard.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/92977ba2-b8a0-4915-ab0d-e4d27203edad\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5a56326abb17534edf0d1f056ffd13ca1ca230980c649e819f767df5b7045214"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bchydro.com",
+                "www.bchydro.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/48ee5f29-576e-4c91-9ef6-41b0fa5b8db3\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestbuy.ca",
+                "www.bestbuy.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/48ee5f29-576e-4c91-9ef6-41b0fa5b8db3\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8ea805b1b45150929c9cceb9e5ef837411ef2300ad0abcf6a2c1f29b85e459f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestbuy.ca",
+                "www.bestbuy.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/48ee5f29-576e-4c91-9ef6-41b0fa5b8db3\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bestbuy.ca",
+                "www.bestbuy.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/genesys-bootstrap\\/genesys\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.product": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.onLine": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ba16ee0481960da01d1b47369de30a512a85d5e8e171eaaabfee9d6df84c22ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluehost.com",
+                "www.bluehost.com",
+                "www.domain.com",
+                "www.hostgator.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/96593413-3f34-4f77-bb82-108f8e7c8f75\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluehost.com",
+                "www.bluehost.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/96593413-3f34-4f77-bb82-108f8e7c8f75\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9df67863014ecc57876221dacca5680a61fa34f308554c624f83bcf5fb5c4ee6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bluehost.com",
+                "www.bluehost.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/3e2dca94-117a-40f7-a9fb-1eac9b917334\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3838bcf6d812738a9b565dc74640168e80de0fc96a20b9231e732a7fe82d88e9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blumenthalarts.org",
+                "www.blumenthalarts.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8db3b069-f9f9-4ba6-89c0-bfdf80f165fc\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "churchofjesuschrist.org",
+                "www.lds.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8db3b069-f9f9-4ba6-89c0-bfdf80f165fc\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7f888d55e9315281d64c3e07c90108d009f97591bcaf60c5af3dc38e91067fcf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "churchofjesuschrist.org",
+                "www.lds.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8db3b069-f9f9-4ba6-89c0-bfdf80f165fc\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "churchofjesuschrist.org",
+                "www.churchofjesuschrist.org",
+                "www.lds.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8db3b069-f9f9-4ba6-89c0-bfdf80f165fc\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "09bd524dbec5302cd5b4ee839a858aee878210b0a5e772aa2121533fddc89ca0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "churchofjesuschrist.org",
+                "www.churchofjesuschrist.org",
+                "www.lds.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/cf31e1b1-a240-4bf6-8d97-4c2fa6d9ff80\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "electionsquebec.qc.ca",
+                "www.electionsquebec.qc.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6ecbfce5-e11d-46a2-a4d4-22e3ebcbf523\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hostgator.com",
+                "www.hostgator.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/6ecbfce5-e11d-46a2-a4d4-22e3ebcbf523\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "614bcc44e2f5487a76cdf5337d1c869e89ea67db9aa886ee76d3f9354afad102"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hostgator.com",
+                "www.hostgator.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/afd4a50e-9d3b-4b4b-8c14-f870b2761887\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ithinkfi.org",
+                "www.ithinkfi.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/727efdef-0030-4957-9727-044842c068ee\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenaid.ca",
+                "www.kitchenaid.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/727efdef-0030-4957-9727-044842c068ee\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09bd524dbec5302cd5b4ee839a858aee878210b0a5e772aa2121533fddc89ca0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenaid.ca",
+                "www.kitchenaid.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/727efdef-0030-4957-9727-044842c068ee\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b28e8490b2a516e4ce7ac1659247c5b6d46320834a33ab8ca064451d48dc0e2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kitchenaid.ca",
+                "www.kitchenaid.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/192a22be-0842-4cfe-a81f-aaf4871f2458\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lacapfcu.org",
+                "www.lacapfcu.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/47b03e7a-0c90-48a8-8d85-62c72978f4bd\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leupold.com",
+                "www.leupold.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/47b03e7a-0c90-48a8-8d85-62c72978f4bd\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "71a58b6f878f4996e4ba7a4b3ff9db2b615af32456251f29462c8bed0ab144ce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leupold.com",
+                "www.leupold.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/customers\\/87cbdfe6-c74e-468f-8c84-01e61f3a0757\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d357b0ef1f85ba71c5ccebb6671b0c34f4b3950f5b21d2af7b4a3d4e9dcd570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "www.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/7753759a-d68e-40d1-b9c5-c7c5eb9e3c68\\/customers\\/cc083ae2-14db-459a-ac2a-1ae0a7f01aa4\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d357b0ef1f85ba71c5ccebb6671b0c34f4b3950f5b21d2af7b4a3d4e9dcd570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lively.com",
+                "www.lively.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8825cd9f-fa5d-484c-9748-07519c01cf18\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8825cd9f-fa5d-484c-9748-07519c01cf18\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4d4190645476c441e59862ba71a628257a2768e7ad79b0a3421cbd3a39b438ff"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/8825cd9f-fa5d-484c-9748-07519c01cf18\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a72f491417bd5c239469d8f5a20e6ef3fa982df3e3d5d3d7413a5a4c9d3d4eed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maurices.com",
+                "www.maurices.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/66666479-677c-411d-baa4-250b5e567522\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maytag.com",
+                "www.maytag.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/66666479-677c-411d-baa4-250b5e567522\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa8f33ddb2ff66246a7863a882d7506bda831e2f8c33ae0feea1c80c472ba37d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maytag.com",
+                "www.maytag.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5307652e-a9a5-4543-885b-a35d99dd02ee\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mesaaz.gov",
+                "www.mesaaz.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5307652e-a9a5-4543-885b-a35d99dd02ee\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e30ccafcae2e91969ad5903ec855d1a350db360fbc4fd720f6044eae97786703"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mesaaz.gov",
+                "www.mesaaz.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/5307652e-a9a5-4543-885b-a35d99dd02ee\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a11ed1588118f0bf1cc0c5b2b040c7c416161a641a2b3fd2dd10a1c7a5de6de2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mesaaz.gov",
+                "www.mesaaz.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/4bfe841c-66ef-49da-9180-d2fcfd010e72\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midamericanenergy.com",
+                "www.midamericanenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/4bfe841c-66ef-49da-9180-d2fcfd010e72\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2f123087471e23102648d78af2c3e95bb906c8db61f368ac6d230139d5c88301"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midamericanenergy.com",
+                "www.midamericanenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/4bfe841c-66ef-49da-9180-d2fcfd010e72\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "880d511278e3f7abe8670737922bd0edbb0bc1464666cbc26c76d0c16121a346"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midamericanenergy.com",
+                "www.midamericanenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/messenger\\/messagingservicemiddleware\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "818e4a37532a6056a08dc059bfd8d290cb34cbc703eb231c5b8f2c89a431c126"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midamericanenergy.com",
+                "www.midamericanenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/13b37004-063b-4d60-971f-994517c8ee63\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5b8c27d393458b0fb50c46e55df2eb19fae0766a574146eac41386a081ddc32f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mlgw.com",
+                "www.mlgw.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/13b37004-063b-4d60-971f-994517c8ee63\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "38c3a483cb4fbb6b9a4630de281403b9b531bd223d33e34b69f2ffddf125f0f0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mlgw.com",
+                "www.mlgw.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1089ef8a-494e-4c17-a9e8-d9c48dda7e53\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "natptax.com",
+                "www.natptax.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/9e96ea5b-3824-49fc-9e37-39f28662984c\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuskin.com",
+                "www.nuskin.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/9e96ea5b-3824-49fc-9e37-39f28662984c\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b2623a7d35af3958eb3a80f85199fc3ffee9e09d4b0f07af3f0b8d3cdc11fbf0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nuskin.com",
+                "www.nuskin.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/cxbus\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2efa5a6f8186af236b848f00af164526b8d2aa92a25ffebdabf04aa59f6ed3c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/plugins\\/widgets-core\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "window.sessionStorage": 2,
+                "window.devicePixelRatio": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "window.name": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.platform": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2f3ec3d6a68c016392ec2bf980d784bbf30403c98fa8256854e5992d7c8d6b73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_genesys.widgets.webchat.state.filters": {
+                    "ttl": null,
+                    "length": 79,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/plugins\\/webchat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3d12a596f51d411da417d09af8e57eb797f20581cbfb294d196a9a6d48c35f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/plugins\\/richmediabridge\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "531fac9f751cd23d7e6d2270743bd9dfb9582a34520d681e796055f392c092e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/plugins\\/webchatservice\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4b8074e5831032c76121985e645dd0a87a44d40c567497fa13e178a45281c709"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/widgets\\/9\\.0\\.017\\.00\\/plugins\\/webchatservicelegacy\\.mod\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apps.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d2da742b537f2cf14a1a5e2d3dd6225065c8e48df0fe287541b67759ebdbcffd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nvenergy.com",
+                "www.nvenergy.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/713c97fe-d7ac-47b9-803d-07b9bdf50505\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e94adf2073f924aacf0f052e1efa79fb3fb3f6428ba4a74cb01d0d3adda29f6a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oge.com",
+                "www.oge.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/713c97fe-d7ac-47b9-803d-07b9bdf50505\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1990a0a7ed335d4fbde8c049aea185fb5c85a38fbad9c17e30f2d1618a2e6200"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oge.com",
+                "www.oge.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/713c97fe-d7ac-47b9-803d-07b9bdf50505\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oge.com",
+                "www.oge.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/a7f1ca4d-81f9-4924-b0b6-4376f3b78364\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pascocountyfl.gov",
+                "www.pascocountyfl.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/a7f1ca4d-81f9-4924-b0b6-4376f3b78364\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "947b0c100f4b2827ada1c3c2153da40f8a154da5238313688a157227cc4332a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pascocountyfl.gov",
+                "www.pascocountyfl.gov"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/12e0499b-998f-437b-84fa-b7976d125bdf\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94b3089f736ade392e00813f6116ac16ed9f6b161733c4cd92d99edb95f24070"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "point-broadband.com",
+                "www.point-broadband.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d596db9c-32e3-4b46-b487-fef1a772de37\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aaa70cc29a681dc9d0b5a84c08adae0eec9074beae23611d2ddc5473060f5969"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redkap.com",
+                "www.redkap.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7b88a318-de2f-4c79-8f40-d313bd675314\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roadscholar.org",
+                "www.roadscholar.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7b88a318-de2f-4c79-8f40-d313bd675314\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fcb5a46d77418cca71acb948599d2d81c4842e9b2c7bbc3c24f6cc16eb72e4fd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "roadscholar.org",
+                "www.roadscholar.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/86cb169b-478d-4c19-8972-923fd9f4bd01\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsfh.com",
+                "www.rsfh.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/86cb169b-478d-4c19-8972-923fd9f4bd01\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8f5432b39a9dfc4447c6cbe5749dcf90fc1d1ac6259e709e34bcc86535d2c81f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsfh.com",
+                "www.rsfh.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/86cb169b-478d-4c19-8972-923fd9f4bd01\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a46e5c141b1dd166b534ad6d04fac73c068bb54f50a3887da6156e268b5948e6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rsfh.com",
+                "www.rsfh.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/72a75b46-55b5-407a-9941-31f6908b5158\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ryobitools.com",
+                "www.ryobitools.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/72a75b46-55b5-407a-9941-31f6908b5158\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8254e80aa9a7c0270ca33c0c86da58f8a21121114426c2b7f77d592b70683e0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ryobitools.com",
+                "www.ryobitools.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/9c942824-08e2-4db4-96f9-cb10cd69bf8b\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.euw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scottishwidows.co.uk",
+                "www.scottishwidows.co.uk"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e6cfb287-384e-42e5-a193-23487efbbe4e\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sdmi-lv.com",
+                "www.sdmi-lv.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e6cfb287-384e-42e5-a193-23487efbbe4e\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09bd524dbec5302cd5b4ee839a858aee878210b0a5e772aa2121533fddc89ca0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sdmi-lv.com",
+                "www.sdmi-lv.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e3fabbe1-f5d6-47f5-928d-4af938e464cc\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servsafe.com",
+                "www.servsafe.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/e3fabbe1-f5d6-47f5-928d-4af938e464cc\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56a5bfaa0173caf8d0ee758e81ef3b99ae48cf7df5c834d5b9dbd1855d8a1021"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "servsafe.com",
+                "www.servsafe.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/74c50a36-b68b-4ad2-8fd1-8cfd454fc2eb\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shawcontract.com",
+                "www.shawcontract.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7f4c77b6-5733-4775-abf0-4b6d4aad81df\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smud.org",
+                "www.smud.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7f4c77b6-5733-4775-abf0-4b6d4aad81df\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a37639291c869ee5fdcd89c5d1d3ed4f4d4dd67295e808891ec5fc59efa31bd8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smud.org",
+                "www.smud.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/7f4c77b6-5733-4775-abf0-4b6d4aad81df\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smud.org",
+                "www.smud.org"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d5569708-412c-4eef-a4c5-0738d838a39f\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e92136be550cee91f95c76a1500a1ce3e269b783fb0b21e1d4332726d6f740d1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonic.com",
+                "www.sonic.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d5569708-412c-4eef-a4c5-0738d838a39f\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb64290e2fa3e0eeb6c5536f3fc9997677a151d13b77830e56f94c90b7df452f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonic.com",
+                "www.sonic.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/d5569708-412c-4eef-a4c5-0738d838a39f\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c84c17ba5734ca98f3fbd6230118ca092351050baff36f2651223d39a851008d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sonic.com",
+                "www.sonic.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/ffb89055-b393-46db-8608-faef09ab7033\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af4e7201384e2bc156948681aee6cb8e1d6a8cfa3576359d4935b549ee47b3d3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spypoint.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/ffb89055-b393-46db-8608-faef09ab7033\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e375e13ccd96c200db361d6752c25ad3df7136777e6f1c4ec0f1334afbbe271b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spypoint.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/ffb89055-b393-46db-8608-faef09ab7033\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09bd524dbec5302cd5b4ee839a858aee878210b0a5e772aa2121533fddc89ca0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spypoint.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/ffb89055-b393-46db-8608-faef09ab7033\\/fr-ca\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a2b47ea8b3c8c13771e4ba31a8c322fbb23b7b4908ec5821219d875fe0b0397"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spypoint.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/ffb89055-b393-46db-8608-faef09ab7033\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b28e8490b2a516e4ce7ac1659247c5b6d46320834a33ab8ca064451d48dc0e2c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spypoint.com",
+                "www.spypoint.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/af2865eb-9250-4c8d-be8d-13b4e7e5e693\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsetter.com",
+                "www.sunsetter.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/af2865eb-9250-4c8d-be8d-13b4e7e5e693\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09b889536834483ce96f34b8a68b217bb5b3768e61e3cef517f653252afd0c12"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsetter.com",
+                "www.sunsetter.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/be0f04a0-57d8-4045-ba0d-bbaa7d04f9c1\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e1080621913f48a1ba3a010fe4330178a6942309819c7e220f20da8b6a1341bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunwing.ca",
+                "www.sunwing.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/be0f04a0-57d8-4045-ba0d-bbaa7d04f9c1\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b1cccbce835e48677361c3c867267c03f3bc99a080b7f6c6dcc50d58cd07f5ca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunwing.ca",
+                "www.sunwing.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/be0f04a0-57d8-4045-ba0d-bbaa7d04f9c1\\/customers\\/485a642d-617b-4c3e-bee7-96933bd1de41\\/ping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.cac1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d357b0ef1f85ba71c5ccebb6671b0c34f4b3950f5b21d2af7b4a3d4e9dcd570"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunwing.ca",
+                "www.sunwing.ca"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1c19f57b-a8fd-4dcd-91df-930d193eaa08\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd47da9e21bccde98ef6fa792459596e698070a868a816e4e5fa79a9fa885190"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "superatv.com",
+                "www.superatv.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1c19f57b-a8fd-4dcd-91df-930d193eaa08\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b2b728dd06131f2ed21869d00f6c8100f1af279666eda458c123f24466ba4fc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "superatv.com",
+                "www.superatv.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/1c19f57b-a8fd-4dcd-91df-930d193eaa08\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "64020ad5bd87c22cb5d27b10939126a2d14bc7619694c5a8c86d19c3cc199875"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "superatv.com",
+                "www.superatv.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "722bbadbd9dba1dceeb0e77d6e073b3f1591737f97d8bdf82e4ce355c20f8dcd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/da\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b72c9c6aab32d89727497058de88c1e9dcc8f31c4525b77e0e5f49c89aadce7b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/nl\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9a8f9710aff56ccb071d12652803efc19963c56906482e6b286e276e4a8aae39"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/fr\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f263a3ee4d87ff21c74c93728c96b88db98a067d1636f9919b5e6dd20a766d3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "463df092601505877868b39ceff175fd295a970ff8fa65a33dfad190edc2b934"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/fi\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e24f26f71db9ebe3025401b704f39632dbeb67c91e714e712781dee55693b0bf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/de\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9c217a60869e52b8d0ac4e94c24d9de8beadb379feb59fa183dffbd1fc14da40"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/it\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "564a3b19eb74dc4f6b448a73c4d4d404dab93860714bf647d6e5ee9d9ef75651"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/no\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "90919015ec17a4787f6860ee19c3115e2641952e6f51a5cea65f18a4a70e832c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/pt-br\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9c1c3d5961e8ef05e6fb95e8f7b64ac91cd40bd61fad38770e272e848bfdfc21"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/pt-pt\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6af0d27024f4a9bc1e3cd6e658f2aa6b6b096189ec97376fdf74c51edcc35d81"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/es\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0c85a1495cef633b1f1390d853a271d559f2a37a1945094e5b01fc2e914c30ce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/09e98885-81fe-4286-8186-cd605f1c9305\\/sv\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "10468266dd58070ecfe6b8235b1d8fc3cad59db6a41c4c3e060f5070be665316"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xerox.com",
+                "www.support.xerox.com",
+                "www.xerox.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2d1dec80-6ad0-49e2-9797-d7cf3c285a03\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49d0c62422bc464185bea0ab13162f8250c7890c68886d87fbceee7a4bd30433"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tandemdiabetes.com",
+                "www.tandemdiabetes.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2d1dec80-6ad0-49e2-9797-d7cf3c285a03\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bcce47bed1f7c727017d88d82507ce034e1d1854f5dcea27950483188df700a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tandemdiabetes.com",
+                "www.tandemdiabetes.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/2d1dec80-6ad0-49e2-9797-d7cf3c285a03\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "05dcdb3d15108ddd121bda0e4ac57db6e5d1d0f3182b552aef9159707bd1c869"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tandemdiabetes.com",
+                "www.tandemdiabetes.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/aa1d827e-ca25-4485-9ad2-2f1766eec264\\/domains\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78bd6ee8a2fce4c0294729fa7db73d0d370298f2f5738b53ecbf229f85171942"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tgw.com",
+                "www.tgw.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/aa1d827e-ca25-4485-9ad2-2f1766eec264\\/config\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.usw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "500433e2ddb040bb104eb921e43088106460126cf9440b0d2fd5c0abef55b6c3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tgw.com",
+                "www.tgw.com"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/api\\/v2\\/journey\\/deployments\\/c3006abd-3d00-496a-bdc5-04a01a054347\\/customers\\/e5ec8e20-7b82-4849-b072-c9979d3ad4c7\\/beacons",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.euw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "three.co.uk",
+                "www.three.co.uk"
+            ]
+        },
+        {
+            "rule": "pure\\.cloud\\/webdeployments\\/v1\\/deployments\\/c3006abd-3d00-496a-bdc5-04a01a054347\\/en-us\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-cdn.euw2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "095a6644f16b1b53077e2cdfa5f70d534b3f038dfae68f7924d98b8dd5dcdbb8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "three.co.uk",
+                "www.three.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000527,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5290237467018469
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.07783641160949868
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.06200527704485488
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.06068601583113457
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0316622691292876
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.025065963060686015
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.022427440633245383
+        },
+        {
+            "domain": "cudasvc.com",
+            "prevalence": 0.01978891820580475
+        },
+        {
+            "domain": "mypurecloud.com",
+            "prevalence": 0.018469656992084433
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.014511873350923483
+        }
+    ],
+    "types": {
+        "Script": 1845,
+        "Document": 497,
+        "XHR": 509,
+        "Fetch": 4,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-3.awsdns-00.com",
+        "ns-915.awsdns-50.net",
+        "ns-1522.awsdns-62.org",
+        "ns-1887.awsdns-43.co.uk"
+    ]
+}

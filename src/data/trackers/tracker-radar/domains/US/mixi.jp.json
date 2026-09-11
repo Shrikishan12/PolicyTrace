@@ -1,0 +1,84 @@
+{
+    "domain": "mixi.jp",
+    "owner": {
+        "name": "mixi, Inc.",
+        "displayName": "mixi"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mixi\\.jp\\/js\\/share\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "062b58a6509c2dc46f5de7f42f2f7ecaeeff429cae4fffc971be55df94f9cf04",
+                "4945cca9ab88973ad4f3d61f7d28495492b3da79ef13674a6d410eb0d9e89387"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blog.jp",
+                "genkimaru1.livedoor.blog",
+                "www.jalan.net"
+            ]
+        },
+        {
+            "rule": "mixi\\.jp\\/share_button\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "845b49d1f018542e96ae0baa60a5416bab00e5f3d6b53ea084d7217535a5040a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blog.jp",
+                "genkimaru1.livedoor.blog"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns-1147.awsdns-15.org",
+        "ns-1787.awsdns-31.co.uk",
+        "ns-495.awsdns-61.com",
+        "ns-850.awsdns-42.net"
+    ]
+}

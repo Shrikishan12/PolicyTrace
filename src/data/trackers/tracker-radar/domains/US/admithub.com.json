@@ -1,0 +1,84 @@
+{
+    "domain": "admithub.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "webbot"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "admithub\\.com\\/static\\/js\\/webchat\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webbot"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oru.edu",
+                "registrar.vanderbilt.edu",
+                "www.csusm.edu",
+                "www.fhsu.edu",
+                "www.mchenry.edu",
+                "www.potsdam.edu",
+                "www.slcc.edu"
+            ]
+        },
+        {
+            "rule": "admithub\\.com\\/static\\/css\\/webchat\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webbot"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oru.edu",
+                "registrar.vanderbilt.edu",
+                "www.csusm.edu",
+                "www.fhsu.edu",
+                "www.potsdam.edu",
+                "www.slcc.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "aron.ns.cloudflare.com",
+        "glen.ns.cloudflare.com"
+    ]
+}

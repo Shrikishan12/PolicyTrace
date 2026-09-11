@@ -1,0 +1,171 @@
+{
+    "domain": "tickaroo.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tickaroo\\.com\\/webng\\/embedjs\\/tik4\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "25999493fa3af96c1a3f56ef0a705add87b9556ac8f233aeb11e29342f11ead0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3n.de",
+                "www.allgemeine-zeitung.de",
+                "www.dailykos.com",
+                "www.maclife.de"
+            ]
+        },
+        {
+            "rule": "tickaroo\\.com\\/static-assets\\/jwplayer-8\\.2\\.3\\/jwplayer\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.localStorage": 2,
+                "HTMLMediaElement.prototype.canPlayType": 2,
+                "CanvasRenderingContext2D.prototype.getImageData": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "612dd0b971a39d000d9307c4a41b65e75e8c8bdd44586dc39ed32d1e79b5f28b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allgemeine-zeitung.de",
+                "www.allgemeine-zeitung.de"
+            ]
+        },
+        {
+            "rule": "tickaroo\\.com\\/webng\\/embedjs\\/tik4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ca60cd2e96f6258b093e3c51eb292470db15841dddf5a5ab2c328c7f40eae75b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allgemeine-zeitung.de",
+                "www.dailykos.com",
+                "www.maclife.de"
+            ]
+        },
+        {
+            "rule": "tickaroo\\.com\\/webng\\/embedjs\\/static\\/js\\/798\\.e06c5aba\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fccffdf3859fe5ccf22782ad070028fcccc8f9e974041f673aee8d681795fbc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allgemeine-zeitung.de",
+                "www.dailykos.com",
+                "www.maclife.de"
+            ]
+        },
+        {
+            "rule": "tickaroo\\.com\\/webng\\/embedjs\\/static\\/js\\/7532\\.d0ab9274\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3f0f87dd8f601f1efb202ca59a8565e66fad391c407c3f5f6c4a08e5dfd9cdec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "allgemeine-zeitung.de",
+                "www.dailykos.com",
+                "www.maclife.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "jwpcdn.com",
+            "prevalence": 0.125
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.0625
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 11
+    },
+    "nameservers": [
+        "ns-286.awsdns-35.com",
+        "ns-916.awsdns-50.net",
+        "ns-1623.awsdns-10.co.uk",
+        "ns-1170.awsdns-18.org"
+    ]
+}

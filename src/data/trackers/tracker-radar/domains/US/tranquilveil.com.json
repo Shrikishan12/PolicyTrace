@@ -1,0 +1,86 @@
+{
+    "domain": "tranquilveil.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "tranquilveil\\.com\\/public\\/b101201c21b\\/5d7a9fb81c01c60588a81628c\\.main\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.connection": 2,
+                "HTMLCanvasElement.prototype.toDataURL": 1,
+                "Date.prototype.getTimezoneOffset": 2,
+                "CookieStore.prototype.getAll": 2,
+                "CookieStore.prototype.set": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6494aa6ec93200503204c0d702b78ba0e65744c77c46b236a5305a927a2c4f00"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radio-canada.ca",
+                "ici.radio-canada.ca"
+            ]
+        },
+        {
+            "rule": "tranquilveil\\.com\\/m1iegv8pwtrqe0gmwspckrvjorouj6tv9brnzpw1qd",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4355a46b19d348dc2f57c046f8ef63d4538ebb936000f3c9ee954a27460dd865"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "radio-canada.ca",
+                "ici.radio-canada.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-284.awsdns-35.com",
+        "ns-1118.awsdns-11.org",
+        "ns-615.awsdns-12.net",
+        "ns-1972.awsdns-54.co.uk"
+    ]
+}

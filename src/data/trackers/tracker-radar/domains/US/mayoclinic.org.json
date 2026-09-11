@@ -1,0 +1,532 @@
+{
+    "domain": "mayoclinic.org",
+    "owner": {
+        "name": "Mayo Foundation for Medical Education and Research",
+        "displayName": "Mayo Foundation for Medical Education and Research"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "tagdelivery",
+        "cookies",
+        "webmetrics"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mayoclinic\\.org\\/mcstore\\/prod\\/utag\\.sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f2f181c6509815fe07f32862e2e12f2e5ddbe60653701f44cf12652a0eb75383"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mcstore\\/prod\\/utag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25db761a16ff0052c64bb3dc2a7e70100ffef64c744a6853d1fae268507ab86e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "utag_main_v_id": {
+                    "ttl": 31536003,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main__sn": {
+                    "ttl": 31536003,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__se": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__ss": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__st": {
+                    "ttl": 1803,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main_ses_id": {
+                    "ttl": 1803,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main__pn": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "ckiSvc": {
+                    "ttl": 532800,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_visit": {
+                    "ttl": 31536003,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_event": {
+                    "ttl": 1803,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_region": {
+                    "ttl": 1803,
+                    "length": 23,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mcstore\\/prod\\/utag\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4e56aa74e2d22df59958382a9c1cce897ad596eb24604d079efb810a21bd53d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/api\\/PreserveCookies",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ea7525e6f501ae66c8caaa8c73ff63c325aeb2cf4271470ec50ff7a7900c69a2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mcstore\\/prod\\/utag\\.v\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/api\\/PreserveCookies",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookies"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mc\\/main\\/2\\/i\\.gif",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webmetrics"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayoclinic.com",
+                "store.mayoclinic.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.sync\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f199d321f903c39559229221a6ac8426e51634c01567212afec5f1f1c72f991e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.appVersion": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.colorDepth": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e585ea5b6fcbdd89a5bc43ea4a4a013285e4c6e69eef9337b635c87a783d9085"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "utag_main_v_id": {
+                    "ttl": 31536019,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main__sn": {
+                    "ttl": 31536019,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__se": {
+                    "ttl": 1819,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__ss": {
+                    "ttl": 1819,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main__st": {
+                    "ttl": 1819,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main_ses_id": {
+                    "ttl": 1819,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "utag_main__pn": {
+                    "ttl": 1819,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_visit": {
+                    "ttl": 31536019,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_event": {
+                    "ttl": 1819,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "utag_main_dc_region": {
+                    "ttl": 1819,
+                    "length": 23,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "49241543f105d026ac2ec0bb7472096992c1427ac3b213b8f736a869418aa98b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.13\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ed39b4d55f15cf6ab4dd49e19b793cbdffc4325685b2269ea8d4288c1d2b3b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.21\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50d1d2887e7739917c51a384746daf67538bfd55401c7a3877cd86c9a6edc1fb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.23\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b345465d7b1d001370213b838180767c2f6da7ba0dbbfa177af250d53969937e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        },
+        {
+            "rule": "mayoclinic\\.org\\/mclabs\\/prod\\/utag\\.v\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagdelivery"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a2c2339691fc48fbd14fb307292dff3e21222712d9240810742d7df0c6d74dfb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mayocliniclabs.com",
+                "www.mayocliniclabs.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.5925925925925926
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4074074074074074
+        }
+    ],
+    "types": {
+        "Script": 22,
+        "XHR": 5,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "a3-66.akam.net",
+        "a14-64.akam.net",
+        "dns1.mayo.edu",
+        "a18-66.akam.net",
+        "a1-70.akam.net",
+        "dns2.mayo.edu",
+        "a10-66.akam.net",
+        "a13-66.akam.net"
+    ]
+}

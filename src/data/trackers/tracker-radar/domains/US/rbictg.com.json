@@ -1,0 +1,86 @@
+{
+    "domain": "rbictg.com",
+    "owner": {
+        "name": "Restaurant Brands International, Inc.",
+        "displayName": "Restaurant Brands International"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "euc1-prod-bk",
+        "euc1-prod-bk-gateway"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "rbictg\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "euc1-prod-bk",
+                "euc1-prod-bk-gateway"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "dac8ad0d29d582945ea09eed30dc103ef962fe46304170c887f2a56eb4d53b1c",
+                "7028bda2c87467bede04ff78aa8408c3681184a5571b65ecbbe8c7ba71097a3f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burgerking.co.uk",
+                "www.burgerking.de",
+                "www.burgerking.co.uk"
+            ]
+        },
+        {
+            "rule": "rbictg\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "euc1-prod-bk",
+                "euc1-prod-bk-gateway"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "burgerking.co.uk",
+                "www.burgerking.de",
+                "www.burgerking.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3,
+        "Preflight": 3
+    },
+    "nameservers": [
+        "ns-660.awsdns-18.net",
+        "ns-438.awsdns-54.com",
+        "ns-1572.awsdns-04.co.uk",
+        "ns-1029.awsdns-00.org"
+    ]
+}

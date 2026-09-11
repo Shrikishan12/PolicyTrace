@@ -1,0 +1,76 @@
+{
+    "domain": "echat1.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "webapoteket"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "echat1\\.com\\/server\\/resource\\/config_chat\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapoteket"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ba20b2a102c9e4bfa9f7831ba97cec4051d2c46e53d22f197ee5467d941454ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webapoteket.dk",
+                "www.webapoteket.dk"
+            ]
+        },
+        {
+            "rule": "echat1\\.com\\/server\\/master_config_chat\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "webapoteket"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be012b3fc57a8d0d236e99e172d02b434885123498cab8b0f4237cad20547522"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "webapoteket.dk",
+                "www.webapoteket.dk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4
+    },
+    "nameservers": [
+        "kinsley.ns.cloudflare.com",
+        "coleman.ns.cloudflare.com"
+    ]
+}

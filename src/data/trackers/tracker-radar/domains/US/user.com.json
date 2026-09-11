@@ -1,0 +1,249 @@
+{
+    "domain": "user.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "widget",
+        "burdamedia",
+        "alablaboratoria",
+        "superauto",
+        "hochschwarzwald",
+        "japanexperienceautomation",
+        "d24"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "user\\.com\\/widget\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 2,
+            "subdomains": [
+                "widget",
+                "burdamedia",
+                "alablaboratoria",
+                "superauto",
+                "hochschwarzwald",
+                "japanexperienceautomation"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Event.prototype.timeStamp": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTimezoneOffset": 7,
+                "Screen.prototype.width": 7,
+                "Screen.prototype.height": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__ca__chat": {
+                    "ttl": 31536006,
+                    "length": 12,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "inspiracje.polki.pl",
+                "viva.pl",
+                "wizaz.pl",
+                "www.alab.pl",
+                "www.autocentrum.pl",
+                "www.hochschwarzwald.de",
+                "www.japan-experience.com",
+                "www.mojegotowanie.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "user\\.com\\/widget-app\\.10cb64b1ab3b22996866\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "63c28e3b7ba095a38237c6c6995796f793b7c657741311bd3076cb2456a2a38f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "inspiracje.polki.pl",
+                "viva.pl",
+                "wizaz.pl",
+                "www.alab.pl",
+                "www.autocentrum.pl",
+                "www.japan-experience.com",
+                "www.mojegotowanie.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "user\\.com\\/widget-actionsStore\\.10cb64b1ab3b22996866\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "3a8a0e637d56c7de4efa001803d70cb6d467a4fec0386ee3d65ed5ee88459c22"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "inspiracje.polki.pl",
+                "viva.pl",
+                "wizaz.pl",
+                "www.autocentrum.pl",
+                "www.japan-experience.com",
+                "www.mojegotowanie.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "user\\.com\\/api\\/v2\\/user-chatping\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d24",
+                "burdamedia",
+                "superauto",
+                "japanexperienceautomation"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "inspiracje.polki.pl",
+                "viva.pl",
+                "wizaz.pl",
+                "www.autocentrum.pl",
+                "www.japan-experience.com",
+                "www.mojegotowanie.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "user\\.com\\/api\\/v2\\/user-chatping\\/",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d24",
+                "burdamedia",
+                "superauto",
+                "japanexperienceautomation"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "fee2c91ce7f9b6810799a78d00b72b19fe22bb57183bb16e469ccafdb3df029b",
+                "7a88905a449bfb171bb898e4b9831456e0c13e7f5c5277369251e6c4380e73d7",
+                "2ef0b89dc33eb8b55f4a6c79e228128cd6a2148c73ced76ee4aff7008d236a09",
+                "32b27121efb55f395062a7d08e022e6ba6ec2dea75a55648bea206dd42673f41",
+                "782f7a146bd19374b0ed43c918685c99ba0ccca83b0d05a61018b68dbed71d47",
+                "14d253ba4ef963379802b6346872f0b917070846d0cfdf6661921eed29a2c21a",
+                "caa8f41855d468ca92ce19a26b057b03e4a0a311c6689dd486c524bf53b0601d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "inspiracje.polki.pl",
+                "viva.pl",
+                "wizaz.pl",
+                "www.autocentrum.pl",
+                "www.japan-experience.com",
+                "www.mojegotowanie.pl",
+                "www.przyslijprzepis.pl"
+            ]
+        },
+        {
+            "rule": "user\\.com\\/widget-chatStore\\.10cb64b1ab3b22996866\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widget"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72e7a9ac49fd52c28e2d57385aeb32cf3450e95c0577433c5525f672430310cc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "defence24.pl",
+                "www.autocentrum.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000616,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5945945945945946
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.32432432432432434
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.05405405405405406
+        },
+        {
+            "domain": "ccm19.de",
+            "prevalence": 0.02702702702702703
+        }
+    ],
+    "types": {
+        "Script": 29,
+        "Preflight": 8,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "gabe.ns.cloudflare.com",
+        "nina.ns.cloudflare.com"
+    ]
+}

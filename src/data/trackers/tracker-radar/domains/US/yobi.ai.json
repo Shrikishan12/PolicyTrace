@@ -1,0 +1,150 @@
+{
+    "domain": "yobi.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000226,
+    "sites": 33,
+    "subdomains": [
+        "pixel"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yobi\\.ai\\/$web\\/yopixel\\.js",
+            "cookies": 0.000178,
+            "fingerprinting": 2,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {
+                "Document.cookie getter": 26,
+                "Date.prototype.getTime": 26,
+                "Document.cookie setter": 26,
+                "Screen.prototype.width": 26,
+                "Screen.prototype.height": 26,
+                "window.innerWidth": 26,
+                "window.innerHeight": 26,
+                "Screen.prototype.colorDepth": 26,
+                "Navigator.prototype.userAgent": 26,
+                "Navigator.prototype.maxTouchPoints": 26,
+                "Date.prototype.getTimezoneOffset": 26
+            },
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "14adf33d084e33ab67fb3482cccbd31e78161f5eb194131b64e810c31c1e37ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__yopix_uid": {
+                    "ttl": 63072010,
+                    "length": 19,
+                    "prevalence": 0.00017809073037748386,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "potterybarnkids.com",
+                "www.potterybarnkids.com",
+                "www.maccosmetics.com",
+                "personalizationmall.com",
+                "www.gruntstyle.com",
+                "www.personalizationmall.com",
+                "www.chacos.com",
+                "www.wolverine.com",
+                "chacos.com",
+                "rejuvenation.com",
+                "williams-sonoma.com",
+                "www.markandgraham.com",
+                "westelm.com",
+                "pbteen.com",
+                "www.merrell.com",
+                "www.rejuvenation.com",
+                "merrell.com",
+                "www.pbteen.com",
+                "www.experian.com",
+                "www.saucony.com"
+            ]
+        },
+        {
+            "rule": "yobi\\.ai\\/$web\\/pixel\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__yopix_uid": 0.0001643914434253697,
+                "_li_dcdm_c": 0.000013699286952114143,
+                "IR_gbd": 0.00008904536518874193
+            },
+            "exampleSites": [
+                "www.saucony.com",
+                "www.marykay.com",
+                "potterybarn.com",
+                "www.chacos.com",
+                "www.merrell.com",
+                "pbteen.com",
+                "rejuvenation.com",
+                "www.pbteen.com",
+                "potterybarnkids.com",
+                "saucony.com",
+                "williams-sonoma.com",
+                "www.experian.com",
+                "westelm.com",
+                "chacos.com",
+                "www.markandgraham.com",
+                "www.rejuvenation.com",
+                "www.williams-sonoma.com",
+                "personalizationmall.com",
+                "www.potterybarnkids.com",
+                "www.potterybarn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000226,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.08333333333333333
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.0625
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 26,
+        "Image": 26
+    },
+    "nameservers": [
+        "ns1-07.azure-dns.com",
+        "ns3-07.azure-dns.org",
+        "ns2-07.azure-dns.net",
+        "ns4-07.azure-dns.info"
+    ]
+}

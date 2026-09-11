@@ -1,0 +1,278 @@
+{
+    "domain": "havasedge.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000247,
+    "sites": 36,
+    "subdomains": [
+        "tag",
+        "event",
+        "cookie"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "havasedge\\.com\\/js\\/evt\\.js",
+            "cookies": 0.000103,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 15,
+                "Document.cookie setter": 15,
+                "Date.prototype.getTime": 18,
+                "Date.prototype.getTimezoneOffset": 18,
+                "Navigator.prototype.plugins": 18,
+                "Navigator.prototype.platform": 18,
+                "Navigator.prototype.cookieEnabled": 18,
+                "Navigator.prototype.doNotTrack": 18,
+                "Screen.prototype.height": 18,
+                "Screen.prototype.width": 18,
+                "Screen.prototype.colorDepth": 18
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "585a5ffa8c3c01d26bfa9e61e12aecfac2b9440051ce482de6919393f76dcdf3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__helocckid": {
+                    "ttl": 223948800003,
+                    "length": 47,
+                    "prevalence": 0.00010274465214085606,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancientnutrition.com",
+                "consumercellular.com",
+                "draxe.com",
+                "hungryroot.com",
+                "renewalbyandersen.com",
+                "savings.consumercellular.com",
+                "simplisafe.com",
+                "twc.health",
+                "www.consumercellular.com",
+                "www.danburymint.com",
+                "www.hungryroot.com",
+                "www.jacuzzibathremodel.com",
+                "www.netcredit.com",
+                "www.renewalbyandersen.com",
+                "www.shipsticks.com",
+                "www.twc.health",
+                "www.uhaul.com",
+                "www.uso.org"
+            ]
+        },
+        {
+            "rule": "havasedge\\.com\\/track-event",
+            "cookies": 0.000144,
+            "fingerprinting": 0,
+            "subdomains": [
+                "event"
+            ],
+            "apis": {},
+            "sites": 22,
+            "prevalence": 0.000151,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "s_pltp": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "draxe.com",
+                "www.uhaul.com",
+                "www.renewalbyandersen.com",
+                "www.hungryroot.com",
+                "twc.health",
+                "www.twc.health",
+                "simplisafe.com",
+                "www.jacuzzibathremodel.com",
+                "us.norton.com",
+                "savings.consumercellular.com",
+                "www.danburymint.com",
+                "norton.com",
+                "consumercellular.com",
+                "lifelock.norton.com",
+                "homewarranty.firstam.com",
+                "www.shipsticks.com",
+                "www.consumercellular.com",
+                "www.uso.org",
+                "ancientnutrition.com",
+                "renewalbyandersen.com"
+            ]
+        },
+        {
+            "rule": "havasedge\\.com\\/sync",
+            "cookies": 0.000144,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie"
+            ],
+            "apis": {},
+            "sites": 21,
+            "prevalence": 0.000144,
+            "cnames": [],
+            "responseHashes": [
+                "1ed70d02696722505ec82915a7dd9fbf2c512366d009b74bdbe37c9869c250a4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "draxe.com",
+                "www.hungryroot.com",
+                "us.norton.com",
+                "www.consumercellular.com",
+                "www.danburymint.com",
+                "norton.com",
+                "simplisafe.com",
+                "homewarranty.firstam.com",
+                "www.uso.org",
+                "www.twc.health",
+                "lifelock.norton.com",
+                "ancientnutrition.com",
+                "www.uhaul.com",
+                "www.netcredit.com",
+                "renewalbyandersen.com",
+                "twc.health",
+                "savings.consumercellular.com",
+                "www.jacuzzibathremodel.com",
+                "consumercellular.com",
+                "www.renewalbyandersen.com"
+            ]
+        },
+        {
+            "rule": "havasedge\\.com\\/bsync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "57a6d2a29141901833f8224cf7dfa92ebc1cd2171cd43d754a9a1472a00d2d62",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ancientnutrition.com",
+                "consumercellular.com",
+                "draxe.com",
+                "hungryroot.com",
+                "renewalbyandersen.com",
+                "savings.consumercellular.com",
+                "simplisafe.com",
+                "twc.health",
+                "www.consumercellular.com",
+                "www.danburymint.com",
+                "www.hungryroot.com",
+                "www.jacuzzibathremodel.com",
+                "www.netcredit.com",
+                "www.renewalbyandersen.com",
+                "www.shipsticks.com",
+                "www.twc.health",
+                "www.uhaul.com",
+                "www.uso.org"
+            ]
+        },
+        {
+            "rule": "havasedge\\.com\\/js\\/evtnc\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.colorDepth": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9a8046ae76f3c2fa5def7d0153cdb57e8d97c88ccb913dcb4209e3a9f001a36f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__helocckid": {
+                    "ttl": 223948800006,
+                    "length": 47,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norton.com",
+                "lifelock.norton.com",
+                "us.norton.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00024,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39655172413793105
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3620689655172414
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.08620689655172414
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.017241379310344827
+        }
+    ],
+    "types": {
+        "Script": 21,
+        "Image": 43,
+        "Document": 18
+    },
+    "nameservers": [
+        "ns1-02.azure-dns.com",
+        "ns2-02.azure-dns.net",
+        "ns3-02.azure-dns.org",
+        "ns4-02.azure-dns.info"
+    ]
+}

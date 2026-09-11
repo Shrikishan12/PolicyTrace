@@ -1,0 +1,87 @@
+{
+    "domain": "bildirt.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn2"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bildirt\\.com\\/BildirtSDKfiles\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 3,
+                "Notification.permission": 3,
+                "window.localStorage": 3,
+                "window.indexedDB": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cb2265c14267d48f7eac8281272590b9019190d06094cc29770bdc3b6c662f03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t24.com.tr",
+                "www.odatv.com",
+                "www.technopat.net"
+            ]
+        },
+        {
+            "rule": "bildirt\\.com\\/Config-sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "468a0742da4ba6cb6d46aa6982671d73f64ca97c1d8b3a5112b9c3649042a67e",
+                "8ffc5a5f8d3c567167ac7c92efc7a048b4bf40f692f6b416997e450c0eb12a18"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t24.com.tr",
+                "www.odatv.com",
+                "www.technopat.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "leah.ns.cloudflare.com",
+        "clay.ns.cloudflare.com"
+    ]
+}

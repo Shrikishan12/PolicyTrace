@@ -1,0 +1,109 @@
+{
+    "domain": "apteekkariliitto.fi",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "laakehakupalvelu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "apteekkariliitto\\.fi\\/js\\/iframeResizer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "laakehakupalvelu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d05b03afa9378a221a6a8fc5d6896424751f114fde192602950ed985573699df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apteekki.fi",
+                "www.apteekki.fi"
+            ]
+        },
+        {
+            "rule": "apteekkariliitto\\.fi\\/LaakehakuTab\\.aspx",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "laakehakupalvelu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "462eaf37146c088da6f76e93ff6a8c56c0db74e78eb215e1add27a66d77c523c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apteekki.fi",
+                "www.apteekki.fi"
+            ]
+        },
+        {
+            "rule": "apteekkariliitto\\.fi\\/ScriptResource\\.axd",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "laakehakupalvelu"
+            ],
+            "apis": {
+                "Navigator.prototype.appName": 1,
+                "Navigator.prototype.appVersion": 1,
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "398cdf1b27ef247e5bc77805f266bb441e60355463fc3d1776f41aae58b08cf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "apteekki.fi",
+                "www.apteekki.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 2
+    },
+    "nameservers": [
+        "ns1.yritysnet.fi",
+        "ns2.yritysnet.fi",
+        "ns3.yritysnet.net",
+        "ns4.yritysnet.org"
+    ]
+}

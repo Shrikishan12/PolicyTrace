@@ -1,0 +1,468 @@
+{
+    "domain": "onet.pl",
+    "owner": {
+        "name": "Ringier AG",
+        "displayName": "Ringier"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "sgqcvfjvr",
+        "lib",
+        "csr",
+        "konto",
+        "health.ems"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onet\\.pl\\/YnVpbGQvezlza2x0Njg4fWRsQXBpL2RsLmxpYntOTWFzXzY4OH0ubWluLmpz",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3,
+                "window.sessionStorage": 3,
+                "Date.prototype.getTime": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.connection": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Navigator.prototype.getBattery": 3,
+                "Document.cookie setter": 3,
+                "Navigator.prototype.language": 2,
+                "PerformanceTiming.prototype.navigationStart": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "b639d2a298f952112887f0f301c3d1490281a8c38875ba72c784e13643bdc060"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ea_uuid": {
+                    "ttl": 157680004,
+                    "length": 24,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/build\\/dlApi\\/dl\\.aureus\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "aaae4aa9532a0d29d75f501420392cf81e7e0277e6ba096053eadadcb28ba53e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.fakt.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/simetra\\/clickmap\\/5\\.9\\.0\\/clickmap\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c4a63fd864c1babbdcfb5643f7437dba0ebaf61db56058dff814f660fbd2eb8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.fakt.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/build\\/dlApi\\/dl\\.cmp\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e45fac56be0452eb37aec14313b57ec5d29a97336061c647d7c30b9488d3d207"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/simetra\\/artemis\\/0\\.12\\.0\\/artemis\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sgqcvfjvr"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "window.localStorage": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "b64403f40441fecd5cbbb851caae3b5e2d268177ef7b9ed6d711d494c9153310"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "ats_ri": {
+                    "ttl": 5356805,
+                    "length": 2,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.fakt.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/static\\/pixel\\/1\\.22\\.0\\/pixel-module\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "window.localStorage": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "93abaee5f46569f0d14b6cde30b2d431679b43fd7aead216e98ac6df00824b47"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/1746213\\/consent",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csr"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "www.fakt.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/1746213\\/cmp",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "csr"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e0072ccc6872667ac388412ac7a48dbe1b20bd3786187e5b1a41551095c689f4"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/1746213\\/me",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csr"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "14ea6141597f541b48149fc6d17524014d2335f76b6c059a2d7f2e2aa2476a37",
+                "2bdd3cc66e3faa98f4517bb8dedb3ad94081cb64266a23bb7f5163039c86e717"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/checkSSO\\/loginbar\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "konto"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a59e8a9b12ea1144e29dd7c0d162922e650cf209fcd448b33e0cb797af5abc9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/static\\/1746213\\/PoC-Bottom-Anchor\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5b0abb268d13dea93419bf19d3eafcca300a195acb6fa1827e6a3e6bc22d74d0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/static\\/lps\\/Analytics-Prebid\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "db4edfd9d9b51d0839063d8f25ad3f2b108cbe1d3dbfd2175dfc473c0ae07f73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "jakdojade.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/static\\/lps\\/DMP-Piano\\/tpl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "adb3964c055dc0f1d89e13763f082201357c1dc8e7a58d7746c35e1b9990294d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "businessinsider.com.pl",
+                "gratka.pl",
+                "jakdojade.pl",
+                "www.fakt.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/s\\.csr\\/build\\/dlApi\\/dl\\.boot\\.min\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "lib"
+            ],
+            "apis": {
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b30e7464f0b920f1ce5008aa917326de7765ebba42a59afa6beecf572546bdd9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gratka.pl",
+                "jakdojade.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/1746213\\/activity",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csr"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f49e616d278a16d9cd55a6d5fe19c99ebd37d7d3848d14422190618b67011e0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taniaksiazka.pl",
+                "www.taniaksiazka.pl"
+            ]
+        },
+        {
+            "rule": "onet\\.pl\\/1551662\\/metric\\/collector",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "health.ems"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "taniaksiazka.pl",
+                "www.taniaksiazka.pl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9090909090909091
+        },
+        {
+            "domain": "raspaid.pl",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "ocdn.eu",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 37,
+        "XHR": 9,
+        "Document": 3,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns5.ringpublishing.net",
+        "ns6.ringpublishing.net",
+        "ns7.ringpublishing.net",
+        "ns8.ringpublishing.net"
+    ]
+}

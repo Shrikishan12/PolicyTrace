@@ -1,0 +1,148 @@
+{
+    "domain": "maillist-manage.eu",
+    "owner": {
+        "name": "ZOHO Corporation",
+        "displayName": "ZOHO"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "weby-zcmp",
+        "lzku-zcmp"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "maillist-manage\\.eu\\/js\\/optin\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "weby-zcmp",
+                "lzku-zcmp"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1c809edea7082c6502bcfac281471bba61bbf3f513abb8e2790ff48875a5f41a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gritrsports.com",
+                "www.hipaajournal.com"
+            ]
+        },
+        {
+            "rule": "maillist-manage\\.eu\\/campaigns\\/CaptchaVerify\\.zc",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lzku-zcmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cd0f677f4d642fd87fa16c49c110faf38f1c8ce46734ec2a858f543895e8ce4e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hipaajournal.com",
+                "www.hipaajournal.com"
+            ]
+        },
+        {
+            "rule": "maillist-manage\\.eu\\/ua\\/TrailEvent",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lzku-zcmp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b066f26f989b3dfa0246155ac16d8790c625e226e60cfcaddee717e3f7e88cc8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hipaajournal.com",
+                "www.hipaajournal.com"
+            ]
+        },
+        {
+            "rule": "maillist-manage\\.eu\\/js\\/dig\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "lzku-zcmp"
+            ],
+            "apis": {
+                "Navigator.prototype.plugins": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.language": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.pixelDepth": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.appName": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb3659a13df58bc8b7a438cd96ef5a29219153afe02fe5f443b1c222cabaa31a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hipaajournal.com",
+                "www.hipaajournal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns11.zns-53.com",
+        "ns21.zns-53.net",
+        "pdns90.ultradns.biz",
+        "ns31.zns-53.com",
+        "pdns90.ultradns.net",
+        "ns41.zns-53.net",
+        "ns1.zohocorp.com",
+        "pdns90.ultradns.com"
+    ]
+}

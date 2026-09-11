@@ -1,0 +1,73 @@
+{
+    "domain": "cnci.tech",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "sgtm-cra"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.blesk.cz",
+            "resolved": "sgtm-cra.cnci.tech"
+        },
+        {
+            "original": "analytics.recepty.cz",
+            "resolved": "sgtm-cra.cnci.tech"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cnci\\.tech\\/g\\/collect",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sgtm-cra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "analytics.blesk.cz",
+                    "resolved": "sgtm-cra.cnci.tech"
+                },
+                {
+                    "original": "analytics.recepty.cz",
+                    "resolved": "sgtm-cra.cnci.tech"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "blesk.cz",
+                "www.blesk.cz",
+                "www.recepty.cz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 3
+    },
+    "nameservers": [
+        "rick.ns.cloudflare.com",
+        "josephine.ns.cloudflare.com"
+    ]
+}

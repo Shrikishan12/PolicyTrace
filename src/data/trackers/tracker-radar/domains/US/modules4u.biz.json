@@ -1,0 +1,86 @@
+{
+    "domain": "modules4u.biz",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "modules4u\\.biz\\/shopify\\/redirector\\/js\\/ip\\.js\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "Document.cookie getter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d281ebbd58a687cab427d1a7c762464c22bd5a9db21a4ff92c7b9b93ac12e07"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "byrna.com",
+                "kaffeemacher.de"
+            ]
+        },
+        {
+            "rule": "modules4u\\.biz\\/shopify\\/exemptify\\/js\\/fix_prices_v1\\.js\\.php",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.sessionStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ed20e2669044c37f4acb64e4031790e96950ded7bae9b466dc8e22341eb91c6e",
+                "00e3ddb5c858547713b582536c226570488e335909ea49bd5ccf7d327f6ef70c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knittingforolive.com",
+                "www.plugin-alliance.com",
+                "www.sekelskifte.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "cortney.ns.cloudflare.com",
+        "todd.ns.cloudflare.com"
+    ]
+}

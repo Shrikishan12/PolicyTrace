@@ -1,0 +1,90 @@
+{
+    "domain": "rightonin.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "scripts",
+        "capture"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rightonin\\.com\\/v1\\/capture\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "scripts"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3366611196cd5fe29584fe4752f919095f9678f6d0e55cedfedd29caf1435a9d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortkeepers.com",
+                "www.firstcommunity.com",
+                "www.uoficreditunion.org"
+            ]
+        },
+        {
+            "rule": "rightonin\\.com\\/api\\/setup",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "capture"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4d8ff015ce6b49e846c2462c99b86bda48792ec9f77e86ec512473a2a4b817de",
+                "7a361fe80d3a0b46353acdfe5d7c27a0fa9af3436512edd337a9da0431536ae3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comfortkeepers.com",
+                "www.firstcommunity.com",
+                "www.uoficreditunion.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5714285714285714
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.42857142857142855
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-604.awsdns-11.net",
+        "ns-494.awsdns-61.com",
+        "ns-1194.awsdns-21.org",
+        "ns-1858.awsdns-40.co.uk"
+    ]
+}

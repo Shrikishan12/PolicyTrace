@@ -1,0 +1,87 @@
+{
+    "domain": "analysis.fi",
+    "owner": {
+        "name": "AppendAd LTD",
+        "displayName": "AppendAd"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "ecdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "analysis\\.fi\\/static\\/js\\/fab\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ecdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 14
+            },
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "193ce4ff7d7a27b03ee839f153246b7531322d5ef7c4dad53f6b6ae95290dac2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oodle.com",
+                "earth911.com",
+                "news.walla.co.il",
+                "personals.oodle.com",
+                "t24.com.tr",
+                "thelibertydaily.com",
+                "www.adn40.mx",
+                "www.birgun.net",
+                "www.carcomplaints.com",
+                "www.cnnturk.com",
+                "www.eleconomista.com.mx",
+                "www.elfinanciero.com.mx",
+                "www.fanatik.com.tr",
+                "www.haaretz.com",
+                "www.hurriyet.com.tr",
+                "www.milliyet.com.tr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5789473684210527
+        },
+        {
+            "domain": "geoedge.be",
+            "prevalence": 0.21052631578947367
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15789473684210525
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 16
+    },
+    "nameservers": [
+        "ns-2045.awsdns-63.co.uk",
+        "ns-227.awsdns-28.com",
+        "ns-806.awsdns-36.net",
+        "ns-1057.awsdns-04.org"
+    ]
+}

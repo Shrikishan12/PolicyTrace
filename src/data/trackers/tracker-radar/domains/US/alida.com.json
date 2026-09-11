@@ -1,0 +1,126 @@
+{
+    "domain": "alida.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "touchpoint-sdk",
+        "api-touchpoint.eu1",
+        "api-touchpoint.na2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "alida\\.com\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "touchpoint-sdk"
+            ],
+            "apis": {
+                "Screen.prototype.width": 4,
+                "window.localStorage": 4,
+                "URL.createObjectURL": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "22fd3e3f9e2732b5258b16e3df259c7615440417c77a8e536fbbfda2968b8b08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clicks.co.za",
+                "www.bareminerals.com",
+                "www.duquesnelight.com",
+                "www.wellsense.org"
+            ]
+        },
+        {
+            "rule": "alida\\.com\\/distributor\\/distributor\\.Distributor\\/GetWidgets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-touchpoint.eu1",
+                "api-touchpoint.na2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clicks.co.za",
+                "www.bareminerals.com",
+                "www.duquesnelight.com",
+                "www.wellsense.org"
+            ]
+        },
+        {
+            "rule": "alida\\.com\\/distributor\\/distributor\\.Distributor\\/GetWidgets",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-touchpoint.eu1",
+                "api-touchpoint.na2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clicks.co.za",
+                "www.bareminerals.com",
+                "www.duquesnelight.com",
+                "www.wellsense.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "visually.io",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "ns-375.awsdns-46.com",
+        "ns-1017.awsdns-63.net",
+        "ns-1030.awsdns-00.org",
+        "ns-1739.awsdns-25.co.uk"
+    ]
+}

@@ -1,0 +1,129 @@
+{
+    "domain": "webfxcapi.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "c",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "webfxcapi\\.com\\/capi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "c"
+            ],
+            "apis": {
+                "Document.cookie getter": 12,
+                "Navigator.prototype.userAgent": 8
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "a35d49baf01328659cd8fa8f7d9e2a069e63e5dfcf42ab29b9d729b50d076840"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "raybuck.com",
+                "rotarysolutions.com",
+                "scootaround.com",
+                "www.clopaydoor.com",
+                "www.martinguitar.com",
+                "www.mathschool.com",
+                "www.midlandsb.com",
+                "www.montanaleather.com",
+                "www.nomorobo.com",
+                "www.orrstown.com",
+                "www.quincycompressor.com",
+                "www.trailersuperstore.com",
+                "www.volocars.com"
+            ]
+        },
+        {
+            "rule": "webfxcapi\\.com\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotarysolutions.com",
+                "scootaround.com",
+                "www.clopaydoor.com",
+                "www.mathschool.com",
+                "www.midlandsb.com",
+                "www.nomorobo.com",
+                "www.orrstown.com",
+                "www.trailersuperstore.com"
+            ]
+        },
+        {
+            "rule": "webfxcapi\\.com\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rotarysolutions.com",
+                "scootaround.com",
+                "www.clopaydoor.com",
+                "www.mathschool.com",
+                "www.midlandsb.com",
+                "www.nomorobo.com",
+                "www.orrstown.com",
+                "www.trailersuperstore.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.631578947368421
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3684210526315789
+        }
+    ],
+    "types": {
+        "Script": 13,
+        "Preflight": 8,
+        "Ping": 8
+    },
+    "nameservers": [
+        "pdns13.domaincontrol.com",
+        "pdns14.domaincontrol.com"
+    ]
+}

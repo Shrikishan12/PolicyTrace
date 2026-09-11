@@ -1,0 +1,112 @@
+{
+    "domain": "joaia.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "web-plugin"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "joaia\\.app\\/web-plugin\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ccb6632e7c1a22b9bf1681d872a58962cfbf4574e1d903cff6596b78c2f50b8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basel.com",
+                "www.graubuenden.ch",
+                "www.luzern.com",
+                "www.zuerich.com"
+            ]
+        },
+        {
+            "rule": "joaia\\.app\\/web-plugin-release\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "156649aef9791ba7a267b7234cb33a959fca47a2245bcb3f13178f3d76e04a08"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basel.com",
+                "www.graubuenden.ch",
+                "www.luzern.com",
+                "www.zuerich.com"
+            ]
+        },
+        {
+            "rule": "joaia\\.app\\/api\\/public\\/launcher-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-plugin"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "f5b91340c20886b5a840e37012f1bd855a832edf63057f5a8534af00d616ba80",
+                "103a31eeaa77fc3ec2d4a4e211adc42451bdffd202e7463298379ee4fea94559",
+                "4d626f547ba2be30451cb13b2256a51315c407da2cef2a0fb039a094683e8db5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "basel.com",
+                "www.engadin.com",
+                "www.graubuenden.ch",
+                "www.luzern.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "windows.net",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 8
+    },
+    "nameservers": [
+        "ns42.infomaniak.com",
+        "ns41.infomaniak.com"
+    ]
+}

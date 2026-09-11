@@ -1,0 +1,124 @@
+{
+    "domain": "mixpo.com",
+    "owner": {
+        "name": "Mixpo Inc.",
+        "displayName": "Mixpo"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "swf",
+        "player1"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "mixpo\\.com\\/js\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "swf"
+            ],
+            "apis": {
+                "console.memory": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.plugins": 1,
+                "HTMLMediaElement.prototype.canPlayType": 1,
+                "WebGLRenderingContext.prototype.getExtension": 1,
+                "WebGLRenderingContext.prototype.getParameter": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Screen.prototype.availWidth": 1,
+                "Screen.prototype.availHeight": 1,
+                "Screen.prototype.orientation": 1,
+                "BarProp.prototype.visible": 1,
+                "window.indexedDB": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "10d90fd0d8efaf7c7b6d6ae45eb82da6bf0c1d763e42b562d934c6d1de4d3f62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kvia.com",
+                "www.wbal.com"
+            ]
+        },
+        {
+            "rule": "mixpo\\.com\\/player\\/container",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb4748c81d73d38d434a1ccb9f2df5a713fe32f5a42eb552874fd2f296e468be"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wbal.com",
+                "www.wbal.com"
+            ]
+        },
+        {
+            "rule": "mixpo\\.com\\/player\\/research-logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wbal.com",
+                "www.wbal.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-44.awsdns-05.com",
+        "ns-712.awsdns-25.net",
+        "ns-1634.awsdns-12.co.uk",
+        "ns-1433.awsdns-51.org"
+    ]
+}

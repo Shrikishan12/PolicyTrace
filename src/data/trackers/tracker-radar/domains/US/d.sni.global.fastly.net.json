@@ -1,0 +1,406 @@
+{
+    "domain": "d.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000137,
+    "sites": 20,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "assets.production.linktr.ee",
+            "resolved": "d.sni.global.fastly.net"
+        },
+        {
+            "original": "edge.browser-fp.production.linktr.ee",
+            "resolved": "d.sni.global.fastly.net"
+        },
+        {
+            "original": "per.racingpost.com",
+            "resolved": "d.sni.global.fastly.net"
+        },
+        {
+            "original": "pl.tedcdn.com",
+            "resolved": "dualstack.d.sni.global.fastly.net"
+        },
+        {
+            "original": "player.wwe.com",
+            "resolved": "d.sni.global.fastly.net"
+        },
+        {
+            "original": "sgmcdn.racingpost.com",
+            "resolved": "d.sni.global.fastly.net"
+        },
+        {
+            "original": "sstc.dunelm.com",
+            "resolved": "d.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "edge.browser-fp.production.linktr.ee",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b9936cea03eab4ccca212610a73da733cb7e36ad1669c41608dc9f17e47d9176"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linktr.ee",
+                "auth.linktr.ee"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/cep\\/cep\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets.production.linktr.ee",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "ad3ea1b3da785f890f9dda33539202e31d28709e86b145327ce0f4cf69afb0b4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linktr.ee",
+                "auth.linktr.ee"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/client-brfp\\/br-fp-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets.production.linktr.ee",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "73bc7f8b8d4c8cbba33b07bc3bdbc8d7341c9358e8e033eab31e1f8557a45cbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "linktr.ee",
+                "auth.linktr.ee"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/gtm\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sstc.dunelm.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "657b242098a10397552ed9e6835cb0b6a7f134cfb7a29d2002964659b1fc71f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dunelm.com",
+                "www.dunelm.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/gtag\\/js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sstc.dunelm.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5fbf539aab95143e672416ba40974351b75f9d9046c752020040489a89ce1d52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dunelm.com",
+                "www.dunelm.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sstc.dunelm.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e64954dc34e12c7190cc2338a54b07644ff0f102aa71cc7209bcbb49c3009f7c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dunelm.com",
+                "www.dunelm.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/3331e89e-fade-4ec2-8662-99174bdd2b69\\/sgmrp\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sgmcdn.racingpost.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "406a32958b2a4f0f6970d354805761431c8c15446fe29c94fd31b2844c8ba8f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "racingpost.com",
+                "www.racingpost.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/3331e89e-fade-4ec2-8662-99174bdd2b69\\/segmentify\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sgmcdn.racingpost.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "fb27f02a2e286e210df67a093e77dfe83392e27eef4409b462e9f370b9f6a41a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "racingpost.com",
+                "www.racingpost.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/add\\/events\\/v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "per.racingpost.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e774f62d4afc99d7b984670d2d3b6f2d9e98dc19b7bfc606fb3ccc1044167e6b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "racingpost.com",
+                "www.racingpost.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/add\\/events\\/v1\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "per.racingpost.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "racingpost.com",
+                "www.racingpost.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/fonts\\/InterVariable\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "pl.tedcdn.com",
+                    "resolved": "dualstack.d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "cfac07c86d384dbcfddbf7bde981c5a8ec9ba53a5f61bcf5b874062c5edd7dfa"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ted.com",
+                "www.ted.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/release\\/v1\\.7\\.5\\/Player\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "player.wwe.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "6c4123f4536fccc0cd860861a47ab863dc314fb5df68e23c5ce5cd98f6e45e6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wwe.com",
+                "www.wwe.com"
+            ]
+        },
+        {
+            "rule": "d\\.sni\\.global\\.fastly\\.net\\/release\\/v1\\.7\\.5\\/Player\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "player.wwe.com",
+                    "resolved": "d.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "5f233c321655b6bccf306ab1aa6800076b75b81ab5ccfcb917a1dad3a9f400b1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wwe.com",
+                "www.wwe.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9736842105263158
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Fetch": 2,
+        "Stylesheet": 4,
+        "XHR": 2,
+        "Preflight": 2,
+        "Font": 2
+    },
+    "nameservers": []
+}

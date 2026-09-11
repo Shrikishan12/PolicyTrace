@@ -1,0 +1,92 @@
+{
+    "domain": "c.sni.global.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "preview.ff-cdn.datadoghq.com",
+            "resolved": "c.sni.global.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "c\\.sni\\.global\\.fastly\\.net\\/precompute-assignments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "preview.ff-cdn.datadoghq.com",
+                    "resolved": "c.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datadoghq.com",
+                "docs.datadoghq.com",
+                "www.datadoghq.com"
+            ]
+        },
+        {
+            "rule": "c\\.sni\\.global\\.fastly\\.net\\/precompute-assignments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "preview.ff-cdn.datadoghq.com",
+                    "resolved": "c.sni.global.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "438b5905a44687d8e381ec7faaf7fd5e13bdbf58bee559ddd437dccf4dac9a8a",
+                "5cd731f353b99e206cb5c3be28b0f6778a4a934de4b169b211c5b94edd45dbd9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "datadoghq.com",
+                "docs.datadoghq.com",
+                "www.datadoghq.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 3,
+        "Fetch": 3
+    },
+    "nameservers": []
+}

@@ -1,0 +1,157 @@
+{
+    "domain": "warnermediacdn.akamaized.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "standard-tls"
+    ],
+    "cnames": [
+        {
+            "original": "turnip.cdn.turner.com",
+            "resolved": "standard-tls.warnermediacdn.akamaized.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "warnermediacdn\\.akamaized\\.net\\/top\\/auth\\/2\\.22\\.3-0\\/auth\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "standard-tls"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "turnip.cdn.turner.com",
+                    "resolved": "standard-tls.warnermediacdn.akamaized.net"
+                }
+            ],
+            "responseHashes": [
+                "a69cb3c6cd8be0ca60f51363e27711df6eff698f20891716978cacaf194e7738"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nexus-web-application-identifier": {
+                    "ttl": 2147483647,
+                    "length": 50,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "warnermediacdn\\.akamaized\\.net\\/top\\/freeview\\/2\\.19\\.0-3\\/freeview\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "standard-tls"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "turnip.cdn.turner.com",
+                    "resolved": "standard-tls.warnermediacdn.akamaized.net"
+                }
+            ],
+            "responseHashes": [
+                "6f16a2a7e2765d6e983c8973f11be13ff12f14dbdd2f45ea2a66c315256343b3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnn.com",
+                "www.cnn.com"
+            ]
+        },
+        {
+            "rule": "warnermediacdn\\.akamaized\\.net\\/top\\/player-ui\\/2\\.20\\.1-1\\/player-ui\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "standard-tls"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "turnip.cdn.turner.com",
+                    "resolved": "standard-tls.warnermediacdn.akamaized.net"
+                }
+            ],
+            "responseHashes": [
+                "763d5b14916a73b3245f5aa1820b030bef5d33e528f75c6f0124ddbcbae6d220"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncaa.com",
+                "www.ncaa.com"
+            ]
+        },
+        {
+            "rule": "warnermediacdn\\.akamaized\\.net\\/top\\/player-ui\\/2\\.20\\.1-1\\/player-ui\\.min\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "standard-tls"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "turnip.cdn.turner.com",
+                    "resolved": "standard-tls.warnermediacdn.akamaized.net"
+                }
+            ],
+            "responseHashes": [
+                "69f5534917eb3b83acf955b3590f8b488817e0176c21ebb21ecde513972a1592"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ncaa.com",
+                "www.ncaa.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Stylesheet": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,192 @@
+{
+    "domain": "sefaria.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "sefaria\\.org\\/linker\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 3
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "b34f4bb538d3bcae8b1ad4b77b716126d30d42f86371049b859563cec7fc2600"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aish.com",
+                "jwa.org",
+                "outorah.org",
+                "www.clevelandjewishnews.com",
+                "www.jewfaq.org",
+                "www.tabletmag.com",
+                "www.yeshiva.co"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/api\\/find-refs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "c7168e28cafaea6582ea761f11ce8881c3cebea9344994bf5dc9fda8625719a7",
+                "36fbf479df6e85cc169a27f28abe5a7c6a90ad6addcc12962825b02b41bb620c",
+                "1e178b7dd36b41284ab44d30f63cfc75315023fa3ed6369419da8b2ec3b1d679",
+                "fc15f2d10a0c5eac5a2befc1a5662eb123d8f87633f6d8ba995bee5b734dd0b6",
+                "daf06e2614f3d57b49403b13c7487bc8d46c5c0c061201e4b7a2f3cfe6cb9431",
+                "cc52f3e8f6c1544933979b82ce197cb617185f856a411cb8fa7a7d019939cdb9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aish.com",
+                "jwa.org",
+                "rabbisacks.org",
+                "www.clevelandjewishnews.com",
+                "www.jewfaq.org",
+                "www.jewishencyclopedia.com",
+                "www.yeshiva.co"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/api\\/find-refs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aish.com",
+                "jwa.org",
+                "rabbisacks.org",
+                "www.clevelandjewishnews.com",
+                "www.jewfaq.org",
+                "www.jewishencyclopedia.com",
+                "www.yeshiva.co"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/linker\\.v3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b34f4bb538d3bcae8b1ad4b77b716126d30d42f86371049b859563cec7fc2600"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rabbisacks.org",
+                "www.jewishencyclopedia.com"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/api\\/websites\\/www\\.jewfaq\\.org",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21e9614f4092ca2b35938b47c2b760c8309054fc8d067d5aaa406da9dc568a27"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jewfaq.org",
+                "www.jewfaq.org"
+            ]
+        },
+        {
+            "rule": "sefaria\\.org\\/api\\/websites\\/www\\.jewishencyclopedia\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8253dab6ec85d18688fe9a94ff33083ce73b8e02501450148fac1e5d93ff9e64"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jewishencyclopedia.com",
+                "www.jewishencyclopedia.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9795918367346939
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.02040816326530612
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 11,
+        "Preflight": 7
+    },
+    "nameservers": [
+        "pola.ns.cloudflare.com",
+        "rajeev.ns.cloudflare.com"
+    ]
+}

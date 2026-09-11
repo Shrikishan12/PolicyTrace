@@ -1,0 +1,402 @@
+{
+    "domain": "helixo.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "ufe",
+        "alpha-app",
+        "alpha",
+        "engine.ufe",
+        "api.alpha",
+        "analytics.bucks",
+        "cdn-2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "helixo\\.co\\/scripts\\/sdk\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ufe",
+                "alpha-app",
+                "alpha"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 7,
+                "window.localStorage": 6,
+                "window.sessionStorage": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "651b6beb3d568ab85db269f360717e7879e01caa4a4e4b12bd4f408126eec22d",
+                "f3f5b44a9c3b2509556ad298dba2c017373a6c4045e6c40f470f9a2402fbe5ff"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagsmart.com",
+                "feradyne.com",
+                "getfreewrite.com",
+                "hereticparfum.com",
+                "tbnation.net",
+                "www.helidirect.com",
+                "www.pentel.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/scripts\\/app-core\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "339ba0fceb2cd2e6af0cfc0cb253edff84635c0bc3fcfff1a5ddec4961fdf4c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagsmart.com",
+                "betterlovedoll.com",
+                "betterlovedoll.myshopify.com",
+                "getfreewrite.com",
+                "www.frizzlife.com",
+                "www.helidirect.com",
+                "www.sainsmart.com",
+                "www.wattcycle.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/scripts\\/ufe\\.styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ufe"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "7c47d797a62ec07f015591b9d4fedc2133778553eca7f5163bcf5b4071a8c8f0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagsmart.com",
+                "betterlovedoll.com",
+                "betterlovedoll.myshopify.com",
+                "getfreewrite.com",
+                "tbnation.net",
+                "www.frizzlife.com",
+                "www.helidirect.com",
+                "www.pentel.com",
+                "www.sainsmart.com",
+                "www.wattcycle.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/v1\\/public\\/funnel",
+            "cookies": 0.0000822,
+            "fingerprinting": 0,
+            "subdomains": [
+                "engine.ufe",
+                "api.alpha"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "47ac84fe50e0bf21fa39edc152543cb14e02675cdf428abcb9b8f24beec40965",
+                "4853ff1f78d9fa8e5adba4557021bf216d33726c5eaa34ab2668c20d82def364",
+                "89ec9eba7c466865f9545c6b73b3e098ae96612f54ea43b144f61ce90d3b2452"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bagsmart.com",
+                "betterlovedoll.com",
+                "betterlovedoll.myshopify.com",
+                "feradyne.com",
+                "getfreewrite.com",
+                "hereticparfum.com",
+                "tbnation.net",
+                "www.frizzlife.com",
+                "www.helidirect.com",
+                "www.pentel.com",
+                "www.sainsmart.com",
+                "www.wattcycle.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/analytics\\/currency-switch",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.bucks"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chubbycable.com",
+                "megelin.com",
+                "novaalab.com",
+                "overture3d.com",
+                "www.mchose.store",
+                "www.realdick.com",
+                "www.sunfounder.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/analytics\\/currency-switch",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.bucks"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "c2d8bd7a679529da9948b59b3be4bea4c9369f3a3cff5e2ea2f875bad0d65e0e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chubbycable.com",
+                "megelin.com",
+                "novaalab.com",
+                "overture3d.com",
+                "www.mchose.store",
+                "www.realdick.com",
+                "www.sunfounder.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/analytics\\/track-visit",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.bucks"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chubbycable.com",
+                "megelin.com",
+                "novaalab.com",
+                "overture3d.com",
+                "www.aosulife.com",
+                "www.mchose.store",
+                "www.realdick.com",
+                "www.sunfounder.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/analytics\\/track-visit",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.bucks"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "c2d8bd7a679529da9948b59b3be4bea4c9369f3a3cff5e2ea2f875bad0d65e0e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chubbycable.com",
+                "megelin.com",
+                "novaalab.com",
+                "overture3d.com",
+                "www.aosulife.com",
+                "www.mchose.store",
+                "www.realdick.com",
+                "www.sunfounder.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/scripts\\/alpha\\.styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "alpha-app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a640e0178eab91c4eff4d9e6ccf963ce7222d3c7efcb524a4c13099f266b194b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "feradyne.com",
+                "hereticparfum.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/v1\\/public\\/funnel\\/free-gift\\/config",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.alpha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "feradyne.com",
+                "hereticparfum.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/api\\/v1\\/public\\/funnel\\/free-gift\\/config",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.alpha"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d75d627f56b5625472c520aad411d42fe678800aaadaa94d978486ef4b2d20c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "feradyne.com",
+                "hereticparfum.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/bucks\\/bucks-modern%20-flags\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-2"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "328c983471fecaabbb0bc1d2269076debb083a7205c946d64746dd6347bf53da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "novaalab.com",
+                "www.aosulife.com",
+                "www.mchose.store",
+                "www.sunfounder.com"
+            ]
+        },
+        {
+            "rule": "helixo\\.co\\/bucks\\/bucks-traditional%20-flags\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77a83d66de83456ab112abeb3fd5482a8022d74e9677dc60cec0f3c628220d4b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "realdick.com",
+                "www.realdick.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000178,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7733333333333333
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.17333333333333334
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.02666666666666667
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.02666666666666667
+        }
+    ],
+    "types": {
+        "Script": 15,
+        "Stylesheet": 12,
+        "XHR": 12,
+        "Preflight": 17,
+        "Fetch": 17,
+        "Image": 6
+    },
+    "nameservers": [
+        "newt.ns.cloudflare.com",
+        "barbara.ns.cloudflare.com"
+    ]
+}

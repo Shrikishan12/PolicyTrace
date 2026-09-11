@@ -1,0 +1,647 @@
+{
+    "domain": "cdn-apple.com",
+    "owner": {
+        "name": "Apple Inc.",
+        "displayName": "Apple",
+        "privacyPolicy": "https://www.apple.com/legal/privacy/en-ww/",
+        "url": "http://apple.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00505,
+    "sites": 737,
+    "subdomains": [
+        "applepay",
+        "appleid",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/v1\\.1\\.0\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "f1999064567af59fab1d3b9d4757abedbb69c1d0c37f0edab7d02795c0d7bd55"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2fast4buds.com",
+                "farmstore.com",
+                "goldenbride.net",
+                "kuhl.com",
+                "spree.com",
+                "uadates.com",
+                "unherd.com",
+                "www.bobevans.com",
+                "www.boligportal.dk",
+                "www.everlywell.com",
+                "www.kraeuterhaus.de",
+                "www.kuhl.com",
+                "www.marmot.com",
+                "www.poetry.com",
+                "www.relieffactor.com",
+                "www.worldvision.org"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/en_US\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 228,
+                "window.innerHeight": 228,
+                "window.screenLeft": 228,
+                "window.screenTop": 228,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4
+            },
+            "sites": 237,
+            "prevalence": 0.00162,
+            "cnames": [],
+            "responseHashes": [
+                "c957330664c6089845e06d01822f2815a2745c8a8fb64fb9ce393272345f6540"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodreads.com",
+                "photobucket.com",
+                "seekingalpha.com",
+                "thechive.com",
+                "www.goodreads.com",
+                "www.telegraph.co.uk",
+                "www.molotov.tv",
+                "www.landwatch.com",
+                "www.rakuten.com",
+                "www.reelshort.com",
+                "www.terabox.com",
+                "uk.advfn.com",
+                "www.thejakartapost.com",
+                "www.hemlane.com",
+                "www.callofwar.com",
+                "www.bluemountain.com",
+                "jegy.mav.hu",
+                "www.fooducate.com",
+                "www.aiease.ai",
+                "wolt.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 144,
+                "window.matchMedia(\"prefers-color-scheme\")": 144,
+                "Navigator.prototype.userAgent": 40
+            },
+            "sites": 148,
+            "prevalence": 0.00101,
+            "cnames": [],
+            "responseHashes": [
+                "4820a22a4de26f7d13e55b257a70b8d5bd06ce0ea4416906bd22be49821d9df6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "photobucket.com",
+                "www.denverpost.com",
+                "www.efireplacestore.com",
+                "www.rodanandfields.com",
+                "www.dunkindonuts.com",
+                "www.pressdemocrat.com",
+                "www.mercurynews.com",
+                "www.woolworths.co.nz",
+                "www.trentonian.com",
+                "aeropostale.com",
+                "www.dailylocal.com",
+                "www.marcos.com",
+                "www.thekjvstore.com",
+                "www.marinij.com",
+                "www.citizensvoice.com",
+                "acehardware.com",
+                "www.eastbaytimes.com",
+                "www.rokronline.com",
+                "www.nydailynews.com",
+                "www.sonicdrivein.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/apple-pay-button\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 144,
+                "Navigator.prototype.languages": 144,
+                "document.fonts.check": 144,
+                "window.devicePixelRatio": 9,
+                "Element.prototype.getClientRects": 8
+            },
+            "sites": 144,
+            "prevalence": 0.000986,
+            "cnames": [],
+            "responseHashes": [
+                "69a947e4df77c6f1e4647f6d612fa985c20cdd9aa349d2eedf877ad126830532"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "photobucket.com",
+                "bunch.woolworths.com.au",
+                "www.marcos.com",
+                "www.jimmyjohns.com",
+                "chipotle.com",
+                "www.keds.com",
+                "www.morningjournal.com",
+                "www.ezup.com",
+                "www.chicagotribune.com",
+                "www.aeropostale.com",
+                "www.davidyurman.com",
+                "www.dailypress.com",
+                "www.citizensvoice.com",
+                "www.standardspeaker.com",
+                "www.fmshobby.com",
+                "www.vineyardvines.com",
+                "usa.mizuno.com",
+                "www.vonmaur.com",
+                "www.dailybulletin.com",
+                "www.dior.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/apple-wallet-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 144,
+                "Navigator.prototype.languages": 144,
+                "document.fonts.check": 144
+            },
+            "sites": 144,
+            "prevalence": 0.000986,
+            "cnames": [],
+            "responseHashes": [
+                "9279969b861f6f4223d2dbb34bba36e3cc7a9cc5940bf78418e398caeb825e5d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "photobucket.com",
+                "www.nydailynews.com",
+                "www.twincities.com",
+                "surlatable.com",
+                "iceland.co.uk",
+                "www.orlandosentinel.com",
+                "acehardware.com",
+                "www.denverpost.com",
+                "dior.com",
+                "www.dsw.ca",
+                "www.rokronline.com",
+                "my.veteransunited.com",
+                "www.davidyurman.com",
+                "www.mercurynews.com",
+                "www.saratogian.com",
+                "www.delcotimes.com",
+                "www.mysteryranch.com",
+                "www.marantz.com",
+                "www.vagaro.com",
+                "www.discountdance.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/v1\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 85,
+                "window.matchMedia(\"prefers-color-scheme\")": 85,
+                "Navigator.prototype.userAgent": 85,
+                "Navigator.prototype.languages": 85,
+                "document.fonts.check": 85,
+                "Element.prototype.getClientRects": 3
+            },
+            "sites": 88,
+            "prevalence": 0.000603,
+            "cnames": [],
+            "responseHashes": [
+                "afd584eb5736dd0208473226960ee2d03ca960465d28b21bf9e3a610c70899e5",
+                "63f4d0face532a8e6780ae4168c79f475853442ea7b6a1e774ddd220c466bbf9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "readingcinemas.com.au",
+                "www.philadelphiaunion.com",
+                "www.gmpartsdirect.com",
+                "www.mnufc.com",
+                "www.firehousesubs.com",
+                "www.supermotocross.com",
+                "www.timbers.com",
+                "www.lafc.com",
+                "www.crainsnewyork.com",
+                "www.whitecapsfc.com",
+                "www.stlcitysc.com",
+                "www.americanairlinescenter.com",
+                "www.chicagofirefc.com",
+                "www.autonews.com",
+                "www.samenhaus.de",
+                "www.hartenergy.com",
+                "bws.com.au",
+                "www.revolutionsoccer.net",
+                "cricut.com",
+                "www.bonmarche.co.uk"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 90,
+                "window.matchMedia(\"prefers-color-scheme\")": 90,
+                "Navigator.prototype.userAgent": 15
+            },
+            "sites": 91,
+            "prevalence": 0.000623,
+            "cnames": [],
+            "responseHashes": [
+                "4820a22a4de26f7d13e55b257a70b8d5bd06ce0ea4416906bd22be49821d9df6",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.petalumanews.com",
+                "www.dailylocal.com",
+                "www.vineyardvines.com",
+                "www.readingeagle.com",
+                "www.marinij.com",
+                "www.theoaklandpress.com",
+                "www.marcos.com",
+                "www.thekjvstore.com",
+                "topgkstore.com",
+                "www.mcall.com",
+                "getrawmilk.com",
+                "www.ezup.com",
+                "www.dailypress.com",
+                "www.pilotonline.com",
+                "www.kyleswitchplates.com",
+                "www.chicagotribune.com",
+                "www.worldwidegolfshops.com",
+                "www.ocregister.com",
+                "www.macombdaily.com",
+                "vineyardvines.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/businesschat\\/start-chat-button\\/2\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 18
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "1a4318f8b6d5376f1656e2b00b7ed8705d5799dd2be22378cbc43ca6e4b8f8ce",
+                "387ae108bdc5c5ba98f8698d04336e0d4f4440b2dc29bd73e2b8d17f43d83912"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baers.com",
+                "brinkshome.com",
+                "help.summitracing.com",
+                "midco.com",
+                "my.dish.com",
+                "support.dish.com",
+                "support.traeger.com",
+                "www.au.com",
+                "www.baers.com",
+                "www.brickhousesecurity.com",
+                "www.crackerbarrel.com",
+                "www.insinkerator.com",
+                "www.nationsphotolab.com",
+                "www.o2.cz",
+                "www.sccu.com",
+                "www.spark.co.nz",
+                "www.terminix.com",
+                "www.tysonscornercenter.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/v1\\.3\\.2\\/apple-pay-sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 6,
+                "window.matchMedia(\"prefers-color-scheme\")": 6,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "25d3c632800746fce994a2d5cfb2e2276535cf4efc555608763726df266d8de6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlestyrwhitt.com",
+                "lecreuset.com",
+                "paiement.aliae.com",
+                "www.charlestyrwhitt.com",
+                "www.jsx.com",
+                "www.lecreuset.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/zh_CN\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "window.screenLeft": 2,
+                "window.screenTop": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b062eb35bae30c22ab773cdd6696d558e220282661c6bed8d815652f51b46b39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deepseek.com",
+                "platform.deepseek.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/de_DE\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 5,
+                "window.innerHeight": 5,
+                "window.screenLeft": 5,
+                "window.screenTop": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "3cfa6aec7211ac4934d2aad69c8fd3f93bafb5bfe046f7f9b8908936addc6856"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aegeanair.com",
+                "www.autohero.com",
+                "www.crowdfarming.com",
+                "www.immmo.at",
+                "www.myheritage.de"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/assets\\/1\\.2\\.0\\/fonts\\/en-US\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "5b08d597d9b539565c03abae365985b327c7b75a2065fd2c1cd6c38ae1444c54"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "localfats.com",
+                "novationmusic.com",
+                "vineyardvines.com",
+                "www.chicagofaucetshoppe.com",
+                "www.rmwilliams.com.au",
+                "www.thekjvstore.com",
+                "www.vineyardvines.com",
+                "www.vonmaur.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/fr_FR\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.screenLeft": 3,
+                "window.screenTop": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f1953ec648cf45072f8844b5df36c6c4efb494a56c4d36b5cb69acab5a8418ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wix.com",
+                "www.myheritage.fr",
+                "www.pourquoidocteur.fr"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/jsapi\\/1\\.latest\\/assets\\/1\\.2\\.0\\/fonts\\/en-US\\.woff",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "applepay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vineyardvines.com",
+                "www.vineyardvines.com"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/appleauth\\/static\\/jsapi\\/appleid\\/1\\/it_IT\\/appleid\\.auth\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "appleid"
+            ],
+            "apis": {
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.screenLeft": 3,
+                "window.screenTop": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "106c62488524bc4637b11a7b39e26d75ce4dfc863d6641c3fa50c0fd90105d59"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ibs.it",
+                "www.ibs.it",
+                "www.lafeltrinelli.it"
+            ]
+        },
+        {
+            "rule": "cdn-apple\\.com\\/businesschat\\/start-chat-button\\/2\\.0\\.0\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77d9f2e896ada5cb2d3dc002bc0a404635ffe44aa0d52249f63bfbb198ed3da1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mysmartmove.com",
+                "www.us.hsbc.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7861771058315334
+        },
+        {
+            "domain": "gofevo.com",
+            "prevalence": 0.08747300215982722
+        },
+        {
+            "domain": "bolt.com",
+            "prevalence": 0.03347732181425486
+        },
+        {
+            "domain": "pelcro.com",
+            "prevalence": 0.02159827213822894
+        },
+        {
+            "domain": "quiq-cdn.com",
+            "prevalence": 0.00755939524838013
+        },
+        {
+            "domain": "nmi.com",
+            "prevalence": 0.005399568034557235
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.004319654427645789
+        },
+        {
+            "domain": "teraboxcdn.com",
+            "prevalence": 0.004319654427645789
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.0032397408207343412
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.0032397408207343412
+        }
+    ],
+    "types": {
+        "Script": 816,
+        "Other": 91,
+        "Font": 10
+    },
+    "nameservers": [
+        "a.ns.apple.com",
+        "b.ns.apple.com",
+        "c.ns.apple.com",
+        "d.ns.apple.com"
+    ]
+}

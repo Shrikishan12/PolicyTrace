@@ -1,0 +1,199 @@
+{
+    "domain": "myshopify.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "support-site-174ff315f39345cd1166.o2",
+        "cab-widgets-1849cb317d61824c8523.o2",
+        "api-endpoints-a4c868cc258f0ec37a2a.o2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "myshopify\\.dev\\/app\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "support-site-174ff315f39345cd1166.o2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a0a0e5eb945fba62b734c452da7678dad1e64eb3f9031aceaf8078b61eb7fb1e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turtlebeach.com",
+                "support.turtlebeach.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/static\\/app",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "support-site-174ff315f39345cd1166.o2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "703d73e1b91b62303e34a2cfaf6392ce6e057facbd6bff7019e01900ff41ddea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turtlebeach.com",
+                "support.turtlebeach.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/static\\/beachify-app",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "support-site-174ff315f39345cd1166.o2"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "728f60cb30b1a333f73303a24dc8a826cb8e50227530bcc132ebf5ef72a58c34"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turtlebeach.com",
+                "support.turtlebeach.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/EN\\/header",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "support-site-174ff315f39345cd1166.o2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "60143fcfb2a6ea1eccc5bcfdad60b1f8d9ac59201f8e0dd177c28a43ffa3dc32"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turtlebeach.com",
+                "support.turtlebeach.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/EN\\/footer",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "support-site-174ff315f39345cd1166.o2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "30e70c603303ba8602d25c630685d398e20eec8a4156d670d23206b74226894a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "turtlebeach.com",
+                "support.turtlebeach.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/locator",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cab-widgets-1849cb317d61824c8523.o2"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabionline.com",
+                "www.cabionline.com"
+            ]
+        },
+        {
+            "rule": "myshopify\\.dev\\/stores\\/closest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-endpoints-a4c868cc258f0ec37a2a.o2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "79802f12e9d27823e98677a48463946574a4c65b4ba383bd935c14f4dedbadeb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "travismathew.com",
+                "www.travismathew.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.95
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "XHR": 8,
+        "Document": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "blue.foundationdns.net",
+        "blue.foundationdns.org",
+        "blue.foundationdns.com"
+    ]
+}

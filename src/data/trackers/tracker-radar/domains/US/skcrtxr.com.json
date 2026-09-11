@@ -1,0 +1,616 @@
+{
+    "domain": "skcrtxr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000342,
+    "sites": 50,
+    "subdomains": [
+        "cdn-v",
+        "cdn-c",
+        "cdn",
+        "openrtb",
+        "hb-bidder",
+        "rap",
+        "grid"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "skcrtxr\\.com\\/wrapper\\/vpaid\\.xml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-v"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "b62a7e246087cceeef44d4619ec4ece8f7bd5f86aefe44d3b3b64c176241f3d8",
+                "160471374ddfedc050c95ca4fac68e290f53d807500a52b801f253a93b89f1cc",
+                "5305f3a456f74801318ac4bab1c685f2d97c51a7eb7b5fb52d50d93432e2dff9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "base.garant.ru",
+                "lyrhub.com",
+                "mytabs.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper\\/js\\/adserver-vpaid-eng-v4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-c"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Date.prototype.getTimezoneOffset": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "12be9acf4d54e115108e2f45a6b2eed6d2581db2680fcc40cce1a4f4041f381e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "base.garant.ru",
+                "lyrhub.com",
+                "mytabs.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/placement\\/682fefe5-891e-469c-a3aa-6f3b48d2327f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8a753ed7db1b81fafde6b98cef182099c7bae845e748f0e1d4f726127244f98a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "base.garant.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/placement\\/4ab34668-74ba-416a-b94a-af3045b3df73",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "4618844876d9a87538bc957cf5b902332d736d03226626343a34b9a9750f9d92"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "base.garant.ru",
+                "mytabs.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/request-ad",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "openrtb"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "base.garant.ru",
+                "lyrhub.com",
+                "mytabs.ru",
+                "qna.habr.com"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/vpaid\\/error",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garant.ru",
+                "lyrhub.com",
+                "mytabs.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/roxot-wrapper\\/js\\/roxot-manager\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 35,
+            "prevalence": 0.00024,
+            "cnames": [],
+            "responseHashes": [
+                "bea42f69eb1052030112bb3dc98bc5f1a0d79e98d8da98358eb37ed1c33f90f8",
+                "dc7a6e878ef02cf3b0b29f759c56f0caacdf6f3b6c3e7c36825ce91aac012ab9",
+                "ee23be864781056aca4e68ea5e64273064dde21413daf57f77f57b2c98a7382d",
+                "cca2a04c715a69d8e051a4bc7a9ddc615d3638f0fe7736b58780fafcbee314f8",
+                "b0535377a5a8ab6bd496811c989984ce2a973279715910db8ffaba6ee3c6b157",
+                "3d321811e807fd39046bc8168dd78cb45782c5cc7826d65bd330b20ad42e244a",
+                "1d202f694c74109c0806f5d5d38d3b51ff5a6fd8d894df4a77688029dc1a6f86",
+                "859d80da1e395f8ff4f3a6d957f5640d013bf5ef441ccfff7ff597195e2711d8",
+                "a9480e1edb0924535be4a4acb44d5f7943ae03ba5b4b50c7a2cae157b22ee659",
+                "1b3f666ee874aca2788c0bcec00a3064842ae90f70167b87597943572c1893b6",
+                "3ccbf5232924f265607e9bc45bc6e6f76e1b7e41318b658c8a82815834d6fcd6",
+                "b0bd435e71086e1ce9f7fc7a196c0fa6858c268585d30644b19282d037f853d4",
+                "5df22804960f227f71522190e4b4c46cd96b7431df300fde71350922942797dc",
+                "14782c8ac90eb66389a1500325c408fdeb092637dbd0d185021cd0e315c51c10",
+                "73c2b731da68c959102c916b50c8faecb792372af5dc352e478aeac71cb9adf9",
+                "c3081009f9faa806d71849e54ed2bb8d07520c2a0c5caade3b1b6aeea8e15d27",
+                "05bcd92fe945ffd398f213ef64602012338eb2019e3e86bcd95ac70dce08801c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.starhit.ru",
+                "ucrazy.org",
+                "qna.habr.com",
+                "www.mentoday.ru",
+                "www.gastronom.ru",
+                "mytabs.ru",
+                "ilibrary.ru",
+                "www.iamcook.ru",
+                "motokvadro.vercel.app",
+                "showgamer.com",
+                "okcalc.com",
+                "cyberleninka.ru",
+                "obozone.vercel.app",
+                "www.thevoicemag.ru",
+                "www.detmir.ru",
+                "www.techinsider.ru",
+                "dic.academic.ru",
+                "www.psychologies.ru",
+                "news.sportbox.ru",
+                "www.maximonline.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper\\/js\\/rp-core-engine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-c"
+            ],
+            "apis": {
+                "window.localStorage": 32
+            },
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "caf22418eb1c900e27b0f87ad7eedfea394c245a2f1c8429139f9758d45155a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dic.academic.ru",
+                "eadaily.com",
+                "www.yaplakal.com",
+                "visasam.ru",
+                "okcalc.com",
+                "mytabs.ru",
+                "garant-clinic.com",
+                "www.detmir.ru",
+                "www.maximonline.ru",
+                "cyberleninka.ru",
+                "mksegment.ru",
+                "www.rt.com",
+                "www.psychologies.ru",
+                "www.marieclaire.ru",
+                "www.mentoday.ru",
+                "www.techinsider.ru",
+                "obozone.vercel.app",
+                "news.sportbox.ru",
+                "ilibrary.ru",
+                "www.gastronom.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/bidder",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb-bidder"
+            ],
+            "apis": {},
+            "sites": 26,
+            "prevalence": 0.000178,
+            "cnames": [],
+            "responseHashes": [
+                "93137130d87b318cbced380bd940b383d48462dabe588ca3448713c6dabdf6c1",
+                "846949c5a40e3ffbb702473e54dfac0646541aa624a844369b6e24e51ddaf96b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dic.academic.ru",
+                "www.liveinternet.ru",
+                "daniosvet.ru",
+                "www.iamcook.ru",
+                "news.sportbox.ru",
+                "www.gastronom.ru",
+                "www.yaplakal.com",
+                "ucrazy.org",
+                "eadaily.com",
+                "geexy.net",
+                "www.drive2.ru",
+                "www.starhit.ru",
+                "garant-clinic.com",
+                "www.marieclaire.ru",
+                "www.rbc.ru",
+                "www.fontanka.ru",
+                "www.anekdot.ru",
+                "www.kp.ru",
+                "mksegment.ru",
+                "cyberleninka.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/pub\\/pix\\/06c3fb10-ac70-40f2-b3e7-2c0e05b643c4",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rap"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberleninka.ru",
+                "ilibrary.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/c",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "grid"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "a29ee2b15c494311c52521766e44af56a3ad2248e7a8ab465e5206463c13d288"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyberleninka.ru",
+                "eadaily.com",
+                "fuseandrelay.com",
+                "www.fontanka.ru",
+                "www.gastronom.ru",
+                "www.maximonline.ru",
+                "www.psychologies.ru",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper\\/js\\/common-engine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-c"
+            ],
+            "apis": {
+                "window.localStorage": 14,
+                "Navigator.prototype.userAgent": 14,
+                "Navigator.prototype.language": 14,
+                "Date.prototype.getTime": 14,
+                "window.innerHeight": 2,
+                "window.innerWidth": 2,
+                "Date.prototype.getTimezoneOffset": 1
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "5d3671e90f2a3294019942b6b5c6fc6f4540503792fc200ddf6a248f42a87135",
+                "ac6a9d54bb39462830537d09770659e75f7a5e44a9812e44a29b9e1bb31ffaec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "daniosvet.ru",
+                "dic.academic.ru",
+                "eadaily.com",
+                "fuseandrelay.com",
+                "geexy.net",
+                "habr.com",
+                "ilibrary.ru",
+                "okcalc.com",
+                "qna.habr.com",
+                "ucrazy.org",
+                "www.maximonline.ru",
+                "www.rt.com",
+                "www.starhit.ru",
+                "www.yaplakal.com"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/19e08d82-9ec3-4dda-b15f-01ab2c95e167\\/dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "academic.ru",
+                "fuseandrelay.com",
+                "okcalc.com",
+                "ucrazy.org"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/1f462bba-63b2-4d05-8a2c-12cb7f02b607\\/dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eadaily.com",
+                "www.rt.com"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper\\/js\\/dynamic-engine\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-c"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ed904468a4761b4a8179e0813e64bcb0a0280692f8eb1a872a051b83dced2de6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eadaily.com",
+                "habr.com",
+                "ilibrary.ru",
+                "www.rt.com",
+                "www.starhit.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/pub\\/rap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rap"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a68bca0f7d021dabbcecb3ba8316c155c59986cf2e956c783d3001fa43b8573c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "www.sravni.ru"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/c427193e-c45c-4b31-b9de-0d5bc41115fd\\/dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "qna.habr.com"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/def-g",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "openrtb"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72d32d20f4ec2101e7b35b2fcf2f21dc85d856ebf68be52fdb9e7e2eac863b1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "habr.com",
+                "qna.habr.com"
+            ]
+        },
+        {
+            "rule": "skcrtxr\\.com\\/wrapper-builder\\/d5578689-faf6-44b3-a2a3-a88ab66b67e9\\/dynamic\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "946cf349926836e3c92bc04d1fccd2cd10edba1c3c1c3f4a2e0d98e72254b684"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maximonline.ru",
+                "www.starhit.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00011,
+    "topInitiators": [
+        {
+            "domain": "moe.video",
+            "prevalence": 0.2723735408560311
+        },
+        {
+            "domain": "yandex.ru",
+            "prevalence": 0.17898832684824903
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.17120622568093385
+        },
+        {
+            "domain": "hsmedia.ru",
+            "prevalence": 0.1556420233463035
+        },
+        {
+            "domain": "kimberlite.io",
+            "prevalence": 0.08171206225680934
+        },
+        {
+            "domain": "yastatic.net",
+            "prevalence": 0.038910505836575876
+        },
+        {
+            "domain": "digitalcaramel.com",
+            "prevalence": 0.027237354085603113
+        },
+        {
+            "domain": "wi-fi.ru",
+            "prevalence": 0.023346303501945526
+        },
+        {
+            "domain": "mpsuadv.ru",
+            "prevalence": 0.023346303501945526
+        },
+        {
+            "domain": "dmtgvn.com",
+            "prevalence": 0.01556420233463035
+        }
+    ],
+    "types": {
+        "Fetch": 26,
+        "Script": 102,
+        "Image": 3,
+        "XHR": 26
+    },
+    "nameservers": [
+        "ns1.yandexcloud.net",
+        "ns2.yandexcloud.net"
+    ]
+}

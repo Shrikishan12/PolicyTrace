@@ -1,0 +1,212 @@
+{
+    "domain": "rtbrain.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "g",
+        "g6",
+        "s2s"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "rtbrain\\.app\\/pixel\\/rpixel\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 3,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4,
+                "Date.prototype.getTime": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "window.outerWidth": 4,
+                "window.outerHeight": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "PerformanceTiming.prototype.navigationStart": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a3359131a152e8e501d45959163cf248133683ce5d758c8083245e569e6c641b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__rpixel_event_session_index": {
+                    "ttl": 31536000,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "__rpixel_event_publisher_index": {
+                    "ttl": 31536000,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                },
+                "__rpixel_puid": {
+                    "ttl": 31536000,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "__rpixel_event_campaign_index": {
+                    "ttl": 31536000,
+                    "length": 1,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bioma.health",
+                "plateful.co",
+                "www.plateful.co",
+                "www.underoutfit.com"
+            ]
+        },
+        {
+            "rule": "rtbrain\\.app\\/rtimp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7fd90c669446951c68cc98333c52f6b57d3b183232129f9b06f1282df707df86",
+                "74906e4dad41ffa8b58788c34e19262cc48adae6e273c1d93b84cfb9f5c205bc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__rpixel_puid": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "bioma.health",
+                "plateful.co",
+                "www.plateful.co",
+                "www.underoutfit.com"
+            ]
+        },
+        {
+            "rule": "rtbrain\\.app\\/rtimp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g6"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__rpixel_puid": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "bioma.health",
+                "plateful.co",
+                "www.plateful.co",
+                "www.underoutfit.com"
+            ]
+        },
+        {
+            "rule": "rtbrain\\.app\\/rtimp",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "g"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__rpixel_puid": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "bioma.health",
+                "plateful.co",
+                "www.plateful.co",
+                "www.underoutfit.com"
+            ]
+        },
+        {
+            "rule": "rtbrain\\.app\\/rt\\/tr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s2s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "underoutfit.com",
+                "www.underoutfit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.37037037037037035
+        },
+        {
+            "domain": "visually-io.com",
+            "prevalence": 0.37037037037037035
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25925925925925924
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Fetch": 4,
+        "Document": 4,
+        "Ping": 6
+    },
+    "nameservers": [
+        "brenna.ns.cloudflare.com",
+        "tadeo.ns.cloudflare.com"
+    ]
+}

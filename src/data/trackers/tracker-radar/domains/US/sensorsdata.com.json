@@ -1,0 +1,93 @@
+{
+    "domain": "sensorsdata.com",
+    "owner": {
+        "name": "Sensors Network Technology (Beijing) Co., Ltd.",
+        "displayName": "Sensors Network Technology"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "abtest-aws-us-east-01.saas"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sensorsdata\\.com\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-aws-us-east-01.saas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomchic.com",
+                "www.olight.com",
+                "www.osight.com"
+            ]
+        },
+        {
+            "rule": "sensorsdata\\.com\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-aws-us-east-01.saas"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "41b5d2c3a2423b3d238bca9a4c53b1694a93133ea31f16a83417acf9184036c9",
+                "db21bb17b88fccbe7ce1bdc8a002801d5b283d3a9649c32309b0d2432b1e7e09"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloomchic.com",
+                "www.olight.com",
+                "www.osight.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "olicdn.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "olightstore.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2
+        },
+        {
+            "domain": "guance.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

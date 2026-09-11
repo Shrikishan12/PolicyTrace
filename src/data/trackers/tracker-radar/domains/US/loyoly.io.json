@@ -1,0 +1,105 @@
+{
+    "domain": "loyoly.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loyoly\\.io\\/public\\/scripts\\/shopify-account-top\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3c640f6af852e4424e45b50af51c72e1756e3ed7588b3a3e49f2767022a135f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labourseauxlivres.fr",
+                "us.filofax.com",
+                "www.leparfait.com"
+            ]
+        },
+        {
+            "rule": "loyoly\\.io\\/public\\/scripts\\/referral\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "6c7db55ddc0ca3b792e4fa474a7cf30e4a2ce5da10004db674e8c6f87337800e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "labourseauxlivres.fr",
+                "us.filofax.com",
+                "www.fermedesaintemarthe.com",
+                "www.leparfait.com",
+                "www.probikeshop.fr",
+                "zatu.com"
+            ]
+        },
+        {
+            "rule": "loyoly\\.io\\/public\\/scripts\\/presta-referral\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f66cf6f1dfbdbea48835e979a70595cd65f5335764eae3bfac2dd4273201783b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nutriandco.com",
+                "www.materiel-velo.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11
+    },
+    "nameservers": [
+        "jillian.ns.cloudflare.com",
+        "aiden.ns.cloudflare.com"
+    ]
+}

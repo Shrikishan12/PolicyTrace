@@ -1,0 +1,82 @@
+{
+    "domain": "firstdata.com",
+    "owner": {
+        "name": "Fiserv, Inc.",
+        "displayName": "Fiserv"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "lib.paymentjs",
+        "prod.api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "firstdata\\.com\\/prod\\/client-2\\.0\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lib.paymentjs"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fa124d7ec6ad3bfc17d8b8476a524799d2078245118e804f0f8159b0e8ea84a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thefreshmarket.com",
+                "www.thefreshmarket.com"
+            ]
+        },
+        {
+            "rule": "firstdata\\.com\\/gateway\\/v2\\/connectpay\\/static\\/v1\\/js\\/PaymentSDK\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3d5d1e026ed8e666453ea6d76c3f2a4e50605737421becf3fe49cff9e741e200"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clippercard.com",
+                "www.clippercard.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "dns2.p07.nsone.net",
+        "dns4.p07.nsone.net",
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net"
+    ]
+}

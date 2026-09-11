@@ -1,0 +1,175 @@
+{
+    "domain": "trengo.eu",
+    "owner": {
+        "name": "Trengo",
+        "displayName": "Trengo"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "static.widget",
+        "api.widget"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "trengo\\.eu\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static.widget"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "c206cbeb0eb9fe8cae547746948593501bd8e0800f59df427f6f524c02b826c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boekenbalie.nl",
+                "onzetaal.nl",
+                "www.bloedwaardentest.nl",
+                "www.ferryscanner.com",
+                "www.kanker.nl",
+                "www.micazu.nl",
+                "www.vdberk.nl",
+                "www.wildkamp.nl"
+            ]
+        },
+        {
+            "rule": "trengo\\.eu\\/web-widget-api\\/widget",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e48a489712779cb0af557bb38331e50a75be67c3c76f02be6ccc25dd73997882",
+                "810f91cf97a8b73ad26791197bf29b85b642caf2cc173b7b188357001e85b263",
+                "a4cfd5e53acd0cd3add16b7e998a2116656ba6947afe6d684b53b50501a80319",
+                "f814396e24ac5874cb10e21cdfd37a35eb2a0bf79a7af013a423b4be2c7ba32f",
+                "95242dc48fe529db0cb1ae82f985133d6edca48a852ebf19233ce16163246c0a",
+                "51c7106bbfffac29ec73aad6526eb262ec95c811e2defd87d330ffb8f8b90013",
+                "07e3c36df5611ba614cd16613b0337d7d3ee74fec007d86f951c71be20c94b50"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boekenbalie.nl",
+                "onzetaal.nl",
+                "www.bloedwaardentest.nl",
+                "www.ferryscanner.com",
+                "www.kanker.nl",
+                "www.micazu.nl",
+                "www.vdberk.nl",
+                "www.wildkamp.nl"
+            ]
+        },
+        {
+            "rule": "trengo\\.eu\\/widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static.widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "Event.prototype.timeStamp": 8,
+                "console.memory": 8,
+                "window.localStorage": 8,
+                "window.sessionStorage": 8,
+                "Document.cookie getter": 8,
+                "Navigator.prototype.mediaDevices": 8,
+                "Navigator.prototype.product": 8,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "164999c144033b96054f43f091eaa73f029b02ba5f3d2c59a1b0dd4c50fc7e2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boekenbalie.nl",
+                "onzetaal.nl",
+                "www.bloedwaardentest.nl",
+                "www.ferryscanner.com",
+                "www.kanker.nl",
+                "www.micazu.nl",
+                "www.vdberk.nl",
+                "www.wildkamp.nl"
+            ]
+        },
+        {
+            "rule": "trengo\\.eu\\/assets\\/chat\\.mp3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.widget"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "cf72ed0b2d260e377d8c9919c5ea7eaf614e26e26814eee3cea9cf4d6e69f260"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boekenbalie.nl",
+                "onzetaal.nl",
+                "www.bloedwaardentest.nl",
+                "www.ferryscanner.com",
+                "www.kanker.nl",
+                "www.micazu.nl",
+                "www.vdberk.nl",
+                "www.wildkamp.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8666666666666667
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.13333333333333333
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "XHR": 8,
+        "Media": 8
+    },
+    "nameservers": [
+        "lars.ns.cloudflare.com",
+        "virginia.ns.cloudflare.com"
+    ]
+}

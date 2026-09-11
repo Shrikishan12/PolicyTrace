@@ -1,0 +1,80 @@
+{
+    "domain": "zoom.com.br",
+    "owner": {
+        "name": "Mosaico Negócios de Internet S.A",
+        "displayName": "Mosaico Negócios de Internet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "zstamps"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zoom\\.com\\.br\\/api\\/v1\\/stamps",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zstamps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buscape.com.br",
+                "www.buscape.com.br"
+            ]
+        },
+        {
+            "rule": "zoom\\.com\\.br\\/api\\/v1\\/stamps",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zstamps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dabed26d60feef74d59f89b1a7e77ff46233e272a48262caf95a227099949c7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buscape.com.br",
+                "www.buscape.com.br"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1025.awsdns-00.org",
+        "ns-1889.awsdns-44.co.uk",
+        "ns-174.awsdns-21.com",
+        "ns-980.awsdns-58.net"
+    ]
+}

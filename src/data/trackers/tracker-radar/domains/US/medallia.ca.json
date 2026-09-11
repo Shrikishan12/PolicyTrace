@@ -1,0 +1,658 @@
+{
+    "domain": "medallia.ca",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "resources.digital-cloud",
+        "analytics-fe.digital-cloud",
+        "analytics-fe.digital-cloud-can-main"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2315\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5dee83e4a96faf50007ecf402fedf127beab481b3b14e4c61e4a0e29cbf2d34d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "www.canadiantire.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2315\\/onsite\\/generic1784530490669\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.cookieEnabled": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "46a9bb4f8b5a7c8b44bef652437386396e7f661b7ad48e3a6ac59779ef36fd2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kampyle_userid": {
+                    "ttl": 31536021,
+                    "length": 39,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "kampyleUserSession": {
+                    "ttl": 31536023,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "kampyleSessionPageCounter": {
+                    "ttl": 31536023,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "kampyleUserSessionsCount": {
+                    "ttl": 31536023,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "kampyleUserPercentile": {
+                    "ttl": 31536023,
+                    "length": 17,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "www.canadiantire.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2315\\/onsite\\/onsiteData1784530490535\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6dbc855ab9c4b3cb1b30080769e6304c04fcc8e794e219b970ac6d6deb54b6b5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "www.canadiantire.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/api\\/web\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-fe.digital-cloud",
+                "analytics-fe.digital-cloud-can-main"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "marks.com",
+                "online.simplii.com",
+                "secure.pcfinancial.ca",
+                "sgi.sk.ca",
+                "www.canadiantire.ca",
+                "www.cibc.com",
+                "www.ctfs.com",
+                "www.lcbo.com",
+                "www.maxi.ca",
+                "www.nofrills.ca",
+                "www.pcoptimum.ca",
+                "www.simplii.com",
+                "www.sportchek.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/api\\/web\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics-fe.digital-cloud",
+                "analytics-fe.digital-cloud-can-main"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "canadiantire.ca",
+                "marks.com",
+                "online.simplii.com",
+                "secure.pcfinancial.ca",
+                "sgi.sk.ca",
+                "www.canadiantire.ca",
+                "www.cibc.com",
+                "www.ctfs.com",
+                "www.lcbo.com",
+                "www.maxi.ca",
+                "www.nofrills.ca",
+                "www.pcoptimum.ca",
+                "www.simplii.com",
+                "www.sportchek.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2175\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bc77dd25e71c3a3657911c30440771ff8f7d3ca664533e03a06ac6d7a2995513"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.marks.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2175\\/onsite\\/generic1784530476185\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Date.prototype.getTime": 1,
+                "Navigator.prototype.userAgent": 1,
+                "NavigatorUAData.prototype.platform": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.cookieEnabled": 1,
+                "Navigator.prototype.language": 1,
+                "window.devicePixelRatio": 1,
+                "window.outerWidth": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6fdfa5fd88bafe2e0fc415def4e65ebb537f9ac5abf99c211f9189de770535f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kampyle_userid": {
+                    "ttl": 31536020,
+                    "length": 39,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserSession": {
+                    "ttl": 31536021,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleSessionPageCounter": {
+                    "ttl": 31536021,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserSessionsCount": {
+                    "ttl": 31536021,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserPercentile": {
+                    "ttl": 31536021,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.marks.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/2175\\/onsite\\/onsiteData1784896161430\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.marks.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/183\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e811f15879c146d89eba0aa41e8184f3d15ad08ef771690f4499c2c683111cd3",
+                "dc5cf88c18e4e3bc8707414031b33762d429b24b02860838bf5d8a30f42a0466"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simplii.com",
+                "online.simplii.com",
+                "www.simplii.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/183\\/onsite\\/generic1784530446565\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.language": 3,
+                "window.devicePixelRatio": 1,
+                "window.outerWidth": 1,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bf849f80f4703e7212f162b716eed8732f6a985972a1fa7ef77e69130ab16b4d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kampyle_userid": {
+                    "ttl": 31536002,
+                    "length": 39,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                },
+                "kampyleUserSession": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                },
+                "kampyleSessionPageCounter": {
+                    "ttl": 31536015,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                },
+                "kampyleUserSessionsCount": {
+                    "ttl": 31536002,
+                    "length": 1,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                },
+                "kampyleUserPercentile": {
+                    "ttl": 31536002,
+                    "length": 16,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.6666666666666666
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simplii.com",
+                "online.simplii.com",
+                "www.simplii.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/183\\/onsite\\/onsiteData1787614952626\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e970bae933b475784ce62231693756a9631fe0c6b24eb4e6cc2a4b62b5e82ccd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "simplii.com",
+                "online.simplii.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/76\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e9e4a666fc14e5747d2a6de0fe8285be02faafd79b0d52ac3193df823378c6d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cibc.com",
+                "www.cibc.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/76\\/onsite\\/generic1784530432788\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.devicePixelRatio": 2,
+                "window.outerWidth": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cd9c99fcd7ba3e4e4dcbd2a6a8ec98b410feded21f66c36397239436462c8ba8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "kampyle_userid": {
+                    "ttl": 31536008,
+                    "length": 39,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserSession": {
+                    "ttl": 31536009,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleSessionPageCounter": {
+                    "ttl": 31536009,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserSessionsCount": {
+                    "ttl": 31536009,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "kampyleUserPercentile": {
+                    "ttl": 31536009,
+                    "length": 17,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cibc.com",
+                "www.cibc.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/76\\/onsite\\/onsiteData1784530432610\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "09670d53a0d70b726029d830855f2544acce90797cb1d2fad9e4aaceaaaa8ca8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cibc.com",
+                "www.cibc.com"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/3970\\/onsite\\/embed\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7471cc02954dc042b4ba06f7183b83816a0e4f3fb46809e634cc32d01f4b8e2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxi.ca",
+                "www.nofrills.ca",
+                "www.yourindependentgrocer.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/3970\\/onsite\\/generic1784530467420\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.userAgent": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTimezoneOffset": 1,
+                "Navigator.prototype.cookieEnabled": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ec34330206c46bf53c1f753acb03594416f8ef32ba7dbb96b54e9306679ce0f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxi.ca",
+                "www.nofrills.ca",
+                "www.yourindependentgrocer.ca"
+            ]
+        },
+        {
+            "rule": "medallia\\.ca\\/wdccan\\/3970\\/onsite\\/onsiteData1785258173577\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "resources.digital-cloud"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5ca36218053119add963de176df32ed4ecff65235a8a14d76c1e8e87cc890608"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maxi.ca",
+                "www.nofrills.ca",
+                "www.yourindependentgrocer.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8354430379746836
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.11392405063291139
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0379746835443038
+        },
+        {
+            "domain": "kampyle.com",
+            "prevalence": 0.012658227848101266
+        }
+    ],
+    "types": {
+        "Script": 24,
+        "XHR": 25,
+        "Preflight": 14
+    },
+    "nameservers": [
+        "ns-542.awsdns-03.net",
+        "ns-319.awsdns-39.com",
+        "ns-1908.awsdns-46.co.uk",
+        "ns-1124.awsdns-12.org"
+    ]
+}

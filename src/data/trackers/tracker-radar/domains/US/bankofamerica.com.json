@@ -1,0 +1,175 @@
+{
+    "domain": "bankofamerica.com",
+    "owner": {
+        "name": "Bank of America Corporation",
+        "displayName": "Bank of America"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "tilt",
+        "smetrics",
+        "secure"
+    ],
+    "cnames": [
+        {
+            "original": "secure.merrill.com",
+            "resolved": "secure.bankofamerica.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bankofamerica\\.com\\/4274\\/3449757314843797928\\/js\\/events\\/v10\\/jsEvent\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tilt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9c88f79a073d20b95c45373e616360392969c85df8915c8c00431d9b344dd8b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "business.bofa.com"
+            ]
+        },
+        {
+            "rule": "bankofamerica\\.com\\/ee\\/va6\\/v1\\/interact",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smetrics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5fdabd482c7db462b41c813b03cc54120e680f5697b9b12e2899e45c37fda234"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bofa.com",
+                "www.merrill.com"
+            ]
+        },
+        {
+            "rule": "bankofamerica\\.com\\/8287\\/3458764514099406332\\/js\\/events\\/v10\\/jsEvent\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tilt"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9c88f79a073d20b95c45373e616360392969c85df8915c8c00431d9b344dd8b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrill.com",
+                "www.merrill.com"
+            ]
+        },
+        {
+            "rule": "bankofamerica\\.com\\/sparta\\/client\\/helper\\/client-assets\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "secure.merrill.com",
+                    "resolved": "secure.bankofamerica.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrill.com",
+                "www.merrill.com"
+            ]
+        },
+        {
+            "rule": "bankofamerica\\.com\\/sparta\\/client\\/helper\\/client-assets\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "secure.merrill.com",
+                    "resolved": "secure.bankofamerica.com"
+                }
+            ],
+            "responseHashes": [
+                "9ac03f33a5fa4263fad7167b0ad0717b5d2ecc0518f7ca932149d22483ba0899"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrill.com",
+                "www.merrill.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.6470588235294118
+        },
+        {
+            "domain": "bac-assets.com",
+            "prevalence": 0.23529411764705882
+        },
+        {
+            "domain": "bankofamerica.com",
+            "prevalence": 0.11764705882352941
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "f.ns-boa.us",
+        "g.ns-bac.com",
+        "c.ns-bac.net",
+        "b.ns-bac.org",
+        "a.ns-bac.com",
+        "e.ns-boa.biz",
+        "d.ns-bac.info"
+    ]
+}

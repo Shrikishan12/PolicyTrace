@@ -1,0 +1,2277 @@
+{
+    "domain": "fastsimon.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000726,
+    "sites": 106,
+    "subdomains": [
+        "assets",
+        "api",
+        "ping",
+        "static-autocomplete",
+        "settings",
+        "static-ai-assistant",
+        "static-grid",
+        "static-recommendations",
+        "suggest",
+        "ssr-grid"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fastsimon\\.com\\/sdk\\/latest\\/fast_simon_sdk\\.js",
+            "cookies": 0.0000411,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 10,
+                "Navigator.prototype.userAgent": 10,
+                "window.localStorage": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie getter": 6,
+                "Document.cookie setter": 6
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "e1c3facfddd9277ddeb31f2d9946413069e3de4c572245b986aedaac61b5807b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantall.com",
+                "orthofeet.com",
+                "rugsusa.com",
+                "simonpearce.com",
+                "tableclothsfactory.com",
+                "www.annieselke.com",
+                "www.orthofeet.com",
+                "www.roxy.com",
+                "www.rugsusa.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "b299dfabd0adcab2432ac3972c95931467628ca1fbee4859009b2d0f2ad96f6f",
+                "a91b66e4075958f4567fed106ac9f3ff50ff387025363e08bdffe33576aeeaa3",
+                "441e1b2fa5762025303994e0aa9e16237f08027110454282bf693c9c1eb13505",
+                "9f17ef534cb3cd6e10397d0a182e2ba871143f993252230aafff315790593abd",
+                "c57be9587be1e8188e97b625e7063917719addc4dc54fb1a57d4046c2db3430c",
+                "c420bfb00a84fd29e1c8a5fd9a6b26e69fa068581be6b15e820a3fb611a37b9c",
+                "2c0f82c577d92c37c0d1cf05146df4a295ab9e763f54d01aa157590cd214f29e",
+                "5f6215b3344673d0ed82b28b2fa77cf6547c3ce0fc69ea5cb3f43acbf72f6ec0",
+                "069d9bf834ebaafbe18478586f86b5c1b6032086f47d7656ff5eb64bff310deb",
+                "8a2bf94f570d045aa0dfd5b175e8e466463d34d7e5f586e15f42db81b5ffeb3b",
+                "4dbc26b738e1a4763b82b2658192ed6904827fbbb48bac5f9417b6b0629f9f56",
+                "d95762ba74f93f09cb7c33b8402b1b102d825a121ab9285fe7842c0680932a10"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantall.com",
+                "efavormart.com",
+                "orthofeet.com",
+                "rugsusa.com",
+                "simonpearce.com",
+                "tableclothsfactory.com",
+                "thepihut.com",
+                "www.annieselke.com",
+                "www.magnoliabakery.com",
+                "www.orthofeet.com",
+                "www.roxy.com",
+                "www.rugsusa.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/post_load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping"
+            ],
+            "apis": {},
+            "sites": 47,
+            "prevalence": 0.000322,
+            "cnames": [],
+            "responseHashes": [
+                "59f9e33391e8e091f1ef777037c658562b3f617eac7a53cd6273b1df40b73d74",
+                "b9cfeba4379ed96c40d8bbda5a30690544cd2c9f940ae0a260eca729eddb5f4a",
+                "0eac2ce106f0a73655e6f3257a73a092821d10c5501855fed283449dd0a08970",
+                "54e93da15da24371ea50953a3ddb42ab9b6643314831ad380217f7871bfbc89f",
+                "8f2ac48567ee59864498112c609d4a0d6f9d03aa393475e15795f8a481ab6fb6",
+                "c82282e86ba17c7d2b037a796d156cdad80a11a7cfe6493c85af7430dec02c69",
+                "76b6a847f435f196c5820f88bf7337c208eec6872b8267f11679c662b7bb82d0",
+                "5c408ba077bf9c62c7d23072fb8c3f9cb16077ee2b01ebde3b3af73757ef6c9d",
+                "abfa695d45c83d5cf0d229fd0dccb67eeb600f28337e6505c5f869432eef28b8",
+                "8e6c58a7486975891c914940c46d56b661d858018cdbb2515eb7722d5eb926c1",
+                "3c212fc7d8e9ba0e9a3850c6bb1b5d7d584029fff2626e47f2c869a876bb98a5",
+                "32fbb3126fada297141ab155da6b16efad077feee905ccd39187451acdf36305",
+                "57adc52db2e2c06025930010172a8557b3f42eb6e770b453f41ce31064046af4",
+                "17a6ca2b47b20367213a2862183a98debe8a909fb088fb5f0bf719cfbaae8c83",
+                "c04708160e532895330d36a34381e0f299a9b3ea0b15fd847e6fcb4035610cca",
+                "6314f272e10c8813864f05c2f375ba09dcf6c732264ca3a0320215c7c949c2cc",
+                "f70a988df3ec5dc1f2f23da5ff2faa370d60da14b1f1ad820b12ff391c1c1cc9",
+                "487b19cd60d6a3ab0749c53f3ffb5c58ae9c59497b41f1e84f0aaa03f2234e13",
+                "0222c6ddf46d51a9a62ea76dddf7be84e87df3a5b88564302851c9a666202ce3",
+                "1b99657fb6cd82b68710768538a9765f70b157e6fad505e17dd50d64108c44ab",
+                "df4b46ecb6addf016050e7170db279fd34ff2bc102b6ce582a60261c56011ef4",
+                "4b824a802abac897b11797c5b158b172e6db48ed192f49c7e8ef494d06803473",
+                "53bce4e27732eb1e1c72d13677b9b911b392b65bb789ad1d6efc9208fafd10a8",
+                "297daa18669add48887915ded4b1887423021ffb913dcebb5849bf31b292cc39",
+                "284e1c2adb9f7ffd46c23689c33b5fa7533883cdaca9e0ba82ed39c04ceb5037",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "022f7f331e47a24f51fa5bba2a9b09a515f7b4ec109f1df44c67740a6f660383",
+                "1cb4ca606201b8ede42514df23480ec91bcea3bf2f92a74a2afb7a5b2965e8da",
+                "6de95ba9af628e9337a62cd077a121dd10f831581b6edcc007a8f6b2592d619b",
+                "10f7c8ea622883a238c215f0277cf54f6f91ceab7f016103d685298ad483b7a0",
+                "03a43b7170420f9aa9873769ba1edd342e9963f7fc06f54fd9b6693c6215a627",
+                "07d375a3055ea556e98b11274997665d11dd047ca0df2c64336d902d2fe164ca",
+                "736c7fcb5c92f107c4e7b5f52aaf9d52b26b94d2eadaaf31ed06523017161b7a",
+                "0f72509a7c2ef214265d295b1e8ce37d7ef5587599a28c2fae2775372321f132",
+                "9e3d7cb2eb2a8e81afa697fa60b4d3ddf347a96841bd12433447f03fd2509c4c",
+                "551cfe204100a0543fa76c9ad14e7f430eba951dea2a4c36d2cb4075559d9d81",
+                "0260c7cb2dfb2b279e6d6f2f4e16046d157f969cd8c11ae4ab277a6c415ebc4b",
+                "62fd4ec18865c74af51808a79d5dcc7895c1c4b2fc6d27e21e74357eba457c8a",
+                "85757793f62e655738d2bdca32e380e7a87986005975ec316ee3ef899a2cebf3",
+                "796ab14df7282bec9459e617fa172d2b269ae7466bff4a9c5bfe0a6d81a73f14",
+                "1c8406dcc4acad749a9a27ed170ac7b637fde362b9e1a8e25df03325f8e26cd7",
+                "a86187ba83989d1219d553cc553887ea8bbcdc9e28c302fc1d105a9b7e2610a0",
+                "b39999c4e3459d9b69ca1fa1c93e9455a57fcaddecaad7982cee33bf4b49930e",
+                "c444b249c96999845f01a49dadd86b86e066162b5cfc5375b6bea11d057d11f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nrsworld.com",
+                "www.rugsusa.com",
+                "www.sbmar.com",
+                "www.republicoftea.com",
+                "toolstoday.com",
+                "efavormart.com",
+                "www.dtlr.com",
+                "shopakira.com",
+                "thepihut.com",
+                "artbeads.com",
+                "americantall.com",
+                "www.landmsupply.com",
+                "woolery.com",
+                "www.carsondellosa.com",
+                "rugsusa.com",
+                "www.plazajapan.com",
+                "www.zip-corvette.com",
+                "gatehousesupplies.com",
+                "www.franksgreatoutdoors.com",
+                "www.ozone.bg"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/pop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "0115f6742ecf22360575c26579a7193020fe3f3e541755b943d6aaf54d59e01d",
+                "94538a9dcd2603140bebca195a86efbaa613801db62e7cb70616494c5609f188",
+                "b4d23d6456c8fed51683f7f10f5d72f95c49a5fd802e55d05f94117d83e82645",
+                "5b3bf751057731459d45482d354ee301c5ddd92e78605e2d511a04f5c3215cf7",
+                "fe5950c26af3a09f7d22cf13be8425cd29f956962621374cc3fc8e58232aff7b",
+                "8eb9403cde78177fc48e0f85996da56988447d70121d7bbc44af38315be6e04e",
+                "a6ebea39eba36f69b639217df4003f5c99532b7486e956099142578f7a18b449",
+                "cc8f5f47483ac1652afc51496374bcc61a203f9c33c37012ffaf4f44f23110a0",
+                "38bbba942c6e15f6debb90126d5f9822ec3b1bf7baa637d98275fb92c71f8431",
+                "7106f7079e0725d06a50a296f5adb75c6c188f9b807cb2af5092395b5aef60ed",
+                "e8eb9b4aed11eb37670aa1f9ec58ff4fb091fcb3f070d4a51e4509ed0418e025",
+                "c6aeba71a626e651d043679596982e0ef3706fa8d23073614c81009842c40d90",
+                "c366e7a7927282aca252d13389a758cfe78a5f36ca2102db8c6340b143380f59",
+                "4ddf6211f6818a238b493f9d26aa5a32af2661661b87a66831b9081c60ad3a84",
+                "5a115dea765da401a18ef491a4a3b3daedb9a2d946c257c2c0a49b07531e726f",
+                "552363477dead10ba02e5450ef7611bf59f041537b697f3d57132e2d4892a587",
+                "7b1173f5ae99bda5bbfc08786ef1e7755562403a5f0b042973303fed81e0bdaa"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantall.com",
+                "efavormart.com",
+                "orthofeet.com",
+                "rugsusa.com",
+                "simonpearce.com",
+                "store.401games.ca",
+                "tableclothsfactory.com",
+                "thepihut.com",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.annieselke.com",
+                "www.dtlr.com",
+                "www.getcasely.com",
+                "www.magnoliabakery.com",
+                "www.orthofeet.com",
+                "www.roxy.com",
+                "www.rugsusa.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/upsell_cross_sell_recommendation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "ecfafb180336db65a8ee59ecb8abfb3655b57f69f2e7eb308b68e325aafb1e04",
+                "accaa635b9f3a480c0ddde088e7948e21a4ce103e90f57ca8357da7e674a9fe3",
+                "f9c3121e745fb63e92c2c99fa4712a4b545e376667efd517cbdd2e0cf334a069",
+                "c8a909c3f357f46057bc57384753d1b331d06e85e3ae3f5a6be4b876835985a2",
+                "efd409c69699c6df34fbe03e4f042f9bae0cbeb8c8684ce522a5331a8b374957"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americantall.com",
+                "crazyshirts.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "simonpearce.com",
+                "www.republicoftea.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fast-simon-autocomplete\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-autocomplete"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 18,
+                "Navigator.prototype.userAgent": 18,
+                "window.localStorage": 18,
+                "window.innerWidth": 18,
+                "Document.cookie getter": 17,
+                "Date.prototype.getTime": 18,
+                "window.sessionStorage": 2
+            },
+            "sites": 48,
+            "prevalence": 0.000329,
+            "cnames": [],
+            "responseHashes": [
+                "185e30f304422d208431841478bee12e96a1fe3d8b5c5a3dc6657eb44dfad1b3",
+                "8ba4535fc679a2b2411b7ff63871f50319888b0f8b272bc2d91d25a2cdf61ad9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.grangecoop.com",
+                "www.carsondellosa.com",
+                "staud.clothing",
+                "www.terijon.com",
+                "www.petfood.express",
+                "toolstoday.com",
+                "www.stevemadden.com",
+                "betseyjohnson.com",
+                "golfcartstuff.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "cabinetstogo.com",
+                "crazyshirts.com",
+                "www.toms.com",
+                "www.dolcevita.com",
+                "www.zieglers.com",
+                "www.yunzii.com",
+                "whitefoxboutique.com",
+                "www.sanrio.com",
+                "www.quadlockcase.eu"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/settings\\/autocomplete",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "settings"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "8fadd8bb8ba7072de6b2e10d02bdbffef904dc203c2da3cf149d87a974825e8a",
+                "89d39608878319f168de2933d0afe007c267ba671d7c88639bf36fee876bc19f",
+                "cd4322c687d0881c5bbb28751af70ccedec3f63ec3a6cfad5c2a4f26376aba03",
+                "97306eda8676cc1814290ed4394f00a0ed2c31009198656c9ffad7beaa77edbf",
+                "cdea5129f0600c37f5b501ae7f21b748657a8747e839dffaa181df0567c0e415",
+                "8d64ee63dbf295e1f0f54686228a82a99cb9a6855f398c91c18b7e887d49863c",
+                "6f9ceeb09ad5d7b8b1cf90d06226932f455869bc973188aaa0b8fafa1f819dea",
+                "7c50ba8eaffb76c5adc6517d608de7499cb9ab79785f270554c0209c8b77cf13",
+                "56090f6952270c19b17dacb26e410d89e1051964a422f43b7e737fcdcc488c8d",
+                "d8e4255103889dfdfe6615ce21ede75dc0b89cc7b2df034aaa1ef567cda723a4",
+                "1d4e6b69c6822c76b1b6fe98127d2d7582e34735e1b5e37218eba901033f68ad",
+                "c89b9cdec6c0cbc969fafe2f11a12909ba4ac046e953157660c452777bca6221",
+                "567337cce25c76b36c42263078a237368fa4c28464305abda22d5acfe3d6d35a",
+                "b0a8a15fa094b114364fd8b9d5508eb6decf9d7570d6c370bd9cee095a646ee0",
+                "96798de65c2741cab0ad4a9ae19530bdba2ad5b01a629bf6ef106f57d7cf3fc8",
+                "41b7c2b18a028cbe05fb2df7d39f5d20069ebf31e0d2072d1b7f7683b5b286fb",
+                "26682b750f981f2214b1f5189864c3f22ffa79bb988cfe31a1c5de07abd5e9a1",
+                "a11ec78bd1a516594eee1e38fd393a0a77de95d103592676b8ea7572d8c8fd93",
+                "eb8cdf8e53f3a0b20eac73b3446419e244ce8dfcbc0643f08a7f3c92506ef542",
+                "1d36ab7c6da924508f7cd4a26bd47374b66f36e27004d05bad45339b53005c5e",
+                "2929470880b22f4434db5f57fbcb721af7623fd644ef906ad5b187728bcacc10",
+                "d9744b048c2abff7618fee4eca6a1b964329e90aeac1f11cab332c814a7ea443",
+                "f736b47dd014a2be2704be4655b5b51ab0af457e081ef173d267c7b3936e50ec"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.dripworks.com",
+                "www.carsondellosa.com",
+                "toolstoday.com",
+                "www.zieglers.com",
+                "www.darksidedevelopments.co.uk",
+                "qualityplumbingsupply.com",
+                "artbeads.com",
+                "marmishoes.com",
+                "mountaincrestgardens.com",
+                "www.ozone.bg",
+                "www.grangecoop.com",
+                "www.petfood.express",
+                "circuitboardmedics.com",
+                "gatehousesupplies.com",
+                "www.franksgreatoutdoors.com",
+                "www.plazajapan.com",
+                "whitefoxboutique.com",
+                "www.gopowersports.com",
+                "www.landmsupply.com",
+                "www.sbmar.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fast-simon-autocomplete\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-autocomplete"
+            ],
+            "apis": {},
+            "sites": 24,
+            "prevalence": 0.000164,
+            "cnames": [],
+            "responseHashes": [
+                "90f48d1025539f41db0e0a082b2a8560852d80dae034a8d28aba5354efb79ba3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "www.petfood.express",
+                "whitefoxboutique.com",
+                "www.zieglers.com",
+                "www.plazajapan.com",
+                "www.gopowersports.com",
+                "toolstoday.com",
+                "www.grangecoop.com",
+                "gatehousesupplies.com",
+                "cokertire.com",
+                "www.zip-corvette.com",
+                "artbeads.com",
+                "www.franksgreatoutdoors.com",
+                "www.sbmar.com",
+                "circuitboardmedics.com",
+                "marmishoes.com",
+                "www.carsondellosa.com",
+                "www.dripworks.com",
+                "qualityplumbingsupply.com",
+                "www.ozone.bg"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/locals\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-autocomplete",
+                "static-ai-assistant",
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [],
+            "responseHashes": [
+                "91225e7a3974f86f6a52377033b45371170cecf20fba1b56aba033f970f7c8a4",
+                "bf2e04224d634687a237e49fd6a19c07e9229b5ed242c1fa0a2750bfa40abaa6",
+                "16109c5657f6bad767a2b51cdc58a56f1d0c818821fc0e877fcc5058b6c7f01a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mountaincrestgardens.com",
+                "www.zieglers.com",
+                "www.petfood.express",
+                "circuitboardmedics.com",
+                "www.sbmar.com",
+                "www.dtlr.com",
+                "www.carsondellosa.com",
+                "woolery.com",
+                "www.zip-corvette.com",
+                "www.getcasely.com",
+                "www.franksgreatoutdoors.com",
+                "gatehousesupplies.com",
+                "www.landmsupply.com",
+                "artbeads.com",
+                "shopakira.com",
+                "qualityplumbingsupply.com",
+                "www.gopowersports.com",
+                "store.401games.ca",
+                "www.grangecoop.com",
+                "marmishoes.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fast-simon-autocomplete-init\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-autocomplete"
+            ],
+            "apis": {
+                "window.localStorage": 39
+            },
+            "sites": 42,
+            "prevalence": 0.000288,
+            "cnames": [],
+            "responseHashes": [
+                "f0ef3e3a285cff53c08ce5e7703c9c5f6dbfac3aae02d65372a6dce1c9d19d8b",
+                "8f4d81ab919dc3b6f3fe8f3dd8713d7bb686ec1ffb17fdd13ddb1b24b1d39817"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cabinetstogo.com",
+                "betseyjohnson.com",
+                "us.kef.com",
+                "woxer.com",
+                "www.atbbq.com",
+                "staud.clothing",
+                "www.sbmar.com",
+                "tilta.com",
+                "mountaincrestgardens.com",
+                "quadlockcase.com",
+                "www.quadlockcase.com",
+                "www.carsondellosa.com",
+                "www.zieglers.com",
+                "www.dtlr.com",
+                "www.healthrangerstore.com",
+                "www.plazajapan.com",
+                "www.dolcevita.com",
+                "www.terijon.com",
+                "www.dripworks.com",
+                "woolery.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/no-code-recommendations\\/fs-recommendations-init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-recommendations"
+            ],
+            "apis": {
+                "window.localStorage": 11
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "625a749887f900f8b9dd64fff4d6afd3bcc822ae7d867296d0ecba26a23ef77e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betseyjohnson.com",
+                "crazyshirts.com",
+                "mephistousa.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "stevemadden.com",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.carsondellosa.com",
+                "www.dolcevita.com",
+                "www.franksgreatoutdoors.com",
+                "www.getcasely.com",
+                "www.plazajapan.com",
+                "www.republicoftea.com",
+                "www.stevemadden.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/no-code-recommendations\\/fast-simon-recommendation\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-recommendations"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.innerWidth": 4,
+                "window.sessionStorage": 3
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "dc1d74735287db71da533fba332af3b3ec216572a40912d4217ddc5d1f8eeead"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "betseyjohnson.com",
+                "crazyshirts.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "stevemadden.com",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.carsondellosa.com",
+                "www.dolcevita.com",
+                "www.franksgreatoutdoors.com",
+                "www.getcasely.com",
+                "www.plazajapan.com",
+                "www.republicoftea.com",
+                "www.stevemadden.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fast-simon-autocomplete\\.iife\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-autocomplete"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "window.innerWidth": 5,
+                "Date.prototype.getTime": 5,
+                "Document.cookie getter": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "8514b1e06b81ef55ee8365bce8a406c6887e843866d2d5d81529c6b3e5f79ac8",
+                "8ddf86ad9ffe2c9d1e0e158bf28181a78bf011163c5f6adbfa120c69f8258965"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cokertire.com",
+                "marmishoes.com",
+                "www.franksgreatoutdoors.com",
+                "www.landmsupply.com",
+                "www.zip-corvette.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/no-code-recommendations\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-recommendations"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "be926a4f915d4b271a1ace117125f731fc78e07f5d9e7738cf417a553a9d2bbf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crazyshirts.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "www.republicoftea.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/no-code-recommendations\\/assets\\/colors\\.v1\\.0\\.492\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-recommendations"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "139a5eb979f3c1d26522cf00b2ec23401506b7aadce0777d98e4fbcb24b013cb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crazyshirts.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "www.republicoftea.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/no-code-recommendations\\/locals\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-recommendations"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "57bc9ba41ed5b7ce55c2a87612f5fc61df34da1411a56d3bd0790a243d2c7ca2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crazyshirts.com",
+                "mountaincrestgardens.com",
+                "shopakira.com",
+                "www.republicoftea.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "59b4bfeaa9634e2b75b531af2d985a0dc12d68f474728214a11e69fd5ddc0c92",
+                "65d04735414760a8f7eda1c4588b88decdf74e7011ebd6907824b62d46300a06",
+                "6dc50a9e1d6294876d7f01c1183f041b3b02bdab9303bcd32d9655303bc3cc09",
+                "f74088998e6340bf14429bb6a4fa545bd0463ebdfa12708500a9188398821f88",
+                "dcfab7ed009c86a985b1244998aeb327211edb5de5d11780feeb32aa0c1f518a",
+                "2fb57d7723329350de4c051f5584360d35b7b57afb7dfc9d5ec8f03db5274914",
+                "2dd4d68ef527c0765cc294f75f0abecd6d9d0a8dea39c7be1faa68feee4b2377",
+                "394ef1f5b77a4d0585b9b17ddfdd49dea6fbd5df381fcd641745546a8b493f14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dutchgrown.com",
+                "instrumentalparts.com",
+                "kingscamo.com",
+                "overheaddoorpartsonline.com",
+                "skdtac.com",
+                "www.bioennopower.com",
+                "www.dutchgrown.com",
+                "www.magnoliabakery.com",
+                "www.waveform.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fs-chatbot-init\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-ai-assistant"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aabbcb57283190be3c29833df19441d2b28899dbb49fe6c8a69e08d491569802"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatehousesupplies.com",
+                "nrsworld.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/fast-simon-chatbot\\.iife\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-ai-assistant"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.innerWidth": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4b8b8032bdce89aaab10da00227a95b85dc8a003303b6027d233f7af9856d95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "localization": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatehousesupplies.com",
+                "nrsworld.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ai-assistant"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c7dd172c410a018e65056c97e967f9a2535a69e7a1fc5c88403e27e3ffa16065"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatehousesupplies.com",
+                "nrsworld.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/colors\\.v0\\.0\\.379\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ai-assistant"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "139a5eb979f3c1d26522cf00b2ec23401506b7aadce0777d98e4fbcb24b013cb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatehousesupplies.com",
+                "nrsworld.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/settings\\/swatches",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "settings"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gatehousesupplies.com",
+                "nrsworld.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/bigcommerce\\/get_currencies",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3a4e4ad8e97215e0d03ef821510b5ee479e5c924b3a05479fad3da5e3f52b26c",
+                "938801f84bc4add3c98ee9badfcb972f272f2ab3494a4739fe12c703b2a86ae2"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mountaincrestgardens.com",
+                "www.darksidedevelopments.co.uk",
+                "www.plazajapan.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/categories_navigation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "ed9c4149f627d56bbb9351569073e0f4923975ed9610bd6d0395ff2a4c44ce25",
+                "b9c1cc68ea0f53d25f4d88e06d496c0c9dcea75781901d245fe3cd3f1de86240",
+                "e37cfc537244af703c846388730931caaba05bd0c50fcc74d81bfe2a44b3503e",
+                "f1799173183313ca4f074b07136f1eaaf207592081e0a83d1c3c501d435d7ead",
+                "77e3ffc95592a6c6430d13e56d1a033a5577dfeaed3282635d99c3d98db4eb74",
+                "c5d6cfa83189cb13fb7ac422a992f40d5233c2c35a224bccb68988093b92ce54",
+                "201dc8076ac8713ca6e0a928806ba265eaf0215fc86f30578e3a47c9c7dcdf00",
+                "8ed5b6e6bff68ab551a9aef7d1615c5445d662a7ca7776557e2548ec81cec66e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orthofeet.com",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com",
+                "www.orthofeet.com",
+                "www.roxy.com",
+                "www.terijon.com",
+                "www.volcom.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "suggest",
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7862c3a285c85810712d031ecaf2ba10445652c7c61b1112de94264f2792dffb",
+                "3c286a1f796ab48927783ad571b2df6383bebd9417b62af1fb970177bae868f3",
+                "aa9dd334962300ab17c580f67186ff0c52c401f3d2227f46b1caed7307202bbc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rugsusa.com",
+                "www.annieselke.com",
+                "www.ozone.bg",
+                "www.rugsusa.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/init\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {
+                "window.localStorage": 5
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "76f1548a0a2e996fd2ae5e518fac03590522c1acc86cf6d1c935419fe035a421"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scandinaviandesigns.com",
+                "store.401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "df9b189a3de304cf59e916bdff280ca45f903f3bca73d8182ed0a72d28a7130e",
+                "ea7b2c68f2daa26e63cb4e929f777845d67c158cfccfde35b3d10b30605f22a7",
+                "86e62ec4bff0b841aae2cc117213e85d673fc9a4977d6c5c2e0a102571bf07ea",
+                "735e5f1de939de705a7ac5cc12451252f26d2bea32105ad1b99d8b6a795aa395"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/post_load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "0c8a56eb25bc57839de3cea5cf4f9edd8cd3dfe502756ee42c136be1ea51f480",
+                "feaa4f16bbdccbb51515373dd37c3a2814543406a81376e60db352cce13395f9",
+                "7a6c567805f866f3d83b0e6321f2d5f07b0f70b01f04d7f2c2db5076a80989b3",
+                "36a9d16f82d03c87640a4fccb00fba3e6540f163be33feb7677ee8ca8e511177",
+                "5cf480419085944001d3af798f83e4eb0a8bca74b6f2d8392a0e07613cf0d9f1",
+                "1c8406dcc4acad749a9a27ed170ac7b637fde362b9e1a8e25df03325f8e26cd7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "stevemadden.com",
+                "www.dolcevita.com",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/entry\\/start\\.BU7mjahE\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "3e77049cb8d623e91382f810ea1fe45dc6fb56512dd5fc61b359dca6a681e25d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/entry\\/app\\.Sz36IjqS\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "28f48c272c442ea176c7453771be32db7ab695e9c4f0e3f5e1dd09f341de122a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/entry\\.DphMzLc7\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Navigator.prototype.connection": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "762f31ca24a830e81aad9d1d12aa0bf0823eb5968e48e31f59ee20b6f5b26e02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/preload-helper\\.CmsKOCeN\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5e84960b0c3a12a20b03ca70edc43eef40c7dce810774a8e8e7729f4817aba1b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/scheduler\\.BwjjnG7m\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a594542d8dd6733a7883b773b6f3fb1c0ea2d868d2b74bdc527197bc47ab0b61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/index\\.D3vZoGL5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "5e72329d52a9b1e17c56473e11360b94abe9398cce34fa9fab1c2c4d2d5a364c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/control\\.BCSsUv9n\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e6039ccc175dd32ef058849669f700c1115a851adfe46b6bc4a4e13763356d94"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/nodes\\/0\\.CTibIdV5\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a747275bbc2e20d97e68082c14b96d9d918f2b072930eae80b3e675229411822"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/personalization\\.B_B-2HhD\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "324dcbc3a127a6ac87a40198a809faf296aee1c6fcc002e94fe93341c0bdc1aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/stores\\.rJU-i8Q7\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "0e3b9d8e7fcfd84db746cbe744421ba1082a848739c0df19dc380e7a6523cff5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/nodes\\/1\\.C39OJJf-\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "24b2ac739bd1446733c23da1575ac9f2373a677d58f08330f271b385c88a92e6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/assets\\/1\\.CwzNog2c\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "bbeb6f9f5f530c3c0e6d5347f0412e43a8f3b43f421567a220a9aa2fcd104017"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/nodes\\/2\\.CijcoB87\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "b7206227376c635ffb91530a956efdfc5e4f45d06722519cbc2fb12cd96e6f9f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/2\\.BnNwqkLc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Navigator.prototype.maxTouchPoints": 5
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "7e9d0b2bff66521005433a9a79982557dc38649e6583773f052effdec87b459a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/AddToCart\\.DL3tjBN8\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c5060c56d535d198814feb7ccb0e509c25ae94af121b149ec20c2e840ca1c891"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/SPA\\.Dsl2V81g\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "4c21112f2626d96be9f9b22039b355a55973378a345a7f9be2f0ff47bc8eedc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/Reporting\\.BDExfc2R\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "048d67b7ffd21c8864441ed6cbef2f5475d62bdadb4cf7ddf2848d550ad8d731"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/RemovableTags\\.BiygiYYy\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "fe6155553232964ff1cd9cc5f889e1d02c314bc71af163df588e381515096590"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/Badges\\.C1NRDXt1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "229dbe343033b2687f25c5e595659cb722c75fe986fb861c1e046dd427bb869a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/Pagination\\.CYpqflXj\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "2f6b6e647f1f1d4d830cb77f9b7d719c3897fc3cd47f9697399dc0b6d9232a19"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/colors\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "139a5eb979f3c1d26522cf00b2ec23401506b7aadce0777d98e4fbcb24b013cb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/locals\\/en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "16109c5657f6bad767a2b51cdc58a56f1d0c818821fc0e877fcc5058b6c7f01a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/main\\.FBggz32K\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "c91c03be91c396cd5fa0345f8a6e0e56caa005ccac9b2a4548e8d3e0c438bdd4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/index\\.Dt7BqePL\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 4,
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f9e076f341c87e4b4c51ee10259a12e350ffb8bc6aabce68c3b13882aa685665"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/main\\.4bec5Cza\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.sessionStorage": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "f461652d218aba86db6f801844a3350a894ca710127918e17e88c1ef9317ef45"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/pop",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "cdd4ce63020acd619aaa665617a287152b90cb61d80d03c572769e27e8d8e5c8",
+                "66b841a9323e1ea0a3cb311192e4ff3352bf0dc3f2a5b6c82fc834262c298361",
+                "30dd0d9fe96ced18c7335b91d10027c022e6bd98b9223a0594cee146aa7c1c20",
+                "8f3ffc8292b92763a315466502dfc9196fb1086da501f19cb3e17e8a441d0955"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/categories_navigation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "169f44e1b99f03bf3c439d555be126bf8d22e686943e15720f9fb490048b17ae",
+                "db8084e550e263ab1fcd638959607578f33d638ea96c0eefff330bcef106512a",
+                "33eeb562c8e7ccc5d64a0e3f6fe0d5cc842c9da9ce5e65d399a7db6757d59aca",
+                "5f1eca14b0d5541bd71e7ad780a662dc5bf8c17c934d93414d6a480df2390b31"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shopakira.com",
+                "staud.clothing",
+                "www.rugsusa.com",
+                "www.stevemadden.com",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/VariantSelector\\.CqytTmQ4\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ad45bcc6278a606eabe3f865d2269d85ec6cd6bd8ff07d279548fa17cc5f477"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "staud.clothing",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/sortBySize\\.D-4W4lEs\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31f69a2745fd6dc844f7d3aad899ae69ac38d09d880a29fd8eb7b48faea065d9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "staud.clothing",
+                "www.toms.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/_app\\/immutable\\/chunks\\/Swatches\\.ClodRdPq\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssr-grid"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ae4a9515c4a1556f4d13ea97cbb5fc82bf4447a59127e585e9e7e5f2a4c837c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "staud.clothing",
+                "www.rugsusa.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/upsell_cross_sell_recommendation",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5e9de5765e119415364fc7de2890fc1fa02d171dd44ebbd3724439728022a9c1",
+                "f46fc2b7dce4c51dd4f65d79d093b82153fb4fbda653b8d76f1b46ff4d3b4df8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevemadden.com",
+                "www.dolcevita.com",
+                "www.stevemadden.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/post_load",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ping"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "28877990958949aff065ce44a1d64f6cea5cc5e6e9c3010407b86c7d960b751c",
+                "41f371b44f23c2b609204d751cd86e45c5ebfe981ef98101dd0e31f23b81b516"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stevemadden.com",
+                "www.dolcevita.com",
+                "www.stevemadden.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/index\\.b67574c4\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {
+                "window.localStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.devicePixelRatio": 5,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "9ead4fef0862286ab1b881ff99f54d61783ddc0eae763f809422f8db73b0d254"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/vendor\\.4061bede\\.v1\\.2\\.543\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 5,
+                "Navigator.prototype.userAgent": 5,
+                "window.localStorage": 5,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 5,
+                "window.sessionStorage": 3,
+                "Document.cookie setter": 1
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "460357b371bec8494c3cce2d09a5bfae71dc10c358f59fa34a00edf17e994cc9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/style\\.6a0e7619\\.v1\\.2\\.543\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "bf0d7e6a64c831da85f89e24237bfe8a67ac836cc202efc2c5b873f993769af3"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/colors\\.e1edc71f\\.v1\\.2\\.543\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "139a5eb979f3c1d26522cf00b2ec23401506b7aadce0777d98e4fbcb24b013cb"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/clutter-remover\\.dd0e0a54\\.v1\\.2\\.543\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "ec1a807baaf91fb9ca6eb4729c16c094dc11407f83dfbeb52ea5a368a86b0615"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/settings\\/state",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "settings"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b04092a5ac0a6de67564ba7352cfcc72b1d82aa46809d0c1edf1a85ca082d72f",
+                "b439dc47b57c00c58ba37329ded4a0a68a273e4929da8900d5e435fda7822e3c",
+                "6517ef4a233be667c0abecd5750603fe377c47b66a9d1b29c0e1a11425b660db",
+                "58adf395b7816cb7ee5746d9ca03e50f38c843540ddbc90d5e2098278cb91336",
+                "aa63709f2c9a60a3a977fd2a89578024f1ecd88f5cf6f73ee743df04ba034ff7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "store.401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/PriceSlider\\.61a6fbca\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "8d703b00aec24a6d3a3dd79bae9e69a9a3d24b2be062ca288ba861bec78fade4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "www.dtlr.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/SortBy\\.1fbfbc9e\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "41c48c4fe8ed9d61d2e7aba2f6523ebf12dc079988685cb08aea96dd0ba32404"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/full_text_search",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ee62cdf72bac4c9add23dc472365bd669fb32bfad5d81211118105215e95c87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "store.401games.ca"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/ResultsSummary\\.a89ea258\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6de78b859c172ea85015e405d9f0a2cc774e27631af0976ed3cc6aa430055b31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.dtlr.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/Pagination\\.f5c2f98a\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a91a5ab170d1f340b5a94382e79123aea48be2a0fb644e2242ed8c59d7ce136d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/PaginationProgress\\.ec9f4ebe\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ba0a6d23ad98a871821c66f8bdb0f9876aec12da6cb27b69e04979adccedbda0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/QuickView\\.b7b552d8\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "26abc4f4b9534668f09c8f956996beec28d98ddfe850266603b3d09e2c2fa008"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/DesktopQuickView\\.3912b288\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "f483769cc22e9fbc1933eccd97f47c3b585698e5c0386c359edd4f7ebc483f60"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.getcasely.com"
+            ]
+        },
+        {
+            "rule": "fastsimon\\.com\\/assets\\/Rating\\.01fa2548\\.v1\\.2\\.543\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-grid"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "dc42e20be35ab659793f61861898e061d690dcb82825af97282347f5a06aefe1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "401games.ca",
+                "whitefoxboutique.com",
+                "woolery.com",
+                "www.getcasely.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000103,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6844106463878327
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.09378960709759189
+        },
+        {
+            "domain": "akamaized.net",
+            "prevalence": 0.07097591888466413
+        },
+        {
+            "domain": "sdiapi.com",
+            "prevalence": 0.06337135614702155
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.05576679340937896
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.015209125475285171
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.008871989860583017
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.005069708491761723
+        },
+        {
+            "domain": "global-e.com",
+            "prevalence": 0.0012674271229404308
+        },
+        {
+            "domain": "fast-simon-autocomplete.web.app",
+            "prevalence": 0.0012674271229404308
+        }
+    ],
+    "types": {
+        "Script": 312,
+        "XHR": 166,
+        "Stylesheet": 61,
+        "Other": 5,
+        "Fetch": 25
+    },
+    "nameservers": [
+        "raegan.ns.cloudflare.com",
+        "rex.ns.cloudflare.com"
+    ]
+}

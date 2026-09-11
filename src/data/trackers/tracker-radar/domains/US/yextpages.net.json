@@ -1,0 +1,97 @@
+{
+    "domain": "yextpages.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "knowledgetags",
+        "constable"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "yextpages\\.net\\/embed",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "knowledgetags"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ecf8064ff4011c37b89f081cbfc8f40122a45783026f5fd7c7f800fc999d3785",
+                "6e2852828e3c2b1419cfcef7368bea828c194188d463a98c4f33c94fadf3d7a5",
+                "e374f41096f9a18b83dae3c4053bcc238ff25e0734802f0d81dd1c28d09c58f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cava.com",
+                "www.nm.org",
+                "www.steaknshake.com",
+                "www.windowworld.com"
+            ]
+        },
+        {
+            "rule": "yextpages\\.net\\/api\\/114090\\/store\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "constable"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acmemarkets.com",
+                "local.albertsons.com",
+                "local.jewelosco.com",
+                "local.pharmacy.safeway.com",
+                "local.safeway.com",
+                "local.shaws.com",
+                "local.vons.com",
+                "locations.papamurphys.com",
+                "locations.wendys.com",
+                "stores.bestbuy.ca",
+                "www.fido.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 11
+    },
+    "nameservers": [
+        "ns-cloud-c3.googledomains.com",
+        "ns-259.awsdns-32.com",
+        "ns-1979.awsdns-55.co.uk",
+        "ns-697.awsdns-23.net",
+        "ns-cloud-c4.googledomains.com",
+        "ns-1068.awsdns-05.org",
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

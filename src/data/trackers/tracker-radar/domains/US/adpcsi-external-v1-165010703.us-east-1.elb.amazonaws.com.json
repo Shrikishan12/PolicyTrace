@@ -1,0 +1,138 @@
+{
+    "domain": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "adppa.api.autodesk.com",
+            "resolved": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "adpcsi-external-v1-165010703\\.us-east-1\\.elb\\.amazonaws\\.com\\/config\\/v1\\/pups\\/en-US",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "adppa.api.autodesk.com",
+                    "resolved": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "8dde05b394e38cf06cfb31a25f3f430a12546dc504cc556b8cd99f1cf3755b21",
+                "ca1ccfe664a3f5d70c7327b9fe066f9842f0eb68a876e3fdd825f228b0f95bd2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "manage.autodesk.com",
+                "www.autodesk.com"
+            ]
+        },
+        {
+            "rule": "adpcsi-external-v1-165010703\\.us-east-1\\.elb\\.amazonaws\\.com\\/config\\/v1\\/pups\\/de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "adppa.api.autodesk.com",
+                    "resolved": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "www.autodesk.com"
+            ]
+        },
+        {
+            "rule": "adpcsi-external-v1-165010703\\.us-east-1\\.elb\\.amazonaws\\.com\\/config\\/v1\\/pups\\/de",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "adppa.api.autodesk.com",
+                    "resolved": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "ee873953c611cc7ff4b1b903bc166499162053829a9e65cedf0f8d7086d843db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "www.autodesk.com"
+            ]
+        },
+        {
+            "rule": "adpcsi-external-v1-165010703\\.us-east-1\\.elb\\.amazonaws\\.com\\/config\\/v1\\/pups\\/en-US",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "adppa.api.autodesk.com",
+                    "resolved": "adpcsi-external-v1-165010703.us-east-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "autodesk.com",
+                "www.autodesk.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 4
+    },
+    "nameservers": []
+}

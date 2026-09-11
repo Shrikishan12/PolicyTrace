@@ -1,0 +1,82 @@
+{
+    "domain": "dtzbdy9anri2p.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "dtzbdy9anri2p\\.cloudfront\\.net\\/cache\\/56eb6092ec76515afdab8d71e3f978f10325d00b\\/telerik\\/css\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51d917ea041b54622c46b9f0e3e5b5242cfd513e35333a2456456ee58bc3fd6a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerik.com",
+                "www.telerik.com"
+            ]
+        },
+        {
+            "rule": "dtzbdy9anri2p\\.cloudfront\\.net\\/cache\\/ff307eaa54e1b8854a96d0e69fc7954b734f3a49\\/telerik\\/js\\/dist\\/all\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "da70ba32f8b518ed643db8a32c6af0d1d7a0c08bb88a11a00ab41894779533f7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telerik.com",
+                "www.telerik.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-1040.awsdns-02.org",
+        "ns-1831.awsdns-36.co.uk",
+        "ns-428.awsdns-53.com",
+        "ns-695.awsdns-22.net"
+    ]
+}

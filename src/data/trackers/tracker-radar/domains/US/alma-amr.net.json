@@ -1,0 +1,105 @@
+{
+    "domain": "alma-amr.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "fortune-cookie"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "alma-amr\\.net\\/fortuneStart\\.html",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fortune-cookie"
+            ],
+            "apis": {
+                "Document.cookie setter": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "22c6ad78e376bb1b1cc51fa7cbebd8f91735a9a09423c16096af1ff7f9d0aa88"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "cookiecheck": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.14285714285714285
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ampparit.com",
+                "www.autotalli.com",
+                "www.etuovi.com",
+                "www.iltalehti.fi",
+                "www.kauppalehti.fi",
+                "www.nettikone.com",
+                "www.nettikaravaani.com",
+                "www.vuokraovi.com"
+            ]
+        },
+        {
+            "rule": "alma-amr\\.net\\/fortuneEnd\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "fortune-cookie"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "02614927d9899a0596e35ecfcd75fd7c7b293f6839a7ed7cacfbd2741fabbb6b"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ampparit.com",
+                "www.autotalli.com",
+                "www.etuovi.com",
+                "www.iltalehti.fi",
+                "www.kauppalehti.fi",
+                "www.nettikone.com",
+                "www.nettikaravaani.com",
+                "www.vuokraovi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7058823529411765
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.29411764705882354
+        }
+    ],
+    "types": {
+        "Document": 16
+    },
+    "nameservers": [
+        "ns-56.awsdns-07.com",
+        "ns-861.awsdns-43.net",
+        "ns-1101.awsdns-09.org",
+        "ns-1941.awsdns-50.co.uk"
+    ]
+}

@@ -1,0 +1,174 @@
+{
+    "domain": "betteruptime.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "statuspage",
+        "tornadopath"
+    ],
+    "cnames": [
+        {
+            "original": "status.airthings.com",
+            "resolved": "statuspage.betteruptime.com"
+        },
+        {
+            "original": "status.finalroundai.com",
+            "resolved": "statuspage.betteruptime.com"
+        },
+        {
+            "original": "status.wavespeed.ai",
+            "resolved": "statuspage.betteruptime.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "betteruptime\\.com\\/badge",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statuspage",
+                "tornadopath"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "status.wavespeed.ai",
+                    "resolved": "statuspage.betteruptime.com"
+                },
+                {
+                    "original": "status.finalroundai.com",
+                    "resolved": "statuspage.betteruptime.com"
+                }
+            ],
+            "responseHashes": [
+                "d33fef39738ba3b1840839be12d6de17bcecc5479b6002f40acf5af7b56238bb",
+                "158ef1889e223d78e472535af22cf736f0a4dfea0979ce1105dbcd4cc10c184c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wavespeed.ai",
+                "www.finalroundai.com",
+                "www.tornadopath.com"
+            ]
+        },
+        {
+            "rule": "betteruptime\\.com\\/assets\\/public_status_pages-2a462496\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statuspage"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "status.wavespeed.ai",
+                    "resolved": "statuspage.betteruptime.com"
+                },
+                {
+                    "original": "status.airthings.com",
+                    "resolved": "statuspage.betteruptime.com"
+                },
+                {
+                    "original": "status.finalroundai.com",
+                    "resolved": "statuspage.betteruptime.com"
+                }
+            ],
+            "responseHashes": [
+                "7e6ccbbf29b544a832613b87ef02e84f7f9bfd06c61c8188518dc11ab9bd3bb5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wavespeed.ai",
+                "www.airthings.com",
+                "www.finalroundai.com"
+            ]
+        },
+        {
+            "rule": "betteruptime\\.com\\/en\\/badge",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statuspage"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "status.airthings.com",
+                    "resolved": "statuspage.betteruptime.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airthings.com",
+                "www.airthings.com"
+            ]
+        },
+        {
+            "rule": "betteruptime\\.com\\/assets\\/public_status_pages-59830b20\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statuspage",
+                "tornadopath"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "status.airthings.com",
+                    "resolved": "statuspage.betteruptime.com"
+                }
+            ],
+            "responseHashes": [
+                "2c0418c0565dadbf5cb43c3e090bdea6370d31c094dd9a4348302ee84078a1b6"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "airthings.com",
+                "www.tornadopath.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Document": 5,
+        "Stylesheet": 5
+    },
+    "nameservers": [
+        "haley.ns.cloudflare.com",
+        "keenan.ns.cloudflare.com"
+    ]
+}

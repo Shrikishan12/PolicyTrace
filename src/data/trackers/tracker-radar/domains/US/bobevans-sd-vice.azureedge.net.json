@@ -1,0 +1,183 @@
+{
+    "domain": "bobevans-sd-vice.azureedge.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bobevans-sd-vice\\.azureedge\\.net\\/vice_loader\\/bobevans\\/bobevansprod",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "328b040e5cfd0022901422b1c5bc024aa90decf0d3edee8503fab3360508293b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "___utmvc": {
+                    "ttl": 21,
+                    "length": 2969,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_gcl_au": {
+                    "ttl": 7776002,
+                    "length": 25,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga_57CZRZLCES": {
+                    "ttl": 63072003,
+                    "length": 54,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga": {
+                    "ttl": 63072004,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga_F83FD1MSRE": {
+                    "ttl": 63072003,
+                    "length": 53,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga_F5128VMLNG": {
+                    "ttl": 63072003,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_gid": {
+                    "ttl": 86404,
+                    "length": 27,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_gat_UA-4024308-1": {
+                    "ttl": 64,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_tt_enable_cookie": {
+                    "ttl": 33696004,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_ttp": {
+                    "ttl": 33696004,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "ttcsid_D1HD3TJC77UBQQRA3H30": {
+                    "ttl": 33696005,
+                    "length": 53,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "ttcsid": {
+                    "ttl": 33696005,
+                    "length": 80,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_uetsid": {
+                    "ttl": 86405,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_uetvid": {
+                    "ttl": 33696005,
+                    "length": 32,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "reese84": {
+                    "ttl": 2592000,
+                    "length": 24,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bobevans.com",
+                "www.bobevans.com"
+            ]
+        },
+        {
+            "rule": "bobevans-sd-vice\\.azureedge\\.net\\/vice_release\\/1\\.23\\.10\\.2",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "window.name": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78395e423bcf5508252f5f9e83e24a4b711a05d4db2fe5fbe17a3ee0d4f255d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bobevans.com",
+                "www.bobevans.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,82 @@
+{
+    "domain": "likr.com.tw",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "auto-load-balancer"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "likr\\.com\\.tw\\/pushEndPoint\\/uuid_gen\\/uuid_iframe\\.php",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "auto-load-balancer"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "294b0c2e3ec3edc89ec51dcef5ef2e099b3111a0634b2e7121cd249744d39b3a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "AviviD_uuid": {
+                    "ttl": 315360003,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "AviviD_refresh_uuid_status": {
+                    "ttl": 315360003,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jalantikus.com",
+                "kjcg878787.pixnet.net",
+                "news.ltn.com.tw",
+                "thanhnien.vn",
+                "www.chinatimes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "likr.tw",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3
+        },
+        {
+            "domain": "advividnetwork.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Document": 5
+    },
+    "nameservers": [
+        "guy.ns.cloudflare.com",
+        "elaine.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "domain": "snow.com",
+    "owner": {
+        "name": "Vail Resorts Inc.",
+        "displayName": "Vail Resorts"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "b",
+        "cache"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "snow\\.com\\/id",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "b"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "cac6e66aa2d5818911bf126696c1f16d1d28624e21036af4972c36d123a30026",
+                "d436a0edea0d361aa255ed122b5cfc5165faf1185bf382b77b0b1b5c57b68d3d",
+                "ce947851a3d5028b4bc0edfc9b33d72e352ab5ae63ff05d375271dba56c593da",
+                "70975c67d2c6277ed52e7c9b75159e4bd892ac55becee0a7d530766e9c373d0d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7springs.com",
+                "www.beavercreek.com",
+                "www.parkcitymountain.com",
+                "www.skiheavenly.com",
+                "www.stowe.com"
+            ]
+        },
+        {
+            "rule": "snow\\.com\\/api\\/weatherapi\\/GetOpenSnowWeatherForecast",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "43a78bee4c4d69e456388683e2e324b539f143f5a9ac208badf88a20c260cc6c",
+                "4f7172e990619ffaea80e6a672c316fa1f3f7902e7dba9b116a0cd6b5636a9c1",
+                "9a5dd5d43cd41e200a3d32b9e28e179de00830134d6989d7c746ba6cdfca976a",
+                "52c342f78756f546c28d007f5451aaf7d7dd6f6be54af5439fe1606afa900ae8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "7springs.com",
+                "www.beavercreek.com",
+                "www.parkcitymountain.com",
+                "www.skiheavenly.com",
+                "www.stowe.com"
+            ]
+        },
+        {
+            "rule": "snow\\.com\\/api\\/TerrainApi\\/GetTerrainStatus",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cache"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "a905ca041636fce0f3595ecd19682f3da062e29f4af13260aec0eb70a72fe93c",
+                "3df7f860e352084faa74d0275244c0ce4fc2f6f6d5769eeda7009f0def6d4b46",
+                "23709f994a161c3ebb365aea301e8c6c553f4d0fd4917b1f26d1de38b6972341"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "beavercreek.com",
+                "www.parkcitymountain.com",
+                "www.skiheavenly.com",
+                "www.stowe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5576923076923077
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.4423076923076923
+        }
+    ],
+    "types": {
+        "XHR": 14
+    },
+    "nameservers": [
+        "dns1.p03.nsone.net",
+        "dns2.p03.nsone.net",
+        "dns3.p03.nsone.net",
+        "dns4.p03.nsone.net"
+    ]
+}

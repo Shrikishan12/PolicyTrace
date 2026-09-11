@@ -1,0 +1,100 @@
+{
+    "domain": "tv.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "video.pscp"
+    ],
+    "cnames": [
+        {
+            "original": "prod-fastly-eu-central-1.video.pscp.tv",
+            "resolved": "video.pscp.tv.map.fastly.net"
+        },
+        {
+            "original": "prod-fastly-us-west-2.video.pscp.tv",
+            "resolved": "video.pscp.tv.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tv\\.map\\.fastly\\.net\\/Transcoding\\/v1\\/replay_thumbnail\\/us-west-2\\/periscope-replay-direct-live\\/eyJkIjowfQ\\/_nk81kI0Mi8hgy5OYa28_TxP8XALNNfL-Pn4iAfC6C_--NwiWnMz-TCl6wd8BwLOLqOnKzyad_CdomxxfJkL_w==\\/chunk_0\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video.pscp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prod-fastly-us-west-2.video.pscp.tv",
+                    "resolved": "video.pscp.tv.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "d2a68a3780dd71f5d074863d289ca9a6df030b9f4936117955637fc9156db96e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "periscope.tv",
+                "www.periscope.tv"
+            ]
+        },
+        {
+            "rule": "tv\\.map\\.fastly\\.net\\/Transcoding\\/v1\\/replay_thumbnail\\/eu-central-1\\/periscope-replay-direct-prod-eu-central-1-public\\/eyJkIjowfQ\\/-CR4qF3WUiM_5eJyaugNiNulhQqBbjsZwzVL5G5LuFHo7c0NHE8vNsCqFk64OiUh7j4FCMglr_AAF9IWT3QLFw\\/chunk_1516965061381315234_153_a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "video.pscp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "prod-fastly-eu-central-1.video.pscp.tv",
+                    "resolved": "video.pscp.tv.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "b431a5cf1d62d5705e36f79011dcc11071818342c2d342c723067d2cedf06866"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pscp.tv",
+                "www.pscp.tv"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Image": 4
+    },
+    "nameservers": []
+}

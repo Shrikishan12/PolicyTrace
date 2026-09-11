@@ -1,0 +1,77 @@
+{
+    "domain": "forbinservices.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "forbinservices\\.com\\/resources\\/images\\/data-privacy\\/privacyoptions\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d2a2a2aebcdd0f2cd6a774eb4655c2a03b215656823a1a2b8cf540840c074be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "austinbank.com",
+                "www.cffc.com"
+            ]
+        },
+        {
+            "rule": "forbinservices\\.com\\/resources\\/js\\/financial\\/fdic-signage\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "268ec069b6e568f51dff45eb1e455967ed9da53a9890aa089a63d37dba5bba2b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cffc.com",
+                "www.cffc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "Script": 2
+    },
+    "nameservers": [
+        "gina.ns.cloudflare.com",
+        "max.ns.cloudflare.com"
+    ]
+}

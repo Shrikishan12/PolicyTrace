@@ -1,0 +1,184 @@
+{
+    "domain": "absolutelyapp.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "absolutelyapp\\.com\\/merchant-scripts\\/absolutely\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.sessionStorage": 8,
+                "Navigator.prototype.userAgent": 8,
+                "window.localStorage": 8,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 7,
+                "window.innerHeight": 1
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "7fcb828a253bb3608cbdeb738d8231a04935d7f1723d83728b75d2945bfa1843"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "abs-first-visit": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "abs-location": {
+                    "ttl": 86404,
+                    "length": 223,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.2857142857142857
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklynbedding.com",
+                "jolyn.com",
+                "meonutrition.com",
+                "metabolae.com",
+                "onuia.com",
+                "selenepets.com",
+                "thermoworks.com",
+                "trysculptique.com",
+                "www.thermoworks.com"
+            ]
+        },
+        {
+            "rule": "absolutelyapp\\.com\\/merchant-scripts\\/absolutely\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4,
+                "window.innerHeight": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7fcb828a253bb3608cbdeb738d8231a04935d7f1723d83728b75d2945bfa1843"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {
+                "abs-first-visit": {
+                    "ttl": 31536004,
+                    "length": 13,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "abs-location": {
+                    "ttl": 86407,
+                    "length": 224,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklynbedding.com",
+                "onuia.com",
+                "thermoworks.com",
+                "www.thermoworks.com"
+            ]
+        },
+        {
+            "rule": "absolutelyapp\\.com\\/api\\/storefront\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brooklynbedding.com",
+                "metabolae.com",
+                "onuia.com",
+                "trysculptique.com"
+            ]
+        },
+        {
+            "rule": "absolutelyapp\\.com\\/merchant-config\\/b8d240ca44d2\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e264204445f633bb22f0379ab3b692c13463ad62236dea803febe33107474148"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thermoworks.com",
+                "www.thermoworks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8947368421052632
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.07894736842105263
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Script": 9,
+        "Fetch": 10
+    },
+    "nameservers": [
+        "ns-1403.awsdns-47.org",
+        "ns-1923.awsdns-48.co.uk",
+        "ns-308.awsdns-38.com",
+        "ns-765.awsdns-31.net"
+    ]
+}

@@ -1,0 +1,121 @@
+{
+    "domain": "knowledgeowl.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "reporting-production"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "knowledgeowl\\.com\\/js\\/tracker\\.php",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "reporting-production"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.name": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "NavigatorUAData.prototype.platform": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.javaEnabled": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.platform": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6144bd11f4afd23a89c5734d52aee2865f5db96e3b38fb1b9d2dcece43c54eac"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.525.b60d": {
+                    "ttl": 33955201,
+                    "length": 28,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_pk_ses.525.b60d": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "_pk_id.54.6302": {
+                    "ttl": 33955201,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_ses.54.6302": {
+                    "ttl": 1801,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyfrontier.com",
+                "faq.flyfrontier.com",
+                "knowledge.kaltura.com"
+            ]
+        },
+        {
+            "rule": "knowledgeowl\\.com\\/js\\/tracker\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "reporting-production"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flyfrontier.com",
+                "faq.flyfrontier.com",
+                "knowledge.kaltura.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Ping": 3
+    },
+    "nameservers": [
+        "ns-745.awsdns-29.net",
+        "ns-303.awsdns-37.com",
+        "ns-1554.awsdns-02.co.uk",
+        "ns-1061.awsdns-04.org"
+    ]
+}

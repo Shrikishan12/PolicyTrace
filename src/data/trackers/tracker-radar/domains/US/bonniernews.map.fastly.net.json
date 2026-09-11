@@ -1,0 +1,199 @@
+{
+    "domain": "bonniernews.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "assets.bonad.io",
+            "resolved": "bonniernews.map.fastly.net"
+        },
+        {
+            "original": "context.bonad.io",
+            "resolved": "bonniernews.map.fastly.net"
+        },
+        {
+            "original": "precis.expressen.se",
+            "resolved": "bonniernews.map.fastly.net"
+        },
+        {
+            "original": "sme.expressen.se",
+            "resolved": "bonniernews.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/bundles\\/bad\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "assets.bonad.io",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8bc411be8da282f2a6bacf6db2bf4e0d57fd1878264a142794b1b0c09d1dcb8d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "damernasvarld.expressen.se",
+                "teknikensvarld.expressen.se",
+                "www.di.se",
+                "www.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/js\\/social-media-embeds\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sme.expressen.se",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "e1abb60b742799494adbb0ec5b6a51fe72b6ae8d1c2ed53414ab0349bbcc0ac9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "teknikensvarld.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/test-vpn",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "assets.bonad.io",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "78342a0905a72ce44da083dcb5d23b8ea0c16992ba2a82eece97e033d76ba3d3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "damernasvarld.expressen.se",
+                "teknikensvarld.expressen.se",
+                "www.di.se",
+                "www.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/v2\\/geo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "context.bonad.io",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "8310b3dcb2ab6d1337d9eba679412297ef6daa0622397d76ddac215e543fc3ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "damernasvarld.expressen.se",
+                "teknikensvarld.expressen.se",
+                "www.di.se",
+                "www.expressen.se"
+            ]
+        },
+        {
+            "rule": "bonniernews\\.map\\.fastly\\.net\\/recommendations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "precis.expressen.se",
+                    "resolved": "bonniernews.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "aee3ad95bd1ee15af590c65901cc46d68ba899f607bc3d58273b61eeb871defb",
+                "eef46741adfc3a9f76294d3b78f37a45f113092ac9d44ee77c7a038a88ff09a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "expressen.se",
+                "damernasvarld.expressen.se",
+                "www.expressen.se"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "bonniernews.se",
+            "prevalence": 0.55
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.45
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 13
+    },
+    "nameservers": []
+}

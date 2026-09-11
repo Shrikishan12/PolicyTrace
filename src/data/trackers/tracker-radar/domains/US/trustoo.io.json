@@ -1,0 +1,87 @@
+{
+    "domain": "trustoo.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "api",
+        "rapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "trustoo\\.io\\/api\\/v1\\/reviews\\/get_shop_install_status",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e6c16e0887a6a1b1674261cd58a602985fc23f4f7f032a2b31d9b2c5c85b3a96",
+                "d38672f167cb8e410e4769ec9d1c7d27b52fe7a266cf2077561b1ba004dcf01d",
+                "8575acd92acb88fe4fdc66902a0c8966f63201f1f7e6e8cd1cd1b061201be083"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dildosstore.co.uk",
+                "oupes.com",
+                "swarva.com",
+                "www.firgelliauto.com"
+            ]
+        },
+        {
+            "rule": "trustoo\\.io\\/api\\/v1\\/product\\/customer\\/get_card_carousel_settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f44eb8a49dbe3de4ae0be3ba987a59d1eb237312fd7b2b8703340ac6d9f7de22",
+                "98fa72e2588d80aa0ac3ed6d40fd15e586143f5a3af8f69ee13170ad78e15f05"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oupes.com",
+                "swarva.com",
+                "www.firgelliauto.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "XHR": 7
+    },
+    "nameservers": [
+        "aron.ns.cloudflare.com",
+        "lee.ns.cloudflare.com"
+    ]
+}

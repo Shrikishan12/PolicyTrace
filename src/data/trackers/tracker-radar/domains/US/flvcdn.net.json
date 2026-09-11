@@ -1,0 +1,99 @@
+{
+    "domain": "flvcdn.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00063,
+    "sites": 92,
+    "subdomains": [
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "flvcdn\\.net\\/lytag\\.js",
+            "cookies": 0.000493,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 73,
+                "window.localStorage": 72,
+                "Document.cookie getter": 72,
+                "Document.cookie setter": 72,
+                "NavigatorUAData.prototype.getHighEntropyValues": 70
+            },
+            "sites": 79,
+            "prevalence": 0.000541,
+            "cnames": [],
+            "responseHashes": [
+                "869e6b0a483563e5fdbfb2d2885144ae58a3e7cd991fa658475095010007cd1e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_ly_su": {
+                    "ttl": 31536006,
+                    "length": 47,
+                    "prevalence": 0.0004931743302761092,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tokyo-np.co.jp",
+                "www.e-sogi.com",
+                "event.rakuten.co.jp",
+                "www.dinos.co.jp",
+                "www.aeon.co.jp",
+                "www.nicovideo.jp",
+                "mechacomic.jp",
+                "tabiiro.jp",
+                "comic.k-manga.jp",
+                "www.palcloset.jp",
+                "www.kao-kirei.com",
+                "www.jreast.co.jp",
+                "www.jra.go.jp",
+                "www.grandwailea.com",
+                "www.evenrealities.com",
+                "network.mobile.rakuten.co.jp",
+                "www.cmoa.jp",
+                "www.tourboxtech.com",
+                "townwork.net",
+                "curama.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000569,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6732673267326733
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2376237623762376
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.07920792079207921
+        },
+        {
+            "domain": "piano.io",
+            "prevalence": 0.009900990099009901
+        }
+    ],
+    "types": {
+        "Script": 79
+    },
+    "nameservers": [
+        "adns102.flava.workers-infra.com",
+        "adns01.flava.workers-infra.com",
+        "adns02.flava.workers-infra.com",
+        "adns101.flava.workers-infra.com"
+    ]
+}

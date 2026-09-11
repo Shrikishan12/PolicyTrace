@@ -1,0 +1,142 @@
+{
+    "domain": "leadlabs.tv",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "tk"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "leadlabs\\.tv\\/tr\\/pmpixel\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 5,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 4,
+                "window.innerHeight": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.maxTouchPoints": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "Navigator.prototype.language": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6f5c1981f5bd5b33763f82afc64d94230700853c7bc4f88c667782a2216dcebc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__pmpx_uid": {
+                    "ttl": 63072002,
+                    "length": 21,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "__pmpx_sid": {
+                    "ttl": null,
+                    "length": 21,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elehear.com",
+                "guard.io",
+                "pinchapenny.com",
+                "www.collegehunkshaulingjunk.com",
+                "www.ipvanish.com"
+            ]
+        },
+        {
+            "rule": "leadlabs\\.tv\\/api\\/custom-tags\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tk"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "6afd23d5d9573bb0841507f59c5e03a6ffe2a5ea509793395b94ff1e13cdd9e5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elehear.com",
+                "guard.io",
+                "pinchapenny.com",
+                "www.collegehunkshaulingjunk.com",
+                "www.ipvanish.com"
+            ]
+        },
+        {
+            "rule": "leadlabs\\.tv\\/tr\\/71u2cr\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tk"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pmpx_uid": 0.000020548930428171212,
+                "__pmpx_sid": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "elehear.com",
+                "pinchapenny.com",
+                "www.collegehunkshaulingjunk.com",
+                "www.ipvanish.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Fetch": 5,
+        "Ping": 4
+    },
+    "nameservers": [
+        "agustin.ns.cloudflare.com",
+        "mary.ns.cloudflare.com"
+    ]
+}

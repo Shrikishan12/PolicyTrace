@@ -1,0 +1,184 @@
+{
+    "domain": "skypack.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "skypack\\.dev\\/@amplitude\\/experiment-js-client@1\\.1\\.1",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2cc5bb5d8b603ed009e4c58888ff9fd39e8113837638a36f28a71408eb678c5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "www.abs-cbn.com"
+            ]
+        },
+        {
+            "rule": "skypack\\.dev\\/-\\/@amplitude\\/experiment-js-client@v1\\.1\\.1-l32IrDek2v8ZchwsgoaH\\/dist=es2019,mode=imports\\/optimized\\/@amplitude\\/experiment-js-client\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1bf82a84b8b920c05c50444c9adf9565b8a5f62dc5a7507b64bd982612a7a6a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "abs-cbn.com",
+                "www.abs-cbn.com"
+            ]
+        },
+        {
+            "rule": "skypack\\.dev\\/pin\\/date-fns@v2\\.27\\.0-kSwHFMsWRtnuspqyJxns\\/mode=imports,min\\/optimized\\/date-fns\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f3f0c8fa2b3c016eac5e8ba5942b38a4a39953c61d37c548959cdf2146436335"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aza.org",
+                "www.graceland.com",
+                "www.omahazoo.com"
+            ]
+        },
+        {
+            "rule": "skypack\\.dev\\/-\\/date-fns@v2\\.27\\.0-kSwHFMsWRtnuspqyJxns\\/dist=es2020,mode=imports,min\\/optimized\\/date-fns\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "327eba130b20f485687c0a58767e820cd018e135138b94d02bbf75f9c839e3c8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aza.org",
+                "www.graceland.com",
+                "www.omahazoo.com"
+            ]
+        },
+        {
+            "rule": "skypack\\.dev\\/pin\\/container-query-polyfill@v1\\.0\\.2-l8z0Ydn3QmengJhS65pR\\/mode=imports,min\\/optimized\\/container-query-polyfill\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "32119ccdf1e22d37c0e8cda1e0f24fcf87a8759df935b8f0874b821757708fe5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lrb.co.uk",
+                "www.lrb.co.uk"
+            ]
+        },
+        {
+            "rule": "skypack\\.dev\\/-\\/container-query-polyfill@v1\\.0\\.2-l8z0Ydn3QmengJhS65pR\\/dist=es2020,mode=imports,min\\/optimized\\/container-query-polyfill\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc91ba2c8ee0648faae1e38bd67a93af016b0564fdc16c37915239727ce4545e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lrb.co.uk",
+                "www.lrb.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "speakcdn.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "act.com",
+            "prevalence": 0.041666666666666664
+        },
+        {
+            "domain": "getfluently.app",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Script": 14
+    },
+    "nameservers": [
+        "cesar.ns.cloudflare.com",
+        "grannbo.ns.cloudflare.com"
+    ]
+}

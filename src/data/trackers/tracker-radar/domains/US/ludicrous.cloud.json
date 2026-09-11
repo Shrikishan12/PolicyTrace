@@ -1,0 +1,120 @@
+{
+    "domain": "ludicrous.cloud",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "brand"
+    ],
+    "cnames": [
+        {
+            "original": "api.topline.com",
+            "resolved": "brand.ludicrous.cloud"
+        },
+        {
+            "original": "crm.bellhaven.org",
+            "resolved": "brand.ludicrous.cloud"
+        },
+        {
+            "original": "link.leatherseats.com",
+            "resolved": "brand.ludicrous.cloud"
+        },
+        {
+            "original": "links.countrylifefoods.com",
+            "resolved": "brand.ludicrous.cloud"
+        },
+        {
+            "original": "move.sportydoctor.com",
+            "resolved": "brand.ludicrous.cloud"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "ludicrous\\.cloud\\/js\\/external-tracking\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "brand"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "links.countrylifefoods.com",
+                    "resolved": "brand.ludicrous.cloud"
+                },
+                {
+                    "original": "api.topline.com",
+                    "resolved": "brand.ludicrous.cloud"
+                },
+                {
+                    "original": "crm.bellhaven.org",
+                    "resolved": "brand.ludicrous.cloud"
+                }
+            ],
+            "responseHashes": [
+                "df9365c1a915cd6e2c95dc267c9a85a6237f52d119a8ad376c3b7bf2bad13483"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "countrylifefoods.com",
+                "topline.com",
+                "www.bellhaven.org"
+            ]
+        },
+        {
+            "rule": "ludicrous\\.cloud\\/js\\/form_embed\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "brand"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "link.leatherseats.com",
+                    "resolved": "brand.ludicrous.cloud"
+                },
+                {
+                    "original": "move.sportydoctor.com",
+                    "resolved": "brand.ludicrous.cloud"
+                }
+            ],
+            "responseHashes": [
+                "bcb2172722dc219b744c9f38149ac353ae099d7c99ca0d535494807432ac1315"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leatherseats.com",
+                "sportydoctor.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "leadconnectorhq.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5
+    },
+    "nameservers": [
+        "albert.ns.cloudflare.com",
+        "melinda.ns.cloudflare.com"
+    ]
+}

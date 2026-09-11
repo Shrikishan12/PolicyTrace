@@ -1,0 +1,167 @@
+{
+    "domain": "chasecdn.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "static"
+    ],
+    "cnames": [
+        {
+            "original": "static.chasecdn.com",
+            "resolved": "static.chasecdn.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chasecdn\\.com\\.edgekey\\.net\\/web\\/marketing-ui\\/web-configs\\/prd\\/marketing-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.chasecdn.com",
+                    "resolved": "static.chasecdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "41ae5e6fe34366803edd59596ce61c09f2a8d2d6e47cb1981ff2178f9779a5e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "personal.chase.com"
+            ]
+        },
+        {
+            "rule": "chasecdn\\.com\\.edgekey\\.net\\/web\\/marketing-ui\\/web-fx\\/2026\\.08\\.04-1\\/web-framework\\/slotplacement\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.chasecdn.com",
+                    "resolved": "static.chasecdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "026ca16007bf84294b813cc5335ddec14df65174acd19fc9d4ee550f7bd8dc5a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "personal.chase.com"
+            ]
+        },
+        {
+            "rule": "chasecdn\\.com\\.edgekey\\.net\\/loc\\/result",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [
+                {
+                    "original": "static.chasecdn.com",
+                    "resolved": "static.chasecdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "141f00774e48efe903f23b0e1d67dc41101103439113aa69b21653186b6d2153"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "account.chase.com",
+                "am.jpmorgan.com",
+                "autofinance.chase.com",
+                "chaseonline.chase.com",
+                "creditcards.chase.com",
+                "personal.chase.com",
+                "secure.chase.com",
+                "secure01a.chase.com",
+                "www.chase.com",
+                "www.jpmorgan.com",
+                "www.jpmorganchase.com"
+            ]
+        },
+        {
+            "rule": "chasecdn\\.com\\.edgekey\\.net\\/web\\/library\\/pseaegis\\/aegis-binaries\\/dfs\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "static.chasecdn.com",
+                    "resolved": "static.chasecdn.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e39e0ee9baef25510d682606141121a2b1757bf19dc7230964483870f9e593fd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "chaseonline.chase.com",
+                "www.chase.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6666666666666666
+        },
+        {
+            "domain": "techlab-cdn.com",
+            "prevalence": 0.2962962962962963
+        },
+        {
+            "domain": "chase.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Fetch": 12
+    },
+    "nameservers": []
+}

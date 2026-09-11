@@ -1,0 +1,313 @@
+{
+    "domain": "agilecrm.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "rehabpath",
+        "udatz",
+        "stats2"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "agilecrm\\.com\\/stats\\/min\\/agile-min\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "rehabpath",
+                "udatz"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "window.localStorage": 1,
+                "Navigator.prototype.appVersion": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed65b5428ab2a5530280232bc6b31854e63395734447a8ba651848af52d1a609"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "hm5ce3lcmo8ao4s09539g8b5hl-agile-crm-guid": {
+                    "ttl": 157680001,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "hm5ce3lcmo8ao4s09539g8b5hl-agile-crm-session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "hm5ce3lcmo8ao4s09539g8b5hl-agile-crm-session_start_time": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "p5fttqmloota02aj6nhom3m2bp-agile-crm-guid": {
+                    "ttl": 157680001,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "p5fttqmloota02aj6nhom3m2bp-agile-crm-session_id": {
+                    "ttl": null,
+                    "length": 36,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "p5fttqmloota02aj6nhom3m2bp-agile-crm-session_start_time": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rehabs.in",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/addstats",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "hm5ce3lcmo8ao4s09539g8b5hl-agile-crm-guid": 0.000006849643476057072,
+                "hm5ce3lcmo8ao4s09539g8b5hl-agile-crm-session_id": 0.000006849643476057072,
+                "p5fttqmloota02aj6nhom3m2bp-agile-crm-guid": 0.000006849643476057072,
+                "p5fttqmloota02aj6nhom3m2bp-agile-crm-session_id": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/core\\/js\\/api\\/web-rules",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c840a9465e670c973f97c03e4a801fd031131edcb793a11a7c43c982901a909b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/agile-livechat\\/website\\/livechat\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a043f3037d9e8b4203b3c30ada687dc9e839b0185d048669ea6a2f8ebdf63480"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/livechat\\/session",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3928b2fdff0aeb7a32f2c697dfc4278032af70cdb580f8cbc594eda734e7ffed"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/agile-livechat\\/assets\\/grid\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d8a2b30b7b0ab8163b9d2fb4ec605a6cc8e2e32b66c0e0bdd38380511ff8430"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/agile-livechat\\/assets\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cdafc634cecd745f84b2842965c6f90cbbf33410dd22b66fc46e46be1ddf296e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/agile-livechat\\/js\\/min\\/agile-chat-min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81b3474123d004fa18ebd89aed681d68c2d076851673ee67afc0568ee69920e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/cdn-cgi\\/challenge-platform\\/scripts\\/jsd\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        },
+        {
+            "rule": "agilecrm\\.com\\/cdn-cgi\\/challenge-platform\\/h\\/b\\/scripts\\/jsd\\/e694063b5082\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "udatz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c330df3eaa9c85d763b8910ec8b11e8527b565f34abc229a3ada6ffc3dfada9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "udatz.com",
+                "www.udatz.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5333333333333333
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Script": 14,
+        "Document": 2,
+        "Stylesheet": 4
+    },
+    "nameservers": [
+        "sierra.ns.cloudflare.com",
+        "yadiel.ns.cloudflare.com"
+    ]
+}

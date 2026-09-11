@@ -1,0 +1,86 @@
+{
+    "domain": "croma.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "api.croma.com",
+            "resolved": "api.croma.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "croma\\.com\\.edgekey\\.net\\/pricing-services\\/v1\\/price",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.croma.com",
+                    "resolved": "api.croma.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "croma.com",
+                "www.croma.com"
+            ]
+        },
+        {
+            "rule": "croma\\.com\\.edgekey\\.net\\/pricing-services\\/v1\\/price",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.croma.com",
+                    "resolved": "api.croma.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "52ed4d75710ad0b2d11e38fa161fe6f907d938a1e0a8ef0f58103240c61ff726"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "croma.com",
+                "www.croma.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": []
+}

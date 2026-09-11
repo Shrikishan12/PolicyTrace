@@ -1,0 +1,134 @@
+{
+    "domain": "chatbot4you.de",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "bot",
+        "socket4"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "chatbot4you\\.de\\/bot\\.min\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.userAgent": 1,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f8256be12a0c971e7beed2be82e6cda377485628297defac83d3f58ca09671e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "globalCookie": {
+                    "ttl": 86404,
+                    "length": 91,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ellwangen2026.de",
+                "www.ellwangen2026.de"
+            ]
+        },
+        {
+            "rule": "chatbot4you\\.de\\/website\\/4029112bad5464f46ac873545cc92d60",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ellwangen2026.de",
+                "www.ellwangen2026.de"
+            ]
+        },
+        {
+            "rule": "chatbot4you\\.de\\/website\\/4029112bad5464f46ac873545cc92d60",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bot"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fb96a6cfb8f3b81ae54f8667986757722911e7e9533aa129176216cbc4a9d61"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ellwangen2026.de",
+                "www.ellwangen2026.de"
+            ]
+        },
+        {
+            "rule": "chatbot4you\\.de\\/socket\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "socket4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ellwangen2026.de",
+                "www.ellwangen2026.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns81.domaincontrol.com",
+        "ns82.domaincontrol.com"
+    ]
+}

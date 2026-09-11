@@ -1,0 +1,1025 @@
+{
+    "domain": "truefitcorp.com",
+    "owner": {
+        "name": "True Fit Corporation",
+        "displayName": "True Fit"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000233,
+    "sites": 34,
+    "subdomains": [
+        "cdn",
+        "gry-cdn",
+        "atf-cdn",
+        "wsf-cdn",
+        "consumer-v2",
+        "pga-cdn",
+        "consumer",
+        "fig",
+        "ske-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "truefitcorp\\.com\\/fitrec\\/global\\/js\\/tf-integration\\.js",
+            "cookies": 0.00011,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "gry-cdn",
+                "atf-cdn",
+                "wsf-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 14,
+                "Document.cookie setter": 14,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "888ee5838c5fb0ed181bfb746f0d109de6b8927226970493b37bf426a3d75ef5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tfExperimentId": {
+                    "ttl": 34560000,
+                    "length": 34,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 1
+                },
+                "tf-version": {
+                    "ttl": 31536000,
+                    "length": 2,
+                    "prevalence": 0.000095895008664799,
+                    "uniqueness": 0.14285714285714285
+                },
+                "tfc-l": {
+                    "ttl": 315360000,
+                    "length": 87,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "momcozy.com",
+                "nydj.com",
+                "spartina449.com",
+                "truewerk.com",
+                "www.druids.com",
+                "www.jmclaughlin.com",
+                "www.kennethcole.com",
+                "www.runinrabbit.com",
+                "www.theathletesfoot.com.au",
+                "www.toddsnyder.com",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/api\\/experiments",
+            "cookies": 0.000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "50ed47c50be5e4eb831d3baabb6a7ccb518261f696f8d93a5a6130417e7b5fd3",
+                "8326756728dacd3022a84276d023dcbfe4e2afa3dbc89f9e9e4954c794bf128c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "macduggal.com",
+                "momcozy.com",
+                "nydj.com",
+                "spartina449.com",
+                "truewerk.com",
+                "www.druids.com",
+                "www.jmclaughlin.com",
+                "www.marks.com",
+                "www.myer.com.au",
+                "www.pgatoursuperstore.com",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.theathletesfoot.com.au",
+                "www.toddsnyder.com",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/tf-integration\\.es\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 11,
+                "window.localStorage": 1
+            },
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [],
+            "responseHashes": [
+                "0b5e5a559e249495a7ee698df2beadc07572ffb5564b9f958fdcaed2a04aec79",
+                "3637299f8858f6b206f515433e646d60416273fa4a9a85704326389ce270314b",
+                "3bfafb3f9eb609bc0323c3b9388f58673264ba6bd7f9b27d6fdea84e6ae6fdbf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.pgatoursuperstore.com",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/B1EPd8qV\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "d6ac3a798f4e288b893ba8739c14217caa2b141298274690e299c4206cb832ab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/BHBThM6I\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "aa4bb374ab079263f27e13c98b11069da4d0cca7728d1f30a76267ac162427a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/DqbnqlU5\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "ca30dacca80391411ca4af3631e239759ab1a085136aa974bc68f8e30283afec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/DkCb9aVC\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "dcf59893e9ae95b7904f0d9e22a58826124a3bd7ff549cc82e0c098c3f425eab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/CbMyHDra\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "window.sessionStorage": 12
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "f93b86682bc43105ef101a027a151c9063c82b12c970ed2dc7b78d41d8e51f03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/BVPSo75D\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "3d56c83949e02a8028481171cd35e33cd5b238ee95688532c05148e51e4e624e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/CKEoVf2W\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "window.localStorage": 12
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "101e8c5949294b360ab7757c442151c3cb4459b9cb65a1427b5b937f9e167b2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/CpwfAa3A\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "c64984cab72d72872d0da38338fcddf06011ba2c059e35c1ad599ab34e943317"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/BfemZz0R\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "window.localStorage": 1
+            },
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "1a1cf67a7e9a96d3d9c443102e7086c8f189aa4e67d4ca14e57052b2d11bc545"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/9fITkZMe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "76f450f36d62be16e423866237a0c6bd009caa834b32d359c561ceb38ddd4d50"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "spartina449.com",
+                "www.runinrabbit.com",
+                "www.travismathew.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/C8y-sdZe\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "bfc970e95daeb53b5aacb689a4b32b2344cbb7037150079cf4f081f2f0b333a8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/Cje2KR66\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "1171b3a20051b9638220b9d84870c726e45b4e9d47712c7c78f5f1b9b9a5b636"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/DpvQybDH\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "6601e6fbf2c77b92abf7ed6fb2d8a0efa183ff363e39719e83d63e96cceb5eb9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/D7FdbVhM\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "67bb6bbba095ded4f4483e11006c21f620cdf0354b9db083acaf5daf05dadfaf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/Cptdp7dG\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "2912daac041b7d848718dc8415b2af47a9450eb5406dbeabcb8cde2ce90566e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duer.com",
+                "goodgoodgolf.com",
+                "greysonclothiers.com",
+                "liverpoolstyle.com",
+                "macduggal.com",
+                "spartina449.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.runinrabbit.com",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/chunks\\/Dd-4nVmG\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "f4523849da2719a286638d7d2cb9523c7eb6923563e8634aeb50943341e21f80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "goodgoodgolf.com",
+                "macduggal.com",
+                "www.jmclaughlin.com",
+                "www.myer.com.au",
+                "www.platypusshoes.com.au",
+                "www.skechers.com.au",
+                "www.travismathew.com",
+                "www.whitestuff.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/truefit\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5493f3c1c28ba8c0d2a07d6ebfb83bf22956547e29de51ce101cc1fa6b7f9549"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macduggal.com",
+                "www.platypusshoes.com.au"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/fitrec\\/pga\\/js\\/tracker\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pga-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a26a0c18f2760cfaea513ed2f77c77ed65e87df40795bb6d3655333df72663b0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "tfc-l": {
+                    "ttl": 315360000,
+                    "length": 87,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgatoursuperstore.com",
+                "www.pgatoursuperstore.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/profile\\/public\\/v3\\/pga\\/token",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e8978e29339fcfda8061123905f9b9e49c388c858115b72ff5a7f901229d13a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgatoursuperstore.com",
+                "www.pgatoursuperstore.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/profile\\/public\\/v3\\/pga\\/analytics\\/tracking",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgatoursuperstore.com",
+                "www.pgatoursuperstore.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/profile\\/public\\/v3\\/pga\\/analytics\\/tracking",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pgatoursuperstore.com",
+                "www.pgatoursuperstore.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/fitconfig",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6d7f3acb09e90bcb40516ee2e3048a608ae8fedae97280e71eb9b0403221eb25",
+                "1c24e779e6f1319a2d989340401c9c0ced88fe7d89bc53fb50242fdd90d694a4",
+                "17762bcd4c1d54d04e0cee523952f757ff8996ce2dc2a6c930aa86df72490cd4",
+                "3ecb6ce7ba09be57e6bdef28268b4e3f260a517f2dc13dae3bd3406cabdc7a38"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "exofficio.com",
+                "www.marks.com",
+                "www.pgatoursuperstore.com",
+                "www.platypusshoes.com.au",
+                "www.skechers.com.au"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/profile\\/public\\/v4\\/mrk\\/widget",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "deb9de65eeeb5d4ec14110d79a89e2563ec2d8e697372a9aa27f0171db3cab91"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "marks.com",
+                "www.marks.com"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fig"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "26d0d924c34949984db5d8f7bb002e35536ab6d31d5882c56351a852e9a1584a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.platypusshoes.com.au"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fig"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1eb22c39c592d51fce2ae65dca04ab1d95757615cdc1317ebf82ddc61bd3c44d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "marks.com",
+                "www.platypusshoes.com.au"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/api\\/store\\/pla\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consumer-v2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00cc1f5589759e738554b97798da9ca870f9c2277ea3f6ae13daa432241a78bd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "platypusshoes.com.au",
+                "www.platypusshoes.com.au"
+            ]
+        },
+        {
+            "rule": "truefitcorp\\.com\\/fitrec\\/ske\\/js\\/fitrec\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ske-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39760d42f55e5a01473dc5609f3d48a7ad038c491c5135fc717613e3e6847615"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "skechers.com.au",
+                "www.skechers.com.au"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Analytics",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.000226,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6638655462184874
+        },
+        {
+            "domain": "pdqprod.link",
+            "prevalence": 0.14285714285714285
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.05042016806722689
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.03361344537815126
+        },
+        {
+            "domain": "d5zu2f4xvqanl.cloudfront.net",
+            "prevalence": 0.01680672268907563
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.01680672268907563
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.01680672268907563
+        },
+        {
+            "domain": "px-cloud.net",
+            "prevalence": 0.01680672268907563
+        },
+        {
+            "domain": "s3.us-east-1.amazonaws.com",
+            "prevalence": 0.008403361344537815
+        },
+        {
+            "domain": "securedvisit.com",
+            "prevalence": 0.008403361344537815
+        }
+    ],
+    "types": {
+        "Script": 239,
+        "Fetch": 26,
+        "Stylesheet": 2,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-60.awsdns-07.com",
+        "ns-553.awsdns-05.net",
+        "ns-1659.awsdns-15.co.uk",
+        "ns-1125.awsdns-12.org"
+    ]
+}

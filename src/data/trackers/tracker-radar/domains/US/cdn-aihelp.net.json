@@ -1,0 +1,83 @@
+{
+    "domain": "cdn-aihelp.net",
+    "owner": {
+        "name": "ShareFun Network Limited",
+        "displayName": "ShareFun Network Limited"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "p1-config",
+        "lbe.config",
+        "playmate.config"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cdn-aihelp\\.net\\/sdkconfig\\/localefile\\/98142b3840ce4ebd98d7ceec470a61c4-50_en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "p1-config"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "193bd1454e69eb4a08294ad67c1ecb29269cd6387bb68c11d8de349d4adc9fac"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nustargame.com",
+                "www.pinkchat.app",
+                "www.playtime.ph"
+            ]
+        },
+        {
+            "rule": "cdn-aihelp\\.net\\/text\\/default\\/1ab723aaa860d5dbfe09f5d787e82a5e_en\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "lbe.config",
+                "playmate.config"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d83dd094135d791b05c6822be8ec2e15601dd0cbb0336a3c76af6662bce2db89"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pinkchat.app",
+                "www.playtime.ph"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "aihelp.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 5
+    },
+    "nameservers": [
+        "mark.ns.cloudflare.com",
+        "tina.ns.cloudflare.com"
+    ]
+}

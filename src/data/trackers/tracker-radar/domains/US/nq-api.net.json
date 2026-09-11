@@ -1,0 +1,159 @@
+{
+    "domain": "nq-api.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn",
+        "v4",
+        "fa-v4"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "nq-api\\.net\\/api\\/core\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 4,
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "window.innerWidth": 2,
+                "window.innerHeight": 1,
+                "window.outerHeight": 1,
+                "window.outerWidth": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "52e6694e3fa5bf205c4e9597c35aec5646df78c5778fade0b39acea6393a4080",
+                "44ede78bdf07605107e6e6bdcf1c33d3cf5b2ead6e8d754eac46196d83b09622",
+                "ebfb4a809dcab5a5699b1cca817b0a7dfc5b506ab4f6e50ada877c49f2ce041f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "nqcore": {
+                    "ttl": 2678401,
+                    "length": 66,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.footasylum.com",
+                "www.houseofbruar.com",
+                "www.sjscycles.co.uk"
+            ]
+        },
+        {
+            "rule": "nq-api\\.net\\/api\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4",
+                "fa-v4"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "9624b93c5558b77d94bd1284d5b14fbbec79eb042b64f6f8d947b3b61366f3f4",
+                "d2cd12cbebcc3d47c48b96131bca3678c2a956ab7c6eae749cf1a1655532b311",
+                "5213968a60a3ce3ca78687d6ca519470f8e603824cb6a75da974858fd9191e63"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crewclothing.co.uk",
+                "www.footasylum.com",
+                "www.houseofbruar.com",
+                "www.sjscycles.co.uk"
+            ]
+        },
+        {
+            "rule": "nq-api\\.net\\/api\\/hob-p36pvxsyqr\\/zones\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d8a3b21fc4dfbcb0570db97f348a7c31c822ac431dbedf54ef6a39340adac028"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "houseofbruar.com",
+                "www.houseofbruar.com"
+            ]
+        },
+        {
+            "rule": "nq-api\\.net\\/api\\/sjs-ckehpn8d4h\\/zones\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "653771ce96d961ba9e8c404db63074ee605d7c0eec6d15ccf3b3d806f69b0061"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sjscycles.co.uk",
+                "www.sjscycles.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "monetate.net",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Stylesheet": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "apollo.ns.cloudflare.com",
+        "robin.ns.cloudflare.com"
+    ]
+}

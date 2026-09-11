@@ -1,0 +1,88 @@
+{
+    "domain": "jpr-production-alb-2124348319.ap-southeast-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "api-jpr.jawapos.com",
+            "resolved": "jpr-production-alb-2124348319.ap-southeast-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "jpr-production-alb-2124348319\\.ap-southeast-1\\.elb\\.amazonaws\\.com\\/api-jp-graphql\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "api-jpr.jawapos.com",
+                    "resolved": "jpr-production-alb-2124348319.ap-southeast-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jawapos.com",
+                "radarbanyuwangi.jawapos.com",
+                "radarsolo.jawapos.com",
+                "solobalapan.jawapos.com"
+            ]
+        },
+        {
+            "rule": "jpr-production-alb-2124348319\\.ap-southeast-1\\.elb\\.amazonaws\\.com\\/api-jp-graphql\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "api-jpr.jawapos.com",
+                    "resolved": "jpr-production-alb-2124348319.ap-southeast-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "a771c2e598871871a86841fb1e3fc3134541508b84c76dccc761c656fb287f5e",
+                "6a83b621e597fc253f01166ac5a11d6d1a371c7b7b29ae869ce6b345728ee2c1",
+                "36fec10c453d75f109656c8aa8c8839e9440e39592688d24bed08dd0909df4ee"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jawapos.com",
+                "radarbanyuwangi.jawapos.com",
+                "radarsolo.jawapos.com",
+                "solobalapan.jawapos.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

@@ -1,0 +1,84 @@
+{
+    "domain": "biblestudytools.com",
+    "owner": {
+        "name": "Salem Communications Corporation",
+        "displayName": "Salem Communications"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "biblestudytools\\.com\\/dist\\/index\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8bb79493e77f3a894a8029fbd4e9543833d27bd682c0daaffb4ea06ed797da41"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleconclusions.com",
+                "ourbibleheritage.com"
+            ]
+        },
+        {
+            "rule": "biblestudytools\\.com\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bibleconclusions.com",
+                "ourbibleheritage.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "pat.ns.cloudflare.com",
+        "jack.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,676 @@
+{
+    "domain": "shiftdigitalapps.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "tagging"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/LEXUS\\/rmeta",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com",
+                "www.lexus.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/scripts\\/sdanalytics\\/sda\\.js",
+            "cookies": 0.00011,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {
+                "window.sessionStorage": 18,
+                "Document.cookie getter": 16,
+                "Document.cookie setter": 16,
+                "Navigator.prototype.userAgent": 17,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 18,
+                "Date.prototype.getTimezoneOffset": 18,
+                "Screen.prototype.colorDepth": 18,
+                "Navigator.prototype.plugins": 18,
+                "Navigator.prototype.javaEnabled": 18,
+                "Navigator.prototype.language": 18,
+                "Screen.prototype.width": 18,
+                "Screen.prototype.height": 18
+            },
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "c022715647e88fbca681e65adc053a22538793495f670b4c9e80cc0377c16277",
+                "9c82e5f80fd062ade79850a42380959aee32d6a38e4e745c69a32100b37df75c",
+                "220f2652238224e7e98384633a87a8fde7266cbccbca45068a60d88b4ec3d1d2",
+                "1ee62c910694b304a93c9bb2327e62067676e1c6eea1261857f9b3f4b01533d0",
+                "8d0819abb56502f30b4408fa7761aff5cf4d02c1725e5952ff7b978b5a9a81c3",
+                "b626e99fee5678e682fc35367c428326e453c9a8cb1ad6dbeeda58d086d362cc",
+                "2e52e775d0b668117bd0626245d29429baf851f5de96868b26d87a73b0acaae8",
+                "8c13cba1c6817ebec23bc593ed9673758abbaf0a45bf07894c15dd0d8febe920"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_sda:toyota:T1:user": {
+                    "ttl": 31536017,
+                    "length": 112,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_sda:toyota:T1:session": {
+                    "ttl": null,
+                    "length": 150,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_sda:stellantis:T1:user": {
+                    "ttl": 31536009,
+                    "length": 120,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "_sda:stellantis:T1:session": {
+                    "ttl": null,
+                    "length": 168,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "_sda:toyota:T2:user": {
+                    "ttl": 31536008,
+                    "length": 130,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:toyota:T2:session": {
+                    "ttl": null,
+                    "length": 164,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:infiniti:T1:user": {
+                    "ttl": 31536010,
+                    "length": 130,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:infiniti:T1:session": {
+                    "ttl": null,
+                    "length": 180,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:mazda:T1:user": {
+                    "ttl": 31536012,
+                    "length": 131,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:mazda:T1:session": {
+                    "ttl": null,
+                    "length": 162,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:mitsubishius:T1:user": {
+                    "ttl": 31536008,
+                    "length": 131,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:mitsubishius:T1:session": {
+                    "ttl": null,
+                    "length": 186,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:toyota:T3:user": {
+                    "ttl": 31536019,
+                    "length": 131,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_sda:toyota:T3:session": {
+                    "ttl": null,
+                    "length": 148,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "_sda:subaru:T3:user": {
+                    "ttl": 31536004,
+                    "length": 64,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_sda:subaru:T3:session": {
+                    "ttl": null,
+                    "length": 77,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lexus.com",
+                "toyota.com",
+                "www.alfaromeousa.com",
+                "www.buyatoyota.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.infinitiusa.com",
+                "www.jeep.com",
+                "www.lexus.com",
+                "www.longotoyota.com",
+                "www.mazdausa.com",
+                "www.mitsubishicars.com",
+                "www.mountainstatestoyota.com",
+                "www.planetsubaru.com",
+                "www.ramtrucks.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyotadirect.com",
+                "www.toyota.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/TOYOTA\\/rmeta",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.buyatoyota.com",
+                "www.longotoyota.com",
+                "www.mountainstatestoyota.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyotadirect.com",
+                "www.toyota.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/id\\/sda_id\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "c5abf30d25e4eed3a7cc6168c80cfee5481709063787eef33afc0f37a67302cd",
+                "06a5f38137a3697c90f6d3341080be156afd5e0fe2a670246fd246fcea42a8b9",
+                "a582dd9fd0e6b09b376b9d206e9dbb3096bc8943fcadc0af42ba196dadb8f909",
+                "2fea967da2237148ec090fe94ddfaa3e9e3f1dd6d82f16830520969737946ddd",
+                "7169476497b4390c5d58e1e05c90e09f1e7a83a7d9a1e4742b4774f4cca6e72f",
+                "6c4adbbbc6dde99ae32390893c14551886e67f3d4cd9df0f251eabad3189ec5c",
+                "ece340971b2c82edaff4832c770ecd19e21a0d872416fe1cace09f40266109ed",
+                "944857148cc666eb557a6727714dd25162e7eadff8e5d1d56e5a599b59423c63",
+                "d496a5857bf5c906a5d2012ce0e536d01afe96ef6bac1415bf0a349d0dfe9fec",
+                "506a4cf251862473b956053043799c5958fdeb460c2b440a65479e2f0ff6d78d",
+                "a52fccc2ce3eab036ad13b66ca8623b871f243459067bdade80154d7a550035e",
+                "8d010402d345b904e82af55f56203ee72a686c6807329e9863dd3ed38dd5bc78",
+                "86f8fa3e7371f23840560d9bf2944f211bb5c6032b413ea2ae86706efa254790",
+                "2f74304eb1a60b85f5abee696f78abf85d25bb3d70a3e21033cf180764a39aba",
+                "82aed9b3fa98984f7654d53de14b1fd514576829c77a0d6302323bd5e5c71c4c",
+                "cb82ea66fd02d506427be87915b9767826458c85fa8ae5d90493f03d4e59fc18"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.alfaromeousa.com",
+                "www.buyatoyota.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.infinitiusa.com",
+                "www.jeep.com",
+                "www.longotoyota.com",
+                "www.mazdausa.com",
+                "www.mitsubishicars.com",
+                "www.mountainstatestoyota.com",
+                "www.ramtrucks.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyotadirect.com",
+                "www.toyota.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/scripts\\/sdanalytics\\/sda_fp\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 15,
+                "Navigator.prototype.webdriver": 15,
+                "Navigator.prototype.language": 15,
+                "Screen.prototype.colorDepth": 15,
+                "Navigator.prototype.deviceMemory": 15,
+                "Navigator.prototype.hardwareConcurrency": 15,
+                "Screen.prototype.width": 15,
+                "Screen.prototype.height": 15,
+                "Screen.prototype.availWidth": 15,
+                "Screen.prototype.availHeight": 15,
+                "Date.prototype.getTimezoneOffset": 15,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 15,
+                "window.sessionStorage": 15,
+                "window.localStorage": 15,
+                "window.indexedDB": 15,
+                "Navigator.prototype.platform": 15,
+                "Navigator.prototype.appName": 15,
+                "Navigator.prototype.plugins": 15,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 15,
+                "HTMLCanvasElement.prototype.toDataURL": 15,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 15,
+                "WebGLRenderingContext.prototype.getParameter": 15,
+                "WebGLRenderingContext.prototype.getContextAttributes": 15,
+                "WebGLRenderingContext.prototype.getExtension": 15,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 15,
+                "Navigator.prototype.languages": 15,
+                "Navigator.prototype.maxTouchPoints": 15,
+                "Navigator.prototype.productSub": 15,
+                "OfflineAudioContext.prototype.constructor": 15,
+                "AudioBuffer.prototype.getChannelData": 15,
+                "Navigator.prototype.mediaDevices": 15,
+                "MediaDevices.prototype.enumerateDevices": 15
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "d618b895920695baf95589f17691300c9998344d6332ae3d8e2eca53111d2091"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.alfaromeousa.com",
+                "www.buyatoyota.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.infinitiusa.com",
+                "www.jeep.com",
+                "www.longotoyota.com",
+                "www.mazdausa.com",
+                "www.mitsubishicars.com",
+                "www.mountainstatestoyota.com",
+                "www.ramtrucks.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyotadirect.com",
+                "www.toyota.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/id\\/3pc",
+            "cookies": 0.000116,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "38cbabd89dbc47b11521b1beb9b05a204f043f05f8376f0edaa1fb3cb11da1c6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toyota.com",
+                "www.alfaromeousa.com",
+                "www.buyatoyota.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.infinitiusa.com",
+                "www.jeep.com",
+                "www.longotoyota.com",
+                "www.mazdausa.com",
+                "www.mitsubishicars.com",
+                "www.mountainstatestoyota.com",
+                "www.ramtrucks.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyotadirect.com",
+                "www.toyota.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/toyota\\/1x1\\.gif",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__ggtruid": 0.000006849643476057072,
+                "CC_SID24e94c9a1-bcfc-4930-8066-b8e6c86c6bb3": 0.000006849643476057072,
+                "ipe_131138_dealer_name": 0.000006849643476057072,
+                "ipe_131138_dealer_city": 0.000006849643476057072,
+                "ipe_131138_dealer_domain": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "toyota.com",
+                "www.buyatoyota.com",
+                "www.longotoyota.com",
+                "www.smarttoyota.com",
+                "www.toyotacertified.com",
+                "www.toyota.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/scripts\\/sdt1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {
+                "window.sessionStorage": 7,
+                "window.localStorage": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie getter": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "f4e566b461182bff6b6098df5db30ff38258656ede99ce56c3c00ed619c7d0ff",
+                "1eed2b0b74b2a73942ffec6f527f345afdd39e523a6bd933b8b64d436a8835df"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeousa.com",
+                "www.alfaromeousa.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.jeep.com",
+                "www.mitsubishicars.com",
+                "www.ramtrucks.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/STELLANTIS\\/rmeta",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alfaromeousa.com",
+                "www.alfaromeousa.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.jeep.com",
+                "www.ramtrucks.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/stellantis\\/1x1\\.gif",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_td_domain_alfaromeousa.com": 0.000013699286952114143,
+                "_td_domain_jeep.com": 0.000006849643476057072,
+                "_td_domain_ramtrucks.com": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "alfaromeousa.com",
+                "www.alfaromeousa.com",
+                "www.dodge.com",
+                "www.fiatusa.com",
+                "www.jeep.com",
+                "www.ramtrucks.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/infiniti\\/1x1\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "visitorID": 0.000006849643476057072,
+                "gpv_pn": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "infinitiusa.com",
+                "www.infinitiusa.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/scripts\\/sd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie getter": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b7e7d4836b4513927fe303326ce5de4cbf21ec4da05bcfb4a4f73cf09cd14844",
+                "48a3e6ed959f9808c5cdc315d959d77a8aed83732797e5a468af07f4f3764174"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "longotoyota.com",
+                "www.mountainstatestoyota.com",
+                "www.planetsubaru.com",
+                "www.smarttoyota.com",
+                "www.toyotadirect.com",
+                "www.toyotaofboerne.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/mazda\\/1x1\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mazdausa.com",
+                "www.mazdausa.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/MITSUBISHIUS\\/rmeta",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mitsubishicars.com",
+                "www.mitsubishicars.com"
+            ]
+        },
+        {
+            "rule": "shiftdigitalapps\\.io\\/endpoint\\/mitsubishius\\/1x1\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tagging"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a11732bf41736baed4d00a1f73d63d0f9314f7917649d47143edc062cdc29658"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mitsubishicars.com",
+                "www.mitsubishicars.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000171,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5625
+        },
+        {
+            "domain": "toyota.com",
+            "prevalence": 0.2916666666666667
+        },
+        {
+            "domain": "complyauto.com",
+            "prevalence": 0.07291666666666667
+        },
+        {
+            "domain": "go-mpulse.net",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.020833333333333332
+        },
+        {
+            "domain": "azurefd.net",
+            "prevalence": 0.010416666666666666
+        },
+        {
+            "domain": "letzchat.pro",
+            "prevalence": 0.010416666666666666
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.010416666666666666
+        }
+    ],
+    "types": {
+        "XHR": 19,
+        "Script": 84,
+        "Image": 18
+    },
+    "nameservers": [
+        "ns1-34.azure-dns.com",
+        "ns2-34.azure-dns.net",
+        "ns3-34.azure-dns.org",
+        "ns4-34.azure-dns.info"
+    ]
+}

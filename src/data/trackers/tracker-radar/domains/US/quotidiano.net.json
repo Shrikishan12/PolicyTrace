@@ -1,0 +1,112 @@
+{
+    "domain": "quotidiano.net",
+    "owner": {
+        "name": "Monrif Net S.p.A.",
+        "displayName": "Monrif Net"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "sport"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "quotidiano\\.net\\/_dailymotion\\/qn-reel\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "493630fc799536e2b9cd0172bb3fdc28a67f58f035b4b293034440fcdc68b547"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiorno.it",
+                "www.lanazione.it"
+            ]
+        },
+        {
+            "rule": "quotidiano\\.net\\/cassaforte\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "sport"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "26d93081077b5f391c7542bed9390eb6bd9c6a8fd3cff70e816bb371b6dfc821"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiorno.it",
+                "www.ilgiorno.it",
+                "www.lanazione.it"
+            ]
+        },
+        {
+            "rule": "quotidiano\\.net\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "sport"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ilgiorno.it",
+                "www.ilgiorno.it",
+                "www.lanazione.it"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Document": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "audrey.ns.cloudflare.com",
+        "bryce.ns.cloudflare.com"
+    ]
+}

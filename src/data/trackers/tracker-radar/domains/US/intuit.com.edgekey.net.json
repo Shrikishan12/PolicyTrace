@@ -1,0 +1,1647 @@
+{
+    "domain": "intuit.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000158,
+    "sites": 23,
+    "subdomains": [
+        "consent-management",
+        "rum.api",
+        "ivid-prod",
+        "deviceintel-identityra.api",
+        "csp",
+        "ipv6-prod-turbotax",
+        "digitalasset",
+        "accounts-prd",
+        "mktg",
+        "static-mytt-prod"
+    ],
+    "cnames": [
+        {
+            "original": "accounts-tax.intuit.com",
+            "resolved": "accounts-prd.intuit.com.edgekey.net"
+        },
+        {
+            "original": "accounts.intuit.com",
+            "resolved": "accounts-prd.intuit.com.edgekey.net"
+        },
+        {
+            "original": "consent-management.intuit.com",
+            "resolved": "consent-management.intuit.com.edgekey.net"
+        },
+        {
+            "original": "csp.intuit.com",
+            "resolved": "csp.intuit.com.edgekey.net"
+        },
+        {
+            "original": "deviceintel-identityra.api.intuit.com",
+            "resolved": "deviceintel-identityra.api.intuit.com.edgekey.net"
+        },
+        {
+            "original": "digitalasset.intuit.com",
+            "resolved": "digitalasset.intuit.com.edgekey.net"
+        },
+        {
+            "original": "ivid-prod.intuit.com",
+            "resolved": "ivid-prod.intuit.com.edgekey.net"
+        },
+        {
+            "original": "myturbotax.intuit.com",
+            "resolved": "static-mytt-prod.intuit.com.edgekey.net"
+        },
+        {
+            "original": "rum.api.intuit.com",
+            "resolved": "rum.api.intuit.com.edgekey.net"
+        },
+        {
+            "original": "static.quickbooks.com",
+            "resolved": "mktg.intuit.com.edgekey.net"
+        },
+        {
+            "original": "turbotax.intuit.com",
+            "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/consent\\/public\\/v1\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-management"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "consent-management.intuit.com",
+                    "resolved": "consent-management.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "accounting.quickbooks.com",
+                "blog.turbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/consent\\/public\\/v1\\/graphql",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent-management"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "consent-management.intuit.com",
+                    "resolved": "consent-management.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6e91937625e4c2e26d525c6931b5ffa743c0c06ad159cce6975e07f44a8790d8",
+                "621965a3a879d5dcb939acb1fa92d8511aaa8bf31b784dcd641fad66ae089529",
+                "773b274db1ce0fed63fc3be5872a0e7b3956c3c0c2cab0bf04caf4fb6eb62044",
+                "297b2233cc30cac82dfedbd6e6413e68f432cd894f590716679fdd8ab529fde1",
+                "e3d0dc3bdc0df507db93c3e078b713ba55642144b6eeacf526120335c577a3ca",
+                "fc07b69eda4ddbb075c6975a6eed862ca6cee5978f6a0f8e97f97537f5f441f8",
+                "5903fda77cc30279a2cdf5d71380c4401f8b2d5ffbdcc00de9745e43c60b3c54"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "accounting.quickbooks.com",
+                "blog.turbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/rum\\/web",
+            "cookies": 0.0000959,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum.api"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [
+                {
+                    "original": "rum.api.intuit.com",
+                    "resolved": "rum.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "academy.intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "accounts.intuit.com",
+                "mailchimp.com",
+                "myturbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.ca",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.creditkarma.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/rum\\/web",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum.api"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [
+                {
+                    "original": "rum.api.intuit.com",
+                    "resolved": "rum.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "accounts.intuit.com",
+                "mailchimp.com",
+                "myturbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.ca",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.creditkarma.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/echo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ivid-prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [
+                {
+                    "original": "ivid-prod.intuit.com",
+                    "resolved": "ivid-prod.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00007534607823662778
+            },
+            "exampleSites": [
+                "intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "myturbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.ca",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.creditkarma.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/echo",
+            "cookies": 0.0000753,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ivid-prod"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [
+                {
+                    "original": "ivid-prod.intuit.com",
+                    "resolved": "ivid-prod.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ajs_anonymous_id": 0.00007534607823662778
+            },
+            "exampleSites": [
+                "intuit.com",
+                "accountants.intuit.com",
+                "accounting.quickbooks.com",
+                "myturbotax.intuit.com",
+                "quickbooks.intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.ca",
+                "turbotax.intuit.com",
+                "workforce.intuit.com",
+                "www.creditkarma.com",
+                "www.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/trace",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "rum.api.intuit.com",
+                    "resolved": "rum.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "accounting.quickbooks.com",
+                "accounts.intuit.com",
+                "myturbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/trace",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "rum.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "rum.api.intuit.com",
+                    "resolved": "rum.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "accounting.quickbooks.com",
+                "accounts.intuit.com",
+                "myturbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/init_session",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deviceintel-identityra.api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [
+                {
+                    "original": "deviceintel-identityra.api.intuit.com",
+                    "resolved": "deviceintel-identityra.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quickbooks.com",
+                "accounts.intuit.com",
+                "login.mailchimp.com",
+                "myturbotax.intuit.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/init_session",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deviceintel-identityra.api"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [
+                {
+                    "original": "deviceintel-identityra.api.intuit.com",
+                    "resolved": "deviceintel-identityra.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quickbooks.com",
+                "accounts.intuit.com",
+                "login.mailchimp.com",
+                "myturbotax.intuit.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/75452886709396085",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "csp.intuit.com",
+                    "resolved": "csp.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quickbooks.com",
+                "accounting.quickbooks.com",
+                "accounts.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/session\\/process",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deviceintel-identityra.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "deviceintel-identityra.api.intuit.com",
+                    "resolved": "deviceintel-identityra.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quickbooks.com",
+                "accounts.intuit.com",
+                "login.mailchimp.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v1\\/session\\/process",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "deviceintel-identityra.api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "deviceintel-identityra.api.intuit.com",
+                    "resolved": "deviceintel-identityra.api.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quickbooks.com",
+                "accounts.intuit.com",
+                "login.mailchimp.com",
+                "turbotax.intuit.com",
+                "workforce.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/proxy\\/t\\/cj\\/tags\\/11007\\/tag\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ipv6-prod-turbotax"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "turbotax.intuit.com",
+                    "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "69c5a63a687937271b291d358cc1b29b5bdbed6ba3da0b3c2bf15c052d10e6f4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "myturbotax.intuit.com",
+                "ttlc.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/proxy\\/t\\/cj\\/11007\\/pageInfo",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ipv6-prod-turbotax"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "turbotax.intuit.com",
+                    "resolved": "ipv6-prod-turbotax.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "968b17baf99ffc8097fdbe0d8552113c2f6e7da2a63e3967f24811e2e2e0a312"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "blog.turbotax.intuit.com",
+                "myturbotax.intuit.com",
+                "ttlc.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/render\\/content\\/dam\\/intuit\\/mc-fe\\/en_us\\/product\\/brand_assets\\/logos\\/mc-freddie-dark\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2cdec7dee74593d9ff03e2d7f60fc182e81dae616e09ef3b247d8af61d51301d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mailchimp.com",
+                "login.mailchimp.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/identity-api\\/preparesignin\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "accounts-tax.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                },
+                {
+                    "original": "accounts.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "myturbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/identity-api\\/preparesignin\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "accounts-prd"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "accounts-tax.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                },
+                {
+                    "original": "accounts.intuit.com",
+                    "resolved": "accounts-prd.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7d316379d337741d5e1e20e23cef251365b4b300afb77b1a1753f3b2dd781efe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "myturbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/v2\\/r\\/1b706877aac8822b10c176bf08c60db87d493042",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "csp"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "csp.intuit.com",
+                    "resolved": "csp.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "myturbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/36676\\.bded1e7fcdc09961\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f171c5b1717671ba50eff948aa72fbb58fbd04035fc75b3f58483d7c26dcd8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/79339\\.0e12fc782fe89bce\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4f592fde8f13e373f32cc5521842d6d6507ea5ca6847fd700e52dba7628aad96"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/5999\\.eb610f44002be0b8\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "34319780a918062c48c9ad99497104d1fd2e2d1bde0fbcc6d37eb8ea67587913"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/97157\\.2b365f3c9f9766ad\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "03283ce3ee14cfc8e18272f0b4212d6036bada2c950ab6bfc05ea4a87180962d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/20474\\.e94836da7d227e49\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2e39d756ff2c84e3ce0cc545704aae1c188cc0568b257e334442355f99866b97"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/1473\\.c56a8a3addb4303d\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "613e233e6e3700dae99f5751bbf50bd1951a75a745b3e9412902fddf1894f521"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/55915\\.71544f493cee68c7\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c22310983e9e1447d328d5a9089dd9f5c2fb3623cd08a24eb72228be33261f86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/13528\\.a63542bfdc1ba4b1\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "656b4c2a6b37e34434d639ab8ae0eb36670c523a29d73309a424fd74d55c41f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/44969\\.885c95781527bf4f\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bde615a41253eab660d636b5be39136c1853cb35ba98e9b3e8bc66d3316dae95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/77241\\.c95980b5f948b989\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f5f938fc8c4efd0ce5b18b3be1c58a6b53f12549e41d65fc1f78b7a0b4e85f71"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/70843\\.19603db40e31069f\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "18193e3841cfe363e434346cd200927403da668dbe8b5b6e283dcdffede22417"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/81115\\.ca8ed0061285c484\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "75fb94241c6f13f5e15b7f3a7b64a2d1042e2e606cd9d97a667eead2259193cf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/webpack-52ec1b0f05a969ee\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bb0ab58bfe86d28ec75a6777b3bb576b9371ed0500b17dcb285958f81f01a2a5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/framework-29656545763afc23\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7a0a74fdb5d485baa32e8f105a8d719e422911cfc9a8fc1114eacff40f2ecae0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/main-85dd53bedc719c1b\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a6871c8a67db9973d4733721ba294085185fce79bb5434d993d21bd0aaf5060a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/pages\\/_app-e52a0df2e605456c\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3e222db4e74504d18d1b0c41db7afeef2abf06f83b06ff5841684c4d7ae182fc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/64585179-4a4803a5abc55228\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2cc4b31d300e6914182b77247eac2747650ed82b16973a9b90d6ed385c11fd14"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/61064-ae442dcbd8040330\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3b05f9d68f008ab93da403c3ec67ef6204be85f853a05f608b3adfde17e631bf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/36300-0f5bd9fe21f7cb93\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3ed41f4f2c67044e99ed39465e677264267c9c9b2c55ca90b8f68a506d3724c5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/10054-94e5d402383c6bbb\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a07942dd06080e7331ed661abbb8e6a1a4be5b507fc18c5f6142dc565782498f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/89080-0f92e24becb476b0\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e6684862c714f911d61b8a27684674554d91a2df2ea3b901fe0ac43b0eb7c917"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/chunks\\/pages\\/page\\/render\\/cas\\/%5Bcasid%5D-4441e7339ba41d66\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9717d2e5bb120322b9f48f771f9c395e926849a6545248613126e3289bf6b3d1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/SA_6oN3FPVePYyuh9YG23\\/_buildManifest\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3c839413c6e7e766326199dee371bc0ce499ffb4da6044b4070e66b4faa19de5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/_next\\/static\\/SA_6oN3FPVePYyuh9YG23\\/_ssgManifest\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mktg"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.quickbooks.com",
+                    "resolved": "mktg.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6f5b4aa00d2f8d6aed9935b471806bf7acef464d0c1d390260e5fe27f800c67e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "quickbooks.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/brand\\/logos\\/tt-logo-50-50-color\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5d6ab0eeceec139f69caf5a4ad674209e036b769194591fcff190ed5ee777319"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/logo-intuit\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ceb9e4ca92315436d6e1298b8d090d147cb8c8fb1b5f65023966fae34670af43"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "turbotax.intuit.com",
+                "www.creditkarma.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/logo-turbotax\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9ca79daa4a1637493dfd85687c36a0e74ed97b7b44881d236a7655ebd1eb5769"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "www.creditkarma.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/logo-creditkarma\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f04e8e5ce69fcbf6e1f6d39d97c8a80e937262b8f4a1bfe1d94bed1dcb5a3f66"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/logo-quickbooks\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d2312fc3453a1e74133b800d0ddb7ab4d0635fb3772a8605d0993487dce5a059"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "www.creditkarma.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/logo-mailchimp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1015da48a11a551773e9dba5b71dcb9927494bde05876cd01dd4a95637cae5fc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "ttlc.intuit.com",
+                "www.creditkarma.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/render\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/fy26-logo-turbotax\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b9cb151dfeaa14548d1dc36e8ff9cb5529179eff3ba54559741a87f798991a37"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/render\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/fy26-logo-creditkarma\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "72f7cd9b45a9727dac00971436059859831679c41f8f3eda4eaecf44e43c2232"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/render\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/fy26-logo-quickbooks\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "313fb0516a374ccd8378dde79824077758113fe43d424d5dc2b0726ca15a807c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/render\\/content\\/dam\\/intuit\\/cg\\/en_us\\/images\\/brands\\/fy26-logo-mailchimp\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digitalasset"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "digitalasset.intuit.com",
+                    "resolved": "digitalasset.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e5465d25014ada3b886902523dda931ca01ac58ad3c4592ec5af49f4ca55bc0a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com"
+            ]
+        },
+        {
+            "rule": "intuit\\.com\\.edgekey\\.net\\/preloader",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-mytt-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "myturbotax.intuit.com",
+                    "resolved": "static-mytt-prod.intuit.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "967f89b60cf7f553a62e9a2a5928e073e9a9706acb819b50f7a34f0a7494470a"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "intuit.com",
+                "turbotax.intuit.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000151,
+    "topInitiators": [
+        {
+            "domain": "intuitcdn.net",
+            "prevalence": 0.48846153846153845
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.43846153846153846
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.057692307692307696
+        },
+        {
+            "domain": "fouanalytics.com",
+            "prevalence": 0.007692307692307693
+        },
+        {
+            "domain": "quickbooks.com",
+            "prevalence": 0.007692307692307693
+        }
+    ],
+    "types": {
+        "Preflight": 50,
+        "Fetch": 55,
+        "Other": 6,
+        "Script": 51,
+        "Image": 28,
+        "Document": 2
+    },
+    "nameservers": []
+}

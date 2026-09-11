@@ -1,0 +1,151 @@
+{
+    "domain": "nytimes.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "customerchat.nytimes.com",
+            "resolved": "nytimes.map.fastly.net"
+        },
+        {
+            "original": "nytco-assets.nytimes.com",
+            "resolved": "nytimes.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/contact-us-ui\\/bundle\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "customerchat.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "9be7066081be6b71f7bba8dfcf76b3ea27e8cb964e9cba3423f1d0c7f147b87f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "help.nytimes.com"
+            ]
+        },
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/queuestatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "customerchat.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "help.nytimes.com"
+            ]
+        },
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/queuestatus",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "customerchat.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a05903e7fc812775d6df6215d326b0af9bc0aafc33d8c5a42f2f21ffff0d4b84"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytimes.com",
+                "help.nytimes.com"
+            ]
+        },
+        {
+            "rule": "nytimes\\.map\\.fastly\\.net\\/2025\\/12\\/cc-homepage-paper-broll\\.mp4",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "nytco-assets.nytimes.com",
+                    "resolved": "nytimes.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a1f9e9109993e7f902428173d4b1205660a241fd8a6f97dbe0c9dde11b412211"
+            ],
+            "type": "Media",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nytco.com",
+                "www.nytco.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Preflight": 2,
+        "XHR": 2,
+        "Media": 2
+    },
+    "nameservers": []
+}

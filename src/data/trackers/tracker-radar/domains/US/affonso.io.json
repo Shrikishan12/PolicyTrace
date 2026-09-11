@@ -1,0 +1,99 @@
+{
+    "domain": "affonso.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "affonso\\.io\\/js\\/pixel\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 7
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "992658d7b2a206ca7204cde1aacd2a4bd93315c544085fd088486b8f943325e9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flirton.ai",
+                "merlio.app",
+                "musci.io",
+                "noshame.ai",
+                "pineify.app",
+                "socialrails.com",
+                "terrific.tools",
+                "www.baselane.com",
+                "www.lwrci.com",
+                "www.magi1.ai"
+            ]
+        },
+        {
+            "rule": "affonso\\.io\\/js\\/psl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "30ae236aec4f24d7cdf2585a2daa1fbe2c6d12c88703626047b51190c114b1c9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flirton.ai",
+                "merlio.app",
+                "pineify.app",
+                "socialrails.com",
+                "www.baselane.com",
+                "www.lwrci.com",
+                "www.magi1.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "mirror-app.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 17
+    },
+    "nameservers": [
+        "ns1.vercel-dns.com",
+        "ns2.vercel-dns.com"
+    ]
+}

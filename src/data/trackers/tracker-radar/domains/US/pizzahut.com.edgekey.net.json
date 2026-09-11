@@ -1,0 +1,125 @@
+{
+    "domain": "pizzahut.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "features.digital",
+        "services.digital"
+    ],
+    "cnames": [
+        {
+            "original": "features.digital.pizzahut.com",
+            "resolved": "features.digital.pizzahut.com.edgekey.net"
+        },
+        {
+            "original": "services.digital.pizzahut.com",
+            "resolved": "services.digital.pizzahut.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/datafiles\\/Lbp7eU8xAwLzbSbyGXwB8\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "features.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "features.digital.pizzahut.com",
+                    "resolved": "features.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dc86ec685532346467d0fe269efb70da0cbdce81521f8f1932c2bda2f5ca242a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/consolidated-gql\\/query",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ab3212c3d18ffa3b2e18a7c25947bf115aa369237f03a5ca59d51b1b109019ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "pizzahut\\.com\\.edgekey\\.net\\/consolidated-gql\\/query",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "services.digital"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "services.digital.pizzahut.com",
+                    "resolved": "services.digital.pizzahut.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "optimizely.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

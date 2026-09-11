@@ -1,0 +1,310 @@
+{
+    "domain": "wf.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "okra",
+        "connect.secure",
+        "gbxreport-prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "wf\\.com\\/iframe\\/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B\\/lightbox\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a438a181aa0d1de6d94df0753e15bbd4dec68596d995148c6bcdc68a24be3ba3"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/params\\/sri\\/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d6aab4c9e5b3fd800fe8eccd8bc594bb5447601eb582ac8e2138dd802bb80fd8",
+                "1a8c448a55ca6927ff5851c1a3437261e5f16207d50096688535173617fadacc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/v2\\/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B\\/api\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.connection": 3,
+                "window.localStorage": 3,
+                "WebGLRenderingContext.prototype.getSupportedExtensions": 3,
+                "WebGLRenderingContext.prototype.getParameter": 3,
+                "WebGLRenderingContext.prototype.getContextAttributes": 3,
+                "WebGLRenderingContext.prototype.getExtension": 3,
+                "WebGLRenderingContext.prototype.getShaderPrecisionFormat": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3,
+                "NavigatorUAData.prototype.brands": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.languages": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.outerWidth": 3,
+                "window.outerHeight": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "window.matchMedia(\"prefers-color-scheme\")": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Screen.prototype.orientation": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Screen.prototype.colorDepth": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.sessionStorage": 3,
+                "window.indexedDB": 3,
+                "CanvasRenderingContext2D.prototype.isPointInPath": 3,
+                "HTMLCanvasElement.prototype.toDataURL": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "OfflineAudioContext.prototype.constructor": 3,
+                "Navigator.prototype.getBattery": 3,
+                "Navigator.prototype.permissions": 3,
+                "MediaDevices.prototype.enumerateDevices": 3,
+                "speechSynthesis.__proto__.getVoices": 3,
+                "Navigator.prototype.keyboard": 3,
+                "AudioBuffer.prototype.getChannelData": 3,
+                "Performance.prototype.memory": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6dedc495182a82a9c75ac08f52d8d67813fd9bb302dee50a9bb0e4dff2bf7673"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/v2\\/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ab876f9ca6db49375443657cdcc99a5d27bbd327cad273ff464178850fc7bcca"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/tacolog\\/api\\/v1\\/sendLogs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "connect.secure"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "912d0c07da7bdb22cdae025b96da26d01523aaab7362edb28544e3949deb369d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/glassbox\\/reporting\\/0C458F45-AC71-02CE-34D8-401C8A313B38\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbxreport-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b202693c1dce28fe2b0172620dcb7edbb134ca7673107399eff50bb00d0b6368"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/fc\\/gt2\\/public_key\\/9B8ED233-984B-4DE5-A7B6-3A370D9FF48B",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "83ff660620b91b0e4290b01e13917d455152a13e65905efee03127636aa7f7ed",
+                "6b9ea3227b70cd52827e28709423889a83aed52ce6074000ac2641f77264dcb3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/fc\\/a\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "okra"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e8d12ee33402ce717879fd27313a9d7b368f11d0011300b1e95808d62fd325dc",
+                "a7c6dbce40ccb55a9ff24aea781fb15d583e93c6849a1e3b3f4de57acc6bdc82"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wellsfargo.com",
+                "www.wellsfargo.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        },
+        {
+            "rule": "wf\\.com\\/glassbox\\/reporting\\/6FA83CBC-C3CB-88BC-FE1F-ECD9FB1A6268\\/cls_report",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gbxreport-prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "dad6b291d07df1905d24b700e79dab0cf695f3bb5b0b43d5b83bbb325cb6620b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cls_v": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "wellsfargoadvisors.com",
+                "www.wellsfargoadvisors.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8636363636363636
+        },
+        {
+            "domain": "wellsfargo.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "wfinterface.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Document": 3,
+        "XHR": 15,
+        "Script": 6
+    },
+    "nameservers": [
+        "a1-189.akam.net",
+        "a2-64.akam.net",
+        "a24-66.akam.net",
+        "edns1.ultradns.com",
+        "edns1.ultradns.net",
+        "edns1.ultradns.biz"
+    ]
+}

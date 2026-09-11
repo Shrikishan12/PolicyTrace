@@ -1,0 +1,597 @@
+{
+    "domain": "upscore.com",
+    "owner": {
+        "name": "UPSCORE GMBH",
+        "displayName": "UPSCORE"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00026,
+    "sites": 38,
+    "subdomains": [
+        "files",
+        "hit-pool",
+        "hl"
+    ],
+    "cnames": [
+        {
+            "original": "media.boersenblatt.net",
+            "resolved": "hit-pool.upscore.com"
+        },
+        {
+            "original": "pw.freiepresse.de",
+            "resolved": "hit-pool.upscore.com"
+        },
+        {
+            "original": "uspw.falter.at",
+            "resolved": "hit-pool.upscore.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "upscore\\.com\\/async\\/upScore\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 18,
+                "Navigator.prototype.userAgent": 18,
+                "window.localStorage": 18,
+                "window.innerHeight": 18,
+                "PerformanceTiming.prototype.navigationStart": 18
+            },
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "50db8fff29506817b3b6a811395d70af543d83800ece4f7edb658436dbeda336"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr",
+                "net.hr",
+                "siol.net",
+                "slobodnadalmacija.hr",
+                "www.24sata.hr",
+                "www.b92.net",
+                "www.donaukurier.de",
+                "www.frankenpost.de",
+                "www.insuedthueringen.de",
+                "www.jutarnji.hr",
+                "www.kurier.de",
+                "www.mittelbayerische.de",
+                "www.nord24.de",
+                "www.onetz.de",
+                "www.pnp.de",
+                "www.rheinpfalz.de",
+                "www.toprecepty.cz"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 18,
+            "prevalence": 0.000123,
+            "cnames": [],
+            "responseHashes": [
+                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr",
+                "net.hr",
+                "siol.net",
+                "slobodnadalmacija.hr",
+                "www.24sata.hr",
+                "www.b92.net",
+                "www.donaukurier.de",
+                "www.frankenpost.de",
+                "www.insuedthueringen.de",
+                "www.jutarnji.hr",
+                "www.kurier.de",
+                "www.mittelbayerische.de",
+                "www.nord24.de",
+                "www.onetz.de",
+                "www.pnp.de",
+                "www.rheinpfalz.de",
+                "www.toprecepty.cz"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 19,
+            "prevalence": 0.00013,
+            "cnames": [
+                {
+                    "original": "media.boersenblatt.net",
+                    "resolved": "hit-pool.upscore.com"
+                },
+                {
+                    "original": "uspw.falter.at",
+                    "resolved": "hit-pool.upscore.com"
+                },
+                {
+                    "original": "pw.freiepresse.de",
+                    "resolved": "hit-pool.upscore.com"
+                }
+            ],
+            "responseHashes": [
+                "a12b7cb43c9d9134b5bb1b35e9096b66775d9e92e7611d1cc92b02edd6782a87"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fcbayern.com",
+                "www.boersenblatt.net",
+                "www.falter.at",
+                "www.freiepresse.de",
+                "www.gea.de",
+                "www.lz.de",
+                "www.mopo.de",
+                "www.mt.de",
+                "www.nachrichten.at",
+                "www.nordsee-zeitung.de",
+                "www.nw.de",
+                "www.playboy.de",
+                "www.pz-news.de",
+                "www.rhein-zeitung.de",
+                "www.rnz.de",
+                "www.schwaebische-post.de",
+                "www.topagrar.com",
+                "www.tportal.hr",
+                "www.zvw.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/krenizdravo\\.dnevnik\\.hr\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7d9c54219162863ceea2c9e87c798346d806197c7722a0716ae8200ec2a114a4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/krenizdravo\\.dnevnik\\.hr",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3da5afd46f503f688e3a3d4e6dfd11176ff1582e307b2339120cd71208415cf2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dnevnik.hr",
+                "krenizdravo.dnevnik.hr"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/b92\\.net\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {
+                "window.localStorage": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82a0c8dbe4048116696de8ee1b8056d5a30967689c3d583d60a236425d07418a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "b92.net",
+                "www.b92.net"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/b92\\.net",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6dc5159c5ffad05d4415f3b08e6c9107263ab717e6759367f24b00a91340f4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "b92.net",
+                "www.b92.net"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/pw\\/metrics\\/metrics\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [
+                {
+                    "original": "pw.freiepresse.de",
+                    "resolved": "hit-pool.upscore.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "freiepresse.de",
+                "www.mopo.de",
+                "www.rhein-zeitung.de",
+                "www.rnz.de",
+                "www.schwaebische-post.de",
+                "www.zvw.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/nord24\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "535572dea4e0c4e9bfcffde091a9d5cc284512da5954420e9af2c2b7f02730d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nord24.de",
+                "www.nord24.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/nord24\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2d27eccfda3b42135c67bd4068abc5a2bfd3e645551ce7be16911964b094af1c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nord24.de",
+                "www.nord24.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/site_script\\/nordsee-zeitung\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "PerformanceTiming.prototype.navigationStart": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "916c4b5ea8e1b4b65d033bc72c5706f6a8e598b39a86c3a2cdca1560be8aeed5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordsee-zeitung.de",
+                "www.nordsee-zeitung.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/pw\\/config\\/93AE44B3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d07644e38f498129f2253828b142b4d38339cac66394f51e00badb744c526442"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nordsee-zeitung.de",
+                "www.nordsee-zeitung.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/site_script\\/playboy\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "files"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.innerHeight": 2,
+                "PerformanceTiming.prototype.navigationStart": 2,
+                "window.innerWidth": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cc690e6dc5a02e2ba39105cde1bffa31e5ec915a0f662e90fa8b514921096a52"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/pw\\/config\\/541D2549",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cb1f6cf157f34ed601073f06e581a708c22d18befb1353903dcb4bcc6e0cf10"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/hlt\\/configuration\\/playboy\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1111e9e6eedc54ffe771ccdbd456bdb8dbc9fe9fc010c19ac52b874b6611f525"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/pw\\/config\\/541D2549",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/hlt\\/configuration\\/playboy\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hit-pool"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playboy.de",
+                "www.playboy.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/config\\/rheinpfalz\\.de\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl",
+                "files"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00ffaf11dfc841d4d071a6869e3a1db98da1392887a55cfe8aeddb9f9ef60b6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheinpfalz.de",
+                "www.rheinpfalz.de"
+            ]
+        },
+        {
+            "rule": "upscore\\.com\\/configuration\\/rheinpfalz\\.de",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hl"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de96e68927cb2131d989e70b4eece8a0b8d90993194fe2e63e29eaf80536099a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rheinpfalz.de",
+                "www.rheinpfalz.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5517241379310345
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.07758620689655173
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.07758620689655173
+        },
+        {
+            "domain": "thenewsbar.net",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "opencmp.net",
+            "prevalence": 0.06896551724137931
+        },
+        {
+            "domain": "cleverpush.com",
+            "prevalence": 0.0603448275862069
+        },
+        {
+            "domain": "privacy-mgmt.com",
+            "prevalence": 0.05172413793103448
+        },
+        {
+            "domain": "tinypass.com",
+            "prevalence": 0.017241379310344827
+        },
+        {
+            "domain": "adxbid.info",
+            "prevalence": 0.008620689655172414
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.008620689655172414
+        }
+    ],
+    "types": {
+        "Script": 30,
+        "Ping": 18,
+        "Fetch": 39,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "duke.ns.cloudflare.com",
+        "dorthy.ns.cloudflare.com"
+    ]
+}

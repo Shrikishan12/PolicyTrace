@@ -1,0 +1,84 @@
+{
+    "domain": "loadbee.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cdn",
+        "availability"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loadbee\\.com\\/js\\/loadbee_integration\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "0f405da9d723b628c7aa5364685b4ee0cfb343a06343f16030c0af476b8b9e23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luluhypermarket.com",
+                "www.grube.de",
+                "www.versandhaus-schneider.de",
+                "www.zgonc.at"
+            ]
+        },
+        {
+            "rule": "loadbee\\.com\\/v3\\/EAN\\/8850207536985\\/en_AE",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "availability"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3bc0d684e5ebb49067509bc69ba1d7035a4c8e767b22727594eb6b1cd96ea5e7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "luluhypermarket.com",
+                "gcc.luluhypermarket.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1140.awsdns-14.org",
+        "ns-965.awsdns-56.net",
+        "ns-1858.awsdns-40.co.uk",
+        "ns-169.awsdns-21.com"
+    ]
+}

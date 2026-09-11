@@ -1,0 +1,95 @@
+{
+    "domain": "mplxtms.com",
+    "owner": {
+        "name": "Conversant LLC",
+        "displayName": "Conversant",
+        "privacyPolicy": "https://www.conversantmedia.com/legal/privacy",
+        "url": "http://conversantmedia.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "secure-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mplxtms\\.com\\/s\\/MasterTMS\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "secure-cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3f9afb45cf7da9e95c933c6e856737532a3ebbc776959033c5ed7c6ffbf95264"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "well.ca",
+                "www.autoeurope.com",
+                "www.chiccousa.com"
+            ]
+        },
+        {
+            "rule": "mplxtms\\.com\\/siteJSON\\/794\\/794\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "secure-cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80c3fe2ae1062abf56456f52518bd670f9ec3917b7f85e152b347ac6b6faf880"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiccousa.com",
+                "www.chiccousa.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 2
+    },
+    "nameservers": [
+        "a20-65.akam.net",
+        "a6-65.akam.net",
+        "a28-64.akam.net",
+        "a2-64.akam.net",
+        "a7-66.akam.net",
+        "a1-100.akam.net",
+        "a26-65.akam.net",
+        "a1-27.akam.net"
+    ]
+}

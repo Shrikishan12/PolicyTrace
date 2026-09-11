@@ -1,0 +1,121 @@
+{
+    "domain": "rciservices.eu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "prod"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "rciservices\\.eu\\/rci-rest-proxy\\/storage\\/prod\\/renault\\/de\\/ONE",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "18c31e5b570e870bf6613082df5528b34eaecb7a843248a52fb423aa60846563"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.de",
+                "www.renault.de"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/rci-rest-proxy\\/config\\/prod\\/renault\\/de",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1d73a0a76af7d905fdea5cf66cd85b00fbe0a249fc3aa1b8cccbaa5d5235552d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.de",
+                "www.renault.de"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/services-dispatcher\\/result_do\\.json",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3ad4b5c9105c820de5eaf7b7095bed579d288cdb573547e6a8cfdcccf80376a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.de",
+                "www.renault.de"
+            ]
+        },
+        {
+            "rule": "rciservices\\.eu\\/services-dispatcher\\/result_do\\.json",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "renault.de",
+                "www.renault.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns-cloud-a4.googledomains.com",
+        "ns-cloud-a2.googledomains.com",
+        "ns-cloud-a1.googledomains.com",
+        "ns-cloud-a3.googledomains.com"
+    ]
+}

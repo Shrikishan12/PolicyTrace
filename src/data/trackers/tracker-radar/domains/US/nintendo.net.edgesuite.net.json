@@ -1,0 +1,94 @@
+{
+    "domain": "nintendo.net.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "sni.p01.srv"
+    ],
+    "cnames": [
+        {
+            "original": "wb.lp1.savanna.srv.nintendo.net",
+            "resolved": "sni.p01.srv.nintendo.net.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "nintendo\\.net\\.edgesuite\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sni.p01.srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "wb.lp1.savanna.srv.nintendo.net",
+                    "resolved": "sni.p01.srv.nintendo.net.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "store-jp.nintendo.com"
+            ]
+        },
+        {
+            "rule": "nintendo\\.net\\.edgesuite\\.net\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sni.p01.srv"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "wb.lp1.savanna.srv.nintendo.net",
+                    "resolved": "sni.p01.srv.nintendo.net.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "85df263e9b6ece6c784312d8cd8800d0ab15f5d4b6bd439746a63872568724a8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nintendo.com",
+                "store-jp.nintendo.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

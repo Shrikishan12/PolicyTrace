@@ -1,0 +1,697 @@
+{
+    "domain": "sided.co",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "embed-v2",
+        "embed-v3",
+        "api",
+        "apiv7",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "sided\\.co\\/assets\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v2"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "09637b86e87e30d2fcbbe6a1b63a6979e4eff362ccf3929a3ad3efd5d7926f2e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.latrobebulletinnews.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.width": 4,
+                "Screen.prototype.height": 4,
+                "Screen.prototype.colorDepth": 4,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 4,
+                "Date.prototype.getTimezoneOffset": 4,
+                "window.localStorage": 4
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "86361ba69c39b026d502ee7932f80dda11fca4127c411354b40c5edbf0407d8c",
+                "6373141970284c97f2038b7075e137cba12f73e54839542ceba99f73ce7c22ba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.latrobebulletinnews.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/widget-settings-modal-BZYzBbaD\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "window.sessionStorage": 4,
+                "Date.prototype.getTime": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "0037e0f2d6e6c618925ede85305c4cab47ce4481e8f0b533db8ed2abd5342576"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cSidedIssuedNetworkUuid": {
+                    "ttl": 31536009,
+                    "length": 236,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/campaign-cta-D0eK9O4O\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "c8cd921b132f500603284f5b3838845af4a2e6ddf807572deab2700bf7735102"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/poll-sides-open-CWTsfB4r\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "05616c507daec49aa9a6864baf68a7ed41849d887e8d2fec6bc76e7c55c413eb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/light-SkSAI-Z2\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "1514b21d139f11b535e4cb9272d0886b109ee58bd8e550a9b12851750cf02419"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.latrobebulletinnews.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/card-hrqFsNQh\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "f748b9f8ecbc0a3b122341dca1d81b3f54feedb3d2002429dbb60479d47d2d6f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/class-map-DExFhUcZ\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "8a651ce79f1e226b0564175e5a5913703ae673d657e4ff8a6838584d96704260"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/dialog-DE1qooje\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "a39a269bace9554cdfc4b4bc76944017fe3e3fa1f6cd8346bd442022f3511705"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/chunk\\.6CTB5ZDJ-B5yNZzVA\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "557e7ec93e3740085f096e4e35d5ac2285b9b55f629c33dd2d78b60b0692e8de"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/assets\\/input-BhvoYZDF\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "embed-v3"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "80a26ff3cdeb2d6406e6e2a9f7e8296b402cc845847337ef452dcde9c3e30606"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "triblive.com",
+                "dodgerblue.com",
+                "floridahsfootball.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "thecelticblog.com",
+                "www.dreadcentral.com",
+                "www.fantasyalarm.com",
+                "www.gayot.com",
+                "www.maxim.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/auth\\/authToken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/auth\\/authToken",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "4dca73e14571d58b5e31e2b53b5057d6f5c062ed165ef7c5da53ef491e25535e",
+                "26b58d44f051c7949c26ed3eab82497307aa5fb99de68ee9369ad32eaf74b4e3",
+                "77bdaced8bfd19cdad7ee09d3ac45b01c8718f46b89b7ebf0edbfeae2fa4d463"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/api\\/master\\/clients\\/embed-mapping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv7"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "79a540e83e10f0614b00722063ca2b5b2996bfd298447cf66748fcc66e3c5bd6",
+                "f26be8bca6bc3bfb1a74995b1cd2a3ba1fdacd565e8ff1267dd95d28b869a7eb",
+                "020400de24e9dca88caff07af3ce6d54e538beb06697338541f9417347dbe1e2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/api\\/master\\/clients\\/embed-mapping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv7"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/api\\/master\\/uuid\\/xfer-token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv7"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "404f9d93dc1be657cb9177efadde67474035c58bece7445a2562079e23336af2",
+                "158acc07c4b1901839c143f48c114b37ff4ff2b169e7e420e5f097f6e2f30929",
+                "30ac1f154a52dce29d9a6fabaafa5bc09c7c96124c3ca6b366527df1c929c812"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/api\\/master\\/uuid\\/xfer-token",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv7"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dodgerblue.com",
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/embed\\/updateSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0ddc57edb569927442a67e179c46283d23893ccc6c41e883a905df751a8700d9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/embed\\/updateSession",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnaut.com",
+                "steelersnow.com",
+                "www.themix.net"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/debate\\/getDebateByEmbedPlacement",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7a35cccd3af9381e1e3d241eb7be149556799a0243acb76e5534fd1ba135eb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnaut.com",
+                "steelersnow.com"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/collections\\/getCollectionByEmbedPlacement",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7da3fa1527acb4c8080dd261a6f45750eaba168d4a9f2d6514ec12bd6e08444"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnaut.com",
+                "steelersnow.com"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/api\\/asks\\/filtered",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "apiv7"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dd5703fa106f6d910a0ac1a909825b02b6da8e76405157c2bbdc2a1a9d8a2d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sportsnaut.com",
+                "steelersnow.com"
+            ]
+        },
+        {
+            "rule": "sided\\.co\\/embed-assets\\/load\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c50129a73da4ff652d93be4e4cf472bf11f3798df67af92ef0510b2c05f2495d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thecelticblog.com",
+                "www.fantasyalarm.com",
+                "www.latrobebulletinnews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6206896551724138
+        },
+        {
+            "domain": "adlightning.com",
+            "prevalence": 0.27586206896551724
+        },
+        {
+            "domain": "confiant-integrations.net",
+            "prevalence": 0.10344827586206896
+        }
+    ],
+    "types": {
+        "Script": 115,
+        "Stylesheet": 12,
+        "Preflight": 15,
+        "Fetch": 21
+    },
+    "nameservers": [
+        "ns-397.awsdns-49.com",
+        "ns-657.awsdns-18.net",
+        "ns-1082.awsdns-07.org",
+        "ns-1581.awsdns-05.co.uk"
+    ]
+}

@@ -1,0 +1,583 @@
+{
+    "domain": "mapmyfitness.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "mapmy-static",
+        "web-api",
+        "challenge-assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mapmyfitness\\.com\\/global\\.2621fb66\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1865d05f2db2258721f27725202ae4a93da01e01a3244c8417382d6f998d4b2f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/main\\.2621fb66\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1865d05f2db2258721f27725202ae4a93da01e01a3244c8417382d6f998d4b2f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/runtime\\.099662c2\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf2ddcb4e8c48c4412ea44b6e64896d88dfb491278234c8fcb3e63dce11250ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/vendor\\.53ea8cb6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.product": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.onLine": 2,
+                "Document.cookie setter": 2,
+                "Document.cookie getter": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "40864b518a69f0748f4cdadbce310dcb966cff5574e823063a85b386ef932104"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "amplitude_cookie_test": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__tld_test__": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "amplitude_testmapmyride.com": {
+                    "ttl": -86398,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "amplitude_id_98619fe2e4419b2a9deb8c0b723916ebmapmyride.com": {
+                    "ttl": 315360002,
+                    "length": 244,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "amplitude_testmapmyrun.com": {
+                    "ttl": -86399,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "amplitude_id_98619fe2e4419b2a9deb8c0b723916ebmapmyrun.com": {
+                    "ttl": 315360001,
+                    "length": 244,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/main\\.f295dbc7\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerWidth": 2,
+                "window.sessionStorage": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8a28c18ca70ed7c3395a1d1fa6b1bd4514f7d5cb8426ecb415a587c6fa9ba765"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "device_id": {
+                    "ttl": 31536002,
+                    "length": 37,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/5482\\.3fd6505b\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0c0805ea8bd9103a6372e37426bbbe9e8a7b572ee5e4e08c4926cc76983be2f0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/pages-home\\.d39a5844\\.chunk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "164cf6992b17f8f23a38ea3ff2a0e71227666e0522d541efb266ff592786d73a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/Outside_logo\\.fdedb7c7\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44198cc40a7abd522cc35a17353dc502dfd67062f6da843981cba164d393f6bf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/PlusJakartaSans\\.db00448b\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f8f65617fab565dc1973ad6633186af0b6732cc386f2f69ae7c37dee10ef7638"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/BarlowCondensed-Bold\\.ccf61282\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2c5ab3ca61e8fc05ca382965bd558b27984c5ffabefa1de2ac886444aff0f5ec"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/flame\\.77310819\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ea78ed82a4685fa58b0090f0d68999d339bf1d6238c70344f71cefad7bf2785"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/didomi_privacy_choices\\.5b1633f0\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9285bc512893a6d121a731203697832d97630c56c52b2a0bcb959aba131c7d26"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/v2\\/challenges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/v2\\/challenges",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9ccf45b52031bd70702871831b126bb676d859ffce696f07cdb8ebf2ab178954"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/Barlow-Regular\\.3a262070\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1aba92cbc3e19417d7c09a72c4e8998540adf1a2d083359053d3f1ebdf7eed24"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/large\\.211fb7da\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d01e07df479738498134e2aa5bf4ab84ec31e094f2be2e74d016dfde8e6c7fe3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/large\\.86a8f951\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2fd0e0b3e2ce7d9f64bed72479874d35ce3fdf0d13d5cd43b83029ec8905d6c1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/2f0ec10a-a9d7-4300-b7b1-1a721eea2feb\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "challenge-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "52389079faea3e6de68399e9ca2cd796a53be85c4a9f094e23042df7b2edc287"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/f121363d-adf2-44ec-ac06-2d76482640f3\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "challenge-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d2579b10a74cfb11f2b967195e6f1da64dbc5b86b9d7289d4daca24c0b77032"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/3df2af99-703a-4143-8115-0c6d61abcd26\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "challenge-assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "35de90d4c29f31ad273b9b95696060f1cc58b4863a44a3a69dcc98969a09e5c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyride.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/asset\\/logo\\.dcc0dab8\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mapmy-static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1392afe13716490a532c6c181f3675d3b25f8c33ce50b18917b68737e69adda7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyrun.com",
+                "www.mapmyrun.com"
+            ]
+        },
+        {
+            "rule": "mapmyfitness\\.com\\/v7\\.2\\/route\\/2964857\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "web-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ece9db338d36b0e17268b72b3ada5c28118ab923222ad0eed1ea10daeecd72b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mapmyrun.com",
+                "www.mapmyrun.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 4,
+        "Script": 10,
+        "Image": 18,
+        "Font": 6,
+        "Preflight": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "rosa.ns.cloudflare.com",
+        "ram.ns.cloudflare.com"
+    ]
+}

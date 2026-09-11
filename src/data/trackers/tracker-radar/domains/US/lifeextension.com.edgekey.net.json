@@ -1,0 +1,60 @@
+{
+    "domain": "lifeextension.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "mycart-api"
+    ],
+    "cnames": [
+        {
+            "original": "mycart-api.lifeextension.com",
+            "resolved": "mycart-api.lifeextension.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "lifeextension\\.com\\.edgekey\\.net\\/api\\/Cart\\/GetTotalNumberOfItemsOnCart",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mycart-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "mycart-api.lifeextension.com",
+                    "resolved": "mycart-api.lifeextension.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cb0ee34739094ce1d530935e207a8828a2f2b5d637949960ee676cc636228d80"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lifeextension.com",
+                "www.lifeextension.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Script": 2
+    },
+    "nameservers": []
+}

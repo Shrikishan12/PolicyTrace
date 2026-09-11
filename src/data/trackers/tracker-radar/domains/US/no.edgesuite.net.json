@@ -1,0 +1,136 @@
+{
+    "domain": "no.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "backup.sumo.tv2",
+        "innlogging.nrk",
+        "static.nrk"
+    ],
+    "cnames": [
+        {
+            "original": "backup.sumo.tv2.no",
+            "resolved": "backup.sumo.tv2.no.edgesuite.net"
+        },
+        {
+            "original": "innlogging.nrk.no",
+            "resolved": "innlogging.nrk.no.edgesuite.net"
+        },
+        {
+            "original": "static.nrk.no",
+            "resolved": "static.nrk.no.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "no\\.edgesuite\\.net\\/ice\\/prod\\/status_web\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "backup.sumo.tv2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "backup.sumo.tv2.no",
+                    "resolved": "backup.sumo.tv2.no.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c54824f9213918d46e3a3b347f86a3994ff74b4a16eccf5afa5f1d4d36fb66d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tv2.no",
+                "play.tv2.no"
+            ]
+        },
+        {
+            "rule": "no\\.edgesuite\\.net\\/nonstandard\\/opsession",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "innlogging.nrk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "innlogging.nrk.no",
+                    "resolved": "innlogging.nrk.no.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "33394d3b657c911e23d9c1dbfdf60357bce84808be0d16dc67356a8838a19a35",
+                "e7a8626d67f0c3cb05354ca2ee675b1f00a1b7819ac4f03560c8c76995f7c444"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nrk.no",
+                "tv.nrk.no",
+                "www.nrk.no"
+            ]
+        },
+        {
+            "rule": "no\\.edgesuite\\.net\\/nrk-sans\\/2\\.1\\.0\\/NRKSans_Variable\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.nrk"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.nrk.no",
+                    "resolved": "static.nrk.no.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "d6dc3ca989cad19896fd1a1364c45d747d50535d1406f073267d985c3a0df85b"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nrk.no",
+                "www.nrk.no"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 3,
+        "Font": 2
+    },
+    "nameservers": []
+}

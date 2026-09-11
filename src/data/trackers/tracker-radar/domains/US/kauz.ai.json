@@ -1,0 +1,128 @@
+{
+    "domain": "kauz.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "ai-platform",
+        "pirobase-imperia"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "kauz\\.ai\\/chat\\/main\\/placeholder\\/placeholder\\.production\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "ai-platform",
+                "pirobase-imperia"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "429c0dfbaf1fcf0e6a78bc9ebbb73aae3f51ee95fb7fd61e8e28ae8c425a426f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duesseldorf.de",
+                "www.stadt-koeln.de"
+            ]
+        },
+        {
+            "rule": "kauz\\.ai\\/chat\\/main\\/assets\\/config\\/config\\.json",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ai-platform",
+                "pirobase-imperia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bfdde406df495e6dfe84069b8c3de617941985ada9d56a1b27fced228df469fd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duesseldorf.de",
+                "www.stadt-koeln.de"
+            ]
+        },
+        {
+            "rule": "kauz\\.ai\\/api\\/v4\\/chat\\/configurations",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ai-platform",
+                "pirobase-imperia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2121bd0cf30a8dd4cdd38e9432148c1d1d97656e1b8da937af7c262573ccc67e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duesseldorf.de",
+                "www.stadt-koeln.de"
+            ]
+        },
+        {
+            "rule": "kauz\\.ai\\/api\\/v4\\/chat\\/configurations",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ai-platform",
+                "pirobase-imperia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duesseldorf.de",
+                "www.stadt-koeln.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "june.ns.cloudflare.com",
+        "pranab.ns.cloudflare.com"
+    ]
+}

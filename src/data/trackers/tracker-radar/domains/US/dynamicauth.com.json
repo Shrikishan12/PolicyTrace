@@ -1,0 +1,75 @@
+{
+    "domain": "dynamicauth.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dynamicauth\\.com\\/api\\/v0\\/sdk\\/176a024c-16f4-49a0-a88a-6862f51a3ba3\\/settings",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e8a744f5ea9c0d7a1192430fcd384379aea1db6d883a2cee002b344f0241099"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nectar.ai",
+                "trynectar.ai"
+            ]
+        },
+        {
+            "rule": "dynamicauth\\.com\\/api\\/v0\\/sdk\\/176a024c-16f4-49a0-a88a-6862f51a3ba3\\/settings",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nectar.ai",
+                "trynectar.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "thea.ns.cloudflare.com",
+        "clayton.ns.cloudflare.com"
+    ]
+}

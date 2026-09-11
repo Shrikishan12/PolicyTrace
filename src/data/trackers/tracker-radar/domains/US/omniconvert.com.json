@@ -1,0 +1,998 @@
+{
+    "domain": "omniconvert.com",
+    "owner": {
+        "name": "Marketizator Friends SRL",
+        "displayName": "Marketizator Friends"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000527,
+    "sites": 77,
+    "subdomains": [
+        "cdn",
+        "app",
+        "cdn-b"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "omniconvert\\.com\\/js\\/y865591\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Document.cookie getter": 1,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.platform": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c626e744589166cee53b4fccf9a3e833d78fb5aa204aab5c18445490beaaa92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36001,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536001,
+                    "length": 729,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "4allpromos.com",
+                "www.4allpromos.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/mktzsave",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 48,
+            "prevalence": 0.000329,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mktz_sess": 0.00027398573904228286,
+                "IR_gbd": 0.000020548930428171212,
+                "mktz_sess_cc": 0.000020548930428171212,
+                "_li_dcdm_c": 0.00003424821738028536,
+                "AwinChannelCookie": 0.000006849643476057072,
+                "cc_mktz_sess": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "www.trailersuperstore.com",
+                "www.mr-s-leather.com",
+                "www.operaballet.nl",
+                "www.jmclaughlin.com",
+                "www.americangolf.co.uk",
+                "www.capitalonecareers.com",
+                "www.boltpharmacy.co.uk",
+                "www.wolfhomeproducts.com",
+                "coxandcox.co.uk",
+                "www.fisherpaykel.com",
+                "www.lelo.com",
+                "www.quincycompressor.com",
+                "quantum-health.com",
+                "merrell.com",
+                "saucony.com",
+                "shop.ford.co.uk",
+                "www.cloudtalk.io",
+                "pertronixbrands.com",
+                "www.fcbanking.com",
+                "www.clopaydoor.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/x29c7ce\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b804086c6394a08ba1390a1fc4579d6cd23fd8c5f7674570b7e51125286fcb4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36002,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536002,
+                    "length": 735,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab": {
+                    "ttl": 31536002,
+                    "length": 6,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chacos.com",
+                "www.chacos.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/api\\/visitor\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 20,
+            "prevalence": 0.000137,
+            "cnames": [],
+            "responseHashes": [
+                "3981e6e90328dd8b9f496805e8fd27eab7ae5a21c7fcde7b7a97f1068fe49b32",
+                "183ad793fe0e4b7c96557fd5ac49efa58a6f71625490ca09fe44caf7d130e044",
+                "e2012100dd9d40135a0d942b8307a790eaac20d80125b1d409e75c36e48ea95d",
+                "87ba4d54577f1df8e697f22fa833628d0a413c1fe40c65714bb7da029acfb36a",
+                "a09ec81165929ceba4766204741a892ec2b7792f1cf20d195de3eafc88e6c65f",
+                "c920aeb30ad80d12cae2a5ed2bdd16566d0202426e7dcda40b6ed858406accc9",
+                "3820bce3bb9871ac1218459127141740ce216dc4819d338cae838be6a8249f99",
+                "2f138b141786d49587c3ba6e6ee2e2483ed741bbd7ee4005becf93ba09d73cc6",
+                "1458962b09763c97ba0bdda6e8c79059850515597b9ad8137ecf3a84d0eefe0b",
+                "e30ba8a87b4774e1cb7283399650fecb09585fcb55ec983e3dad452b9b1943f0",
+                "d421edb9a37d781f98f67093ad2ff144343e244270eac21d79a458c688dace88",
+                "3e42d5f4304ad25c1b1e95e2da737e8b80945946ffa5272a908746769905c9d1",
+                "6609609ad2079845f739474e9dbc2e0d4aa5923476e63e5a5137e70ac7184f40",
+                "8914376fd885a6d21c3eb7897e48f438db78004bbb75d9f8e63f20ebc1a4eef7",
+                "6d18b821670f0066172cdc700b12b76d75c466744618480c5a6666e324f08a8d",
+                "82751247542f94881b1bd88dd2887a54d053673fc8ae1c695fbc626b8b7d6ce7",
+                "b2078c157cb584719ac5aaaf9d5ed2c37f8a5c967f8d4fcbe40422cc81098516",
+                "1ee462e78e14819dd327bb921bc31b8e60708ca706358d6d2549b2b3d7bf6a19",
+                "2233df8ad970c4ec55f1f6e49a02f0664bf838bd2f63cc3f39c08b3c8485e4b8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mktz_sess": 0.00011644393909297021,
+                "mktz_sess_cc": 0.000020548930428171212,
+                "_li_dcdm_c": 0.00003424821738028536,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "chacos.com",
+                "deltafaucet.com",
+                "diamondbackcovers.com",
+                "glofiber.com",
+                "kardia.com",
+                "merrell.com",
+                "nextbase.co.uk",
+                "saucony.com",
+                "shop.ford.co.uk",
+                "www.americangolf.co.uk",
+                "www.boltpharmacy.co.uk",
+                "www.chacos.com",
+                "www.deltafaucet.com",
+                "www.jmclaughlin.com",
+                "www.lelo.com",
+                "www.merrell.com",
+                "www.morfurniture.com",
+                "www.saucony.com",
+                "www.stmarytx.edu",
+                "www.zoleo.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/q553a22\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-b"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1bc592f3bcb0da71ab04a44058420b094979dad781805a04515f2bfb1b7f6513"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36002,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536018,
+                    "length": 833,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab": {
+                    "ttl": 31536018,
+                    "length": 196,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_temp_53894": {
+                    "ttl": 36018,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deltafaucet.com",
+                "www.deltafaucet.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/dist\\/wpod\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "afb014e0cc05befc546afffa54103843a5c5d6256a6b9459cc856a63ffb25b87"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingscamo.com",
+                "quantum-health.com",
+                "www.plumbingsupplyandmore.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/api\\/shopify-experiments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingscamo.com",
+                "pertronixbrands.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/api\\/shopify-experiments",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "860d6b771c56de1f616905fae8d0ba682d4b20e3fd4751589364dc7f0ef0231d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingscamo.com",
+                "pertronixbrands.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/h366113\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d09f18574752631e4265242d132a36619847d204141e75ed6e7aa37e17c0ab03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36001,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536002,
+                    "length": 759,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_engagement": {
+                    "ttl": 3602,
+                    "length": 194,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab": {
+                    "ttl": 31536002,
+                    "length": 59,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "merrell.com",
+                "www.merrell.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/o74b571\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3e6f7509d5894a49b457a5c2e303b69721ba7a775163889e3d4269a65547237"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36002,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536004,
+                    "length": 807,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_engagement": {
+                    "ttl": 3604,
+                    "length": 576,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab": {
+                    "ttl": 31536004,
+                    "length": 171,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saucony.com",
+                "www.saucony.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/q10950e\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/v6ab6ff\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2cf3bbe14f3c4a9ac8c96a58862f506d58a5e0613557ba1c9a3fc6b0638c8ff5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess_cc": {
+                    "ttl": 36000,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client_cc": {
+                    "ttl": 31536001,
+                    "length": 772,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab_cc": {
+                    "ttl": 31536001,
+                    "length": 59,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boltpharmacy.co.uk",
+                "www.boltpharmacy.co.uk"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/tbc42c7\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0beee89c249516ce6c69d2ed4eaefb1e10319233a73f7b664649de0587a81ded"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36002,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536002,
+                    "length": 742,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "capitalonecareers.com",
+                "www.capitalonecareers.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/lb88c92\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9aeaa14006bd5b1815aaaac9c26d4cc2967152f2c4251ca88361e10b12703995"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36002,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536002,
+                    "length": 765,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clopaydoor.com",
+                "www.clopaydoor.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/c8da60d\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a424f0a1c17720b49f4c19a66eea4f4f29befd76664d085ea9270bd0d72e8e3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36000,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536000,
+                    "length": 753,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cloudtalk.io",
+                "www.cloudtalk.io"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/qb2521a\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.language": 1,
+                "Screen.prototype.width": 1,
+                "Screen.prototype.height": 1,
+                "Document.cookie getter": 1,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 1,
+                "Navigator.prototype.platform": 1,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b63f6c94ed53450ac549b5fd77d172956fd50d56e9bcc727620d2c47c8723753"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36000,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536000,
+                    "length": 759,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "foliosociety.com",
+                "www.foliosociety.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/ra084df\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f7654fea4128898e709eea30f6de74ccf8761fed606ed9b2a773ff6d949524b5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36005,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536005,
+                    "length": 750,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "janieandjack.com",
+                "www.janieandjack.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/v997799\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2,
+                "Navigator.prototype.connection": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47a07921db32ac0a1a7440561a80459ec5bfe391e0c4ef2bdb169eb80d8f39d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess_cc": {
+                    "ttl": 36004,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client_cc": {
+                    "ttl": 31536004,
+                    "length": 742,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_ab_cc": {
+                    "ttl": 31536005,
+                    "length": 6,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jmclaughlin.com",
+                "www.jmclaughlin.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/u4844a6\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cf4cf6da11473c26ea8e413ecae33c30e59cc930ecc978ff317d1b5e8abf1ced"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36000,
+                    "length": 30,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536000,
+                    "length": 771,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "plumbingsupplyandmore.com",
+                "www.plumbingsupplyandmore.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/ufd2cb9\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "effcaf5d7d9fccc52fdaef03dd07faea04a54736662377f275b6a427041616cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36001,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "mktz_client": {
+                    "ttl": 31536008,
+                    "length": 743,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shentel.com",
+                "www.shentel.com"
+            ]
+        },
+        {
+            "rule": "omniconvert\\.com\\/js\\/r689589\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.platform": 2,
+                "Date.prototype.getTimezoneOffset": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f6c1e67f71d03db3109d982ac83375e96268662ceeb18078cf7fe2ff6f5b868"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mktz_sess": {
+                    "ttl": 36001,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "mktz_client": {
+                    "ttl": 31536001,
+                    "length": 755,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "trailersuperstore.com",
+                "www.trailersuperstore.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8921568627450981
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.0196078431372549
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.00980392156862745
+        }
+    ],
+    "types": {
+        "Script": 32,
+        "Ping": 48,
+        "XHR": 20,
+        "Stylesheet": 3,
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-1647.awsdns-13.co.uk",
+        "ns-417.awsdns-52.com",
+        "ns-1355.awsdns-41.org",
+        "ns-970.awsdns-57.net"
+    ]
+}

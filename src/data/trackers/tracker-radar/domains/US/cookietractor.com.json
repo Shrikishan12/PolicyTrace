@@ -1,0 +1,96 @@
+{
+    "domain": "cookietractor.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "cdn",
+        "cdn-eu"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "cookietractor\\.com\\/cookietractor\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn",
+                "cdn-eu"
+            ],
+            "apis": {
+                "Document.cookie getter": 11,
+                "Navigator.prototype.userAgent": 11,
+                "NavigatorUAData.prototype.brands": 11,
+                "Element.prototype.getClientRects": 10
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "d2b8f4a6fda5617672023662d371933384327640934397bc1c97f3f1d00cd094"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wallism.com",
+                "www.folkuniversitetet.se",
+                "www.fxairguns.com",
+                "www.lansfast.se",
+                "www.liseberg.se",
+                "www.proffsmagasinet.se",
+                "www.regeringen.se",
+                "www.slojd-detaljer.com",
+                "www.stockholmvattenochavfall.se",
+                "www.visitstockholm.se",
+                "www.visitstockholm.com"
+            ]
+        },
+        {
+            "rule": "cookietractor\\.com\\/ext\\/1fdf6924-b2bd-47dd-b4ee-dd1f4287689a\\/www\\.lansfast\\.se\\/sv-SE\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-eu"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2047ca3a747bb5133edf671aa1ce271954a9272e9161c8e5e22c5a51cc9fde31"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lansfast.se",
+                "www.lansfast.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9285714285714286
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.07142857142857142
+        }
+    ],
+    "types": {
+        "Script": 13
+    },
+    "nameservers": [
+        "marek.ns.cloudflare.com",
+        "jen.ns.cloudflare.com"
+    ]
+}

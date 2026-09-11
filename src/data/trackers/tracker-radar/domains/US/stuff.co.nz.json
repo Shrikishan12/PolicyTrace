@@ -1,0 +1,61 @@
+{
+    "domain": "stuff.co.nz",
+    "owner": {
+        "name": "STUFF LIMITED",
+        "displayName": "STUFF"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "assets.news"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stuff\\.co\\.nz\\/feature-flags\\/feature-flag\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets.news"
+            ],
+            "apis": {
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7cbae17710e2580487ed4ea440d1efb4f9415e6c4f0da8afa9de0c1373e6866a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thepost.co.nz",
+                "www.thepress.co.nz"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2
+    },
+    "nameservers": [
+        "ns-626.awsdns-14.net",
+        "ns-1037.awsdns-01.org",
+        "ns-1935.awsdns-49.co.uk",
+        "ns-317.awsdns-39.com"
+    ]
+}

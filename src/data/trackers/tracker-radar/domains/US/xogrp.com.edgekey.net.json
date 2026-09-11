@@ -1,0 +1,70 @@
+{
+    "domain": "xogrp.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "geo-api"
+    ],
+    "cnames": [
+        {
+            "original": "geo-api.xogrp.com",
+            "resolved": "geo-api.xogrp.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "xogrp\\.com\\.edgekey\\.net\\/geo\\/ip",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "geo-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "geo-api.xogrp.com",
+                    "resolved": "geo-api.xogrp.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dee202211fefe2a2137c6c4fc8174abc78e1b719d00e62c056adbc57aa0f9137"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theknot.com",
+                "www.theknot.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9876543209876543
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.012345679012345678
+        }
+    ],
+    "types": {
+        "Fetch": 2
+    },
+    "nameservers": []
+}

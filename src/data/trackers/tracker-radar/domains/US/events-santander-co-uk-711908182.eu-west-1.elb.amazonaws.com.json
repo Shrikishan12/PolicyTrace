@@ -1,0 +1,83 @@
+{
+    "domain": "events-santander-co-uk-711908182.eu-west-1.elb.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "events.santander.co.uk",
+            "resolved": "events-santander-co-uk-711908182.eu-west-1.elb.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "events-santander-co-uk-711908182\\.eu-west-1\\.elb\\.amazonaws\\.com\\/96366421\\/pack\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "events.santander.co.uk",
+                    "resolved": "events-santander-co-uk-711908182.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "1d131ceee582b2a6e66cfd656cddfa395e769757c03ff147567b68d77e5a1cd7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "santander.co.uk",
+                "retail.santander.co.uk"
+            ]
+        },
+        {
+            "rule": "events-santander-co-uk-711908182\\.eu-west-1\\.elb\\.amazonaws\\.com\\/query\\/1\\/2bjzf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "events.santander.co.uk",
+                    "resolved": "events-santander-co-uk-711908182.eu-west-1.elb.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "03092fee45e2b0dac45ee654e2b0f9218ead3d7e04bc5a5188dfa50789f50755"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "santander.co.uk",
+                "retail.santander.co.uk"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

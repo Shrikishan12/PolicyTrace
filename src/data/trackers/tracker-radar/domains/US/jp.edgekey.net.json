@@ -1,0 +1,4656 @@
+{
+    "domain": "jp.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000253,
+    "sites": 37,
+    "subdomains": [
+        "ec-plus.panasonic",
+        "any2.r10s",
+        "cdn.weblio",
+        "manabi-contents.benesse.ne",
+        "manabi-contents-t.benesse.ne",
+        "cdn.mandarake.co",
+        "nhk.or"
+    ],
+    "cnames": [
+        {
+            "original": "api.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        },
+        {
+            "original": "apps.nhk.or.jp",
+            "resolved": "nhk.or.jp.edgekey.net"
+        },
+        {
+            "original": "cdn.weblio.jp",
+            "resolved": "cdn.weblio.jp.edgekey.net"
+        },
+        {
+            "original": "ec-plus.panasonic.jp",
+            "resolved": "ec-plus.panasonic.jp.edgekey.net"
+        },
+        {
+            "original": "gettime.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        },
+        {
+            "original": "ias.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        },
+        {
+            "original": "location.nhk.or.jp",
+            "resolved": "nhk.or.jp.edgekey.net"
+        },
+        {
+            "original": "manabi-contents-t.benesse.ne.jp",
+            "resolved": "manabi-contents-t.benesse.ne.jp.edgekey.net"
+        },
+        {
+            "original": "manabi-contents.benesse.ne.jp",
+            "resolved": "manabi-contents.benesse.ne.jp.edgekey.net"
+        },
+        {
+            "original": "recipe.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        },
+        {
+            "original": "tools.mandarake.co.jp",
+            "resolved": "cdn.mandarake.co.jp.edgekey.net"
+        },
+        {
+            "original": "trv.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        },
+        {
+            "original": "trvimg.r10s.jp",
+            "resolved": "any2.r10s.jp.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "jp\\.edgekey\\.net\\/store\\/ap\\/storeaez\\/a2A\\/parts\\.GetEncId@get",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ec-plus.panasonic"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ec-plus.panasonic.jp",
+                    "resolved": "ec-plus.panasonic.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1f7ba5bf3c3c94c684a20bbf7e4b250bf96dded467328b2c018091be356fddd0"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "panasonic.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/gettime",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gettime.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9a37e9f4b0eaebb01c2fd1bd5499ba8afe974358d492408ac03a763456cdbf03"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "books.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/lib\\/jquery\\.min-1\\.4\\.4\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a6e63aad6c07ab6135e3236cd938dc46ee3bc6752501a3a3231e886f731e07ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/fix_form_box\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "54318ba623ed6dd73debd80c2a3f789bb7d2c956adf30a88da3f01d8317930e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/iconFxFmOn\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8fc54fd902aec4d8133faa3d959f43ffbb24c1974948538cd0e4974a3ec27745"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/spacer\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/avatar\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9960272d45999c990fe49b949caacf9f0f35bf0846d402f93fec4c260ae965c8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/icon_checkbox\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e9f0ae753b3fcbfba630ec4de1d3e97050ef2d431f0f64caf7aadcc16d715227"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/icon_free_register_pc_button\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e980d12a52a2780175201a7d6b5be0e142fba6f90b29fe19b25e1da76c0d3d91"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/free_or_premium_registration_cookie\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3c847a7fbdb1d57f90c80cc37d534ec47e2d47685ce631dac29df8ffac172c53"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp",
+                "thesaurus.weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/html5_audio\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "70165cafcfdd14fef8db0ce0668f038094a59c03476a29ad0b454beca6d5bdcc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/iconBLB\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f9ab33e6ecdc96d12a8d4ab4f6bca83dec2a42f1f2f8ffe511dd157d56f24b69"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/FmCancel\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8967d52873c4552033a42064e38a91495d29b424a97ed1f94ba7801a33821834"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "thesaurus.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4550238ae24fd04440815224d46024d11c1219b3ca95127e6197cd0e5c820efc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/turbo_off\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cdab55319fdd5f1db80011805df3b255d9ef5aad08c2d963b75144241daad3b1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/computer\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f859c59b699064a51abcd700cf5febab77d92ca8299d84db8b90393e59e32d35"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/howto\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0a67e235ade0e61f023ea8190dbf0564b0e15120d620f5aa4a5423c1c22c3ccb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/premium-badge\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8aa96cd8f11db9d9c9c4676fba6cfd40145db87c7a9db96de35b28f68ca7df06"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/login\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e988f2a5d7d5a090daa85e453784da20b3f4cdc7150cdcf38620b0cadd81963b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/gear-arrow\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "74f4e84bedb7435d9a92d904147892b04245e97be60398d1c52fd7b8957ee591"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/magnify\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bd7edd19979e2d9e71ce8e354d2b639998ed51cdce8fa0d43de021323605f983"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/history-clock-button\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ef196a273b082f4bd72b625aabb57828321fccfa6f25af09cc1d88a1da4f7d3b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/reg_balloon_right\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "678dc969f9500ee2705a7749c177b017656e11309b42c0d0e15759420c8a2563"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/note_pc\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9184f477ba79e08ffd072d7a53e26c49611a5055bce6832bd40aa44358647048"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/banner\\/free-button\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "05da6489e60cacbae31ce14913d5b279164f4fcd233271732504cd133e09eee4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/arrow_gray\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fa97524a204ac34944e349fbfc6f3a2b22a597312570f9c6d5a60485c883d208"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/userinfo-premium-service-button\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8e193a278c73386a523022ed541821a03cc58fe8ebffa5129d8ad0670bc0cad0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/banner\\/history\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f435b142bc647c3a22a104f9aa112eb1433ddbce58f5be5fc6764973e5367403"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/banner\\/vocab\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7519371163524da52d36d9687decd35ad226c0d88f2e20734f008c580037367e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "ejje.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/clientinfo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "api.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bae4d71ec5cd2c101f09e1e846493881f29301f231bcfa344afe14ca95538723",
+                "d10c45855e5666ca42af6128f505fb95531e2f883bb2467acb94990ef65b0812"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "item.rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "gettime.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e6f246ef179dc4ed3fb7ba0af1ceb0d3674f710f9be62fc7da3561a580e64b87",
+                "b459d47477ce64d91b701fecc304fb0d9d89aa926232e3e88adadbfbe047a849"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "item.rakuten.co.jp",
+                "ranking.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/grp15\\/common\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "item.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/grp15\\/rtm\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3922ef1ad4b894ac4225de6a39d49860c6f8146cc77260bc8463bd6c768dfc99"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853625\\/1-1-1\\/a8266592f2f4d3ac9c14581d6842f4c5\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f3ceccad2850ac3cda6ddf23201ce2aa2f08dd89ef245c09a204c8ecb5a67dcd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853531\\/1-1-1\\/652402644111f68ba4910ca94395fd35\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f564111405d9d42aceae60f27523f88182b96b7764d2746b324e9674b8304406"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853629\\/1-1-1\\/e27b8fb1013332a4c0080e5c49c6d345\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0451ec99187e631fcd120282d271e0b59389f6d8db42a14849bb4d05f3932c96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853547\\/1-1-1\\/9440b045eae62f7e76ac169e09e8d333\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4496530fcfcd839f962499fea4e3b66179fe3410d1eae742532f135d5d859e5b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853603\\/1-1-1\\/63cb327f0038b219aa359d8d239e40cc\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "aef4a51da4b21eb760ac1b8b2274b76dcc1a5efcbdd2f8b6bea2bd08e5c193dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853525\\/1-1-1\\/eaeb6b84aeba67954d27087268b559bc\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f95bc84ffee92de6f50c924162536ad19e592708b4d38b4aa47c43656857dc2f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853577\\/1-1-1\\/940ddbdb98673034f741d4c83f67f790\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b54bd24887972abd7948ee734e141dd11f7401b5a717228991de0270db8b7702"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853631\\/1-1-1\\/ceab3e071f12eada78b170e2535e63a4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "541a346ed141b57be83647121b51b2c8d081ee1fcc11721c3fc3c0709bf471be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853553\\/1-1-1\\/0336af5ffd883cd743d285f956f24113\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "32aefab9bdf8703c86e5bb00ea917d9b174577bce3b3d10d19ae3a5f66ab50bd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853649\\/1-1-1\\/77f3406ad1b35892899b94197537aa79\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6eeca1a36f1631624d9b5f7f80784eb33148721185f90d9249c72a1ca6e11be9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853653\\/1-1-1\\/5332b8e3d4a2d00a9155b31579fb0549\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7874a71ab466988838418f8c11839d70f8bd1fbd90c9fe59602bda87830871c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853589\\/1-1-1\\/0e8bb10851d3222d4ea8e8dfff9c8afa\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "18b2b43977562860d24da955ea932bf0878603406b907fdad0274b1c5bb9e76f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853541\\/1-1-1\\/acaf37c06be859e431054b0f053cc616\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1760290161d0b66a5a069d0129d7d1f6ceb9c79281accc64bf52d67b4e0a33f6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853579\\/1-1-1\\/9e32d625507f8eb0ffa1d36108af5777\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6ee4f2aaf9350fcfcff93a7bdd3a6ed34453bd42bc4580d074bab9aa566f4382"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853627\\/1-1-1\\/a6a3d1199d34b9b711e6d850e04dc2bb\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c8cf020217daf9fd025fb501bc7d524d542c20edd1ac92e5d29f02f020515eea"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853523\\/1-1-1\\/f7d8f8d00a1cc479ae44e5960f87ef25\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1f419d6aa24a7c0f8ec3976e8097cdb0746d96f699ced7451004a1025ce41795"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853549\\/1-1-1\\/c12111798b20c93a8f910163c3855064\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "230467e0824f107f33cbf5129a775dfd472d9edf8ed54c08294ea7dbf5b6e36a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853571\\/1-1-1\\/98f5fca7de27cf55841f69ae3a08be5b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ca289bf7edb32627135dd183c79d97ec968a9b3c0ddfa8f250b93d8a53d88401"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853619\\/1-1-1\\/96725fe85de8f6481b20fb0935394ced\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7f593fd512147a40e9cffce20a5b4112156b817930bbaccc6d169ba131a59c2f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/480477\\/25388253\\/1-1-1\\/14a88d2947bf35ea08a15dd67002ff0c\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "550a58da911f94283381614cdc1e94d12abeef74671aeb5cc3b5247832ab0f19"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/424329\\/25332819\\/1-1-1\\/d600908d7e955001e7ddac2ed1852629\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "748f076fb380419c9da050bbbd2950dc0a80451374e194dffea67745522b498b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/41018\\/25451907\\/1-1-1\\/235d01506f6c4bd84cf3f6dac75d656c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1516ffb0661210e260cf1abd99c5a978f28b0e1949eda5e5356b7cdae6a17d8c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/25476\\/25269383\\/1-1-1\\/0edb7a262c4d49a10c13a4705956b20f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8f8983f1f2975c19c20d0d609af124b13fcdb4eaf60452790bce5c587042b2d4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/42461\\/25322187\\/1-1-1\\/f919b0f77fd099e3253f8dd0bf1a36c3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7b944957e7f8e8905abcdb3f80806c0dee3ea0bf5836a4d0a589ef123a18714d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/257154\\/25291041\\/1-1-1\\/942c0d529376a13487d987d9811f2819\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0bd6173e9af2122950a1bde74bfc701edd6fb1c9c75645b1e0e7582ac214c802"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/389105\\/25337525\\/1-1-1\\/ac171c861a5cc5d049cba1591a0e0b6e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c64b6ef5069529bae490d6194a24015d61a5b488225260a9e4cc47705b9830d9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/454533\\/25337499\\/1-1-1\\/563d7f41e84f08d11b210d1a91f7d8da\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9a7e068633fb47623c885aeec973307731d6eb2a0c38ea6485f6b3688f2325cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/12982\\/25350801\\/1-1-1\\/2a955894baca87c0166aa2b1dc1b8905\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7aa4172124e3327ae5b0141d81637e6410734b4f0b8b99fa67e825d517f5f141"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/442173\\/25382385\\/1-1-1\\/5e89be31fb6e177911967d00265e8fd8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "95ff12772159feea9fffeef62776be8bdff08a866b8a485af006e2df7b21973e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/188948\\/25317887\\/1-1-1\\/aff8247c48466f5e3b0f13553d753604\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f3d0f4cfddcaa7e1e25b65a3f580d599c07f1d8af42d97826dbbcfdaaef6c094"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25252781\\/1-1-1\\/451006ea0e135506724e0317323a6ca6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9f4a29f74a2d727fb927265ac5fadbf40a5088ce9728a02f0925d5e50380c848"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/248797\\/25321289\\/1-1-1\\/3beb4b7eed276ebe0f40293851607015\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b4cbcc24655239a6c5e54da4b002cd915ed0c37d844b56ae7eb9cc1c8ecfb322"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/349789\\/25151817\\/1-1-1\\/f979232ad93583411bcdc1bb0a6423b4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "19ee6518a492ac4b0481352ce307bafd00c8e30ca08ae53ab223857fd95a02f4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/256987\\/25203383\\/1-1-1\\/79cf1644a1f32e86c185e9889f1d41c7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "31baf49d616e6bff8bc4f9ff305bd207f25ab854e861dcc05720a59b11a80407"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/168076\\/25322773\\/1-1-1\\/763983aa12f078be63ebea5ffe17ae27\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "97b317a9bf46ae5c0e7e50741a42aea2212a2de42136c48166727f5988c1fe7e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/229643\\/25154677\\/1-1-1\\/130dec8a7813bacebf5de66a4f4fa68e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "78558399dee92865bc5990e741278433121dfd7287c51894db197532d8ce518e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/164697\\/25155961\\/2-1-1\\/995fcfb25104bba23b16ebdab26dd99c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2d65ea11c20a568f8a36f8e8fa5730b2ebdaa03f773d40df5468072be4f2bc01"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/148640\\/25147441\\/1-1-1\\/a4514396e34d9d3c314d65cd8b13288e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "f831ef91bf33d3889ff35b6b128ffb90893200aa6d929775d0b59677d7451bfe"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/30296\\/25146893\\/1-1-1\\/7bab7dfdbc346819eee4fba091f18f84\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b8d905c815dcb2a77104bc950112b05319db9a360434d03ad410b7a284c2d070"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/30296\\/25146893\\/2-1-1\\/9588404559f925c2da1c4f9db6d3883b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d195b84280ce92876f96a1cfd4d082c99a7644330cae2f432fcb304bedf7b24a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/407361\\/25321291\\/1-1-1\\/1b679ecd233dfdbc6900f905c7a12d3c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d8fa315a087eb0dbda1ded65afc63f466fa7fc439a2ec525bbd09f17f8f4aa7f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25253133\\/1-1-1\\/0101be8cab39ab86f3e69b5591f385de\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d4abdca914795c4929c053b72d9346e290bd3d1ba4ade9e1907879619aa0e264"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25252869\\/1-1-1\\/1e10e134f48248f2b09fdfa42c422348\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a90adee874d1125fdfd6197d9c538732a8fb26f1132c300259af9b6f90645bf5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/348187\\/25174725\\/1-1-1\\/4669f38455435f9caa1dc47af071dbc4\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "04054888c1f0e6e9cc51d84a77af286096af2d7fed5a189203d1207ecaa2b7c2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/164697\\/25155961\\/1-1-1\\/1a552c6902eef047b0b028bc357c5a5b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6748de475fe3e3c8165ece9dce21d68a155c10f59c3a1bda361798e00a926c64"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/441593\\/25313943\\/1-1-1\\/43e5a8e6b16339408bcd12558b9b5c8b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "502e830060f1cbaa6646b6c050930dbb99e0a5fa912a300cf439b9fdac1a8799"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/286162\\/25147393\\/1-1-1\\/5ba431d527f513aee89b8faf20605080\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c082cb2e5014d45edde73f00a129e42b593916ba499063323d739729a526c5f9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/164697\\/25155961\\/3-1-1\\/61902248578d6069f38166c743682349\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bde0963db690b7f597d38116444a65bbeafc1968026ce517483a5776e65b2fa2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25321763\\/1-1-1\\/258de7c2ffcb04d3a34c39ae6590baac\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a1a1619d957481301a9bfeb71055e1e8baa339d0de0e7602a72bc7a105fda164"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/358429\\/25277617\\/1-1-1\\/437f36bd043ebcb20b31ade3f023af70\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "584382303ff3a294e5539809c4de0847b4233c097ca1a990c09e7db2f8886f00"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/286162\\/25147393\\/4-1-1\\/241b383c5a46eec4c47003737c167df8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2cc73d393792006f49121535e041ea2d5e4f8a238293089b7cbc0887b32b1e88"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/168076\\/25322769\\/1-1-1\\/7aa3224b3abf677ec7c8f5101824b241\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5a2231f4910a67cdb64f62863d441670714c6209ba93e5f023bb556fa85cd1ed"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25321747\\/1-1-1\\/0e450ccefd4a6b7e9fb41e232071a235\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d2c05c5592e5f0db953e538234b4a2d3816864640385770684ca71b7480ec191"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/286162\\/25147393\\/3-1-1\\/4b70fbe367f93a0cc8f5b3592b908189\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1d62137d018c438eb352abebff8b0bdef188183e232ed8b2cda97bcf00985440"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/168076\\/25322771\\/1-1-1\\/b0363daf1176fa3e199a531aad4cd571\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "98fad5be84f3c15bab60542eb6a6f1f1fa8482a5280e25dd1777a3029b969884"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/286162\\/25147393\\/2-1-1\\/e63574e9ad21cdefc896d0fa494096af\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7187bc00c7fc2c72cf21bb6051209abe53022a341e421f1a65e250afda180781"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/317929\\/25166217\\/1-1-1\\/0f43ba27627e955f5aeffa23ba671bfc\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b40f55a809f672971ae57b69666ce9b62ad858d9f99587d155809ab95cb32007"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/349789\\/25151817\\/2-1-1\\/97a783566f11a7c4ab268c841b481bfc\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e72c64b2dffb4d4b1cf84e2cefb99a0fa9523e87d7ed9f3265c1ce1261841717"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/449065\\/25252977\\/1-1-1\\/4ef5dfa3a2b1f761f6ebc24107c92862\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2114728f7acbb403ce610e27531b36fe15cc8b8cc0993d0a92f7e28bfab86557"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/340091\\/25407553\\/1-1-1\\/358aa17049c7abde974ea8a2e8a21405\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cf95141acdb3db9b93914c0c54c530718ee56598ae1b47b61221c839edbf0f9f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/340091\\/25407553\\/1-1-1\\/3d2f12f64ed5efbabe27af60dabc292f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0eebc02ef078bdbbb09e96a9fc690ff9af226b7651186aede7a969723b2c2460"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/421607\\/25423473\\/1-1-1\\/faf8547bc575050aea2d05b2e5ea2d38\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c72950dde853c7c59618ac63bc5c0837d1aba75aea5bb6e58180bec3c9836471"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/421607\\/25423473\\/1-1-1\\/f4c151595e05f907b0074116f1ecfca3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "66143006491bd9b631a56828cba7a6491c165e78781aa9cae8e6c9d45eae1c76"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/392225\\/25423481\\/1-1-1\\/86c31856f22d0cecd25b140618f7259d\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b7c60cb692f3825bef77c52a31327b56daa6485605a10f4551bd07034ef295dd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/392225\\/25423481\\/1-1-1\\/7129e3d46e092e0d80f5f039b4f91d1e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "db78abdb5d1ab522d7b2418c6195898b2f2ad7d088026602a43f2adaac4c48e9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/397103\\/25441603\\/1-1-1\\/07429bc508f78c3ebbdbc1b2f9e8d641\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "52f1c5326e7ab40714b841cfc9cc31ada5f08f22de0cf2829f8ce5472ba9856f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/397103\\/25441603\\/1-1-1\\/7e94df423dcacb51a716fc74c23ae0c2\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fc22e513b28dcd2e19f6c1b6d15f5f602b1e63947e1a9a6617c8dc230d247367"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/411061\\/25407559\\/1-1-1\\/8bbd4bfe72c02db5d47c0440ece95795\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e1aff7a9b908650fa384a9aad2583cbaa75e09868d4cb37ea16905e1fecfa048"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/411061\\/25407559\\/1-1-1\\/98f9e7e3f1fe4adf05bf709b9a47854e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2055dd0f75f99167406f1723c433d378f6ccb7edcfe5cb1524fb6dc8a3a5a43d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/348187\\/25441601\\/1-1-1\\/ebcbfba12100fc4c64dfd313f728646d\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b73384a3d8a91723e6d5597f9a1fe6fbe48639b973d5f11f6ecb01120a3b3bb2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/348187\\/25441601\\/1-1-1\\/f1d9e3d7b57eef001ba5038d724ee970\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "b639683e0432f826adbb50ebba39abbf7757abd4512e355801ac6f33adb45181"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/151719\\/25441607\\/1-1-1\\/5f541a06cf98e615041149bd07df200e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "a7232ec33105d5426d99a456a49f8d38856fdc2f7774e4e18d50ccb3ce5d6eac"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/151719\\/25441607\\/1-1-1\\/1aa4529694ea001f719e9e7424cd2742\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8483708658863fb2e6ade6ee9ccf9b2298c094efbe2fb3cc01c2e52db4eb7ea7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/417691\\/25407541\\/1-1-1\\/ff13a91cbc1c905e33cca551ae611a75\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "92461de86809178ed885b51c5a3716c90898ef09cc54f8409b8b88bea20e45d4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/417691\\/25407541\\/1-1-1\\/a6dc15f9b801c72f9cec81de11988cb1\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0c5dd2a780f104f3dec4e79922ba5bd864e828aae5c8a28fe1c15854fa464ebc"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/394583\\/25441609\\/1-1-1\\/7bc991a8326d1889452f24d909a9c904\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d4a6c59f8fd0672dda07e1de2587eea5b79e665176d0d2eaac0a566c266658be"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/394583\\/25441609\\/1-1-1\\/9e1f579558315eba0d57a328fdbbe964\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ce9cd846f1f7bf6f3ffec896a1e73dbac7cc8ea1da08f2ee8bfe39d68b6984cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/380271\\/25407551\\/1-1-1\\/da799431720ab9581a2403eb84166923\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d3853b3143b7ef635e1e311c829b3e66b39028a044b3abc4204a43d910b9bcd1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/380271\\/25407551\\/1-1-1\\/d9c5486d236a1675c79dae03ef3cd058\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "baff5a61c670fb55181bb4d788e24aad1314a12457e6cdaba8dd7986123da383"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/166568\\/25407545\\/1-1-1\\/582d14ecd386203072dec2cb37c4e6c9\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "abb8bc72e27800d4ed94b2af4a5958c79474e375c1dd5f56351b37e843ec9c6a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/166568\\/25407545\\/1-1-1\\/308b5062ded9685cbf70595db1a7f700\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7303910876cc3bba23d85654f0d2c4f5c28c98fe6e27e494cf8fc3fcd1cea297"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/221038\\/25407563\\/1-1-1\\/21d743defa3ec884f69c83eedef205ca\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6ed5d0c5b238d0690488d20a93a9f7bcd89627a46f85419f3460e494bbb8acf0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/221038\\/25407563\\/1-1-1\\/39aa1b15c0aac9b1cb658d4eb79e7543\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "aad403dd342b9b8881690ba7de755383772508c9c2c95cef4c3f64871a11ca52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423479\\/1-1-1\\/48411fedeb604e69a436bb4cd87b6d18\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d369a60061ebea2543ef7d5b4d5166faa593f3ae65a91a3247f7d3c1e2d978cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423479\\/1-1-1\\/f609cad4119bb088dca29a2ed5482c5c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1bf74d999519b11f87d6a0c9d7fdf2cd89d03c5fcee8df7c86a89f2386fd2424"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/300994\\/25423465\\/1-1-1\\/58de24912407ac2dffe9c809229136f5\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "be9324296b42e162b47908abdcc6426730ab5fb851aa0af43c49844f0a5bc688"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/300994\\/25423465\\/1-1-1\\/cb35d98d7d5abcc35a8a8e948fbac863\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "70ec041ef28360864d50a522af718affcafcd4fc934a364b4a7bcf2cdf04fb8e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/348187\\/25441605\\/1-1-1\\/3070cbf5ac1b612cdf45ce28c281a493\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4a60823bd16a7a0a92f18532052176395f27c94aeedb277f8cf3ee862eddeaf3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/348187\\/25441605\\/1-1-1\\/ee13bd38cf0f16d6ccba98cfda5cfd74\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0903e6d5a84aa274b32828c22666afb04c96c39ca26ad285e4965a47c63e13e9"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423475\\/1-1-1\\/38282e2e0c5eb87a1b3fe1bc753e9e6f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dbc5c1c8a220abe185a11a5efa3264df4142f5796528ec7da35c1d8aa99a1a52"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423475\\/1-1-1\\/f6d3486ee8054c3454457a12beb43559\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e1025f723e34afabf65590af86173cf4f36a69c230affb0c1d16f3a728089651"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/150437\\/25407549\\/1-1-1\\/7d4c26d37d85b92d8ad70261d0dda55a\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6685388b4014abcdb30a60d6b0da2d14598ee0fcaca38510d80e1b4fc35558ed"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/150437\\/25407549\\/1-1-1\\/c56bd454ec2119d2cb816a36126bba01\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "e52e4a00d92a31ed19572808c1e6c367d65aa9e5b3f8e351a2db1cd30bbb27cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/13585\\/25407547\\/1-1-1\\/4be9d008731b659b4694440c1c5e6d2b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d3086fd90f712cc4dfdf9af2e09e8e7dfc9e452f6c74e5f8e45276816ac17906"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/13585\\/25407547\\/1-1-1\\/4e1a1638a38188071ead1d73c5114361\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0a3c54963eca4d0c173d24b982a90c5589103cc4094aec9cff6d35ac3c474ae1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/363013\\/25423467\\/1-1-1\\/9332095eefbddd18d03cab6ef81e368c\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "35e9094c2789f279f15b3569cb8c40fcbeb2ab06bda490056e15ffe6c1d96a5f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/363013\\/25423467\\/1-1-1\\/16afcfc5e34558237106a6d879551839\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6b07dea6b50e437a689a22d07594dd4c144873d829d12a9b2514482ecb03e364"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/150437\\/25423471\\/1-1-1\\/5ebc919b144810c3f1f116049a7f0bd0\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dc67e01dff76022857abf62be764c1de1a468ea0c6ab23b42086b17f5a5ead43"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/150437\\/25423471\\/1-1-1\\/f547d92e14b2f016e4e875f03e967452\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "da97a39d4c66fdad46f3f6653985c7ce1c43ddb5dc368afabfa56859e32f4cdb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/166821\\/25407561\\/1-1-1\\/f7f3109825c757f1c0211a4b61857806\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "af6c456755ed9d9c2975d10a5d7d68e5a4fbfd09df65cbe75f4ef830c90eebc3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/166821\\/25407561\\/1-1-1\\/2c9a0583e5ae148611253b0bf600501b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0a4a30619ded57749ade178c70498d7d2889782ffed12a785bb9b87207788e26"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25407557\\/1-1-1\\/bd72ce5610b2e89a37aca5f9d50c4476\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "42d0cb5c48da7b1061f562690eb3834cd77f2b62a41c14bae99c511ddbb4866e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25407557\\/1-1-1\\/54584179f22d9c4bc07ae6a35514fce8\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "776de2e0211bffb9d73d2bc7273f27b40f18863b8ff04db0130ccc8bbadae550"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423477\\/1-1-1\\/4dbab0682458caa8ca86e0f3474aae6b\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "acc311e521b13130e6706eaadc5f1b31e9cec5122f7493915091aa137c198b0f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25423477\\/1-1-1\\/526fccff91936cd43f0afaf4e921af4c\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9ad2c245c56bd93ef8c628a4580eeb674726f1c8e9a2cd095d030ca23c8429e7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25407555\\/1-1-1\\/9888a20d2f36138b8e747c5cc98a5b3a\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "063a8f008bd903edf4ed4cf573df3b6ddb97dac3d5c17ef6f716d9191fdb12df"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/321177\\/25407555\\/1-1-1\\/af98ee55c581feb7d72508a8b2d7b770\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4d6f65cf9e8245cbbe522dc4e6a91877c7e0c9ad50f9fc20672c1c6b26588b32"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/313183\\/25423469\\/1-1-1\\/31b843b6c9e5ab3bc1335db96129bd1e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2849c36122a8291aade39c31d8945b3dde6d09619ba68ad34183f61ef7e58836"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/313183\\/25423469\\/1-1-1\\/e60821bd33e9b340d23b7d6b033ea29e\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4befeef658b659ddab642df5bc73243e9419c5cf48b34f8b328941c223b33cc6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/188948\\/25444049\\/1-1-1\\/bfcea6dcc0cc56aadb99864f4544be27\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "fdf206f5808380e57ae65b8e98c4ce95459f49ab0840a8f070a79b2073b5d7b0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/188948\\/25444049\\/1-1-1\\/9e7d2e2144ac56eba3f0ed7cfe83bb22\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "614c3ade418ba2f7718834d6e983da002e168e67be3030e0b83ba82b06829727"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/426745\\/25407543\\/1-1-1\\/484de65473d3d36f3f40b467cc57fa17\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c4c5f0bf0bcbe4c61893a322705c537b7971a5b9875388bb59ba7abe9ce305ba"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/426745\\/25407543\\/1-1-1\\/a55fc5a31ea88c4fc061dd7a81644808\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "c0ef479300e344eb1522d8a1a6f7eadb8e9198395e692a5f6d5fb6fb4b8c9d31"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/noauth\\/_sharedZ_New\\/img\\/icon\\/ico-allow-circle\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "manabi-contents.benesse.ne",
+                "manabi-contents-t.benesse.ne"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "manabi-contents.benesse.ne.jp",
+                    "resolved": "manabi-contents.benesse.ne.jp.edgekey.net"
+                },
+                {
+                    "original": "manabi-contents-t.benesse.ne.jp",
+                    "resolved": "manabi-contents-t.benesse.ne.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "1a346f760bfda4bc63dc55c476bdd6520f4db23a5a0c6428c00b9c9ea08962f3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benesse.ne.jp",
+                "manabi.benesse.ne.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853609\\/1-1-1\\/538c62f385f8727083121d5cc95c92d7\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "d36e29c33672e589d6a3a1840248c7d98adb42d61e781459dcf6e0624e6c0081"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853621\\/1-1-1\\/4e937162427eda8aaaaffbb9dddcfb6f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ef6f39cf0519a9606e43c881783884c85f82725f42cb30642fe2373219fcabc6"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853623\\/1-1-1\\/771e827b77c53d8659cd2b5a3df7aff6\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9f17b2d5d2535a466b9cd9a45b3a91c16e220c55d7a0547a6bd48c12810dc4b0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853643\\/1-1-1\\/23bd157aecf509cf190bfa46060b4242\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "0518d9cfe68480315be50caf9b8c215351ef64e15c321d9dcedfbcbf60c5ed18"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/dst\\/ec\\/288881\\/24853597\\/1-1-1\\/152c09b5762be21bdc77f33584424bcf\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ias.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "bda2f5658d6ce824a8ee67f7f27acf7f761eb7f6ca3dcb49fffe5add74ce885d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "www.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/recipe-space\\/d\\/strg\\/ctrl\\/3\\/cf85f0bec9dbf72c78b3a5291b0052b20afdf115\\.01\\.9\\.3\\.3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "recipe.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "ae0d9ebb2cdba8e4fb2d21b1440c9b8f7a8eeea654a339e0886dd4041b07572d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "recipe.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/recipe-space\\/d\\/strg\\/ctrl\\/3\\/e74dbde2d13fb2eba684f45ec01b0cf657c8ae2b\\.71\\.9\\.3\\.3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "recipe.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "87cbbce808fb958476f393dd75ba020a68199d0a8ed5dc2fa1c5684604f3a455"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "recipe.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/recipe-space\\/d\\/strg\\/ctrl\\/3\\/99658a63c704944b4d87e8e863f446bcaa659b8e\\.86\\.9\\.3\\.3\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "recipe.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "5413488fcd5596b9dffad9c608edca711529494e655e60475e1e53bab3678165"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "recipe.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/lg_weblio\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "cc49ec58bdf855def7159bd2c9966fc8b66b1a7e9a4b77378f4e7137b2e93c48"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/share\\/common\\/images\\/address-pin\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "trvimg.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7b0a2969a4e9ca238ac52e4b56cdeacd9f64b53fee952ee0c55a5b398cf5852b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "travel.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/share\\/common\\/header\\/json\\/feature-flags\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "any2.r10s"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "trv.r10s.jp",
+                    "resolved": "any2.r10s.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8d49750ba12ecb3fd03ec52b00a8426ef4325cd8e467b58ade0f213000855a29"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rakuten.co.jp",
+                "travel.rakuten.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/AuctionItemList\\/get\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.mandarake.co"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "tools.mandarake.co.jp",
+                    "resolved": "cdn.mandarake.co.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "20562c9db13439566fc6532b80552d8392b59d7bcc59524649f7a0e46b761379"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mandarake.co.jp",
+                "www.mandarake.co.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/assets\\/dtm\\/launch-EN7d55f9d4f78b412597c9c6586b2a86ec\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "nhk.or"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.nhk.or.jp",
+                    "resolved": "nhk.or.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "8c0c7287ddf88321061bf317b1d5a114c298d242d0e5b8abec88fcf48cfd4d6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.or.jp",
+                "www2.nhk.or.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/assets\\/dtm\\/f085c0790456\\/8e1981ebf526\\/2eb5c40c4a1a\\/EX069ae6c7cdc640c2af43e0cd7bab8d1f-libraryCode_source\\.min\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "nhk.or"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "apps.nhk.or.jp",
+                    "resolved": "nhk.or.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "6b6e8d16c9fe08e7f91bf9cc9060989db81e292a1976fc7af38a1630a46798aa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.or.jp",
+                "www2.nhk.or.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/geoip\\/area\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nhk.or"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "location.nhk.or.jp",
+                    "resolved": "nhk.or.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "754107d3727c894856c9c6d1d3be48cae636d705d57a443ff55bc25a29568f59"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nhk.or.jp",
+                "www2.nhk.or.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/speed\\/google_offer_wall_custom_choice\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2f40415e66a116bef7af1fe56845ccbafbb91e4bf92caf123a070b6727fcee09"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/lib\\/jquery\\.simplemodal\\.1\\.4\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "16eff4b73bf1be43623926ff83b0683969b4444d62e4f00e60652ea8fbf412e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/redirect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/modal_close\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "82e022bb79a884692627c62efd6b1d81266327691d08741961007f4c674536b2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/img\\/icons\\/googlep_logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "00cf45039c3c146daf647e791e62f83f40d5a75ae5a8d83ed541b2a68db666c7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        },
+        {
+            "rule": "jp\\.edgekey\\.net\\/e7\\/script\\/include\\/parts\\/login-form-modal\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.weblio"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn.weblio.jp",
+                    "resolved": "cdn.weblio.jp.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "de616b39155d7f82075fb371cb9a0794bd3eaba39034f0b8c070c5c1fb2f403a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "weblio.jp",
+                "www.weblio.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00011,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9930747922437673
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.004155124653739612
+        },
+        {
+            "domain": "rakuten-static.com",
+            "prevalence": 0.0013850415512465374
+        },
+        {
+            "domain": "r10s.jp",
+            "prevalence": 0.0013850415512465374
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Script": 33,
+        "Image": 304,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

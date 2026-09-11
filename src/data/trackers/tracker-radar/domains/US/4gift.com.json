@@ -1,0 +1,97 @@
+{
+    "domain": "4gift.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "api-v2.stylegenie"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "4gift\\.com\\/api\\/v2\\/tracking\\/cookie",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v2.stylegenie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        },
+        {
+            "rule": "4gift\\.com\\/api\\/v2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v2.stylegenie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f11aa3dd64f6db21442362352694a11b1a562ff6f07e31ffd254b86db8c0c411"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        },
+        {
+            "rule": "4gift\\.com\\/api\\/v2\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api-v2.stylegenie"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tomfordfashion.com",
+                "www.tomfordfashion.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "yolanda.ns.cloudflare.com",
+        "corey.ns.cloudflare.com"
+    ]
+}

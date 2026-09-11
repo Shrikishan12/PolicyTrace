@@ -1,0 +1,86 @@
+{
+    "domain": "tencent.com",
+    "owner": {
+        "name": "Tencent Holdings Ltd.",
+        "displayName": "Tencent"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "galileotelemetry",
+        "sg.galileotelemetry"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "tencent\\.com\\/aegiscontrol\\/whitelist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "galileotelemetry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99921c927397ba9a9d0a989f2a5dd202059ebabde71ea06f2f77e389496bb719"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midasbuy.com",
+                "www.midasbuy.com"
+            ]
+        },
+        {
+            "rule": "tencent\\.com\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sg.galileotelemetry"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "218504759f1ce2e69cc3ed9ab81ad13d3a553a86f1db47d46d3a138a0195367e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "midasbuy.com",
+                "www.midasbuy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cdn-go.cn",
+            "prevalence": 0.5555555555555556
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4444444444444444
+        }
+    ],
+    "types": {
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns1.qq.com",
+        "ns2.qq.com",
+        "ns3.qq.com",
+        "ns4.qq.com"
+    ]
+}

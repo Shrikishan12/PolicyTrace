@@ -1,0 +1,90 @@
+After parsing, BeautifulSoup builds a tree of objects:
+
+<html>
+└──
+
+<head>
+      │ └── <title> → .text = "VT Poddar"
+            └──
+
+<body>
+      └── <h1> → .text = "Hi"
+
+            Now you can query the tree:
+
+            soup.title.text # "VT Poddar"
+            soup.find("h1").text # "Hi"
+            soup.find_all("a") # all <a> tags
+
+            Analogy: Fetching is like downloading a PDF.
+            Parsing is like opening it and reading specific paragraphs instead of scrolling through raw bytes.
+
+
+
+How easyprivacy and adblockparser work 
+
+The pipeline
+Browser session → Network requests → [Tracker identification] → Compare with policy text → Report gaps
+
+EasyPrivacy is your tracker knowledge base. When PolicyTrace observes a request to
+google-analytics.com, facebook.net, doubleclick.net, etc., it needs to answer: "Is this a known
+tracker, and what category is it?" The EasyPrivacy list encodes exactly that — each rule has a
+domain/URL pattern plus an optional comment identifying the service and its purpose (analytics,
+advertising, fingerprinting, etc.). You can parse the list into a structured database:
+
+{ domain: "google-analytics.com", service: "Google Analytics", category: "analytics" }
+{ domain: "doubleclick.net", service: "Google Ads", category: "advertising" }
+
+This becomes the "what is this?" lookup when a request fires.
+
+adblockparser is your matching engine. A single page load can generate 50–200+ network requests. You
+need to check each one against ~100k filter rules in real time. The tokenization + domain-index
+approach means you only do expensive regex matching on the small subset of rules that could possibly
+match a given URL. Without it, you'd be doing 100k regex checks per request, which would make the tool
+unusable.
+
+Regex is the pattern primitive underneath both. Each EasyPrivacy rule like ||google-analytics.com^
+gets compiled into a regex. The adblockparser optimizes how those regexes are applied, but the rules
+themselves are regex patterns.
+
+
+
+## What "Naive split" means
+
+It's the **lazy shortcut** people take instead of using tldextract:
+
+```python
+# Naive split: just take the last two dot-parts
+domain = "shop.bbc.co.uk"
+parts  = domain.split(".")
+naive  = ".".join(parts[-2:])   # → "co.uk"  ❌ WRONG
+```
+
+They assume: *"A domain is always `something.tld` — last two parts = the real domain."*
+
+That works for `google.com` → `google.com` ✅. But it **breaks** when the TLD itself has dots:
+
+| URL | Naive split (last 2 parts) | Correct (tldextract) |
+|-----|:---:|:---:|
+| `shop.bbc.co.uk` | `co.uk` ❌ | `bbc.co.uk` ✅ |
+| `mail.gov.in` | `gov.in` ❌ | `gov.in` ✅ *(this one happens to work)* |
+| `a.b.gov.in` | `gov.in` ❌ | `a.gov.in` ✅ |
+| `cdn.example.com.au` | `com.au` ❌ | `example.com.au` ✅ |
+
+**Why it matters for you:** If you're auditing `a.b.gov.in` and a request goes to `c.b.gov.in`, naive split says both are `gov.in` → "same domain" → you'd wrongly call it first-party. tldextract correctly says `a.gov.in` ≠ `c.gov.in` → different organizations → third-party.
+
+## The whole thing in one sentence
+
+> **tldextract** tells you *"where does this domain actually end?"* by consulting the **Public Suffix List** (a maintained list of all multi-part TLDs like `.co.uk`, `.gov.in`, `.com.au`). **Naive split** just guesses "last two parts" and gets it wrong whenever the TLD has a dot in it.
+
+```python
+import tldextract
+
+ext = tldextract.extract("shop.bbc.co.uk")
+ext.domain            # "shop"
+ext.suffix            # "co.uk"      ← the actual TLD (has a dot!)
+ext.registered_domain # "bbc.co.uk"  ← what you compare for first/third-party
+```
+
+That's the only reason you need it: to get `registered_domain` correctly, so your first-party/third-party check doesn't misclassify `.co.uk`, `.gov.in`, `.ac.in`, `.com.au` sites.
+

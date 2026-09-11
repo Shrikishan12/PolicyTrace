@@ -1,0 +1,380 @@
+{
+    "domain": "tintup.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "api",
+        "www",
+        "app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "tintup\\.com\\/v1\\/profile\\/toro_com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "03125a02b07464a1187eee506f24961efa741bfda8aa02d33661c3b956490ee8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toro.com",
+                "www.toro.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/v2\\/tints\\/toro_com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5cce8ee0ce9b6091b4b93dfaf714deb6ee76aa1ccc644f697a090d6ac367b3d2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toro.com",
+                "www.toro.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/v2\\/personalizations\\/849012",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23255c2463e62638a798a88b421a84307e5ee625f1b07eb283791a1e734fef1d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toro.com",
+                "www.toro.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/v1\\/feed\\/toro_com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "89e0b1afc59b304c60362aa77f6c65945aa92c67788be1a39c7fc349ec872101"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "toro.com",
+                "www.toro.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/app\\/dist\\/embedded\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentsy.com",
+                "sundevils.com",
+                "thesundevils.com",
+                "www.chateau-frontenac.com",
+                "www.hudsonyardsnewyork.com",
+                "www.jtv.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/dist\\/embedded\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "26ad77c054b786259dedb2ed80b634553706ac3b3ee5f37d2596e0838316ca25"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentsy.com",
+                "sundevils.com",
+                "thesundevils.com",
+                "www.alaskacollection.com",
+                "www.chateau-frontenac.com",
+                "www.hudsonyardsnewyork.com",
+                "www.jtv.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/dist\\/tintAnalyticsClient-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www",
+                "app"
+            ],
+            "apis": {
+                "window.localStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e73ac1f17dcf66286e164f5cb680b41cf538077b6145a963e176b2aa1b731611"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentsy.com",
+                "sundevils.com",
+                "thesundevils.com",
+                "www.alaskacollection.com",
+                "www.chateau-frontenac.com",
+                "www.hudsonyardsnewyork.com",
+                "www.jtv.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/dist\\/env-config\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "app"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "bd8c88a4b333eed731cd530892062af0963125c02df705f5cfb8783fb3e8f6e7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "scentsy.com",
+                "sundevils.com",
+                "tennisexpress.com",
+                "thesundevils.com",
+                "us.amazfit.com",
+                "www.alaskacollection.com",
+                "www.chateau-frontenac.com",
+                "www.hudsonyardsnewyork.com",
+                "www.jtv.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/dist\\/tint\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "58097f41c1adce7175bb1e85cee415b3542b15f5a9677219f45eb0a60f5d3b76",
+                "a6e9b6af19a762d8bbef5ee9bbb39911ae6db24038fdc336786ebf210f5d24ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tennisexpress.com",
+                "us.amazfit.com",
+                "www.reinders.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/app\\/dist\\/tint\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazfit.com",
+                "us.amazfit.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/v2\\/ip",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "e6533fc7d954f9638aaa7d70787bd9c170002dd45d2f25a50fa03f7c4eef577a",
+                "a9eb1d09a244ee2470fcfad890907da5c5da8a3530510b6477c5e9474958b98f",
+                "5fdb8644444ab52e168af21fd4f6469593ad0c0ba64a50a859bf7cfdcbc11033",
+                "0e7055b8576c21cdf727476332e6e8adde76dec73c1ca62ab9b6f7c1e167bc58"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "banffjaspercollection.com",
+                "www.glacierparkcollection.com",
+                "www.irritrol.com",
+                "www.jtv.com",
+                "www.toro.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/dist\\/tintAnalyticsProxy-bundle\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a42c4ac6001732c52cefc9c4c942ed0ea28a513477df88f9f1f22cfd7b1d1a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jtv.com",
+                "www.jtv.com"
+            ]
+        },
+        {
+            "rule": "tintup\\.com\\/v2\\/tints\\/124422333\\/posts",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db37170925afd77dd328ca9cd1c4cc6ea7ff53f8c67d533d179b59d1c7269e4a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jtv.com",
+                "www.jtv.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "hypemarks.com",
+            "prevalence": 0.6903553299492385
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.233502538071066
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.030456852791878174
+        },
+        {
+            "domain": "zinrelo.com",
+            "prevalence": 0.015228426395939087
+        },
+        {
+            "domain": "sundevils.com",
+            "prevalence": 0.01015228426395939
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.01015228426395939
+        },
+        {
+            "domain": "noibu.com",
+            "prevalence": 0.01015228426395939
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "XHR": 4,
+        "Script": 37
+    },
+    "nameservers": [
+        "ns-189.awsdns-23.com",
+        "ns-895.awsdns-47.net",
+        "ns-1602.awsdns-08.co.uk",
+        "ns-1522.awsdns-62.org"
+    ]
+}

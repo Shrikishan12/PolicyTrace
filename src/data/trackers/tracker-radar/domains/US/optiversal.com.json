@@ -1,0 +1,215 @@
+{
+    "domain": "optiversal.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "hss",
+        "brighton",
+        "dxl",
+        "kendrascott",
+        "surlatable",
+        "womanwithin"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "optiversal\\.com\\/api\\/links\\/related",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hss",
+                "brighton",
+                "dxl",
+                "kendrascott"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e36609a7974e23ee342609e108bc5b05eb1469a2198a440c99c864d4ba3980fa",
+                "fc03513eff8598695ad081a2b8c54261405ac9c4bc7fae9816abc1eb322f3d82",
+                "6eb1b12eb55094c7e92ec3b270c060c01c3ebd510b826b9710a27917db4344ca"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "bluemercury.com",
+                "www.brighton.com",
+                "www.dxl.com",
+                "www.kendrascott.com"
+            ]
+        },
+        {
+            "rule": "optiversal\\.com\\/api\\/pp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surlatable",
+                "womanwithin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surlatable.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "optiversal\\.com\\/api\\/pp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surlatable",
+                "womanwithin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c8cf2b8cb8d36d425b2c220a8cdc9f8026d8170a67be5fabaa8dbc87c79985d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surlatable.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "optiversal\\.com\\/matomo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "surlatable",
+                "womanwithin"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "NavigatorUAData.prototype.brands": 2,
+                "NavigatorUAData.prototype.platform": 2,
+                "NavigatorUAData.prototype.getHighEntropyValues": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "Navigator.prototype.javaEnabled": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.platform": 1,
+                "Document.cookie setter": 2,
+                "window.name": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "40c1b9a1c297746e02cd5614390adf6a51e9f0a024c77567a114eceb7a581895"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.11.5101": {
+                    "ttl": 33955208,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_ses.11.5101": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_id.50.8e4f": {
+                    "ttl": 33955203,
+                    "length": 28,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_pk_ses.50.8e4f": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "surlatable.com",
+                "www.womanwithin.com"
+            ]
+        },
+        {
+            "rule": "optiversal\\.com\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surlatable",
+                "womanwithin"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072,
+                "myReferrerCookie": 0.000006849643476057072,
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "surlatable.com",
+                "www.womanwithin.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "yottaa.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Preflight": 2,
+        "Script": 2,
+        "Ping": 2
+    },
+    "nameservers": [
+        "ns-201.awsdns-25.com",
+        "ns-961.awsdns-56.net",
+        "ns-1950.awsdns-51.co.uk",
+        "ns-1341.awsdns-39.org"
+    ]
+}

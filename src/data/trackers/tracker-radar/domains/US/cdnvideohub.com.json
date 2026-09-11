@@ -1,0 +1,192 @@
+{
+    "domain": "cdnvideohub.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "player",
+        "plapi"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cdnvideohub\\.com\\/s2\\/stable\\/video-player\\.umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5e621e1d5290d348574676c702aa93683b05a00f2baf8b1b513cd9b24326fedf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordfilm-baza.info",
+                "lordserialy.bz"
+            ]
+        },
+        {
+            "rule": "cdnvideohub\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "99eb12f2ab3c4866a353e098ffa3cb7a967e617c49b98480394ec5d8ea92b094"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordserialy.bz",
+                "lordfilm-baza.info"
+            ]
+        },
+        {
+            "rule": "cdnvideohub\\.com\\/api\\/v1\\/player\\/sv\\/playlist",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "plapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ef98d3ec442c59853bbdbacb8658e159c7f373a0eeb3d8725e643ba3a4caf664",
+                "d1a9683ed7320a8a32a68f325c703d1dca1d7eb86d2c52ed41c540f1884ef61d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordserialy.bz",
+                "lordfilm-baza.info"
+            ]
+        },
+        {
+            "rule": "cdnvideohub\\.com\\/s2\\/v2\\.17\\.2\\/frame\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a6575cebdac97156a8ceabad6ae6b1ac36f67bbeee2660e475d66e7fe57c3243"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordserialy.bz",
+                "lordfilm-baza.info"
+            ]
+        },
+        {
+            "rule": "cdnvideohub\\.com\\/s2\\/v2\\.17\\.2\\/frame\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.mediaCapabilities": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Screen.prototype.colorDepth": 3,
+                "window.devicePixelRatio": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.appVersion": 3,
+                "NavigatorUAData.prototype.getHighEntropyValues": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "6af0687a31384f6b20662cd15cf6f23b142382f9751b61fa026f3626b765f581"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordserialy.bz",
+                "lordfilm-baza.info"
+            ]
+        },
+        {
+            "rule": "cdnvideohub\\.com\\/s2\\/v2\\.17\\.2\\/frame\\/style\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0f29499c0422d0a36c6fbd4741a8ba37bda6d801d1dac1378d1679422d24d924"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "animego.studio",
+                "lordserialy.bz",
+                "lordfilm-baza.info"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 3,
+        "XHR": 3,
+        "Document": 3,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "yichun.ns.cloudflare.com",
+        "faye.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,95 @@
+{
+    "domain": "dpymaps1h0ms2.cloudfront.net",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [
+        {
+            "original": "www-pi.aarp.org",
+            "resolved": "dpymaps1h0ms2.cloudfront.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "dpymaps1h0ms2\\.cloudfront\\.net\\/etc\\/segmentation\\/contexthub\\.seg\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "www-pi.aarp.org",
+                    "resolved": "dpymaps1h0ms2.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "be2b0d56a3acd6a68e56ab669b5bcafab476f261c133527339e113823056b2d6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "help.aarp.org"
+            ]
+        },
+        {
+            "rule": "dpymaps1h0ms2\\.cloudfront\\.net\\/content\\/campaigns\\/aarp\\/master\\/user-states\\/anonymous-user\\/master-uxdiacacheablexf0\\/_jcr_content\\/par\\.xf\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "www-pi.aarp.org",
+                    "resolved": "dpymaps1h0ms2.cloudfront.net"
+                }
+            ],
+            "responseHashes": [
+                "02f388dcb79271fce1bfe6c9072b0f48e4758578b0c6928c5647b2f1cac9daa6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "help.aarp.org"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "aarp.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-626.awsdns-14.net",
+        "ns-1413.awsdns-48.org",
+        "ns-268.awsdns-33.com",
+        "ns-1752.awsdns-27.co.uk"
+    ]
+}

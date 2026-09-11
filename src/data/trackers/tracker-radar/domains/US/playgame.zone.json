@@ -1,0 +1,75 @@
+{
+    "domain": "playgame.zone",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "io"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "playgame\\.zone\\/api\\/v2\\/server\\/info",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "io"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playtime.ph",
+                "www.playtime.ph"
+            ]
+        },
+        {
+            "rule": "playgame\\.zone\\/api\\/v2\\/server\\/info",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "io"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "75a95bb7302a3f1b2fd989d36cc00c9c9c5c3d47544031bc2701cd72fcb1ef08"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "playtime.ph",
+                "www.playtime.ph"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "ptgaming.ph",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ridge.ns.cloudflare.com",
+        "grannbo.ns.cloudflare.com"
+    ]
+}

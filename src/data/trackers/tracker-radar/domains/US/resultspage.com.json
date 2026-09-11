@@ -1,0 +1,169 @@
+{
+    "domain": "resultspage.com",
+    "owner": {
+        "name": "SLI Systems, Inc",
+        "displayName": "SLI Systems",
+        "privacyPolicy": "http://www.sli-systems.com/privacy-policy",
+        "url": "http://sli-systems.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "dobies",
+        "steinertractor",
+        "sussan",
+        "suttons",
+        "tricktools",
+        "overland",
+        "scorptec"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "resultspage\\.com\\/autocomplete\\/rac-data\\/sli-rac\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dobies",
+                "steinertractor",
+                "sussan",
+                "suttons",
+                "tricktools"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "fe06641c0856c1fda85989621ed1d113916656bbeb451dee7fd8dec893cc46e0",
+                "d8a1393e5b7bb7e8d8e0a488ca1365c8f307e236a40a511153172a675c8edba3",
+                "61f5eb5a83989f62b266cbb9fef56435c93f8ae3f9f7d791ba5c1c0870ac3752"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dobies.co.uk",
+                "www.steinertractor.com",
+                "www.sussan.com.au",
+                "www.suttons.co.uk",
+                "www.trick-tools.com"
+            ]
+        },
+        {
+            "rule": "resultspage\\.com\\/tb\\/ts\\/rac-data\\/css\\/styles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "overland",
+                "scorptec",
+                "steinertractor",
+                "sussan",
+                "tricktools"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "edc45dd290427240adce109871e8703194a7fbe4e7022ab9c1ba19fee26fa189",
+                "051ee26c4afe270bf0148484dd8b2ba6065419cd09ec9e46f190f2ebfdeee2e2",
+                "40b81ca1f8e29f6ab656f527401579d905905ddc9ad074f785619fd4be9ef3b5",
+                "210f3ac7015c66c84243becd0f377210df8c0cb2975031e57a59908ecd0f1c4e",
+                "8ade354fbf9dd2b795bc4f5bee3040bea4efeed6882c03b98a889ada0297bd9b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "overland.com",
+                "www.overland.com",
+                "www.scorptec.com.au",
+                "www.steinertractor.com",
+                "www.sussan.com.au",
+                "www.trick-tools.com"
+            ]
+        },
+        {
+            "rule": "resultspage\\.com\\/js\\/sli-spark\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sussan",
+                "tricktools"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "591ff9788297495ce2b4398ca1f663cf5293c1d9df3e377d94fdc0947ff46a61"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "sli_domain_locator": {
+                    "ttl": -51,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "SLISYNC": {
+                    "ttl": 604774,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "SLIBeacon": {
+                    "ttl": 63071974,
+                    "length": 31,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "SLIBeacon_803472872": {
+                    "ttl": 63071949,
+                    "length": 31,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sussan.com.au",
+                "www.trick-tools.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9444444444444444
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Script": 7,
+        "Stylesheet": 6
+    },
+    "nameservers": [
+        "ns-522.awsdns-01.net",
+        "ns-315.awsdns-39.com",
+        "ns-1698.awsdns-20.co.uk",
+        "ns-1416.awsdns-49.org"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "domain": "bookdirect.net",
+    "owner": {
+        "name": "JackRabbit Systems",
+        "displayName": "JackRabbit Systems"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00024,
+    "sites": 35,
+    "subdomains": [
+        "admin"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "bookdirect\\.net\\/hs4\\/widgets\\/2077\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admin"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6cee7249dd8e34a0f5db17e80ee2a4c4577aeea22c99dfd3b28738326226bb65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "doorcounty.com",
+                "www.doorcounty.com"
+            ]
+        },
+        {
+            "rule": "bookdirect\\.net\\/hs4\\/widgets\\/2097\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "admin"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37748e137b7a7e17b839c3554a1f449de7b0f2aa5c9e53729425ac8689bdf9b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitomaha.com",
+                "www.visitomaha.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9473684210526315
+        },
+        {
+            "domain": "cookiebot.com",
+            "prevalence": 0.05263157894736842
+        }
+    ],
+    "types": {
+        "Script": 4
+    },
+    "nameservers": [
+        "pdns11.domaincontrol.com",
+        "pdns12.domaincontrol.com"
+    ]
+}

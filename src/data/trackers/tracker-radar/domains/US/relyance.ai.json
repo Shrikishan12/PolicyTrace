@@ -1,0 +1,681 @@
+{
+    "domain": "relyance.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "consent.app"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "relyance\\.ai\\/relyance-agent\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {
+                "Document.cookie getter": 7,
+                "window.localStorage": 7,
+                "window.sessionStorage": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.language": 1
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "36d4ff24a9c2eedec4fafa6c17d1b5a0d3311b1cbe1bade72167c57d08f14e85",
+                "1e3e07c823d962953f03b1a9e481269bab70e53774de60f108ee0a03dd43d03b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "rly_consent_app-5358d35e-a0a1-5eb1-a724-c4b5e1057674": {
+                    "ttl": 31536000,
+                    "length": 722,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_ga_0KVTJ3TS82": {
+                    "ttl": 63072002,
+                    "length": 45,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "rly_consent_app-3ff4694f-861a-56c9-b0ec-34c00deedb6d": {
+                    "ttl": 31536000,
+                    "length": 816,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "rly_consent_app-62ea935b-db39-597d-acdc-5c8be6584ecb": {
+                    "ttl": 31536000,
+                    "length": 700,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "cookies.js": {
+                    "ttl": 1,
+                    "length": 9,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "rly_consent_app-4941bdf7-aac7-545f-8e65-dd508c90585f": {
+                    "ttl": 31536000,
+                    "length": 702,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "AMCV_67BC043E56376EC07F000101%40AdobeOrg": {
+                    "ttl": 63158405,
+                    "length": 248,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "AMCVS_67BC043E56376EC07F000101%40AdobeOrg": {
+                    "ttl": null,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "_twpid": {
+                    "ttl": 33696000,
+                    "length": 35,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "rly_consent_app-53b4f9eb-43e8-502a-8c2f-b0fb8a6ffbe0": {
+                    "ttl": 31536000,
+                    "length": 976,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "dialpad.com",
+                "help.zscaler.com",
+                "support-en.wd.com",
+                "www.mycloud.com",
+                "www.westerndigital.com",
+                "www.zscaler.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/location",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "5abfb1e0e3c62c8b1f970fcb9bdf4b127decd7186742063f83c294fd5f2db683",
+                "067ca91a917583b27480d09f1785adc3e19f26db6e48f0b45c9bb716deb97374"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "help.zscaler.com",
+                "support-en.wd.com",
+                "www.mycloud.com",
+                "www.westerndigital.com",
+                "www.zscaler.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/behaviors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "ccf5f7bab392a2cd4609a50be826fb67eee855074d626e003983e85a7c2b235e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/behaviors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/banner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "de5365f02eab94e1d73dd2fdee07079fac060a44f84478d46b3a1b340b259d7a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/banner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/locale",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7b4c1d7d2eeab7dc8df59096df6c55c872cdd3d178ef7c53657232e3823cf097",
+                "2dd8adfacb6535b6a832f11bcf9738d13842fa7d889734c6f2c3bbae16d70acb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/locale",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/tracking-technologies-localised",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/request-url-by-purpose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/tracking-technologies-localised",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e0e7ce89bf37a1d782a827db0dccaa0358cd7dd38554a5c7144454e15b1cb30b",
+                "1aca4caeb362a656742d0b8e08423c5480af23a00ed479cd64924e76647ba3df"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/request-url-by-purpose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1f05ea38506dfbde72f630ed0b6f92c9570e2b037696957aa76e9e7ce8b5e36f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/processing-activities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d7173b5714f1b18377a6694bbfee4f8c699fcadc01364ed20d1e327e0f342667",
+                "9b1764e71545c4d596ba9ecc1ae37302329535df50692457b0783b4dd9121775"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-5358d35e-a0a1-5eb1-a724-c4b5e1057674\\/processing-activities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "community.wd.com",
+                "support-en.wd.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/behaviors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/behaviors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e8f2e0350ee9d5c65ee6f4a0ad2956f2e75b3461c1240e49f68df0b2e20110b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/banner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a0b21f6112724579c06cbc700ccc96b30b8836984519588a6eee38601af54575"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/banner",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/locale",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99a9d0746c44a4538b6e3ecec553147c7001181369e661704432b032f2e52f74"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/locale",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/tracking-technologies-localised",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/request-url-by-purpose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/processing-activities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/tracking-technologies-localised",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c3a1fc05f9557ed8985ee6a5f46b7ae0a0dacbe44728cfb4c03d8f3f41c2b3cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/request-url-by-purpose",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "759b07b2e7a038ddf03c5804e537502bdca935cf166e51ba1704c1f3846783af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        },
+        {
+            "rule": "relyance\\.ai\\/api\\/config\\/v1\\/app-4941bdf7-aac7-545f-8e65-dd508c90585f\\/processing-activities",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "consent.app"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e1885b5c70893a425bb9cbc9c2c2b003b0488b1d58ec18f66844e18586f4d4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wd.com",
+                "www.westerndigital.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000616,
+    "topInitiators": [
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 37,
+        "Preflight": 30
+    },
+    "nameservers": [
+        "hans.ns.cloudflare.com",
+        "roxy.ns.cloudflare.com"
+    ]
+}

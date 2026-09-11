@@ -1,0 +1,87 @@
+{
+    "domain": "scupio.com",
+    "owner": {
+        "name": "Bridgewell, Inc.",
+        "displayName": "Bridgewell"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "dable-api",
+        "pixel-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "scupio\\.com\\/dable\\/v1\\/exc\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dable-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "dable_uid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "chinatimes.com",
+                "www.nownews.com"
+            ]
+        },
+        {
+            "rule": "scupio\\.com\\/v0\\/event",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pixel-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "569891f5153cb660e5c855ad4f1a74e33f2ef5204ec475b56ae9d3d1451ec2a3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eslite.com",
+                "www.eslite.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7142857142857143
+        },
+        {
+            "domain": "dable.io",
+            "prevalence": 0.2857142857142857
+        }
+    ],
+    "types": {
+        "Image": 2,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1225.awsdns-25.org",
+        "ns-1834.awsdns-37.co.uk",
+        "ns-500.awsdns-62.com",
+        "ns-639.awsdns-15.net"
+    ]
+}

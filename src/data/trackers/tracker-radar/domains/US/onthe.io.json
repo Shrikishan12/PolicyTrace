@@ -1,0 +1,2357 @@
+{
+    "domain": "onthe.io",
+    "owner": {
+        "name": "IO Technologies Inc.",
+        "displayName": "IO",
+        "privacyPolicy": "https://iotechnologies.com/pp",
+        "url": "http://iotechnologies.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000322,
+    "sites": 47,
+    "subdomains": [
+        "tt",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "onthe\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tt"
+            ],
+            "apis": {},
+            "sites": 28,
+            "prevalence": 0.000192,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__io": 0.0002123389477577692,
+                "__io_session_id": 0.00020548930428171213,
+                "lotame_domain_check": 0.00005479714780845657,
+                "_li_dcdm_c": 0.000041097860856342424
+            },
+            "exampleSites": [
+                "www.pcworld.com",
+                "thehockeywriters.com",
+                "www.nme.com",
+                "www.macworld.com",
+                "www.bankier.pl",
+                "www.computerworld.com",
+                "www.pcwelt.de",
+                "www.archdaily.com",
+                "www.pcforalla.se",
+                "www.pravda.com.ua",
+                "www.citizen.co.za",
+                "www.gentlemansgazette.com",
+                "briefly.co.za",
+                "www.hwupgrade.it",
+                "cumbriacrack.com",
+                "www.macwelt.de",
+                "armyconnect.me",
+                "www.m3.se",
+                "www.networkworld.com",
+                "www.computerwoche.de"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ac23f437edd06578c43b2317a026df9a3878ca46a2e40f6b45cdba7293be806c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787637914048": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 903,
+                    "length": 11,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_lv": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536025,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914059": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914062": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1825,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914077": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914080": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914094": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637914096": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637925356": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637925360": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637936143": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637936146": {
+                    "ttl": -1787637910,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350189": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350197": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350199": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_unique_3891": {
+                    "ttl": 31536001,
+                    "length": 2,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350218": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350221": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_uh": {
+                    "ttl": 65451,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_visit_3891": {
+                    "ttl": 901,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350238": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350240": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350251": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350253": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350264": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651350266": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651361488": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651361491": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651372656": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787651372659": {
+                    "ttl": -1787651348,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "briefly.co.za",
+                "yen.com.gh"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/aUg1Vgh1KwTO",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3f39963771f0790411e44b1e0adaf2215b81129a1a397f37a5f44e73232946c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787591250244": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 904,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536004,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536025,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250252": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250254": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1825,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250257": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state25768": {
+                    "ttl": 904,
+                    "length": 165,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_unique_25768": {
+                    "ttl": 31536004,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250279": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250281": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_uh": {
+                    "ttl": 77116,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_visit_25768": {
+                    "ttl": 904,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_test1787591250299": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250301": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250315": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250317": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250335": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250337": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688917": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688925": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688927": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688930": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688946": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688947": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688962": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688965": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688981": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639688983": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689000": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689001": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639699292": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639699294": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639709017": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639709019": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.archdaily.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/wjHUMzWytWDb",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "Document.cookie setter": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c8ce894b2b238493179fd4474d4af65bcf02d303655629b3112a77b69156eb2c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_unique_34360": {
+                    "ttl": 31536005,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536025,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250358": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250359": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1825,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_visit_34360": {
+                    "ttl": 905,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_test1787591250375": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250377": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250389": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250390": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250405": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787591250407": {
+                    "ttl": -1787591245,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689716": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689718": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689731": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689733": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689744": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689746": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689759": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639689760": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639700135": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639700137": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639709758": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787639709759": {
+                    "ttl": -1787639683,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archdaily.com",
+                "www.archdaily.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/uniques\\/",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tt"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "166f9390df29e23f9c9c45c50026de3b8ea04605424c6edc8557a3d3e71af7b8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__io": 0.00008904536518874193
+            },
+            "exampleSites": [
+                "archdaily.com",
+                "www.archdaily.com",
+                "www.bankier.pl",
+                "www.citizen.co.za",
+                "www.computerwoche.de",
+                "www.hwupgrade.it",
+                "www.tuko.co.ke",
+                "yen.com.gh"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/xaRFmi70oLG3",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c672bfc7c8a81fc8feda72b340f1fa37a33ce859f6c93aa029fe670f478d620a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "channelnewsasia.com",
+                "www.channelnewsasia.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/AA3mzPbJufzF",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5709294e47df5b1bbac9b52693a7472acdcd1434081f97728d2e99e171f755e0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787645806716": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 902,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536032,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806724": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806726": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1832,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806729": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state45620": {
+                    "ttl": 902,
+                    "length": 154,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806748": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806750": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806771": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645806774": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645817616": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645817618": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645827460": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645827463": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645836771": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787645836774": {
+                    "ttl": -1787645803,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676319": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676326": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676328": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676332": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676349": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676351": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676367": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607676369": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607688234": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787607688237": {
+                    "ttl": -1787607674,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "computerworld.com",
+                "www.computerworld.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/oJSJEN8IsMWP",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.vendor": 1,
+                "Document.cookie setter": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72445b9ab9d273ef636d5267c56a687f5b2ac4b624697d198f724bf7cbdc18cb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787636747976": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 900,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536000,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536001,
+                    "length": 33,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636747983": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636747984": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1801,
+                    "length": 33,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636748000": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636748002": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636748022": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787636748024": {
+                    "ttl": -1787636746,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "legit.ng",
+                "www.legit.ng"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/Xt9Hi9oh92bW",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9ef8af5a127a0ff1ef03b5adb3c763d3e7c94849ac794908e7342658ef8b3c08"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787580667120": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 901,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536001,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536031,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667126": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667128": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1831,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667130": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state43466": {
+                    "ttl": 901,
+                    "length": 120,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667145": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667148": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667164": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580667167": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580677509": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580677511": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580688910": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787580688913": {
+                    "ttl": -1787580665,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136408": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136416": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136418": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136421": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136437": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136440": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136459": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631136462": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631147335": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631147337": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631157335": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631157337": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631166501": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631166504": {
+                    "ttl": -1787631134,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macrumors.com",
+                "www.macrumors.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/5KcvHdQ51r5K",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "551dc627e70fc216f3c310d8a29121d3609e13f29b9e9177526be7ae20586b62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787631109549": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 902,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536026,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109555": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109557": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1826,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109560": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state44394": {
+                    "ttl": 902,
+                    "length": 128,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109578": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109580": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109598": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631109600": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631120678": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631120679": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631131248": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631131250": {
+                    "ttl": -1787631106,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253160": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253169": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253171": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253174": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253188": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253190": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253201": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581253203": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581270591": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581270593": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581277241": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787581277243": {
+                    "ttl": -1787581250,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "macworld.com",
+                "www.macworld.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/QQMDQPoSaZ9I",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie setter": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.vendor": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de7b342b838d91ff7f55dcc72f2e4e9e4a4930cf8e49ad8994e6932a87a380d2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_io_ht_r": {
+                    "ttl": 86400,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_test1787582444548": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 900,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536000,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536024,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444555": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444557": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1824,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444560": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state44873": {
+                    "ttl": 900,
+                    "length": 148,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444572": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444574": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444587": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582444588": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582454864": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582454865": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582465752": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582465754": {
+                    "ttl": -1787582443,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055825": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055831": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055833": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055836": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055849": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055851": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055865": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635055866": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635068430": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635068432": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635079020": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787635079022": {
+                    "ttl": -1787635054,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nme.com",
+                "www.nme.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/kLODPBip38nZ",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "95d6b89598eb3298e5816fae75adb12c60a4e6230bf6eb022db937998ed9bc23"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787631621581": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 903,
+                    "length": 12,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536003,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536025,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621587": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621590": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1825,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621592": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state44395": {
+                    "ttl": 903,
+                    "length": 137,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_unique_44395": {
+                    "ttl": 31536003,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621610": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621612": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_visit_44395": {
+                    "ttl": 903,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_test1787631621625": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621628": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621644": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621646": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621664": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631621667": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631633539": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631633541": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631643814": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787631643816": {
+                    "ttl": -1787631617,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299320": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299325": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299327": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299331": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299346": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299348": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299361": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299363": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299376": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299378": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299393": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582299396": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582312034": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582312036": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582320940": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787582320942": {
+                    "ttl": -1787582297,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcworld.com",
+                "www.pcworld.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/5rhTTggyTdmy",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.vendor": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 1,
+                "window.innerHeight": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1268bcd8016784f22396a5f2b8a931061cf1165d19b51ffca1ae6743c726932a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787637312771": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 902,
+                    "length": 11,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536002,
+                    "length": 13,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536026,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312776": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312780": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1826,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312783": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_nav_state44398": {
+                    "ttl": 902,
+                    "length": 153,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312796": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312797": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312814": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637312816": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637325148": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637325151": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637335793": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787637335795": {
+                    "ttl": -1787637310,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307075": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307082": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307083": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307085": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307098": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307100": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307114": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586307115": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586318702": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586318704": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586331128": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787586331129": {
+                    "ttl": -1787586304,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techadvisor.com",
+                "www.techadvisor.com"
+            ]
+        },
+        {
+            "rule": "onthe\\.io\\/io\\.js\\/y5ZMgLQlE6HV",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2,
+                "window.sessionStorage": 1,
+                "Navigator.prototype.userAgent": 1,
+                "Navigator.prototype.vendor": 1,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a8aa8c9c731fc7c2a9624e6759820f62f5224b3a428f6b73ef8950409598e646"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__io_test1787633461797": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_d": {
+                    "ttl": 901,
+                    "length": 11,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_lv": {
+                    "ttl": 31536001,
+                    "length": 13,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io": {
+                    "ttl": 31536003,
+                    "length": 33,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461805": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461808": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_session_id": {
+                    "ttl": 1801,
+                    "length": 33,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_unique_3883": {
+                    "ttl": 31536001,
+                    "length": 2,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461831": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461834": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_uh": {
+                    "ttl": 83340,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "__io_visit_3883": {
+                    "ttl": 901,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461856": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461858": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461874": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461878": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461895": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                },
+                "__io_test1787633461898": {
+                    "ttl": -1787633459,
+                    "length": 4,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tuko.co.ke",
+                "www.tuko.co.ke"
+            ]
+        }
+    ],
+    "categories": [
+        "Analytics",
+        "Audience Measurement",
+        "Third-Party Analytics Marketing"
+    ],
+    "performance": {},
+    "cookies": 0.000267,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8571428571428571
+        },
+        {
+            "domain": "consentmanager.net",
+            "prevalence": 0.07142857142857142
+        },
+        {
+            "domain": "plerdy.com",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "codedrink.com",
+            "prevalence": 0.017857142857142856
+        }
+    ],
+    "types": {
+        "XHR": 28,
+        "Script": 32
+    },
+    "nameservers": [
+        "ns-1760.awsdns-28.co.uk",
+        "ns-1266.awsdns-30.org",
+        "ns-242.awsdns-30.com",
+        "ns-839.awsdns-40.net"
+    ]
+}

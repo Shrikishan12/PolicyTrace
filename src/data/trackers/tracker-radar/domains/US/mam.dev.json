@@ -1,0 +1,87 @@
+{
+    "domain": "mam.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "trace-proxy"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mam\\.dev\\/advertisement\\/api\\/32\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trace-proxy"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gmx.net",
+                "anmelden.web.de",
+                "hilfe.gmx.net",
+                "hilfe.web.de",
+                "home.1und1.de",
+                "www.gmx.ch",
+                "www.gmx.at",
+                "www.gmx.net"
+            ]
+        },
+        {
+            "rule": "mam\\.dev\\/advertisement\\/api\\/29\\/envelope\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "trace-proxy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mail.com",
+                "support.mail.com",
+                "www.gmx.fr",
+                "www.gmx.com",
+                "www.gmx.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "uicdn.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 13
+    },
+    "nameservers": [
+        "ns-mam.ui-dns.org",
+        "ns-mam.ui-dns.de",
+        "ns-mam.ui-dns.biz",
+        "ns-mam.ui-dns.com"
+    ]
+}

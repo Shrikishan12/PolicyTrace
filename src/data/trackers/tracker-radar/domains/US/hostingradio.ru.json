@@ -1,0 +1,104 @@
+{
+    "domain": "hostingradio.ru",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "hls-01-dfm",
+        "meta"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "hostingradio\\.ru\\/igromania\\/playlist\\.m3u8",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hls-01-dfm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa7c8e77f54be495c66271324ac5dd0a010736214c99bf8587bfa5351ff3b02a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "igromania.ru",
+                "www.igromania.ru"
+            ]
+        },
+        {
+            "rule": "hostingradio\\.ru\\/rmg\\/igromania\\/native\\/full\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "meta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21dbaa40f699a4696c5a132234e5c472645bd322f1b20c6499c82ba7fea5271c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "igromania.ru",
+                "www.igromania.ru"
+            ]
+        },
+        {
+            "rule": "hostingradio\\.ru\\/microit\\/rbc\\/native\\/full\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "meta"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8960ef770aeaf79169dad78d2dd9c55c14902d72d413690028ee71816ecfa5b8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbc.ru",
+                "www.rbc.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7
+        },
+        {
+            "domain": "rbk.ru",
+            "prevalence": 0.3
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "ns1.hostingradio.ru",
+        "ns2.hostingradio.ru"
+    ]
+}

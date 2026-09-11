@@ -1,0 +1,151 @@
+{
+    "domain": "index.hu",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "indexstat",
+        "cdn.contrec"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "index\\.hu\\/stat\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "indexstat"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9219ee69c53438b3386666d1104565cadea194b2e309528fe5f254a1ffc47518"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.hu",
+                "sobors.hu",
+                "welovebudapest.com"
+            ]
+        },
+        {
+            "rule": "index\\.hu\\/icwsMin\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.contrec"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerWidth": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb3ff235267c9d77f1311b80c3f3b5d85cb8802272d4e7a8db66b01ed7dbab0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.hu",
+                "www.blikk.hu"
+            ]
+        },
+        {
+            "rule": "index\\.hu\\/f\\.html",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn.contrec"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e6122196201c3dd006367f6b951b53dad281c29be56571affa492dae32ba9502"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {
+                "tpc1": {
+                    "ttl": 2419207,
+                    "length": 39,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "femina.hu",
+                "port.hu",
+                "sobors.hu",
+                "www.blikk.hu"
+            ]
+        },
+        {
+            "rule": "index\\.hu\\/pixel\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "indexstat"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "ident": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "femina.hu",
+                "sobors.hu",
+                "welovebudapest.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9833333333333333
+        },
+        {
+            "domain": "indaplay.hu",
+            "prevalence": 0.016666666666666666
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Document": 4,
+        "Image": 3
+    },
+    "nameservers": [
+        "ns.index.hu",
+        "ns.inventra.hu"
+    ]
+}

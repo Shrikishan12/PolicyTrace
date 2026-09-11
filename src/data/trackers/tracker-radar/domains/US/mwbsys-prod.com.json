@@ -1,0 +1,112 @@
+{
+    "domain": "mwbsys-prod.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "cloud-keycloak"
+    ],
+    "cnames": [
+        {
+            "original": "sso.malwarebytes.com",
+            "resolved": "cloud-keycloak.mwbsys-prod.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mwbsys-prod\\.com\\/realms\\/idms\\/protocol\\/openid-connect\\/auth",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud-keycloak"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "sso.malwarebytes.com",
+                    "resolved": "cloud-keycloak.mwbsys-prod.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "malwarebytes.com",
+                "help.malwarebytes.com",
+                "www.malwarebytes.com"
+            ]
+        },
+        {
+            "rule": "mwbsys-prod\\.com\\/realms\\/idms\\/protocol\\/openid-connect\\/login-status-iframe\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cloud-keycloak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sso.malwarebytes.com",
+                    "resolved": "cloud-keycloak.mwbsys-prod.com"
+                }
+            ],
+            "responseHashes": [
+                "36f50fb151c900bdca7cc9853c071cb53b7c2bdc7728bd7cf62a0250b1bfd200"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "malwarebytes.com",
+                "www.malwarebytes.com"
+            ]
+        },
+        {
+            "rule": "mwbsys-prod\\.com\\/realms\\/idms\\/protocol\\/openid-connect\\/login-status-iframe\\.html\\/init",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cloud-keycloak"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "sso.malwarebytes.com",
+                    "resolved": "cloud-keycloak.mwbsys-prod.com"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "malwarebytes.com",
+                "www.malwarebytes.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "types": {
+        "Document": 5,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-827.awsdns-39.net",
+        "ns-1162.awsdns-17.org",
+        "ns-1650.awsdns-14.co.uk",
+        "ns-216.awsdns-27.com"
+    ]
+}

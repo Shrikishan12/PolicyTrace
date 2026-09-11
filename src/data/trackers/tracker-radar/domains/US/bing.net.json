@@ -1,0 +1,472 @@
+{
+    "domain": "bing.net",
+    "owner": {
+        "name": "Microsoft Corporation",
+        "displayName": "Microsoft",
+        "privacyPolicy": "https://privacy.microsoft.com/en-us/privacystatement",
+        "url": "http://microsoft.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00902,
+    "sites": 1317,
+    "subdomains": [
+        "bat",
+        "adsdk",
+        "tse1.mm",
+        "ts2.mm",
+        "ts1.mm",
+        "tse4.mm",
+        "ts4.mm",
+        "ts3.mm",
+        "tse2.mm"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "bing\\.net\\/bat\\.js",
+            "cookies": 0.00101,
+            "fingerprinting": 2,
+            "subdomains": [
+                "bat"
+            ],
+            "apis": {
+                "Document.cookie getter": 159,
+                "Navigator.prototype.language": 190,
+                "NavigatorUAData.prototype.platform": 189,
+                "Navigator.prototype.plugins": 189,
+                "Screen.prototype.width": 189,
+                "Screen.prototype.height": 189,
+                "Screen.prototype.colorDepth": 189,
+                "Navigator.prototype.webdriver": 189,
+                "PerformanceTiming.prototype.navigationStart": 184,
+                "Navigator.prototype.maxTouchPoints": 189,
+                "window.localStorage": 149,
+                "Date.prototype.getTime": 176,
+                "Document.cookie setter": 147,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 20
+            },
+            "sites": 195,
+            "prevalence": 0.00134,
+            "cnames": [],
+            "responseHashes": [
+                "c7c9dcf09224020cb107b0e11f35f86424d927c1c967f9bcfcc3ec2979a6c7e1",
+                "07ae7089eca927c943b00910f72eb1603e1262c56f62505236afa172d58e75d7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_uetsid": {
+                    "ttl": 86404,
+                    "length": 38,
+                    "prevalence": 0.0010000479475043324,
+                    "uniqueness": 1
+                },
+                "_uetvid": {
+                    "ttl": 33696003,
+                    "length": 38,
+                    "prevalence": 0.0009931983040282753,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.flixbus.nl",
+                "www.fulli.com",
+                "libernovo.com",
+                "www.jreast.co.jp",
+                "peptidelabs.us",
+                "www.clubpilates.com",
+                "www.bcliquorstores.com",
+                "crystalquest.com",
+                "www.everwilde.com",
+                "signaturemd.com",
+                "www.lunafurn.com",
+                "greyhound.com",
+                "pspeptides.com",
+                "careers.alaskaair.com",
+                "shopbeam.com",
+                "sacredplantco.com",
+                "johnstonmurphy.com",
+                "www.cytivalifesciences.com",
+                "jameshardie.com",
+                "www.depaarsekeizerin.nl"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/actionp\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat"
+            ],
+            "apis": {},
+            "sites": 778,
+            "prevalence": 0.00533,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arcisgolf.com",
+                "www.belfastairport.com",
+                "maps.acres.com",
+                "www.ilprodottomigliore.it",
+                "www.shapr3d.com",
+                "www.asadventure.com",
+                "orthofeet.com",
+                "www.vistana.com",
+                "hollandandbarrett.com",
+                "rishi-tea.com",
+                "www.tennistv.com",
+                "hema.nl",
+                "www.igus.com",
+                "brilliantearth.com",
+                "www.selectcarleasing.co.uk",
+                "www.alpinetrek.co.uk",
+                "www.dyson.fr",
+                "www.milkandmore.co.uk",
+                "www.guess.com",
+                "www.haystravel.co.uk"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/viewability\\/omsdkvideobing\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adsdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 76,
+                "Navigator.prototype.userAgent": 76,
+                "window.name": 76,
+                "Screen.prototype.width": 75,
+                "Screen.prototype.height": 75,
+                "window.innerWidth": 75,
+                "window.innerHeight": 75
+            },
+            "sites": 78,
+            "prevalence": 0.000534,
+            "cnames": [],
+            "responseHashes": [
+                "dc59aa5fb57555e8643b948694400d56065804b67a8bfcf21339b698197f300f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.showsbee.com",
+                "www.52spain.com",
+                "toolsguide.org",
+                "www.askaivet.com",
+                "actresseshub.com",
+                "www.shouldiremoveit.com",
+                "www.inchcalculator.com",
+                "techstory.in",
+                "explorejapanguide.com",
+                "www.mikegravel.org",
+                "www.torquenews.com",
+                "www.couponupto.com",
+                "www.memuplay.com",
+                "www.camaro6.com",
+                "wikiclassicalinfo.com",
+                "biblestorieshub.com",
+                "optnode.com",
+                "michigan-football.com",
+                "fastfoodmenuprices.com",
+                "www.11v11.com"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/action\\/0",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bat"
+            ],
+            "apis": {},
+            "sites": 466,
+            "prevalence": 0.00319,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.00008219572171268485
+            },
+            "exampleSites": [
+                "www.gabor.com",
+                "www.bathroomspareparts.co.uk",
+                "lucy.co",
+                "nelson.nl",
+                "www.merkurymarket.sk",
+                "www.jackboxgames.com",
+                "www.joybuy.nl",
+                "www.expeditions.com",
+                "www.boozt.com",
+                "www.capcut.com",
+                "smallpdf.com",
+                "www.ersatzteileshop.de",
+                "www.dietvsdisease.org",
+                "www.vosgesmatin.fr",
+                "www.modz.fr",
+                "www.reitmans.com",
+                "www.tackleworld.com",
+                "espares.co.uk",
+                "miwindows.com",
+                "www.praxis.nl"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/th",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tse1.mm",
+                "ts2.mm",
+                "ts1.mm",
+                "tse4.mm",
+                "ts4.mm",
+                "ts3.mm",
+                "tse2.mm"
+            ],
+            "apis": {},
+            "sites": 16,
+            "prevalence": 0.00011,
+            "cnames": [],
+            "responseHashes": [
+                "c20fd3762b40f7a61eb2b49b5c483959487a402acc8c0d89cfc73db93b80cbd3",
+                "fb333936bfb4bad24c3b8be9e05e36009e0acc10404d812aa5476a77aeeb96b2",
+                "6918553f782d127481e6401f8fc1faefe962d6987c2a8e4021a4b6a6e57f6c63",
+                "4a4c969b9c14fe7cab7fff8f70030435cd55f9d5d50dfe96352c57442187a1dd",
+                "3593e5a5845f13a2e9b37d567094c4d395928594c1809e20084ff714c94727e3",
+                "be57a18f9da1616b7c73922e147393601b7b086e285ee37a030d550da565a981",
+                "55b21ac654644f917dc69c706851dddfcf0261f7a414820bc97115f7eeaa5d17",
+                "5ef33b9eabe34e54838ecda96844c7bb095a59c5d4ddf600c55320152db13fff",
+                "754b5b670d95bebbe7551ce0a56a417700f8fb30c22a79313469e8405db964e9",
+                "a36d0e2ce27de09ade857fe6b349eab820d6c85b2d70bb84c5680cc9c1d9c65d",
+                "be6bf71fbaba31f2a1483bf5d9f62443f9e1e0a5c85f26a6653d25c8bb8b4ee5",
+                "7f2132375e3d6f51ec46a4f6a1258c6846481737ecdff1e94e7b3d64d6ca6e77",
+                "04356960b03db5ab81d281afcc264ca21b5628838c973c1caf00fb84901bdbe3",
+                "b98040c9734115d4be5f609760c223a02eaf1bed72d3d6a4b81545665131ec01",
+                "df9d37b6dae9793a13ebdbcdd5e6fc27dd3508c03fde990e2925f86eb6dbd8c3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kingice.com",
+                "apps.kingice.com",
+                "creativolkz.de",
+                "educationsurvey.steelcase.com",
+                "gaoa.work",
+                "kitchenwink.com",
+                "onionengine.org",
+                "reports.independent.ie",
+                "restaurant.restaurants-de-france.fr",
+                "static.recode.net",
+                "tordex.app",
+                "vertigorescue.com",
+                "wonstudy.com",
+                "www.autozonic.com",
+                "www.spiritdaily.com",
+                "www2.truthorfiction.com"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/viewability\\/app\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adsdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.name": 6
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "47783e8a1eb93ab40213a564c0de310670cfcfb311a98625141f881b90ab9f02"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "belcy.jp",
+                "discordbotlist.com",
+                "faucetfam.com",
+                "psymed.info",
+                "www.imvu.com",
+                "www.lifesavinghealth.org",
+                "www.sbsun.com"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/viewability\\/omsdkvideo\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "adsdk"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 6,
+                "Navigator.prototype.userAgent": 6,
+                "window.name": 6,
+                "Screen.prototype.width": 6,
+                "Screen.prototype.height": 6,
+                "window.innerWidth": 6,
+                "window.innerHeight": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "244f069a9d50e4308f3c203798ab6a8c8780e97edc99048579a41abe9ada6ebb"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigbrotherus.com",
+                "corvettetraderclassifieds.com",
+                "oneworldinformation.com",
+                "www.abbreviations.com",
+                "www.askbankifsccode.com",
+                "www.learning-mind.com"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/th\\/id\\/OIP\\.c11PRIARKEMEnx0QPCQ38gHaHa",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tse1.mm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c02fba70fff4220ada43fabdb496a9dbf69c0206454510cb1ebad90b727d3b4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezcontacts.com",
+                "www.ezcontacts.com"
+            ]
+        },
+        {
+            "rule": "bing\\.net\\/ast\\/ast\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "adsdk"
+            ],
+            "apis": {
+                "window.devicePixelRatio": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.connection": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.language": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "54a9343a57dcd9b62573c52206d9764f402f28cb5c5b14595ec35068bbee8e8a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ampparit.com",
+                "www.autotalli.com",
+                "www.caradisiac.com",
+                "www.etuovi.com",
+                "www.kauppalehti.fi",
+                "www.nettikone.com",
+                "www.nettikaravaani.com",
+                "www.vuokraovi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00133,
+    "topInitiators": [
+        {
+            "domain": "bing.com",
+            "prevalence": 0.7159043222828367
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.17247167436005037
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.054553084347461187
+        },
+        {
+            "domain": "visually.io",
+            "prevalence": 0.01049097775912715
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.00839278220730172
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.0037767519932857744
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.0037767519932857744
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.003357112882920688
+        },
+        {
+            "domain": "trackingplan.com",
+            "prevalence": 0.003357112882920688
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.0029374737725556023
+        }
+    ],
+    "types": {
+        "Script": 294,
+        "Ping": 778,
+        "Image": 484
+    },
+    "nameservers": [
+        "dns1.p03.nsone.net",
+        "dns2.p03.nsone.net",
+        "dns3.p03.nsone.net",
+        "dns4.p03.nsone.net",
+        "ns1-204.azure-dns.com",
+        "ns2-204.azure-dns.net",
+        "ns4-204.azure-dns.info",
+        "ns3-204.azure-dns.org"
+    ]
+}

@@ -1,0 +1,146 @@
+{
+    "domain": "intake-lr.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "cdn",
+        "r"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "intake-lr\\.com\\/LogRocket\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a2c8228d6798f04d03d64d1a8df8bd3ee599ef4cee8151d4172cb8eaa795c108"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mdvip.com",
+                "www.mdvip.com"
+            ]
+        },
+        {
+            "rule": "intake-lr\\.com\\/logger-1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 4,
+                "window.localStorage": 4,
+                "URL.createObjectURL": 4,
+                "Navigator.prototype.userAgent": 4,
+                "Document.cookie getter": 4,
+                "Navigator.prototype.language": 4,
+                "Navigator.prototype.platform": 4,
+                "Navigator.prototype.appVersion": 4,
+                "NavigatorUAData.prototype.getHighEntropyValues": 4,
+                "PerformanceTiming.prototype.navigationStart": 4,
+                "Performance.prototype.memory": 4,
+                "Event.prototype.timeStamp": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1e3ecba33b32b3b21bb4365492fa37096fad7b0662fa471d06d9a9478ef7ecd4",
+                "7a022f5b9ee28a19ae343ded91f7ea6f81f497671ff1b063067f164dae2a93f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.com",
+                "www.costcobusinesscentre.ca",
+                "www.costcobusinessdelivery.com"
+            ]
+        },
+        {
+            "rule": "intake-lr\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.com",
+                "www.costcobusinessdelivery.com"
+            ]
+        },
+        {
+            "rule": "intake-lr\\.com\\/i",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "r"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "7280fcd9a057fc8351c2fb1f70736c4618a73d7e47e52b31f817c4d10ccbb88f",
+                "8e4fadc03086de63825f30d719a318ec4af43e0440ebdfe447ee92da6bf15a0a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "costco.ca",
+                "www.costco.com",
+                "www.costcobusinessdelivery.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.5294117647058824
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.47058823529411764
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Preflight": 3,
+        "XHR": 3
+    },
+    "nameservers": [
+        "dan.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

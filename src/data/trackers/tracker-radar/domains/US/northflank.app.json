@@ -1,0 +1,153 @@
+{
+    "domain": "northflank.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "numbers.thestoryshack.com.relg-g2h6.dns",
+        "analytics.xfans.tokyo.xfan-6jw4.dns"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.xfans.tokyo",
+            "resolved": "analytics.xfans.tokyo.xfan-6jw4.dns.northflank.app"
+        },
+        {
+            "original": "numbers.thestoryshack.com",
+            "resolved": "numbers.thestoryshack.com.relg-g2h6.dns.northflank.app"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "northflank\\.app\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "numbers.thestoryshack.com.relg-g2h6.dns",
+                "analytics.xfans.tokyo.xfan-6jw4.dns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "numbers.thestoryshack.com",
+                    "resolved": "numbers.thestoryshack.com.relg-g2h6.dns.northflank.app"
+                },
+                {
+                    "original": "analytics.xfans.tokyo",
+                    "resolved": "analytics.xfans.tokyo.xfan-6jw4.dns.northflank.app"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thestoryshack.com",
+                "www.xfans.tokyo"
+            ]
+        },
+        {
+            "rule": "northflank\\.app\\/api\\/send",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "numbers.thestoryshack.com.relg-g2h6.dns",
+                "analytics.xfans.tokyo.xfan-6jw4.dns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "numbers.thestoryshack.com",
+                    "resolved": "numbers.thestoryshack.com.relg-g2h6.dns.northflank.app"
+                },
+                {
+                    "original": "analytics.xfans.tokyo",
+                    "resolved": "analytics.xfans.tokyo.xfan-6jw4.dns.northflank.app"
+                }
+            ],
+            "responseHashes": [
+                "31ca004a939945807ae10246cd0c85c426076bead5c8537a5803f4d93cfda825"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thestoryshack.com",
+                "www.xfans.tokyo"
+            ]
+        },
+        {
+            "rule": "northflank\\.app\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.xfans.tokyo.xfan-6jw4.dns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.xfans.tokyo",
+                    "resolved": "analytics.xfans.tokyo.xfan-6jw4.dns.northflank.app"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xfans.tokyo",
+                "www.xfans.tokyo"
+            ]
+        },
+        {
+            "rule": "northflank\\.app\\/api\\/log",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "analytics.xfans.tokyo.xfan-6jw4.dns"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.xfans.tokyo",
+                    "resolved": "analytics.xfans.tokyo.xfan-6jw4.dns.northflank.app"
+                }
+            ],
+            "responseHashes": [
+                "c955e57777ec0d73639dca6748560d00aa5eb8e12f13ebb2ed9656add3908f97"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "xfans.tokyo",
+                "www.xfans.tokyo"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Preflight": 4,
+        "Fetch": 4
+    },
+    "nameservers": [
+        "dns2.p03.nsone.net",
+        "dns3.p03.nsone.net",
+        "dns4.p03.nsone.net",
+        "dns1.p03.nsone.net"
+    ]
+}

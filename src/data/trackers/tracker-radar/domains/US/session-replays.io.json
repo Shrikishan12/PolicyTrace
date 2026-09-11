@@ -1,0 +1,102 @@
+{
+    "domain": "session-replays.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "worker-visa",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "session-replays\\.io\\/ssr-worker\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "worker-visa"
+            ],
+            "apis": {
+                "window.localStorage": 3,
+                "window.name": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fa61c24033353644818252cc7ceea1a2b86c171f2bb4d2cd4085d51064c43058"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flappr.net",
+                "www.skemantis.com",
+                "www.topfirearmreviews.com"
+            ]
+        },
+        {
+            "rule": "session-replays\\.io\\/api\\/websites\\/external\\/678d7087-f5c7-4892-a608-b5006765be68\\/sessions\\/undefined\\/recordings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topfirearmreviews.com",
+                "www.topfirearmreviews.com"
+            ]
+        },
+        {
+            "rule": "session-replays\\.io\\/api\\/websites\\/external\\/678d7087-f5c7-4892-a608-b5006765be68\\/sessions\\/undefined\\/recordings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "topfirearmreviews.com",
+                "www.topfirearmreviews.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 2,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "ns1.first-ns.de",
+        "robotns2.second-ns.de",
+        "robotns3.second-ns.com"
+    ]
+}

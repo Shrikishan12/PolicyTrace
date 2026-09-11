@@ -1,0 +1,114 @@
+{
+    "domain": "masterlock.com",
+    "owner": {
+        "name": "Master Lock Company",
+        "displayName": "Master Lock Company"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "masterlock\\.com\\/sentrysafe\\/static\\/css\\/main\\.84b208ba\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50559955a3a5fdde5fcacf802bf1b8851b16bbd6123d1d617e8ea70ed57e1b44"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sentrysafe.com",
+                "www.sentrysafe.com"
+            ]
+        },
+        {
+            "rule": "masterlock\\.com\\/sentrysafe\\/static\\/js\\/main\\.dfc67ebc\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "window.innerHeight": 2,
+                "Element.prototype.getClientRects": 1,
+                "window.innerWidth": 2,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f8e01e736485166e92f775752a2e0b01fe0fda28ba3e9d95902f93ca66d30537"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sentrysafe.com",
+                "www.sentrysafe.com"
+            ]
+        },
+        {
+            "rule": "masterlock\\.com\\/sentrysafe\\/static\\/media\\/sentry-safe-logo\\.39dd1990\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1b39614d919b02e7cf8b232d47ddc1550e9f26933aea9e3139f4346960107836"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sentrysafe.com",
+                "www.sentrysafe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns2.netnames.net",
+        "ns1.netnames.net",
+        "ns5.netnames.net",
+        "ns6.netnames.net"
+    ]
+}

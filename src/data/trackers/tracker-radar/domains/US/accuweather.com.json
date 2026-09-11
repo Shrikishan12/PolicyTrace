@@ -1,0 +1,185 @@
+{
+    "domain": "accuweather.com",
+    "owner": {
+        "name": "Accuweather, Inc.",
+        "displayName": "Accuweather"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "www",
+        "proxy.webwidgets",
+        "oap",
+        "vortex"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "accuweather\\.com\\/images\\/weathericons\\/38\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www",
+                "proxy.webwidgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f2254dbe33e7422e9ec9025a8babddbc6200d63b505adb33b5b849de53d9726"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "onwardstate.com",
+                "www.codyenterprise.com"
+            ]
+        },
+        {
+            "rule": "accuweather\\.com\\/launch\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "oap"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "640c9cbb97ba18dc1bcde7f36eed441db79a02b0912d0f4325d4b475d3b84565"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orleanshub.com",
+                "www.parkrecord.com",
+                "www.tonyskansascity.com"
+            ]
+        },
+        {
+            "rule": "accuweather\\.com\\/adc2010\\/oap\\/javascript\\/jquery-1\\.9\\.1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vortex"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c12f6098e641aaca96c60215800f18f5671039aecf812217fab3c0d152f6adb4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orleanshub.com",
+                "www.parkrecord.com",
+                "www.tonyskansascity.com"
+            ]
+        },
+        {
+            "rule": "accuweather\\.com\\/adc2010\\/oap\\/stylesheets\\/widgets-20170109\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vortex"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "19f4edf9189f8d003c27b29fcb6f1f1085660470101374fda6648c41d4280a60"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orleanshub.com",
+                "www.parkrecord.com",
+                "www.tonyskansascity.com"
+            ]
+        },
+        {
+            "rule": "accuweather\\.com\\/ajax-service\\/oap\\/current",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "508495d1699920401a3c40db7e96b7fc7d3afee2f0b8fb857f42f893530542d9",
+                "b9109e27afd00fdedad1aba289973b0999373ce75f279cd7d237b25f4f308b8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orleanshub.com",
+                "www.parkrecord.com",
+                "www.tonyskansascity.com"
+            ]
+        },
+        {
+            "rule": "accuweather\\.com\\/adc2010\\/oap\\/images\\/icon-get-widget-blue\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vortex"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d9f0fbf590b771fe9e61a3ea8a616dfbcec27d3016f27c1f01179bf9c49ed181"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orleanshub.com",
+                "www.parkrecord.com",
+                "www.tonyskansascity.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 5,
+        "Script": 9,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "a1-82.akam.net",
+        "a9-65.akam.net",
+        "a28-66.akam.net",
+        "a7-64.akam.net",
+        "a6-67.akam.net",
+        "a18-65.akam.net"
+    ]
+}

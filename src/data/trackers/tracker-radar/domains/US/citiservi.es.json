@@ -1,0 +1,149 @@
+{
+    "domain": "citiservi.es",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "dmp",
+        "a"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "citiservi\\.es\\/pxtrack\\.js",
+            "cookies": 0.0000548,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "window.localStorage": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "851f869dda7b71afe3e118d8ec525548f645eb912e866f7195955a4cf27da317",
+                "05965a0443acad52414a66d570fb177f7fc7e3a8d1e05a3e358460ff2d1a9595",
+                "83800187a0bc46a8525845b31880bdd9728e4d47cd6eb1cc9336aa293ec57661",
+                "638605c50bdd41b5ee4db62ffafe32f729349b736e0c98636e005d1782bfd330",
+                "e055d8d31710edeb78df9a973e9b1733d5ee847ee3db3fc86a0c92eb904bee21",
+                "d84628879c9eabda4a9e8900fab7e20a55ee892888e1579abd722542b3b9269d",
+                "446ed283df6dd252ffd20c0418161deefb67369bb1c8175f440e13c8f849e9c7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_btrid": {
+                    "ttl": 31536005,
+                    "length": 36,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "btrseg": {
+                    "ttl": 31556958,
+                    "length": 43,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "elespanol.com",
+                "vandal.elespanol.com",
+                "www.citiservi.com",
+                "www.deia.eus",
+                "www.hogarmania.com",
+                "www.noticiasdealava.eus",
+                "www.noticiasdenavarra.com",
+                "www.noticiasdegipuzkoa.eus"
+            ]
+        },
+        {
+            "rule": "citiservi\\.es\\/uscheck\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "9e619c84556989e71028ae6620a9a5ff930b6af1ac283feac9dfc8ca9fac61ce"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_btrid": 0.00006849643476057071
+            },
+            "exampleSites": [
+                "elespanol.com",
+                "vandal.elespanol.com",
+                "www.deia.eus",
+                "www.noticiasdealava.eus",
+                "www.noticiasdenavarra.com",
+                "www.noticiasdegipuzkoa.eus"
+            ]
+        },
+        {
+            "rule": "citiservi\\.es\\/pns\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dmp",
+                "a"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "1866961a029c65376fefb7f2ba1e6187e09ff50ea58d97dedfd72c197947d002"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_btrid": 0.00006849643476057071
+            },
+            "exampleSites": [
+                "deia.eus",
+                "www.deia.eus",
+                "www.noticiasdealava.eus",
+                "www.noticiasdenavarra.com",
+                "www.noticiasdegipuzkoa.eus"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6428571428571429
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.35714285714285715
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 6,
+        "Image": 5
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c2.googledomains.com"
+    ]
+}

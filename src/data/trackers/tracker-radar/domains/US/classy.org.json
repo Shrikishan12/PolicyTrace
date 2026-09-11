@@ -1,0 +1,1623 @@
+{
+    "domain": "classy.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000432,
+    "sites": 63,
+    "subdomains": [
+        "sdk",
+        "prod-frs.content",
+        "vanity",
+        "mask5",
+        "mask20",
+        "pay",
+        "giving",
+        "assets",
+        "mask17"
+    ],
+    "cnames": [
+        {
+            "original": "donate.garysinisefoundation.org",
+            "resolved": "mask5.classy.org"
+        },
+        {
+            "original": "donate.nami.org",
+            "resolved": "mask20.classy.org"
+        },
+        {
+            "original": "donations.nationaleatingdisorders.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "impact.patientadvocate.org",
+            "resolved": "mask17.classy.org"
+        },
+        {
+            "original": "investinamericanhistory.gilderlehrman.org",
+            "resolved": "vanity.classy.org"
+        },
+        {
+            "original": "support.eji.org",
+            "resolved": "vanity.classy.org"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "classy\\.org\\/embedded-giving\\.js",
+            "cookies": 0.000116,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 17,
+                "window.innerHeight": 8
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "08fa8507414a56e16b726fc02e6fb1967352181416b9a333ba170d1fcc2c0b5b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bloodcancerunited.org",
+                "eji.org",
+                "franklloydwright.org",
+                "gloryofzion.org",
+                "sigmachi.org",
+                "t2t.org",
+                "teamrubiconusa.org",
+                "thesatanictemple.com",
+                "www.baptistjax.com",
+                "www.calacademy.org",
+                "www.chesterton.org",
+                "www.gilderlehrman.org",
+                "www.guttmacher.org",
+                "www.hazeldenbettyford.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org",
+                "www.patientadvocate.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/frs\\/main\\.css",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "001b2b8fcfd6e8f10644601c34451d56f8b2f09259c5a46438647c2772e14988"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "teamrubiconusa.org",
+                "www.garysinisefoundation.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/cdn-cgi\\/scripts\\/7d0fa10a\\/cloudflare-static\\/rocket-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "ccf00d1923b0131a10e0c6d26f95e5dee6ebf8621a27e83c5a2f68a2e0093142"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/libs\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "HTMLCanvasElement.prototype.toDataURL": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Date.prototype.getTime": 5,
+                "window.devicePixelRatio": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "window.name": 5,
+                "Navigator.prototype.language": 4,
+                "Screen.prototype.orientation": 4,
+                "Event.prototype.timeStamp": 3
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4fd710b6ad8be58543b744c4a9f72eeeb676903eca3d98b443e8b58037d5fd73"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "teamrubiconusa.org",
+                "www.garysinisefoundation.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Navigator.prototype.languages": 5,
+                "window.innerWidth": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "7aa919446c5a80be3fc09b1a882d6bea1095b3ca9d025ddfd6fb0a593cb39792"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "teamrubiconusa.org",
+                "www.garysinisefoundation.org",
+                "www.gilderlehrman.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/frs\\/donation\\/module\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "32ac735664841a59182b8998ab85c873d35e3eaff3938a39d64aa67bf02ebea8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "teamrubiconusa.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "2c048f295c93b9daf8d878be94eb162ba8e6c9bbcdeb1c69292fb4968ea1db69"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/csrf-token",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "9d4fdc5dfdf899461f23cf58151d3428731495bdab4c8a0663a61851f6cf4ae1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/i18n\\/default-locale",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "23e0faca2e9fe8cd93db1907b2b7880a1c9fd648b19459e86507b34c30418e83"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/me",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/paypal",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "18626825aa12f083a5c64c71598cffe83bfa742a24cb8f8dba9824f16c2c71bc",
+                "59bef539f2039b580bb1e176eb01b083826fb82afa3001c69b68a429b4938185",
+                "bbe2740f748f62e4bf6a6ddc2c755a940fd79be15d0efe7a33331bb2591707e3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/static\\/global\\/images\\/user-icon\\.png",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "533fa970b9a282ac7844aa0fc228b7b69eb219085a5f2309c14d9a642a655e0d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-visa\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "7f872f37d93f6ad26cfde22f5fd7ae4e99f18c4dc7d3386384f92f845056750b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-amex\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "65ade054b003fb12ff528ad2640f69f49bca65d9f9d25b53dea8aee0d5d238cf"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-discover\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "b0fb4e1235c0c4815d6bd272ce4c9c65579c04f9c6e52a080a66393d01f84293"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-mastercard\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "9f88c56c75499f8886bcdbd43330029b3108f9aefb7e496788f448ed36311b90"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-shield-icon\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "38bc775802a9e96e44997f4e9374726a41d5c781752e590a76ad5a4f06673458"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/embedded-giving\\/embedded-giving-logo-ach\\.svg",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ebeeb6852c8d5689249269cfa59febdad1141a9810331c31d4331f53f47750f7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/images\\/dropdown-caret\\.png",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d372d0d92bf2b26449ffa2d1714cf84e78e2522cb462694f35f5dedae79ec74d"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/fonts\\/fontawesome-webfont\\.woff2",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "d792afdac7f7ae5de7c6964950c6c61dc6e3f3813180a59e141c7cb4ac4364dc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/prod\\/f3466330f2cc998e56f8604dbbe9bb9628a1cd30\\/static\\/global\\/fonts\\/ClassyIcons\\.woff",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-frs.content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e126549bf4e37071c7380fc4ed44a310ac1beac0a8ad181f80c260b9b62384c6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/ssobuild\\/js\\/iframeResizer\\.e5ecb41d52df30868660ebede6c2c531\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "1d8acb0916634c8a96e0ae21bd1850623af65868821aa47828a4e6fab7271d13"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/sso\\/status",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity",
+                "mask5",
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "support.eji.org",
+                    "resolved": "vanity.classy.org"
+                },
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                },
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                },
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "59a50c5d521609068defd9667100b3fe738ba40714de21055cb04be14a3d3a43",
+                "cd7e10cd3e69e87e23ce8536cc2930f38762079daeca7c8b11848e982c37d667",
+                "99acc0eda5cbf2c24c7dcd6e0e7308f434883e246c98ab1448c918c00c935e16"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eji.org",
+                "www.garysinisefoundation.org",
+                "www.nami.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/484323\\/channels",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.garysinisefoundation.org",
+                    "resolved": "mask5.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "1f5b957595dc4ce8f32e7fc374e7cc701119cc4ff8e9a1a2b8e62263b5102676"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garysinisefoundation.org",
+                "www.garysinisefoundation.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/plaid\\/createLinkToken",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garysinisefoundation.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/token\\/plaid\\/createLinkToken",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pay"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ad45f0c41d27a3bfb00f50acd6920bb1342149bff889ef65535a369568ea476"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "garysinisefoundation.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/610989\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gilderlehrman.org",
+                "www.gilderlehrman.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/610989",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "investinamericanhistory.gilderlehrman.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gilderlehrman.org",
+                "www.gilderlehrman.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/87398",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "healthywomen.org",
+                "www.healthywomen.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/83026",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 4,
+                "Document.cookie setter": 4,
+                "window.localStorage": 4,
+                "window.sessionStorage": 4,
+                "Navigator.prototype.languages": 4,
+                "Navigator.prototype.language": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 0.25
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "jta.org",
+                "www.jta.org",
+                "www.kveller.com",
+                "www.myjewishlearning.com"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/108866",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meijergardens.org",
+                "www.meijergardens.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/28352",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3,
+                "window.localStorage": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.width": 3,
+                "Navigator.prototype.language": 3,
+                "window.sessionStorage": 3,
+                "Navigator.prototype.languages": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 0.3333333333333333
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "missingkids.org",
+                "www.missingkids.org",
+                "www.ncmec.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/509521\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/509521",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "65cbd6e3be0723e5d26df50aa3e9f6ad208174b66f0eae52cd32bbe8a8478032"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/509521\\/channels",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "2fd9a5a58a676ff97665e974b786788b5411c7b403923282065f1c535da06b1d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/55548\\/tax-entities",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "3a7085a730a5d6be944aa4643637f7d44f1cfcdb6006675dea13a5c820a21810"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaign\\/509521\\/transaction-estimates",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask20"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donate.nami.org",
+                    "resolved": "mask20.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/7565036\\/0ec55d9e-3abf-11ee-88cf-0a58a9feac02\\.jpg",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4ba3b0926f2ae06bb32a2c2afb8e673f1f188d237e3ae81b10feeb9028908418"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nami.org",
+                "www.nami.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded-giving\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sdk"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "08fa8507414a56e16b726fc02e6fb1967352181416b9a333ba170d1fcc2c0b5b"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleatingdisorders.org",
+                "www.patientadvocate.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/652388\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleatingdisorders.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/652388",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "e0356d3a22153bf740c4512c2775b80c06ad6436b2908210ddf241863ea78bd1"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleatingdisorders.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/campaigns\\/652388\\/channels",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "630c382f12cdc7bfb693516b0a20a2f0463be6f9bd0d72bdaa46caecd8213121"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleatingdisorders.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/frs-api\\/organizations\\/85314\\/tax-entities",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vanity"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "donations.nationaleatingdisorders.org",
+                    "resolved": "vanity.classy.org"
+                }
+            ],
+            "responseHashes": [
+                "5c9ef268b54cbfdb389599cca67c7e487683b7fde13538bd23280dee15b49997"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationaleatingdisorders.org",
+                "www.nationaleatingdisorders.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/69535",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nationalforests.org",
+                "www.nationalforests.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/469415\\/",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask17"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "impact.patientadvocate.org",
+                    "resolved": "mask17.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patientadvocate.org",
+                "www.patientadvocate.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/give\\/469415",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mask17"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "impact.patientadvocate.org",
+                    "resolved": "mask17.classy.org"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "patientadvocate.org",
+                "www.patientadvocate.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/67687",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Navigator.prototype.language": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rainforest-alliance.org",
+                "www.rainforest-alliance.org"
+            ]
+        },
+        {
+            "rule": "classy\\.org\\/embedded\\/api\\/sdk\\/js\\/23840",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "giving"
+            ],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.languages": 2,
+                "Navigator.prototype.language": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pgdid": {
+                    "ttl": 34560000,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "i18next": {
+                    "ttl": null,
+                    "length": 5,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "siff.net",
+                "www.siff.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000425,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.3420074349442379
+        },
+        {
+            "domain": "feroot.com",
+            "prevalence": 0.2527881040892193
+        },
+        {
+            "domain": "rum-ingress-coralogix.com",
+            "prevalence": 0.21189591078066913
+        },
+        {
+            "domain": "classy.org",
+            "prevalence": 0.1524163568773234
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.026022304832713755
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.007434944237918215
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.0037174721189591076
+        },
+        {
+            "domain": "studioone.org",
+            "prevalence": 0.0037174721189591076
+        }
+    ],
+    "types": {
+        "Script": 60,
+        "Stylesheet": 6,
+        "XHR": 42,
+        "Image": 34,
+        "Font": 8,
+        "Preflight": 2,
+        "Document": 16,
+        "Other": 2
+    },
+    "nameservers": [
+        "eric.ns.cloudflare.com",
+        "elsa.ns.cloudflare.com"
+    ]
+}

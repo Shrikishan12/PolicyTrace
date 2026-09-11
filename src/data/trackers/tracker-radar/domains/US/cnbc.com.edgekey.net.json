@@ -1,0 +1,158 @@
+{
+    "domain": "cnbc.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "vs_gdsapi",
+        "vs_geo",
+        "vs_quote"
+    ],
+    "cnames": [
+        {
+            "original": "gdsapi.cnbc.com",
+            "resolved": "vs_gdsapi.cnbc.com.edgekey.net"
+        },
+        {
+            "original": "geo.cnbc.com",
+            "resolved": "vs_geo.cnbc.com.edgekey.net"
+        },
+        {
+            "original": "quote.cnbc.com",
+            "resolved": "vs_quote.cnbc.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cnbc\\.com\\.edgekey\\.net\\/market-mover\\/groupMover\\/SP500\\/CHANGE_PCT\\/BOTH\\/5\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs_gdsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gdsapi.cnbc.com",
+                    "resolved": "vs_gdsapi.cnbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "3dbf07302f4ab1273b93423e28bbfc0b160060b42360d21a9fc3fd805727dd62"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        },
+        {
+            "rule": "cnbc\\.com\\.edgekey\\.net\\/info\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs_geo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "geo.cnbc.com",
+                    "resolved": "vs_geo.cnbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "81b51de8bc9d34e5c1be295bc7a3aa46472a2814a5771afefe8e893c639423c6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        },
+        {
+            "rule": "cnbc\\.com\\.edgekey\\.net\\/market-mover\\/groupMover\\/MAJOR\\/CHANGE_PCT\\/BOTH\\/5\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs_gdsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gdsapi.cnbc.com",
+                    "resolved": "vs_gdsapi.cnbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "7b211b5876ada91a42291aa93bbe9041facdb1370f113997d059b2f398a00320"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        },
+        {
+            "rule": "cnbc\\.com\\.edgekey\\.net\\/quote-html-webservice\\/restQuote\\/symbolType\\/symbol",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "vs_quote"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "quote.cnbc.com",
+                    "resolved": "vs_quote.cnbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4a91e44211f296afaee4d573823155947dbe41c0f2f61b00394fe0f904a5a100"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 4,
+        "Fetch": 4
+    },
+    "nameservers": []
+}

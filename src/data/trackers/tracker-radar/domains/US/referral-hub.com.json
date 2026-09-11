@@ -1,0 +1,124 @@
+{
+    "domain": "referral-hub.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "proxy"
+    ],
+    "cnames": [
+        {
+            "original": "refer.minga.io",
+            "resolved": "proxy.referral-hub.com"
+        },
+        {
+            "original": "refer.xplore.ca",
+            "resolved": "proxy.referral-hub.com"
+        },
+        {
+            "original": "referrals.fusionacademy.com",
+            "resolved": "proxy.referral-hub.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "referral-hub\\.com\\/ReferralSdk\\/referral\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "refer.minga.io",
+                    "resolved": "proxy.referral-hub.com"
+                },
+                {
+                    "original": "referrals.fusionacademy.com",
+                    "resolved": "proxy.referral-hub.com"
+                },
+                {
+                    "original": "refer.xplore.ca",
+                    "resolved": "proxy.referral-hub.com"
+                }
+            ],
+            "responseHashes": [
+                "5cd6fa00d9a01a246ce36f2df893c8daf0bc7f50c2565c154ec49c7c27ac0cbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "calltrk_landing": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "minga.io",
+                "www.fusionacademy.com",
+                "www.xplore.ca"
+            ]
+        },
+        {
+            "rule": "referral-hub\\.com\\/externaltrack\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "refer.minga.io",
+                    "resolved": "proxy.referral-hub.com"
+                },
+                {
+                    "original": "referrals.fusionacademy.com",
+                    "resolved": "proxy.referral-hub.com"
+                },
+                {
+                    "original": "refer.xplore.ca",
+                    "resolved": "proxy.referral-hub.com"
+                }
+            ],
+            "responseHashes": [
+                "2987beceb998466f187d772231ad8f849909a772bc8ed79c1037120bd54b48b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "calltrk_landing": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "minga.io",
+                "www.fusionacademy.com",
+                "www.xplore.ca"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns1.dnsimple.com",
+        "ns2.dnsimple.com",
+        "ns3.dnsimple.com",
+        "ns4.dnsimple-edge.org"
+    ]
+}

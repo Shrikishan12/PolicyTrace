@@ -1,0 +1,78 @@
+{
+    "domain": "loaded.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "loaded\\.com\\/cdn-cgi\\/challenge-platform\\/h\\/b\\/orchestrate\\/chl_page\\/v1",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {
+                "URL.createObjectURL": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "RTCPeerConnection.prototype.constructor": 2,
+                "Document.cookie getter": 2,
+                "RTCPeerConnectionIceEvent.prototype.candidate": 2,
+                "window.matchMedia(\"prefers-color-scheme\")": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c758c5279bedfb8d3f5872d117d2719b2249da4a5acbaa623c88a857093051a7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdkeys.com",
+                "www.cdkeys.com"
+            ]
+        },
+        {
+            "rule": "loaded\\.com\\/favicon\\.ico",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21e16b1726216aaf77313d3a14ddb28ae6e0712af59316cb63d0ea0b1c8cb152"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cdkeys.com",
+                "www.cdkeys.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "emma.ns.cloudflare.com",
+        "ken.ns.cloudflare.com"
+    ]
+}

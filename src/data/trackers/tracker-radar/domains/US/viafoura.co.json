@@ -1,0 +1,5864 @@
+{
+    "domain": "viafoura.co",
+    "owner": {
+        "name": "Viafoura Inc.",
+        "displayName": "Viafoura"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.002,
+    "sites": 292,
+    "subdomains": [
+        "realtimeeventfeeds",
+        "tyrion",
+        "i",
+        "livecomments",
+        "notifications"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "viafoura\\.co\\/eventfeed",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "realtimeeventfeeds"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000185,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "WebSocket",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cbc.ca",
+                "www.telegraph.co.uk",
+                "www.perfil.com",
+                "nationalpost.com",
+                "canoe.com",
+                "windsorstar.com",
+                "driving.ca",
+                "calgarysun.com",
+                "ottawasun.com",
+                "financialpost.com",
+                "www.aarp.org",
+                "www.toledoblade.com",
+                "aarp.org",
+                "edmontonjournal.com",
+                "pagesix.com",
+                "calgaryherald.com",
+                "www.dailykos.com",
+                "edmontonsun.com",
+                "ottawacitizen.com",
+                "www.thewhig.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.aarp\\.org",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a0dd48ae09bc0e1b33bcf2ee55ce72b648849ecb9f4dd471a4074402fc675e2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-31a3fec8ccc2\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a669ffcc0d9be7eee0435c224201dad6f0677577f52bddfae7432389a85dda13"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-31a3fec8ccc2\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c36cf6c86f524a45b9e354ef0f78d6cf3f2b8e288953afac6b6396ad881e72b2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.aarp\\.org\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-31a3fec8ccc2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-31a3fec8ccc2\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aarp.org",
+                "www.aarp.org"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.amny\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6f396fa72d1637eee85c8f126d71ac02ec3b308481f58f478b01bd3219ca3330"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-062523ee3216\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d107ac89538a9502e753ee2666b5a86952d9f0e8d42a45851f62cab2ea016c3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-062523ee3216\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-062523ee3216\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "246a52aa7843a8f29a676468b13e167809abc66c3a844accfd222ccf40943d54"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-062523ee3216\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4c42df144377da6f6c05e501a338aae4ddbc5c7d7f556475e394e1f0b3316e26"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-062523ee3216\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amny.com",
+                "www.amny.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.androidcentral\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "90cc4abb4d3e82f5bd99ac6d3fc1a238e1927dfbdc916e4a03c8a7afd19d5ecc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-1366930a87bc\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e72ee5510f7633ba017b5dd7f2df53c29f07172eef721b1fe7ea733c0c257ea4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-1366930a87bc\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e7acb846fc3c556f6c44a887d3f07bf038551c57b90d49b4082071f7ea54616c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-1366930a87bc\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidcentral.com",
+                "www.androidcentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.androidauthority\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f994fbb7ac59012ec44662cea576fb30808459d6d0fe33ec7fc38d00c514dec0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000027398573904228286,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-21292b56a95d\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4da36cd088391173bfcf66e0ab1753cf00eb56aff89f92753aca25016540f892"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-21292b56a95d\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-21292b56a95d\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04c21acaf84917344de5d31d48628fb48155b321746ccb9a14d7e25e0b77db0f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-21292b56a95d\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f30f62d55379c0f0765b8aaed32c65f6c1cbcf5dc423fff49f76b5ee08be412f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-21292b56a95d\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "androidauthority.com",
+                "www.androidauthority.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.brainerddispatch\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81da256fe60323419908e65e7742f9aabf9d4e320d3a8066cc799990cbd85465"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c51395d1d25e\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "120fd674820446c999f00fb75ba344b3df58dd3183fc6bbcdc1c94a77271963f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c51395d1d25e\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "20d582b84e710bd00c4901cc6827e76d7199796c31bdcf2ac213c2adfe55441f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c51395d1d25e\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "brainerddispatch.com",
+                "www.brainerddispatch.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-151fed86391b\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04bbb7a528747b29c18e8e8f6eee1d06327cc25d265031a15d56d5bb4c9af8af"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "casinos.com",
+                "www.casinos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-151fed86391b\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "casinos.com",
+                "www.casinos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.cbc\\.ca\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.cbc\\.ca\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cbc.ca",
+                "www.cbc.ca"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.centralmaine\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9dc3724949c97cc4a8f566386a756d706aac2de175b17b126ae9386bf7b887c1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralmaine.com",
+                "www.centralmaine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-84c84848ce16\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "249405a2be93bb19f61872a68f64d210678e0ecba2c049c6dba03195edd5410d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralmaine.com",
+                "www.centralmaine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-84c84848ce16\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ad38bcd6b291d331039bdc332772eae736a05663a756c94d195e58523246b61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralmaine.com",
+                "www.centralmaine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-84c84848ce16\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "centralmaine.com",
+                "www.centralmaine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.cinemablend\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39b52c32b567df54c718f9508733c320d6c29698dfa5e6ba4ab192810a6f0dbd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-249d1527e488\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c3839ffffecf612c6216e3d8235a87016c981857f8e86a3bbc00bd59395a8d8e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-249d1527e488\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33cd1ffa169645305ac9732acde6c8e1c884d59ee1139626d9080ccbf8859e10"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-249d1527e488\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cinemablend.com",
+                "www.cinemablend.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.clickondetroit\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2da0f4c1482386d160fd12e6cfa04f39ebdeea9f2cea3e8da4d65120189d3dc7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.clickondetroit.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.click2houston\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "click2houston.com",
+                "www.click2houston.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.clickorlando\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "clickorlando.com",
+                "www.clickorlando.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-57a6fb5ed05f\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.clickondetroit.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-57a6fb5ed05f\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clickondetroit.com",
+                "www.clickondetroit.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-15f20482a34c\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e9344da72bf02d201f352fd0520348518d58781a41a9a6eb658c774e3965ebc8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-15f20482a34c\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.crash\\.net",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "98c122420fd157d2b6cfe3e43703ba7c30e69c2f6cbd1fb60b56696a3bffd117"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-15f20482a34c\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f425f6db3777a3b93ac426496aba015f3c9ef226d4bf82318771cad8465d14c8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-15f20482a34c\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1369493b1a75924bc03ba32107a2d81191f5eb2e093fddb9540b51e28a81c7b4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-15f20482a34c\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.crash\\.net\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crash.net",
+                "www.crash.net"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.creativebloq\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "387afe2d1ce028e49b008e22badc210f339d940ae95d8af614db093e08c08d38"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "creativebloq.com",
+                "www.creativebloq.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-904a46ca14c1\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2fac148b9a5f6e16729cecb0d148cb3a24a87fcb3256e18dc61778297b223633"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creativebloq.com",
+                "www.creativebloq.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-904a46ca14c1\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a17757d1a15f15588bd4617c8d048d9b292654063a32021943b0c794a42e78c7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creativebloq.com",
+                "www.creativebloq.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-904a46ca14c1\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creativebloq.com",
+                "www.creativebloq.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.cyclingnews\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4b26da22fd2bbf4857dbd9601ee4576ff0753f4a1fd924216b367c965b8806f6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-efd6e4680735\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cd46ea65a12fcd9a1aae9229c2b2bc5fae02f0bcd9d850e0bf0e320ce08b5d27"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-efd6e4680735\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b68ca1275eb9b7a9743c3822afbef875a9c72b95dd183fbf75e88b52c0af9dd7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-efd6e4680735\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingnews.com",
+                "www.cyclingnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.cyclingweekly\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b0e1771ac9d19b3261b54a52057a4399b2b5853794085ac84ed4cc2a104dc1db"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-d97fbc82a433\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "866567df88a937b3b15c36306478d807e6f7d117832b90aec90118ae97e6f32f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-d97fbc82a433\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7cb5d410df132ff0968b8e056731145d6108d06bea369a0f8e2eb187c82a95a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-d97fbc82a433\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cyclingweekly.com",
+                "www.cyclingweekly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.dailykos\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8a14654c90c6711b8a0b29a6884b6d708c6d80130be4c35ef99927b84acc718b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000027398573904228286,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-1b2a7f0f4726\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6fd2c9e256b0e13ebb537526a3b19666617ad0255c4274c2da58d7b5487c0b85"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-1b2a7f0f4726\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ca88aaa520c83239ddc0efd5fcfbe1791276779386d574b7e04f137b8a854cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-1b2a7f0f4726\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.dailykos\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000027398573904228286,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.dailykos\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000027398573904228286,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "dailykos.com",
+                "www.dailykos.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.digitalcameraworld\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d9402fdb1b96b9d962d1a95d42960363c8689b4f25bc9d13f5a723b6bf0be386"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c34302deb638\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "695609aed4a1f364a42b0070389756709281c3bba6144784adcc532241738cbe"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c34302deb638\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bef941a478fbe99626e12e6954734793845aa2710c3da0f39c00ee4468f08ef9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c34302deb638\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "digitalcameraworld.com",
+                "www.digitalcameraworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.duluthnewstribune\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "07b595f046832f6c25096b5338456458f782afc23d114f17e0966ac83def388c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-39d5eb71fb0e\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "713d78a0d81334ce69e4a4b9d4e48ce8af49730d6df21e7bd81182247901b7b3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-39d5eb71fb0e\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "667c7504697aa71ffe97ba8cd1b6f268b124e2478cc6dd811a18bbbc148eb8ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-39d5eb71fb0e\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c0b5f0eb5e13fa9fed36c90a72c451d51777908a5219764b7fb7d20dd2acca9a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duluthnewstribune.com",
+                "www.duluthnewstribune.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-0ed77b31aaaf\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.co.uk",
+                "www.express.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-0ed77b31aaaf\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af60a37d4cfdb70ee1de8c9e9dd13d0d6986fa24c7aacb2d43949e04b3bf8a14"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "express.co.uk",
+                "www.express.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.firehouse\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa93a07ec4d1d0bfce1e9148a0950015f9d7b1a4dec932e6b6b1122e2c8937d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firehouse.com",
+                "www.firehouse.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c574d0f666ca\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd2645847dd8cf372139f8be59ebd7b4ad4ec681d4fb6cbb4615a1bd4fe5a63b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firehouse.com",
+                "www.firehouse.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c574d0f666ca\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "91e1d6ed1a8d73f667de23a48fe293ca9ba39fa3b3cb884e32acff19a588c322"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firehouse.com",
+                "www.firehouse.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c574d0f666ca\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firehouse.com",
+                "www.firehouse.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.firehouse\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "firehouse.com",
+                "www.firehouse.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.fitandwell\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5014e8cb6539a2e25bb17f0a707469448159d78ef18916fc01dbcb17bb93ebbc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-8aa550a11ebf\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6d3535b144b6fde3766ea501aa087e2dd33700dd341ca0ba8c83779957e070a0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-8aa550a11ebf\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "61bbe7ab3bd56caad944f78c9c06220b3af5ce20dd0274b68b9f78926b2b768a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-8aa550a11ebf\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fitandwell.com",
+                "www.fitandwell.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-748b7f005cb4\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e38d49837575766076a0752b1556024ad05fe8de810f486884810995ab216993"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-748b7f005cb4\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.football365\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fe9bfdd65c27705852b3179361ba7069d1157404c8a79864f8eec0055f4b0bda"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-748b7f005cb4\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3cbfd3af6d1e9c660e01c08871160de08982ac66e08aa06cd10c19768d54c6c5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-748b7f005cb4\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "519718c1e7959303c1841da3c741a6a5d2c9fe2d5e3ca946b7ec8b49930c1b65"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-748b7f005cb4\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "football365.com",
+                "www.football365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.fourfourtwo\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5eee0c94b66abed804b75ad820c7027182df9d1afac1e35868f5a3259e865f4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "fourfourtwo.com",
+                "www.fourfourtwo.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-7e0217e36baf\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "065234af2831223f4ed70eb00ca03957edc9eeff1ac24cc9f18bede0eb00f2a3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fourfourtwo.com",
+                "www.fourfourtwo.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-7e0217e36baf\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "369ccfe213e81ff5835e85bc0a7d1d9052639f88d536b2682b2ee1cc49b21252"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fourfourtwo.com",
+                "www.fourfourtwo.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-7e0217e36baf\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fourfourtwo.com",
+                "www.fourfourtwo.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.gamesradar\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "00ae61492ca640b588643f9e4a7f0fdf34651d9584629eac664106cd926a637f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "gamesradar.com",
+                "www.gamesradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-92fd42e8d689\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "abeb10f6506653c0e3abe9389334e1bdff721222d7e72066daf526b06a3aecc5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamesradar.com",
+                "www.gamesradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-92fd42e8d689\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "99813065577e9415709e06de7ade79e72cb1f087450d84b3f5e7bdca25b68322"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamesradar.com",
+                "www.gamesradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-92fd42e8d689\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gamesradar.com",
+                "www.gamesradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.gbnews\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef82ed710f84cddf01dad00c16a4489da9ca4c627e1dcc1bb9e4f7e65b160ad6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "gbnews.com",
+                "www.gbnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-d9187a288918\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gbnews.com",
+                "www.gbnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-d9187a288918\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gbnews.com",
+                "www.gbnews.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-e3cd4e6d735f\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-e3cd4e6d735f\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "44a174da4affa549e5fb1c123306731489a628d7aaf042cd5cff0ce99eb12cc8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.golfmagic\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5c77178f4dd86ec08b036f8e1360fbce6794e12cb6dc0cff743f77fe9f469a5e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-e3cd4e6d735f\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82627c6cf2a064278229d96345c5dd47a98883a8444efb90b696baddc913ae81"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-e3cd4e6d735f\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c414ec5a4c255e7c7d3a48fd8620a9d03ae721c3ec4077cef8759b28193c3d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-e3cd4e6d735f\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.golfmagic\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmagic.com",
+                "www.golfmagic.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.golfmonthly\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b099ab98e2e7c3613a643e1ea2ce39fa8bf5cc18da333d0094a745c5fb4552d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-5e42ba1a9ec7\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7323cc0fa3c6e1941c17f189d4c7f6c4bf81bd98e0e927c5d499d32e6d0a5fad"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-5e42ba1a9ec7\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39fe0f456a1e4863f4ecdde09bbbeb3bb4cc1b59fdafbfb0ff2712b51b924b04"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-5e42ba1a9ec7\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfmonthly.com",
+                "www.golfmonthly.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.grandforksherald\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e986260017c58667b4d3a07daf6d4ef0f96b1ced7564ea911b86fefd5aefd54"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-2ee7125f71b1\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "80fc2ac1fc218fca79fc6293b7f297e90ac875f13760e449385af8fc4c0f2a3c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-2ee7125f71b1\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b048406098baff17cadc280d47c0e3901dfe243c3d8a933f8da0779b87abf6cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-2ee7125f71b1\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4a7e111e90746afee9ff482ccc91c805a4b171e5b9d8d27e66d0c11be916c362"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "grandforksherald.com",
+                "www.grandforksherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.guitarworld\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ffa7dd4b566dd630b05951322da32fbe93c1953bcaaea27538c047e3ad603fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "guitarworld.com",
+                "www.guitarworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-5fee3404022d\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3073335bd9b160c6e3d29c72f80234e4fcc86a06f20c83294bbdb6cb759f0470"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guitarworld.com",
+                "www.guitarworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-5fee3404022d\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8e94adc9c615987e9a435b2e4d5a248fca3cb536fdbdf66d17e10d2a61e142bb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guitarworld.com",
+                "www.guitarworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-5fee3404022d\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "guitarworld.com",
+                "www.guitarworld.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.hellomagazine\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4182a04a71407b97657135887108769a308e12d170888740b8fc71ddaa0570e0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "hellomagazine.com",
+                "www.hellomagazine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-653767b194e7\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8c53d73197c251ce1992828a63a2378a3bec6774939b4dbde9e8bcf9b74448ab"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellomagazine.com",
+                "www.hellomagazine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-653767b194e7\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "98ef5ab622993a848573bfba23bc86b2a56c4e4daf1eaff92323f08dea030614"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellomagazine.com",
+                "www.hellomagazine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-653767b194e7\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hellomagazine.com",
+                "www.hellomagazine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.hellomagazine\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "hellomagazine.com",
+                "www.hellomagazine.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-ed97bd113772\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heraldscotland.com",
+                "www.heraldscotland.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-ed97bd113772\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cdd1ad236e10f05f7e3dd5d9c43b4770cf5508d4ac28412f805e10f089409615"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "heraldscotland.com",
+                "www.heraldscotland.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.inforum\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f60e81f5a5f2a177255d67ec5d8929bd3f15d3db9b430858799e0a2256fb48e6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-b58f08ddb772\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39bfe73a3c660b92987daf3c9354cfc0e521834dd08dde69cda772f8fb770894"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-b58f08ddb772\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "efb9ba3530d91618e690b4bb5afe64616006e7110dd0c07299f2e134b4365819"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-b58f08ddb772\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fce824c0ad5d02155e7cd8b985f6cfd93135d80322d4a01fa389f78fca1164aa"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "inforum.com",
+                "www.inforum.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.ksat\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b95cb2b3e1dd37ef682313cb0e34d832a5aa68eef355e5cfecb9a3bcc5c4f69e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "ksat.com",
+                "www.ksat.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-f41528791ab0\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksat.com",
+                "www.ksat.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-f41528791ab0\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ksat.com",
+                "www.ksat.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.livescience\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e44549459411a9ec7a57852e52ca326435fe3f4a9afd955ed0d9154de459926a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-7dd3b44d1ff0\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6e4ff19fef993cac538cd47cb81d10f5486a912a4824ace81227dc1a6aabcb47"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-7dd3b44d1ff0\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4fa4fcc3c159e07ea486265e9e39cdeb9d2d56810e512215153d771c90e774d4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-7dd3b44d1ff0\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.livescience\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "livescience.com",
+                "www.livescience.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.local10\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3b912371050daf5c0d9fc03d744c69ed256d9d8d30a3b5bc24761c31d1b2f98"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local10.com",
+                "www.local10.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-d89b67108288\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "82b4e6d34c8939cb16d083cc0bf8ac55fb506d7d2a628b74ecaf740e67516c70"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local10.com",
+                "www.local10.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-d89b67108288\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e609b1d4c70515f41ffc0b423e5ec26947c87303537eef3ef0aa14acba25053a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local10.com",
+                "www.local10.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-d89b67108288\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local10.com",
+                "www.local10.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.local10\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "local10.com",
+                "www.local10.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.loudersound\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "258a8ddf3d9982ca19aa6863b1e090f8bd60200275cee13fee6cf59782401882"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "loudersound.com",
+                "www.loudersound.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-ce1b15969151\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c961f7809b47e268f44c81628a9650e6a9e06d784d53167a3253a2dcb4f94855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loudersound.com",
+                "www.loudersound.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-ce1b15969151\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "51a9b0a135d496fc46fabbe8ddf18f3b3dde72a7a6a0c1fac790fb35efc5ab77"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loudersound.com",
+                "www.loudersound.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-ce1b15969151\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "loudersound.com",
+                "www.loudersound.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-4c2edca23fe5\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medscape.com",
+                "www.medscape.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-4c2edca23fe5\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "33851258f04931b19e082e5674fa1c02c5d5fa310e1888995cf25dfe58c6a77c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "medscape.com",
+                "www.medscape.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.ms\\.now",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f65e3d6b9f23ee0a65c66846d9403c188aba726ca08dd149b6bd1a6994b84d96"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "ms.now",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-6a79d3a3fed6\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "555bcf363d7544623e7dcbb34dfafc3c0b17aba6c8925eac78619d7979431c16"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ms.now",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-6a79d3a3fed6\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5739f874a9a4eedbddf3eb2009ee9d42534f26e96983835b407b49e184357dfb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ms.now",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.ms\\.now\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "ms.now",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.musicradar\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "155a5645ac8093b25bc34f1d5bfaceb724eacc256037546ed16afbc72e3ab8e4"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "musicradar.com",
+                "www.musicradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-08c28b474726\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "596d3dd1958d5819569bd1dbc2077486bf6e98ce44e1c5ac251bf587d5493b1b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musicradar.com",
+                "www.musicradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-08c28b474726\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "387a6d9068aa0986a485bfe336298fa6ae750b20fd3b2aef59267c2116936a6b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musicradar.com",
+                "www.musicradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-08c28b474726\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "musicradar.com",
+                "www.musicradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.news4jax\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c4d618c2396fabc75c1c8e3944e34dd7dad1cf9fa250c891cb28f4c2043b844"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "news4jax.com",
+                "www.news4jax.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-052737eae856\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54c94dd2fe078c95b91bee319938207e65ecbf16c0c0770427e0fb2efec2cd6d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news4jax.com",
+                "www.news4jax.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-052737eae856\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "867613c290dd282fae9d1898cd075f0150fe6ed386c64ccf8e8ad008d0038f85"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news4jax.com",
+                "www.news4jax.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-052737eae856\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "news4jax.com",
+                "www.news4jax.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.pcgamer\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a28307945d86779fb984c9b01357a35d4930cb9066e0e8f44384281bac4082b1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "pcgamer.com",
+                "www.pcgamer.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-70e6da1c7451\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "781a6942ef4dde2c72204f969ed32f65bf54545c3770704c50d7b20db3076a52"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamer.com",
+                "www.pcgamer.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-70e6da1c7451\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4bb84e123124228864f0bd3942902d8cf9330062edd6c37434b8d371980c4b6c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamer.com",
+                "www.pcgamer.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-70e6da1c7451\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pcgamer.com",
+                "www.pcgamer.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.pcgamer\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "pcgamer.com",
+                "www.pcgamer.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-1807bd3dc0e1\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "46afae8c2d552fda1edfef732e928cc9efc388b095737139f389db6a18845a4e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "perfil.com",
+                "www.perfil.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.perfil\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "paywall_last_article_domain": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "perfil.com",
+                "www.perfil.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-825392db3308\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0589d2b8899ed73a1052e90eca22b7cedbb34eeea988ff57cf79b1f56d7984b0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-825392db3308\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.planetf1\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c8875baa3487a0b16004f55dbfdd561e39d10fa7357bff72770c10686b3e44e6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-825392db3308\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9fcccf65f13bf03a4b3c40f2f6a78bbe99294e23168752158d5a58ab35081f63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-825392db3308\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ca3ac04ff65c98a2cbdbecd801978a0f175e5ad40989290daa161e7e1de12b90"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-825392db3308\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "planetf1.com",
+                "www.planetf1.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.postbulletin\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0055da0b1726cc083a8a875b4b42f7f8fd90d0c013317aeeb2c0654d41f59216"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-e3448c7eef9b\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "50ea15c7a911a9b5233d4bae205bb16fa1b6cce36f6c0059ec5c90f493411a6b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-e3448c7eef9b\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d298362bf192fe1a395c4ffc0ae3d4aeb1b01705ecb29926636a5aa944fcd913"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-e3448c7eef9b\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "85298fe4478e4b610b590732883bca669d148e41dc1ec81533367d3d24608aea"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "postbulletin.com",
+                "www.postbulletin.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.pressherald\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4bf295b3b46aef53a1eb716f77d3541993ea7604e6327407f5e2df708fda569f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressherald.com",
+                "www.pressherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c8dd2792a3f5\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cd7bc409cffb41283bae24adf1914bb0e7c56e9be76d23cdf123b7e86dafc0fb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressherald.com",
+                "www.pressherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c8dd2792a3f5\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed5b47a1d59faa714efe95c85398ad55a0c7fcdd47ee85269fe04b32b01f48f7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressherald.com",
+                "www.pressherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c8dd2792a3f5\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pressherald.com",
+                "www.pressherald.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.saltwire\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b15bab844cfa10bfcd8d5be7cfa98e08288ac1bbe2ded7b326cb0b10eb5e8172"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saltwire.com",
+                "www.saltwire.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.shortlist\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd02b918a8538771fdf848cfc79fcb47f32eaf7b86e1505f6946eee08cfbd8ac"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-602427863260\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ef70e46536d79b7d0cdcc125c4b5d29a5297e22f6457f135cd4ed8bf8b56c7cd"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-602427863260\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2024c752b2d2ea71884a169590281f6d8a99ed81de08137e85438c6c13a42b23"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-602427863260\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "shortlist.com",
+                "www.shortlist.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.soapoperadigest\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bec490d8fdfd60143b9843f1bd9ddd6ec41d7aad06feb4e2a504f4492cbd1810"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "soapoperadigest.com",
+                "www.soapoperadigest.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-879f4858176c\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f05b38e014a780bb4398db0e32bfe088ccd1fdfe6d06d073e157fb78a4f3e7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soapoperadigest.com",
+                "www.soapoperadigest.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-879f4858176c\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3de128af9694acce41b97b0eb2bf72285f271e1c5f50b86513a7c0a379813a2e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "soapoperadigest.com",
+                "www.soapoperadigest.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.soapoperadigest\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000027398573904228286
+            },
+            "exampleSites": [
+                "soapoperadigest.com",
+                "www.soapoperadigest.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.space\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "39c9a2dbe78a85be3daa4c3867b0e1f9f3bb2509229ae83dc92ebee9f5aa1496"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "space.com",
+                "www.space.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-eb78d4731511\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4425cc4ce54d13751df39a6c516de3abae4f624f7bea9c55fae86d9e860c69c9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "space.com",
+                "www.space.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-eb78d4731511\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f7a92e6eed5aae73a5a671a4f2c4b589d6cb12d445042359cd5d3b1b8c0006c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "space.com",
+                "www.space.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-eb78d4731511\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "space.com",
+                "www.space.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.standard\\.co\\.uk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b682c4cf1245028802e40e2c5c342ee8466c166aeb3fe1dccada58d77b02e4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "standard.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-ec78dd241747\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81ec163ce6f298aad736ecd5e6d8ac85251fe0889bf5789d67171c93fdc32033"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "standard.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-ec78dd241747\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2c803948c3942e934a606943ee934a5df91bbe4bf4ed1939297fafb28c547623"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "standard.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-ec78dd241747\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "standard.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.standard\\.co\\.uk\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "standard.co.uk",
+                "www.standard.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.sunjournal\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b3a06c2d2a473cd2c9f9024ffd03716ca04c08efd1602452cf6fa920c2a38275"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunjournal.com",
+                "www.sunjournal.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-419bb79c86cd\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "15c8e912300f1202c123aa36513fe581c92e7ad72ee2e84fb2099eed84886797"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunjournal.com",
+                "www.sunjournal.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-419bb79c86cd\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ad0edd8bebc0f5e6f2fb8f5aa7328c7ef58055030b49c599cefcd45df540ed61"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunjournal.com",
+                "www.sunjournal.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-419bb79c86cd\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunjournal.com",
+                "www.sunjournal.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.t3\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "81e31326f400712ee0f85ff4f680a7f5d082075709e54ea12df3483937db3480"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "t3.com",
+                "www.t3.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-8695d54633d1\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ffb338c8a6ebce8eed2742704d3238c58e8c9b421716977e246924e18358179"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3.com",
+                "www.t3.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-8695d54633d1\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8e29d428465b38664d3358214d20d208cc7f238dffeb95e06f546a158816ca7d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3.com",
+                "www.t3.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-8695d54633d1\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "t3.com",
+                "www.t3.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.tampabay\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7342403a83518d744039d38e734e7e3c28313b6d5b08c5388d9c0d12b28542f3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c2314bdf73f4\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f72654b647b03d3a4ba78fa97d2544bceebc45a25edd883047691c7eaa73a0a6"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c2314bdf73f4\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c54ddfd34cc8df6e0269bd9030d8ceaea0c91763c532ee87d57152f4a8bcab16"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c2314bdf73f4\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.tampabay\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tampabay.com",
+                "www.tampabay.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.tasteofhome\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eb2b8c8c9feb9b4ae768edcc0467bf169a3b6dc5d473aee26e0e5426eb73e38c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "tasteofhome.com",
+                "www.tasteofhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-e1beae9772b3\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2f1b3ff1ecd1dc9204a2654238d7b2075e7a41346a742b16bd3f68e89e90eafc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tasteofhome.com",
+                "www.tasteofhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-e1beae9772b3\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "66ea4e7ddbe44f9aa8f9fe313dc160af0b593a227eafd762800d080a2579d706"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tasteofhome.com",
+                "www.tasteofhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-e1beae9772b3\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tasteofhome.com",
+                "www.tasteofhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.tasteofhome\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "tasteofhome.com",
+                "www.tasteofhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.techradar\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "72775a8786dd38d91d766c9293aa33c282c7f3970338aa1c7c1502e4deab669e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "techradar.com",
+                "www.techradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-ef463b4a7c7f\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "faf77e2320565b6be362e0b409da1ea31d8ce52f1a5996c72ae59567b5ee0942"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techradar.com",
+                "www.techradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-ef463b4a7c7f\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "527c7b8073075de822faeb6fc84846a2c2d776bd558b47a2085ddcb605bfb98b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techradar.com",
+                "www.techradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-ef463b4a7c7f\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "techradar.com",
+                "www.techradar.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.telegraph\\.co\\.uk",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ba0f1ebb9deb1e912bb264ac1886704eb40f2a19c48ba0c1303d31b1d4aa69a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-010fdf3f0a45\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a0214286e27d3a15146351371ac04d524bcbe643a8da56711b3ca6f7342d7bb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-010fdf3f0a45\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5f77f77078c2bd45c1833b407ecd8cb6630925f1a61e7c8b7f26e96d7dd6be39"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.telegraph\\.co\\.uk\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.telegraph\\.co\\.uk\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "telegraph.co.uk",
+                "www.telegraph.co.uk"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.tennis365\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "84061f7350f26462b3ba525f013410a621cecff1e6852a012a7708bf883ae223"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tennis365.com",
+                "www.tennis365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-ff2eb288ba24\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9ab87546d10d2768aed4d05532e58966b3344baafefd4f2ad7a109b6894b9f63"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tennis365.com",
+                "www.tennis365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-ff2eb288ba24\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "94f9e498ed40c0a709fa1352f742da9277845cc16a448112f64dbb44bc1d4db3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tennis365.com",
+                "www.tennis365.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.thebanner\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c139a726690ab94a7d927f1b0f5b4d00aea06ae1353a6884276df3f32574e5cf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-88f0db9321b4\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "048d031ed86f910e6b494f035cc49be227245e26a79dea3e38f81fb308b48b15"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-88f0db9321b4\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd2ed5d30128f2fbbeb8bf4ef00e3e35f4f08d9128c53dcdd8785f7e2d155ba9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/www\\.thebanner\\.com\\/ingest",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "i"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8b0dd6330236b2fc5ec91d1fd116814d9f792fcecdc674a015ff88415fedaf86"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-88f0db9321b4\\/contentcontainer\\/id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6363a47531cdc49b9b02778e20877aac735c15a0dbb014e334449b1e7d47fa58"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thebanner.com",
+                "www.thebanner.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-029b4c880824\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenational.scot",
+                "www.thenational.scot"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v4\\/livecomments\\/00000000-0000-4000-8000-029b4c880824\\/content-containers\\/comment-count-and-status\\/by-container-ids",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "livecomments"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thenational.scot",
+                "www.thenational.scot"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.toledoblade\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cfa0e9eeb82fd5c621bb193e19019ca588f4f8ce691728890f62d170054bae79"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__pid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "toledoblade.com",
+                "www.toledoblade.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.whathifi\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1f404cbe66ee44b58903a89d40647c5ba06df857ec378cbe050da1387b5ddfa7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "whathifi.com",
+                "www.whathifi.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-c149025b5f24\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3428c93af29740ed330246b51e096559acf2330b3f7c3b1a7c749c2aba900e10"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whathifi.com",
+                "www.whathifi.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-c149025b5f24\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aaae16783ecd6e3fbd588cb31c70a3bb47a0481ce32cfcd8d4f6029a2c82d678"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whathifi.com",
+                "www.whathifi.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-c149025b5f24\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whathifi.com",
+                "www.whathifi.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.windowscentral\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a046c9e8e852aa9d3e075139b4e30aaf490060cd41ccedcc99b6b7011af17de5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000006849643476057072,
+                "lotame_domain_check": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "windowscentral.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-23cff066f386\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b48c7aff340ced5c80add1867ebbaca885acc152b6bc203869838c7a00629e95"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windowscentral.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-23cff066f386\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b887704c39f83a929df041e26bb3da1721b96533cc53d6acd60bc9025b15e7d7"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windowscentral.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-23cff066f386\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "windowscentral.com",
+                "www.windowscentral.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.womanandhome\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2e822a01d2538712c181456e9cd794db4a1e1327069c7092376c6cb0518fa497"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000013699286952114143,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-20b7ef773a34\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2402c00064543c2da35534a96b46314434769fe96ed2a4b243b99fface81fb50"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-20b7ef773a34\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "af4285f216396ec3dcf57ab8bb08052cebc394e235e71eb3bf228bbf9eab5640"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v5\\/notifications\\/00000000-0000-4000-8000-20b7ef773a34\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "notifications"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b6dc85459fbb9d03f478d91eae99e6627e04c8f805b08e4b97423ffbc3870d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "womanandhome.com",
+                "www.womanandhome.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/sites\\/www\\.wsls\\.com",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2ccbffe3fc28d5ed8bb9ad6f5e2cf1b1900f859bcce358a2e2b2c8049c61ef77"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000020548930428171212
+            },
+            "exampleSites": [
+                "wsls.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/settings\\/00000000-0000-4000-8000-9c47d751ab86\\/map",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wsls.com",
+                "www.wsls.com"
+            ]
+        },
+        {
+            "rule": "viafoura\\.co\\/v3\\/sections\\/00000000-0000-4000-8000-9c47d751ab86\\/ancestors",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tyrion"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wsls.com",
+                "www.wsls.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "viafoura.net",
+            "prevalence": 0.6175752644426363
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.20097640358014646
+        },
+        {
+            "domain": "futurecdn.net",
+            "prevalence": 0.0935720097640358
+        },
+        {
+            "domain": "datadome.co",
+            "prevalence": 0.03661513425549227
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.01708706265256306
+        },
+        {
+            "domain": "3gl.net",
+            "prevalence": 0.009764035801464606
+        },
+        {
+            "domain": "sentry-cdn.com",
+            "prevalence": 0.008136696501220505
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.006509357200976403
+        },
+        {
+            "domain": "kaxmedia.com",
+            "prevalence": 0.0040683482506102524
+        },
+        {
+            "domain": "wbmdstatic.com",
+            "prevalence": 0.0032546786004882017
+        }
+    ],
+    "types": {
+        "WebSocket": 27,
+        "Fetch": 448,
+        "Ping": 10,
+        "Preflight": 22,
+        "Image": 32,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-2035.awsdns-62.co.uk",
+        "ns-766.awsdns-31.net",
+        "ns-272.awsdns-34.com",
+        "ns-1124.awsdns-12.org"
+    ]
+}

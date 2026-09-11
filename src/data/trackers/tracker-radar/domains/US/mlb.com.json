@@ -1,0 +1,194 @@
+{
+    "domain": "mlb.com",
+    "owner": {
+        "name": "MLB Advanced Media, LP",
+        "displayName": "MLB Advanced Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "data-graph",
+        "fastball-gateway",
+        "statsapi",
+        "ids"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mlb\\.com\\/graphql",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data-graph",
+                "fastball-gateway"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com",
+                "www.mlbdraftleague.com",
+                "www.usabaseball.com"
+            ]
+        },
+        {
+            "rule": "mlb\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "data-graph"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "df0d3361bbec9729225b44a25d61d9a6e8d3ae7c0da8d56519a28878cc7c21aa",
+                "80c2428aaf8c4440cb872e76d53a8e6c0d28b45030ecb01b85d5e3c2cfab272b"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com",
+                "www.usabaseball.com"
+            ]
+        },
+        {
+            "rule": "mlb\\.com\\/api\\/v1\\/schedule",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statsapi"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "edd19c98b61c2196a6d6fc3e71f6952ef07b01be97f8e6615e12dd32b21324c7",
+                "20d14416d3e56682f00a6c5e2c6e0a8a3ba3ce1d6eb22c032124b420cd665036"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com",
+                "www.mlbdraftleague.com"
+            ]
+        },
+        {
+            "rule": "mlb\\.com\\/oauth2\\/aus1m088yK07noBfh356\\/v1\\/authorize",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ids"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1b4f134ffb0f6499c0911f0ae025fd72024e7a2e6f2d7e0a195ce4cd43817f5"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlb\\.com\\/api\\/v1\\/schedule",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "statsapi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "521c8859a275af2cbd1e7a0145f801b6a7b649bec0762ddad51a226c8d8f67a8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "milb.com",
+                "www.milb.com"
+            ]
+        },
+        {
+            "rule": "mlb\\.com\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fastball-gateway"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c803a49ceb8656c9bff5f625f16ec882589db16c88e6d70cf139ce572daa7bfd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mlbdraftleague.com",
+                "www.mlbdraftleague.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "mlbstatic.com",
+            "prevalence": 0.8837209302325582
+        },
+        {
+            "domain": "datadoghq-browser-agent.com",
+            "prevalence": 0.06976744186046512
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.046511627906976744
+        }
+    ],
+    "types": {
+        "Preflight": 4,
+        "Fetch": 6,
+        "Document": 2,
+        "XHR": 4
+    },
+    "nameservers": [
+        "ns-1370.awsdns-43.org",
+        "ns-1997.awsdns-57.co.uk",
+        "ns-204.awsdns-25.com",
+        "ns-976.awsdns-58.net",
+        "ns-cloud-b1.googledomains.com",
+        "ns-cloud-b2.googledomains.com",
+        "ns-cloud-b3.googledomains.com",
+        "ns-cloud-b4.googledomains.com"
+    ]
+}

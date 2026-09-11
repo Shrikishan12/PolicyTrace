@@ -1,0 +1,122 @@
+{
+    "domain": "v4.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "snir.www.asos.com"
+    ],
+    "cnames": [
+        {
+            "original": "gfbd8494-tc3e-mcf3.asos.com",
+            "resolved": "snir.www.asos.com.v4.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "v4\\.edgekey\\.net\\/g\\/collect",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snir.www.asos.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gfbd8494-tc3e-mcf3.asos.com",
+                    "resolved": "snir.www.asos.com.v4.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "19acfd22978c4e614f256ca92c358aaf116c12e49a7a60ebb8c70e19f44247f0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asos.com",
+                "www.asos.com"
+            ]
+        },
+        {
+            "rule": "v4\\.edgekey\\.net\\/_\\/service_worker\\/68d0\\/sw_iframe\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snir.www.asos.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gfbd8494-tc3e-mcf3.asos.com",
+                    "resolved": "snir.www.asos.com.v4.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9a60ef8786444f4253ab1373ce86224a8bb90452b51576960d4f60fabeae6124"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asos.com",
+                "www.asos.com"
+            ]
+        },
+        {
+            "rule": "v4\\.edgekey\\.net\\/_\\/service_worker\\/68d0\\/sw\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "snir.www.asos.com"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "gfbd8494-tc3e-mcf3.asos.com",
+                    "resolved": "snir.www.asos.com.v4.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "9e8d0bce33a76b81e36dae8d8d947b1589880fba4e83238454fd2ce291882719"
+            ],
+            "type": "Other",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "asos.com",
+                "www.asos.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "asosservices.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Document": 2,
+        "Other": 2
+    },
+    "nameservers": []
+}

@@ -1,0 +1,662 @@
+{
+    "domain": "mediarithmics.com",
+    "owner": {
+        "name": "mediarithmics SAS",
+        "displayName": "mediarithmics"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0023,
+    "sites": 336,
+    "subdomains": [
+        "cookie-matching",
+        "static",
+        "events"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/get_user_agent_id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 260,
+            "prevalence": 0.00178,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazon.com",
+                "m.imdb.com",
+                "www.amazon.ca",
+                "www.amazon.com",
+                "www.118000.fr",
+                "www.kalenderkostenlos.de",
+                "www.spotern.com",
+                "www.cod.edu",
+                "www.finewoodworking.com",
+                "www.grands-meres.net",
+                "www.quantumfiber.com",
+                "www.amazon.in",
+                "www.bodyglove.com",
+                "www.calendar.best",
+                "www.zwift.com",
+                "dicodusport.fr",
+                "morbihan.com",
+                "www.opex360.com",
+                "lecafedugeek.fr",
+                "humanidades.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/get_or_create",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 256,
+            "prevalence": 0.00175,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazon.com",
+                "m.imdb.com",
+                "www.amazon.ca",
+                "www.amazon.com",
+                "www.dordogne-perigord-tourisme.fr",
+                "www.duromaxpower.com",
+                "simplisafe.com",
+                "orthofeet.com",
+                "www.humanite.fr",
+                "www.betaseries.com",
+                "bebesetmamans.20minutes.fr",
+                "www.consoglobe.com",
+                "www.01net.com",
+                "www.tourisme-lot.com",
+                "www.reliant.com",
+                "relevantmagazine.com",
+                "www.fsolver.it",
+                "www.otctools.com",
+                "www.amazon.com.mx",
+                "demotywatory.pl"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/input",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 251,
+            "prevalence": 0.00172,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amazon.com",
+                "m.imdb.com",
+                "www.amazon.ca",
+                "www.amazon.com",
+                "www.point-broadband.com",
+                "www.firstfinancial.org",
+                "moto-station.com",
+                "thekeg.com",
+                "atncorp.com",
+                "provence-alpes-cotedazur.com",
+                "www.ou-et-quand.net",
+                "auraframes.com",
+                "www.victorpest.com",
+                "www.amazon.sg",
+                "www.entreparticuliers.com",
+                "www.t-mobile.com",
+                "www.codeage.com",
+                "local.infobel.ca",
+                "www.canalturf.com",
+                "www.felina.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/tag\\/1\\/tag\\.min\\.js",
+            "cookies": 0.0000274,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4,
+                "Navigator.prototype.userAgent": 4,
+                "window.sessionStorage": 4,
+                "Document.cookie setter": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "c0fe88bc8eaf202ae42e3023e1db4d78ac0bf0667501d7bdb6db305078199b91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mics_vid": {
+                    "ttl": 15897611,
+                    "length": 12,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                },
+                "mics_lts": {
+                    "ttl": 15897611,
+                    "length": 13,
+                    "prevalence": 0.000027398573904228286,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/conf\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "21c40c33baaca401a30794bd3c84a11dfd88f61c7518dfb26c29f7f9edfef131",
+                "2d41f289836c70969272d099bd17b98662eb02477d049bfe58f61b7a00b7d235",
+                "45d0e4a7dbdd745969d84afbd190e6a2bbd183fccf6a63eea3499ba5b04fdec5",
+                "1901d302c23ac55f2055af155d59372d0ac0228be563e5298ef0b9b7d50a507b",
+                "4630aefa3dcd71b9877e60582f382eedaeeb55340ef9f2cd904a8659f80f8208",
+                "607e0e1c23e016039baf4dc0509c846e63d65da87ee22f0f53fc22c40a7d7733",
+                "bfd6e2c426e43787fa1836c39490c560ac16d1e467fb6adf4c5cde563d9941fb",
+                "02bb2a0c784c1a3f4e431c4570640c1b6c0c70a6f46df6e5be2822617f49f7ec",
+                "e351de9fda1e147093e6c5778021659efe23e59bedb2722fb63c8708355974f3",
+                "769426321365d64370585fc19403bff683903f0493c5675dbe55acbb0c3ab996"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.adorocinema.com",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.cuisineactuelle.fr",
+                "www.cuisineaz.com",
+                "www.fourchette-et-bikini.fr",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/visits\\/pixel",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "21c40c33baaca401a30794bd3c84a11dfd88f61c7518dfb26c29f7f9edfef131"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000027398573904228286,
+                "mics_vid": 0.000006849643476057072,
+                "mics_lts": 0.000006849643476057072,
+                "lotame_domain_check": 0.00003424821738028536,
+                "cookies.js": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "adn40.mx",
+                "www.adn40.mx",
+                "www.adorocinema.com",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.cuisineactuelle.fr",
+                "www.cuisineaz.com",
+                "www.fourchette-et-bikini.fr",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/device_info\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "104b19b427f3ff8db704fe7dfcbfb50c5403eb7f962ca66b11f654d6e78b5f45",
+                "a43a8024975311c481e1b65d763da5b1a82f77cfd2d273178610e5704ac34bf0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.purepeople.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/tag\\/2\\/evaluator\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a34b6fe130365ff77fd1dcafbed79d0537f7c91334acbe947f64e2d83cc95320"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.purepeople.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/check_cookie\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/gather_id",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.boulanger.com",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/update_mapping\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/get_or_create",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.boulanger.com",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/input",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "5194dfd121a09eaa836ea6a4254bef698730b8d48aa7d8cca832452db525c646",
+                "e234f0e8dbc8952fac434b23c3be8bfec5cc6ff7cfe5fde1f2ec4793c96c33ba",
+                "0efcc8a2559b4335db06ca537e12da97de4392bde7e7af18c2878405d4dab3c2",
+                "3991de54085856630663ded033a14594b4b2641f9146ddb5c537c862e828170d",
+                "f2d07f777860397f311ca837440bd9af1c00ca84ab95915ec249d32f731a528a",
+                "221c4c5903ff53fc97a12c0090c2c4908ce3e261190bdf761da63c411182b06f",
+                "c6a25b539696c4fe87eb694ee61a6ee33ea16e56f96273274050eacd49046ae8"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.boulanger.com",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/input",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "21c40c33baaca401a30794bd3c84a11dfd88f61c7518dfb26c29f7f9edfef131"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.boulanger.com",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/getids",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "49733a80beb93b3a389501b2493e5dfdb584ef6b6e573645b90bad2faa64538a",
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+                "3030ef6bec9ce877cbbbd7c7d4f99ab86ed67a3fad3bd0e249d6867e28b530a2",
+                "e3137c9467f530d2784acf2623c5ebba1ff628c14a5c5ae9df5c508ab5b81e62"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adn40.mx",
+                "www.adn40.mx",
+                "www.autohebdo.net",
+                "www.autotrader.ca",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br",
+                "www.tvazteca.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/tag\\/2\\/tag\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "window.localStorage": 7,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Navigator.prototype.userAgent": 7,
+                "window.sessionStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "c0fe88bc8eaf202ae42e3023e1db4d78ac0bf0667501d7bdb6db305078199b91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "adorocinema.com",
+                "www.cuisineactuelle.fr",
+                "www.cuisineaz.com",
+                "www.fourchette-et-bikini.fr",
+                "www.minhavida.com.br",
+                "www.purepeople.com.br",
+                "www.tudogostoso.com.br"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/set_user_agent_id_mapping",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cookie-matching"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "21c40c33baaca401a30794bd3c84a11dfd88f61c7518dfb26c29f7f9edfef131"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_cc_id": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "autohebdo.net",
+                "www.autotrader.ca",
+                "www.boulanger.com",
+                "www.urdupoint.com"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/sites\\/autotrader-ca-26\\/external_feeds",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a3724ef4d979f2b5a0833edc03110a7cc5c3954200777997ecb1f89a8a4e474c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mics_vid": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "autotrader.ca",
+                "www.autotrader.ca"
+            ]
+        },
+        {
+            "rule": "mediarithmics\\.com\\/v1\\/edge\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21c40c33baaca401a30794bd3c84a11dfd88f61c7518dfb26c29f7f9edfef131"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "mics_vid": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "purepeople.com.br",
+                "www.tvazteca.com"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Ad Fraud",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Embedded Content"
+    ],
+    "performance": {},
+    "cookies": 0.00219,
+    "topInitiators": [
+        {
+            "domain": "amazon-adsystem.com",
+            "prevalence": 0.5230312035661219
+        },
+        {
+            "domain": "sddan.com",
+            "prevalence": 0.4472511144130758
+        },
+        {
+            "domain": "seroundprince.com",
+            "prevalence": 0.01411589895988113
+        },
+        {
+            "domain": "valiuz.com",
+            "prevalence": 0.005943536404160475
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.003714710252600297
+        },
+        {
+            "domain": "getjad.io",
+            "prevalence": 0.0029717682020802376
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.002228826151560178
+        },
+        {
+            "domain": "teads.tv",
+            "prevalence": 0.0007429420505200594
+        }
+    ],
+    "types": {
+        "Image": 773,
+        "Script": 54,
+        "Ping": 41,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-106-a.gandi.net",
+        "ns-201-c.gandi.net",
+        "ns-18-b.gandi.net"
+    ]
+}

@@ -1,0 +1,207 @@
+{
+    "domain": "udesk.cn",
+    "owner": {
+        "name": "北京沃丰时代数据科技有限公司",
+        "displayName": "北京沃丰时代数据科技有限公司"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "static-ud",
+        "static-ud.s5",
+        "assets-cli.s5",
+        "kapeixi.s5",
+        "basevistor.s5"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "udesk\\.cn\\/img\\/client-btn\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ud",
+                "static-ud.s5"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "bd56a3ec4e8b11697ad604ae7391b07e8535b21d09de214e89f54996d9f7146b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "creality.com",
+                "wiki.creality.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/im_client\\/js\\/udeskChatApi\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets-cli.s5"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Screen.prototype.width": 2,
+                "Screen.prototype.height": 2,
+                "Navigator.prototype.mimeTypes": 2,
+                "window.sessionStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8d6d48ea3fb6d51ba51bf5bd94fd4533257470b1b552afe0dd87d686c4a60c0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/spa1\\/im_web_plugins\\/1772\\/out_config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kapeixi.s5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c1eeb5c24216b3cfe4b202ba1a58ff2f8c7a99efe8f34c425cd837c3da3bb999"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/im_client\\/css\\/ui\\/emotion\\.css",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kapeixi.s5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0fee0f72419af7ea9316fd583434a497c2115315c48b1d56f82c9e6ffc1b2417"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/customerApi\\/key",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "basevistor.s5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1fff4c999259d4076c27581b9c04876266ab345b8858f8392f02c336d045e31b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/agents\\/free",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kapeixi.s5"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7be287fc2717aab616118d52acf43252c50bef24437e9ee2033ebd5e73aa6765"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        },
+        {
+            "rule": "udesk\\.cn\\/im_client\\/chat\\.html",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "kapeixi.s5"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c5664190491b432f33b8f8010563c1bde0a7304e6763176888df53f06e83113d"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cupshe.com",
+                "www.cupshe.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 3,
+        "Script": 8,
+        "Stylesheet": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

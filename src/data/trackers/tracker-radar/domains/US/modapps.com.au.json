@@ -1,0 +1,102 @@
+{
+    "domain": "modapps.com.au",
+    "owner": {
+        "name": "THE TRUSTEE FOR POH FAMILY TRUST",
+        "displayName": "THE TRUSTEE FOR POH FAMILY TRUST"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "modapps\\.com\\.au\\/geolocationredirect\\/getfilecs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "5b2ce9bc9d00c96400a8463f6ad3428b90dee2b62b218a066dddc54e9fe3f10e",
+                "7d67e1e3a782f2e2217df049a14399b3792d3654d5cda1771e0d81fbe05f5fec",
+                "98e545a5c4f624d05f438b778b76df77fb5a09fa75cdb5178e7ee4d02990b22d",
+                "9925209316f8e4e3eed9b878759ecd4760cb29215f58244ec58d6778ea8a818c",
+                "6761e53e499ed69186a51e86b346b4181df3a158a2c7f95717c218ebe19954a8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedjet.com",
+                "bulletjournal.com",
+                "luminox.com",
+                "www.mactools.com",
+                "www.meaco.com",
+                "yakima.com"
+            ]
+        },
+        {
+            "rule": "modapps\\.com\\.au\\/geolocationredirect\\/assets\\/geo\\/mactools-prod\\.myshopify\\.com\\/main_geo\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74e24d22a816d720a7468179db0289264a27d649ae4d8f71ba3377f3b965b563"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "mod_cc652370521": {
+                    "ttl": null,
+                    "length": 2,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "mod_cn652370521": {
+                    "ttl": null,
+                    "length": 15,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mactools.com",
+                "www.mactools.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9230769230769231
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.07692307692307693
+        }
+    ],
+    "types": {
+        "XHR": 6,
+        "Script": 2
+    },
+    "nameservers": [
+        "gina.ns.cloudflare.com",
+        "toby.ns.cloudflare.com"
+    ]
+}

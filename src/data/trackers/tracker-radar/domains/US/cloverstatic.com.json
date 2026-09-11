@@ -1,0 +1,116 @@
+{
+    "domain": "cloverstatic.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "cloverstatic\\.com\\/web\\/_global\\/bootstrap\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "88a63f6e567b36a49461c17f576acf7c1865a558e334742ff1625991b0144dbd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/web\\/apps\\/_config\\/prod-na\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "11642995bb2af8a5e7100718136e69795c18602c0c6c35b33c63bba19677f2e9"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/web\\/apps\\/_config\\/apps\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "42c053acbc2d555f39b89117c5d5af0db8521d2ec01ea4b5ad23be82f49fb129"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        },
+        {
+            "rule": "cloverstatic\\.com\\/content\\/fonts\\/graphik\\/Graphik-Light-Cy-Gr-Web\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3c7f99b6ce2bd87af8f38bea69ea461c0612c969ddd430d04f98bf2afbc1d617"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clover.com",
+                "www.clover.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 4,
+        "Font": 2
+    },
+    "nameservers": [
+        "ns1.p201.dns.oraclecloud.net",
+        "ns2.p201.dns.oraclecloud.net",
+        "dns1.p07.nsone.net",
+        "dns2.p07.nsone.net"
+    ]
+}

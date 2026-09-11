@@ -1,0 +1,81 @@
+{
+    "domain": "bidgear.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "platform",
+        "imp9"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "bidgear\\.com\\/ads\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "platform"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a97b5a08021d02559a5b5fed4d80726eef1e57eb31d8eca7688097d230539561",
+                "301507fd2e73f0213469d959847064ba6b760101f6a94699a62a3e18912e1fbe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meetyou.me",
+                "whatreallyhappened.com",
+                "y99.in"
+            ]
+        },
+        {
+            "rule": "bidgear\\.com\\/rec",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imp9"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "meetyou.me",
+                "whatreallyhappened.com",
+                "y99.in"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 3
+    },
+    "nameservers": [
+        "rick.ns.cloudflare.com",
+        "rose.ns.cloudflare.com"
+    ]
+}

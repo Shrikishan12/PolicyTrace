@@ -1,0 +1,105 @@
+{
+    "domain": "lr-ingest.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "lr-ingest\\.io\\/LogRocket\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2804175a39979dff1944aa907089e13daa7e1d20697b1196e6661f6acfca2772"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "2ndswing.com",
+                "www.2ndswing.com",
+                "www.animates.co.nz"
+            ]
+        },
+        {
+            "rule": "lr-ingest\\.io\\/logger-1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.sessionStorage": 6,
+                "window.localStorage": 6,
+                "URL.createObjectURL": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e1ac20fa229b4cdb41aa3a97aed74f37dca6860ed308bb69ae27ad29a1fc6835",
+                "1e3ecba33b32b3b21bb4365492fa37096fad7b0662fa471d06d9a9478ef7ecd4",
+                "7a022f5b9ee28a19ae343ded91f7ea6f81f497671ff1b063067f164dae2a93f2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ebay.co.uk",
+                "community.ebay.com",
+                "jessmate.com",
+                "mislacy.com",
+                "www.zola.com",
+                "zola.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "d1tntvpcrzvon2.cloudfront.net",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "bevylabs.com",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "selless.us",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "azureedge.net",
+            "prevalence": 0.16666666666666666
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "dan.ns.cloudflare.com",
+        "rita.ns.cloudflare.com"
+    ]
+}

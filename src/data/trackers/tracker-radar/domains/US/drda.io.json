@@ -1,0 +1,79 @@
+{
+    "domain": "drda.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "drda\\.io\\/scripts\\/analytics\\/next\\/dreamdata\\.cl\\.min\\.js",
+            "cookies": 0.0000753,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 12,
+                "Navigator.prototype.userAgent": 12,
+                "Date.prototype.getTime": 11,
+                "Navigator.prototype.onLine": 11,
+                "Navigator.prototype.language": 11,
+                "Document.cookie getter": 11,
+                "Document.cookie setter": 11,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 11
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "44f34123f71875c385064cb49138a8974592b2699f2a5d679046cb26aa49207c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vlex.com",
+                "case-law.vlex.com",
+                "jumpcloud.com",
+                "krisp.ai",
+                "whereby.com",
+                "www.cloudtalk.io",
+                "www.gainwelltechnologies.com",
+                "www.getmaintainx.com",
+                "www.kpler.com",
+                "www.ptc.com",
+                "www.ul.com",
+                "www.warp.dev"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000959,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.8125
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1875
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c4.googledomains.com",
+        "ns-cloud-c3.googledomains.com"
+    ]
+}

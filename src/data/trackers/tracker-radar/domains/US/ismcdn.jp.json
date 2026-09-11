@@ -1,0 +1,99 @@
+{
+    "domain": "ismcdn.jp",
+    "owner": {
+        "name": "Japan Business Press Co.,Ltd.",
+        "displayName": "Japan Business Press"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "newsdig",
+        "tokyo-sports"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ismcdn\\.jp\\/common\\/js\\/lib\\/lozad\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsdig",
+                "tokyo-sports"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "98e15110586a9877906d7a4ada5a789c0deaa285600027e1f3c7e925fb4b05b7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbs.co.jp",
+                "www.tokyo-sports.co.jp"
+            ]
+        },
+        {
+            "rule": "ismcdn\\.jp\\/common\\/images\\/dig\\/icons\\/icon-arrow-black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "newsdig"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa275e3ca3b1aa1fd08b87672f72aaecc1fd1a082dcae67ee324201995d9599a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbs.co.jp",
+                "newsdig.tbs.co.jp"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9427966101694916
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.023305084745762712
+        },
+        {
+            "domain": "cxense.com",
+            "prevalence": 0.019067796610169493
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.012711864406779662
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.00211864406779661
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns017-v88d88att5u1vnls.v.d-53.jp",
+        "ns017-v88d88att5u1vnls.v.d-53.net",
+        "ns017-v88d88att5u1vnls.v.d-53.info"
+    ]
+}

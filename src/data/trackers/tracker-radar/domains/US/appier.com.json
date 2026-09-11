@@ -1,0 +1,100 @@
+{
+    "domain": "appier.com",
+    "owner": {
+        "name": "Appier Group, Inc.",
+        "displayName": "Appier"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "bb-webchat-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "appier\\.com\\/api\\/v2\\/user-api\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bb-webchat-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "86781db997d09fcefe73107814233f246674a7fb6e6dea1836037d64b43d47ec"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "appier\\.com\\/api\\/v2\\/user-api\\/login",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bb-webchat-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        },
+        {
+            "rule": "appier\\.com\\/api\\/v2\\/public-api\\/page\\/page-5a07e95002354f1eb389d0af",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "bb-webchat-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "409d4c52676a82633a9f5299e664790dee7de2fdf2333b57dd8616994a0e7e80"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gagaoolala.com",
+                "www.gagaoolala.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "botbonnie.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 4,
+        "Preflight": 2
+    },
+    "nameservers": [
+        "nash.ns.cloudflare.com",
+        "leia.ns.cloudflare.com"
+    ]
+}

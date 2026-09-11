@@ -1,0 +1,304 @@
+{
+    "domain": "ap-northeast-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000253,
+    "sites": 37,
+    "subdomains": [
+        "cognito-identity",
+        "jwzeyemnrfcavcqv5zylc2tmsm.appsync-api",
+        "pinpoint",
+        "d-ska5v088e9.execute-api"
+    ],
+    "cnames": [
+        {
+            "original": "assets-signedurl-global.bandai-hobby.net",
+            "resolved": "d-ska5v088e9.execute-api.ap-northeast-1.amazonaws.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bangumi.org",
+                "chiikawamarket.jp",
+                "oceans-nadia.com",
+                "panasonic.jp",
+                "tokubai.co.jp",
+                "townwork.net",
+                "www.ankerjapan.com",
+                "www.askdoctors.jp",
+                "www.fromjapan.co.jp",
+                "www.kurashiru.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cognito-identity"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "73e17d29c876f036ab2eb62d2fbe964063c2762b161337db10b076236056b50a",
+                "624466f2faf27ace1e4fbbb44627625eded3d29a06ba45df8c5d5753472f94d2",
+                "c13557845341f0d0e72e1651e09706e029f3b948b4ccf88479b91bfb3af6d225",
+                "da16d6853323a0914fa81beb5fa48b3f411fe6c3ec6f3d4d9c5e2404a0e56dd9",
+                "43f7fdcb593a6b7039252c1ee0226e695afc5500a0b22125ff2c439e64e734e1",
+                "d06b530bc03e2928dca3caa83f610ad70acfbeb5b295b4ffb453920fa06ab417",
+                "33d5f4d211d12fcf4e8c1a71e4d07c089f6a1ea1057af701e3823b973f76036c",
+                "04d1b312ea7106f74dff442607619d6ce9b9041df6a62d425f68ae947a4cb616"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiikawamarket.jp",
+                "oceans-nadia.com",
+                "panasonic.jp",
+                "tokubai.co.jp",
+                "townwork.net",
+                "www.ankerjapan.com",
+                "www.askdoctors.jp",
+                "www.fromjapan.co.jp",
+                "www.kurashiru.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jwzeyemnrfcavcqv5zylc2tmsm.appsync-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b0a1d547c0b3653b4c0974f804cd0adb393537cd5408a8c1d0c9a64b95a97ee0"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiikawamarket.jp",
+                "www.ankerjapan.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jwzeyemnrfcavcqv5zylc2tmsm.appsync-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiikawamarket.jp",
+                "www.ankerjapan.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/v1\\/apps\\/0dfa6ba500dc49bd9e9886ebbea90d87\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pinpoint"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "db1201f91d9f8cd61b12250d6dda3e19d094e78d19fca119f8d6b3ab468f60dc"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiikawamarket.jp",
+                "www.ankerjapan.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/v1\\/apps\\/0dfa6ba500dc49bd9e9886ebbea90d87\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pinpoint"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chiikawamarket.jp",
+                "www.ankerjapan.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/get-signed-url",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "d-ska5v088e9.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets-signedurl-global.bandai-hobby.net",
+                    "resolved": "d-ska5v088e9.execute-api.ap-northeast-1.amazonaws.com"
+                }
+            ],
+            "responseHashes": [
+                "aac7577bf943ca28bb27531604abd65421c3e5e05c16d55a79e24b2a875bc770"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bandai-hobby.net",
+                "global.bandai-hobby.net"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/v1\\/apps\\/0dfa6ba500dc49bd9e9886ebbea90d87\\/endpoints\\/3823dd10-a023-11f1-882e-c3aabb6fd7ba",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pinpoint"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "de3c80a3b957644b9aa45635a2625f4d46417163af05a75e24ab1f5ce32fcff3"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ankerjapan.com",
+                "www.ankerjapan.com"
+            ]
+        },
+        {
+            "rule": "ap-northeast-1\\.amazonaws\\.com\\/v1\\/apps\\/0dfa6ba500dc49bd9e9886ebbea90d87\\/endpoints\\/3823dd10-a023-11f1-882e-c3aabb6fd7ba",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pinpoint"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ankerjapan.com",
+                "www.ankerjapan.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8531073446327684
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.06779661016949153
+        },
+        {
+            "domain": "chat-marketing.tech",
+            "prevalence": 0.022598870056497175
+        },
+        {
+            "domain": "rum.us-east-1.amazonaws.com",
+            "prevalence": 0.01694915254237288
+        },
+        {
+            "domain": "contentanalytics.jp",
+            "prevalence": 0.011299435028248588
+        },
+        {
+            "domain": "onetag.co.kr",
+            "prevalence": 0.005649717514124294
+        },
+        {
+            "domain": "ai-x-supporter.com",
+            "prevalence": 0.005649717514124294
+        },
+        {
+            "domain": "production-self-asset.s3-ap-northeast-1.amazonaws.com",
+            "prevalence": 0.005649717514124294
+        },
+        {
+            "domain": "letro.jp",
+            "prevalence": 0.005649717514124294
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.005649717514124294
+        }
+    ],
+    "types": {
+        "Preflight": 16,
+        "Fetch": 15,
+        "XHR": 2
+    },
+    "nameservers": [
+        "ns-1007.awsdns-61.net",
+        "ns-1419.awsdns-49.org",
+        "ns-1941.awsdns-50.co.uk",
+        "ns-68.awsdns-08.com"
+    ]
+}

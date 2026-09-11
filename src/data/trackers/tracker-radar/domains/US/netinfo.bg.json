@@ -1,0 +1,169 @@
+{
+    "domain": "netinfo.bg",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "m",
+        "m3",
+        "m4"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "netinfo\\.bg\\/assets\\/richMedia\\.js",
+            "cookies": 0,
+            "fingerprinting": 3,
+            "subdomains": [
+                "m"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.vendorSub": 3,
+                "Navigator.prototype.productSub": 3,
+                "Navigator.prototype.vendor": 3,
+                "Navigator.prototype.maxTouchPoints": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Navigator.prototype.connection": 3,
+                "Navigator.prototype.plugins": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.webkitTemporaryStorage": 3,
+                "Navigator.prototype.webkitPersistentStorage": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Navigator.prototype.appCodeName": 3,
+                "Navigator.prototype.appName": 3,
+                "Navigator.prototype.appVersion": 3,
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.languages": 3,
+                "Navigator.prototype.onLine": 3,
+                "Navigator.prototype.webdriver": 3,
+                "Navigator.prototype.keyboard": 3,
+                "Navigator.prototype.mediaDevices": 3,
+                "Navigator.prototype.storage": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.mediaCapabilities": 3,
+                "Navigator.prototype.permissions": 3,
+                "Navigator.prototype.presentation": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.pixelDepth": 3,
+                "Screen.prototype.availLeft": 3,
+                "Screen.prototype.availTop": 3,
+                "Screen.prototype.orientation": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9d2d3f1bab3055c5802455e54c1f36fb6d0fbbe07f8d7272fd4f5a140d79feab"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nova.bg",
+                "www.sinoptik.bg",
+                "www.vesti.bg"
+            ]
+        },
+        {
+            "rule": "netinfo\\.bg\\/media\\/images\\/51373\\/51373561\\/178-109-f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6bf4642bb39baa09da439385f8568e0e29502ac316d0d2c82bbd1d38951e395c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vesti.bg",
+                "www.vesti.bg"
+            ]
+        },
+        {
+            "rule": "netinfo\\.bg\\/media\\/images\\/50524\\/50524409\\/178-109-f\\.jpg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "84e5a199beb9e8bc9bfc7560ad2b0fbcd53ef35590f5b764028510eebad27c96"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vesti.bg",
+                "www.vesti.bg"
+            ]
+        },
+        {
+            "rule": "netinfo\\.bg\\/vesti\\/img\\/V\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "139698aa7b0929ad5fd733331770e47765182484bd97804cb4b9d9ecbe75dbfa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vesti.bg",
+                "www.vesti.bg"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9381443298969072
+        },
+        {
+            "domain": "abv.bg",
+            "prevalence": 0.061855670103092786
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 6
+    },
+    "nameservers": [
+        "ns1.netinfo.bg",
+        "ns.netinfo.bg"
+    ]
+}

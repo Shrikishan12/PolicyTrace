@@ -1,0 +1,1614 @@
+{
+    "domain": "fr.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "hz.journaldesfemmes",
+        "hz.linternaute",
+        "ds.journaldesfemmes",
+        "ds.linternaute",
+        "cdn-files.prsmedia",
+        "cdn-ext.prsmedia"
+    ],
+    "cnames": [
+        {
+            "original": "cdn-ext.prsmedia.fr",
+            "resolved": "cdn-ext.prsmedia.fr.edgesuite.net"
+        },
+        {
+            "original": "cdn-files.prsmedia.fr",
+            "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+        },
+        {
+            "original": "ds.journaldesfemmes.fr",
+            "resolved": "ds.journaldesfemmes.fr.edgesuite.net"
+        },
+        {
+            "original": "ds.linternaute.fr",
+            "resolved": "ds.linternaute.fr.edgesuite.net"
+        },
+        {
+            "original": "hz.journaldesfemmes.fr",
+            "resolved": "hz.journaldesfemmes.fr.edgesuite.net"
+        },
+        {
+            "original": "hz.linternaute.fr",
+            "resolved": "hz.linternaute.fr.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "fr\\.edgesuite\\.net\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hz.journaldesfemmes",
+                "hz.linternaute"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "hz.journaldesfemmes.fr",
+                    "resolved": "hz.journaldesfemmes.fr.edgesuite.net"
+                },
+                {
+                    "original": "hz.linternaute.fr",
+                    "resolved": "hz.linternaute.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "uhz": 0.00003424821738028536,
+                "_ga": 0.00003424821738028536,
+                "lotame_domain_check": 0.00003424821738028536
+            },
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.journaldesfemmes.fr",
+                "www.linternaute.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ds.journaldesfemmes",
+                "ds.linternaute"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "ds.journaldesfemmes.fr",
+                    "resolved": "ds.journaldesfemmes.fr.edgesuite.net"
+                },
+                {
+                    "original": "ds.linternaute.fr",
+                    "resolved": "ds.linternaute.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "journaldesfemmes.fr",
+                "cuisine.journaldesfemmes.fr",
+                "sante.journaldesfemmes.fr",
+                "www.commentcamarche.net",
+                "www.journaldesfemmes.fr",
+                "www.linternaute.com",
+                "www.linternaute.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/sassconcat\\/style_blue\\.E05F1812FA684A84E8FF676D633F1823\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "da9708513a340f74fb5aad1cee60fb57269dc03308c7e7a3f21f0cfd6e89ea14"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.leprogres.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/print\\.9D1A9889BBEB7FAADC45640B2F6036FC\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "f429ecd86bb3277d92d5e44853cb1353fe895245277806bfe0ff4f00ddbbe751"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/bundle-vendor-JQuery3\\.7\\.1\\.4A5773756AEA9DBD8FB4A7F4ECFFBE74\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "df875da0d9f7a51895af4a491eef47932147cd02e94b074cb5dde7b5da329486"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/min\\/fr\\/javascript\\/lib\\/ordonnanceur\\.B6FAE5758541B1F603D2E4B6ECCF927B\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "94692e71fd65e14ee956dd39ad663719eb78a413beadbaefe1c2ec29baa7f752"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.libramemoria.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/fonts\\/merriweather-sans-variable\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "fb0dd66159611d54d0b2038bf24eda9371d81c9a5418be89735e0394294d90c3"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/fonts\\/IconRedac-v26-10-04\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "ffb22606bd91b22b65674767972d044685d564dc5dcf52e1ea20a2606778da94"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/images\\/iconGoogle\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9cfbf92c2583e5b9dcd912dbb84fdd31e38419d1d0d15a63d5c74139ef4b03d4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/fonts\\/merriweather-700\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "c88c6e14d9259da15dacdf77741f56d5b1ba6bbbc72325cf444ceda7882c7f82"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/fonts\\/merriweather-regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "cccc1332c579422edf6fd7a4c6177451bf0d922420da598690f62312d10cc035"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/bundle-global\\.09EC5E2756436A10F69C9AF8C5C82D56\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "38d0a3f1940974b34285ad06b13da5c9f2878d681e3d36c0a3422a8f563f628d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GBEL\\/min\\/javascript\\/pooolConfiguration\\.286670D14053DBFA62AC521C8A1CE0B4\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a7ad0b9b58b93cf4f1cc83a627c81ec4d0a5d81f9be29ba1ac351399c8aaea36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/chocolat\\.CBD76FE13B5EBD1A49DDBAD5BDD99067\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "1d725f08d20851574a3a0ae847bff8c47ecdc5a584316ad0c4bf83c82cfcad81"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/checkConsent\\.9D8B417725515BCECC2A9DFAEF866E86\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3974c5eeb954c2eb9930249e9bb60b2510db1baf1309e109bbc2c3b0daa795d5"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/min\\/javascript\\/work\\.655C4AE80E1C436480F920F41FBFD9A9\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "bca365d3d969325f1e1fd19ede4db534a505659742b1fe4b868aa47648e95e48"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/subwithgoogle\\.D42B5EFC8C212F1D0FAE68E0E6A67308\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4298f45e6cd5ff55d479a0f00445c230b27160139fb55eb1c28383583a29394a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/javascript\\/piano\\.5585B40BC1C1E2C98DEB2FB48335F696\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "17437e3c35ec7bbfaf45e3fae27a31ad7fcfcda5315494167493650b45cd5375"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/prebid\\/prebid11\\.18\\.0\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a220454dd74f85186bf2908fce8aed67b8e2e38738071b061cc54abf6bbe02fe"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.libramemoria.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/min\\/javascript\\/init\\.E9C7AE5EADA62A898286A1893D19B969\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "376779c09a0294dff20303dde3451d004d962f13941aab5e09cb45fcd2330337"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/min\\/javascript\\/outbrain\\.A4E344BE98F65AF8DA60C71C232FCE13\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e77a207d3856c510266e1f7872366f187392177c5123a3d9fc944fa4c652adaf"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/min\\/javascript\\/reposition\\.52F852C5C8ABC4163FC758FF9F85DD85\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "365c343757f0b8728d22cb2a4e6fc314daaba6ae3139033099512d6b5e107dba"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/GTRF\\/min\\/javascript\\/core\\.89B58A30E684DDB5679A39698DB62CA9\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "31987cbc69b0513fbc875de072bca24796c358ab4bb6729b5644f8229e1be8f6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/EBS\\/DIDOMI\\/logo-ebra-groupe\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-ext.prsmedia"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [
+                {
+                    "original": "cdn-ext.prsmedia.fr",
+                    "resolved": "cdn-ext.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "eedf77cab5870f6712f7b846b86549b2076e4d4825cf986f5606e952387afb48"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bienpublic.com",
+                "www.dna.fr",
+                "www.estrepublicain.fr",
+                "www.lalsace.fr",
+                "www.ledauphine.com",
+                "www.lejsl.com",
+                "www.leprogres.fr",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/sassconcat\\/style_red\\.4A39B6D8B9DFA6BF6F06AB2DCBB855AD\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "66a1b93b39e025763527963696e6c43934b2d5920c48da2ce9753b5080d6e4ad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dna.fr",
+                "www.estrepublicain.fr",
+                "www.lejsl.com",
+                "www.republicain-lorrain.fr"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/REDAC\\/min\\/css\\/sassconcat\\/style_white\\.74F25F755970D0FB6544B5E00A41F5F1\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2666e48c1536eeb2683cd8d8cba0651c636f6eae6d29e30cb5e295d0bc6e6cbc"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lalsace.fr",
+                "www.ledauphine.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/min\\/fr\\/css\\/plugins\\.B4CCDF284B0E17B1A1A21048AEB66F96\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "9938ba8e4409d38bd743f1bed29686a00a316bed7ae84d77d29d0b1ad9680692"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/helpers\\.A8C0DF60EF721B36EBE8790D8160B1F2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "434fb2816f6f8bce94b44032861f8459f0802806fdafd2351da39ae7dad309fd"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/gridSystem\\.48B3609BA9B5E2754FFBCA0E750F20DB\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e1be2ae0d9428b4d2f4a56c5e3111144553c1ee2a6e77b84a7434e9e12b650e9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/landingPage\\.09489C42E4AF425BDA94835EE4392094\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a240701bec0203b7c6beee34f59e7ba5b0833d71b065ead08bdad4315c51b7d9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/jquery-ui-1\\.10\\.3\\.custom\\.91BA301737037F478E60D06C3052336F\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3d5eba5f6bacdaab1b26280818cd2eeb967b7c108b726f3772e50fd85d0ae26e"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/splide\\.F6A86E8018FC1F6AE254B339ACBD1CDD\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e6e2a25c4c1b69087d720776ff9569e9698c9ec52bdd5659c346bcaca9ce28d5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/style\\.6302D85BC92934E24F4FC2B8E140F2FF\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "91fc6fd1de7c4b03aa661b9f61427641a323b1646a3d02acba95110d388e32c0"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/connexion\\.4AC9D14BCA29C2E05B24EFC48EFB00F5\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "cc638eddbc41331dc63d224796b69b662362f6d296ce61a45ce28f784499bdcf"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/weather\\.9295ACC69DDF2620728F15AFC8AE087E\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3edf435185ffa962a00811d179fb9d23eee90fc4cc96aabe17b129abea493047"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/story\\.CBB8868A90E6217DA03451EBF4382BDF\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3000bb8696e611d12c8e12e8f6c9cf9ad97ec5c291b4c57eb79f1614207258d7"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/carrousel\\.0CA0F629EA36C0E2D04B20C0EEBE4535\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "1efc300e8dca4a60adc90d973f00765c5e56a29d11d26d75edb311b66a0e5d9c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/chocolat\\.D74DA398B2AF3001F6AC7C643E5E8B63\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0aa94f3e6b7141cf5eb79a79d5075c1fb1f809e217ab1409b0203f813972db1f"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/min\\/fr\\/javascript\\/lib\\/jquery-3\\.7\\.1\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "eb8e34a840daaa32aaac855f938c76d67783055b1b79fe97511e5d502281bff1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/min\\/fr\\/javascript\\/lib\\/jquery-ui\\.1\\.13\\.3\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "86ddb69134e7314e31d03185f1de47a1dbe23be274d22f6aeb1fdd9df50331cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/fr\\/javascript\\/plugins\\/jquery-validate\\.1\\.20\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "6ae892b4d814447e11ceff12f2109a42ab3dec30ad1a28afbcf2ec0c571e971c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/min\\/fr\\/javascript\\/plugins\\/entete\\.7DA1731313EC6DFBD496FAF59DA25B37\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3e1dbd4d35e349ede633c77da508fe425326c69f9888abedca8c2ba54699fd37"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/javascript\\/JSSaisieDeportee\\.7F9E5A9B2D99BDBFD2C27C2BB568BE58\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "d1e05d4fce5990eb6f3b85bec2b9b957290b6c8f3f66ce295bf77601b271e569"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/javascript\\/gprf\\.507407EEB270DB1827C2BE467D120846\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "0519b659eb0f890570a8d71d9e892ca8a30c0ee70678875b111c9c726614ffe2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/images\\/logo_libra_memoria-new\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "124e8d3fbf8bfa4a9a4701edb9dbdc6436f1931be2bb652cbe95f2e3ae14984c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/fonts\\/merriweather-sans-variable\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "3804b56e1b634426d69721e3d7d9ba4783896a975e873b89f3ace2c856e08f24"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/fonts\\/icoLIM-200425\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "a0d493a6b4df414fc9f46d8340040c8309547126a899de3017701d6046194f09"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/css\\/fonts\\/Merriweather-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "4aba6fa4eb41a766ad9e93f8d99b27a36a90a9095e614b901e1138cf8c95a574"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/javascript\\/checkConsent\\.DA0B77F68593BC55F282EE794DC604A1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "2bbdbf3bedd493f30a15e53b30253904acf9c5518c9aab84288eb776c8548ac1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/javascript\\/global\\.81F503C045AA328712D722590B0C8C78\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "430434872e24d45bc63824fd0cc65ce41339db434c252a35215c436bc8029c64"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/javascript\\/piano\\.3405992A982F6DEE6A5F7C2E6D929FE6\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "e93e0fb1a6486647317f7a91f7c696e4629be8972d9bf3bb069559fafb09f625"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        },
+        {
+            "rule": "fr\\.edgesuite\\.net\\/files\\/LIB\\/min\\/fr\\/images\\/logo_libra_memoria\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn-files.prsmedia"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cdn-files.prsmedia.fr",
+                    "resolved": "cdn-files.prsmedia.fr.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "679d6af48502a7fb7f4ff1b1d41e72c05cb2b098841327a552084586a8c1702b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "libramemoria.com",
+                "www.libramemoria.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000479,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7866666666666666
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.14666666666666667
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.06666666666666667
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Stylesheet": 40,
+        "Script": 117,
+        "Font": 38,
+        "Image": 19
+    },
+    "nameservers": []
+}

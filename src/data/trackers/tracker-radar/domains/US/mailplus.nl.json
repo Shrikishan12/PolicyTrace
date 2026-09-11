@@ -1,0 +1,144 @@
+{
+    "domain": "mailplus.nl",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "m9",
+        "m6",
+        "m15",
+        "m3",
+        "static"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mailplus\\.nl\\/genericservice\\/code\\/servlet\\/React",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "m9",
+                "m6",
+                "m15",
+                "m3"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "e4d6d4db5d7bf82388c15060838d9754b27d6fbbdba5ae8ce92073fb7016639f",
+                "901f8c6e28c64475cde84c00fba12c7fadb1587e7383d14a52661e375ff1f947",
+                "619b6cde37d29d52e36e8ee5f1faf24c2900f14cd387fa824c79e6affd4580cf",
+                "be3fb59d93fe963473dddfb1b7c3123067d810ca3c83b2e654f9bffb1abec4a8",
+                "2aed2006c7009983c3cd30ae13d2b5ed85a52a968570057f01787d888fafb0f3"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alzheimer-nederland.nl",
+                "www.alzheimer-nederland.nl",
+                "www.inspirerendleven.nl",
+                "www.tergooi.nl",
+                "www.vandale.nl",
+                "www.vriendin.nl"
+            ]
+        },
+        {
+            "rule": "mailplus\\.nl\\/jq\\/jquery-3\\.6\\.0\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6c5553217c782b518e313cb40a8de37438437a417df3f61e0cf020eadfd64f15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alzheimer-nederland.nl",
+                "www.vandale.nl"
+            ]
+        },
+        {
+            "rule": "mailplus\\.nl\\/jq\\/jquery\\.validate\\.1\\.19\\.5\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "270524b0d27afd1d3b6622d1a176c678daed94564c143297e217a63e21ce9820"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alzheimer-nederland.nl",
+                "www.tergooi.nl"
+            ]
+        },
+        {
+            "rule": "mailplus\\.nl\\/jq\\/ui\\/jquery-ui-1\\.13\\.2\\.custom\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8cf319b1abc44633b41416caa1e927dd1dd4b853834bfb12641144222508c551"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "alzheimer-nederland.nl",
+                "www.vandale.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9629629629629629
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.037037037037037035
+        }
+    ],
+    "types": {
+        "Script": 12
+    },
+    "nameservers": [
+        "rory.ns.cloudflare.com",
+        "brianna.ns.cloudflare.com"
+    ]
+}

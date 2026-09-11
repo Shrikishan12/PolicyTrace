@@ -1,0 +1,178 @@
+{
+    "domain": "rbc.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "digstream-tk",
+        "digstream-clt",
+        "ssgtm"
+    ],
+    "cnames": [
+        {
+            "original": "digstream-clt.rbc.com",
+            "resolved": "digstream-clt.rbc.com.edgekey.net"
+        },
+        {
+            "original": "digstream-tk.rbc.com",
+            "resolved": "digstream-tk.rbc.com.edgekey.net"
+        },
+        {
+            "original": "ssgtm.rbc.com",
+            "resolved": "ssgtm.rbc.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rbc\\.com\\.edgekey\\.net\\/rtspt\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "digstream-tk"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digstream-tk.rbc.com",
+                    "resolved": "digstream-tk.rbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "50cf303cfaa020fcbedd6ad1bf045a008cbb88dfc792f731f07235dd1ca13599"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "spses.db3b": {
+                    "ttl": 1803,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                },
+                "spid.db3b": {
+                    "ttl": 63072003,
+                    "length": 108,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbcroyalbank.com",
+                "www.rbc.com",
+                "www.rbcroyalbank.com"
+            ]
+        },
+        {
+            "rule": "rbc\\.com\\.edgekey\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digstream-clt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digstream-clt.rbc.com",
+                    "resolved": "digstream-clt.rbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "2689367b205c16ce32ed4200942b8b8b1e262dfc70d9bc9fbc77c49699a4f1df"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbcroyalbank.com",
+                "www.rbc.com",
+                "www.rbcroyalbank.com"
+            ]
+        },
+        {
+            "rule": "rbc\\.com\\.edgekey\\.net\\/com\\.snowplowanalytics\\.snowplow\\/tp2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "digstream-clt"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "digstream-clt.rbc.com",
+                    "resolved": "digstream-clt.rbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rbcroyalbank.com",
+                "www.rbc.com",
+                "www.rbcroyalbank.com"
+            ]
+        },
+        {
+            "rule": "rbc\\.com\\.edgekey\\.net\\/g\\/collect",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ssgtm"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ssgtm.rbc.com",
+                    "resolved": "ssgtm.rbc.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ga": 0.000041097860856342424
+            },
+            "exampleSites": [
+                "royalbank.com",
+                "secure.royalbank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.2222222222222222
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 3,
+        "Preflight": 3,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

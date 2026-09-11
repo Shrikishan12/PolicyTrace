@@ -1,0 +1,90 @@
+{
+    "domain": "mid-day.com.edgesuite.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00000685,
+    "sites": 1,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [
+        {
+            "original": "api.mid-day.com",
+            "resolved": "api.mid-day.com.edgesuite.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "mid-day\\.com\\.edgesuite\\.net\\/API\\/getDataOfEventLogo",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.mid-day.com",
+                    "resolved": "api.mid-day.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "495ab6a97cf9957d816f9d85fc8c3dd31181344048ca21ee6c35a4395bd76345"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mid-day.com",
+                "www.mid-day.com"
+            ]
+        },
+        {
+            "rule": "mid-day\\.com\\.edgesuite\\.net\\/API\\/getAddsData",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "api.mid-day.com",
+                    "resolved": "api.mid-day.com.edgesuite.net"
+                }
+            ],
+            "responseHashes": [
+                "639553b087bfeac9bd76233af62a5771192efe484c4eb8fddd16c9153a891e2d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mid-day.com",
+                "www.mid-day.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.00000685,
+    "types": {
+        "XHR": 2,
+        "Fetch": 2
+    },
+    "nameservers": []
+}

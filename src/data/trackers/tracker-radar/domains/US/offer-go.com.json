@@ -1,0 +1,63 @@
+{
+    "domain": "offer-go.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "offer-go\\.com\\/wct\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Date.prototype.getTime": 3,
+                "Document.cookie getter": 3,
+                "Document.cookie setter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "33d416894e20b023ddfd372de24941b859392255b0909de699216d02ab46fcf1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_wctrck": {
+                    "ttl": 14400,
+                    "length": 277,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bedbible.com",
+                "lovefreund.de",
+                "www.wedio.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "jo.ns.cloudflare.com",
+        "beau.ns.cloudflare.com"
+    ]
+}

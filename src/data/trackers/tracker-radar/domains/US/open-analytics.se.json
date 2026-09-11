@@ -1,0 +1,147 @@
+{
+    "domain": "open-analytics.se",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "tracker.hsb",
+        "tracker.oph"
+    ],
+    "cnames": [
+        {
+            "original": "matomotracking.naturvardsverket.se",
+            "resolved": "open-analytics.se"
+        },
+        {
+            "original": "open-analytics.hrw.org",
+            "resolved": "open-analytics.se"
+        },
+        {
+            "original": "tracking.oph.fi",
+            "resolved": "tracker.oph.open-analytics.se"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "open-analytics\\.se\\/js\\/container_MOFt5fSb\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "open-analytics.hrw.org",
+                    "resolved": "open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "f590741b19d1caa9b3c0b4eb767fe8b4cb7c1dc87f2d01a2bb6afbe972c84f95"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hrw.org",
+                "www.hrw.org"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/matomo\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.hsb",
+                "tracker.oph"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "open-analytics.hrw.org",
+                    "resolved": "open-analytics.se"
+                },
+                {
+                    "original": "matomotracking.naturvardsverket.se",
+                    "resolved": "open-analytics.se"
+                },
+                {
+                    "original": "tracking.oph.fi",
+                    "resolved": "tracker.oph.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "hrw.org",
+                "www.hsb.se",
+                "www.hrw.org",
+                "www.naturvardsverket.se",
+                "www.oph.fi"
+            ]
+        },
+        {
+            "rule": "open-analytics\\.se\\/plugins\\/HeatmapSessionRecording\\/configs\\.php",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker.hsb",
+                "tracker.oph"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "matomotracking.naturvardsverket.se",
+                    "resolved": "open-analytics.se"
+                },
+                {
+                    "original": "tracking.oph.fi",
+                    "resolved": "tracker.oph.open-analytics.se"
+                }
+            ],
+            "responseHashes": [
+                "468c3e80a8a67769e312961f87c94aa64019c77e4bf6d7f1ea9d412adafb9f82",
+                "41ad4104a471f165a38f5b53d33379feee0549d6a2b985ff71ae43e0d47faea9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hsb.se",
+                "www.naturvardsverket.se",
+                "www.oph.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Ping": 5
+    },
+    "nameservers": [
+        "ns1.dnshost.net",
+        "ns2.dnshost.net"
+    ]
+}

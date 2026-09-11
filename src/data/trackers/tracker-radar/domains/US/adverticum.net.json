@@ -1,0 +1,158 @@
+{
+    "domain": "adverticum.net",
+    "owner": {
+        "name": "Adverticum Zrt.",
+        "displayName": "Adverticum Zrt"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "ad"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adverticum\\.net\\/g3\\.js",
+            "cookies": 0.0000342,
+            "fingerprinting": 2,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {
+                "Document.cookie getter": 5,
+                "window.localStorage": 5,
+                "window.sessionStorage": 5,
+                "Navigator.prototype.userAgent": 5,
+                "Document.cookie setter": 5,
+                "NavigatorUAData.prototype.getHighEntropyValues": 5,
+                "Navigator.prototype.language": 5,
+                "Navigator.prototype.mimeTypes": 5,
+                "Navigator.prototype.plugins": 5,
+                "NavigatorUAData.prototype.platform": 5,
+                "Screen.prototype.colorDepth": 5,
+                "Screen.prototype.availWidth": 5,
+                "Screen.prototype.availHeight": 5,
+                "Date.prototype.getTime": 3,
+                "Event.prototype.timeStamp": 2
+            },
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_goa3B": {
+                    "ttl": 63072003,
+                    "length": 72,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 0.2
+                },
+                "_goa3": {
+                    "ttl": 63072005,
+                    "length": 30,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 0.2
+                },
+                "_goa3test": {
+                    "ttl": 63072005,
+                    "length": 35,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "_goa3session": {
+                    "ttl": 7204,
+                    "length": 26,
+                    "prevalence": 0.00003424821738028536,
+                    "uniqueness": 1
+                },
+                "_goa3GDPR": {
+                    "ttl": 63072005,
+                    "length": 48,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benu.hu",
+                "hvg.hu",
+                "topszotar.hu",
+                "www.ceginformacio.hu",
+                "www.funpic.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/scripts\\/goa3\\/main\\/2\\.15\\.2b6\\/goa3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "6a28d85a87423a7e2ed4950e92b05b25fb23c4c23e647644825f0fc2740d1552"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benu.hu",
+                "hvg.hu",
+                "topszotar.hu",
+                "www.ceginformacio.hu",
+                "www.funpic.hu"
+            ]
+        },
+        {
+            "rule": "adverticum\\.net\\/z",
+            "cookies": 0.0000342,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ad"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "3a9e561250d2b6938d5e438dbf5db6e4999f82760b0f220c82d59d3f4a15d691",
+                "5f366b44cde829fd8fb8a8cb578e8cfa543481bf177626617eb7fea82e771555",
+                "40cf967c8bdb84d8d5e875ab0e8214e14af154d71d7cb0089ca44e80a3fca87e",
+                "c7f7cc37d2ebae492f4014e9dd6596d3b4a1a63a9cbcb750ef7a4a43c8b5e672"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "benu.hu",
+                "hvg.hu",
+                "topszotar.hu",
+                "www.ceginformacio.hu",
+                "www.funpic.hu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 15
+    },
+    "nameservers": [
+        "ns0.prim.hu",
+        "ns1.prim.hu"
+    ]
+}

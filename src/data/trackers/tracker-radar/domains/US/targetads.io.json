@@ -1,0 +1,210 @@
+{
+    "domain": "targetads.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "eye",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "targetads\\.io\\/web\\/collect",
+            "cookies": 0.0000616,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "b4f069b1292600a5206284d0318c6e208902dde3de3136f07d86e2725378ee87",
+                "69ee1cd9b290eb1f4909a8082f9cbedaeb66a5c4364cb7a622ad5d140868557f",
+                "f564c9041213e5da9f9db4b8d0862786ca403ec0c9870df90bfa8a275cc61346",
+                "69b8503d407a19f2011aa7e3eb9369849993bf9eae58c004b4fcd343bb0f9947",
+                "3e571ac30f877607c68b758d5ed5d267411b8fdb59fa68d8859447d80c062933",
+                "e69c416ca381d97237d10793f60970fe0d02eeb5e639c3d29c7f36bfda00877b",
+                "28d511eb57160efaf9ac40c63bb54057c36bcfa26ee489efb49d7e897d2b1547",
+                "75ac990c4117044d0337c98fb3e7406ae2e7a574ec0322a0bb065d259198392d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_ym_d": 0.000020548930428171212,
+                "pageLanding": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "hh.ru",
+                "secrets.tbank.ru",
+                "t-j.ru",
+                "www.detmir.ru",
+                "www.ivi.tv",
+                "www.ivi.ru",
+                "www.sravni.ru",
+                "www.tbank.ru",
+                "www.tutu.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/sync\\/partner",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hh.ru",
+                "info.pochta.ru",
+                "kontur.ru",
+                "www.avito.ru",
+                "www.cian.ru",
+                "www.detmir.ru",
+                "www.sravni.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/view\\/pixel",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "eye"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d346801abbf9bb4e9e9a055239053d4ab5596514304f601a6c70604187acb744"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tbank.ru",
+                "secrets.tbank.ru",
+                "t-j.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/websdk\\/v2\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "def9b334a1ac2e5686d2b6928bad00a4dd38413a21e7d6bb665aa76465d56a63"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ivi.tv",
+                "www.ivi.ru"
+            ]
+        },
+        {
+            "rule": "targetads\\.io\\/websdk\\/v2\\.2\\/index\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Navigator.prototype.language": 2,
+                "Screen.prototype.availWidth": 2,
+                "Screen.prototype.availHeight": 2,
+                "Date.prototype.getTime": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f5dc7f638fd3e5f8803bdc654564f5ba9f8994e87e106f8d6136d2b4b1756ccc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sravni.ru",
+                "www.tutu.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000685,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.3225806451612903
+        },
+        {
+            "domain": "hybrid.ai",
+            "prevalence": 0.22580645161290322
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16129032258064516
+        },
+        {
+            "domain": "tbank.ru",
+            "prevalence": 0.12903225806451613
+        },
+        {
+            "domain": "tinkoffjournal.ru",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "ravenjs.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "ivi.ru",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Fetch": 9,
+        "Image": 10,
+        "Script": 4
+    },
+    "nameservers": [
+        "ns2.yandexcloud.net",
+        "ns1.yandexcloud.net"
+    ]
+}

@@ -1,0 +1,99 @@
+{
+    "domain": "fr-v3.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "login.franceinfo",
+        "static.rfi"
+    ],
+    "cnames": [
+        {
+            "original": "login.franceinfo.fr",
+            "resolved": "login.franceinfo.fr-v3.edgekey.net"
+        },
+        {
+            "original": "static.rfi.fr",
+            "resolved": "static.rfi.fr-v3.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "fr-v3\\.edgekey\\.net\\/api\\/user-info",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "login.franceinfo"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "login.franceinfo.fr",
+                    "resolved": "login.franceinfo.fr-v3.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4912508a061e428d02a30d5d1af861855dc554011df70c064d297751c6a3e25a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "franceinfo.fr",
+                "meteo.franceinfo.fr"
+            ]
+        },
+        {
+            "rule": "fr-v3\\.edgekey\\.net\\/meta_og_twcards\\/logo_160x160\\.webp",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static.rfi"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "static.rfi.fr",
+                    "resolved": "static.rfi.fr-v3.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "4e81bf62a274e04e41e52f69c7bf402170e3a8b75e146fde929bae107bbf4fd8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rfi.fr",
+                "www.rfi.fr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "fmm.io",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 2,
+        "Image": 2
+    },
+    "nameservers": []
+}

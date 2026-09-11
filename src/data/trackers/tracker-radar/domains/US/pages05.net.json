@@ -1,0 +1,144 @@
+{
+    "domain": "pages05.net",
+    "owner": {
+        "name": "International Business Machines Corporation",
+        "displayName": "International Business Machines",
+        "privacyPolicy": "https://www.ibm.com/privacy/us/en/",
+        "url": "http://ibm.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "sc",
+        "www.sc",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "pages05\\.net\\/lp\\/static\\/js\\/iMAWebCookie\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sc",
+                "www.sc"
+            ],
+            "apis": {
+                "Navigator.prototype.cookieEnabled": 7,
+                "Document.cookie getter": 7,
+                "Date.prototype.getTime": 7,
+                "Document.cookie setter": 7,
+                "Navigator.prototype.userAgent": 5
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "e0447961a33816f0c4e3857863982dbc864a67748c596b78678a7622a8f69282"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "com.silverpop.iMAWebCookie": {
+                    "ttl": 86400005,
+                    "length": 36,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                },
+                "com.silverpop.iMA.page_visit": {
+                    "ttl": 1205,
+                    "length": 8,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 0.5714285714285714
+                },
+                "com.silverpop.iMA.session": {
+                    "ttl": 1205,
+                    "length": 36,
+                    "prevalence": 0.0000479475043323995,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "redwingshoes.com",
+                "uline.com",
+                "www.beaches.com",
+                "www.honolulumagazine.com",
+                "www.minutekey.com",
+                "www.redwingshoes.com",
+                "www.sandals.com",
+                "www.uline.com",
+                "www.yamahaboats.com",
+                "www.yamahawaverunners.com"
+            ]
+        },
+        {
+            "rule": "pages05\\.net\\/WTS\\/event\\.jpeg",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "com.silverpop.iMAWebCookie": 0.0000479475043323995,
+                "com.silverpop.iMA.session": 0.0000479475043323995
+            },
+            "exampleSites": [
+                "redwingshoes.com",
+                "uline.com",
+                "www.minutekey.com",
+                "www.redwingshoes.com",
+                "www.uline.com",
+                "www.yamahaboats.com",
+                "www.yamahawaverunners.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.39285714285714285
+        },
+        {
+            "domain": "ensighten.com",
+            "prevalence": 0.2857142857142857
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.25
+        },
+        {
+            "domain": "hs-analytics.net",
+            "prevalence": 0.03571428571428571
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.03571428571428571
+        }
+    ],
+    "types": {
+        "Script": 10,
+        "Image": 7
+    },
+    "nameservers": [
+        "ns1.acoustic-adm.com",
+        "ns2.acoustic-adm.com",
+        "ns3.acoustic-adm.com",
+        "ns4.acoustic-adm.com"
+    ]
+}

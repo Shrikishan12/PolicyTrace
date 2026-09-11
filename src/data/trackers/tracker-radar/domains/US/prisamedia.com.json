@@ -1,0 +1,113 @@
+{
+    "domain": "prisamedia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "player",
+        "player-pre"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "prisamedia\\.com\\/core\\/js\\/coreplayer_launcher\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player",
+                "player-pre"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "3024e387751b683c51e63b3a5b0cbe521795b1dcff0e495cf438211f5205c32d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadenaser.com",
+                "caracol.com.co",
+                "en.as.com",
+                "los40.com"
+            ]
+        },
+        {
+            "rule": "prisamedia\\.com\\/core\\/\\/js\\/coreplayer\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 3,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "1646ba72bc6c92187f10f1cabf69882f2815bfb344e97607fccd6f2c15adf500"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadenaser.com",
+                "caracol.com.co",
+                "en.as.com",
+                "los40.com"
+            ]
+        },
+        {
+            "rule": "prisamedia\\.com\\/core\\/\\/style\\/core\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "player"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "77f4cfe2ca7c795b3190159b88bb42a27e5e4bd09cb6f22ca16514f589669067"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cadenaser.com",
+                "caracol.com.co",
+                "los40.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 3
+    },
+    "nameservers": [
+        "dns1.p02.nsone.net",
+        "dns2.p02.nsone.net",
+        "dns3.p02.nsone.net",
+        "dns4.p02.nsone.net"
+    ]
+}

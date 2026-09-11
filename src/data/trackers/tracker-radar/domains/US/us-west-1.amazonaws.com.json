@@ -1,0 +1,1310 @@
+{
+    "domain": "us-west-1.amazonaws.com",
+    "owner": {
+        "name": "Amazon Technologies, Inc.",
+        "displayName": "Amazon.com",
+        "privacyPolicy": "https://www.amazon.com/gp/help/customer/display.html?nodeId=468496",
+        "url": "http://amazon.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000904,
+    "sites": 132,
+    "subdomains": [
+        "truemed-public.s3",
+        "pmc-pp-tou.s3",
+        "s3",
+        "pelicanweb-prod.s3",
+        "talar-miscellaneous-assets.s3",
+        "mountsinaiassetsbucket.s3",
+        "fievnbyjld.execute-api",
+        "prod-buywith-public-scripts.s3",
+        "zt6taxfu2g.execute-api",
+        "w0a7cq3k2e.execute-api",
+        "prod-ui-entry-widget-sta-createproduientrywidgetb-mi53q2gqfpif.s3",
+        "sd7sf8u3fj.execute-api",
+        "acropolis-wp-content-uploads.s3",
+        "deaconess-assets.s3",
+        "0qcofybyvd.execute-api",
+        "helixuserimages.s3",
+        "jboard-tenant.s3",
+        "sborg-usscif1-scif.s3"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/truemed-ads\\/prequal-widget\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "truemed-public.s3"
+            ],
+            "apis": {
+                "window.localStorage": 9,
+                "Date.prototype.getTime": 8
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "27e142ffc0fcfa5d901b8f3290d02dda83f383e08f8c569f9e7a7d02316f7b58"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boroux.com",
+                "dosedaily.co",
+                "gruns.co",
+                "novaalab.com",
+                "orthofeet.com",
+                "peakprimalwellness.com",
+                "thelumebox.com",
+                "www.orthofeet.com",
+                "www.trxtraining.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/privacy-notice\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pmc-pp-tou.s3"
+            ],
+            "apis": {
+                "Document.cookie getter": 17
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "b06b20064c049d015ccdbb78496e0373ddbbc488a4b3e7df6af07e82262e3b3a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadline.com",
+                "robbreport.com",
+                "soaps.sheknows.com",
+                "stylecaster.com",
+                "variety.com",
+                "wwd.com",
+                "www.artforum.com",
+                "www.artnews.com",
+                "www.billboard.com",
+                "www.goldderby.com",
+                "www.hollywoodreporter.com",
+                "www.indiewire.com",
+                "www.rollingstone.com",
+                "www.sheknows.com",
+                "www.sportico.com",
+                "www.theflowspace.com",
+                "www.vibe.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/privacy-notice\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pmc-pp-tou.s3"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "93bf167b7d3c652c2f6994272c20c80696b7312298dfadccfc2a743299277a05"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deadline.com",
+                "robbreport.com",
+                "soaps.sheknows.com",
+                "stylecaster.com",
+                "variety.com",
+                "wwd.com",
+                "www.artforum.com",
+                "www.artnews.com",
+                "www.billboard.com",
+                "www.goldderby.com",
+                "www.hollywoodreporter.com",
+                "www.indiewire.com",
+                "www.rollingstone.com",
+                "www.sheknows.com",
+                "www.sportico.com",
+                "www.theflowspace.com",
+                "www.vibe.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/static\\.aiavaamo\\.com\\/CRTV-8593-MSHS-Chatbot-Border\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0f2ec3668a474c6e51203cb6cbcba7b8490c5aa48ed9eb3527a56dc3454e9d6f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mountsinai.org",
+                "profiles.mountsinai.org",
+                "www.mountsinai.org"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/navbar\\/logo\\/pelican_logo_a_black\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "caac2993d11f0b2f721382c297d0b3044df2149958492d25de5f52133a8ade95"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/navbar\\/flags\\/us\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "79eac5884bbbccc3f13da91fb8fab0b5d418e09fe3ed996243e7b094dd6907da"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/navbar\\/flags\\/eu\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f52a73fcbf4bc1095065b0b47cb0420760bdb1a4e9f079bfc4605dcedd4eb2cb"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/navbar\\/flags\\/ca\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6332d64ba174743808876c85d85294cc7bab23563c30c31406684008a73c4ec0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/navbar\\/flags\\/au\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fd9900d5bc7cfe99dfc2527e6752b126b494c4fd5afa94831b85e455aac8612c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/logos\\/pelican-logo-white\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "eb53ff35b1da5741abee2d95ac194ad349012b15ad7a7eb7dc82cf645bf938bd"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/instagram\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4a81b5c6b6b2221da1e3e1b3b5cdadcc22fe81b63b5effed22e05e413fbeeea2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/facebook\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7559500bc562ed6868443da73555aa85a5abbaf719d7bf04054b8763f6d4f39b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/linkedin\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "cae3d1e4f9ecde799f28ddacfd52cd2794e5509ed78ff9765183b5e7e1c9dc4e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/x\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "25fafaa75f203bc354932e2e925bdc809ffd87fd052ea798dc97b8e3845fe734"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/tiktok\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "57940f7392146873eac8dbea93941f59d5c4ac4c693413d3f1d883e9bc024dd5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/youtube\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0d74efe0018559fec44bc349289ad71312ce8783b25793daa940e95a24795bc1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/shop-pay-logo\\.yJ-5VMKh\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e4e2bdf232e9a39ae3ff5a6c2f4b0e7ffac934e52c86a69291e47b9d262ae406"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/paypal-logo\\.Q2f7XzPy\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1585367432a8f01128626ae42d6c73e68d56984e5f26b0f77bc9f80a014fcfd5"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/image-20260609-133705\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f1a9334a5cc3dd28b224e07ab6030ec1a0015a66b6b844d033ef9d8fd16079e7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/image-20260609-133731\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d4f640ff7e006423041fabbf5ad785723a3c91726a649c4d0412930bff97377f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/image-20260609-133719\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7ea37e2c77a6d5059dd3151947e9dcd95af1291471dd964133fa1259b66347d0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/4S14Gz58dysHfAxAp1wS\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2b59053c50127a8c62f070d34c187ad0e5a7c8b7ed209ba84ed2ed7f3dde2d83"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/public\\/icons\\/27XPKJ9mrTKRfBPk8GgS\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pelicanweb-prod.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fbd1cbe6c2d8fa7bb8e5b9487dbd8ab0a2e17d755afe808f277792d8f596341e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pelican.com",
+                "www.pelican.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/instacart-retailer-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "talar-miscellaneous-assets.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d3abc55e6ac1e640ec3599a959392cf9d254ce13d871ba0e21521a6c8dd17843"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pickyeaterblog.com",
+                "thesaltycooker.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/unifiedORGscript\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mountsinaiassetsbucket.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "91a4c315364d7cb5ed488285b30288277db8612de1d407a976dd4f114d832d4a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mountsinai.org",
+                "www.mountsinai.org"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-ip-address",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-ip-address",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "76d61ccb81101a8db42ab7221c6a928d46746abdcae2617daa564afddb4d2bfd"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-zip-code",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-zip-code",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-user-agent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e8c14bb2430921ed5eecc0cadda6e5aeb9286e32f94a292711c3ca8a4c2b31eb"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/get-user-agent",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "fievnbyjld.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "quince.com",
+                "www.quince.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/shopify\\/blank-script\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-buywith-public-scripts.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "48b0ad7c41cbe45c765337eec2f7f135ce228544786ea5b769cd3b9d262e7382"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "panasonic.com",
+                "shop.panasonic.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/retail\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zt6taxfu2g.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1291f112d6b7d17575f2fbe82c0fb706eaa7e25ed5672eb76361cbc05e0db1bf"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "storycannabis.com",
+                "www.finefettle.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/prod\\/retail\\/all",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zt6taxfu2g.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "storycannabis.com",
+                "www.finefettle.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/tags",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w0a7cq3k2e.execute-api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2cc36e24ab003d3b14080787d91cb75dd7ceabce8481411763abc7e04bffd221"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com",
+                "www.lauramercier.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/entry-widget\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "prod-ui-entry-widget-sta-createproduientrywidgetb-mi53q2gqfpif.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e34a0b2c6b3295000fa0140e07a3224c58d2cd44361e4536e50100e68a915bbe"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/entry-widget\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "prod-ui-entry-widget-sta-createproduientrywidgetb-mi53q2gqfpif.s3"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 2,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "window.sessionStorage": 2,
+                "Navigator.prototype.appName": 2,
+                "Screen.prototype.height": 2,
+                "Screen.prototype.width": 2,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c07f7008bcfe9735983a14f75bc20934bae0bb181cff09884bd1f5b49e619aa7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/entry-point-widget-configuration",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w0a7cq3k2e.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c38db2325fbe43bc9d03ff6bd5f77bf0481874e02c825ddf87dbadbc6ca5f765"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/brands\\/integrity",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "w0a7cq3k2e.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "_li_dcdm_c": 0.000013699286952114143
+            },
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/brands\\/2WctkdxhwQC6RrB42D3EUeyEpFE\\/events\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd7sf8u3fj.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/brands\\/2WctkdxhwQC6RrB42D3EUeyEpFE\\/events\\/user",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd7sf8u3fj.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/brands\\/2WctkdxhwQC6RrB42D3EUeyEpFE\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd7sf8u3fj.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/brands\\/2WctkdxhwQC6RrB42D3EUeyEpFE\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sd7sf8u3fj.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bareminerals.com",
+                "www.bareminerals.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/bigrentz_logo_4color_white-text-220x57\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acropolis-wp-content-uploads.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed6be76496c9795d20dc5d9382faae53f398b13eab4d78ebc21d17be03faf709"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigrentz.com",
+                "www.bigrentz.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/White-Icons-60x60\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "acropolis-wp-content-uploads.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e6a58a824004596c08f5389d50064d97e891b461b09c72c3f890f3565e09fb7a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigrentz.com",
+                "www.bigrentz.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/deaconess_org_script\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "deaconess-assets.s3"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c2e6d02ca2c95140ca075f9835bcac8221e13ee3add9ea00d968cf59260eeaef"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "deaconess.com",
+                "www.deaconess.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/hw-prod\\/bloomreach-hw",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "0qcofybyvd.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homewiseappliance.com",
+                "www.homewiseappliance.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/hw-prod\\/bloomreach-hw",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "0qcofybyvd.execute-api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "78d51062e2b0505ebaee9837293894f33ff041102d67603436e48e2aabf30f22"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "homewiseappliance.com",
+                "www.homewiseappliance.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/external\\/7439ce50-0049-4686-a6ca-a27851c841c1\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "helixuserimages.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1daf1fab83c37863e2d29e3999643124bb77013818a758747e548d96fdd7736e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "paulaschoice.com",
+                "www.paulaschoice.com"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/employers\\/kbdzxG0QXr3tqjwlqkO2hLgCvW7xXkcsFPrsJ2F7\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jboard-tenant.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a4df3ee3c0c504fdd8f3e9c12336e1c6ee4ff2a30e32c9980cec69f76f8d86a1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pedestrian.tv",
+                "www.pedestrian.tv"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/employers\\/gEeKFCyVdMGicHESikNdNKWNujCX5uCbciHGewUF\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jboard-tenant.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "980b4229ce6d88ad9bfd821873a788dff0a30e6cad625c2b24dc6cbff8780223"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pedestrian.tv",
+                "www.pedestrian.tv"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/employers\\/ZZmVn2rCe830k9Zajsffay22pH8oaKDQ4wihbLEi\\.jpeg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "jboard-tenant.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8400a8204fc86fda9f0e7146caed0b2c745e6a9db77629eb762f67939cc8570a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pedestrian.tv",
+                "www.pedestrian.tv"
+            ]
+        },
+        {
+            "rule": "us-west-1\\.amazonaws\\.com\\/cms\\/assets\\/d5bab3be-4c86-4332-bfd6-52453503ad10\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sborg-usscif1-scif.s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ca2f876ffe134e5c39f7ae78bf02074e08fd9080bc15cd35a1f86bf7ceb682da"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "statefundca.com",
+                "www.statefundca.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9267605633802817
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.023943661971830985
+        },
+        {
+            "domain": "alhena.ai",
+            "prevalence": 0.015492957746478873
+        },
+        {
+            "domain": "gethumankind.com",
+            "prevalence": 0.009859154929577466
+        },
+        {
+            "domain": "visually.io",
+            "prevalence": 0.005633802816901409
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.004225352112676056
+        },
+        {
+            "domain": "iubenda.com",
+            "prevalence": 0.0028169014084507044
+        },
+        {
+            "domain": "terpli.io",
+            "prevalence": 0.0028169014084507044
+        },
+        {
+            "domain": "servisbotconnectcdn.com",
+            "prevalence": 0.0028169014084507044
+        },
+        {
+            "domain": "hubspotusercontent-na1.net",
+            "prevalence": 0.0014084507042253522
+        }
+    ],
+    "types": {
+        "Script": 34,
+        "Stylesheet": 21,
+        "Image": 55,
+        "Preflight": 14,
+        "XHR": 14,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "ns-1369.awsdns-43.org",
+        "ns-1819.awsdns-35.co.uk",
+        "ns-461.awsdns-57.com",
+        "ns-542.awsdns-03.net"
+    ]
+}

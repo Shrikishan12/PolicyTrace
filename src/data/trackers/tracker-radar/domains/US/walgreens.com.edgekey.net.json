@@ -1,0 +1,61 @@
+{
+    "domain": "walgreens.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "chatbot-prod"
+    ],
+    "cnames": [
+        {
+            "original": "chatbot-prod.walgreens.com",
+            "resolved": "chatbot-prod.walgreens.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "walgreens\\.com\\.edgekey\\.net\\/chatLaunch\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chatbot-prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "chatbot-prod.walgreens.com",
+                    "resolved": "chatbot-prod.walgreens.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [
+                "dd8031d46fb230e448ef6c5b4a02f9b70c7fcff4f6b45217b2d3d05f31efb8cd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "walgreens.com",
+                "photo.walgreens.com",
+                "www.walgreens.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 3
+    },
+    "nameservers": []
+}

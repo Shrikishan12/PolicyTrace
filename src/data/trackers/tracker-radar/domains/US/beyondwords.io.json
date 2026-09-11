@@ -1,0 +1,214 @@
+{
+    "domain": "beyondwords.io",
+    "owner": {
+        "name": "BeyondWords",
+        "displayName": "BeyondWords",
+        "privacyPolicy": "https://beyondwords.io/privacy/",
+        "url": "http://beyondwords.io"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "proxy",
+        "metrics",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "beyondwords\\.io\\/npm\\/@beyondwords\\/player@latest\\/dist\\/umd\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 8,
+                "URL.createObjectURL": 5,
+                "Navigator.prototype.languages": 5,
+                "HTMLMediaElement.prototype.canPlayType": 6,
+                "window.localStorage": 6
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "d1e28fefc7e41ac23d97e6764b7d757442bcf27c0102be773393b64997713839"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanaddictioncenters.org",
+                "texasscorecard.com",
+                "ugeavisen.dk",
+                "videnskab.dk",
+                "www.nzherald.co.nz",
+                "www.ohiolegalhelp.org",
+                "www.thearmorylife.com",
+                "www.wordonfire.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/npm\\/@beyondwords\\/player@0\\.4\\.8\\/dist\\/style\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "b9e22b754acb4b900e98606b290ae8a92f73849709bb4c1ba98882f7b47fa61a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanaddictioncenters.org",
+                "texasscorecard.com",
+                "videnskab.dk",
+                "www.ohiolegalhelp.org",
+                "www.wordonfire.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/npm\\/@beyondwords\\/player@0\\.4\\.8\\/dist\\/hls\\.light\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "proxy"
+            ],
+            "apis": {
+                "MediaSource.isTypeSupported": 6,
+                "URL.createObjectURL": 6,
+                "Navigator.prototype.onLine": 1
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "5f331c30daadbfff1d83c7c05e5cde2ee1a21f9c2c85481935987a3a8f768a4e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanaddictioncenters.org",
+                "texasscorecard.com",
+                "videnskab.dk",
+                "www.ohiolegalhelp.org",
+                "www.thearmorylife.com",
+                "www.wordonfire.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanaddictioncenters.org",
+                "texasscorecard.com",
+                "videnskab.dk",
+                "www.beobachter.ch",
+                "www.berliner-kurier.de",
+                "www.channelnewsasia.com",
+                "www.ohiolegalhelp.org",
+                "www.smh.com.au",
+                "www.theage.com.au",
+                "www.thearmorylife.com",
+                "www.watoday.com.au",
+                "www.wordonfire.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "metrics"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanaddictioncenters.org",
+                "texasscorecard.com",
+                "videnskab.dk",
+                "www.beobachter.ch",
+                "www.berliner-kurier.de",
+                "www.channelnewsasia.com",
+                "www.ohiolegalhelp.org",
+                "www.smh.com.au",
+                "www.theage.com.au",
+                "www.thearmorylife.com",
+                "www.watoday.com.au",
+                "www.wordonfire.org"
+            ]
+        },
+        {
+            "rule": "beyondwords\\.io\\/v1\\/projects\\/53667\\/player\\/by_content_id\\/81672820-1ad4-4be2-9fca-a4bdf5609bb2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0c355b1bc1563ce78085f1abb51af1fa7e24bb4a4df2a2db1d9721ed249cbd72"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thearmorylife.com",
+                "www.thearmorylife.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "Fetch": 14,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "lee.ns.cloudflare.com",
+        "kate.ns.cloudflare.com"
+    ]
+}

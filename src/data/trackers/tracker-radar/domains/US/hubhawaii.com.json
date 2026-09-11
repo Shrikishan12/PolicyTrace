@@ -1,0 +1,82 @@
+{
+    "domain": "hubhawaii.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000411,
+    "sites": 6,
+    "subdomains": [
+        "media"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "hubhawaii\\.com\\/public\\/css\\/hubhawaii\\.frontend2\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "62bb19a804300684cb03804a496be8e44e93867a46dc04814b02c3ebe1658eaa"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigislandnow.com",
+                "kauainownews.com",
+                "mauinow.com"
+            ]
+        },
+        {
+            "rule": "hubhawaii\\.com\\/public\\/js\\/hubhawaii\\.frontend2\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "media"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "5eaa5c3244b3f9d81d3fb192ffb781a30b0a3c3bb917d234e4da529a55e79553"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bigislandnow.com",
+                "kauainownews.com",
+                "mauinow.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 3,
+        "Script": 3
+    },
+    "nameservers": [
+        "hal.ns.cloudflare.com",
+        "rafe.ns.cloudflare.com"
+    ]
+}

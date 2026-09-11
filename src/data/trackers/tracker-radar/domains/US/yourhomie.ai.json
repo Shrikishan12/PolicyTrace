@@ -1,0 +1,91 @@
+{
+    "domain": "yourhomie.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "cdn",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "yourhomie\\.ai\\/embed\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 8,
+                "CookieStore.prototype.get": 8,
+                "window.innerWidth": 8,
+                "CanvasRenderingContext2D.prototype.measureText": 7
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "4ed262d2184e2b1bcf33e6c46f517790a3909fe5d4b17efaa9f597669cbcb206"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bausep.de",
+                "www.bausep.de",
+                "www.bremer-gewuerzhandel.de",
+                "www.fahrrad.de",
+                "www.globus-baumarkt.de",
+                "www.hagebau.de",
+                "www.marielove.de",
+                "www.trigema.de"
+            ]
+        },
+        {
+            "rule": "yourhomie\\.ai\\/v1\\/chatbots\\/f96f968d-6364-439b-a5c8-8009eb65b3e4\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a983cb1be720e06ff36beae6dfa42473bcea4d9b3be590f7d0e08db56f8b0fdb"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bausep.de",
+                "www.bausep.de"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1040.ui-dns.com",
+        "ns1077.ui-dns.biz",
+        "ns1051.ui-dns.de",
+        "ns1048.ui-dns.org"
+    ]
+}

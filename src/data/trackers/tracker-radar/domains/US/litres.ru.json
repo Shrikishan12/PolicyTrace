@@ -1,0 +1,194 @@
+{
+    "domain": "litres.ru",
+    "owner": {
+        "name": "LitRes Ltd",
+        "displayName": "LitRes"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "www",
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "litres\\.ru\\/pages\\/quickread\\/",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/ref_widget_art_alltypes\\/",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23d273684722cb30437fb028f0c2802792ebe555e9d66d092c0f46c8a639b20c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/_next\\/static\\/css\\/c381c889feeed781\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3e74ce8e7c6f72e4b7c3a3adcc475f9111a81fd020a77c252eefda0f33086cad"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/static\\/litres\\/fonts\\/ALSSirius-Regular\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "21dd84ec759906ea6fca4fb814ada97227435f1a245061a0230e6fbdc379524e"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/static\\/litres\\/fonts\\/ALSSirius-Medium\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "26f5627a02bd10478e97960c954ce2028df9b3d622f61c221c2228c15388ddb1"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/static\\/litres\\/fonts\\/ALSSirius-Bold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "8773f849e75e8a23fb514c5cd53b483bf3fbb4a34d3d1c9373aa1642cadbddf2"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        },
+        {
+            "rule": "litres\\.ru\\/static\\/litres\\/logo\\/logo_ru\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6cc90e3d4d97b8831bb0ab9f91acf7a664a712d18d9cc190bc28f8fc71c8885c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fictionbook.ru",
+                "litportal.ru"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Document": 2,
+        "XHR": 2,
+        "Stylesheet": 2,
+        "Font": 6,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns1.litres.ru",
+        "ns8-l2.nic.ru",
+        "ns2.litres.ru",
+        "ns4-l2.nic.ru"
+    ]
+}

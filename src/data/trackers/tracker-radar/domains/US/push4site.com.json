@@ -1,0 +1,136 @@
+{
+    "domain": "push4site.com",
+    "owner": {
+        "name": "LLC LOOK GIFT",
+        "displayName": "LOOK GIFT"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "iz",
+        "kasperskyru",
+        "kasperskycom"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "push4site\\.com\\/sdk",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "iz",
+                "kasperskyru",
+                "kasperskycom"
+            ],
+            "apis": {
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.userAgent": 2,
+                "window.localStorage": 2,
+                "Document.cookie getter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iz.ru",
+                "www.kaspersky.ru",
+                "www.kaspersky.com"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/Content\\/WidgetsStyles\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iz"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae56f3c9be6e9f0d4304b24b9fa811c71c9f78ce8390903ddf2f38677cf16f50"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "iz.ru",
+                "www.kaspersky.com"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/Static\\/Script\\/kasperskycom\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "kasperskycom"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fb4dcc9e6fe0afb12504f15b3f718c804cc209b5752f7be69e362b49371d3c3c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaspersky.com",
+                "www.kaspersky.com"
+            ]
+        },
+        {
+            "rule": "push4site\\.com\\/SiteImages\\/08c59ddd-4230-4612-8104-25491033bd1a\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "824af0dc3dee7d96de0b9764835c1271e7315d9f73f577068c237f7171a4c07b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "kaspersky.com",
+                "www.kaspersky.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "kaspersky.de",
+            "prevalence": 0.5454545454545454
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.45454545454545453
+        }
+    ],
+    "types": {
+        "Script": 5,
+        "Stylesheet": 2,
+        "Image": 2
+    },
+    "nameservers": [
+        "gene.ns.cloudflare.com",
+        "scott.ns.cloudflare.com"
+    ]
+}

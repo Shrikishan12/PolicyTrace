@@ -1,0 +1,95 @@
+{
+    "domain": "zalo.me",
+    "owner": {
+        "name": "VNG Corporation",
+        "displayName": "VNG"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "sp",
+        "button-share"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "zalo\\.me\\/plugins\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "sp"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "44cb3a91c015dd9ce8077a60c72ffbb5658f18abab2302603c0570544fcf3c92"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thanhnien.vn",
+                "thoitiet.tv",
+                "vietnamnet.vn"
+            ]
+        },
+        {
+            "rule": "zalo\\.me\\/share_inline",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "button-share"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "baomoi.com",
+                "thoitiet.tv",
+                "vietnamnet.vn"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "vnncdn.net",
+            "prevalence": 0.4
+        },
+        {
+            "domain": "thanhnien.com.vn",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Document": 3
+    },
+    "nameservers": [
+        "zans1.zadns.me",
+        "zans2.zadns.vn",
+        "zans2.zadns.me",
+        "zans1.zadns.vn"
+    ]
+}

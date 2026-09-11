@@ -1,0 +1,96 @@
+{
+    "domain": "stuff.map.fastly.net",
+    "owner": {
+        "name": "Fastly, Inc.",
+        "displayName": "Fastly",
+        "privacyPolicy": "https://www.fastly.com/privacy",
+        "url": "http://fastly.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "dualstack"
+    ],
+    "cnames": [
+        {
+            "original": "assets.stuff.co.nz",
+            "resolved": "dualstack.stuff.map.fastly.net"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "stuff\\.map\\.fastly\\.net\\/static\\/stuff-adtech-sdk\\/ads-sdk\\/main\\/main\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets.stuff.co.nz",
+                    "resolved": "dualstack.stuff.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "87717948acad58141acb74256a8931b021551712cd5220f933458df97fd10a29"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuff.co.nz",
+                "www.stuff.co.nz"
+            ]
+        },
+        {
+            "rule": "stuff\\.map\\.fastly\\.net\\/static\\/stuff-adtech-sdk\\/ads-sdk\\/main\\/prebid\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "dualstack"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "assets.stuff.co.nz",
+                    "resolved": "dualstack.stuff.map.fastly.net"
+                }
+            ],
+            "responseHashes": [
+                "a65868227c528583e11e714aa85dadd16f28dd385be35c710de4996822691ab0"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "stuff.co.nz",
+                "www.stuff.co.nz"
+            ]
+        }
+    ],
+    "categories": [
+        "Ad Motivated Tracking",
+        "Advertising",
+        "Analytics",
+        "Third-Party Analytics Marketing",
+        "Action Pixels",
+        "CDN",
+        "Embedded Content",
+        "Session Replay"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "types": {
+        "Script": 4
+    },
+    "nameservers": []
+}

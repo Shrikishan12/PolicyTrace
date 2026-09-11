@@ -1,0 +1,815 @@
+{
+    "domain": "reputation.com",
+    "owner": {
+        "name": "Reputation.com, Inc",
+        "displayName": "Reputation.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "widgets",
+        "static-ui-public",
+        "surveys",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "reputation\\.com\\/src\\/client\\/widgets\\/widgets\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0e5650049b1f9738403a4072b57cab3c49f05af4dcfc5ca579344ed6ffa2c417"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andersonclinic.com",
+                "www.lhmauto.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/libcss\\/lib\\.59e37e05\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "79f22f86e302bfd2ffa6f544668cbd82ec3425345815d4fb951ddf329ff5073c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andersonclinic.com",
+                "www.amerisbank.com",
+                "www.lhmauto.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/css\\/widgets\\/widgets-app\\.aaed49d3\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "11b59a8619388c72b7c97994b879a7e6b5c02191ac6b74faf942d79753f35a9b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andersonclinic.com",
+                "www.lhmauto.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/fonts\\/Inter-Light\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "37a5f6a2050be4de8435bd4b6ff852a57c16b5a307bcc7b5ff9d974afb7b153d"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "andersonclinic.com",
+                "www.lhmauto.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/lib\\/widgets\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "widgets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "11b59a8619388c72b7c97994b879a7e6b5c02191ac6b74faf942d79753f35a9b"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lenscrafters.com",
+                "local.lenscrafters.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/surveys3\\/run",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bedea24665537a57e6d35cc0da2537b102a96009d40fb3a9e6bd42d398b9f115"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/css\\/surveys3\\/surveys-app\\.2e59ef05\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "38c1dae5467a935735c735bbddd44c05affaa8700025cb9092f3f10b3e206c1a"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/libjs\\/surveys3\\/survey-base-3aea078619d820b31758ecd57ace9755\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 2,
+                "window.name": 2,
+                "Navigator.prototype.languages": 2,
+                "Document.cookie getter": 2,
+                "window.localStorage": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f6e256e66220cc4ea40e120219962c59f5c597380804bcabbee408909cf35445"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/js\\/surveys3\\/survey-8d81ba29159ae8576afd5ef86e2af7f2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 2,
+                "Navigator.prototype.userAgent": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1e4ebc8f3511974df7cf3cf370867dc9c2a2afcc5f61211b03b7483bbbcc1cc6"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/font\\/Inter-Light\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/rsrc\\/l10n\\/common\\/uploader\\/en_US\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "346738c54276d11610295bdd1dbf0e4a28a6cf8a12459e05f97bc5a2c56b955c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/rsrc\\/l10n\\/core\\/en_US\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6289f2bc672c6f14213fcdaca3bb8df7786a645011636d78ed5d21201bb04fc6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/rsrc\\/l10n\\/surveys3\\/en_US\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23b6192dfe6ec26d2d4f73cca2aacacc6a4f621bb57d0b022edab9c19c97fafc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/lib\\/angular-i18n\\/angular-locale_en-us\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf6211ab92a565ece441b98a9a0c5f62f38f9c60e1466fcffd0e22e2aecc63b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/src\\/client\\/common\\/uploader\\/uploader-directive\\.tpl\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "358d8a8a6a5fa53521eed9ac0e071f559650b9e2930749aa407b775c396163f7"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/src\\/client\\/common\\/attribution\\/attribution-directive\\.tpl\\.html",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "24d43b89acdf54613593beb48aed947bc1f818ac1140d5d6981c3f9f60614a71"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/fonts\\/r4econs\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "fe316c77a35fdbda729cc19c00e567d3ff85fc693f75efd95e4899af11d28a45"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com",
+                "www.lhmauto.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/survey-plan\\/run",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "15f20c78bdc4d1989631ace38ae0378bde1a59fdb9aabb7254f1b6206c0efb87"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/surveys3\\/%7B%7BimageSource%7D%7D",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/surveys3\\/%7B%7BpromptSource\\.sourceLogo%7D%7D",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/surveys3\\/%7B%7Bsource\\.largeIconPath%20%7D%7D",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/surveys3\\/%7B%7BimageGoogle%7D%7D",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/src\\/client\\/surveys3\\/themes\\/blue\\/blue\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "395216feb6ecfa7e28ecea37adaf546d95fc8bb387388478d3053bb99af1009d"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/feature-flags\\/surveys3-reviewbooster-experiments\\/is-enabled",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a299d025cebf0d5663f46faac99914e5f6b45f1d30440f4f4a83afd6514422f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/feature-flags\\/surveys3-react-survey-taking\\/is-enabled",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a299d025cebf0d5663f46faac99914e5f6b45f1d30440f4f4a83afd6514422f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/tenant-config\\/40384",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4165cf254bc13dedfb192a0ac3eaedf2e8d3f943893244931cb7aea244313f33"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/countries",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3685a1009d9a2140cdd6e3fb787d2d72b08d00ed2dc587ba77deaad07a80852b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/feature-flags\\/surveys-country-picker-Hunter\\/is-enabled",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1a299d025cebf0d5663f46faac99914e5f6b45f1d30440f4f4a83afd6514422f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/common\\/survey-metrics",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d55866c290f4bf53ec3d596876bea800e92eeeb37d4c5a2d66492877f15a2dc8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/survey3-review-syndication\\/668ffde761c71e764268796f",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/font\\/Inter-ExtraLight\\.ttf",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "static-ui-public"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/assets\\/2383b3a612b\\/Ameris_RGB_HorizontalBrandmark_FullColor_Transparency__1726664622725\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "47ed709c87bb6338bd3529db3db097914cdd69ca61328593675db20e98f08f05"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/common\\/locations",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "be440ef0f649e0422377137e54551e2e37d41c0aaf445e055896f4b4b2fb18b6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        },
+        {
+            "rule": "reputation\\.com\\/api\\/tenants\\/40384\\/review-syndication\\/plans",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "surveys"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "amerisbank.com",
+                "www.amerisbank.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.7777777777777778
+        },
+        {
+            "domain": "cloudflare.com",
+            "prevalence": 0.1111111111111111
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Stylesheet": 11,
+        "Font": 9,
+        "Document": 2,
+        "XHR": 30,
+        "Image": 10
+    },
+    "nameservers": [
+        "ns-cloud-c1.googledomains.com",
+        "ns-cloud-c2.googledomains.com",
+        "ns-cloud-c3.googledomains.com",
+        "ns-cloud-c4.googledomains.com"
+    ]
+}

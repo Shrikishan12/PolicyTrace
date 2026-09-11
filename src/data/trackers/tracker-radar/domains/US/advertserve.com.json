@@ -1,0 +1,910 @@
+{
+    "domain": "advertserve.com",
+    "owner": {
+        "name": "Renegade Internet, Inc.",
+        "displayName": "Renegade Internet"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000178,
+    "sites": 26,
+    "subdomains": [
+        "futureaudiophile",
+        "gearspace",
+        "generalaviationnews",
+        "greatdaysoutdoors",
+        "pbn",
+        "imagazine",
+        "jewishcontentnetwork",
+        "wbjournal",
+        "cineworld",
+        "jewishadgroup",
+        "theyeshivaworld",
+        "hmpads",
+        "matzav",
+        "pridesource",
+        "bloodhorse",
+        "cdn"
+    ],
+    "cnames": [
+        {
+            "original": "ads.bloodhorse.com",
+            "resolved": "bloodhorse.advertserve.com"
+        },
+        {
+            "original": "ads.pbn.com",
+            "resolved": "pbn.advertserve.com"
+        },
+        {
+            "original": "adserver.pbn.com",
+            "resolved": "pbn.advertserve.com"
+        }
+    ],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "advertserve\\.com\\/js\\/libcode3\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "futureaudiophile",
+                "gearspace",
+                "generalaviationnews",
+                "greatdaysoutdoors",
+                "pbn",
+                "imagazine",
+                "jewishcontentnetwork",
+                "wbjournal",
+                "cineworld",
+                "jewishadgroup",
+                "theyeshivaworld",
+                "hmpads"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 13,
+                "window.localStorage": 13,
+                "Date.prototype.getTime": 13,
+                "window.innerWidth": 8,
+                "window.innerHeight": 8,
+                "Element.prototype.getClientRects": 4,
+                "window.sessionStorage": 1
+            },
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [
+                {
+                    "original": "ads.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "3430feb63ddddab13a9cb8b938619f06d30631d97d44c640baa3a7e8300ecd50",
+                "5b0280fcf8d20aa79b92a620f2d91e389f1fe505985130cad565601ecc31d8ea",
+                "ed02eced40289764f96397fd7e801aab91b42a4de1ffdb77a555dbed52a4d127",
+                "d750abedde0553f73f1aaa42cdd6539ca1a487cae948dd34102e80222a185181"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futureaudiophile.com",
+                "gearspace.com",
+                "generalaviationnews.com",
+                "greatdaysoutdoors.com",
+                "pbn.com",
+                "sophiainstitute.com",
+                "thelakewoodscoop.com",
+                "wbjournal.com",
+                "www.cinema-city.pl",
+                "www.cinemacity.cz",
+                "www.cinemacity.hu",
+                "www.cinemacity.ro",
+                "www.israelnationalnews.com",
+                "www.theyeshivaworld.com",
+                "www.woundsource.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/pageview",
+            "cookies": 0.000089,
+            "fingerprinting": 0,
+            "subdomains": [
+                "futureaudiophile",
+                "gearspace",
+                "generalaviationnews",
+                "pbn",
+                "imagazine",
+                "jewishcontentnetwork",
+                "wbjournal",
+                "cineworld",
+                "jewishadgroup",
+                "theyeshivaworld",
+                "hmpads"
+            ],
+            "apis": {},
+            "sites": 14,
+            "prevalence": 0.0000959,
+            "cnames": [
+                {
+                    "original": "ads.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "325e200828b049d4d7f90749a34cf28c7c12303ab938e399e4bf5dd145eeefaa"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072,
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "futureaudiophile.com",
+                "gearspace.com",
+                "generalaviationnews.com",
+                "pbn.com",
+                "sophiainstitute.com",
+                "thelakewoodscoop.com",
+                "wbjournal.com",
+                "www.cinema-city.pl",
+                "www.cinemacity.cz",
+                "www.cinemacity.hu",
+                "www.cinemacity.ro",
+                "www.israelnationalnews.com",
+                "www.theyeshivaworld.com",
+                "www.woundsource.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/view\\/banner\\/javascript\\/ajax\\/crossdomain\\/zone",
+            "cookies": 0.0000411,
+            "fingerprinting": 0,
+            "subdomains": [
+                "futureaudiophile",
+                "gearspace",
+                "matzav",
+                "pbn",
+                "jewishcontentnetwork",
+                "wbjournal",
+                "cineworld",
+                "theyeshivaworld",
+                "hmpads"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [
+                {
+                    "original": "ads.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "7fbca0185237519a81fc208b01dfcd0dd35defa965a486276d03bced873a00d2",
+                "533b8925766446c6b36b4fd7b07711adae2f0512776577bb436e5314351eaabf",
+                "5ce653b23d47e9e7b67c5a695208031470761e524a27e09dc1321bd4de4fbbcd",
+                "0e4df12c39fd2d0a6c4d9d5648b83ecf85c28836e4438406c16a0fe6fc0110b5",
+                "19236ce7261a2fbde3fdca7c6c8b013c9414c862e0b2afcbe8becc1993129d55",
+                "9c8b01eef3ae5e0e6124a15424936afd5ca2320ea561cf06aaf3efcb735e27e1",
+                "98f09726e37fef15ee886fdd22c9428019526b520f300c0d2cebfddacf2ef0b3",
+                "6d86708c3450277664935c5cc35430f90e695f1ef09dbbd2aeaededa9f55fa2d",
+                "0aab3817904063845625b9d7fd96ce8aafd7ef8c0b62d6966dac038c0e6e6911"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "futureaudiophile.com",
+                "gearspace.com",
+                "matzav.com",
+                "pbn.com",
+                "thelakewoodscoop.com",
+                "wbjournal.com",
+                "www.cinemacity.hu",
+                "www.cinemacity.ro",
+                "www.theyeshivaworld.com",
+                "www.woundsource.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/js\\/interactive2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "futureaudiophile",
+                "gearspace",
+                "matzav",
+                "pbn",
+                "pridesource",
+                "jewishcontentnetwork",
+                "wbjournal",
+                "bloodhorse",
+                "cineworld",
+                "jewishadgroup",
+                "hmpads"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 3
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [
+                {
+                    "original": "ads.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                },
+                {
+                    "original": "ads.bloodhorse.com",
+                    "resolved": "bloodhorse.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "2b68d3f00ef77a863aced01347d486c666e2203aeb549e94c49f580c78d8aa21",
+                "760ca62f6501893d9002c91c75af76486c2b8d1e8ad4bc132661f84ece6f328a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "futureaudiophile.com",
+                "gearspace.com",
+                "matzav.com",
+                "pbn.com",
+                "pridesource.com",
+                "thelakewoodscoop.com",
+                "wbjournal.com",
+                "www.bloodhorse.com",
+                "www.cinemacity.hu",
+                "www.israelnationalnews.com",
+                "www.theyeshivaworld.com",
+                "www.woundsource.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/view\\/banner\\/javascript\\/zone",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "matzav",
+                "pbn",
+                "pridesource",
+                "bloodhorse"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "adserver.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                },
+                {
+                    "original": "ads.bloodhorse.com",
+                    "resolved": "bloodhorse.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "61e8cb2d646f014b85ecdb884c1d1eef672558a340ee2646be606471a5e92ad3",
+                "8c116f012b8157c8489af5084f6cfa7e611de022d3d00d2ceb82a2dbbdc598e2",
+                "d08cfd89f58d083912201fc5ea24664816d816c694f7700613066317402ed52a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matzav.com",
+                "pbn.com",
+                "pridesource.com",
+                "www.bloodhorse.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishcontentnetwork\\.advertserve\\.com\\/servlet\\/files\\/65815",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0abf211870e145b0a5dcf4b83a0ab0a6bbceac9d1106e2d0ef50f5a5fc0de581"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "matzav.com",
+                "thelakewoodscoop.com",
+                "vinnews.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/view\\/banner\\/unique\\/javascript\\/ajax\\/crossdomain\\/grid",
+            "cookies": 0.0000205,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pbn",
+                "jewishadgroup",
+                "wbjournal",
+                "theyeshivaworld"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "ads.pbn.com",
+                    "resolved": "pbn.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "88b3ad944f5494c3d4f3a8d38f9c0b3d6cdf43fe78c570262ea5db3ea34bc475",
+                "c5505113128115b38149d6c4cb1a26d254db751da6b57b30bd989d944a6047e1",
+                "a043d29b47517db43892a6565e139179da55652b4a13f0f5649a5eefc81a4bb6",
+                "b84d69b37d64c655a79ff5e3e6c261f45185b3730c483c4610e22f8ffd830b15"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lotame_domain_check": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "pbn.com",
+                "thelakewoodscoop.com",
+                "wbjournal.com",
+                "www.israelnationalnews.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/js\\/libcode1_noajax\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "pridesource",
+                "bloodhorse"
+            ],
+            "apis": {
+                "window.innerWidth": 1,
+                "window.innerHeight": 1,
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ads.bloodhorse.com",
+                    "resolved": "bloodhorse.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "2866adea842dba03989bfe466cb8ac9c2bc67a41dcf72e67362c6ab89640a93e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pridesource.com",
+                "www.bloodhorse.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/44512",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6ca0722fd3b7a1aa9380f83e3bcc7fa2960b50637be64b9b90d3c8ef17761878"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelakewoodscoop.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/view\\/banner\\/unique\\/javascript\\/ajax\\/crossdomain\\/strip",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "jewishcontentnetwork",
+                "theyeshivaworld"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 1
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "59220cacbdb0d958c4f5e224fe107882ea2a076ff2cd0b4386348d8df4ce1c83"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelakewoodscoop.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/59926",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "1a4a93714df8d77846eb94cb2a0517aa57905236f9647319eb58d266f7525a0a"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelakewoodscoop.com",
+                "www.israelnationalnews.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/56189",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "da3bbe46d3da8b971c6d2818d63f5dd8211f68d3f18660cf109232a687aa8aff"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "thelakewoodscoop.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/js\\/events1\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "wbjournal",
+                "bloodhorse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ads.bloodhorse.com",
+                    "resolved": "bloodhorse.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "78bbf2a6571a4480b349ef6c5fd57535e3c4a4c46bcc5c409f5f99cee99207ae"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wbjournal.com",
+                "www.bloodhorse.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/js\\/viewability2\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "wbjournal",
+                "bloodhorse"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "ads.bloodhorse.com",
+                    "resolved": "bloodhorse.advertserve.com"
+                }
+            ],
+            "responseHashes": [
+                "7ddee48d852e33e99616c2897ccb875e27014cc49286376a441685ff16d219b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wbjournal.com",
+                "www.bloodhorse.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/59880",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b5afd8b1ed2eaac7089c0f7ac9860cebc0c8517bf95f54e97c79a1cbccd09861"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "israelnationalnews.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/servlet\\/view\\/window\\/javascript\\/zone",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "theyeshivaworld"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a5141417f05db2ef2616e04564418176625823cd3da4fbf25c6bbd0f0ee35056"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60564",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "46eac04f38062232131e7632039139d90f8196a62fb3873c0d36db1268d0eec7"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60179",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "04cf393bdbcc92819188c18a76cdd76d87638c651ca5e016d947fe502453d03c"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/61318",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "aa46b87cce9c662ec06d0eb38cddedc5348cccdb1435b77f644efec6e1ca253e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60163",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "099d79c15f19dcec65dd568ef021dc97d77001d94d4467d1f1559f54d3ed3420"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/59766",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "13781839ee471d923366ad2c0a27828bef9697b0f9658c51885ace8d90baaf72"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/57249",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ccb67cbaffe318267c73ef916476fcffc747112e9e1c16e31a1920985767e09"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/59391",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4cc12e719766614d3a5ad1a0eae6e72494dfb6fd1ac5078851cd7325281608ab"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/57233",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "897d5149c56c8402f47867642d330529176b86f9e0f098d58df4b8f07fd65788"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60062",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e10d5e5b24bdb421301f4e834ec1a414a839431407ccdadaa6d6c62e78b1912e"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60565",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1dc31aba0a870a1068ad118cd581cc80c2097a3982c59192d728b86fcc445476"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/60818",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "15cdf8488e6d8a1eeab00c0ee6ee9313e7b106145b3e1da545c3f2da8ffeebd4"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/jewishadgroup\\.advertserve\\.com\\/servlet\\/files\\/59667",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "83c28b831ce653dfe429bb1613dbaf951a25f9b47c81b57f16dc40379fbab8c0"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "theyeshivaworld.com",
+                "www.theyeshivaworld.com"
+            ]
+        },
+        {
+            "rule": "advertserve\\.com\\/images\\/hmpads\\.advertserve\\.com\\/servlet\\/files\\/16099",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3704f5872fb659bdb2eec4908a2ee5ab281fd916732bbef6b16cba3d8822d33f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "woundsource.com",
+                "www.woundsource.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000158,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5837837837837838
+        },
+        {
+            "domain": "jewishcontentnetwork.com",
+            "prevalence": 0.372972972972973
+        },
+        {
+            "domain": "script.ac",
+            "prevalence": 0.03783783783783784
+        },
+        {
+            "domain": "yumpu.com",
+            "prevalence": 0.005405405405405406
+        }
+    ],
+    "types": {
+        "Script": 56,
+        "Image": 52
+    },
+    "nameservers": [
+        "ns-398.awsdns-49.com",
+        "ns-841.awsdns-41.net",
+        "ns-1585.awsdns-06.co.uk",
+        "ns-1198.awsdns-21.org"
+    ]
+}

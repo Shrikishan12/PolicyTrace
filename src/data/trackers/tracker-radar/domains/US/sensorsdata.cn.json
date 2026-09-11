@@ -1,0 +1,127 @@
+{
+    "domain": "sensorsdata.cn",
+    "owner": {
+        "name": "Sensors Network Technology (Beijing) Co., Ltd.",
+        "displayName": "Sensors Network Technology"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "abtest-ali-tokyo-01.saas",
+        "zhipuaishengchan.datasink"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "sensorsdata\\.cn\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-ali-tokyo-01.saas"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easeus.com",
+                "mobi.easeus.com",
+                "multimedia.easeus.com",
+                "pdf.easeus.com",
+                "recorder.easeus.com",
+                "voicechanger.easeus.com",
+                "www.easeus.com",
+                "www.easeus.de",
+                "www.easeus.fr"
+            ]
+        },
+        {
+            "rule": "sensorsdata\\.cn\\/api\\/v2\\/abtest\\/online\\/results",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "abtest-ali-tokyo-01.saas"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "b39e4a44749f0d5a7695da806e5f87e5dd66df25a0d2f905e037c49db29c12b0",
+                "ff06071604c7b6a890afa42ca5a8f030a6b93df50d0194d496f9d748fd127625",
+                "e032ea8d30c26f041f516245f506c7b0a24c22dfc687147e6ea72231a5ff8b0b",
+                "b651a2738e1da5a7e32f5c761c28c7f1b2c42780aaabc23950132a087bab6dc0",
+                "3a3a69a86e68e5e20acbe5663edc240e04fff768b14df6f9558a18c842324de7",
+                "30a85c3d269288f77ee4d75e670ce33841a3f27ab9b2da4b3d70e6934f4d0beb",
+                "18444063b18875b56d75943b588b078bed9fd611c4b7bd2f3d58e2a32fd14eaa",
+                "aa45f02f4d25f8788f36a21012fd4fc5a303c5723c456ef01e5cb1384f66770b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "easeus.com",
+                "mobi.easeus.com",
+                "multimedia.easeus.com",
+                "pdf.easeus.com",
+                "recorder.easeus.com",
+                "voicechanger.easeus.com",
+                "www.easeus.com",
+                "www.easeus.de",
+                "www.easeus.fr"
+            ]
+        },
+        {
+            "rule": "sensorsdata\\.cn\\/sa\\.gif",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zhipuaishengchan.datasink"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "z.ai",
+                "zcode.z.ai"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9
+        },
+        {
+            "domain": "easeus.com",
+            "prevalence": 0.1
+        }
+    ],
+    "types": {
+        "Preflight": 9,
+        "XHR": 9,
+        "Ping": 2
+    },
+    "nameservers": [
+        "vip3.alidns.com",
+        "vip4.alidns.com"
+    ]
+}

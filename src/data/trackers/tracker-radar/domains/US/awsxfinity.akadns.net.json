@@ -1,0 +1,124 @@
+{
+    "domain": "awsxfinity.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00011,
+    "sites": 16,
+    "subdomains": [
+        "dl-ingest-v2"
+    ],
+    "cnames": [
+        {
+            "original": "dl.cws.xfinity.com",
+            "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "awsxfinity\\.akadns\\.net\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dl-ingest-v2"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [
+                {
+                    "original": "dl.cws.xfinity.com",
+                    "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comcast.com",
+                "business.comcast.com",
+                "cdn.speedtest-prod.xcr.comcast.net",
+                "connect.xfinity.com",
+                "forums.businesshelp.comcast.com",
+                "forums.xfinity.com",
+                "login.xfinity.com",
+                "my.xfinity.com",
+                "www.xfinity.com",
+                "xfinityconnect.email.comcast.net",
+                "xfinity.com",
+                "xjs.xfinity.com"
+            ]
+        },
+        {
+            "rule": "awsxfinity\\.akadns\\.net\\/event\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dl-ingest-v2"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [
+                {
+                    "original": "dl.cws.xfinity.com",
+                    "resolved": "dl-ingest-v2.awsxfinity.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "7b6484aec9deef29adea8126e1dec633b056c2e075d28bce7e4d7b3656ba3c96",
+                "09c5dfe6fef084c430043202953f1a68b6b29a072e92ca264083dd5425478d2e",
+                "f84bdafbaf7ae8d3dda10d7e49a0d2d94381a24b1f3a840c1def6e8e5eabf523",
+                "6b6e2eb814a85110869ba5413bc461fc7493f3397be4d3fe1677782504dba68d",
+                "6faf1a70ddd4b4a9b2fc6e03ec3dd3d8dfb8eb6217ff1c230c62f4257ba62b62",
+                "f75cf03d2268955cc502b6500fc63db3253d811c3a233bf808c971723812ce70",
+                "ec6be336c1be455ee3305ee7499a2be02f177e6f4d62d3d66596cac1b2879e39",
+                "e5b855f8b989bf7100b5cd7dd9d29335c9a63bc83b0137b18dd83aec41649824",
+                "31da981d6669e2bc4a8d0476dbe01a4f487000fe7b81eb343e3de7482d1a1520",
+                "56e9cd4dd87f5a80eb4f67466ef4a05181210b4400ca1912256b731df6d5639d",
+                "0784827268ce32303213577670b6196fd7821ac60c185f3050d96f6dd137101f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "comcast.com",
+                "business.comcast.com",
+                "cdn.speedtest-prod.xcr.comcast.net",
+                "connect.xfinity.com",
+                "forums.businesshelp.comcast.com",
+                "forums.xfinity.com",
+                "login.xfinity.com",
+                "my.xfinity.com",
+                "www.xfinity.com",
+                "xfinityconnect.email.comcast.net",
+                "xfinity.com",
+                "xjs.xfinity.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "cimcontent.net",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 12,
+        "XHR": 12
+    },
+    "nameservers": []
+}

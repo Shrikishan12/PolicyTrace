@@ -1,0 +1,144 @@
+{
+    "domain": "verbolia.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000103,
+    "sites": 15,
+    "subdomains": [
+        "cdn.backend",
+        "boohoo-enus.backend",
+        "boohoo-engb.backend",
+        "brico-depot-ptpt.backend",
+        "lapeyre-frfr.backend",
+        "samsonite-engb.backend",
+        "mr-bricolage-frbe.backend"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "verbolia\\.com\\/assets\\/global\\/js\\/psl\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn.backend"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "a465d8738f3558860d654b0ab9b2b10b1414c9d84dae53394bc83978c53c7ddc"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "wurth.fr",
+                "www.alltricks.fr",
+                "www.boohooman.com",
+                "www.bricodepot.es",
+                "www.carrefour.be",
+                "www.fwrd.com",
+                "www.karenmillen.com",
+                "www.revolve.com"
+            ]
+        },
+        {
+            "rule": "verbolia\\.com\\/buy\\/api\\/gial",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "boohoo-enus.backend",
+                "boohoo-engb.backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6646735751c949252341a43d234de26a2a151f8982fbb7ff86640f308845f288"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "boohoo.com",
+                "www.boohoo.com"
+            ]
+        },
+        {
+            "rule": "verbolia\\.com\\/v\\/api\\/gial",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "brico-depot-ptpt.backend",
+                "lapeyre-frfr.backend",
+                "samsonite-engb.backend"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f3b4b2ad4afde0bf35ae7735cb11abff4708d3a618c68e4e38331231f8b87b02",
+                "d9256c8508bda0f9dc06b1df1a0d3e6f6b061678d02b06898db9532ecaedcd45"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bricodepot.pt",
+                "www.lapeyre.fr",
+                "www.samsonite.co.uk"
+            ]
+        },
+        {
+            "rule": "verbolia\\.com\\/v\\/css\\/ve-linking\\.min\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "mr-bricolage-frbe.backend",
+                "samsonite-engb.backend"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0f7b2be2f7750d9503432b9059e305e0b7a23d61ed6d45d4f8a7681303529285"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mr-bricolage.be",
+                "www.samsonite.co.uk"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9814814814814815
+        },
+        {
+            "domain": "witglobal.net",
+            "prevalence": 0.018518518518518517
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "XHR": 5,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "dns104.ovh.net",
+        "ns104.ovh.net"
+    ]
+}

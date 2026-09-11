@@ -1,0 +1,423 @@
+{
+    "domain": "vsnt.net",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000144,
+    "sites": 21,
+    "subdomains": [
+        "app.mps"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-rottentomatoes-web\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.appVersion": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.vendor": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c7b28e98dc353cc62f17a802bbc54fd180f2323c4363cecf55fad3ee5b43c3fa"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rottentomatoes.com",
+                "editorial.rottentomatoes.com",
+                "www.rottentomatoes.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/request\\/page\\/json\\/params\\/",
+            "cookies": 0.000089,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {},
+            "sites": 13,
+            "prevalence": 0.000089,
+            "cnames": [],
+            "responseHashes": [
+                "ff6da15282b2e479487b0162e09d05b7ea4367eb75898282c3ac269869bb3a8a",
+                "2a5535137dbb649f47ee88ba854e540a5a60f6b4f2ff093f47508f6eee6d5f0f",
+                "5511a5b7a6fc177eff5ac88d7fe58b394bbe69cad7d25b2db6466ecaca596a8a",
+                "e03946a305ca5bf05d09198270d82615e8651613e173fc717b87420641c55d67",
+                "04483ab4de627f45e404146ba174ab698f92eda476b02f090d90426e7ed4b101",
+                "001dfd88a0ab88a1b28e40decd31a66986f6ee4b7a788df9d927ff183da82198",
+                "bcb8f3de987783a83092a3af2922aa03ba705330481ee0d90af63983a0e70a60",
+                "4f169a68cbafcc46c83910c780631daa647b278b5db7dd9650cfe8b87227a578",
+                "6a230294ca0bd6218d92eaece368a12b2a573f02fddcdfcf1bc3c7702b82d386",
+                "f407831284f4834f4a4204a1141bc1a46fcff4dec24ab8a014d6e7cccd86975c",
+                "ca725316ce8f09e5b5ec8fa6e9785bb9ace82f5abe940f45fe914a37f7e1b4c5",
+                "9594c5477b1fc101d480618c4dac2374594b71ac6998d74962e2efc8131607d3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "BI_UI_RVAffiliateDocID": 0.000006849643476057072,
+                "s_ppn": 0.000006849643476057072,
+                "gpv_pn": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "rottentomatoes.com",
+                "editorial.rottentomatoes.com",
+                "fandango.com",
+                "www.cnbc.com",
+                "www.eonline.com",
+                "www.fandango.com",
+                "www.golfchannel.com",
+                "www.ms.now",
+                "www.msnbc.com",
+                "www.oxygen.com",
+                "www.rottentomatoes.com",
+                "www.syfy.com",
+                "www.usanetwork.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-fandango-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5779a2a9dd694b773e3fcd3f8d6da758c88e3e0842c1916cd5e04e365778242f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787658575,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fandango.com",
+                "www.fandango.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-cnbc-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e4556461d497e2ee96117f69ecab83091ce3f1910fef8cf31f320ec1839a5888"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787630506,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cnbc.com",
+                "www.cnbc.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-e-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3f1778966d6ee94001cb20f06d37fe03e54817db50f841ffd2bcda8e8143e1b1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787631947,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "eonline.com",
+                "www.eonline.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-golfchannel-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 1,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "62872cb9f579b28854676d319b30f4f579710efe7d9d22fc57c56717e2b4a193"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787584263,
+                    "length": 1,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "golfchannel.com",
+                "www.golfchannel.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-msnow-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c69c07386a8da5d82be1f91e3641e3927ac2b5de3eb881969ed67b7ced6229f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787632687,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ms.now",
+                "www.msnbc.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-oxygen-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "Document.cookie setter": 2,
+                "window.innerHeight": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a87f73ec07f8bb429abdbaaeb8a358457dff7e7c71a4b88449c2d3ead0635c8b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787635290,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oxygen.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/request\\/component\\/automagic",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "461480878353d4d426011f9d0fbc60a95710b05d316b3737e2cf99f01412a6e1"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "oxygen.com",
+                "www.oxygen.com"
+            ]
+        },
+        {
+            "rule": "vsnt\\.net\\/fetch\\/ext\\/load-syfy-d8-web\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "app.mps"
+            ],
+            "apis": {
+                "Navigator.prototype.platform": 2,
+                "Navigator.prototype.userAgent": 2,
+                "Navigator.prototype.cookieEnabled": 2,
+                "Document.cookie getter": 2,
+                "Navigator.prototype.appVersion": 2,
+                "window.innerWidth": 2,
+                "window.innerHeight": 2,
+                "Document.cookie setter": 2,
+                "Date.prototype.getTime": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "53beac4b58e9e9a5302a7a06836cb8b4cba46c1c44360bf2053ae2da4ccdbd16"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cookietest": {
+                    "ttl": -1787641646,
+                    "length": 1,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syfy.com",
+                "www.syfy.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000144,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.8387096774193549
+        },
+        {
+            "domain": "cnbcfm.com",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.06451612903225806
+        },
+        {
+            "domain": "ms.now",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 19,
+        "XHR": 13
+    },
+    "nameservers": [
+        "pdns129.ultradns.com",
+        "pdns129.ultradns.net",
+        "pdns129.ultradns.biz",
+        "pdns129.ultradns.org"
+    ]
+}

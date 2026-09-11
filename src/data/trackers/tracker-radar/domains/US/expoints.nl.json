@@ -1,0 +1,97 @@
+{
+    "domain": "expoints.nl",
+    "owner": {
+        "name": "Trust Provider B.V.",
+        "displayName": "Trust Provider"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "delft1",
+        "veh1",
+        "nfu1"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external-loader\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "delft1",
+                "veh1",
+                "nfu1"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d6aa66beb8e4f49637c357c2c55a5b134aae9a38bbef39dc9f9ff4146e1d7102"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delft.nl",
+                "www.eigenhuis.nl",
+                "www.erasmusmc.nl"
+            ]
+        },
+        {
+            "rule": "expoints\\.nl\\/m\\/Scripts\\/dist\\/expoints-external\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "delft1",
+                "veh1",
+                "nfu1"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.matchMedia(\"prefers-color-scheme\")": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "f134bb8a7987771b99b8e93765ef87b2d2f49ea11a8733b12d30d70084e605ea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "delft.nl",
+                "www.eigenhuis.nl",
+                "www.erasmusmc.nl"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.75
+        },
+        {
+            "domain": "cdn-expoints.nl",
+            "prevalence": 0.25
+        }
+    ],
+    "types": {
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

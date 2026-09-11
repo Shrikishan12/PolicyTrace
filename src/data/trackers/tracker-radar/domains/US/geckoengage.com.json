@@ -1,0 +1,343 @@
+{
+    "domain": "geckoengage.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000137,
+    "sites": 20,
+    "subdomains": [
+        "chat-widget",
+        "ucla.api",
+        "musc.api",
+        "ccd.api",
+        "columbia-s.api",
+        "frcc.api",
+        "mc.api",
+        "pikes-peak.api",
+        "red-rocks.api",
+        "scranton.api",
+        "shsu.api",
+        "smc.api",
+        "southampton.api",
+        "shenandoah.api",
+        "utc.api",
+        "smc.uploads"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "geckoengage\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 17,
+                "Document.cookie getter": 17,
+                "window.localStorage": 17,
+                "Navigator.prototype.languages": 17,
+                "Navigator.prototype.language": 17,
+                "window.sessionStorage": 16
+            },
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "a13593ed11926b9a7b5f49b9e1f7b032b7a258ee3de13ec023abe7887b188a8c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.arapahoe.edu",
+                "www.ccd.edu",
+                "www.columbiastate.edu",
+                "www.frontrange.edu",
+                "www.mendocino.edu",
+                "www.msoe.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.scranton.edu",
+                "www.shsu.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/locales\\/en-us\\/translations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "fe40dc934152740ca4f75847a00a21b9e59d64d748fd54909a42402073548c25"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.arapahoe.edu",
+                "www.ccd.edu",
+                "www.columbiastate.edu",
+                "www.frontrange.edu",
+                "www.mendocino.edu",
+                "www.msoe.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.scranton.edu",
+                "www.shsu.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/locales\\/en\\/translations\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {},
+            "sites": 17,
+            "prevalence": 0.000116,
+            "cnames": [],
+            "responseHashes": [
+                "26dbb6bb93f724aaf817ec3826e9a56ed1ff9bfebebb79ed3057ae43ab57ab4f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.arapahoe.edu",
+                "www.ccd.edu",
+                "www.columbiastate.edu",
+                "www.frontrange.edu",
+                "www.mendocino.edu",
+                "www.msoe.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.scranton.edu",
+                "www.shsu.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/workflows\\/trigger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ucla.api",
+                "musc.api",
+                "ccd.api",
+                "columbia-s.api",
+                "frcc.api",
+                "mc.api",
+                "pikes-peak.api",
+                "red-rocks.api",
+                "scranton.api",
+                "shsu.api",
+                "smc.api",
+                "southampton.api",
+                "shenandoah.api",
+                "utc.api"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [
+                "16dbc5496ca0d7895d21e961e649bcd1dc51f8b7c67141cc8dc87af01c0d6176",
+                "c66297ca0d1c26c28869777f618d318f4d3c861025ab22a19e6b104ac40032ad",
+                "2091061a6c46da4e6584f158299775b2127ef8c299e54ff9e0900d28b1a4360d",
+                "b42342532b30ab5904d6e4c588cbb21661c3f4866265df3433f3c8b2c2ac04ef",
+                "edea65b9bd37919e33cc5fadda2ba4b3ee71dc6dd4915b0e74ede65efa50d073",
+                "6477ce59884ff6206fab0a319b19426faa3aead34f4edf98fdd89df126621d9d"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.ccd.edu",
+                "www.columbiastate.edu",
+                "www.frontrange.edu",
+                "www.mendocino.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.scranton.edu",
+                "www.shsu.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/workflows\\/trigger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "ucla.api",
+                "musc.api",
+                "ccd.api",
+                "columbia-s.api",
+                "frcc.api",
+                "mc.api",
+                "pikes-peak.api",
+                "red-rocks.api",
+                "scranton.api",
+                "shsu.api",
+                "smc.api",
+                "southampton.api",
+                "shenandoah.api",
+                "utc.api"
+            ],
+            "apis": {},
+            "sites": 15,
+            "prevalence": 0.000103,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ucla.edu",
+                "education.musc.edu",
+                "medicine.musc.edu",
+                "www.ccd.edu",
+                "www.columbiastate.edu",
+                "www.frontrange.edu",
+                "www.mendocino.edu",
+                "www.pikespeak.edu",
+                "www.rrcc.edu",
+                "www.scranton.edu",
+                "www.shsu.edu",
+                "www.smc.edu",
+                "www.southampton.ac.uk",
+                "www.su.edu",
+                "www.utc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/chat_widgets\\/01JMZ2HTR2SM4T4794NWDFP8TF\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "frcc.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "acd39a49e7daa7baee16c3da58675f1db089fd3f53c36bef5ffc1583349dfc14"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "frontrange.edu",
+                "www.frontrange.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/chat_widgets\\/01K2Y8YNSGNQ59RHG9G93BN9ZF\\/public",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smc.api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b7e1cef06983731f6f7f88ca0c0f606f1a26b64cb8109f0432528bfc0917d87a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smc.edu",
+                "www.smc.edu"
+            ]
+        },
+        {
+            "rule": "geckoengage\\.com\\/22AC0000pjxgaw17kdt0os8b9t\\/01KWFRWTKRPBSYD39G89KB94X0\\/pearl-new-body\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smc.uploads"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "fbd66897ae7411230ed74b2a366dff4f9abfaf094d6afe43a3156f4c03d75ed2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smc.edu",
+                "www.smc.edu"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00000685,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.696969696969697
+        },
+        {
+            "domain": "geckochat.io",
+            "prevalence": 0.24242424242424243
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.06060606060606061
+        }
+    ],
+    "types": {
+        "Script": 17,
+        "Fetch": 53,
+        "Preflight": 15,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1327.awsdns-37.org",
+        "ns-559.awsdns-05.net",
+        "ns-1962.awsdns-53.co.uk",
+        "ns-252.awsdns-31.com"
+    ]
+}

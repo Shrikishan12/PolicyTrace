@@ -1,0 +1,118 @@
+{
+    "domain": "midas-network.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "cdn",
+        "cdn2",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "midas-network\\.com\\/Common\\/GetUAV1Async",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narod.hr",
+                "nova24tv.si",
+                "www.24sata.hr",
+                "www.b92.net",
+                "www.novosti.rs",
+                "www.telegram.hr"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/api\\/widget\\/getHtml",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn2"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "4d71059243b8db2c1a73dfd98c6113ad2fb8aead3beb2f782ea9e668b2695d95",
+                "df60f4552b3b4739400f3244c1354751e22bddcdb73abdb633256837d83c78ae",
+                "8e5f3c9ab6669477940e86da85867942d2705febb5777009c00d9222fd1877d8",
+                "b8eaa4a53751d078db20bd8bc275c1b0f52eba4cfcab736daafd9e2609074c68",
+                "63c53fc05472258224b8ba759a24d94192a1a935b39a46f54f62c1bff335d54c"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "lp_538988": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "narod.hr",
+                "nova24tv.si",
+                "www.24sata.hr",
+                "www.b92.net",
+                "www.novosti.rs",
+                "www.telegram.hr"
+            ]
+        },
+        {
+            "rule": "midas-network\\.com\\/images\\/default\\/midasCrownV3\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "db3388e8628488b5e7e6db413537736bb4e001630f1de4b8e49638c15ac8caf3"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narod.hr",
+                "nova24tv.si",
+                "www.b92.net",
+                "www.novosti.rs",
+                "www.telegram.hr"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Fetch": 12,
+        "Image": 5
+    },
+    "nameservers": [
+        "ajay.ns.cloudflare.com",
+        "meera.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "domain": "a2d.tv",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "imageproxy",
+        "unleash-edge",
+        "service-messages-api.mtv",
+        "service-messages-api.tv4",
+        "nordic-gateway.mtv",
+        "nordic-gateway.tv4"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "a2d\\.tv\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "imageproxy"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "26ae6b6ef6c445bd24548ea0473ef27b09a2542466ffe1281f325bed6c1d9b0b",
+                "f16473cb7aec81c6ad69b2eb44ac32688dce1bf480c70366484e4ecf772d3f92",
+                "15af3b94ed0a8196f9681fdbf41f4afbd15bf368c39ef6137a2443941ba3c70c",
+                "ade872e3abede12d13dc2614418a6e5df89b90c861eb59563e985b614591fca3",
+                "6ae93a4433eca3874cf4f2882938b6460d395122a77cac913087d09803b0a546"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fotbollskanalen.se",
+                "www.fotbollskanalen.se",
+                "www.mtvuutiset.fi",
+                "www.mtv.fi",
+                "www.tv4.se",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/api\\/frontend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unleash-edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c6a9dc8893335c0d12cd495903dcd8aa60de79431c5678585c97c548529e55c4",
+                "7bd03ce5b81c4eb9a3b148d2b8aab0430c965efbc411d60bda51fbc994d574d8"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.mtv.fi",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/api\\/frontend",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "unleash-edge"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.mtv.fi",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/v2\\/messages\\/published",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-messages-api.mtv",
+                "service-messages-api.tv4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/v2\\/messages\\/published",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "service-messages-api.mtv",
+                "service-messages-api.tv4"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nordic-gateway.mtv",
+                "nordic-gateway.tv4"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.mtv.fi",
+                "www.tv4play.se"
+            ]
+        },
+        {
+            "rule": "a2d\\.tv\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "nordic-gateway.mtv",
+                "nordic-gateway.tv4"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "88408025c299b2bf7a134b9f84679ed2958b5407db346a0d743c3cf1cd720158",
+                "4ab78123223d380ad5443372729db4452b671e8975f32bfd3a61f71b3ee6b096"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mtv.fi",
+                "www.mtv.fi",
+                "www.tv4play.se"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 6,
+        "Fetch": 8,
+        "Preflight": 8
+    },
+    "nameservers": [
+        "ns-1730.awsdns-24.co.uk",
+        "ns-601.awsdns-11.net",
+        "ns-84.awsdns-10.com",
+        "ns-1092.awsdns-08.org"
+    ]
+}

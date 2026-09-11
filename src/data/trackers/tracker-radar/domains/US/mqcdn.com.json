@@ -1,0 +1,93 @@
+{
+    "domain": "mqcdn.com",
+    "owner": {
+        "name": "Yahoo Inc.",
+        "displayName": "Verizon Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000479,
+    "sites": 7,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mqcdn\\.com\\/sdk\\/mapquest-js\\/v1\\.3\\.2\\/mapquest\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "00500d4ab5891082c1f84806924bc75faea7a4e7ccbae6140d2420cd09934eff"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gsmls.com",
+                "www.amwater.com",
+                "www.hertz.ca",
+                "www.hertz.co.uk",
+                "www.hertz.com.au"
+            ]
+        },
+        {
+            "rule": "mqcdn\\.com\\/sdk\\/mapquest-js\\/v1\\.3\\.2\\/mapquest\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 6,
+                "Navigator.prototype.platform": 6,
+                "window.devicePixelRatio": 6
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "b052abba1d8c1d202c6ccec67f6e6c14c58241c234ddaa7c71bce164f26424c4"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gsmls.com",
+                "www.amwater.com",
+                "www.hertz.ca",
+                "www.hertz.co.uk",
+                "www.hertz.com.au",
+                "www.unitedcountry.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Stylesheet": 5,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns-1159.awsdns-16.org",
+        "ns-1920.awsdns-48.co.uk",
+        "ns-428.awsdns-53.com",
+        "ns-886.awsdns-46.net"
+    ]
+}

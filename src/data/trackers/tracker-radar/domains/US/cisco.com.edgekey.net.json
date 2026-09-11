@@ -1,0 +1,117 @@
+{
+    "domain": "cisco.com.edgekey.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "id"
+    ],
+    "cnames": [
+        {
+            "original": "id.cisco.com",
+            "resolved": "id.cisco.com.edgekey.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "cisco\\.com\\.edgekey\\.net\\/oauth2\\/default\\/v1\\/authorize",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [
+                {
+                    "original": "id.cisco.com",
+                    "resolved": "id.cisco.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "cisco.com",
+                "blogs.cisco.com",
+                "developer.cisco.com",
+                "duo.com",
+                "guide.duo.com",
+                "meraki.cisco.com",
+                "software.cisco.com",
+                "www.cisco.com",
+                "www.webex.com"
+            ]
+        },
+        {
+            "rule": "cisco\\.com\\.edgekey\\.net\\/oauth2\\/default\\/v1\\/authorize",
+            "cookies": 0.0000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [
+                {
+                    "original": "id.cisco.com",
+                    "resolved": "id.cisco.com.edgekey.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "gpv_v9": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "cisco.com",
+                "developer.cisco.com",
+                "duo.com",
+                "learningnetwork.cisco.com",
+                "meraki.cisco.com",
+                "software.cisco.com",
+                "www.cisco.com",
+                "www.netacad.com",
+                "www.opendns.com",
+                "www.webex.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000116,
+    "topInitiators": [
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "tiqcdn.com",
+            "prevalence": 0.4444444444444444
+        },
+        {
+            "domain": "devnetcloud.com",
+            "prevalence": 0.05555555555555555
+        }
+    ],
+    "types": {
+        "Image": 9,
+        "Fetch": 10
+    },
+    "nameservers": []
+}

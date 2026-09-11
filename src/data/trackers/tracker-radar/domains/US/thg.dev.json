@@ -1,0 +1,340 @@
+{
+    "domain": "thg.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "assets",
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "91f7922119c772fea70c66f59752b465f2b43af721ccdedc4d371ac156e7f8ce"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/manifest\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "05dcc61008f1c1d1df3d0bb8b6f0482298666f374a764518e2c9c7afcfccda7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/chatbot-sdk\\.70215b93\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3,
+                "window.sessionStorage": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "window.localStorage": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "c305aff49b26e728b38258c15fe5c298fd46608628a9f20abd88f414f396beea"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "d7e90cbbfd386d6fbf4d4faf302a6f21aa7c94b01abaa9c35de0dc99f7a7970b",
+                "59a5bfad14b9b4b6bd47b3c57001b9bd1f5d690925dddd3b4650f374b4a4b284"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/health",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/health",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "458615ff69a09edfa83563f2a05eae244b7fc1cdba962708ca74a9fae807c9d5",
+                "2bf78678c371ea67b98ab85a8d8c63958311c15297d82a05ee132a74da019eb5"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "779eea9288a67e589837a747be774504ba118eecd5dd1aaeb17ad14028d39bc2",
+                "04f82e043a0c8e943f18153704d7df6c39f391bdb079a27e7a195374924638c2"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/content",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/user\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "9711408ff323fa5876736358ee8cf0d85ad50027acf58e82d2f31bac7882d9b2",
+                "1f246783b44ce0280d3140a3061aa3adfa1a4546257a308ec3fa9f57f3c8acae"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/user\\/settings",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "31afafe7ddcefe80ed34aaf3ffb13f8b70904529a45f35ee02357ac44b1331ed"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        },
+        {
+            "rule": "thg\\.dev\\/agentic-commerce\\/shopping-assistant\\/v1\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "myprotein.com",
+                "www.cultbeauty.com",
+                "www.myprotein.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 6,
+        "Fetch": 18,
+        "Preflight": 15
+    },
+    "nameservers": [
+        "ns04.thg-ns.net",
+        "dns4.p05.nsone.net",
+        "ns01.thg-ns.net",
+        "dns1.p05.nsone.net",
+        "ns03.thg-ns.net",
+        "dns3.p05.nsone.net",
+        "ns02.thg-ns.net",
+        "dns2.p05.nsone.net"
+    ]
+}

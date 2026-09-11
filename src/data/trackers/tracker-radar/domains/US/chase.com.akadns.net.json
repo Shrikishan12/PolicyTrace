@@ -1,0 +1,146 @@
+{
+    "domain": "chase.com.akadns.net",
+    "owner": {
+        "name": "Akamai Technologies",
+        "displayName": "Akamai",
+        "privacyPolicy": "https://www.akamai.com/us/en/privacy-policies/",
+        "url": "http://akamai.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [
+        "gtm.secure",
+        "gtm.analytics"
+    ],
+    "cnames": [
+        {
+            "original": "analytics.chase.com",
+            "resolved": "gtm.analytics.chase.com.akadns.net"
+        },
+        {
+            "original": "secure.chase.com",
+            "resolved": "gtm.secure.chase.com.akadns.net"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "chase\\.com\\.akadns\\.net\\/events\\/analytics\\/public\\/v1\\/cc\\.gif",
+            "cookies": 0.0000274,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm.secure",
+                "gtm.analytics"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [
+                {
+                    "original": "secure.chase.com",
+                    "resolved": "gtm.secure.chase.com.akadns.net"
+                },
+                {
+                    "original": "analytics.chase.com",
+                    "resolved": "gtm.analytics.chase.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "v1st": 0.00003424821738028536,
+                "selectedRoleCode": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "chase.com",
+                "account.chase.com",
+                "am.jpmorgan.com",
+                "autofinance.chase.com",
+                "chaseonline.chase.com",
+                "creditcards.chase.com",
+                "personal.chase.com",
+                "secure.chase.com",
+                "secure01a.chase.com",
+                "www.chase.com",
+                "www.jpmorganchase.com"
+            ]
+        },
+        {
+            "rule": "chase\\.com\\.akadns\\.net\\/events\\/analytics\\/public\\/v4\\/events\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm.analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.chase.com",
+                    "resolved": "gtm.analytics.chase.com.akadns.net"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "secure01a.chase.com"
+            ]
+        },
+        {
+            "rule": "chase\\.com\\.akadns\\.net\\/events\\/analytics\\/public\\/v4\\/events\\/logs",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gtm.analytics"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "analytics.chase.com",
+                    "resolved": "gtm.analytics.chase.com.akadns.net"
+                }
+            ],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chase.com",
+                "secure01a.chase.com"
+            ]
+        }
+    ],
+    "categories": [
+        "CDN"
+    ],
+    "performance": {},
+    "cookies": 0.0000342,
+    "topInitiators": [
+        {
+            "domain": "techlab-cdn.com",
+            "prevalence": 0.8888888888888888
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.1111111111111111
+        }
+    ],
+    "types": {
+        "Fetch": 11,
+        "Ping": 2,
+        "Preflight": 2
+    },
+    "nameservers": []
+}

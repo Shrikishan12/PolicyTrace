@@ -1,0 +1,155 @@
+{
+    "domain": "detiknetwork.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "iat",
+        "tracker"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "detiknetwork\\.com\\/ip-information\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "iat"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "600c96fcc70270625f8b04833cdd63a4aafebdcb956eee6ce9536c6d9667cc41",
+                "da03a36476a6d23de555c9a8f3ea8d95fb9baa7917a47d1fc5ce98eebe8bfa36"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "health.detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "news.detik.com",
+                "travel.detik.com",
+                "wolipop.detik.com",
+                "www.detik.com"
+            ]
+        },
+        {
+            "rule": "detiknetwork\\.com\\/omo\\/tam\\.js",
+            "cookies": 0.0000548,
+            "fingerprinting": 2,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {
+                "Document.cookie getter": 8,
+                "Date.prototype.getTime": 8,
+                "Document.cookie setter": 8,
+                "window.name": 8,
+                "NavigatorUAData.prototype.brands": 8,
+                "NavigatorUAData.prototype.platform": 8,
+                "NavigatorUAData.prototype.getHighEntropyValues": 8,
+                "Navigator.prototype.userAgent": 8,
+                "Navigator.prototype.mimeTypes": 8,
+                "Navigator.prototype.javaEnabled": 8,
+                "Navigator.prototype.cookieEnabled": 8,
+                "Screen.prototype.width": 8,
+                "Screen.prototype.height": 8,
+                "Navigator.prototype.platform": 8
+            },
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "dbefc0fa9b6b7680a9a1c1e5a0f0cc7c8ae3c41a7b15c206a144963cb36a073d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_pk_id.20.33e9": {
+                    "ttl": 33955207,
+                    "length": 28,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 1
+                },
+                "_pk_ses.20.33e9": {
+                    "ttl": 1807,
+                    "length": 1,
+                    "prevalence": 0.00005479714780845657,
+                    "uniqueness": 0.125
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "detik.com",
+                "health.detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "news.detik.com",
+                "travel.detik.com",
+                "wolipop.detik.com",
+                "www.detik.com"
+            ]
+        },
+        {
+            "rule": "detiknetwork\\.com\\/tam\\/omo",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracker"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__dtmids": 0.00005479714780845657
+            },
+            "exampleSites": [
+                "detik.com",
+                "health.detik.com",
+                "hot.detik.com",
+                "inet.detik.com",
+                "news.detik.com",
+                "travel.detik.com",
+                "wolipop.detik.com",
+                "www.detik.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000548,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.5
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.5
+        }
+    ],
+    "types": {
+        "Script": 16,
+        "Ping": 8
+    },
+    "nameservers": [
+        "ns.detik.com",
+        "ns.detik.net.id",
+        "ns1.detik.net.id",
+        "ns1.detik.com"
+    ]
+}

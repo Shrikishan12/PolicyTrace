@@ -1,0 +1,85 @@
+{
+    "domain": "21wiz.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "logger"
+    ],
+    "cnames": [],
+    "fingerprinting": 3,
+    "resources": [
+        {
+            "rule": "21wiz\\.com\\/s\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {
+                "Navigator.prototype.platform": 4,
+                "Document.cookie getter": 4,
+                "Date.prototype.getTime": 4
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "b45e4e5ff792ea00b462567c63bd3786ec18800c978b1cda07a4ec5f304fbf66",
+                "a5ec9d2c48fad50b5e68a1f3f50354352b4264916becb667a64ecaf84b5ce7e4",
+                "e5d07606e9c85a1da5d640d4972c246ba563a9562c87caf7e1aaa5168f94846c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hd-rezka.tv",
+                "kinogo.voto",
+                "kinogo.la",
+                "lordfilm.fi"
+            ]
+        },
+        {
+            "rule": "21wiz\\.com\\/logger",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "logger"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "hd-rezka.tv",
+                "kinogo.voto",
+                "kinogo.la",
+                "lordfilm.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 4,
+        "Image": 4
+    },
+    "nameservers": [
+        "cloe.ns.cloudflare.com",
+        "george.ns.cloudflare.com"
+    ]
+}

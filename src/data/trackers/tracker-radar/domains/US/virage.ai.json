@@ -1,0 +1,81 @@
+{
+    "domain": "virage.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000137,
+    "sites": 2,
+    "subdomains": [
+        "chat-widget",
+        "app-server"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "virage\\.ai\\/cdn\\/chat-widget-sdk-v1\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "chat-widget"
+            ],
+            "apis": {
+                "window.innerWidth": 2,
+                "window.innerHeight": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4938a17091c54a5a25f81d464dcb70938bc699c4c7b3218377b6976116be8cfd"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "explorenicecotedazur.com",
+                "www.marseille-tourisme.com"
+            ]
+        },
+        {
+            "rule": "virage\\.ai\\/api\\/chat-widget\\/launch",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "app-server"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd90b886da47573c8eb6f5c2ccc7d0228a1ea81f1cbba06f8138119ec4fa9d7e"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "explorenicecotedazur.com",
+                "www.marseille-tourisme.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns1.dns-parking.com",
+        "ns2.dns-parking.com"
+    ]
+}

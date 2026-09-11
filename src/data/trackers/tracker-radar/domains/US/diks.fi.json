@@ -1,0 +1,262 @@
+{
+    "domain": "diks.fi",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "sso.prod",
+        "coral.prod",
+        "a"
+    ],
+    "cnames": [
+        {
+            "original": "sso.helsinginuutiset.fi",
+            "resolved": "sso.prod.diks.fi"
+        },
+        {
+            "original": "sso.karjalainen.fi",
+            "resolved": "sso.prod.diks.fi"
+        },
+        {
+            "original": "sso.ksml.fi",
+            "resolved": "sso.prod.diks.fi"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "diks\\.fi\\/assets\\/jankko-sso-client\\.modern\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "sso.helsinginuutiset.fi",
+                    "resolved": "sso.prod.diks.fi"
+                },
+                {
+                    "original": "sso.karjalainen.fi",
+                    "resolved": "sso.prod.diks.fi"
+                },
+                {
+                    "original": "sso.ksml.fi",
+                    "resolved": "sso.prod.diks.fi"
+                }
+            ],
+            "responseHashes": [
+                "2e16fc7cc04c2aa021aa98d329856dc7d5b40867103322be9f811b74bb824097"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/assets\\/js\\/count\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "coral.prod"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "window.localStorage": 1
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "577999c6b73dc72ee72ff22598736bfceec72ebe2cdab7f3e3939b0674a9c012"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/fonts\\/v1\\/caslonDoric\\/CaslonDoric-RegularNo2-Web\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cb65456f1796a12a84b10c7c78869f5499a4cc72684dbf16a1e3e4cb543f73b6"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/refreshSession",
+            "cookies": 0.0000205,
+            "fingerprinting": 0,
+            "subdomains": [
+                "sso.prod"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "sso.helsinginuutiset.fi",
+                    "resolved": "sso.prod.diks.fi"
+                },
+                {
+                    "original": "sso.karjalainen.fi",
+                    "resolved": "sso.prod.diks.fi"
+                },
+                {
+                    "original": "sso.ksml.fi",
+                    "resolved": "sso.prod.diks.fi"
+                }
+            ],
+            "responseHashes": [
+                "b13f8e45f41494b8d3f58b6f10d3820b605c507ec71ec04c4c4b2aee64bb377f"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/fonts\\/v1\\/caslonDoric\\/CaslonDoric-Semibold-Web\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "95cd362e51dcd24a40495cdf8d14d4a057a896c67d72844cbdd831ce383d7814"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/fonts\\/v2\\/majritHd\\/MajritHd-Semibold\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "3b89b6ad7ff8b517832184ca5df906f64e001a11e143aaf24b9f03d6421f0eed"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/api\\/story\\/count\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "coral.prod"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "74654e57ecc83e10a532be4545224c095d762de50f7942c8d447a95091468856"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "helsinginuutiset.fi",
+                "www.helsinginuutiset.fi"
+            ]
+        },
+        {
+            "rule": "diks\\.fi\\/fonts\\/v2\\/majritTx\\/MajritTx-Roman\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "a"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "56e4926855e4db3a9f77c84eed120568695c59e99a4aefb4c59b9eb7cad85cff"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "karjalainen.fi",
+                "www.ksml.fi"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 8,
+        "Font": 11,
+        "Fetch": 3
+    },
+    "nameservers": [
+        "ns-127.awsdns-15.com",
+        "ns-778.awsdns-33.net",
+        "ns-1202.awsdns-22.org",
+        "ns-1552.awsdns-02.co.uk"
+    ]
+}

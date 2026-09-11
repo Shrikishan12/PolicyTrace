@@ -1,0 +1,137 @@
+{
+    "domain": "adxbid.info",
+    "owner": {
+        "name": "SETUPAD Inc.",
+        "displayName": "SETUPAD"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "clients"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "adxbid\\.info\\/vecernji_hr\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5ed7ca93088d8f918a79634879b77e8a136917f1549cea76c73a222f1ccc3594"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vecernji.hr",
+                "www.vecernji.hr"
+            ]
+        },
+        {
+            "rule": "adxbid\\.info\\/global\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clients"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "a76aa5cdeb8f547137ab8592c98ed442296030485203e279733c0f5fb841ee75",
+                "155dbc012abd0f2ab78edcfbec682fa824721a4b8cb36ba495956582d9f38841",
+                "e49934e0d3f9b8738cab00443a2c4469c73f339f166610f85487034cbfe1de92"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "vecernji.hr",
+                "m.vecernji.hr",
+                "www.b92.net",
+                "www.vijesti.me",
+                "www.youm7.com"
+            ]
+        },
+        {
+            "rule": "adxbid\\.info\\/advertisers_29\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "clients"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e2a9b50f145961662f5a46c2522c9b33a0561d0d65ac184ba59e0b8e7a4411a1"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "b92.net",
+                "www.b92.net"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000411,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.36363636363636365
+        },
+        {
+            "domain": "privacy-center.org",
+            "prevalence": 0.18181818181818182
+        },
+        {
+            "domain": "stpd.cloud",
+            "prevalence": 0.13636363636363635
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.09090909090909091
+        },
+        {
+            "domain": "wrappio.dev",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "iprom.net",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "nxjmp.com",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "dimatter.ai",
+            "prevalence": 0.045454545454545456
+        },
+        {
+            "domain": "meteored.com",
+            "prevalence": 0.045454545454545456
+        }
+    ],
+    "types": {
+        "Script": 2,
+        "Fetch": 7
+    },
+    "nameservers": [
+        "cash.ns.cloudflare.com",
+        "michelle.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,102 @@
+{
+    "domain": "fbplay.vip",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "v",
+        "db"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "fbplay\\.vip\\/jwplayer\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "v"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "PerformanceTiming.prototype.navigationStart": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.language": 3,
+                "Navigator.prototype.platform": 3,
+                "Date.prototype.getTime": 3,
+                "HTMLMediaElement.prototype.canPlayType": 3,
+                "MediaSource.isTypeSupported": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "586225b852101f3fdeca641830adabacecdca4c26438f461ca554d631b642299"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokepcina.cc",
+                "bokephot.me",
+                "bokepindocolmek.com"
+            ]
+        },
+        {
+            "rule": "fbplay\\.vip\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "v",
+                "db"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bokepcina.cc",
+                "bokephot.me",
+                "bokepindocolmek.com",
+                "indianpornmovie.net",
+                "playbokep.cv",
+                "videobokep.tv",
+                "xxnxbokep.vip"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.45
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.35
+        },
+        {
+            "domain": "jsdelivr.net",
+            "prevalence": 0.2
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 7
+    },
+    "nameservers": [
+        "alex.ns.cloudflare.com",
+        "lara.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "domain": "yumconnect.dev",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "api.prod.ph-us"
+    ],
+    "cnames": [],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "yumconnect\\.dev\\/ph_us\\/storefront\\/graphql",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.prod.ph-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        },
+        {
+            "rule": "yumconnect\\.dev\\/ph_us\\/storefront\\/graphql",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api.prod.ph-us"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "23e15dc2327f8f19039ce6b2dc0a9e726c7148fd5a457a822e8a96467a3f777a"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pizzahut.com",
+                "www.pizzahut.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Preflight": 2,
+        "Fetch": 2
+    },
+    "nameservers": [
+        "ns-433.awsdns-54.com",
+        "ns-520.awsdns-01.net",
+        "ns-1044.awsdns-02.org",
+        "ns-1952.awsdns-52.co.uk"
+    ]
+}

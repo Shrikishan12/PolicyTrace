@@ -1,0 +1,141 @@
+{
+    "domain": "jmlp.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000233,
+    "sites": 34,
+    "subdomains": [
+        "p",
+        "t"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "jmlp\\.app\\/sdk\\.js",
+            "cookies": 0.000185,
+            "fingerprinting": 1,
+            "subdomains": [
+                "p"
+            ],
+            "apis": {
+                "Document.cookie getter": 27,
+                "Document.cookie setter": 27
+            },
+            "sites": 27,
+            "prevalence": 0.000185,
+            "cnames": [],
+            "responseHashes": [
+                "4d114eccaf14ae207f5bd3a51a9156183411ab9360c3e73461675ad3d04a8002"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__adcloudiq": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.00018494037385354093,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.morrisathome.com",
+                "www.macu.com",
+                "www.commonwealthu.edu",
+                "www.applefcu.org",
+                "www.savatree.com",
+                "www.rapala.com",
+                "www.americaneagle.org",
+                "www.bernieandphyls.com",
+                "www.orrstown.com",
+                "savatree.com",
+                "www.wcupa.edu",
+                "www.renewalbyandersen.com",
+                "www.primohoagies.com",
+                "www.fleetfeet.com",
+                "www.khov.com",
+                "www.worldcampus.psu.edu",
+                "www.bangor.com",
+                "www.irvingoil.com",
+                "www.backyarddiscovery.com",
+                "bvspca.org"
+            ]
+        },
+        {
+            "rule": "jmlp\\.app\\/pixel",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "t"
+            ],
+            "apis": {},
+            "sites": 27,
+            "prevalence": 0.000185,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "__adcloudiq": 0.00018494037385354093,
+                "calltrk_landing": 0.000013699286952114143,
+                "IR_gbd": 0.000006849643476057072,
+                "_li_dcdm_c": 0.000006849643476057072
+            },
+            "exampleSites": [
+                "bvspca.org",
+                "www.savatree.com",
+                "www.une.edu",
+                "www.wcupa.edu",
+                "www.fleetfeet.com",
+                "www.fultonbank.com",
+                "www.khov.com",
+                "www.rapala.com",
+                "www.morrisathome.com",
+                "www.bangor.com",
+                "www.worldcampus.psu.edu",
+                "www.texasrealestate.com",
+                "www.bankatfirst.com",
+                "www.cookiedelivery.com",
+                "www.backyarddiscovery.com",
+                "www.macu.com",
+                "www.americaneagle.org",
+                "www.commonwealthu.edu",
+                "www.primohoagies.com",
+                "renewalbyandersen.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000226,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.7647058823529411
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.19117647058823528
+        },
+        {
+            "domain": "doubleclick.net",
+            "prevalence": 0.029411764705882353
+        },
+        {
+            "domain": "adobedtm.com",
+            "prevalence": 0.014705882352941176
+        }
+    ],
+    "types": {
+        "Script": 27,
+        "Image": 27
+    },
+    "nameservers": [
+        "courtney.ns.cloudflare.com",
+        "elliot.ns.cloudflare.com"
+    ]
+}

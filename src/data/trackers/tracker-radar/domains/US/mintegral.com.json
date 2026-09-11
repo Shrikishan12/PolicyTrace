@@ -1,0 +1,93 @@
+{
+    "domain": "mintegral.com",
+    "owner": {
+        "name": "Mobvista",
+        "displayName": "Mobvista"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000342,
+    "sites": 5,
+    "subdomains": [
+        "cdn-static"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "mintegral\\.com\\/sdk\\/pixel\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cdn-static"
+            ],
+            "apis": {
+                "window.sessionStorage": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.language": 3,
+                "Screen.prototype.colorDepth": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "window.innerWidth": 3,
+                "window.innerHeight": 3,
+                "Navigator.prototype.deviceMemory": 3,
+                "Navigator.prototype.hardwareConcurrency": 3,
+                "Intl.DateTimeFormat.prototype.resolvedOptions": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "window.localStorage": 3,
+                "Document.cookie getter": 2,
+                "Document.cookie setter": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "cbbe606b6bd4dcf325d2557b3275b0bc58d50665668c194b313006057065a86e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_mtgtrk": {
+                    "ttl": 31536002,
+                    "length": 36,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 1
+                },
+                "_mtgutm": {
+                    "ttl": 31536002,
+                    "length": 158,
+                    "prevalence": 0.000013699286952114143,
+                    "uniqueness": 0.5
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "starpets.gg",
+                "www.homebuddy.com",
+                "www.monkey.app"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000205,
+    "topInitiators": [
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.6
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.4
+        }
+    ],
+    "types": {
+        "Script": 3
+    },
+    "nameservers": [
+        "ns-190.awsdns-23.com",
+        "ns-860.awsdns-43.net",
+        "ns-1027.awsdns-00.org",
+        "ns-2000.awsdns-58.co.uk"
+    ]
+}

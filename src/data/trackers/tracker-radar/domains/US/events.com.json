@@ -1,0 +1,93 @@
+{
+    "domain": "events.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000205,
+    "sites": 3,
+    "subdomains": [
+        "cw",
+        "discover"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "events\\.com\\/edc-calendar\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [
+                "cw"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 3,
+                "Navigator.prototype.product": 3,
+                "Navigator.prototype.language": 3,
+                "Date.prototype.getTime": 3,
+                "window.localStorage": 3,
+                "Navigator.prototype.platform": 3,
+                "window.devicePixelRatio": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "663030531473d382f3d46af8142c73f216a79029902ba18fb567603180ac99a9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aboutboulder.com",
+                "www.berkeleyside.org",
+                "www.unionleader.com"
+            ]
+        },
+        {
+            "rule": "events\\.com\\/services\\/osm\\/staticmap\\.php",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "discover"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "177ae8f1652c6160392a20fb36a05668e8d25afba950fafdf67dc9fd678fd968"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aboutboulder.com",
+                "www.unionleader.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000137,
+    "topInitiators": [
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.7857142857142857
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.21428571428571427
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1928.awsdns-49.co.uk",
+        "ns-621.awsdns-13.net",
+        "ns-1187.awsdns-20.org",
+        "ns-285.awsdns-35.com"
+    ]
+}

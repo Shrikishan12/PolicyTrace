@@ -1,0 +1,148 @@
+{
+    "domain": "r9cdn.net",
+    "owner": {
+        "name": "Booking Holdings Inc.",
+        "displayName": "Booking Holdings"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000822,
+    "sites": 12,
+    "subdomains": [
+        "content"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "r9cdn\\.net\\/res\\/images\\/horizon\\/affiliatewidget\\/spinner\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "ab4c2f5941df8a0ade691492d84a1666151e248a7193460761d89b4a01cdf4f8"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bradleyairport.com",
+                "www.budgetyourtrip.com",
+                "www.flightinformation.com",
+                "www.outerbanks.com"
+            ]
+        },
+        {
+            "rule": "r9cdn\\.net\\/res\\/combined\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 3
+            },
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "9600668d212f2f12ccf0fcf4d5f0a1eb6fc083f3f55ee94ceb9cfe9dbc46d422"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bradleyairport.com",
+                "www.budgetyourtrip.com",
+                "www.flightinformation.com",
+                "www.outerbanks.com"
+            ]
+        },
+        {
+            "rule": "r9cdn\\.net\\/res\\/images\\/horizon\\/common\\/promo\\/powered-kayak-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "ede02cc5829750cfc6562f6845f40952f3119f9af5eee0b37e40590336067619"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flysfb.com",
+                "sonomacountyairport.org",
+                "www.clevelandairport.com",
+                "www.flyabe.com",
+                "www.flymanchester.com",
+                "www.flypgd.com"
+            ]
+        },
+        {
+            "rule": "r9cdn\\.net\\/res\\/css\\/font\\/tt-hoves\\/tt-hoves-variable\\.woff2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "content"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6a00452561eb03d71df8a9d311fe1591f6167eb0288873359869f38bd1e386cc"
+            ],
+            "type": "Font",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "flightinformation.com",
+                "www.outerbanks.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "kayak.com",
+            "prevalence": 0.5833333333333334
+        },
+        {
+            "domain": "unpkg.com",
+            "prevalence": 0.20833333333333334
+        },
+        {
+            "domain": "first party",
+            "prevalence": 0.16666666666666666
+        },
+        {
+            "domain": "usercentrics.eu",
+            "prevalence": 0.041666666666666664
+        }
+    ],
+    "types": {
+        "Image": 10,
+        "Script": 4,
+        "Font": 2
+    },
+    "nameservers": [
+        "blue.foundationdns.com",
+        "blue.foundationdns.net",
+        "blue.foundationdns.org"
+    ]
+}

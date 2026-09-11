@@ -1,0 +1,286 @@
+{
+    "domain": "usa.gov",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000781,
+    "sites": 114,
+    "subdomains": [
+        "dos_stategov.sites.infr.search",
+        "search",
+        "u-s-bureauofeconomicanalysis.sites.infr.search",
+        "uscourts-gov.sites.infr.search",
+        "justice.sites.infr.search",
+        "stats.search"
+    ],
+    "cnames": [
+        {
+            "original": "findit.state.gov",
+            "resolved": "dos_stategov.sites.infr.search.usa.gov"
+        },
+        {
+            "original": "search.bea.gov",
+            "resolved": "u-s-bureauofeconomicanalysis.sites.infr.search.usa.gov"
+        },
+        {
+            "original": "search.justice.gov",
+            "resolved": "justice.sites.infr.search.usa.gov"
+        },
+        {
+            "original": "search.uscourts.gov",
+            "resolved": "uscourts-gov.sites.infr.search.usa.gov"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "usa\\.gov\\/javascripts\\/remote\\.loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "dos_stategov.sites.infr.search",
+                "search",
+                "u-s-bureauofeconomicanalysis.sites.infr.search",
+                "uscourts-gov.sites.infr.search",
+                "justice.sites.infr.search"
+            ],
+            "apis": {},
+            "sites": 80,
+            "prevalence": 0.000548,
+            "cnames": [
+                {
+                    "original": "findit.state.gov",
+                    "resolved": "dos_stategov.sites.infr.search.usa.gov"
+                },
+                {
+                    "original": "search.bea.gov",
+                    "resolved": "u-s-bureauofeconomicanalysis.sites.infr.search.usa.gov"
+                },
+                {
+                    "original": "search.uscourts.gov",
+                    "resolved": "uscourts-gov.sites.infr.search.usa.gov"
+                },
+                {
+                    "original": "search.justice.gov",
+                    "resolved": "justice.sites.infr.search.usa.gov"
+                }
+            ],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.cdse.edu",
+                "ods.od.nih.gov",
+                "www.publications.usace.army.mil",
+                "www.afrc.af.mil",
+                "ipps-a.army.mil",
+                "www.dodcui.mil",
+                "www.airforcemedicine.af.mil",
+                "www.airuniversity.af.edu",
+                "www.dia.mil",
+                "www.nsa.gov",
+                "www.lineofdeparture.army.mil",
+                "www.ngdc.noaa.gov",
+                "www.war.gov",
+                "www.afpc.af.mil",
+                "www.jbsa.mil",
+                "history.army.mil",
+                "www.ftc.gov",
+                "www.usace.army.mil",
+                "media.defense.gov",
+                "www.mycg.uscg.mil"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/javascripts\\/stats\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archives.gov",
+                "oceanservice.noaa.gov",
+                "training.fema.gov"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/assets\\/stats\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2d566b27b1438a0a77dd2586aa3e14aa37e1e3f1a6f13a48852ac4556cb0281c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archives.gov",
+                "oceanservice.noaa.gov",
+                "training.fema.gov"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/stats\\.gif",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "stats.search"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "archives.gov",
+                "oceanservice.noaa.gov",
+                "training.fema.gov"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/assets\\/sayt_loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "army.mil",
+                "www.army.mil"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/javascripts\\/jquery\\/jquery\\.bgiframe\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maine.gov",
+                "www.maine.gov",
+                "www1.maine.gov",
+                "www11.maine.gov"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/javascripts\\/jquery\\/jquery\\.autocomplete\\.min\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maine.gov",
+                "www.maine.gov",
+                "www1.maine.gov",
+                "www11.maine.gov"
+            ]
+        },
+        {
+            "rule": "usa\\.gov\\/javascripts\\/sayt\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "search"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "maine.gov",
+                "www.maine.gov",
+                "www1.maine.gov",
+                "www11.maine.gov"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9716312056737588
+        },
+        {
+            "domain": "jquery.com",
+            "prevalence": 0.014184397163120567
+        },
+        {
+            "domain": "war.gov",
+            "prevalence": 0.014184397163120567
+        }
+    ],
+    "types": {
+        "Script": 100,
+        "Image": 3
+    },
+    "nameservers": [
+        "dns5.gsa.gov",
+        "dns2.gsa.gov",
+        "dns.gsa.gov",
+        "dns4.gsa.gov",
+        "dns3.gsa.gov"
+    ]
+}

@@ -1,0 +1,142 @@
+{
+    "domain": "amazee.io",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000548,
+    "sites": 8,
+    "subdomains": [
+        "smar1",
+        "cdn",
+        "us2"
+    ],
+    "cnames": [
+        {
+            "original": "cms.nar.realtor",
+            "resolved": "us2.amazee.io"
+        },
+        {
+            "original": "content.montgomerycountypa.gov",
+            "resolved": "cdn.amazee.io"
+        },
+        {
+            "original": "content.saclibrary.org",
+            "resolved": "cdn.amazee.io"
+        },
+        {
+            "original": "regions.smartsheet.com",
+            "resolved": "smar1.amazee.io"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "amazee\\.io\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "smar1"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "regions.smartsheet.com",
+                    "resolved": "smar1.amazee.io"
+                }
+            ],
+            "responseHashes": [
+                "81e228e806de7d90275c7ad6a93e742a47ce0c5c5cb2b234bb75f7173775c5a6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "smartsheet.com",
+                "app.smartsheet.com"
+            ]
+        },
+        {
+            "rule": "amazee\\.io\\/api\\/alerts\\/www",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [
+                {
+                    "original": "content.montgomerycountypa.gov",
+                    "resolved": "cdn.amazee.io"
+                },
+                {
+                    "original": "content.saclibrary.org",
+                    "resolved": "cdn.amazee.io"
+                }
+            ],
+            "responseHashes": [
+                "70d5db54b09d2839550bc7a5dcd3005c38e23269c99088d54472a3a490cfbb42",
+                "04cd6bf280b66fe38a677171d22105b79333e00e7f97e0cd9488e04f40c342de"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "montgomerycountypa.gov",
+                "www.montgomerycountypa.gov",
+                "www.saclibrary.org"
+            ]
+        },
+        {
+            "rule": "amazee\\.io\\/sites\\/default\\/files\\/gbb-lt-platinum-478x310-2024-06-18\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "us2"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "cms.nar.realtor",
+                    "resolved": "us2.amazee.io"
+                }
+            ],
+            "responseHashes": [
+                "6a691666489a6d6735ee5469b9c12c712573eb8bb756e0694c5b6ef3933f8363"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "nar.realtor",
+                "www.nar.realtor"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "gstatic.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "XHR": 2,
+        "Fetch": 3,
+        "Image": 2
+    },
+    "nameservers": [
+        "ns-1784.awsdns-31.co.uk",
+        "ns-605.awsdns-11.net",
+        "ns-1383.awsdns-44.org",
+        "ns-351.awsdns-43.com"
+    ]
+}

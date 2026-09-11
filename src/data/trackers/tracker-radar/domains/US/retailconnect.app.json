@@ -1,0 +1,157 @@
+{
+    "domain": "retailconnect.app",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "storefront",
+        "assets"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "retailconnect\\.app\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dardanos.com",
+                "evereve.com",
+                "lordandtaylor.com",
+                "www.americanstandard-us.com",
+                "www.grohe.us"
+            ]
+        },
+        {
+            "rule": "retailconnect\\.app\\/v1\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "storefront"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dardanos.com",
+                "evereve.com",
+                "lordandtaylor.com",
+                "www.americanstandard-us.com",
+                "www.grohe.us"
+            ]
+        },
+        {
+            "rule": "retailconnect\\.app\\/shopify\\/latest\\/document-autocomplete\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 3
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "a415e2d37d22b92764e2fb6d33b0177cbd1469ef6fc7aefbd11551a337344aee"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "americanstandard-us.com",
+                "www.americanstandard-us.com",
+                "www.grohe.us"
+            ]
+        },
+        {
+            "rule": "retailconnect\\.app\\/shopify\\/latest\\/autocomplete\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9eb75f20a33c0bce48d3df351c1f8ebe49653075506ca39e1967eac43582f0a5"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cotopaxi.com",
+                "www.cotopaxi.com"
+            ]
+        },
+        {
+            "rule": "retailconnect\\.app\\/shopify\\/latest\\/autocomplete\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "assets"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "24195644ee8856e14bf2ba594459dc80c29cbe9698d134f06fb4647015e1a9af"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cotopaxi.com",
+                "www.cotopaxi.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9166666666666666
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.08333333333333333
+        }
+    ],
+    "types": {
+        "Fetch": 5,
+        "Preflight": 5,
+        "Script": 5,
+        "Stylesheet": 2
+    },
+    "nameservers": [
+        "athena.ns.cloudflare.com",
+        "zod.ns.cloudflare.com"
+    ]
+}

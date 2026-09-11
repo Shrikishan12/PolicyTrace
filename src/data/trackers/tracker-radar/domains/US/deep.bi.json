@@ -1,0 +1,180 @@
+{
+    "domain": "deep.bi",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "api"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "deep\\.bi\\/v3\\/init\\.js",
+            "cookies": 0.0000205,
+            "fingerprinting": 2,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {
+                "Date.prototype.getTimezoneOffset": 3,
+                "window.localStorage": 3,
+                "Screen.prototype.orientation": 3,
+                "Date.prototype.getTime": 3,
+                "Navigator.prototype.doNotTrack": 3,
+                "Screen.prototype.width": 3,
+                "Screen.prototype.height": 3,
+                "Screen.prototype.availWidth": 3,
+                "Screen.prototype.availHeight": 3,
+                "Navigator.prototype.mimeTypes": 3,
+                "Navigator.prototype.userAgent": 3,
+                "Document.cookie getter": 3,
+                "Navigator.prototype.cookieEnabled": 3,
+                "Document.cookie setter": 3,
+                "window.innerHeight": 2
+            },
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "25feb14efce83dbd535475942cfb82a4acda3189dbcd694483df9a7d3eceab2a"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "deepbi_user_session": {
+                    "ttl": 1817,
+                    "length": 38,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "deepbi_firstparty_cookie": {
+                    "ttl": 31536017,
+                    "length": 19,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                },
+                "deepbi_user_deepcookie": {
+                    "ttl": null,
+                    "length": 16,
+                    "prevalence": 0.000020548930428171212,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorzeczy.pl",
+                "smaki.pl",
+                "www.rappler.com"
+            ]
+        },
+        {
+            "rule": "deep\\.bi\\/v1\\/streams\\/j7odeRmIZNFp\\/events",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "149f9bf9647aa87853c90e8b0b76a001a29d59ef3992cd37839ab9af9aaed45d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorzeczy.pl",
+                "smaki.pl"
+            ]
+        },
+        {
+            "rule": "deep\\.bi\\/v1\\/streams\\/j7odeRmIZNFp\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorzeczy.pl",
+                "smaki.pl"
+            ]
+        },
+        {
+            "rule": "deep\\.bi\\/v1\\/streams\\/TR8x0HLI2e7B\\/events",
+            "cookies": 0.00000685,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rappler.com",
+                "www.rappler.com"
+            ]
+        },
+        {
+            "rule": "deep\\.bi\\/v1\\/streams\\/TR8x0HLI2e7B\\/events",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "api"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "rappler.com",
+                "www.rappler.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.967741935483871
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.03225806451612903
+        }
+    ],
+    "types": {
+        "Script": 3,
+        "XHR": 4,
+        "Preflight": 4
+    },
+    "nameservers": [
+        "zoe.ns.cloudflare.com",
+        "matt.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,386 @@
+{
+    "domain": "pushplanet.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000753,
+    "sites": 11,
+    "subdomains": [
+        "cdn",
+        "gdapi",
+        "s3",
+        "hosted"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "pushplanet\\.com\\/editor\\/widget_hosted\\.css",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "146db275e36157aeae59496c7f9ac43e67a970b40cd7f9eb145876c37f37bfe1"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.nepm.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wgbh.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/static\\/lz-string-1\\.4\\.4-mod\\.min\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "0543bcb916fda984fdef0aeabf45aa0b28fdf1138d83293fb2678e6e130024b2"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.nepm.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wgbh.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/editor\\/device-detection\\.js",
+            "cookies": 0.0000479,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 9,
+                "Navigator.prototype.language": 9,
+                "Screen.prototype.width": 9,
+                "Screen.prototype.height": 9
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "94efeb136478460adf87171814bb21b99db9091e52ec5e9461a714b7e7409c91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.nepm.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wgbh.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/",
+            "cookies": 0.0000548,
+            "fingerprinting": 0,
+            "subdomains": [
+                "gdapi"
+            ],
+            "apis": {},
+            "sites": 8,
+            "prevalence": 0.0000548,
+            "cnames": [],
+            "responseHashes": [
+                "d1801f6ff28510f20b101f81584222d55bfdbba07e1c9a66c424a32f7f69657e",
+                "8c40cab839bd4601b0cd224992bea24ec7818bcf2fa494d90177f3507a03e757",
+                "8e2243de9bc7e9c70238576119e3d048ef566dafc5d9c90417067a4c0a280300",
+                "40c246902aa16de83111aec4c6f86ae1ba6306f6fe7aa9edcd634ce5575bb6d4",
+                "903e070cfc841519f2c70dc5b005e663ecff242a6aea38304d1d0bab4bd340de",
+                "ad585f51864685307ce2ae17c12758e2c700310617497e567e294efe6fe996c7",
+                "a424f22c8e8609255aff576bf912db71c84f568f948d0d1e533d40b7c92d41de"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/editor\\/widget_common\\.js",
+            "cookies": 0.0000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 10,
+                "Date.prototype.getTime": 10,
+                "Document.cookie setter": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "abf476fb62b1f4ec10f6accdcdf601c56b3a2ddba4ffbf3bec1c1a7ad2a55b74"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "pp_data": {
+                    "ttl": 315360013,
+                    "length": 804,
+                    "prevalence": 0.000006849643476057072,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.nepm.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wgbh.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/editor\\/widget_hosted\\.js",
+            "cookies": 0.00000685,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 10,
+                "Navigator.prototype.userAgent": 10,
+                "Navigator.prototype.vendor": 10,
+                "Navigator.prototype.platform": 10
+            },
+            "sites": 10,
+            "prevalence": 0.0000685,
+            "cnames": [],
+            "responseHashes": [
+                "58b77d2366a4e9bfc8af8b836d2d25349bd1f697cba559cda7ff77ab4947cb65"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "aptv.org",
+                "pbr.com",
+                "www.classicalwcrb.org",
+                "www.kunc.org",
+                "www.nepm.org",
+                "www.sunsigns.com",
+                "www.wabe.org",
+                "www.wfyi.org",
+                "www.wgbh.org",
+                "www.wvia.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/custom_fonts\\/ef621004a7994bea8112d2370a3c0677\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ff44ecab2030015f534523a6dae1c31a9e428d7f7c94ecc1a1446a398fc50612"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicalwcrb.org",
+                "www.wgbh.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/users\\/8bf3195d06b7409dae56c6a79780f4dc\\/uploads\\/7d4c0b66d7404c00b49be2f27e405fa9\\/btnarrow\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "670e28a86da9a8c9d72946546565ea2352d47a2847f5391f304019e7fcdba64b"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classicalwcrb.org",
+                "www.wgbh.org"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/horoscopo\\/Page6297",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "hosted"
+            ],
+            "apis": {
+                "window.localStorage": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1aa00b18ea5b6e5f52dd99655b7c6e80586beb80bb0b30e1e641da90a4d9383c"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsigns.com",
+                "www.sunsigns.com"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/custom_fonts\\/307a1efdcca14ccdaedb6860bea23d06\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "895eb50e4ce13c78777d8fa7395498903734f0fd667cc62f73db6abbb16fb75c"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsigns.com",
+                "www.sunsigns.com"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/custom_fonts\\/eff13c561c1f418db5e3c2991fb4508c\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b85056f81a8668aba799cf738141080eedfc94fb05972571cd2cddc8f27a30d9"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsigns.com",
+                "www.sunsigns.com"
+            ]
+        },
+        {
+            "rule": "pushplanet\\.com\\/custom_fonts\\/d0b369c8cc7b4ee48c95311974d77fcb\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "s3"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "1ca44489c591bc24f029b0e052f1699c57416bcffafab1c28261143aebff2382"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sunsigns.com",
+                "www.sunsigns.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000753,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.85
+        },
+        {
+            "domain": "ajax.googleapis.com",
+            "prevalence": 0.1
+        },
+        {
+            "domain": "omappapi.com",
+            "prevalence": 0.05
+        }
+    ],
+    "types": {
+        "Stylesheet": 18,
+        "Script": 40,
+        "Fetch": 8,
+        "Image": 2,
+        "Document": 2
+    },
+    "nameservers": [
+        "gerald.ns.cloudflare.com",
+        "linda.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,110 @@
+{
+    "domain": "approvepayments.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000089,
+    "sites": 13,
+    "subdomains": [
+        "turbo-cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "approvepayments\\.com\\/plugin\\/v4\\/production\\/approve-core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "turbo-cdn"
+            ],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "0acd24990f54ef08af966c70362b1badffce47f8ef087e47fbb0663e71e033da",
+                "7e5e47dc7ec47cf6a09c5d97fd422e93923796ddff828579a39f3c0206f5ef86"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clivecoffee.com",
+                "farmandranchdepot.com",
+                "kilnfrog.com",
+                "majestycoffee.com",
+                "rippingitoutdoors.com",
+                "spwindustrial.com",
+                "trutechtools.com",
+                "vintagearcade.net",
+                "www.espressoparts.com",
+                "www.rehabmart.com",
+                "www.spartanequipment.com"
+            ]
+        },
+        {
+            "rule": "approvepayments\\.com\\/plugin\\/v4\\/production\\/approve-plugin\\.es\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "turbo-cdn"
+            ],
+            "apis": {
+                "Navigator.prototype.product": 11,
+                "Navigator.prototype.userAgent": 11,
+                "Navigator.prototype.maxTouchPoints": 11,
+                "BroadcastChannel.prototype.constructor": 11,
+                "window.sessionStorage": 11
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "09a9823a57a5331f27927685dfe3a02b9cda5ff67109861459ba5b19869c6bac",
+                "db1f8da1a48e9e4376b3c41bd11fb93e796a2d57fb52806dabe1651c89602ed7"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clivecoffee.com",
+                "farmandranchdepot.com",
+                "kilnfrog.com",
+                "majestycoffee.com",
+                "rippingitoutdoors.com",
+                "spwindustrial.com",
+                "trutechtools.com",
+                "vintagearcade.net",
+                "www.espressoparts.com",
+                "www.rehabmart.com",
+                "www.spartanequipment.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000822,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.42424242424242425
+        },
+        {
+            "domain": "kwipped.com",
+            "prevalence": 0.3939393939393939
+        },
+        {
+            "domain": "bigcommerce.com",
+            "prevalence": 0.18181818181818182
+        }
+    ],
+    "types": {
+        "Script": 22
+    },
+    "nameservers": [
+        "sean.ns.cloudflare.com",
+        "kara.ns.cloudflare.com"
+    ]
+}

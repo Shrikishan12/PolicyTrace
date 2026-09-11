@@ -1,0 +1,149 @@
+{
+    "domain": "gomega.ai",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000123,
+    "sites": 18,
+    "subdomains": [
+        "cdn",
+        "optimizer",
+        "events-api"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "gomega\\.ai\\/scripts\\/optimizer\\.min\\.js",
+            "cookies": 0.0000822,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 12,
+                "window.localStorage": 12,
+                "Date.prototype.getTime": 12,
+                "Document.cookie setter": 12,
+                "window.sessionStorage": 12,
+                "window.innerWidth": 12,
+                "window.innerHeight": 12,
+                "Navigator.prototype.userAgent": 12
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "4827a53d74af4b0461aff66aaa3815f9ade655a91c3e445a3637de3c1bdd453f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "_mega_vid": {
+                    "ttl": 31536002,
+                    "length": 40,
+                    "prevalence": 0.00008219572171268485,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictionresource.com",
+                "bluemoonseniorcounseling.com",
+                "drift.co",
+                "homedecoratorscabinetry.homedepot.com",
+                "lionandunicorn.com",
+                "northspore.com",
+                "practicalneurology.com",
+                "siptequila.com",
+                "therestaurantwarehouse.com",
+                "www.artglasssupplies.com",
+                "www.missouriquiltco.com",
+                "www.yarn.com"
+            ]
+        },
+        {
+            "rule": "gomega\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "optimizer"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "34f49589d97e284d3d1d4441a313058edffad8376c4a00ca17524d31c628df86",
+                "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+                "c4507e9889bb40ed970709ff3862148ca6d759918eb8c2d3b38fd0c1ec8a9336",
+                "a6eb0712da030d913c849e4ed9c41ec10050de2791d1abcf2c995da28a440568"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictionresource.com",
+                "bluemoonseniorcounseling.com",
+                "drift.co",
+                "homedecoratorscabinetry.homedepot.com",
+                "lionandunicorn.com",
+                "northspore.com",
+                "practicalneurology.com",
+                "siptequila.com",
+                "therestaurantwarehouse.com",
+                "www.artglasssupplies.com",
+                "www.missouriquiltco.com",
+                "www.yarn.com"
+            ]
+        },
+        {
+            "rule": "gomega\\.ai\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "events-api"
+            ],
+            "apis": {},
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Preflight",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "addictionresource.com",
+                "bluemoonseniorcounseling.com",
+                "drift.co",
+                "homedecoratorscabinetry.homedepot.com",
+                "lionandunicorn.com",
+                "northspore.com",
+                "practicalneurology.com",
+                "siptequila.com",
+                "therestaurantwarehouse.com",
+                "www.artglasssupplies.com",
+                "www.missouriquiltco.com",
+                "www.yarn.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000123,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Fetch": 12,
+        "Preflight": 12
+    },
+    "nameservers": [
+        "brian.ns.cloudflare.com",
+        "daphne.ns.cloudflare.com"
+    ]
+}

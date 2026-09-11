@@ -1,0 +1,123 @@
+{
+    "domain": "rvlife.com",
+    "owner": {
+        "name": "Social Knowledge, LLC",
+        "displayName": "Social Knowledge"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000116,
+    "sites": 17,
+    "subdomains": [
+        "affiliates",
+        "mfe.campgrounds",
+        "campgrounds"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "rvlife\\.com\\/scripts\\/mixoy0g",
+            "cookies": 0.0000137,
+            "fingerprinting": 0,
+            "subdomains": [
+                "affiliates"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6afd69c617bc023f876f29d2a8f49e03f80ab9504558534c8ea802647f414319"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "crowsurvival.com",
+                "oregoncoastweekend.com"
+            ]
+        },
+        {
+            "rule": "rvlife\\.com\\/speed-test-embed\\/main\\.js",
+            "cookies": 0.0000616,
+            "fingerprinting": 2,
+            "subdomains": [
+                "mfe.campgrounds"
+            ],
+            "apis": {
+                "Document.cookie getter": 9,
+                "Navigator.prototype.permissions": 9,
+                "Date.prototype.getTime": 9,
+                "Document.cookie setter": 9
+            },
+            "sites": 9,
+            "prevalence": 0.0000616,
+            "cnames": [],
+            "responseHashes": [
+                "b13f271773acc26869b40d8e59b6e1cc847c36195d5c9273f78199ff1ec55e91"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "cgr_user_location": {
+                    "ttl": 2592000,
+                    "length": 8,
+                    "prevalence": 0.00006164679128451365,
+                    "uniqueness": 0.1111111111111111
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "classbforum.com",
+                "www.escapeforum.org",
+                "www.fiberglassrv.com",
+                "www.forestriverforums.com",
+                "www.jaycoowners.com",
+                "www.keystoneforums.com",
+                "www.mygrandrv.com",
+                "www.thorforums.com",
+                "www.winnieowners.com"
+            ]
+        },
+        {
+            "rule": "rvlife\\.com\\/images\\/widget\\/rvpr-horiz-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "campgrounds"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bb8f5508b35a397d66add750bfad4556e74d654839b675ccbcc39a4137c6b949"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fiberglassrv.com",
+                "www.forestriverforums.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000116,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Image": 4,
+        "Script": 9
+    },
+    "nameservers": [
+        "coco.ns.cloudflare.com",
+        "terry.ns.cloudflare.com"
+    ]
+}

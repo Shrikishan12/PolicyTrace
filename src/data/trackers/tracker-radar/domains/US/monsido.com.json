@@ -1,0 +1,1632 @@
+{
+    "domain": "monsido.com",
+    "owner": {
+        "name": "Monsido Inc.",
+        "displayName": "Monsido"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00382,
+    "sites": 557,
+    "subdomains": [
+        "app-script",
+        "heatmaps",
+        "cdn",
+        "pagecorrect",
+        "tracking"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "monsido\\.com\\/v2\\/monsido-script\\.js",
+            "cookies": 0.00108,
+            "fingerprinting": 1,
+            "subdomains": [
+                "app-script"
+            ],
+            "apis": {
+                "Document.cookie getter": 382,
+                "Date.prototype.getTime": 385,
+                "Document.cookie setter": 157,
+                "Screen.prototype.width": 314,
+                "Screen.prototype.height": 314
+            },
+            "sites": 426,
+            "prevalence": 0.00292,
+            "cnames": [],
+            "responseHashes": [
+                "bcf3cd8c9bfa8c8f5c83aff5df70e9bfacd009cb8cd204411fe2bb0a0c95e0ed"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "monsido": {
+                    "ttl": 2592003,
+                    "length": 16,
+                    "prevalence": 0.0010753940257409603,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.hhs.nd.gov",
+                "www.washingtoncountymn.gov",
+                "unemployment.ohio.gov",
+                "irvingtx.gov",
+                "www.tualatinhillsparks.org",
+                "www.hornady.com",
+                "www.asme.org",
+                "www.cityofsanmateo.org",
+                "experience.syracuse.edu",
+                "www.cacklehatchery.com",
+                "www.slocounty.ca.gov",
+                "www.widener.edu",
+                "www.fdot.gov",
+                "www.eauclairecounty.gov",
+                "www.durhamnc.gov",
+                "www.normalil.gov",
+                "www.pittcountync.gov",
+                "www.tampaairport.com",
+                "www.princetonnj.gov",
+                "www.parkrec.nd.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/heatmaps\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 224
+            },
+            "sites": 224,
+            "prevalence": 0.00153,
+            "cnames": [],
+            "responseHashes": [
+                "df3bc31eb27cba101d7e3918ebd94dc5ba21065e91983d1d55a67e9a621aaaec"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.afp.gov.au",
+                "dhs.maryland.gov",
+                "www.berriencounty.org",
+                "www.nyecountynv.gov",
+                "www.eauclairecounty.gov",
+                "www.charlottenc.gov",
+                "www.pinal.gov",
+                "www.harrisonburgva.gov",
+                "kglteater.dk",
+                "www.clarkson.edu",
+                "www.bremertonwa.gov",
+                "www.crowwing.gov",
+                "www.fremont.gov",
+                "www.linncountyiowa.gov",
+                "www.pbgc.gov",
+                "www.ecommunity.com",
+                "www.fayettevillenc.gov",
+                "www.leandertx.gov",
+                "www.buckscounty.gov",
+                "www.cincinnatistate.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/mon-page-assist\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 7
+            },
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [
+                "2a359cd6d6b4d0a0a7bed310c65d800905bf70b90e829fe29a1d2f8d0ac4629b"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acf.gov",
+                "schools.friscoisd.org",
+                "wjccschools.org",
+                "www.bostonplans.org",
+                "www.friscoisd.org",
+                "www.gptx.org",
+                "www.rowancountync.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/page-correct\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "pagecorrect"
+            ],
+            "apis": {},
+            "sites": 159,
+            "prevalence": 0.00109,
+            "cnames": [],
+            "responseHashes": [
+                "d2d866d921eec11e792102b43cd37a021e55bb996d60b8f82f73c13e02eb21b9"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.washingtoncountymn.gov",
+                "www.berriencounty.org",
+                "www.tigard-or.gov",
+                "sfrecpark.org",
+                "www.crowwing.gov",
+                "www.buckscounty.gov",
+                "www.harnett.org",
+                "www.columbiastate.edu",
+                "www.wessexwater.co.uk",
+                "www.cfisd.net",
+                "www.tampa.gov",
+                "www.yorkcounty.gov",
+                "www.flagstaff.az.gov",
+                "www.vail.gov",
+                "www.calvertcountymd.gov",
+                "www.lancaster.ne.gov",
+                "www.bremertonwa.gov",
+                "www.parkercountytx.gov",
+                "www.santacruz.org",
+                "www.cityofcarrollton.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tracking"
+            ],
+            "apis": {},
+            "sites": 410,
+            "prevalence": 0.00281,
+            "cnames": [],
+            "responseHashes": [
+                "77b1d2c0857d4e95d4c2ae7aa0abc5aaafa6bd4581b31203d1592759c26f5c44"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "monsido": 0.0012329358256902728
+            },
+            "exampleSites": [
+                "www.stmarytx.edu",
+                "www.doc.govt.nz",
+                "www.erieco.gov",
+                "www.fayettevillenc.gov",
+                "parknationalbank.com",
+                "www.crews.bank",
+                "www.brooklinema.gov",
+                "www.hollyspringsnc.gov",
+                "www.vccuonline.net",
+                "www.nyecountynv.gov",
+                "www.bancfirst.bank",
+                "www.sydney.com",
+                "us.jellycat.com",
+                "tax.idaho.gov",
+                "apps.azdot.gov",
+                "www.pitzer.edu",
+                "www.cincinnatistate.edu",
+                "transport.vic.gov.au",
+                "www.edmondok.gov",
+                "www.ut.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/images\\/default-monsido-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [],
+            "responseHashes": [
+                "451aa82127137bd18f144b957fe8308c994951a3376624c99e42f0caf813d7de"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "acf.gov",
+                "schools.friscoisd.org",
+                "wjccschools.org",
+                "www.friscoisd.org",
+                "www.gptx.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/mon-page-assist-loader\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "window.localStorage": 118
+            },
+            "sites": 118,
+            "prevalence": 0.000808,
+            "cnames": [],
+            "responseHashes": [
+                "6e1a28d6d6b3ab88f3a3a35bfa00926606e24d22249c8ca918c8776b61134b98"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.tualatinhillsparks.org",
+                "www.legislature.ohio.gov",
+                "www.epcounty.com",
+                "knoxcounty.org",
+                "www.uakron.edu",
+                "www.daytonohio.gov",
+                "greeleyco.gov",
+                "www.lovgov.org",
+                "www.palmcoast.gov",
+                "www.ci.richmond.ca.us",
+                "www.asme.org",
+                "www.co.grand.co.us",
+                "www.knoxcounty.org",
+                "www.calvertcountymd.gov",
+                "www.greenvillesc.gov",
+                "www.carmel.in.gov",
+                "lebanonnh.gov",
+                "www.eauclairecounty.gov",
+                "www.arlingtonva.us",
+                "www.issaquahwa.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/assets\\/img\\/uaccess\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 113,
+            "prevalence": 0.000774,
+            "cnames": [],
+            "responseHashes": [
+                "a8736570a64359b53f2fb2cbf5b180e97d87548a208fa3e931156b11d40dc491"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.columbiastate.edu",
+                "www.cacklehatchery.com",
+                "www.chabotcollege.edu",
+                "www.siskiyoucounty.gov",
+                "www.discoverboating.com",
+                "sfrecpark.org",
+                "www.coweta.ga.us",
+                "www.garfieldcountyco.gov",
+                "www.uakron.edu",
+                "www.fuquay-varina.org",
+                "flcancer.com",
+                "www.stmarytx.edu",
+                "www.fortbendcountytx.gov",
+                "www.queencreekaz.gov",
+                "www.lovgov.org",
+                "www.nrhtx.com",
+                "www.greenvillesc.gov",
+                "www.mywaltonfl.gov",
+                "www.princetonnj.gov",
+                "www.steris.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/assets\\/img\\/default-spinner\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 116,
+            "prevalence": 0.000795,
+            "cnames": [],
+            "responseHashes": [
+                "ab724be76a60db20138ba8a49c4e69517e49404a9a0594b3e8923fafce7f89c1"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "polkclerkfl.gov",
+                "www.palmcoast.gov",
+                "www.nyecountynv.gov",
+                "www.cincinnatistate.edu",
+                "www.advancedradiology.com",
+                "www.gilbertaz.gov",
+                "www.palomar.edu",
+                "www.fayettevillenc.gov",
+                "lincolncountync.gov",
+                "www.garfieldcountyco.gov",
+                "www.gjcity.org",
+                "www.cumberlandcountypa.gov",
+                "www.orangecountyscu.org",
+                "yorkcountypa.gov",
+                "www.cityoflagunaniguel.org",
+                "www.starkstate.edu",
+                "www.auburnwa.gov",
+                "www.chabotcollege.edu",
+                "www.pointloma.edu",
+                "www.santacruz.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/g_-zzIvDhji8RdvpWemq2A\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "2540f9df450c780ebdc811e6e592c6b0b7e0fe6a24032a261b68291df8fd50c1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "syracuse.edu",
+                "experience.syracuse.edu",
+                "www.syracuse.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/G98XI9WyVuNOTjDxOORC8g\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "31ec1860dece5293304b95ad896788a45b6afbdf76cef8778c2f63924403eeea"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cuyahogacounty.gov",
+                "www.cuyahogacounty.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/ofEPD365EmM1QHE7Efnq-w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ri.gov",
+                "dem.ri.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/fFIFze9Nywafd52bmzkvkQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ri.gov",
+                "dmv.ri.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/tool\\/javascripts\\/monsido\\.js",
+            "cookies": 0.000137,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Date.prototype.getTime": 27,
+                "Document.cookie getter": 20,
+                "Document.cookie setter": 20,
+                "Screen.prototype.width": 19,
+                "Screen.prototype.height": 19,
+                "PerformanceTiming.prototype.navigationStart": 19
+            },
+            "sites": 32,
+            "prevalence": 0.000219,
+            "cnames": [],
+            "responseHashes": [
+                "903c8202294497d472a14a3baa40ad52de4147df4ccf2900f58cad30c5f6862e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "monsido": {
+                    "ttl": 2592002,
+                    "length": 16,
+                    "prevalence": 0.00013699286952114143,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "www.orlando.gov",
+                "www.calpers.ca.gov",
+                "www.citrusclerk.org",
+                "www.sydney.com",
+                "www.swfwmd.state.fl.us",
+                "www.wgtn.ac.nz",
+                "www.bankofcolorado.com",
+                "www.volusia.org",
+                "www.centralbank.com",
+                "www.aspensnowmass.com",
+                "floridadep.gov",
+                "www.bexar.org",
+                "www.colliervotes.gov",
+                "www.azoresairlines.pt",
+                "ocean-prime.com",
+                "immi.homeaffairs.gov.au",
+                "www.stjohns.k12.fl.us",
+                "www.pinnbank.com",
+                "www.betterhealth.vic.gov.au",
+                "oregonstate.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/gOR9u-St-HDLrPrxmOr2Gw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ohio.gov",
+                "unemployment.ohio.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/DQOjmr_cMIep6QbeFUBYJA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "13e14be07af59a9e73aaa1b73170f6146787b89a684d7a2c5bac1f83b02b7da5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knoxcounty.org",
+                "www.knoxcounty.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/assets\\/img\\/accessible-icon-brands\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [
+                "0d39da90a45fe72bb8b620d5a9737bcea98192221cff2397f8b14d0f5808a311"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "knoxcounty.org",
+                "www.cumberlandcountync.gov",
+                "www.knoxcounty.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/OERujazg80_8sZ_jpqvCuQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ae0928e6fba3ecf09ad621e49c5aad46f96313bf986bc9af6953fdcfd7785828"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "friscoisd.org",
+                "www.friscoisd.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/0PlvMIlNxuQzsdK0FvDuhw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b918489956837b6581dd70aa80cc04ab6da70ce28b9d5f5898741a2c5017079b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "arlingtonva.us",
+                "www.arlingtonva.us"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/images\\/dark-monsido-logo\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "421beae77aeb3631f9e9cadf1d0ed5222cd5091b668209241b17f78e70e09878"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "bostonplans.org",
+                "www.rowancountync.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/UOTEIv0wLyfpzEasQOqwbw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buckscounty.gov",
+                "www.buckscounty.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/xsK5IvmYUT63xkp039TTjA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d1216179ae2a55c469c3e30bb9623c72d0fd0da3bc277a54c9420b479dcac1c5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "charlottenc.gov",
+                "www.charlottenc.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/ymljWJ0QDovnCBHB_rKmzg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "01e17192b1e9ddba1abc5b932d6fa27d79950329df2dd5490e8c9a00f6327143"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "chesterfield.gov",
+                "www.chesterfield.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/nF0_FwLh7A6xLjVGVwU0kA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a9a8ced8da339f212fafb7c7950ebe5d433d3482c18a3cc09d7099e56c2ecfd9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "cityofchesapeake.net",
+                "www.cityofchesapeake.net"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/p_Mo869xuliEnEcUuJuj-g\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "5e08da522feb83c3e9fb73c81450c94d57c93b7c763d85663625c965c419807a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "clevelandohio.gov",
+                "www.clevelandohio.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/xO4rh5WbSxWfFcKza-3fIQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "92867ff23ec6ea365d5cff1db3e947c1874338ff71b79d5efd78bd469c6b51db"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "dorchestercountysc.gov",
+                "www.dorchestercountysc.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/jHjGdOl4autiygwDiEMeRg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "3fb99b051e4c843345e60ac2081de76f2cf8c57854eab220f03e3b242bb75ec6"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "durhamnc.gov",
+                "www.durhamnc.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/Wmu1g_scrgiRkFPiT7R7cA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bf1e9e5f257d685144c709f07116c36b6e19793ad8c38bc475ec92bb393d6ee8"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "duvalelections.gov",
+                "www.duvalelections.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/17dqAUyhRKXhDuhO-fvT3w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d421076deea400697aff73f52b204b14efef4840dc680ca6e8fc2da5ce1ab0a5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ecommunity.com",
+                "www.ecommunity.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/RKREj9EtGw2gToj3DEoTRA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d2f268df4baf3ce75e4c73e7a997163b84a63af900d7b47705a90cae328198cc"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gilbertaz.gov",
+                "www.gilbertaz.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/9IkoSSni8THNw73ff8hnhw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "270f82ee7d51af349109b0fc82eee14d1d7dbbccd45227cb3ad16cf46854ae7a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "gjcity.org",
+                "www.gjcity.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/B5MsptFG565GV1HXDMP98g\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec49a049a1bf279dbef5deb234f258c49e348c41c82aed06ff9b26f61acddb6d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "greenvillesc.gov",
+                "www.greenvillesc.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/Ex5hswrLwgEiuDZ4lIVnXQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "228fc08f3d7c0598e011b5c3c4b8421d2346705d1586ffeb8607999f31005661"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ne.gov",
+                "www.lancaster.ne.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/gQgpx4q1NPEYxJGOrD6CHg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "f44f37365306783bc0d48899f240982c420160f016f8049fdd479b215ef907ed"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "leeclerk.org",
+                "www.leeclerk.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/0AlEq5NnU0gWtqTegGqQSQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7c83408b4d0b93127b8fe7e604238f035444d54880a131eca3b3cb451e6e2eb1"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "lovgov.org",
+                "www.lovgov.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/Vsd_go0EoGsMsG7V9_sKXg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ed1405c1bec832ee5e2f00738bdab7ce40b74189e77549cd482d077ac4f9dedf"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "massport.com",
+                "www.massport.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/fgGtOi_kOy98rYAIfCo5pg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "302a185f773d91be7fc9241c5f4611c5ce8c372df2c7fed60e9f03e97b5e874c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mckinneytexas.org",
+                "www.mckinneytexas.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/ZZ4PYpgtYAfeL6QT-f0s8w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "c26bd110f8cda651493dd5dda5bd4f55bd9441c9632f90b32fbc57707a868d54"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "mesaaz.gov",
+                "www.mesaaz.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/xskHf53kLmWi7-uELZtzkA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "545ea35658006e1a57c82cdba57b34d697460add49c2ef577c8bc4f8950eeac5"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "munsonhealthcare.org",
+                "www.munsonhealthcare.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/assets\\/img\\/uaccess-dark\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a8736570a64359b53f2fb2cbf5b180e97d87548a208fa3e931156b11d40dc491"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narragansettri.gov",
+                "www.ut.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/page-assist\\/v2\\/assets\\/img\\/dark-spinner\\.png",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "2a4c25ec43d6fed692283340afa5c41f88afc32361b16740f22e6ac21527687f"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "narragansettri.gov",
+                "www.ut.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/dqwM4mF3GJsxuLtKx4qEkg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a607de352c1f31c8ebeec3164ec5ada6f4977a4e89d7625a001d1aa732e02f97"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "norfolk.gov",
+                "www.norfolk.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/bjjArkLNR6_31WLG-7Vwsw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "orangecountync.gov",
+                "www.orangecountync.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/Ei-jedZpGkFHU0seC9dA-w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9d441296eeb20ebff25bdca6ecd42ed74b0c37fb49959b28d0bc1b346f3b6c0e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pennstatehealth.org",
+                "www.pennstatehealth.org"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/N8ho7N1A1jKZq2_7bWuQdA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "acf139492fe3db679a559e16fc682e8268912f92266557c3b9d8132a98e45d1c"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "pinal.gov",
+                "www.pinal.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/YgSIi1TNgK668Y96ht9SFQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "b9e6c98c5c6f752902739c96265ea785645a5356b44ac9d62e340f376ae2412a"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "psecu.com",
+                "www.psecu.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/HZlxePV-cvwYpr4qujYisQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "22dbfe740ce586d74e377752da1e67dc0cc75919ed59efb9fdd8d5ebcae43f9b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "saddleback.edu",
+                "www.saddleback.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/gfMHSd2RuOBv18qv2uduDQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sarasotavotes.gov",
+                "www.sarasotavotes.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/duCHnk79Xl44gfbjjP-vtQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "e24c9157f478a787a14660bb5a3bb1115d10ffd5fded0f48e26c081cf7f8de35"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "sfpuc.gov",
+                "www.sfpuc.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/tehN-r_TJ4y49Q9Zls8Lcw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "7cba55e8b38af057e7e91e6dddb6c7ef575ae5cd6a5743c67b31a66d7fb87c5b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ca.gov",
+                "www.slocounty.ca.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/vRTLUyh9Xpvk63399veh2w\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "bd9388d50f5caf8e48c440d37d89720686ed97992baa655c139f2fade4b6618e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "spartanburgregional.com",
+                "www.spartanburgregional.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/WI42gBBWsATzyyeYDgekLw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "424a2b5ba73b52aef97c0f28b49c986440d957cde408efa3325e214744ca3f8d"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "tntech.edu",
+                "www.tntech.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/2eZfYk-mwMx4SMYEqGC9sg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "9374624d013983a6497ede7a012f6de594ac525c96d6e04faf709e9b019f3a71"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ohio.gov",
+                "www.transportation.ohio.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/zaZNU1NhliH9pffOnq1byA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "abddbbb9b8f8f10e75e972f8ddccb21eb3acc11268dfdf3f295f234bb83d4a4e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "texas.gov",
+                "www.twc.texas.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/vt-ukWjCQQS9cb-ZAqlhHA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "unco.edu",
+                "www.unco.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/hzfOftqxgWDeBK9bJmAV1A\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "d6fbf136fd68381362331eb78e11d1a2c85910df7f525d73eed6e2ece2ccff3f"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ut.edu",
+                "www.ut.edu"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/_ltXK0VoMTEtiVWabT8qEw\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6fdb2d1024508014fcafe650e2fb3f1cb9bff2f0ffe22d2dc4402c60c8709c01"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitpensacola.com",
+                "www.visitpensacola.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/WOWBUrbrz6iIRCxplrhsrA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b1326bb379582071b9e87bbe7c186da870076400a32cb7e2ed35f7ff9f1a54e"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "visitutah.com",
+                "www.visitutah.com"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/7WR1lHQoMg5b9_FWsBk7xA\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "0755b086bb0e291eced6f08137d7d079099487c43a4dbb0f33ba45269d63969b"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "votemarion.gov",
+                "www.votemarion.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/vsoMRgqgSd1H7itEDYhfMg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6b951ba45aa7818fcc371ced4796992ded98a23af7bfb2f12875a1ac55767ee3"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "votepalmbeach.gov",
+                "www.votepalmbeach.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/7xUbVKA1UChtNGYrPIC9zg\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "a849a973329c194290c64ea32d74f204f20360afa4bc4df92b81adc1598794c9"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "washingtoncountymn.gov",
+                "www.washingtoncountymn.gov"
+            ]
+        },
+        {
+            "rule": "monsido\\.com\\/v1\\/settings\\/BRFMKUpN4kjTvcXChiwxRQ\\.json",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "heatmaps"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "4a4dbfc84bcc47c6cf89689f1b5ffbbaa3dfb9767dcbc87ec1913328cf77b1ae"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "whatcomcounty.us",
+                "www.whatcomcounty.us"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.00148,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6371986222732492
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.15958668197474168
+        },
+        {
+            "domain": "azure.com",
+            "prevalence": 0.11251435132032148
+        },
+        {
+            "domain": "facebook.net",
+            "prevalence": 0.02066590126291619
+        },
+        {
+            "domain": "appdynamics.com",
+            "prevalence": 0.01722158438576349
+        },
+        {
+            "domain": "osano.com",
+            "prevalence": 0.011481056257175661
+        },
+        {
+            "domain": "dynatrace.com",
+            "prevalence": 0.008036739380022962
+        },
+        {
+            "domain": "transcend-cdn.com",
+            "prevalence": 0.004592422502870264
+        },
+        {
+            "domain": "sc-static.net",
+            "prevalence": 0.004592422502870264
+        },
+        {
+            "domain": "cookielaw.org",
+            "prevalence": 0.003444316877152698
+        }
+    ],
+    "types": {
+        "Script": 966,
+        "Image": 653,
+        "XHR": 97
+    },
+    "nameservers": [
+        "ns-cloud-e3.googledomains.com",
+        "ns-cloud-e4.googledomains.com",
+        "ns-cloud-e1.googledomains.com",
+        "ns-cloud-e2.googledomains.com"
+    ]
+}

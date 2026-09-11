@@ -1,0 +1,104 @@
+{
+    "domain": "activecalendar.com",
+    "owner": {
+        "name": "DudeSolutions, Inc.",
+        "displayName": "DudeSolutions"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000274,
+    "sites": 4,
+    "subdomains": [
+        "go"
+    ],
+    "cnames": [
+        {
+            "original": "calendar.buffalo.edu",
+            "resolved": "go.activecalendar.com"
+        }
+    ],
+    "fingerprinting": 0,
+    "resources": [
+        {
+            "rule": "activecalendar\\.com\\/Scripts\\/core\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 4,
+            "prevalence": 0.0000274,
+            "cnames": [
+                {
+                    "original": "calendar.buffalo.edu",
+                    "resolved": "go.activecalendar.com"
+                }
+            ],
+            "responseHashes": [
+                "c60436ef4fb48395280ca74dcd53b94cfa94a58dcb9299e44802974c31555b3f"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buffalo.edu",
+                "www.buffalo.edu",
+                "www.montgomerycollege.edu",
+                "www.slhn.org"
+            ]
+        },
+        {
+            "rule": "activecalendar\\.com\\/handlers\\/query\\.ashx",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "go"
+            ],
+            "apis": {},
+            "sites": 5,
+            "prevalence": 0.0000342,
+            "cnames": [
+                {
+                    "original": "calendar.buffalo.edu",
+                    "resolved": "go.activecalendar.com"
+                }
+            ],
+            "responseHashes": [
+                "cc81a2469db33da6d40b693c6e1d0b8669ed980d14978aec48fe40a8adff11d4",
+                "1d274a01da5a8e446814f1833b4c64c3d1a0b82e6550918e120a952ad3a87412",
+                "c8eb1c16bd8ccf2668016e3fc959863bd46acbc0d075328e3ebc288b5a69c071",
+                "3c01b342021a15c915bab58cb66f580486a569a15e87d89ecc0fd253d4273e39"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "buffalo.edu",
+                "arts-sciences.buffalo.edu",
+                "www.buffalo.edu",
+                "www.montgomerycollege.edu",
+                "www.slhn.org"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 9
+    },
+    "nameservers": [
+        "ns-363.awsdns-45.com",
+        "ns-931.awsdns-52.net",
+        "ns-1639.awsdns-12.co.uk",
+        "ns-1440.awsdns-52.org"
+    ]
+}

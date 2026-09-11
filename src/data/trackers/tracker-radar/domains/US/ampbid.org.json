@@ -1,0 +1,144 @@
+{
+    "domain": "ampbid.org",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000685,
+    "sites": 10,
+    "subdomains": [
+        "hb",
+        "tag"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "ampbid\\.org\\/openrtb2\\/auction",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "dbff781467be8e0481b3fdf418a4c8ae8f40b076dce8c34413dbbdba81fe954d",
+                "0fef52ab4ee819e5d7e5f6228e64eeda8590fd8cbdd84a56555a716ca421a1cd",
+                "6772b6ef5026994143ab32e27af21416a652dbd5f60defe385ca7d64582e44eb",
+                "e36516e2b2b5f2cd26f1afc5eefcc5004cf5acde622af1eec2c4be75e9b84b11",
+                "9389079b4e0aa7e496d703b42487eea154022fa9038a86785caf1aa1ed13d856"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "road.cc",
+                "singletrackworld.com",
+                "www.footballtransfers.com",
+                "www.gpfans.com",
+                "www.planetrugby.com",
+                "www.ruck.co.uk"
+            ]
+        },
+        {
+            "rule": "ampbid\\.org\\/bid\\/static\\/load-cookie\\.html",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {
+                "Document.cookie getter": 4
+            },
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "1c5f529a82249b240af57ceb7c3fe31c743fff2a99856bd6bd7967f86a6134b6"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "road.cc",
+                "singletrackworld.com",
+                "www.footballtransfers.com",
+                "www.gpfans.com",
+                "www.planetrugby.com",
+                "www.ruck.co.uk"
+            ]
+        },
+        {
+            "rule": "ampbid\\.org\\/cookie_sync",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "hb"
+            ],
+            "apis": {},
+            "sites": 6,
+            "prevalence": 0.0000411,
+            "cnames": [],
+            "responseHashes": [
+                "d4286c01212aa3ef8e677cf4fab7215b38c870b1f4c70171a525ac5cdafba815"
+            ],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "road.cc",
+                "singletrackworld.com",
+                "www.footballtransfers.com",
+                "www.gpfans.com",
+                "www.planetrugby.com",
+                "www.ruck.co.uk"
+            ]
+        },
+        {
+            "rule": "ampbid\\.org\\/cdn-cgi\\/rum",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "tag"
+            ],
+            "apis": {},
+            "sites": 3,
+            "prevalence": 0.0000205,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "XHR",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "singletrackworld.com",
+                "www.footballtransfers.com",
+                "www.gpfans.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "pubtm.com",
+            "prevalence": 0.8695652173913043
+        },
+        {
+            "domain": "cloudflareinsights.com",
+            "prevalence": 0.13043478260869565
+        }
+    ],
+    "types": {
+        "Fetch": 6,
+        "Document": 6,
+        "XHR": 9
+    },
+    "nameservers": [
+        "lara.ns.cloudflare.com",
+        "major.ns.cloudflare.com"
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "domain": "newsbreak.com",
+    "owner": {
+        "name": "Particle Media, Inc.",
+        "displayName": "Particle Media"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000527,
+    "sites": 77,
+    "subdomains": [
+        "static",
+        "id-msp",
+        "business"
+    ],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "newsbreak\\.com\\/business\\/tracking\\/nbpixel\\.js",
+            "cookies": 0.000301,
+            "fingerprinting": 2,
+            "subdomains": [
+                "static"
+            ],
+            "apis": {
+                "Document.cookie getter": 44,
+                "Date.prototype.getTime": 49,
+                "Document.cookie setter": 44,
+                "Screen.prototype.width": 49,
+                "Screen.prototype.height": 49,
+                "window.innerWidth": 49,
+                "window.innerHeight": 49,
+                "Screen.prototype.colorDepth": 49,
+                "Navigator.prototype.userAgent": 49,
+                "Date.prototype.getTimezoneOffset": 49
+            },
+            "sites": 49,
+            "prevalence": 0.000336,
+            "cnames": [],
+            "responseHashes": [
+                "5951f09b08e9d460fdb93aa70e837fd3b104ae00ac6843eb11886093ea86f686"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {
+                "__nbpix_uid": {
+                    "ttl": 63072003,
+                    "length": 32,
+                    "prevalence": 0.0003013843129465111,
+                    "uniqueness": 1
+                }
+            },
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fool.com",
+                "www.networx.com",
+                "iflo.com",
+                "heusom.com",
+                "trysculptique.com",
+                "resilia.shop",
+                "costway.com",
+                "highspeedinternet.com",
+                "www.dietvsdisease.org",
+                "m.reolink.com",
+                "www.cabletv.com",
+                "plateful.co",
+                "popado.net",
+                "store.reolink.com",
+                "humehealth.com",
+                "omniluxled.com",
+                "seranova.com",
+                "www.plateful.co",
+                "naturalcatchtuna.com",
+                "hallow.com"
+            ]
+        },
+        {
+            "rule": "newsbreak\\.com\\/sync-nbu",
+            "cookies": 0.000329,
+            "fingerprinting": 0,
+            "subdomains": [
+                "id-msp"
+            ],
+            "apis": {},
+            "sites": 49,
+            "prevalence": 0.000336,
+            "cnames": [],
+            "responseHashes": [
+                "166a4ec3cb90d525f7f744c7616c01b36bebd6dcecd486c8f5be14ccc0a7b3da"
+            ],
+            "type": "Document",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {
+                "IR_gbd": 0.000027398573904228286,
+                "_li_dcdm_c": 0.00006164679128451365
+            },
+            "exampleSites": [
+                "fool.com",
+                "vevor.com",
+                "costway.com",
+                "plateful.co",
+                "luhxe.com",
+                "iflo.com",
+                "usserviceanimals.org",
+                "www.cabletv.com",
+                "www.twc.health",
+                "collarsandco.com",
+                "myinsurancequote.com",
+                "www.costway.com",
+                "fidelitylife.com",
+                "www.highspeedinternet.com",
+                "www.fool.com",
+                "www.homebuddy.com",
+                "popado.net",
+                "trysculptique.com",
+                "pockethose.com",
+                "smoothspine.com"
+            ]
+        },
+        {
+            "rule": "newsbreak\\.com\\/tracking\\/account-tracking-config",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "business"
+            ],
+            "apis": {},
+            "sites": 49,
+            "prevalence": 0.000336,
+            "cnames": [],
+            "responseHashes": [
+                "060fef02199d84f6e07fa798a17d54a90eb32a42096ab2b442f0b01f8f230143",
+                "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+                "dab6e186dd195098530d74cfc791a95d20f3be5df59b302bee0d6d872fedfb62"
+            ],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fool.com",
+                "trysculptique.com",
+                "hallow.com",
+                "iflo.com",
+                "vevor.com",
+                "m.reolink.com",
+                "plateful.co",
+                "costway.com",
+                "humehealth.com",
+                "smoothspine.com",
+                "www.costway.com",
+                "uprootclean.com",
+                "pockethose.com",
+                "www.homestratosphere.com",
+                "www.plateful.co",
+                "www.homebuddy.com",
+                "luhxe.com",
+                "myinsurancequote.com",
+                "www.cabletv.com",
+                "omniluxled.com"
+            ]
+        },
+        {
+            "rule": "newsbreak\\.com\\/tracking\\/pixelv2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "business"
+            ],
+            "apis": {},
+            "sites": 49,
+            "prevalence": 0.000336,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "fool.com",
+                "checkpeople.com",
+                "www.cabletv.com",
+                "www.homestratosphere.com",
+                "trysculptique.com",
+                "hallow.com",
+                "pockethose.com",
+                "plateful.co",
+                "www.dietvsdisease.org",
+                "www.lightinthebox.com",
+                "myinsurancequote.com",
+                "highspeedinternet.com",
+                "www.reviews.org",
+                "vevor.com",
+                "humehealth.com",
+                "thefleececompany.com",
+                "abrablog.net",
+                "resilia.shop",
+                "www.highspeedinternet.com",
+                "smoothspine.com"
+            ]
+        },
+        {
+            "rule": "newsbreak\\.com\\/tracking\\/pixelv2",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "business"
+            ],
+            "apis": {},
+            "sites": 7,
+            "prevalence": 0.0000479,
+            "cnames": [],
+            "responseHashes": [],
+            "type": "Fetch",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "emmafy.com",
+                "hyggear.com",
+                "mellowsleep.com",
+                "omniluxled.com",
+                "thefleececompany.com",
+                "viasox.com",
+                "www.x-sense.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.000473,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.6845238095238095
+        },
+        {
+            "domain": "googletagmanager.com",
+            "prevalence": 0.19642857142857142
+        },
+        {
+            "domain": "foolcdn.com",
+            "prevalence": 0.047619047619047616
+        },
+        {
+            "domain": "event-observer-collector.js",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "reolink.us",
+            "prevalence": 0.017857142857142856
+        },
+        {
+            "domain": "visually.io",
+            "prevalence": 0.011904761904761904
+        },
+        {
+            "domain": "intelligems.io",
+            "prevalence": 0.011904761904761904
+        },
+        {
+            "domain": "shopify.com",
+            "prevalence": 0.005952380952380952
+        },
+        {
+            "domain": "webcontentassessor.com",
+            "prevalence": 0.005952380952380952
+        }
+    ],
+    "types": {
+        "Script": 49,
+        "Document": 49,
+        "Fetch": 56,
+        "Ping": 49
+    },
+    "nameservers": [
+        "ns-1551.awsdns-01.co.uk",
+        "ns-148.awsdns-18.com",
+        "ns-927.awsdns-51.net",
+        "ns-1031.awsdns-00.org"
+    ]
+}

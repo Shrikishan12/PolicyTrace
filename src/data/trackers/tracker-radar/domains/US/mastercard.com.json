@@ -1,0 +1,99 @@
+{
+    "domain": "mastercard.com",
+    "owner": {
+        "name": "MasterCard International Incorporated",
+        "displayName": "MasterCard"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.00013,
+    "sites": 19,
+    "subdomains": [
+        "src",
+        "www"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "mastercard\\.com\\/srci\\/integration\\/2\\/lib\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "src"
+            ],
+            "apis": {
+                "Navigator.prototype.userAgent": 12,
+                "Navigator.prototype.product": 12
+            },
+            "sites": 12,
+            "prevalence": 0.0000822,
+            "cnames": [],
+            "responseHashes": [
+                "5b9b0a00e922f66ae76f36164cc84cc45f960a091e8656ce3639facb3012f972",
+                "01b005c16ac881b82bb3ab320b79bb40738ec82aad20b26ebba2c3f1253da31d"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ezup.com",
+                "gatehousesupplies.com",
+                "kurufootwear.com",
+                "mizuno.com",
+                "saffordequipment.com",
+                "usa.mizuno.com",
+                "www.discountdance.com",
+                "www.ezup.com",
+                "www.kurufootwear.com",
+                "www.kyleswitchplates.com",
+                "www.mysteryranch.com",
+                "www.thekjvstore.com"
+            ]
+        },
+        {
+            "rule": "mastercard\\.com\\/content\\/dam\\/public\\/brandcenter\\/assets\\/images\\/logos\\/mclogo-for-footer\\.svg",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "www"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "6383b6bf3bcf394eb4fd5592d351b31264341d06bb57472b6a90b3e93a8cb0f2"
+            ],
+            "type": "Image",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "ftf.live",
+                "ftflive.me"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "feroot.com",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 12,
+        "Image": 2
+    },
+    "nameservers": [
+        "a26-66.akam.net",
+        "a1-29.akam.net",
+        "a9-64.akam.net",
+        "a18-64.akam.net",
+        "a7-67.akam.net",
+        "a22-65.akam.net"
+    ]
+}

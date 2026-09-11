@@ -1,0 +1,79 @@
+{
+    "domain": "carbonads.com",
+    "owner": {
+        "name": "BuySellAds",
+        "displayName": "BuySellAds",
+        "privacyPolicy": "https://www.buysellads.com/about/privacy",
+        "url": "http://buysellads.com"
+    },
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.000185,
+    "sites": 27,
+    "subdomains": [
+        "cdn"
+    ],
+    "cnames": [],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "carbonads\\.com\\/carbon\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "cdn"
+            ],
+            "apis": {
+                "Document.cookie getter": 21
+            },
+            "sites": 21,
+            "prevalence": 0.000144,
+            "cnames": [],
+            "responseHashes": [
+                "bc2a8ebdbc919b7ff84652240db81a33e887de6a36c3f28ea84250433f3bfd6c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "octoprint.org",
+                "fontawesome.com",
+                "lucide.dev",
+                "gethomepage.dev",
+                "icons.getbootstrap.com",
+                "notepad-plus-plus.org",
+                "jsitor.com",
+                "getbootstrap.com",
+                "www.emergentmind.com",
+                "vuejs.org",
+                "gridfiti.com",
+                "papersizes.io",
+                "www.explainxkcd.com",
+                "vite.dev",
+                "kottke.org",
+                "send-anywhere.com",
+                "symfony.com",
+                "downforeveryoneorjustme.com",
+                "vitest.dev",
+                "nuxt.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 21
+    },
+    "nameservers": [
+        "dns1.registrar-servers.com",
+        "dns2.registrar-servers.com"
+    ]
+}

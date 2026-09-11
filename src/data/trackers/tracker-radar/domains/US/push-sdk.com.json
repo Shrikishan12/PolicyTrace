@@ -1,0 +1,96 @@
+{
+    "domain": "push-sdk.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000959,
+    "sites": 14,
+    "subdomains": [],
+    "cnames": [],
+    "fingerprinting": 2,
+    "resources": [
+        {
+            "rule": "push-sdk\\.com\\/f\\/sdk\\.js",
+            "cookies": 0,
+            "fingerprinting": 2,
+            "subdomains": [],
+            "apis": {
+                "window.indexedDB": 11,
+                "NavigatorUAData.prototype.getHighEntropyValues": 9,
+                "Notification.permission": 9,
+                "window.localStorage": 9
+            },
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "531bc51f5453a5b9bf0a9876010e358e68c0521eee0be8d2a7cca02824938e9b",
+                "af07b2229b6b888ff0966e944d2e8f2459907b19eb88ccb9e5178a245951ddd0",
+                "1ebc465c815bf25add39c5dcccd3b47679e1a00ff959dc09b884ab97f05f9f17"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waploaded.com",
+                "filmyzilla.pro",
+                "justeo.fr",
+                "philnews.ph",
+                "quenq.com",
+                "storables.com",
+                "terraria-game.com",
+                "thesportsgrail.com",
+                "www.cakesparadise.fr",
+                "www.kotaku.id",
+                "www.oflikeminds.com"
+            ]
+        },
+        {
+            "rule": "push-sdk\\.com\\/event",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [],
+            "apis": {},
+            "sites": 11,
+            "prevalence": 0.0000753,
+            "cnames": [],
+            "responseHashes": [
+                "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            ],
+            "type": "Ping",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "waploaded.com",
+                "filmyzilla.pro",
+                "justeo.fr",
+                "philnews.ph",
+                "quenq.com",
+                "storables.com",
+                "terraria-game.com",
+                "thesportsgrail.com",
+                "www.cakesparadise.fr",
+                "www.kotaku.id",
+                "www.oflikeminds.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 1
+        }
+    ],
+    "types": {
+        "Script": 11,
+        "Ping": 11
+    },
+    "nameservers": [
+        "aspen.ns.cloudflare.com",
+        "braden.ns.cloudflare.com"
+    ]
+}

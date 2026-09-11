@@ -1,0 +1,144 @@
+{
+    "domain": "nimbuspop.com",
+    "owner": {},
+    "source": [
+        "DuckDuckGo-US"
+    ],
+    "prevalence": 0.0000616,
+    "sites": 9,
+    "subdomains": [
+        "zdhcportalcustomization-4241905",
+        "zohopagesense-in"
+    ],
+    "cnames": [
+        {
+            "original": "pagesense-js.zoho.com",
+            "resolved": "nimbuspop.com"
+        }
+    ],
+    "fingerprinting": 1,
+    "resources": [
+        {
+            "rule": "nimbuspop\\.com\\/ZohoCorpHome-June\\.css",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdhcportalcustomization-4241905"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "ec0863bd2c7b5846249333066de6fa4ec5047226037acb4c59c9c41b6b8db435"
+            ],
+            "type": "Stylesheet",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoho.com",
+                "help.zoho.com"
+            ]
+        },
+        {
+            "rule": "nimbuspop\\.com\\/ztmjs\\/c1c28f035cc94f8690ced4c1d5912f5f\\.js",
+            "cookies": 0,
+            "fingerprinting": 1,
+            "subdomains": [
+                "zohopagesense-in"
+            ],
+            "apis": {
+                "Document.cookie getter": 2
+            },
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "77db03cf106e13d709f5dcb0183ec258e7547cf5b7f062f12c93eac9aa473c9e"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoho.com",
+                "help.zoho.com"
+            ]
+        },
+        {
+            "rule": "nimbuspop\\.com\\/customscript3\\.js",
+            "cookies": 0,
+            "fingerprinting": 0,
+            "subdomains": [
+                "zdhcportalcustomization-4241905"
+            ],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [],
+            "responseHashes": [
+                "54600937f70bdcd7b6bf6584ee93dd612ea61c332deb63b1d9e9180539e13352"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoho.com",
+                "help.zoho.com"
+            ]
+        },
+        {
+            "rule": "nimbuspop\\.com\\/ztmjs\\/9e14ca550fb345518206a5a65a40a7a9\\.js",
+            "cookies": 0.0000137,
+            "fingerprinting": 1,
+            "subdomains": [],
+            "apis": {},
+            "sites": 2,
+            "prevalence": 0.0000137,
+            "cnames": [
+                {
+                    "original": "pagesense-js.zoho.com",
+                    "resolved": "nimbuspop.com"
+                }
+            ],
+            "responseHashes": [
+                "1bf08826a4a38ff7ee12104a87d2ee9bad07c8b0041a6013bc522dca2f07dd0c"
+            ],
+            "type": "Script",
+            "firstPartyCookies": {},
+            "firstPartyCookiesSent": {},
+            "exampleSites": [
+                "zoho.com",
+                "www.zoho.com"
+            ]
+        }
+    ],
+    "categories": [],
+    "performance": {},
+    "cookies": 0.0000274,
+    "topInitiators": [
+        {
+            "domain": "first party",
+            "prevalence": 0.9210526315789473
+        },
+        {
+            "domain": "zohowebstatic.com",
+            "prevalence": 0.05263157894736842
+        },
+        {
+            "domain": "zohocdn.com",
+            "prevalence": 0.02631578947368421
+        }
+    ],
+    "types": {
+        "Stylesheet": 2,
+        "Script": 6
+    },
+    "nameservers": [
+        "ns31.constellix.com",
+        "ns41.constellix.net",
+        "ns51.constellix.net",
+        "ns61.constellix.net",
+        "ns11.constellix.com",
+        "ns21.constellix.com"
+    ]
+}
