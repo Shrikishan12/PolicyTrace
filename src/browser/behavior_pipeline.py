@@ -12,7 +12,12 @@ from src.browser.cookie_observer import (
 )
 
 from src.browser.consent import (
-    click_consent
+    click_consent,
+    detect_consent_actions,
+)
+
+from src.browser.tracker_classification import (
+    unique_likely_tracking_domains,
 )
 
 
@@ -186,6 +191,68 @@ def analyze_browser_requests(
         }
 
 
+def summarize_consent_comparison(results):
+    """Compare action states without claiming an action that did not occur."""
+    comparison = {
+        "pre_consent_likely_tracking_domains": (
+            unique_likely_tracking_domains(
+                results.get("pre_consent", {})
+                .get("network", {})
+                .get("third_party_requests", [])
+            )
+        ),
+        "actions": {},
+    }
+
+    for action in ("accept", "reject"):
+        behavior = results.get(action, {})
+        consent = behavior.get("consent", {})
+
+        if not consent.get("clicked"):
+            if consent.get("status") == "not_applicable_no_banner":
+                message = (
+                    "No recognised consent banner was found; this action "
+                    "was not applicable."
+                )
+            else:
+                message = (
+                    f"{action.title()} was not confirmed; no post-{action} "
+                    "privacy conclusion is made."
+                )
+
+            comparison["actions"][action] = {
+                "confirmed": False,
+                "status": consent.get("status", "not_run"),
+                "message": message,
+                "new_likely_tracking_domains": [],
+            }
+            continue
+
+        before_action = behavior.get("network", {}).get(
+            "pre_action_third_party_requests", []
+        )
+        after_action = behavior.get("network", {}).get(
+            "post_action_third_party_requests", []
+        )
+
+        new_domains = sorted(
+            set(unique_likely_tracking_domains(after_action))
+            - set(unique_likely_tracking_domains(before_action))
+        )
+
+        comparison["actions"][action] = {
+            "confirmed": True,
+            "status": "clicked",
+            "message": (
+                f"{action.title()} was clicked; domains below were first "
+                "observed after that action in this browser session."
+            ),
+            "new_likely_tracking_domains": new_domains,
+        }
+
+    return comparison
+
+
 def run_behavior_test(
     website_url,
     action=None,
@@ -252,19 +319,34 @@ def run_behavior_test(
                 )
             )
 
-            consent_clicked = False
+            recognised_actions = detect_consent_actions(page)
+            consent = {
+                "action": action,
+                "clicked": False,
+                "status": (
+                    "not_applicable_no_banner"
+                    if not recognised_actions
+                    else "not_requested"
+                ),
+                "matched_label": None,
+                "recognised_actions": recognised_actions,
+            }
+
+            request_count_after_load = len(requests)
 
             if action in {
                 "accept",
                 "reject"
             }:
 
-                consent_clicked = click_consent(
-                    page,
-                    action
-                )
+                if recognised_actions:
+                    consent = click_consent(
+                        page,
+                        action
+                    )
+                    consent["recognised_actions"] = recognised_actions
 
-                if consent_clicked:
+                if consent["clicked"]:
                     page.wait_for_timeout(
                         5000
                     )
@@ -287,12 +369,25 @@ def run_behavior_test(
                 )
             )
 
+            pre_action_requests = requests[:request_count_after_load]
+            post_action_requests = requests[request_count_after_load:]
+
+            pre_action_analysis = analyze_browser_requests(
+                pre_action_requests,
+                website_url
+            )
+            post_action_analysis = analyze_browser_requests(
+                post_action_requests,
+                website_url
+            )
+
             browser.close()
 
             return {
                 "website_url": website_url,
                 "action": action,
-                "consent_clicked": consent_clicked,
+                "consent_clicked": consent["clicked"],
+                "consent": consent,
 
                 "cookies": {
                     "before": cookies_before,
@@ -316,7 +411,19 @@ def run_behavior_test(
                         browser_requests[
                             "third_party_requests"
                         ]
-                    )
+                    ),
+                    "pre_action_first_party_requests": (
+                        pre_action_analysis["first_party_requests"]
+                    ),
+                    "pre_action_third_party_requests": (
+                        pre_action_analysis["third_party_requests"]
+                    ),
+                    "post_action_first_party_requests": (
+                        post_action_analysis["first_party_requests"]
+                    ),
+                    "post_action_third_party_requests": (
+                        post_action_analysis["third_party_requests"]
+                    ),
                 }
             }
 
@@ -330,6 +437,13 @@ def run_behavior_test(
             "website_url": website_url,
             "action": action,
             "consent_clicked": False,
+            "consent": {
+                "action": action,
+                "clicked": False,
+                "status": "browser_test_failed",
+                "matched_label": None,
+                "recognised_actions": [],
+            },
 
             "cookies": {
                 "before": [],
@@ -341,7 +455,11 @@ def run_behavior_test(
 
             "network": {
                 "first_party_requests": [],
-                "third_party_requests": []
+                "third_party_requests": [],
+                "pre_action_first_party_requests": [],
+                "pre_action_third_party_requests": [],
+                "post_action_first_party_requests": [],
+                "post_action_third_party_requests": [],
             }
         }
 
@@ -376,6 +494,8 @@ def run_all_behavior_tests(
             website_url,
             action="reject"
         )
+
+        results["comparison"] = summarize_consent_comparison(results)
 
         return results
 

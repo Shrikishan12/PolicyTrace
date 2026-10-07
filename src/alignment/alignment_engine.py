@@ -1,5 +1,10 @@
 from urllib.parse import urlparse
 
+from src.browser.tracker_classification import (
+    TRACKING_CATEGORIES,
+    has_fingerprinting_signal,
+)
+
 
 def normalize_domain(domain):
     try:
@@ -103,12 +108,17 @@ def classify_browser_evidence(
                 or []
             )
 
-            evidence["fingerprinting"] = (
-                tracker_info.get("fingerprinting") == 1
+            evidence["fingerprinting"] = has_fingerprinting_signal(
+                tracker_info.get("fingerprinting")
             )
 
+            normalized_categories = {
+                str(category).strip().lower()
+                for category in evidence["tracker_categories"]
+            }
+
             if (
-                evidence["tracker_categories"]
+                normalized_categories.intersection(TRACKING_CATEGORIES)
                 or evidence["fingerprinting"]
             ):
                 evidence["tracking_related"] = True
@@ -642,7 +652,9 @@ if __name__ == "__main__":
 
     behavior_results = run_all_behavior_tests(website_url)
 
-    for state, browser_behavior in behavior_results.items():
+    for state in ("pre_consent", "accept", "reject"):
+
+        browser_behavior = behavior_results.get(state, {})
 
         print("\n")
         print("=" * 60)
@@ -661,7 +673,11 @@ if __name__ == "__main__":
             "Cookies after page load:",
             len(browser_behavior["cookies"]["after_page_load"])
         )
-        print("Consent clicked:", browser_behavior.get("consent_clicked"))
+        consent = browser_behavior.get("consent", {})
+        print("Consent status:", consent.get("status"))
+        print("Consent clicked:", consent.get("clicked"))
+        if consent.get("matched_label"):
+            print("Matched button:", consent.get("matched_label"))
 
         print("\n")
         print("=" * 60)
@@ -670,3 +686,21 @@ if __name__ == "__main__":
 
         findings = align_claims(policy_claims, browser_behavior)
         print_alignment_results(findings)
+
+    comparison = behavior_results.get("comparison", {})
+    print("\n" + "=" * 60)
+    print("CONSENT-STATE COMPARISON")
+    print("=" * 60)
+    print(
+        "Likely tracking domains before consent:",
+        ", ".join(comparison.get("pre_consent_likely_tracking_domains", []))
+        or "None observed",
+    )
+
+    for action, result in comparison.get("actions", {}).items():
+        print(f"\n{action.upper()}: {result.get('message')}")
+        domains = result.get("new_likely_tracking_domains", [])
+        print(
+            "New likely tracking domains after action:",
+            ", ".join(domains) or "None observed",
+        )
