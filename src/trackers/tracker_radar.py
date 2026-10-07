@@ -6,9 +6,17 @@ import tldextract
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 
+# Use the bundled suffix list so lookup works offline and does not need to
+# write a cache inside the virtual environment.
+DOMAIN_EXTRACTOR = tldextract.TLDExtract(
+    suffix_list_urls=(),
+    cache_dir=None,
+)
+
 
 TRACKER_RADAR_DIR = (
     BASE_DIR
+    / "src"
     / "data"
     / "trackers"
     / "tracker-radar"
@@ -19,7 +27,7 @@ TRACKER_RADAR_DIR = (
 
 def get_registered_domain(hostname):
     try:
-        extracted = tldextract.extract(hostname)
+        extracted = DOMAIN_EXTRACTOR(hostname)
 
         if not extracted.domain or not extracted.suffix:
             return None

@@ -577,7 +577,7 @@ def print_alignment_results(findings):
 if __name__ == "__main__":
 
     from src.policy.pipeline import analyze_website_policy
-    from src.browser.behavior_pipeline import run_behavior_test
+    from src.browser.behavior_pipeline import run_all_behavior_tests
     website_url = "https://vtpoddar.com"
 
     print("\n")
@@ -640,54 +640,33 @@ if __name__ == "__main__":
     print("BROWSER BEHAVIOR")
     print("=" * 60)
 
-    browser_behavior = run_behavior_test(
-        website_url
-    )
+    behavior_results = run_all_behavior_tests(website_url)
 
-    print(
-        "\nFirst-party requests:",
-        len(
-            browser_behavior["network"][
-                "first_party_requests"
-            ]
+    for state, browser_behavior in behavior_results.items():
+
+        print("\n")
+        print("=" * 60)
+        print(f"BROWSER BEHAVIOR: {state.upper()}")
+        print("=" * 60)
+
+        print(
+            "First-party requests:",
+            len(browser_behavior["network"]["first_party_requests"])
         )
-    )
-
-    print(
-        "Third-party requests:",
-        len(
-            browser_behavior["network"][
-                "third_party_requests"
-            ]
+        print(
+            "Third-party requests:",
+            len(browser_behavior["network"]["third_party_requests"])
         )
-    )
-
-    print(
-        "Cookies after page load:",
-        len(
-            browser_behavior["cookies"][
-                "after_page_load"
-            ]
+        print(
+            "Cookies after page load:",
+            len(browser_behavior["cookies"]["after_page_load"])
         )
-    )
+        print("Consent clicked:", browser_behavior.get("consent_clicked"))
 
-    print(
-        "Consent clicked:",
-        browser_behavior.get(
-            "consent_clicked"
-        )
-    )
+        print("\n")
+        print("=" * 60)
+        print(f"ALIGNMENT: {state.upper()}")
+        print("=" * 60)
 
-    print("\n")
-    print("=" * 60)
-    print("ALIGNMENT")
-    print("=" * 60)
-
-    findings = align_claims(
-        policy_claims,
-        browser_behavior
-    )
-
-    print_alignment_results(
-        findings
-    )
+        findings = align_claims(policy_claims, browser_behavior)
+        print_alignment_results(findings)

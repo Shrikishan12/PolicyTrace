@@ -1,5 +1,7 @@
 from urllib.parse import urlparse
 
+import tldextract
+
 from src.trackers.tracker_radar import (
     lookup_domain
 )
@@ -13,13 +15,20 @@ from src.browser.consent import (
     click_consent
 )
 
+
+# Keep domain classification available when the machine is offline.
+DOMAIN_EXTRACTOR = tldextract.TLDExtract(
+    suffix_list_urls=(),
+    cache_dir=None,
+)
+
 def get_website_domain(website_url):
     try:
         parsed_url = urlparse(
             website_url
         )
 
-        return parsed_url.netloc.lower()
+        return parsed_url.hostname.lower()
 
     except Exception as ex:
         print(
@@ -39,11 +48,18 @@ def is_first_party(
         if not website_domain:
             return False
 
+        request_registered = DOMAIN_EXTRACTOR(request_domain)
+        website_registered = DOMAIN_EXTRACTOR(website_domain)
+
+        if not request_registered.domain or not request_registered.suffix:
+            return False
+
+        if not website_registered.domain or not website_registered.suffix:
+            return False
+
         return (
-            request_domain == website_domain
-            or request_domain.endswith(
-                "." + website_domain
-            )
+            request_registered.domain == website_registered.domain
+            and request_registered.suffix == website_registered.suffix
         )
 
     except Exception as ex:
@@ -172,7 +188,8 @@ def analyze_browser_requests(
 
 def run_behavior_test(
     website_url,
-    action=None
+    action=None,
+    headless=False,
 ):
     try:
         from playwright.sync_api import sync_playwright
@@ -183,7 +200,7 @@ def run_behavior_test(
         with sync_playwright() as p:
 
             browser = p.chromium.launch(
-                headless=False
+                headless=headless
             )
 
             context = browser.new_context()
@@ -338,7 +355,7 @@ def run_all_behavior_tests(
         print("BASELINE TEST")
         print("==============================")
 
-        results["baseline"] = run_behavior_test(
+        results["pre_consent"] = run_behavior_test(
             website_url
         )
 
