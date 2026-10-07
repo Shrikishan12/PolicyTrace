@@ -1,5 +1,6 @@
 from urllib.parse import urlparse
 
+from src.browser import consent
 from src.browser.tracker_classification import (
     TRACKING_CATEGORIES,
     has_fingerprinting_signal,
@@ -287,13 +288,9 @@ def analyze_claim(
                     }
 
                 if condition:
-
-                    consent_clicked = (
-                        browser_behavior.get(
-                            "consent_clicked",
-                            False
-                        )
-                    )
+                    consent = browser_behavior.get("consent", {})
+                    consent_clicked = consent.get("clicked", False)
+                    
 
                     if not consent_clicked:
 
@@ -583,12 +580,12 @@ def print_alignment_results(findings):
             f"[ERROR] Could not print alignment results: {ex}"
         )
 
-
 if __name__ == "__main__":
 
     from src.policy.pipeline import analyze_website_policy
     from src.browser.behavior_pipeline import run_all_behavior_tests
-    website_url = "https://vtpoddar.com"
+
+    website_url = "https://vtpoddar.ai"
 
     print("\n")
     print("=" * 60)
@@ -606,55 +603,66 @@ if __name__ == "__main__":
 
     print(
         "\nPrivacy Policy:",
-        policy_result.get(
-            "privacy_policy_url"
-        )
+        policy_result.get("privacy_policy_url")
     )
 
     print(
-        "\nFinal Policy Claims:",
+        "\nNormalized Policy Claims:",
         len(policy_claims)
     )
 
+    # Print claims ONLY
     for index, claim in enumerate(
         policy_claims,
         start=1
     ):
-
         print(
             f"\nClaim {index}:"
         )
 
         print(
-            f"  Action      : {claim.get('action')}"
+            f"  Policy statement: {claim.get('sentence')}"
         )
 
         print(
-            f"  Polarity    : {claim.get('polarity')}"
+            f"  Action          : {claim.get('action')}"
         )
 
         print(
-            f"  Data object : {claim.get('data_object')}"
+            f"  Polarity        : {claim.get('polarity')}"
         )
 
         print(
-            f"  Condition   : {claim.get('condition')}"
+            f"  Data object     : {claim.get('data_object')}"
         )
 
         print(
-            f"  Entity      : {claim.get('entity')}"
+            f"  Condition       : {claim.get('condition')}"
         )
+
+        print(
+            f"  Entity          : {claim.get('entity')}"
+        )
+
+    # ------------------------------------------
+    # BROWSER BEHAVIOR
+    # ------------------------------------------
 
     print("\n")
     print("=" * 60)
     print("BROWSER BEHAVIOR")
     print("=" * 60)
 
-    behavior_results = run_all_behavior_tests(website_url)
+    behavior_results = run_all_behavior_tests(
+        website_url
+    )
 
     for state in ("pre_consent", "accept", "reject"):
 
-        browser_behavior = behavior_results.get(state, {})
+        browser_behavior = behavior_results.get(
+            state,
+            {}
+        )
 
         print("\n")
         print("=" * 60)
@@ -663,43 +671,101 @@ if __name__ == "__main__":
 
         print(
             "First-party requests:",
-            len(browser_behavior["network"]["first_party_requests"])
+            len(
+                browser_behavior["network"]["first_party_requests"]
+            )
         )
+
         print(
             "Third-party requests:",
-            len(browser_behavior["network"]["third_party_requests"])
+            len(
+                browser_behavior["network"]["third_party_requests"]
+            )
         )
+
         print(
             "Cookies after page load:",
-            len(browser_behavior["cookies"]["after_page_load"])
+            len(
+                browser_behavior["cookies"]["after_page_load"]
+            )
         )
-        consent = browser_behavior.get("consent", {})
-        print("Consent status:", consent.get("status"))
-        print("Consent clicked:", consent.get("clicked"))
+
+        consent = browser_behavior.get(
+            "consent",
+            {}
+        )
+
+        print(
+            "Consent status:",
+            consent.get("status")
+        )
+
+        print(
+            "Consent clicked:",
+            consent.get("clicked")
+        )
+
         if consent.get("matched_label"):
-            print("Matched button:", consent.get("matched_label"))
+            print(
+                "Matched button:",
+                consent.get("matched_label")
+            )
+
+        # ------------------------------------------
+        # ALIGNMENT
+        # ------------------------------------------
 
         print("\n")
         print("=" * 60)
         print(f"ALIGNMENT: {state.upper()}")
         print("=" * 60)
 
-        findings = align_claims(policy_claims, browser_behavior)
-        print_alignment_results(findings)
+        findings = align_claims(
+            policy_claims,
+            browser_behavior
+        )
 
-    comparison = behavior_results.get("comparison", {})
+        print_alignment_results(
+            findings
+        )
+
+    # ------------------------------------------
+    # CONSENT-STATE COMPARISON
+    # ------------------------------------------
+
+    comparison = behavior_results.get(
+        "comparison",
+        {}
+    )
+
     print("\n" + "=" * 60)
     print("CONSENT-STATE COMPARISON")
     print("=" * 60)
+
     print(
         "Likely tracking domains before consent:",
-        ", ".join(comparison.get("pre_consent_likely_tracking_domains", []))
-        or "None observed",
+        ", ".join(
+            comparison.get(
+                "pre_consent_likely_tracking_domains",
+                []
+            )
+        ) or "None observed",
     )
 
-    for action, result in comparison.get("actions", {}).items():
-        print(f"\n{action.upper()}: {result.get('message')}")
-        domains = result.get("new_likely_tracking_domains", [])
+    for action, result in comparison.get(
+        "actions",
+        {}
+    ).items():
+
+        print(
+            f"\n{action.upper()}: {result.get('message')}"
+        )
+
+        domains = result.get(
+            "new_likely_tracking_domains",
+            []
+        )
+
         print(
             "New likely tracking domains after action:",
             ", ".join(domains) or "None observed",
